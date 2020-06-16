@@ -58,10 +58,11 @@ def prod41(fte, prod):
     df_total = pd.read_csv(fte + 'TransaccionesBipTotal.csv')
     df_total.to_csv(prod + 'BIPTotal_std.csv', index=False)
 
+
 def prod42(fte, prod):
     df = pd.read_csv(fte)
     #print(df.to_string())
-    df.to_csv(prod + 'ViajesComunas_std.csv')
+    df.to_csv(prod + 'ViajesComunas_std.csv', index=False)
 
 
 if __name__ == '__main__':
