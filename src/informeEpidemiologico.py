@@ -386,7 +386,7 @@ if __name__ == '__main__':
     prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
-    #exec(open('bulk_producto2.py').read())
+    exec(open('bulk_producto2.py').read())
 
     print('Generando producto 15')
     prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
