@@ -386,7 +386,7 @@ if __name__ == '__main__':
     prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
-    exec(open('bulk_producto2.py').read())
+    #exec(open('bulk_producto2.py').read())
 
     print('Generando producto 15')
     prod15Nuevo('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
@@ -420,4 +420,4 @@ if __name__ == '__main__':
     prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv', '../output/producto38/CasosFallecidosPorComuna')
 
     print('Generando producto 39')
-    prod39Nuevo('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
+    prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
