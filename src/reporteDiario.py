@@ -324,13 +324,26 @@ def prod3_13_14_26_27(fte):
     casosNuevosSinSintomas_T = casosNuevosSinSintomas.transpose()
 
     #### PRODUCTO 3
-    cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
-    cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
+
+    TotalesNacionalesPorRegion = pd.concat([cumulativoCasosTotales,cumulativoCasosNuevos,casosNuevosConSintomas,
+                     casosNuevosSinSintomas,cumulativoFallecidos],axis=0) 
+    TotalesNacionalesPorRegion_T = TotalesNacionalesPorRegion.transpose()
+
+    TotalesNacionalesPorRegion.to_csv('../output/producto3/TotalesNacionalesPorRegion.csv', index=False)
+    TotalesNacionalesPorRegion_T.to_csv('../output/producto3/TotalesNacionalesPorRegion_T.csv', header=False)
+    #cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
+    #cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
     identifiers = ['Region']
-    variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
-    df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    #variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
+    #df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    #                 value_name='Total')
+    #df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
+
+    variables = [x for x in TotalesNacionalesPorRegion.columns if x not in identifiers]
+    df_std = pd.melt(TotalesNacionalesPorRegion, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Total')
-    df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
+    df_std.to_csv('../output/producto3/TotalesNacionalesPorRegion_std.csv', index=False)
+
 
     #### PRODUCTO 13
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
