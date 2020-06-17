@@ -335,16 +335,16 @@ def prod3_13_14_26_27(fte):
         temp = pd.DataFrame.copy(frames[i])
         temp.insert(1,'Categoria',list)
 
-        if i == 0: TotalesNacionalesPorRegion = temp
+        if i == 0: TotalesPorRegion = temp
         if i > 0:
-            TotalesNacionalesPorRegion = pd.concat([TotalesNacionalesPorRegion,temp],axis=0)
+            TotalesPorRegion = pd.concat([TotalesPorRegion,temp],axis=0)
 
 
-    TotalesNacionalesPorRegion = TotalesNacionalesPorRegion.fillna('')
-    TotalesNacionalesPorRegion_T = TotalesNacionalesPorRegion.transpose()
+    TotalesPorRegion = TotalesPorRegion.fillna('')
+    TotalesPorRegion_T = TotalesPorRegion.transpose()
 
-    TotalesNacionalesPorRegion.to_csv('../output/producto3/TotalesNacionalesPorRegion.csv', index=False)
-    TotalesNacionalesPorRegion_T.to_csv('../output/producto3/TotalesNacionalesPorRegion_T.csv', header=False)
+    TotalesPorRegion.to_csv('../output/producto3/TotalesPorRegion.csv', index=False)
+    TotalesPorRegion_T.to_csv('../output/producto3/TotalesPorRegion_T.csv', header=False)
     #cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
     #cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
     identifiers = ['Region','Categoria']
@@ -353,10 +353,10 @@ def prod3_13_14_26_27(fte):
     #                 value_name='Total')
     #df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
 
-    variables = [x for x in TotalesNacionalesPorRegion.columns if x not in identifiers]
-    df_std = pd.melt(TotalesNacionalesPorRegion, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    variables = [x for x in TotalesPorRegion.columns if x not in identifiers]
+    df_std = pd.melt(TotalesPorRegion, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Total')
-    df_std.to_csv('../output/producto3/TotalesNacionalesPorRegion_std.csv', index=False)
+    df_std.to_csv('../output/producto3/TotalesPorRegion_std.csv', index=False)
 
 
     #### PRODUCTO 13
