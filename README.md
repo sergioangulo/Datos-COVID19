@@ -90,7 +90,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 [Data Product 42 - Viajes diarios por comuna en transporte público](output/producto42): Este producto da cuenta de la cantidad de viajes por comuna en transporte público. Los datos son provistos por el Directorio de Transporte Público Metropolitano en trabajo conjunto con el Instituto de Sistemas Complejos de Ingeniería [Ver más](output/producto42)
 
 ## ¿Cómo funciona?
-Tenemos cuatro fuentes de datos: 
+Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
 1. El informe epidemiológico
 1. API del Registro Civil
