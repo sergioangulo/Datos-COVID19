@@ -334,7 +334,6 @@ def prod3_13_14_26_27(fte):
         list = [names[i]]*len(cumulativoCasosTotales)
         temp = pd.DataFrame.copy(frames[i])
         temp.insert(1,'Categoria',list)
-        print(temp)
 
         if i == 0: TotalesNacionalesPorRegion = temp
         if i > 0:
@@ -342,14 +341,13 @@ def prod3_13_14_26_27(fte):
 
 
     TotalesNacionalesPorRegion = TotalesNacionalesPorRegion.fillna('')
-#    print(TotalesNacionalesPorRegion)
     TotalesNacionalesPorRegion_T = TotalesNacionalesPorRegion.transpose()
 
     TotalesNacionalesPorRegion.to_csv('../output/producto3/TotalesNacionalesPorRegion.csv', index=False)
     TotalesNacionalesPorRegion_T.to_csv('../output/producto3/TotalesNacionalesPorRegion_T.csv', header=False)
     #cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
     #cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
-    identifiers = ['Region']
+    identifiers = ['Region','Categoria']
     #variables = [x for x in cumulativoCasosTotales.columns if x not in identifiers]
     #df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
     #                 value_name='Total')
