@@ -90,7 +90,15 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 [Data Product 42 - Viajes diarios por comuna en transporte público](output/producto42): Este producto da cuenta de la cantidad de viajes por comuna en transporte público. Los datos son provistos por el Directorio de Transporte Público Metropolitano en trabajo conjunto con el Instituto de Sistemas Complejos de Ingeniería [Ver más](output/producto42)
 
 ## ¿Cómo funciona?
-Tenemos cuatro fuentes de datos: el reporte diario, informe epidemiológico, informe de situación covid19 y la pagina web del MINSAL.
+Tenemos las siguientes fuentes de datos: 
+1. El reporte diario
+1. El informe epidemiológico
+1. API del Registro Civil
+1. Contribuciones de geojsons: Pull requests de  Soporta Ltda. e ISCI.
+1. Datos de movilidad de UDD
+1. Datos del Ministerio de Transporte
+1. Datos del Ministerio del Medio Ambiente
+
 Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes.
 Cada vez que se actualizan los archivos de entrada, se gatillan las acciones abajo. Si hay fallas, los productos son generados 
 utilizando los mismos scripts, pero manualmente.
@@ -99,15 +107,6 @@ utilizando los mismos scripts, pero manualmente.
    ![Actualiza_productos_de_reporte_diario](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_reporte_diario/badge.svg)
    * [Informe epidemiológico](src/informeEpidemiologico.py) 
    ![Actualiza_productos_de_informe_epidemiologico](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_informe_epidemiologico/badge.svg)
-   * [Informe de situación epidemiológica](src/informeSituacionCOVID19.py)
-   ![Actualiza_productos_de_informe_situacion](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_informe_situacion/badge.svg)
-
-
-En cuanto a los archivos a nivel regional: Hacemos scraping de tabla en https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/ y generamos archivo csv por día.
-   * [Webscraper](src/webpage.py)
-![Actualiza_productos_de_webpage_MINSAL](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_webpage_MINSAL/badge.svg)
-
-Este esta automatizado a ~ 12:00, usando github actions.
 
 
 # Contacto

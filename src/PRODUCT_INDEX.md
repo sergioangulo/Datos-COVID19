@@ -111,3 +111,12 @@
 ## Producto 37
 * Fuente: MinSal + Registro civil
 * Input: [../input/NuevaDefDefunciones/](../input/NuevaDefDefunciones)
+## Producto 38
+* Fuente: Informe Epidemiologico
+* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+## Producto 39
+* Fuente: Informe Epidemiologico
+* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+## Producto 40
+* Fuente: JAC
+* Input: [../input/JAC/](../input/JAC)
