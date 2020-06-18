@@ -219,6 +219,8 @@ def prod3_13_14_26_27(fte):
                                          'Fecha': []})
     casosNuevosSinSintomas = pd.DataFrame({'Region': [],
                                          'Fecha': []})
+    casosNuevosSinNotificar = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -268,6 +270,13 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={'Casos  nuevos  sin  sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
         dataframe.rename(columns={'Casos nuevos sin sintomas* ': 'Casos nuevos sin sintomas'}, inplace=True)
 
+        dataframe.rename(columns={'Casos nuevos sin notificar': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={' Casos nuevos sin notificar': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos  sin  notificar': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={' Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos  sin  notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
             cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
@@ -309,6 +318,13 @@ def prod3_13_14_26_27(fte):
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
 
 
+        if 'Casos nuevos sin notificar' in dataframe.columns:
+            if casosNuevosSinNotificar['Region'].empty:
+                casosNuevosSinNotificar[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin notificar']]
+                casosNuevosSinNotificar.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosNuevosSinNotificar[date] = dataframe['Casos nuevos sin notificar']
+
 
     # estandarizar nombres de regiones
     regionName(cumulativoCasosNuevos)
@@ -316,17 +332,21 @@ def prod3_13_14_26_27(fte):
     regionName(cumulativoFallecidos)
     regionName(casosNuevosConSintomas)
     regionName(casosNuevosSinSintomas)
+    regionName(casosNuevosSinNotificar)
 
     cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
     cumulativoFallecidos_T = cumulativoFallecidos.transpose()
     casosNuevosConSintomas_T = casosNuevosConSintomas.transpose()
     casosNuevosSinSintomas_T = casosNuevosSinSintomas.transpose()
+    casosNuevosSinNotificar_T = casosNuevosSinNotificar.transpose()
 
     #### PRODUCTO 3
 
-    names = ['Casos acumulados','Casos nuevos totales','Casos nuevos con sintomas','Casos nuevos sin sintomas','Fallecidos totales']
-    frames = [cumulativoCasosTotales,cumulativoCasosNuevos,casosNuevosConSintomas,casosNuevosSinSintomas,cumulativoFallecidos]
+    names = ['Casos acumulados','Casos nuevos totales','Casos nuevos con sintomas','Casos nuevos sin sintomas',
+                                'Casos nuevos sin notificar','Fallecidos totales']
+    frames = [cumulativoCasosTotales,cumulativoCasosNuevos,casosNuevosConSintomas,casosNuevosSinSintomas,
+                                casosNuevosSinNotificar,cumulativoFallecidos]
 
 
     for i in range(len(names)):
@@ -492,45 +512,45 @@ if __name__ == '__main__':
 
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
 
-    prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
+    #prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
-    print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27('../output/producto4/')
+    #print('Generando productos 3, 13, 14, 26 y 27')
+    #prod3_13_14_26_27('../output/producto4/')
 
-    print('Generando producto 11')
-    print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
+    #print('Generando producto 11')
+    #print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
     # exec(open('bulk_producto4.py').read())
 
-    print('Generando producto 7')
-    prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
+    #print('Generando producto 7')
+    #prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
 
-    print('Generando producto 8')
-    prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
+    #print('Generando producto 8')
+    #prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
 
-    print('Generando producto 9')
-    prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
+    #print('Generando producto 9')
+    #prod9_10('../input/ReporteDiario/HospitalizadosUCIEtario.csv', '../output/producto9/HospitalizadosUCIEtario')
 
-    print('Generando producto 10')
-    prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
+    #print('Generando producto 10')
+    #prod9_10('../input/ReporteDiario/FallecidosEtario.csv', '../output/producto10/FallecidosEtario')
 
-    print('Generando producto 12')
-    exec(open('bulk_producto7.py').read())
+    #print('Generando producto 12')
+    #exec(open('bulk_producto7.py').read())
 
-    print('Generando producto 17')
+    #print('Generando producto 17')
     # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
-    prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
+    #prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
 
-    print('Generando producto 20')
-    prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
+    #print('Generando producto 20')
+    #prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
 
-    print('Generando producto 23')
-    prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
+    #print('Generando producto 23')
+    #prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
 
-    print('Generando producto 24')
-    prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
+    #print('Generando producto 24')
+    #prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
 
-    print('Generando producto 30')
-    prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
+    #print('Generando producto 30')
+    #prod30('../input/ReporteDiario/PacientesVMI.csv', '../output/producto30/PacientesVMI')
 
-    print('Generando producto 36')
-    prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
+    #print('Generando producto 36')
+    #prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
