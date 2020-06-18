@@ -77,6 +77,7 @@ def prod43_no_header(fte, prod, year='2019'):
             data = data[data[0].notna()]
             #print(data.head().to_string())
             data[0].replace(to_replace=' 00:00:00', value='', inplace=True, regex=True)
+            data[1].replace(to_replace='24:00:00', value='00:00:00', inplace=True, regex=True)
             data[0] = data[0].astype(str)
             data[0] = data[0] + ' ' + data[1]
             #print(data.head().to_string())
