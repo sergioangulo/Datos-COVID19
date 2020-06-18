@@ -139,6 +139,8 @@ def prod5(fte, producto):
     # antes de eso es None
     fecha_de_corte = datetime(2020, 6, 2)
 
+    correccion_2020_06_17 = datetime(2020, 6, 17)
+
     for i in df_output_file.index:
         if i >= fecha_de_corte:
             #print(str(i))
@@ -158,7 +160,23 @@ def prod5(fte, producto):
             #print(i)
             if (i - fourteen_days) in df_output_file.index:
                 #print('14 days ago is on the df')
-                df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - df_output_file.loc[i - fourteen_days, 'Casos totales']
+                df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - \
+                                                                df_output_file.loc[i - fourteen_days, 'Casos totales']
+                if i == correccion_2020_06_17:
+                    # activos de hoy = activos de ayer + casos de hoy - casos (t-14) - muertos hoy .  Les daría 75346 ...
+                    print('Corrigiendo el 2020-06-17')
+                    df_output_file.loc[i, 'Casos activos por FD'] = \
+                        df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD'] +\
+                        df_output_file.loc[i, 'Casos nuevos totales'] -\
+                        df_output_file.loc[i - fourteen_days, 'Casos nuevos totales'] -\
+                        df_output_file.loc[i, 'Fallecidos'] + \
+                        df_output_file.loc[i - timedelta(days=1), 'Fallecidos']
+                    print('Casos activos por FD hoy: ' + str(df_output_file.loc[i, 'Casos activos por FD']))
+                    print('Casos activos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD']))
+                    print('Casoso nuevos totales hoy : ' + str(df_output_file.loc[i, 'Casos nuevos totales']))
+                    print('Casos totales 14 dias atras: ' + str(df_output_file.loc[i - fourteen_days, 'Casos nuevos totales']))
+                    print('Fallecidos hoy: ' + str(df_output_file.loc[i, 'Fallecidos']))
+                    print('Fallecidos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Fallecidos']))
             else:
                 print(str(i) + ' has no data 14 days ago')
                 #df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
@@ -197,7 +215,7 @@ def prod5(fte, producto):
     totales.to_csv(producto, index_label='Fecha')
     totales_t = totales.transpose()
     totales_t.to_csv(producto.replace('.csv', '_T.csv'))
-    print(totales.to_string())
+    #print(totales.to_string())
 
     df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
     #df_std = pd.read_csv(producto.replace('.csv', '_T.csv'))
@@ -274,7 +292,7 @@ def prod3_13_14_26_27(fte):
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
         else:
-            print(dataframe.columns)
+            #print(dataframe.columns)
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
 
