@@ -10,7 +10,7 @@ La comuna corresponde a donde está ubicada la estación.
 
 # Columnas y valores
 
-Cada archivo [CONTAMINANTE]-[20XX].csv contiene las filas  correspondientes al [CONTAMINANTE] medido en la Estación ‘[Nombre de estacion]’. Además, las primeras filas corresponden a ‘Region’, ‘Codigo_Region’, ‘Comuna’, ‘Codigo_Comuna’, 'UTM_Este’ y UTM_Norte’, para luego entregar las fechas y horas de medición. Todos estos valores están separados entre sí por comas (csv).
+Cada archivo [CONTAMINANTE]-[20XX].csv contiene las filas  correspondientes al [CONTAMINANTE] medido en la Estación ‘[Nombre de estacion]’. Además, las primeras filas corresponden a ‘Region’, ‘Codigo Region’, ‘Comuna’, ‘Codigo Comuna’, 'UTM_Este’ y UTM_Norte’, para luego entregar las fechas y horas de medición. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 
