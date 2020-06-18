@@ -1,7 +1,7 @@
 # DP3 - Casos totales por región: Descripción
 Este producto da cuenta de los casos totales diarios confirmados por laboratorio en cada una de las regiones de Chile, según residencia, y concatena la información reportada por el Ministerio de Salud del país. 
 
-Los archivos TotalesPorRegion('.csv', '_T.csv' y '_std.csv') ensamblan las distribuciones regionales de: Casos acumulados, Casos nuevos totales, Casos nuevos con sintomas, Casos nuevos sin sintomas y Fallecidos totales.
+Los archivos TotalesPorRegion('.csv', '_T.csv' y '_std.csv') ensamblan las distribuciones regionales de: Casos acumulados, Casos nuevos totales, Casos nuevos con sintomas, Casos nuevos sin sintomas, Casos nuevos sin notificar y Fallecidos totales.
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
@@ -16,7 +16,8 @@ filas, Distribución:<br/>
 19-34 Distribución de los Casos nuevos totales, fila 35: total de esta distribución<br/>
 36-51 Distribución de los Casos nuevos con sintomas, fila 52: total de esta distribución<br/>
 53-68 Distribución de los Casos nuevos sin sintomas, fila 69: total de esta distribución<br/>
-70-85 Distribución de los Fallecidos totales, fila 86: total de esta distribución<br/>
+70-85 Distribución de los Casos nuevos sin notificar, fila 86: total de esta distribución<br/>
+87-102 Distribución de los Fallecidos totales, fila 103 total de esta distribución<br/>
 
 Cada una de las Categorías son reportadas por el Ministerio de Salud de Chile.
 
