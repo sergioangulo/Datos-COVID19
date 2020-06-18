@@ -58,6 +58,7 @@ def prod41(fte, prod):
     df_total = pd.read_csv(fte + 'TransaccionesBipTotal.csv')
     df_total.to_csv(prod + 'BIPTotal_std.csv', index=False)
 
+
 def prod42(fte, prod):
     df = pd.read_csv(fte)
     #print(df.to_string())

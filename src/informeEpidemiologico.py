@@ -420,4 +420,4 @@ if __name__ == '__main__':
     prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv', '../output/producto38/CasosFallecidosPorComuna')
 
     print('Generando producto 39')
-    prod39Nuevo('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
+    prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
