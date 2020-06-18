@@ -46,6 +46,12 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**18-06-2020**<br>
+- Corrección de nombre de cuarentena ID 78 a Viña del Mar (CUT_COM 5109)
+- Corrección de nombre de cuarentena ID 79 a Valparaíso (CUT_COM 5109)
+- Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 467 del 17 de junio punto 2  (San Felipe, Los Andes, Rancagua, Machalí, Curicó Urbano)
+- Se ajustan fechas de prórroga de cuarentenas en conformidad con punto 1 de la resolución antes mencionada
+
 **12-06-2020**<br> 
 - Cambio de Estado en Cuarentenas Futuras a Activas (9) 
 
