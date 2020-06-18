@@ -237,6 +237,8 @@ def prod3_13_14_26_27(fte):
                                          'Fecha': []})
     casosNuevosSinSintomas = pd.DataFrame({'Region': [],
                                          'Fecha': []})
+    casosNuevosSinNotificar = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -286,6 +288,13 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={'Casos  nuevos  sin  sintomas*': 'Casos nuevos sin sintomas'}, inplace=True)
         dataframe.rename(columns={'Casos nuevos sin sintomas* ': 'Casos nuevos sin sintomas'}, inplace=True)
 
+        dataframe.rename(columns={'Casos nuevos sin notificar': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={' Casos nuevos sin notificar': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos  sin  notificar': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={' Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos  nuevos  sin  notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
             cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
@@ -327,6 +336,13 @@ def prod3_13_14_26_27(fte):
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
 
 
+        if 'Casos nuevos sin notificar' in dataframe.columns:
+            if casosNuevosSinNotificar['Region'].empty:
+                casosNuevosSinNotificar[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin notificar']]
+                casosNuevosSinNotificar.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosNuevosSinNotificar[date] = dataframe['Casos nuevos sin notificar']
+
 
     # estandarizar nombres de regiones
     regionName(cumulativoCasosNuevos)
@@ -334,14 +350,45 @@ def prod3_13_14_26_27(fte):
     regionName(cumulativoFallecidos)
     regionName(casosNuevosConSintomas)
     regionName(casosNuevosSinSintomas)
+    regionName(casosNuevosSinNotificar)
 
     cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
     cumulativoFallecidos_T = cumulativoFallecidos.transpose()
     casosNuevosConSintomas_T = casosNuevosConSintomas.transpose()
     casosNuevosSinSintomas_T = casosNuevosSinSintomas.transpose()
+    casosNuevosSinNotificar_T = casosNuevosSinNotificar.transpose()
 
     #### PRODUCTO 3
+
+    names = ['Casos acumulados','Casos nuevos totales','Casos nuevos con sintomas','Casos nuevos sin sintomas',
+                                'Casos nuevos sin notificar','Fallecidos totales']
+    frames = [cumulativoCasosTotales,cumulativoCasosNuevos,casosNuevosConSintomas,casosNuevosSinSintomas,
+                                casosNuevosSinNotificar,cumulativoFallecidos]
+
+
+    for i in range(len(names)):
+
+        list = [names[i]]*len(cumulativoCasosTotales)
+        temp = pd.DataFrame.copy(frames[i])
+        temp.insert(1,'Categoria',list)
+
+        if i == 0: TotalesPorRegion = temp
+        if i > 0:
+            TotalesPorRegion = pd.concat([TotalesPorRegion,temp],axis=0)
+
+
+    TotalesPorRegion = TotalesPorRegion.fillna('')
+    TotalesPorRegion_T = TotalesPorRegion.transpose()
+
+    TotalesPorRegion.to_csv('../output/producto3/TotalesPorRegion.csv', index=False)
+    TotalesPorRegion_T.to_csv('../output/producto3/TotalesPorRegion_T.csv', header=False)
+    identifiers = ['Region','Categoria']
+    variables = [x for x in TotalesPorRegion.columns if x not in identifiers]
+    df_std = pd.melt(TotalesPorRegion, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Total')
+    df_std.to_csv('../output/producto3/TotalesPorRegion_std.csv', index=False)
+
     cumulativoCasosTotales.to_csv('../output/producto3/CasosTotalesCumulativo.csv', index=False)
     cumulativoCasosTotales_T.to_csv('../output/producto3/CasosTotalesCumulativo_T.csv', header=False)
     identifiers = ['Region']
@@ -349,6 +396,7 @@ def prod3_13_14_26_27(fte):
     df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Total')
     df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
+
 
     #### PRODUCTO 13
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
