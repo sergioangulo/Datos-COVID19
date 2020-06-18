@@ -22,6 +22,6 @@ Esta información es histórica, por lo que no se actualizará.
 
 # Notas Aclaratorias
 
-**Nota Aclaratoria 1**: La información disponible para todo el país es de Material Particulado 2.5 (MP 2.5) y Material particulado 10 (MP 10). El resto de las emisiones solo están disponibles para la Región Metropolitana.
+**Nota Aclaratoria 1**: La información disponible para todo el país es de Material Particulado 2.5 (MP 2.5) y Material particulado 10 (MP 10). El resto de las emisiones (gases) solo están disponibles para la Región Metropolitana y algunas estaciones en regiones.
 
 **Nota Aclaratoria 2**: Los espacios en blanco corresponden a datos invalidados. Las invalidaciones pueden deberse a distintos motivos (falla de equipo, falla de energía, mantención, etc.) y se les asigna el código de invalidación correspondiente (códigos definidos en el artículo 17 del decreto Nº 61, de 2008, del Ministerio de Salud). 
