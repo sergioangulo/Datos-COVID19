@@ -67,8 +67,9 @@ def prod43_no_header(fte, prod, year='2019'):
             #en header boto date y time, por eso el slice cuenta desde la columna 2
             header = df.loc[:last_header_row, :]
             header.at[0, 0] = 'Nombre de estacion'
-            header.at[3, 0] = 'Codigo comuna'
-            header.at[4, 0] = 'Comuna'
+            header.at[2, 0] = 'Codigo region'
+            header.at[3, 0] = 'Comuna'
+            header.at[4, 0] = 'Codigo comuna'
             #print(header.to_string())
 
             # guardamos la data
@@ -77,8 +78,6 @@ def prod43_no_header(fte, prod, year='2019'):
             #print(data.head().to_string())
             data[0].replace(to_replace=' 00:00:00', value='', inplace=True, regex=True)
             data[0] = data[0].astype(str)
-            print(data[0].dtypes)
-            print(data[1].dtypes)
             data[0] = data[0] + ' ' + data[1]
             #print(data.head().to_string())
 
@@ -121,7 +120,7 @@ def prod43_header(fte,prod):
 if __name__ == '__main__':
     history = True
     if history:
-        for i in range(2010, 2019):
+        for i in range(2010, 2020):
             prod43_no_header('../input/MMA/', '../output/producto43/', year=str(i))
 
     else:
