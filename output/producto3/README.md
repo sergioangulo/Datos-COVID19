@@ -37,5 +37,5 @@ Actualización diaria.
 
 **Nota aclaratoria 3:** Previo al 15 de abril de 2020 los reportes del Ministerio de Salud no entregaban datos de confirmados notificados en comunas con bajo número de casos, para proteger la identidad de las personas contagiadas. 
 
-**Nota aclaratoria 4:** Dado que los archivos TotalesPorRegion('.csv', '_T.csv' y '_std.csv') contienen los datos reportados en CasosTotalesCumulativo, este último se deprecará en X semanas.
+**Nota aclaratoria 4:** Dado que los archivos TotalesPorRegion('.csv', '_T.csv' y '_std.csv') contienen los datos reportados en CasosTotalesCumulativo, este último se deprecará en semanas.
 
