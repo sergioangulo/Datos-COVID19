@@ -120,3 +120,12 @@
 ## Producto 40
 * Fuente: JAC
 * Input: [../input/JAC/](../input/JAC)
+## Producto 41
+* Fuente: MTT
+* Input: [../input/MTT/](../input/MTT)
+## Producto 42
+* Fuente: MTT
+* Input: [../input/MTT/](../input/MTT)
+## Producto 43
+* Fuente: MMA
+* Input: [../input/MMA/](../input/MMA)
