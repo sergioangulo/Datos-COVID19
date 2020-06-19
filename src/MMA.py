@@ -34,7 +34,7 @@ import sys
 import glob
 
 
-def prod43_no_header(fte, prod, year='2019'):
+def prod43_no_header(fte, prod, year='2020'):
     print('Generando producto 43')
     particles = ['CO', 'MP2.5', 'MP10', 'NO2', 'O3', 'SO2']
     #particles = ['SO2']
@@ -44,11 +44,11 @@ def prod43_no_header(fte, prod, year='2019'):
         xlsx_file = glob.glob(input_path + '/' + each_particle + '-' + year + '*.xlsx')
         # fail if there's no file or more than one per year
         if len(xlsx_file) > 1:
-            print('Got more than one file for ' + year)
-            return
+            print('Got more than one file for ' + year + ' no processing')
+
         elif len(xlsx_file) == 0:
-            print('No files for ' + year)
-            return
+            print('No files for ' + year + ' no processing')
+
         # otherwise process
         elif len(xlsx_file) == 1:
             print(xlsx_file[0])
@@ -115,7 +115,7 @@ def prod43_header(fte, prod):
     # identificamos donde se acaban los headers para poder concatenar las fechas
 
 if __name__ == '__main__':
-    history = True
+    history = False
     if history:
         for i in range(2010, 2020):
             prod43_no_header('../input/MMA/', '../output/producto43/', year=str(i))
