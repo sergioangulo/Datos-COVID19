@@ -91,7 +91,7 @@ def prod43_no_header(fte, prod, year='2019'):
             df.to_csv(prod + each_particle + '-' + year + '_std.csv', index=False, header=False)
 
 
-def prod43_header(fte,prod):
+def prod43_header(fte, prod):
     print('Reading with headers')
 
     # df = pd.read_excel(xlsx_file[0], header=[0, 1, 2, 3, 4, 5, 6])
