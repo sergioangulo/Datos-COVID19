@@ -24,13 +24,9 @@ SOFTWARE.
 
 '''
 1.- RM, con archivos xlsx, cada uno corresponde a una particula, y el archivo tiene un tab por año.
-2.-SIVICA, con 2 sub directorios:
- 2.1.- meteorologia, con 2 sub directorios:
-     2.1.1.- humedad, con 2 archivos: datos crudos y validados
-     2.1.2.- temperatura, con 2 archivos: datos crudos y validados
- 2.2.- gases para estaciones fuera de santiago
+2.- gases para estaciones fuera de santiago
 Dado el volumen (un dato por hora) y complejidad de los datos, la primera separacion sera por años.
-yo creo que es sensato mantener la separacion entre datos crudos y validados, como un flag o como series separadas.
+
 '''
 
 import pandas as pd
