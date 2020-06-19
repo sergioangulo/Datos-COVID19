@@ -46,6 +46,9 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**19-06-2020**<br>
+- Corrección de delimitación de cuarentena ID 90 (Curicó Urbano) en base a cartografía dispuesta por el Jefe de la Defensa Nacional Región del Maule
+
 **18-06-2020**<br>
 - Corrección de nombre de cuarentena ID 78 a Viña del Mar (CUT_COM 5109)
 - Corrección de nombre de cuarentena ID 79 a Valparaíso (CUT_COM 5101)
