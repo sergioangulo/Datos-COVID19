@@ -89,6 +89,11 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 42 - Viajes diarios por comuna en transporte público](output/producto42): Este producto da cuenta de la cantidad de viajes por comuna en transporte público. Los datos son provistos por el Directorio de Transporte Público Metropolitano en trabajo conjunto con el Instituto de Sistemas Complejos de Ingeniería [Ver más](output/producto42)
 
+[Data Product 43 - Datos históricos de calidad del aire por hora](output/producto43): Descripción
+Cada archivo entrega los datos de la emisión de un contaminante durante un año con frecuencia horaria junto con la información de las estaciones de medición. Existe un archivo para cada contaminante y para cada año, desde el 2010 a a 2019. [Ver más](output/producto43)
+
+
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
