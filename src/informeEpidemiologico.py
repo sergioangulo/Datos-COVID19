@@ -232,6 +232,18 @@ def prod21_22(fte, producto):
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
         df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod21Nuevo(fte, producto):
+
+    df = pd.read_csv(fte)
+    df = df.replace('-', '', regex=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    print('prod21Nuevo')
+    identifiers = ['Sintomas','Hospitalización']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod28(fte, producto):
     print('Generando producto 28')
@@ -402,6 +414,7 @@ if __name__ == '__main__':
     print('Generando producto 21')
     prod21_22('../input/InformeEpidemiologico/SintomasCasosConfirmados.csv', '../output/producto21/SintomasCasosConfirmados')
     prod21_22('../input/InformeEpidemiologico/SintomasHospitalizados.csv', '../output/producto21/SintomasHospitalizados')
+    prod21Nuevo('../input/InformeEpidemiologico/Sintomas.csv', '../output/producto21/Sintomas')
 
     print('Generando producto 22')
     prod21_22('../input/InformeEpidemiologico/HospitalizadosGeneroEtario_Acumulado.csv', '../output/producto22/HospitalizadosEtario_Acumulado')

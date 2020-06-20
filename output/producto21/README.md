@@ -1,11 +1,18 @@
 # DP21 - Sintomas por Casos Confirmados e informado en el último día: Descripción
 Este producto da cuenta de la sintomatología reportada por los casos confirmados. También da cuenta de la sintomatología reportada por casos confirmados que han requerido hospitalización. Se concatena la historia de los informes de Situación Epidemiológica publicados por el Ministerio de Salud del país.
 
+Los archivos Sintomas('.csv', '_T.csv' y '_std.csv') ensamblan la sintomatología de casos sin hospitalización y casos hospitalizados. 
+
+Los archivos SintomasCasosConfirmados('.csv', '_T.csv' y '_std.csv') contienen la información de los archivos 'Sintomas' con categoría 'Hospitalización == NO', mientras que los archivos SintomasHospitalizados('.csv', '_T.csv' y '_std.csv') contienen la sintomatología de los archivos 'Sintomas' con categoría 'Hospitalización == SI'. Estos sets de archivos serán deprecados en 2 semanas. Se mantendrá la información concatenada en los archivos Sintomas('.csv', '_T.csv' y '_std.csv').
+
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
 Se entiende por paciente en hospitalización la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2 que ha sido ingresado en el sistema integrado y reportado por EPIVIGILA.
 
 # Columnas y valores
+
+El archivo Sintomas.csv contienen la columna 'Sintomas' y una serie de columnas '[Fecha]', donde por cada síntoma en una fila se reporta el número acumulado a cada fecha de casos que han reportado dicho síntoma. La sintomatología de los casos que no han requerido hospitalización a la fecha está reflejada entre las filas: 2 - 16 ('Hospitalización == NO'). Mientras que la sintomatología de los casos hospitalizados está reflejada entre las filas 17 - 31 ('Hospitalización == SI').
+
 Los archivos SintomasCasosConfirmados.csv y SintomasHospitalizados.csv tienen una columna 'Síntomas' y una serie de columnas '[Fechas]', donde por cada síntoma en una fila, se reporta el número acumulado a cada fecha de casos confirmados con dicho síntoma (entre casos confirmados y hospitalizados, respectivamente). Cada archivo tiene una versión traspuesta (serie de tiempo) con el sufijo "\_T". Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
