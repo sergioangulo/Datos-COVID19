@@ -46,6 +46,9 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**19-06-2020 rev2**<br>
+- Cambio de Estado en Cuarentenas Futuras a Activas (5) 
+
 **19-06-2020**<br>
 - Corrección de delimitación de cuarentena ID 90 (Curicó Urbano) en base a cartografía dispuesta por el Jefe de la Defensa Nacional Región del Maule
 
