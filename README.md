@@ -77,7 +77,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [Data Product 36 - Residencias Sanitarias](output/producto36): Este producto da cuenta del número de residencias sanitarias informadas por región. Se consideran las categorias: Número de habitaciones totales, Número de usuarios en la residencia y número de residencias habilitadas. Este archivo concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país. [Ver más](output/producto36)
 
-[Data Product 37 - Defunciones por COVID en Chile (provisorio)](output/producto37): Este producto da cuenta del número de fallecidos por día reportados provisoriamente con inscripciones en el registro civil cruzando con la información de los laboratorios de diagnóstico COVID19. Este archivo se va actualizando diariamente y retroactivamente con el progreso de la investigación de cada caso. [Ver más](output/producto37)
+[Data Product 37 - Defunciones por COVID en Chile (provisorio)](output/producto37): Este producto da cuenta del número de fallecidos por día relacionados a COVID19, reportados provisoriamente con a) inscripciones en el registro civil cruzando con la información de los laboratorios de diagnóstico COVID19 y b)Revisados por el DEIS del Ministerio de Salud de Chile. Este archivo se va actualizando diariamente (registro civil), cada 2-3 días (DEIS) y retroactivamente con el progreso de la investigación de cada caso. [Ver más](output/producto37)
 
 [Data Product 38 - Casos fallecidos por comuna](output/producto38): Este producto da cuenta del número de casos fallecidos en cada una de las comunas de Chile según su residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país. [Ver más](output/producto38)
 
