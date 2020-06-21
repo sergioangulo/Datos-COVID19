@@ -79,7 +79,7 @@ def prod37(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
     cols_use = [0,1,2,3]
-    df_full = pd.read_excel('../input/nuevaDefDefunciones/Datos 18062020.xlsx', sheet_name = 'Diario',usecols=cols_use, parse_dates=True)
+    df_full = pd.read_excel('../input/nuevaDefDefunciones/Datos 18062020.xlsx', sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
     df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
@@ -101,7 +101,7 @@ def prod37(fte, producto):
     #print(df_regular.index)
     df_regular.to_csv(producto + '_deis.csv', header=False)
 
-    df_regular = pd.read_csv(producto + '.csv')
+    df_regular = pd.read_csv(producto + '_deis.csv')
     #print(df_regular.to_string())
 
     df_std = pd.melt(df_regular.reset_index(), id_vars='index', value_vars=df_regular.columns)
