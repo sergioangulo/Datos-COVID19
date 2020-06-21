@@ -30,6 +30,7 @@ Los productos que salen del las nuevas definiciones son:
 from utils import *
 import pandas as pd
 import glob
+from datetime import datetime
 
 
 # debe ser como el prod15 historico
@@ -51,7 +52,6 @@ def prod37(fte, producto):
 
     df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
     df_full.iloc[1:, 0] = df_full.iloc[1:, 0].replace(' 00:00:00', '', regex=True)
-    #print(df_full.iloc[1:, 0])
 
     new_header = df_full.iloc[0]  # grab the first row for the header
     df_full = df_full[1:]  # take the data less the header row
@@ -78,18 +78,23 @@ def prod37(fte, producto):
     #print(df_std.to_string())
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod37Nuevo(producto):
+
     cols_use = [0,1,2,3]
     df_full = pd.read_excel('../input/nuevaDefDefunciones/Datos 18062020.xlsx', sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
-    #df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
-    #print(df_full.iloc[0, 1:])
+    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
+    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].replace(' 00:00:00', '', regex=True)
+    #print(df_full2.iloc[0, 1:])
 
     df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
+    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].replace(' 00:00:00', '', regex=True)
 
     new_header = df_full.iloc[0]  # grab the first row for the header
-    df_full = df_full[2:]  # take the data less the header row
+    df_full = df_full[1:]  # take the data less the header row
     df_full.columns = new_header  # set the header row as the df header
+    print(df_full.iloc[0:,0])
 
     #producto T
     #print(df_full.to_string())
@@ -97,13 +102,13 @@ def prod37(fte, producto):
 
     df_regular = df_full.T
     #print(df_regular.to_string())
-    df_regular.rename(index={'Fecha defunción': 'Defunciones deis'}, inplace=True)
+    df_regular.rename(index={'Fecha defunciones': 'Defunciones deis'}, inplace=True)
     #print(df_regular.index)
     df_regular.to_csv(producto + '_deis.csv', header=False)
 
     df_regular = pd.read_csv(producto + '_deis.csv')
     #print(df_regular.to_string())
-    print(df_regular)
+    #print(df_regular)
 
     identifiers = ['Defunciones deis']
     variables = [x for x in df_regular.columns if x not in identifiers]
@@ -154,3 +159,4 @@ def prod37(fte, producto):
 if __name__ == '__main__':
     print('Generando producto 37')
     prod37('../input/NuevaDefDefunciones/', '../output/producto37/Defunciones')
+    prod37Nuevo('../output/producto37/Defunciones')
