@@ -82,7 +82,7 @@ def prod37(fte, producto):
     df_full = pd.read_excel('../input/nuevaDefDefunciones/Datos 18062020.xlsx', sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
-    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
+    #df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
     #print(df_full.iloc[0, 1:])
 
     df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
@@ -104,10 +104,10 @@ def prod37(fte, producto):
     df_regular = pd.read_csv(producto + '_deis.csv')
     #print(df_regular.to_string())
 
-    df_std = pd.melt(df_regular.reset_index(), id_vars='index', value_vars=df_regular.columns)
-    df_std.rename(columns={'index': 'Número', 'value': 'Total'}, inplace=True)
-#    df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-#                     value_name='Defunciones')
+    identifiers = ['Fecha']
+    variables = [x for x in df_regular.columns if x not in identifiers]
+    df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Defunciones')
 
     #print(df_std.to_string())
     df_std.to_csv(producto + '_deis_std.csv', index=False)
