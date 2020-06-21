@@ -41,7 +41,7 @@ from datetime import datetime
 # cada fila es una fecha con las defunciones publicadas para ese dia por serie
 # cada columna es una serie
 def prod37(fte, producto):
-    df_full = pd.read_excel(fte + 'Fallecidos Min Ciencias acumulado.xlsx')
+    df_full = pd.read_excel(fte + ' Min Ciencias acumulado.xlsx')
     
     #convert 1st row as series name: Defunciones_fecha
     df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
@@ -158,5 +158,5 @@ def prod37Nuevo(producto):
 
 if __name__ == '__main__':
     print('Generando producto 37')
-    prod37('../input/NuevaDefDefunciones/', '../output/producto37/Defunciones')
+    prod37('../input/NuevaDefDefunciones/Fallecidos', '../output/producto37/Defunciones')
     prod37Nuevo('../output/producto37/Defunciones')
