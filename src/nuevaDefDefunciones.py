@@ -97,14 +97,15 @@ def prod37(fte, producto):
 
     df_regular = df_full.T
     #print(df_regular.to_string())
-    df_regular.rename(index={'Fecha defunción': 'Fecha'}, inplace=True)
+    df_regular.rename(index={'Fecha defunción': 'Defunciones deis'}, inplace=True)
     #print(df_regular.index)
     df_regular.to_csv(producto + '_deis.csv', header=False)
 
     df_regular = pd.read_csv(producto + '_deis.csv')
     #print(df_regular.to_string())
+    print(df_regular)
 
-    identifiers = ['Fecha']
+    identifiers = ['Defunciones deis']
     variables = [x for x in df_regular.columns if x not in identifiers]
     df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Defunciones')
