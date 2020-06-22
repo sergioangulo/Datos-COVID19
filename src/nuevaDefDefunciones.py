@@ -94,7 +94,6 @@ def prod37Nuevo(producto):
     new_header = df_full.iloc[0]  # grab the first row for the header
     df_full = df_full[1:]  # take the data less the header row
     df_full.columns = new_header  # set the header row as the df header
-    print(df_full.iloc[0:,0])
 
     #producto T
     #print(df_full.to_string())
