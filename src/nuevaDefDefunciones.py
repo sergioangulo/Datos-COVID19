@@ -81,7 +81,7 @@ def prod37(fte, producto):
 def prod37Nuevo(producto):
 
     cols_use = [0,1,2,3]
-    df_full = pd.read_excel('../input/nuevaDefDefunciones/Datos 18062020.xlsx', sheet_name = 'Diario',usecols=cols_use)
+    df_full = pd.read_excel('../input/NuevaDefDefunciones/Datos 18062020.xlsx', sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
     df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
