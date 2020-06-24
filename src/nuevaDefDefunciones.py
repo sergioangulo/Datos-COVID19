@@ -81,7 +81,6 @@ def prod37(fte, producto):
 def prod37Nuevo(fte,producto):
 
     cols_use = [0,1,2,3]
-    print('   HICE UN CAMBIO')
     df_full = pd.read_excel(fte, sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
@@ -159,4 +158,4 @@ def prod37Nuevo(fte,producto):
 if __name__ == '__main__':
     print('Generando producto 37')
     prod37('../input/NuevaDefDefunciones/Fallecidos', '../output/producto37/Defunciones')
-    prod37Nuevo('../input/NuevaDefDefunciones/DATOS' + ' 18062020.xlsx','../output/producto37/Defunciones')
+    prod37Nuevo('../input/NuevaDefDefunciones/DATOS 18062020.xlsx','../output/producto37/Defunciones')
