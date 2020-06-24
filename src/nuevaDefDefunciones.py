@@ -159,4 +159,4 @@ def prod37Nuevo(fte,producto):
 if __name__ == '__main__':
     print('Generando producto 37')
     prod37('../input/NuevaDefDefunciones/Fallecidos', '../output/producto37/Defunciones')
-    prod37Nuevo('../input/NuevaDefDefunciones/Datos' + ' 18062020.xlsx','../output/producto37/Defunciones')
+    prod37Nuevo('../input/NuevaDefDefunciones/DATOS' + ' 18062020.xlsx','../output/producto37/Defunciones')
