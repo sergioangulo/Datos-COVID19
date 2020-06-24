@@ -78,10 +78,11 @@ def prod37(fte, producto):
     #print(df_std.to_string())
     df_std.to_csv(producto + '_std.csv', index=False)
 
-def prod37Nuevo(filename,producto):
+def prod37Nuevo(fte,producto):
 
     cols_use = [0,1,2,3]
-    df_full = pd.read_excel(filename, sheet_name = 'Diario',usecols=cols_use)
+    print('   HICE UN CAMBIO')
+    df_full = pd.read_excel(fte, sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
     df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
@@ -158,4 +159,4 @@ def prod37Nuevo(filename,producto):
 if __name__ == '__main__':
     print('Generando producto 37')
     prod37('../input/NuevaDefDefunciones/Fallecidos', '../output/producto37/Defunciones')
-    prod37Nuevo("../input/NuevaDefDefunciones/Datos 18062020.xlsx",'../output/producto37/Defunciones')
+    prod37Nuevo('../input/NuevaDefDefunciones/Datos' + ' 18062020.xlsx','../output/producto37/Defunciones')
