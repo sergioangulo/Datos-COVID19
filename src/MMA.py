@@ -32,12 +32,13 @@ Dado el volumen (un dato por hora) y complejidad de los datos, la primera separa
 import pandas as pd
 import sys
 import glob
+import requests
 
 
 def prod43_no_header(fte, prod, year='2020'):
     print('Generando producto 43')
     particles = ['CO', 'MP2.5', 'MP10', 'NO2', 'O3', 'SO2']
-    #particles = ['SO2']
+    # particles = ['SO2']
     for each_particle in particles:
         input_path = fte + each_particle
         print('Processing ' + each_particle + ' from  ' + input_path + ' for year ' + year)
@@ -55,35 +56,35 @@ def prod43_no_header(fte, prod, year='2020'):
             # encontramos solo un archivo para el año
             df = pd.read_excel(xlsx_file[0], header=None)
 
-            #separamos header y datos
+            # separamos header y datos
 
             # Asumo que despues de UTM_Norte vienen fechas
             last_header_row = df.index[df[0] == 'UTM_Norte'].tolist()[0]
             print('Data starts after row ' + str(last_header_row))
-            #en header boto date y time, por eso el slice cuenta desde la columna 2
+            # en header boto date y time, por eso el slice cuenta desde la columna 2
             header = df.loc[:last_header_row, :]
             header.at[0, 0] = 'Nombre de estacion'
             header.at[2, 0] = 'Codigo region'
             header.at[3, 0] = 'Comuna'
             header.at[4, 0] = 'Codigo comuna'
-            #print(header.to_string())
+            # print(header.to_string())
 
             # guardamos la data
             data = df.loc[last_header_row + 1:, :]
             data = data[data[0].notna()]
-            #print(data.head().to_string())
+            # print(data.head().to_string())
             data[0].replace(to_replace=' 00:00:00', value='', inplace=True, regex=True)
             data[1].replace(to_replace='24:00:00', value='00:00:00', inplace=True, regex=True)
             data[0] = data[0].astype(str)
             data[0] = data[0] + ' ' + data[1]
-            #print(data.head().to_string())
+            # print(data.head().to_string())
 
             # En header y data podemos botar 1
             header = header.drop(columns=[1])
             data = data.drop(columns=[1])
-            #print(header.to_string())
+            # print(header.to_string())
 
-            #print(data.head().to_string())
+            # print(data.head().to_string())
 
             df = pd.concat([header, data])
 
@@ -91,28 +92,18 @@ def prod43_no_header(fte, prod, year='2020'):
             df.to_csv(prod + each_particle + '-' + year + '_std.csv', index=False, header=False)
 
 
-def prod43_header(fte, prod):
-    print('Reading with headers')
+def prod43_from_mma_api(usr, password, auth_url, url, prod):
+    print('Querying MMA API for daily update of product 43')
+    # usr and pass must be retrieve from github secrets
+    # auth_url returns a cookie that must be passed then for the query
+    data = {
+        'username': usr,
+        'password': password
+    }
+    cookie = requests.post(auth_url, data=data)
+    cookie = cookie.json()['data']['authenticator']
+    # get list of stations and metadata to build queries
 
-    # df = pd.read_excel(xlsx_file[0], header=[0, 1, 2, 3, 4, 5, 6])
-    # print(df.columns[0][3])
-    # df.rename(columns={'date': 'Nombre estacion',
-    #                    'Codigo_comuna': 'Comuna'}
-    #           , inplace=True)
-    # #region esta repetido :(
-    # level4 = df.columns.get_level_values(4).tolist()
-    # index = level4.index('Region')
-    # level4[index] = 'Codigo comuna'
-    # df.columns.set_levels(level4, level=4, inplace=True)
-    # print(df.head().to_string())
-
-    # df.columns = df.columns.set_levels(['Comuna'], level=3)
-
-
-    # print(df.columns)
-    # print(df['Region']['Codigo_region']['Codigo_comuna']['Region'])
-
-    # identificamos donde se acaban los headers para poder concatenar las fechas
 
 if __name__ == '__main__':
     history = False
@@ -121,4 +112,8 @@ if __name__ == '__main__':
             prod43_no_header('../input/MMA/', '../output/producto43/', year=str(i))
 
     else:
-        prod43_no_header('../input/MMA/', '../output/producto43/')
+        #prod43_no_header('../input/MMA/', '../output/producto43/')
+        if len(sys.argv) == 3:
+            auth_url ='https://sinca.mma.gob.cl/api/auth.cgi'
+            url = 'https://sinca.mma.gob.cl/api/domain/SMA'
+            prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, 'test.lala')
