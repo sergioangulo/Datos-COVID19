@@ -46,6 +46,11 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**24-06-2020**<br>
+- Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 478 del 21 de junio punto 1  (Antofagasta, Mejillones y Tocopilla)
+- Se incorporan Cuarentenas (decreto pendiente) a comunas de El Monte, Quillota, Talagante, Calera de Tango y Graneros.
+- Se ajustan fechas de prórroga de cuarentenas vigentes en conformidad con anuncio del Ministerio de Salud (decreto pendiente) el día 24 de junio de 2020 para la fecha del 7 de julio.
+
 **19-06-2020 rev2**<br>
 - Cambio de Estado en Cuarentenas Futuras a Activas (5) 
 
