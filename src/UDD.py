@@ -40,12 +40,17 @@ def prod33(fte,prod):
     df_new = pd.DataFrame()
 
     i = 0
-    for file in glob.glob(fte + 'indicadores_IM_*.csv'):
+    for file in glob.glob(fte + 'indicadores_IM_*_*.csv'):
         print('Processing ' + file)
         temp = pd.read_csv(file, sep=";", encoding="utf-8", decimal=".")
 
         if i == 0:
-            df_new = temp
+
+            dateMissing = pd.read_csv('../input/UDD/indicadores_IM_20200429.csv', sep=";", encoding="utf-8", decimal=".")
+            df_new = pd.concat([temp,dateMissing], axis=0)
+            df_new.sort_values(by=['date'], inplace=True)
+            #de_new.reset_index(inplace = True)
+
         else:
             df_new = pd.concat([df_new,temp],axis=0)
 
@@ -114,47 +119,6 @@ def prod33(fte,prod):
         data_t.index.rename('', inplace=True)
         data_t.to_csv(prod + '-' + eachIM + '_T.csv')
 
-prod33Region(fte,producto):
-
-    df = pd.DataFrame()
-
-    i = 0
-    for file in glob.glob(fte + 'IM_region_completa_*.csv'):
-        print('Processing ' + file)
-        temp = pd.read_csv(file, sep=";", encoding="utf-8", decimal=".")
-
-        if i == 0:
-            df = temp
-        else:
-            df = pd.concat([df,temp],axis=0)
-
-        i += 1
- 
-    df_new.rename(columns={'date': 'Fecha'}, inplace=True)
-
-    df_new['Fecha'] = pd.to_datetime(df['Fecha'], format='%Y%m%d').dt.strftime("%Y-%m-%d")
-
-
-
-    df.dropna(how='any', inplace=True)
-
-    df = normalizaNombreCodigoRegionYComuna(df)
-    df = insertSuperficiePoblacion(df)
-    #df.dropna(how='any', inplace=True)
-
-    df.drop_duplicates(inplace=True)
-
-    #Ordenamos las columnas
-    columns = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion',
-               'IM_interno', 'IM_externo', 'IM', 'Fecha']
-    df = df[columns]
-    df.to_csv(prod + '.csv', index=False)
-
-    #try to build a single df with three rows per date per region
-    aux = df.melt(id_vars=['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Superficie_km2', 'Poblacion', 'Fecha'],
-                  value_vars=['IM_interno', 'IM_externo', 'IM'])
-
-    aux.to_csv(prod + '_std.csv', index=False)
 
 
 if __name__ == '__main__':

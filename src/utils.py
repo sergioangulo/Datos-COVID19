@@ -186,5 +186,6 @@ def insertSuperficiePoblacion(df):
     return df
 
 
+
 if __name__ == '__main__':
     writeStandardsToFile('../input/Otros/InformacionComunas.csv')
