@@ -35,15 +35,30 @@ import numpy as np
 from datetime import datetime
 
 
-def prod33(fte,fte_old,prod):
+def prod33(fte,prod):
 
-    df_new = pd.read_csv(fte, sep=";", encoding="utf-8", decimal=".")
+    df_new = pd.DataFrame()
+
+    i = 0
+    for file in glob.glob(fte + 'indicadores_IM_*.csv'):
+        print('Processing ' + file)
+        temp = pd.read_csv(file, sep=";", encoding="utf-8", decimal=".")
+
+        if i == 0:
+            df_new = temp
+        else:
+            df_new = pd.concat([df_new,temp],axis=0)
+
+        i += 1
+ 
     df_new.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
 
     df_new['Fecha'] = pd.to_datetime(df_new['Fecha'], format='%Y%m%d').dt.strftime("%Y-%m-%d")
 
+    df_new = df_new.drop(columns='region')
+
     data = []
-    for file in glob.glob(fte_old + '/*_indicadores_IM.csv'):
+    for file in glob.glob(fte + '/*_indicadores_IM.csv'):
         print('Processing ' + file)
         df_old = pd.read_csv(file, sep=",", encoding="utf-8", decimal=",")
 
@@ -55,8 +70,6 @@ def prod33(fte,fte_old,prod):
         # 11302: O'Higgins no esta
         # 122012: Antartica no esta
         data.append(df_old)
-
-    df_new = df_new.drop(columns='region')
 
     df_old = pd.concat(data)
 
@@ -103,4 +116,4 @@ def prod33(fte,fte_old,prod):
 
 if __name__ == '__main__':
     print('Generating producto 33')
-    prod33('../input/UDD/indicadores_IM.csv', '../input/UDD/', '../output/producto33/IndiceDeMovilidad')
+    prod33('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
