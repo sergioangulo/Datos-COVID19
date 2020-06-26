@@ -44,6 +44,7 @@ Los productos que salen del reporte diario son:
 27
 30
 36
+44
 """
 
 import pandas as pd
@@ -527,6 +528,17 @@ def prod36(fte, producto):
                      value_name='Numero')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod44(fte, producto):
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Evolución semanal']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Egresos')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 
 if __name__ == '__main__':
 
@@ -574,3 +586,6 @@ if __name__ == '__main__':
 
     print('Generando producto 36')
     prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
+
+    print('Generando producto 44')
+    prod44('../input/ReporteDiario/EgresosHospitalarios.csv', '../output/producto44/EgresosHospitalarios')
