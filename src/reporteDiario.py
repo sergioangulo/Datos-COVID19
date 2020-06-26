@@ -533,7 +533,7 @@ def prod44(fte, producto):
     df = pd.read_csv(fte)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Evolucion semanal']
+    identifiers = ['Egresos semanales']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Egresos')
