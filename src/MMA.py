@@ -21,7 +21,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
-from datetime import datetime
+import datetime as dt
+import time
+import pandas as pd
+import sys
+import glob
+import requests
 
 '''
 1.- RM, con archivos xlsx, cada uno corresponde a una particula, y el archivo tiene un tab por año.
@@ -30,10 +35,6 @@ Dado el volumen (un dato por hora) y complejidad de los datos, la primera separa
 
 '''
 
-import pandas as pd
-import sys
-import glob
-import requests
 
 
 def prod43_no_header(fte, prod, year='2020'):
@@ -95,9 +96,23 @@ def prod43_no_header(fte, prod, year='2020'):
 
 def prod43_from_mma_api(usr, password, auth_url, url, prod):
     '''
-    Cosultamos la API por semana, y nos traemos la ultima semana.
+    Cosultamos la API una vez cada semana, y nos traemos los ultimos 2 dias para sobreescribir.
+    Los ultimos datos estan corregidos
     '''
     print('Querying MMA API for daily update of product 43')
+    # necesitamos el año para saber en que archivo escribir.
+    now = dt.datetime.now()
+    year = now.year
+
+    # we should query on a weekly basis?
+    # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
+    a_week_ago = now - dt.timedelta(days=7)
+    print('We\'ll query from ' + str(a_week_ago) + ' to ' + str(now))
+    # BUT the API receives unix time
+    a_week_ago_unix = round(time.mktime(a_week_ago.timetuple()))
+    now_unix = round(time.mktime(now.timetuple()))
+    print('Unix: We\'ll query from ' + str(a_week_ago_unix) + ' to ' + str(now_unix))
+
     # usr and pass must be retrieve from github secrets
     # auth_url returns a cookie that must be passed then for the query
     data = {
@@ -110,50 +125,68 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # get list of stations and metadata to build queries
     estaciones = pd.read_csv('../input/MMA/Estaciones.csv')
     estaciones = estaciones[estaciones['Key'].notna()]
-    print(estaciones.to_string())
+    # print(estaciones.to_string())
     # la consulta es asi: https://sinca.mma.gob.cl/api/domain/SMA/timeserie/117+MPM25VAL
     # SSSRTPPPPLLL, donde:
     # SSS : Estación (código Airviro)
     # R : resolución de tiempo (código Airviro) + es hora, * es dia
     # T : tipo (v: crudo M: validado)
     # PPPP : parámetro (código Airviro)
-    # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura. Pero sirve para diferenciar series de tiempo según se requiera
+    # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
+    # Pero sirve para diferenciar series de tiempo según se requiera
     particulas = {'MP10': 'MPM10',
                   'MP2.5': 'MPM25'
                   }
     for each_particula in particulas:
         data_particula = []
         for index in estaciones.index:
-            print("Querying " + estaciones.loc[index, 'Nombre estacion'])
+
             api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
-            print(api_call)
+            print("Querying " + estaciones.loc[index, 'Nombre estacion'] + ' to ' + api_call)
             response = s.get(api_call)
             if response.status_code == 200:
-                print(response.json()['data']['sampleQueries']['links']['lastMonth'])
                 # for k in response.json():
                 #     print(k)
                 #     for l in response.json()[k]:
                 #         print('\t' + l)
-                proper_data = response.json()['data']['sampleQueries']['links']['lastMonth'] + '/ds61'
+                # proper_data = response.json()['data']['sampleQueries']['links']['lastMonth'] + '/ds61'
+                # proper_data = response.json()['data']['sampleQueries']['links']['yesterday'] + '/ds61'
+                proper_data = api_call + '/' + str(a_week_ago_unix) + '/' + str(now_unix) + '/ds61'
+                # print('Actual query ' + proper_data)
                 proper_data = s.get(proper_data)
-                # print(proper_data.json()['data']['timeserie'])
+                #print(proper_data.json())
                 # header from local metadata:
                 header = {'Nombre de estacion': estaciones.loc[index, 'Nombre estacion'],
                           'Region': estaciones.loc[index, 'Region'],
-                          'Region': estaciones.loc[index, 'Region']
-
+                          'Codigo region': estaciones.loc[index, 'Codigo region'],
+                          'Comuna': estaciones.loc[index, 'Comuna'],
+                          'Codigo comuna': estaciones.loc[index, 'Codigo comuna'],
+                          'UTM_Este': estaciones.loc[index, 'UTM_Este'],
+                          'UTM_Norte': estaciones.loc[index, 'UTM_Norte']
                           }
+                #print(header)
                 # put the json above in a dataframe
                 data = pd.DataFrame(proper_data.json()['data']['timeserie'])
+                #data['Nombre estacion'] = estaciones.loc[index, 'Nombre estacion']
+                data.rename(columns={'value': estaciones.loc[index, 'Nombre estacion']}, inplace=True)
+                #transform time from YYYYmmdd HHMM to YYYY-mm-dd hh:MM:SS
                 print(data.to_string())
+                # we should make sure we're writing on the file for this year
+                data_particula.append(data)
+
 
 
             else:
                 print('Instead of a status code 200, we got ' + str(response.status_code))
+
+        # this goes to the file
+        data_particula = pd.concat(data_particula)
+        print(data_particula)
         # read the file
-
+        file = prod + '/' + each_particula + '-' + str(year) + '_std.csv'
+        df_file = pd.read_csv(file)
         # append to the file
-
+        print(df_file)
 
 
 if __name__ == '__main__':
@@ -167,4 +200,4 @@ if __name__ == '__main__':
         if len(sys.argv) == 3:
             auth_url ='https://sinca.mma.gob.cl/api/auth.cgi'
             url = 'https://sinca.mma.gob.cl/api/domain/SMA/timeserie'
-            prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, 'test.lala')
+            prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, '../output/producto43')
