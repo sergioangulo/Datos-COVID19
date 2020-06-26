@@ -21,6 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
+from datetime import datetime
 
 '''
 1.- RM, con archivos xlsx, cada uno corresponde a una particula, y el archivo tiene un tab por año.
@@ -93,6 +94,9 @@ def prod43_no_header(fte, prod, year='2020'):
 
 
 def prod43_from_mma_api(usr, password, auth_url, url, prod):
+    '''
+    Cosultamos la API por semana, y nos traemos la ultima semana.
+    '''
     print('Querying MMA API for daily update of product 43')
     # usr and pass must be retrieve from github secrets
     # auth_url returns a cookie that must be passed then for the query
@@ -100,9 +104,56 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         'username': usr,
         'password': password
     }
-    cookie = requests.post(auth_url, data=data)
+    s = requests.Session()
+    cookie = s.post(auth_url, data=data)
     cookie = cookie.json()['data']['authenticator']
     # get list of stations and metadata to build queries
+    estaciones = pd.read_csv('../input/MMA/Estaciones.csv')
+    estaciones = estaciones[estaciones['Key'].notna()]
+    print(estaciones.to_string())
+    # la consulta es asi: https://sinca.mma.gob.cl/api/domain/SMA/timeserie/117+MPM25VAL
+    # SSSRTPPPPLLL, donde:
+    # SSS : Estación (código Airviro)
+    # R : resolución de tiempo (código Airviro) + es hora, * es dia
+    # T : tipo (v: crudo M: validado)
+    # PPPP : parámetro (código Airviro)
+    # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura. Pero sirve para diferenciar series de tiempo según se requiera
+    particulas = {'MP10': 'MPM10',
+                  'MP2.5': 'MPM25'
+                  }
+    for each_particula in particulas:
+        data_particula = []
+        for index in estaciones.index:
+            print("Querying " + estaciones.loc[index, 'Nombre estacion'])
+            api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
+            print(api_call)
+            response = s.get(api_call)
+            if response.status_code == 200:
+                print(response.json()['data']['sampleQueries']['links']['lastMonth'])
+                # for k in response.json():
+                #     print(k)
+                #     for l in response.json()[k]:
+                #         print('\t' + l)
+                proper_data = response.json()['data']['sampleQueries']['links']['lastMonth'] + '/ds61'
+                proper_data = s.get(proper_data)
+                # print(proper_data.json()['data']['timeserie'])
+                # header from local metadata:
+                header = {'Nombre de estacion': estaciones.loc[index, 'Nombre estacion'],
+                          'Region': estaciones.loc[index, 'Region'],
+                          'Region': estaciones.loc[index, 'Region']
+
+                          }
+                # put the json above in a dataframe
+                data = pd.DataFrame(proper_data.json()['data']['timeserie'])
+                print(data.to_string())
+
+
+            else:
+                print('Instead of a status code 200, we got ' + str(response.status_code))
+        # read the file
+
+        # append to the file
+
 
 
 if __name__ == '__main__':
@@ -115,5 +166,5 @@ if __name__ == '__main__':
         #prod43_no_header('../input/MMA/', '../output/producto43/')
         if len(sys.argv) == 3:
             auth_url ='https://sinca.mma.gob.cl/api/auth.cgi'
-            url = 'https://sinca.mma.gob.cl/api/domain/SMA'
+            url = 'https://sinca.mma.gob.cl/api/domain/SMA/timeserie'
             prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, 'test.lala')
