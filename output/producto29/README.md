@@ -20,8 +20,8 @@ Los archivos incluidos en el presente DP son:
 - Nombre: Nombre descriptivo de la zona de cuarentena.
 - Estado: Valor codificado para estado de la cuarentena: Activa, No Activa, Futura, Sin Información.
 - Alcance: Valor codificado para el alcance territorial de la cuarentena Comuna completa, Área Urbana Completa, Área Rural Completa, Sector Específico.
-- Fecha de Inicio: Fecha y hora de inicio en tiempo UTC.
-- Fecha de Término: Fecha y hora de término en tiempo UTC.
+- Fecha de Inicio: Fecha y hora de inicio en tiempo UTC -4.
+- Fecha de Término: Fecha y hora de término en tiempo UTC -4.
 - Código CUT Comuna: Código Único Territorial de comuna asociada.
 - Detalle: Observaciones adicionales al alcance de la cuarentena.
 - Superficie en m<sup>2</sup>.
@@ -46,10 +46,15 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**26-06-2020** MAJOR Update
+- IMPORTANTE: Se actualizan CSV y proceso de cuarentenas para indicar fecha y hora en zona horaria de Chile Continental (UTC -4)
+- Cambio de Estado en Cuarentenas Futuras a Activas (5)
+- Se actualizan Cuarentenas ID 91, 92 y 93 (Antofagasta, Mejillones y Tocopilla) en conformidad a modificación establecida en punto 2 de en Res.Ex. MINSAL 479 del 24 de junio
+
 **24-06-2020**<br>
 - Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 478 del 21 de junio punto 1  (Antofagasta, Mejillones y Tocopilla)
-- Se incorporan Cuarentenas (decreto pendiente) a comunas de El Monte, Quillota, Talagante, Calera de Tango y Graneros.
-- Se ajustan fechas de prórroga de cuarentenas vigentes en conformidad con anuncio del Ministerio de Salud (decreto pendiente) el día 24 de junio de 2020 para la fecha del 7 de julio.
+- Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 479 del 24 de junio punto 3 a comunas de El Monte, Quillota, Talagante, Calera de Tango y Graneros.
+- Se ajustan fechas de prórroga de cuarentenas vigentes en conformidad con Res.Ex. MINSAL 479 punto 1
 
 **19-06-2020 rev2**<br>
 - Cambio de Estado en Cuarentenas Futuras a Activas (5) 
