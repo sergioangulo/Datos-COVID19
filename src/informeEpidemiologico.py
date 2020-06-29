@@ -39,6 +39,7 @@ Los productos que salen del informe epidemiologico son:
 35
 38
 39
+45
 """
 
 import utils
@@ -391,6 +392,33 @@ def prod39(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
+def prod45(fte, name, producto):
+
+    fte = fte + name + 'PorComuna.csv'
+    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
+    df.dropna(how='all', inplace=True)
+    utils.regionName(df)
+    # Drop filas de totales por region
+    todrop = df.loc[df['Comuna'] == 'Total']
+    df.drop(todrop.index, inplace=True)
+    df.to_csv(producto + '.csv', index=False)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv', '../output/producto45/SemanasEpidemiologicas.csv')
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+
+    name = name.lower()
+
+    if name == 'nonotificados':
+        name = 'no notificados'
+    
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica', value_name='Casos ' + name)
+
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+
+
 if __name__ == '__main__':
 
     prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
@@ -434,3 +462,8 @@ if __name__ == '__main__':
 
     print('Generando producto 39')
     prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
+
+    print('Generando producto 45')
+    prod45('../input/InformeEpidemiologico/2020-06-28-Casos', 'Confirmados','../output/producto45/CasosConfirmadosPorComuna')
+    prod45('../input/InformeEpidemiologico/2020-06-28-Casos', 'NoNotificados','../output/producto45/CasosNoNotificadosPorComuna')
+    prod45('../input/InformeEpidemiologico/2020-06-28-Casos', 'Probables','../output/producto45/CasosProbablesPorComuna')
