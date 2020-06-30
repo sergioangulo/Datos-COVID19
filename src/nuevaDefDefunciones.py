@@ -88,6 +88,7 @@ def prod37NuevoV2(fte,producto):
     identifiers = ['Publicacion']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Numero defunciones')
+    df_std['Numero defunciones'] = df_std['Numero defunciones'].fillna(0).astype(int)
     df_std.to_csv(producto + '_std.csv', index=False)
 
     #cols_use = [0,1,2,3]
