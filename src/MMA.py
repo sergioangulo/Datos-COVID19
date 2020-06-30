@@ -170,7 +170,23 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
                 #data['Nombre estacion'] = estaciones.loc[index, 'Nombre estacion']
                 data.rename(columns={'value': estaciones.loc[index, 'Nombre estacion']}, inplace=True)
                 #transform time from YYYYmmdd HHMM to YYYY-mm-dd hh:MM:SS
-                print(data.to_string())
+
+                data['fecha'] = data['time'].map(lambda x: x[0:4] + '-' + x[4:6] + '-' + x[6:8])
+                data['hora'] = data['time'].map(lambda x:  x[9:11] + ':' + x[11:13] + ':00')
+                data['fecha'] = pd.to_datetime(data['fecha'])
+                # Identify the hour 24 (!!!!!!) and move a day forward, and subtract an hour
+                # a.- a day earlier
+                check = data.loc[data['hora'] == '24:00:00']
+                for idx in check.index:
+                    data.at[idx, 'fecha'] = data.at[idx, 'fecha'] + dt.timedelta(days=1)
+                # b.- the hour
+                data.loc[data['hora'] == '24:00:00', 'hora'] = '00:00:00'
+
+                #replace the former time with the corrected values
+                data['time'] = data['fecha'].dt.strftime('%Y-%m-%d') + ' ' + data['hora']
+                #print(data.to_string())
+                data.drop(columns=['fecha', 'hora', 'statusCode'], inplace=True)
+
                 # we should make sure we're writing on the file for this year
                 data_particula.append(data)
 
@@ -179,13 +195,21 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
             else:
                 print('Instead of a status code 200, we got ' + str(response.status_code))
 
+
         # this goes to the file
-        data_particula = pd.concat(data_particula)
-        print(data_particula)
+        # df_particula = pd.DataFrame()
+        # for j in data_particula:
+        #     print(j.dtypes)
+        #     df_particula.join(j)
+        data_particula = pd.concat(data_particula, axis=1)
+        print(data_particula.to_string())
+
         # read the file
         file = prod + '/' + each_particula + '-' + str(year) + '_std.csv'
+        print('Appending to ' + file)
         df_file = pd.read_csv(file)
         # append to the file
+        #df_file =df_file.merge(data_particula)
         print(df_file)
 
 
