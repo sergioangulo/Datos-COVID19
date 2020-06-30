@@ -300,6 +300,12 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={' Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  sin  notificar**': 'Casos nuevos sin notificar'}, inplace=True)
 
+
+        #if 'Se desconoce región de origen' in dataframe['Region']:
+        dataframe = dataframe[dataframe['Region'] != 'Se desconoce región de origen']
+        dataframe.reset_index(drop=True, inplace=True)
+        print(dataframe['Region'])
+
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
             cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
