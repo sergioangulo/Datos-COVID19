@@ -23,3 +23,5 @@ Cada 2 a 3 días.
 **Nota aclaratoria 2:** Los informes epidemiológicos del Ministerio de Salud informan del último día contabilizado para efectos de la elaboración de cada uno de ellos, habitualmente con corte a las 21 hrs. 
 
 **Nota aclaratoria 3:** Acorde a lo informado por Epidemiología MINSAL, la fecha de inicio de síntomas corresponde al momento de la manifestación clínica de la enfermedad, y son provisorios a la fecha del último reporte, pues se van actualizando retroactivamente a medida que se confirman casos y evoluciona la investigación epidemiológica.
+
+**Nota aclaratoria 4:** En el informe epidemiológico correspondiente al 23 de Junio, la tabla 23 (páginas 67, 68 y 69) presenta errores entre las fechas 19 y 21 de junio que se corrigen en este repositorio

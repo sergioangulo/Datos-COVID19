@@ -92,6 +92,9 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 [Data Product 43 - Datos históricos de calidad del aire por hora](output/producto43): Descripción
 Cada archivo entrega los datos de la emisión de un contaminante durante un año con frecuencia horaria junto con la información de las estaciones de medición. Existe un archivo para cada contaminante y para cada año, desde el 2010 a a 2019. [Ver más](output/producto43)
 
+[Data Product 44 - Evolución semanal de egresos hospitalarios pacientes COVID-19](output/producto44): Este set de archivos da cuenta del número de egresos de pacientes que han sido ingresados en el sistema integrado COVID-19. Se considera el número total de egresos por semana. Este archivo concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país. [Ver más](output/producto44)
+
+[Data Product 45 - Casos Probables, No Notificados y Confirmados por FIS por comuna](output/producto45): Este producto da cuenta de los casos probables, no notificados y confirmados notificados en cada una de las comunas de Chile, según residencia y fecha de inicio de síntomas. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país. [Ver más](output/producto45)
 
 
 ## ¿Cómo funciona?
