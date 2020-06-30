@@ -78,44 +78,53 @@ def prod37(fte, producto):
     #print(df_std.to_string())
     df_std.to_csv(producto + '_std.csv', index=False)
 
-def prod37Nuevo(fte,producto):
+def prod37NuevoV2(fte,producto):
 
-    cols_use = [0,1,2,3]
-    df_full = pd.read_excel(fte, sheet_name = 'Diario',usecols=cols_use)
+    copyfile(fte, producto + '.csv')
+    df = pd.read_csv(fte)
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Defunciones deis']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Publicacion')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+    #cols_use = [0,1,2,3]
+    #df_full = pd.read_excel(fte, sheet_name = 'Diario',usecols=cols_use)
 
     #convert 1st row as series name: Defunciones_fecha
-    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
-    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].replace(' 00:00:00', '', regex=True)
+    #df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
+    #df_full.iloc[0, 1:] = df_full.iloc[0, 1:].replace(' 00:00:00', '', regex=True)
     #print(df_full2.iloc[0, 1:])
 
-    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
-    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].replace(' 00:00:00', '', regex=True)
+    #df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
+    #df_full.iloc[1:, 0] = df_full.iloc[1:, 0].replace(' 00:00:00', '', regex=True)
 
-    new_header = df_full.iloc[0]  # grab the first row for the header
-    df_full = df_full[1:]  # take the data less the header row
-    df_full.columns = new_header  # set the header row as the df header
+    #new_header = df_full.iloc[0]  # grab the first row for the header
+    #df_full = df_full[1:]  # take the data less the header row
+    #df_full.columns = new_header  # set the header row as the df header
 
     #producto T
     #print(df_full.to_string())
-    df_full.to_csv(producto + '_deis_T.csv', index=False)
+    #df_full.to_csv(producto + '_deis_T.csv', index=False)
 
-    df_regular = df_full.T
+    #df_regular = df_full.T
     #print(df_regular.to_string())
-    df_regular.rename(index={'Fecha defunciones': 'Defunciones deis'}, inplace=True)
+    #df_regular.rename(index={'Fecha defunciones': 'Defunciones deis'}, inplace=True)
     #print(df_regular.index)
-    df_regular.to_csv(producto + '_deis.csv', header=False)
+    #df_regular.to_csv(producto + '_deis.csv', header=False)
 
-    df_regular = pd.read_csv(producto + '_deis.csv')
+    #df_regular = pd.read_csv(producto + '_deis.csv')
     #print(df_regular.to_string())
     #print(df_regular)
 
-    identifiers = ['Defunciones deis']
-    variables = [x for x in df_regular.columns if x not in identifiers]
-    df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    #identifiers = ['Defunciones deis']
+    #variables = [x for x in df_regular.columns if x not in identifiers]
+    #df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Defunciones')
 
     #print(df_std.to_string())
-    df_std.to_csv(producto + '_deis_std.csv', index=False)
+    #df_std.to_csv(producto + '_deis_std.csv', index=False)
 
     # data = []
     # for file in glob.glob(fte + '*.xlsx'):
