@@ -31,6 +31,7 @@ from utils import *
 import pandas as pd
 import glob
 from datetime import datetime
+from shutil import copyfile
 
 
 # debe ser como el prod15 historico
@@ -84,9 +85,9 @@ def prod37NuevoV2(fte,producto):
     df = pd.read_csv(fte)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Defunciones deis']
+    identifiers = ['Publicacion']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Publicacion')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Numero defunciones')
     df_std.to_csv(producto + '_std.csv', index=False)
 
     #cols_use = [0,1,2,3]
@@ -120,8 +121,8 @@ def prod37NuevoV2(fte,producto):
 
     #identifiers = ['Defunciones deis']
     #variables = [x for x in df_regular.columns if x not in identifiers]
-    #df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Defunciones')
+    #df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha', 
+    #                value_name='Defunciones')
 
     #print(df_std.to_string())
     #df_std.to_csv(producto + '_deis_std.csv', index=False)
@@ -167,4 +168,4 @@ def prod37NuevoV2(fte,producto):
 if __name__ == '__main__':
     print('Generando producto 37')
     prod37('../input/NuevaDefDefunciones/Fallecidos', '../output/producto37/Defunciones')
-    prod37Nuevo('../input/NuevaDefDefunciones/DATOS 18062020.xlsx','../output/producto37/Defunciones')
+    prod37NuevoV2('../input/NuevaDefDefunciones/DefuncionesDEIS.csv','../output/producto37/Defunciones_deis')
