@@ -168,4 +168,4 @@ def prod37NuevoV2(fte,producto):
 if __name__ == '__main__':
     print('Generando producto 37')
     prod37('../input/NuevaDefDefunciones/Fallecidos', '../output/producto37/Defunciones')
-    prod37NuevoV2('../input/NuevaDefDefunciones/DefuncionesDEIS.csv','../output/producto37/Defunciones')
+    prod37NuevoV2('../input/NuevaDefDefunciones/DefuncionesDEIS.csv','../output/producto37/Defunciones_deis')
