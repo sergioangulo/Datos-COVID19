@@ -104,7 +104,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     now = dt.datetime.now()
     year = now.year
 
-    # we should query on a weekly basis?
+    # should we query on a weekly basis?
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
     a_week_ago = now - dt.timedelta(days=7)
     print('We\'ll query from ' + str(a_week_ago) + ' to ' + str(now))
