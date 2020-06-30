@@ -69,9 +69,11 @@ def prod4(fte, producto):
     df_obj = df.select_dtypes(['object'])
     df[df_obj.columns] = df_obj.apply(lambda x: x.str.strip())
     regionName(df)
-    df.at[16, 'Region'] = 'Total'
+    df.at[16, 'Region'] = 'Se desconoce región de origen'
+    df.at[17, 'Region'] = 'Total'
     # texttract reconoce 0 como o
     df.replace({'O': 0}, inplace=True)
+    df.fillna('', inplace=True)
     numeric_columns = [x for x in df.columns if x != 'Region']
     for i in numeric_columns:
         df[i] = df[i].astype(str)
