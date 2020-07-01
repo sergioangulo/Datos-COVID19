@@ -46,6 +46,9 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**01-07-2020**
+- Se ajustan fechas de prórroga de cuarentenas vigentes.
+
 **26-06-2020** MAJOR Update
 - IMPORTANTE: Se actualizan CSV y proceso de cuarentenas para indicar fecha y hora en zona horaria de Chile Continental (UTC -4)
 - Cambio de Estado en Cuarentenas Futuras a Activas (5)
