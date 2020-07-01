@@ -18,6 +18,10 @@ filas, Distribución:<br/>
 53-68 Distribución de los Casos nuevos sin sintomas, fila 69: total de esta distribución<br/>
 70-85 Distribución de los Casos nuevos sin notificar, fila 86: total de esta distribución<br/>
 87-102 Distribución de los Fallecidos totales, fila 103 total de esta distribución<br/>
+104-119 Distribución de los Casos confirmados recuperados, fila 120 total de esta distribución<br/>
+121-136 Distribución de los Casos activos confirmados, fila 137 total de esta distribución<br/>
+138-153 Distribución de los Casos activos probables, fila 154 total de esta distribución<br/>
+155-170 Distribución de los Casos probables acumulados, fila 171 total de esta distribución<br/>
 
 Cada una de las Categorías son reportadas por el Ministerio de Salud de Chile.
 
