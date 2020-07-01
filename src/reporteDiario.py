@@ -244,6 +244,11 @@ def prod3_13_14_26_27(fte):
                                          'Fecha': []})
     casosNuevosSinNotificar = pd.DataFrame({'Region': [],
                                          'Fecha': []})
+    casosConfirmadosRecuperados = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
+    casosActivosConfirmados = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
+
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -300,6 +305,13 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={' Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  sin  notificar**': 'Casos nuevos sin notificar'}, inplace=True)
 
+        dataframe.rename(columns={'Casos  confirmados recuperados': 'Casos confirmados recuperados'}, inplace=True)
+        dataframe.rename(columns={' Casos confirmados recuperados': 'Casos confirmados recuperados'}, inplace=True)
+        dataframe.rename(columns={'Casos  confirmados  recuperados': 'Casos confirmados recuperados'}, inplace=True)
+
+        dataframe.rename(columns={'Casos  activos confirmados': 'Casos activos confirmados'}, inplace=True)
+        dataframe.rename(columns={' Casos activos confirmados': 'Casos activos confirmados'}, inplace=True)
+        dataframe.rename(columns={'Casos  activos  confirmados': 'Casos activos confirmados'}, inplace=True)
 
         #if 'Se desconoce región de origen' in dataframe['Region']:
         dataframe = dataframe[dataframe['Region'] != 'Se desconoce región de origen']
@@ -347,10 +359,17 @@ def prod3_13_14_26_27(fte):
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
 
 
-        if 'Casos nuevos sin notificar' in dataframe.columns:
-            if casosNuevosSinNotificar['Region'].empty:
-                casosNuevosSinNotificar[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin notificar']]
-                casosNuevosSinNotificar.rename(columns={'Fecha': date}, inplace=True)
+        if 'Casos confirmados recuperados' in dataframe.columns:
+            if casosConfirmadosRecuperados['Region'].empty:
+                casosConfirmadosRecuperados[['Region', 'Fecha']] = dataframe[['Region', 'Casos confirmados recuperados']]
+                casosConfirmadosRecuperados.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosConfirmadosRecuperados[date] = dataframe['Casos confirmados recuperados']
+
+        if 'Casos activos confirmados' in dataframe.columns:
+            if casosActivosConfirmados['Region'].empty:
+                casosActivosConfirmados[['Region', 'Fecha']] = dataframe[['Region', 'Casos activos confirmados']]
+                casosActivosConfirmados.rename(columns={'Fecha': date}, inplace=True)
             else:
                 casosNuevosSinNotificar[date] = dataframe['Casos nuevos sin notificar']
 
