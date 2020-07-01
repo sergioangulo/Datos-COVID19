@@ -233,12 +233,13 @@ def prod3_13_14_26_27(fte, fte2):
 
 #------------------ input directory: CasosProbables. In Reporte Diario since 2020-06-21
 
+    onlyfiles = [f for f in listdir(fte2) if isfile(join(fte2, f))]
+
     casosProbablesAcumulados = pd.DataFrame({'Region': [],
                                          'Fecha': []})
     casosActivosProbables = pd.DataFrame({'Region': [],
                                          'Fecha': []})
 
-    onlyfiles = [f for f in listdir(fte2) if isfile(join(fte2, f))]
     onlyfiles.sort()
     for eachfile in onlyfiles:
         print('processing ' + eachfile)
