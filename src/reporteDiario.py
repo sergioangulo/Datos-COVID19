@@ -243,7 +243,9 @@ def prod3_13_14_26_27(fte, fte2):
     onlyfiles.sort()
     for eachfile in onlyfiles:
         print('processing ' + eachfile)
-        date = eachfile.replace("-CasosProbables-Regional", "").replace(".csv", "")
+        #date = eachfile.replace("-CasosProbables-Regional", "").replace(".csv", "")
+        date = eachfile.replace("-CasosProbables-totalRegional", "").replace(".csv", "")
+        print(date)
         dataframe2 = pd.read_csv(fte2 + eachfile)
 
         # sanitize headers
@@ -298,7 +300,7 @@ def prod3_13_14_26_27(fte, fte2):
     onlyfiles.sort()
     onlyfiles.remove('README.md')
     for eachfile in onlyfiles:
-        print('processing ' + eachfile)
+        #print('processing ' + eachfile)
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
