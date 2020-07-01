@@ -404,6 +404,13 @@ def prod3_13_14_26_27(fte, fte2):
             else:
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
 
+        if 'Casos nuevos sin notificar' in dataframe.columns:
+            if casosNuevosSinNotificar['Region'].empty:
+                casosNuevosSinNotificar[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin notificar']]
+                casosNuevosSinNotificar.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosNuevosSinNotificar[date] = dataframe['Casos nuevos sin notificar']
+
 
         if 'Casos confirmados recuperados' in dataframe.columns:
             if casosConfirmadosRecuperados['Region'].empty:
