@@ -34,7 +34,7 @@ def prod46(fte, prod):
 
     identifiers = ['fecha_primeros_sintomas']
     variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos')
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Casos', value_name='Total')
     df_std.to_csv(prod + '_std.csv', index=False)
 
 
