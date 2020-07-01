@@ -304,7 +304,7 @@ def prod3_13_14_26_27(fte):
         #if 'Se desconoce región de origen' in dataframe['Region']:
         dataframe = dataframe[dataframe['Region'] != 'Se desconoce región de origen']
         dataframe.reset_index(drop=True, inplace=True)
-        print(dataframe['Region'])
+        # print(dataframe['Region'])
 
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
@@ -560,7 +560,7 @@ if __name__ == '__main__':
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
     # exec(open('bulk_producto4.py').read())
-
+    #
     print('Generando producto 7')
     prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
 
@@ -577,7 +577,6 @@ if __name__ == '__main__':
     exec(open('bulk_producto7.py').read())
 
     print('Generando producto 17')
-    # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
     prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
 
     print('Generando producto 20')
