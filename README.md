@@ -96,6 +96,8 @@ Cada archivo entrega los datos de la emisión de un contaminante durante un año
 
 [Data Product 45 - Casos Probables, No Notificados y Confirmados por FIS por comuna](output/producto45): Este producto da cuenta de los casos probables, no notificados y confirmados notificados en cada una de las comunas de Chile, según residencia y fecha de inicio de síntomas. Refleja la información del último informe epidemiológico publicado por el Ministerio de Salud del país. [Ver más](output/producto45)
 
+[Data Product 46 - Curva Activos vs. Recuperados](output/producto46): Este producto da cuenta de los casos activos y recuperados totales por día, acorde a la fecha de inicio de síntomas. Se actualiza la curva completa diaramente. [Ver más](output/producto46)
+
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
