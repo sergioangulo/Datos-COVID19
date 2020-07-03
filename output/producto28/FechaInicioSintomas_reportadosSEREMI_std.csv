@@ -73,7 +73,7 @@ Antofagasta,02,SE11,0.0
 Atacama,03,SE11,0.0
 Coquimbo,04,SE11,0.0
 Valparaíso,05,SE11,0.0
-Metropolitana,13,SE11,7.0
+Metropolitana,13,SE11,8.0
 O’Higgins,06,SE11,0.0
 Maule,07,SE11,0.0
 Ñuble,16,SE11,0.0
@@ -84,13 +84,13 @@ Los Lagos,10,SE11,9.0
 Aysén,11,SE11,1.0
 Magallanes,12,SE11,0.0
 Desconocido SEREMI,0,SE11,0.0
-Arica y Parinacota,15,SE12,1.0
+Arica y Parinacota,15,SE12,0.0
 Tarapacá,01,SE12,0.0
 Antofagasta,02,SE12,0.0
 Atacama,03,SE12,0.0
 Coquimbo,04,SE12,1.0
 Valparaíso,05,SE12,1.0
-Metropolitana,13,SE12,7.0
+Metropolitana,13,SE12,10.0
 O’Higgins,06,SE12,0.0
 Maule,07,SE12,1.0
 Ñuble,16,SE12,0.0
@@ -99,32 +99,32 @@ Araucanía,09,SE12,0.0
 Los Ríos,14,SE12,0.0
 Los Lagos,10,SE12,10.0
 Aysén,11,SE12,0.0
-Magallanes,12,SE12,1.0
-Desconocido SEREMI,0,SE12,2.0
+Magallanes,12,SE12,0.0
+Desconocido SEREMI,0,SE12,3.0
 Arica y Parinacota,15,SE13,0.0
 Tarapacá,01,SE13,0.0
 Antofagasta,02,SE13,0.0
 Atacama,03,SE13,0.0
 Coquimbo,04,SE13,0.0
 Valparaíso,05,SE13,3.0
-Metropolitana,13,SE13,15.0
+Metropolitana,13,SE13,10.0
 O’Higgins,06,SE13,0.0
 Maule,07,SE13,0.0
 Ñuble,16,SE13,0.0
 Biobío,08,SE13,0.0
-Araucanía,09,SE13,2.0
+Araucanía,09,SE13,1.0
 Los Ríos,14,SE13,0.0
 Los Lagos,10,SE13,3.0
 Aysén,11,SE13,0.0
 Magallanes,12,SE13,0.0
 Desconocido SEREMI,0,SE13,16.0
 Arica y Parinacota,15,SE14,0.0
-Tarapacá,01,SE14,1.0
+Tarapacá,01,SE14,0.0
 Antofagasta,02,SE14,0.0
 Atacama,03,SE14,0.0
 Coquimbo,04,SE14,1.0
 Valparaíso,05,SE14,2.0
-Metropolitana,13,SE14,56.0
+Metropolitana,13,SE14,45.0
 O’Higgins,06,SE14,0.0
 Maule,07,SE14,0.0
 Ñuble,16,SE14,0.0
@@ -136,17 +136,17 @@ Aysén,11,SE14,0.0
 Magallanes,12,SE14,1.0
 Desconocido SEREMI,0,SE14,4.0
 Arica y Parinacota,15,SE15,1.0
-Tarapacá,01,SE15,0.0
+Tarapacá,01,SE15,1.0
 Antofagasta,02,SE15,0.0
 Atacama,03,SE15,0.0
 Coquimbo,04,SE15,0.0
 Valparaíso,05,SE15,1.0
-Metropolitana,13,SE15,175.0
-O’Higgins,06,SE15,2.0
-Maule,07,SE15,0.0
+Metropolitana,13,SE15,212.0
+O’Higgins,06,SE15,1.0
+Maule,07,SE15,1.0
 Ñuble,16,SE15,0.0
 Biobío,08,SE15,0.0
-Araucanía,09,SE15,0.0
+Araucanía,09,SE15,1.0
 Los Ríos,14,SE15,1.0
 Los Lagos,10,SE15,0.0
 Aysén,11,SE15,0.0
@@ -158,7 +158,7 @@ Antofagasta,02,SE16,0.0
 Atacama,03,SE16,0.0
 Coquimbo,04,SE16,1.0
 Valparaíso,05,SE16,1.0
-Metropolitana,13,SE16,362.0
+Metropolitana,13,SE16,391.0
 O’Higgins,06,SE16,0.0
 Maule,07,SE16,0.0
 Ñuble,16,SE16,0.0
@@ -167,7 +167,7 @@ Araucanía,09,SE16,0.0
 Los Ríos,14,SE16,1.0
 Los Lagos,10,SE16,0.0
 Aysén,11,SE16,0.0
-Magallanes,12,SE16,14.0
+Magallanes,12,SE16,15.0
 Desconocido SEREMI,0,SE16,5.0
 Arica y Parinacota,15,SE17,0.0
 Tarapacá,01,SE17,1.0
@@ -175,24 +175,24 @@ Antofagasta,02,SE17,5.0
 Atacama,03,SE17,0.0
 Coquimbo,04,SE17,1.0
 Valparaíso,05,SE17,0.0
-Metropolitana,13,SE17,620.0
-O’Higgins,06,SE17,0.0
-Maule,07,SE17,1.0
+Metropolitana,13,SE17,614.0
+O’Higgins,06,SE17,1.0
+Maule,07,SE17,0.0
 Ñuble,16,SE17,0.0
 Biobío,08,SE17,0.0
 Araucanía,09,SE17,0.0
 Los Ríos,14,SE17,0.0
 Los Lagos,10,SE17,2.0
 Aysén,11,SE17,0.0
-Magallanes,12,SE17,4.0
-Desconocido SEREMI,0,SE17,8.0
+Magallanes,12,SE17,5.0
+Desconocido SEREMI,0,SE17,5.0
 Arica y Parinacota,15,SE18,0.0
 Tarapacá,01,SE18,4.0
 Antofagasta,02,SE18,0.0
 Atacama,03,SE18,0.0
 Coquimbo,04,SE18,1.0
 Valparaíso,05,SE18,0.0
-Metropolitana,13,SE18,792.0
+Metropolitana,13,SE18,793.0
 O’Higgins,06,SE18,0.0
 Maule,07,SE18,0.0
 Ñuble,16,SE18,0.0
@@ -201,15 +201,15 @@ Araucanía,09,SE18,0.0
 Los Ríos,14,SE18,0.0
 Los Lagos,10,SE18,0.0
 Aysén,11,SE18,0.0
-Magallanes,12,SE18,2.0
-Desconocido SEREMI,0,SE18,13.0
+Magallanes,12,SE18,1.0
+Desconocido SEREMI,0,SE18,11.0
 Arica y Parinacota,15,SE19,0.0
-Tarapacá,01,SE19,81.0
+Tarapacá,01,SE19,95.0
 Antofagasta,02,SE19,1.0
 Atacama,03,SE19,0.0
 Coquimbo,04,SE19,1.0
 Valparaíso,05,SE19,11.0
-Metropolitana,13,SE19,1662.0
+Metropolitana,13,SE19,1744.0
 O’Higgins,06,SE19,1.0
 Maule,07,SE19,0.0
 Ñuble,16,SE19,0.0
@@ -219,14 +219,14 @@ Los Ríos,14,SE19,0.0
 Los Lagos,10,SE19,0.0
 Aysén,11,SE19,0.0
 Magallanes,12,SE19,1.0
-Desconocido SEREMI,0,SE19,6.0
+Desconocido SEREMI,0,SE19,3.0
 Arica y Parinacota,15,SE20,0.0
 Tarapacá,01,SE20,29.0
 Antofagasta,02,SE20,1.0
 Atacama,03,SE20,0.0
 Coquimbo,04,SE20,3.0
 Valparaíso,05,SE20,8.0
-Metropolitana,13,SE20,2712.0
+Metropolitana,13,SE20,2761.0
 O’Higgins,06,SE20,2.0
 Maule,07,SE20,1.0
 Ñuble,16,SE20,0.0
@@ -236,14 +236,14 @@ Los Ríos,14,SE20,0.0
 Los Lagos,10,SE20,1.0
 Aysén,11,SE20,0.0
 Magallanes,12,SE20,0.0
-Desconocido SEREMI,0,SE20,0.0
+Desconocido SEREMI,0,SE20,2.0
 Arica y Parinacota,15,SE21,0.0
 Tarapacá,01,SE21,32.0
 Antofagasta,02,SE21,0.0
 Atacama,03,SE21,0.0
 Coquimbo,04,SE21,10.0
-Valparaíso,05,SE21,6.0
-Metropolitana,13,SE21,2943.0
+Valparaíso,05,SE21,5.0
+Metropolitana,13,SE21,2937.0
 O’Higgins,06,SE21,12.0
 Maule,07,SE21,0.0
 Ñuble,16,SE21,0.0
@@ -260,59 +260,59 @@ Antofagasta,02,SE22,0.0
 Atacama,03,SE22,0.0
 Coquimbo,04,SE22,8.0
 Valparaíso,05,SE22,42.0
-Metropolitana,13,SE22,2167.0
+Metropolitana,13,SE22,2198.0
 O’Higgins,06,SE22,0.0
 Maule,07,SE22,4.0
 Ñuble,16,SE22,0.0
-Biobío,08,SE22,6.0
+Biobío,08,SE22,7.0
 Araucanía,09,SE22,1.0
 Los Ríos,14,SE22,1.0
 Los Lagos,10,SE22,3.0
 Aysén,11,SE22,0.0
 Magallanes,12,SE22,0.0
-Desconocido SEREMI,0,SE22,19.0
+Desconocido SEREMI,0,SE22,13.0
 Arica y Parinacota,15,SE23,0.0
-Tarapacá,01,SE23,23.0
+Tarapacá,01,SE23,34.0
 Antofagasta,02,SE23,5.0
 Atacama,03,SE23,0.0
 Coquimbo,04,SE23,9.0
-Valparaíso,05,SE23,34.0
-Metropolitana,13,SE23,1544.0
+Valparaíso,05,SE23,35.0
+Metropolitana,13,SE23,1910.0
 O’Higgins,06,SE23,8.0
-Maule,07,SE23,6.0
+Maule,07,SE23,7.0
 Ñuble,16,SE23,0.0
-Biobío,08,SE23,8.0
+Biobío,08,SE23,10.0
 Araucanía,09,SE23,0.0
 Los Ríos,14,SE23,0.0
 Los Lagos,10,SE23,1.0
 Aysén,11,SE23,0.0
 Magallanes,12,SE23,0.0
-Desconocido SEREMI,0,SE23,24.0
+Desconocido SEREMI,0,SE23,23.0
 Arica y Parinacota,15,SE24,0.0
 Tarapacá,01,SE24,28.0
 Antofagasta,02,SE24,11.0
 Atacama,03,SE24,0.0
-Coquimbo,04,SE24,30.0
+Coquimbo,04,SE24,29.0
 Valparaíso,05,SE24,44.0
-Metropolitana,13,SE24,1859.0
+Metropolitana,13,SE24,1844.0
 O’Higgins,06,SE24,5.0
 Maule,07,SE24,7.0
 Ñuble,16,SE24,0.0
-Biobío,08,SE24,16.0
+Biobío,08,SE24,15.0
 Araucanía,09,SE24,1.0
 Los Ríos,14,SE24,1.0
 Los Lagos,10,SE24,1.0
 Aysén,11,SE24,0.0
 Magallanes,12,SE24,1.0
-Desconocido SEREMI,0,SE24,4.0
+Desconocido SEREMI,0,SE24,2.0
 Arica y Parinacota,15,SE25,0.0
 Tarapacá,01,SE25,20.0
-Antofagasta,02,SE25,45.0
+Antofagasta,02,SE25,44.0
 Atacama,03,SE25,9.0
-Coquimbo,04,SE25,25.0
-Valparaíso,05,SE25,78.0
-Metropolitana,13,SE25,1961.0
-O’Higgins,06,SE25,62.0
+Coquimbo,04,SE25,19.0
+Valparaíso,05,SE25,77.0
+Metropolitana,13,SE25,1891.0
+O’Higgins,06,SE25,64.0
 Maule,07,SE25,12.0
 Ñuble,16,SE25,0.0
 Biobío,08,SE25,50.0
@@ -321,21 +321,38 @@ Los Ríos,14,SE25,1.0
 Los Lagos,10,SE25,7.0
 Aysén,11,SE25,0.0
 Magallanes,12,SE25,1.0
-Desconocido SEREMI,0,SE25,22.0
-Arica y Parinacota,15,SE26,1.0
-Tarapacá,01,SE26,16.0
-Antofagasta,02,SE26,18.0
-Atacama,03,SE26,0.0
-Coquimbo,04,SE26,29.0
-Valparaíso,05,SE26,60.0
-Metropolitana,13,SE26,1227.0
-O’Higgins,06,SE26,49.0
-Maule,07,SE26,18.0
-Ñuble,16,SE26,4.0
-Biobío,08,SE26,67.0
+Desconocido SEREMI,0,SE25,16.0
+Arica y Parinacota,15,SE26,0.0
+Tarapacá,01,SE26,25.0
+Antofagasta,02,SE26,30.0
+Atacama,03,SE26,1.0
+Coquimbo,04,SE26,66.0
+Valparaíso,05,SE26,102.0
+Metropolitana,13,SE26,1625.0
+O’Higgins,06,SE26,63.0
+Maule,07,SE26,10.0
+Ñuble,16,SE26,0.0
+Biobío,08,SE26,85.0
 Araucanía,09,SE26,0.0
 Los Ríos,14,SE26,0.0
-Los Lagos,10,SE26,4.0
+Los Lagos,10,SE26,6.0
 Aysén,11,SE26,0.0
 Magallanes,12,SE26,1.0
-Desconocido SEREMI,0,SE26,2.0
+Desconocido SEREMI,0,SE26,1.0
+Arica y Parinacota,15,SE27,0.0
+Tarapacá,01,SE27,1.0
+Antofagasta,02,SE27,1.0
+Atacama,03,SE27,16.0
+Coquimbo,04,SE27,3.0
+Valparaíso,05,SE27,10.0
+Metropolitana,13,SE27,96.0
+O’Higgins,06,SE27,11.0
+Maule,07,SE27,0.0
+Ñuble,16,SE27,0.0
+Biobío,08,SE27,2.0
+Araucanía,09,SE27,0.0
+Los Ríos,14,SE27,0.0
+Los Lagos,10,SE27,0.0
+Aysén,11,SE27,0.0
+Magallanes,12,SE27,0.0
+Desconocido SEREMI,0,SE27,0.0
