@@ -271,8 +271,6 @@ def prod3_13_14_26_27(fte, fte2):
             else:
                 casosActivosProbables[date] = dataframe2['Casos activos probables']
 
-#    regionName(casosProbablesAcumulados)
-#    regionName(casosActivosProbables)
 
 #------------- producto3 (before 2020-06-21 and addition to Tabla 1 in Reporte Diario)
 
@@ -684,7 +682,7 @@ def prod3Aux(fte, producto):
 
 if __name__ == '__main__':
 
-    prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
+    #prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
 
     #prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
