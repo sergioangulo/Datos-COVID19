@@ -300,6 +300,7 @@ def prod3_13_14_26_27(fte, fte2):
     for eachfile in onlyfiles:
         print('processing ' + eachfile)
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
+        print(date, type(date))
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
         #print(eachfile)
@@ -424,6 +425,35 @@ def prod3_13_14_26_27(fte, fte2):
             else:
                 casosActivosConfirmados[date] = dataframe['Casos activos confirmados']
 
+        if date > '2020-07-02':
+
+
+            dataframe.rename(columns={'Región': 'Region'}, inplace=True)
+            dataframe.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
+            dataframe.rename(columns={' Casos probables acumulados': 'Casos probables acumulados'}, inplace=True)
+            dataframe.rename(columns={'Casos  probables  acumulados': 'Casos probables acumulados'}, inplace=True)
+
+            dataframe.rename(columns={'Casos  activos probables': 'Casos activos probables'}, inplace=True)
+            dataframe.rename(columns={' Casos activos probables': 'Casos activos probables'}, inplace=True)
+            dataframe.rename(columns={'Casos  activos  probables': 'Casos activos probables'}, inplace=True)
+
+            if 'Casos probables acumulados' in dataframe2.columns:
+                if casosProbablesAcumulados['Region'].empty:
+                    casosProbablesAcumulados[['Region', 'Fecha']] = dataframe2[['Region', 'Casos probables acumulados']]
+                    casosProbablesAcumulados.rename(columns={'Fecha': date}, inplace=True)
+                else:
+                    casosProbablesAcumulados[date] = dataframe2['Casos probables acumulados']
+
+            if 'Casos activos probables' in dataframe2.columns:
+                if casosActivosProbables['Region'].empty:
+                    casosActivosProbables[['Region', 'Fecha']] = dataframe2[['Region', 'Casos activos probables']]
+                    casosActivosProbables.rename(columns={'Fecha': date}, inplace=True)
+                else:
+                    casosActivosProbables[date] = dataframe2['Casos activos probables']
+
+
+    regionName(casosProbablesAcumulados)
+    regionName(casosActivosProbables)
 
     # estandarizar nombres de regiones
     regionName(cumulativoCasosNuevos)
@@ -655,10 +685,10 @@ if __name__ == '__main__':
 
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
 
-    prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
+    #prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
     print('Generando productos 3, 13, 14, 26 y 27')
-    prod3Aux('../input/ReporteDiario/CasosProbables-Regional.csv', '../input/ReporteDiario/CasosProbables/')
+    #prod3Aux('../input/ReporteDiario/CasosProbables-Regional.csv', '../input/ReporteDiario/CasosProbables/')
     prod3_13_14_26_27('../output/producto4/','../input/ReporteDiario/CasosProbables/')
 
     print('Generando producto 11')
