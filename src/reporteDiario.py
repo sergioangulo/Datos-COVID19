@@ -294,6 +294,13 @@ def prod3_13_14_26_27(fte, fte2):
     casosActivosConfirmados = pd.DataFrame({'Region': [],
                                          'Fecha': []})
 
+    if date > '2020-07-02':
+
+        casosProbablesAcumulados = pd.DataFrame({'Region': [],
+                                             'Fecha': []})
+        casosActivosProbables = pd.DataFrame({'Region': [],
+                                             'Fecha': []})
+
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -426,7 +433,6 @@ def prod3_13_14_26_27(fte, fte2):
                 casosActivosConfirmados[date] = dataframe['Casos activos confirmados']
 
         if date > '2020-07-02':
-
 
             dataframe.rename(columns={'Región': 'Region'}, inplace=True)
             dataframe.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
