@@ -300,7 +300,6 @@ def prod3_13_14_26_27(fte, fte2):
     for eachfile in onlyfiles:
         print('processing ' + eachfile)
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
-        print(date, type(date))
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
         #print(eachfile)
@@ -426,6 +425,7 @@ def prod3_13_14_26_27(fte, fte2):
                 casosActivosConfirmados[date] = dataframe['Casos activos confirmados']
 
         if date > '2020-07-02':
+            print(date, type(date))
 
             dataframe.rename(columns={'Región': 'Region'}, inplace=True)
             dataframe.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
