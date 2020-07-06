@@ -294,13 +294,6 @@ def prod3_13_14_26_27(fte, fte2):
     casosActivosConfirmados = pd.DataFrame({'Region': [],
                                          'Fecha': []})
 
-    if date > '2020-07-02':
-
-        casosProbablesAcumulados = pd.DataFrame({'Region': [],
-                                             'Fecha': []})
-        casosActivosProbables = pd.DataFrame({'Region': [],
-                                             'Fecha': []})
-
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -443,19 +436,19 @@ def prod3_13_14_26_27(fte, fte2):
             dataframe.rename(columns={' Casos activos probables': 'Casos activos probables'}, inplace=True)
             dataframe.rename(columns={'Casos  activos  probables': 'Casos activos probables'}, inplace=True)
 
-            if 'Casos probables acumulados' in dataframe2.columns:
+            if 'Casos probables acumulados' in dataframe.columns:
                 if casosProbablesAcumulados['Region'].empty:
-                    casosProbablesAcumulados[['Region', 'Fecha']] = dataframe2[['Region', 'Casos probables acumulados']]
+                    casosProbablesAcumulados[['Region', 'Fecha']] = dataframe[['Region', 'Casos probables acumulados']]
                     casosProbablesAcumulados.rename(columns={'Fecha': date}, inplace=True)
                 else:
-                    casosProbablesAcumulados[date] = dataframe2['Casos probables acumulados']
+                    casosProbablesAcumulados[date] = dataframe['Casos probables acumulados']
 
-            if 'Casos activos probables' in dataframe2.columns:
+            if 'Casos activos probables' in dataframe.columns:
                 if casosActivosProbables['Region'].empty:
-                    casosActivosProbables[['Region', 'Fecha']] = dataframe2[['Region', 'Casos activos probables']]
+                    casosActivosProbables[['Region', 'Fecha']] = dataframe[['Region', 'Casos activos probables']]
                     casosActivosProbables.rename(columns={'Fecha': date}, inplace=True)
                 else:
-                    casosActivosProbables[date] = dataframe2['Casos activos probables']
+                    casosActivosProbables[date] = dataframe['Casos activos probables']
 
 
     regionName(casosProbablesAcumulados)
