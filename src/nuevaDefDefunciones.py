@@ -84,6 +84,7 @@ def prod37NuevoV2(fte,producto):
     copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
     df_t = df.T
+    df_t = df_t.astype(int)
     df_t.to_csv(producto + '_T.csv', header=False)
     identifiers = ['Publicacion']
     variables = [x for x in df.columns if x not in identifiers]
