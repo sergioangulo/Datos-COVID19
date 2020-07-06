@@ -271,8 +271,8 @@ def prod3_13_14_26_27(fte, fte2):
             else:
                 casosActivosProbables[date] = dataframe2['Casos activos probables']
 
-    regionName(casosProbablesAcumulados)
-    regionName(casosActivosProbables)
+#    regionName(casosProbablesAcumulados)
+#    regionName(casosActivosProbables)
 
 #------------- producto3 (before 2020-06-21 and addition to Tabla 1 in Reporte Diario)
 
@@ -425,18 +425,20 @@ def prod3_13_14_26_27(fte, fte2):
                 casosActivosConfirmados[date] = dataframe['Casos activos confirmados']
 
         if date > '2020-07-02':
-            print(date, type(date))
 
             dataframe.rename(columns={'Región': 'Region'}, inplace=True)
             dataframe.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
+            dataframe.rename(columns={'Casos probables acumulados ': 'Casos probables acumulados'}, inplace=True)
             dataframe.rename(columns={' Casos probables acumulados': 'Casos probables acumulados'}, inplace=True)
             dataframe.rename(columns={'Casos  probables  acumulados': 'Casos probables acumulados'}, inplace=True)
 
             dataframe.rename(columns={'Casos  activos probables': 'Casos activos probables'}, inplace=True)
+            dataframe.rename(columns={'Casos activos probables ': 'Casos activos probables'}, inplace=True)
             dataframe.rename(columns={' Casos activos probables': 'Casos activos probables'}, inplace=True)
             dataframe.rename(columns={'Casos  activos  probables': 'Casos activos probables'}, inplace=True)
 
             if 'Casos probables acumulados' in dataframe.columns:
+                print(date, type(date))
                 if casosProbablesAcumulados['Region'].empty:
                     casosProbablesAcumulados[['Region', 'Fecha']] = dataframe[['Region', 'Casos probables acumulados']]
                     casosProbablesAcumulados.rename(columns={'Fecha': date}, inplace=True)
