@@ -682,9 +682,9 @@ def prod3Aux(fte, producto):
 
 if __name__ == '__main__':
 
-    #prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
+    prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
 
-    #prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
+    prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
     print('Generando productos 3, 13, 14, 26 y 27')
     #prod3Aux('../input/ReporteDiario/CasosProbables-Regional.csv', '../input/ReporteDiario/CasosProbables/')
