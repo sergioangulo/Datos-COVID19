@@ -246,20 +246,6 @@ def prod21Nuevo(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
     df_std.to_csv(producto + '_std.csv', index=False)
 
-def prod28(fte, producto):
-    print('Generando producto 28')
-    df = pd.read_csv(fte, dtype={'Codigo region': object})
-    df.dropna(how='all', inplace=True)
-    #utils.regionName(df)
-    # Drop filas de totales por region
-    df.to_csv(producto + '.csv', index=False)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['SEREMI notificacion', 'Codigo region']
-    variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables,var_name='Semana Epidemiologica', value_name='Casos confirmados')
-    df_std.to_csv(producto + '_std.csv', index=False)
-
 
 def prod28Nuevo(fte, prod):
     data = []
