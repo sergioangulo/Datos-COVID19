@@ -129,3 +129,6 @@
 ## Producto 43
 * Fuente: MMA
 * Input: [../input/MMA/](../input/MMA)
+## Producto 44
+* Fuente: Reporte diario
+* Input: [../input/ReporteDiario/](../input/ReporteDiario)
