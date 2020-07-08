@@ -101,12 +101,13 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     '''
     print('Querying MMA API for daily update of product 43')
     # necesitamos el año para saber en que archivo escribir.
+
     to_date = dt.datetime.now()
     year = to_date.year
 
-    # should we query on a weekly basis?
+    # debemos actualizar semanalmente, respondio Marcelo Corral
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
-    from_date = to_date - dt.timedelta(days=10)
+    from_date = to_date - dt.timedelta(days=7)
     print('We\'ll query from ' + str(from_date) + ' to ' + str(to_date))
     # BUT the API receives unix time
     a_week_ago_unix = round(time.mktime(from_date.timetuple()))
@@ -140,7 +141,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     for each_particula in particulas:
         data_particula = []
         for index in estaciones.index:
-
+            # debemos consultar VAL, respondio Marcelo Corral
             api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
             print("Querying " + estaciones.loc[index, 'Nombre estacion'] + ' to ' + api_call)
             response = s.get(api_call)
