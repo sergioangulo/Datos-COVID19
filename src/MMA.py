@@ -120,7 +120,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         'password': password
     }
     s = requests.Session()
-    cookie = s.post(auth_url, data=data)
+    s.post(auth_url, data=data)
     #cookie = cookie.json()['data']['authenticator']
     # get list of stations and metadata to build queries
     estaciones = pd.read_csv('../input/MMA/Estaciones.csv')
