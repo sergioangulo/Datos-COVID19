@@ -247,11 +247,12 @@ def prod21Nuevo(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
-def prod28Nuevo(fte, prod):
+def prod28(fte, prod):
     data = []
     for file in glob.glob(fte + '/*FechaInicioSintomas_reportadosSEREMI.csv'):
         if file != fte + 'FechaInicioSintomas_reportadosSEREMI.csv':
           date = re.search("\d{4}-\d{2}-\d{2}", file).group(0)
+          print("reading " + file)
           df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object})
           df.dropna(how='all', inplace=True)
 
@@ -377,33 +378,7 @@ def prod39(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
-
-def prod45(fte, name, producto):
-
-    fte = fte + name + 'PorComuna.csv'
-    df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
-    df.dropna(how='all', inplace=True)
-    utils.regionName(df)
-    # Drop filas de totales por region
-    todrop = df.loc[df['Comuna'] == 'Total']
-    df.drop(todrop.index, inplace=True)
-    df.to_csv(producto + '.csv', index=False)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv', '../output/producto45/SemanasEpidemiologicas.csv')
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
-    variables = [x for x in df.columns if x not in identifiers]
-
-    name = name.lower()
-
-    if name == 'nonotificados':
-        name = 'no notificados'
-    
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica', value_name='Casos ' + name)
-
-    df_std.to_csv(producto + '_std.csv', index=False)
-
-def prod45Nuevo(fte, fte2, prod):
+def prod45(fte, fte2, prod):
     data = []
     for file in glob.glob(fte + '/*Casos' + fte2  + 'PorComuna.csv'):
         print(file)
@@ -495,7 +470,7 @@ if __name__ == '__main__':
     prod19_25_38('../input/InformeEpidemiologico/CasosActualesPorComuna.csv', '../output/producto25/CasosActualesPorComuna')
 
     print('Generando producto 28')
-    prod28Nuevo('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
+    prod28('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
 
     print('Generando producto 35')
     prod35Nuevo('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
@@ -507,6 +482,6 @@ if __name__ == '__main__':
     prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv', '../output/producto39/NotificacionInicioSintomas')
 
     print('Generando producto 45')
-    prod45Nuevo('../input/InformeEpidemiologico/', 'Confirmados','../output/producto45/CasosConfirmadosPorComunaHistorico')
-    prod45Nuevo('../input/InformeEpidemiologico/', 'NoNotificados','../output/producto45/CasosNoNotificadosPorComunaHistorico')
-    prod45Nuevo('../input/InformeEpidemiologico/', 'Probables','../output/producto45/CasosProbablesPorComunaHistorico')
+    prod45('../input/InformeEpidemiologico/', 'Confirmados', '../output/producto45/CasosConfirmadosPorComunaHistorico')
+    prod45('../input/InformeEpidemiologico/', 'NoNotificados', '../output/producto45/CasosNoNotificadosPorComunaHistorico')
+    prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
