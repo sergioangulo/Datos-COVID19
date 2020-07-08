@@ -132,3 +132,9 @@
 ## Producto 44
 * Fuente: Reporte diario
 * Input: [../input/ReporteDiario/](../input/ReporteDiario)
+## Producto 45
+* Fuente: Informe Epidemiologico
+* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+## Producto 46
+* Fuente: Curvas Epidemiologia
+* Input: [../input/Curvas_epi/activos vs recuperados.csv](../input/Curvas_epi/activos vs recuperados.csv)
