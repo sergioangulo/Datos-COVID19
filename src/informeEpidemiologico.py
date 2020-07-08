@@ -304,34 +304,6 @@ def prod35(fte, producto):
     identifiers = ['Comorbilidad','Hospitalización']
     variables = [x for x in df.columns if x not in identifiers]
 
-    NumeroSinHosp = df.loc[df['Comorbilidad'] == 'Número Casos sin Hospitalización',variables].values
-    NumeroHosp = df.loc[df['Comorbilidad'] == 'Número Casos Hospitalizados',variables].values
-
-    todrop = df.loc[df['Comorbilidad'] == 'Número Casos sin Hospitalización']
-    df.drop(todrop.index, inplace=True)
-    todrop = df.loc[df['Comorbilidad'] == 'Número Casos Hospitalizados']
-    df.drop(todrop.index, inplace=True)
-
-    temp1 = round(df.iloc[0:11][variables].divide(100)*NumeroSinHosp)
-    temp2 = round(df.iloc[11:22][variables].divide(100)*NumeroHosp)
-
-    df2 = pd.concat([temp1,temp2], axis=0)
-    df2 = pd.concat([df['Comorbilidad'], df['Hospitalización'], df2], axis=1)
-    df2.to_csv(producto + '.csv', index=False)
-
-    df2_t = utils.transpone_csv(producto + '.csv')
-    df2_t.to_csv(producto + '_T.csv', header=False)
-
-    df_std = pd.melt(df2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Casos confirmados')
-    df_std.to_csv(producto + '_std.csv', index=False)
-
-def prod35Nuevo(fte, producto):
-    df = pd.read_csv(fte)
-
-    identifiers = ['Comorbilidad','Hospitalización']
-    variables = [x for x in df.columns if x not in identifiers]
-
     NumSHosp = df.loc[df['Comorbilidad'] == 'Número Casos sin Hospitalización',variables]
     NumHosp = df.loc[df['Comorbilidad'] == 'Número Casos Hospitalizados',variables]
 
@@ -473,7 +445,7 @@ if __name__ == '__main__':
     prod28('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
 
     print('Generando producto 35')
-    prod35Nuevo('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
+    prod35('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
 
     print('Generando producto 38')
     prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv', '../output/producto38/CasosFallecidosPorComuna')
