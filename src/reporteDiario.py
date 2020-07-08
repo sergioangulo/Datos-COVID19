@@ -229,7 +229,50 @@ def prod5(fte, producto):
     df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
-def prod3_13_14_26_27(fte):
+def prod3_13_14_26_27(fte, fte2):
+
+#------------------ input directory: CasosProbables. In Reporte Diario since 2020-06-21
+
+    onlyfiles = [f for f in listdir(fte2) if isfile(join(fte2, f))]
+
+    casosProbablesAcumulados = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
+    casosActivosProbables = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
+
+    onlyfiles.sort()
+    for eachfile in onlyfiles:
+        print('processing ' + eachfile)
+        date = eachfile.replace("-CasosProbables-totalRegional", "").replace(".csv", "")
+        dataframe2 = pd.read_csv(fte2 + eachfile)
+
+        # sanitize headers
+    
+        dataframe2.rename(columns={'Región': 'Region'}, inplace=True)
+        dataframe2.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
+        dataframe2.rename(columns={' Casos probables acumulados': 'Casos probables acumulados'}, inplace=True)
+        dataframe2.rename(columns={'Casos  probables  acumulados': 'Casos probables acumulados'}, inplace=True)
+
+        dataframe2.rename(columns={'Casos  activos probables': 'Casos activos probables'}, inplace=True)
+        dataframe2.rename(columns={' Casos activos probables': 'Casos activos probables'}, inplace=True)
+        dataframe2.rename(columns={'Casos  activos  probables': 'Casos activos probables'}, inplace=True)
+
+        if 'Casos probables acumulados' in dataframe2.columns:
+            if casosProbablesAcumulados['Region'].empty:
+                casosProbablesAcumulados[['Region', 'Fecha']] = dataframe2[['Region', 'Casos probables acumulados']]
+                casosProbablesAcumulados.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosProbablesAcumulados[date] = dataframe2['Casos probables acumulados']
+
+        if 'Casos activos probables' in dataframe2.columns:
+            if casosActivosProbables['Region'].empty:
+                casosActivosProbables[['Region', 'Fecha']] = dataframe2[['Region', 'Casos activos probables']]
+                casosActivosProbables.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosActivosProbables[date] = dataframe2['Casos activos probables']
+
+
+#------------- producto3 (before 2020-06-21 and addition to Tabla 1 in Reporte Diario)
 
     onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
     cumulativoCasosNuevos = pd.DataFrame({'Region': [],
@@ -244,6 +287,11 @@ def prod3_13_14_26_27(fte):
                                          'Fecha': []})
     casosNuevosSinNotificar = pd.DataFrame({'Region': [],
                                          'Fecha': []})
+    casosConfirmadosRecuperados = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
+    casosActivosConfirmados = pd.DataFrame({'Region': [],
+                                         'Fecha': []})
+
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -300,6 +348,18 @@ def prod3_13_14_26_27(fte):
         dataframe.rename(columns={' Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  sin  notificar**': 'Casos nuevos sin notificar'}, inplace=True)
 
+        dataframe.rename(columns={'Casos  confirmados recuperados': 'Casos confirmados recuperados'}, inplace=True)
+        dataframe.rename(columns={' Casos confirmados recuperados': 'Casos confirmados recuperados'}, inplace=True)
+        dataframe.rename(columns={'Casos  confirmados  recuperados': 'Casos confirmados recuperados'}, inplace=True)
+
+        dataframe.rename(columns={'Casos  activos confirmados': 'Casos activos confirmados'}, inplace=True)
+        dataframe.rename(columns={' Casos activos confirmados': 'Casos activos confirmados'}, inplace=True)
+        dataframe.rename(columns={'Casos  activos  confirmados': 'Casos activos confirmados'}, inplace=True)
+
+        #if 'Se desconoce región de origen' in dataframe['Region']:
+        dataframe = dataframe[dataframe['Region'] != 'Se desconoce región de origen']
+        dataframe.reset_index(drop=True, inplace=True)
+
         if cumulativoCasosNuevos['Region'].empty:
             cumulativoCasosNuevos[['Region', 'Casos nuevos']] = dataframe[['Region', 'Casos nuevos']]
             cumulativoCasosNuevos.rename(columns={'Casos nuevos': date}, inplace=True)
@@ -340,7 +400,6 @@ def prod3_13_14_26_27(fte):
             else:
                 casosNuevosSinSintomas[date] = dataframe['Casos nuevos sin sintomas']
 
-
         if 'Casos nuevos sin notificar' in dataframe.columns:
             if casosNuevosSinNotificar['Region'].empty:
                 casosNuevosSinNotificar[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos sin notificar']]
@@ -349,6 +408,52 @@ def prod3_13_14_26_27(fte):
                 casosNuevosSinNotificar[date] = dataframe['Casos nuevos sin notificar']
 
 
+        if 'Casos confirmados recuperados' in dataframe.columns:
+            if casosConfirmadosRecuperados['Region'].empty:
+                casosConfirmadosRecuperados[['Region', 'Fecha']] = dataframe[['Region', 'Casos confirmados recuperados']]
+                casosConfirmadosRecuperados.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosConfirmadosRecuperados[date] = dataframe['Casos confirmados recuperados']
+
+        if 'Casos activos confirmados' in dataframe.columns:
+            if casosActivosConfirmados['Region'].empty:
+                casosActivosConfirmados[['Region', 'Fecha']] = dataframe[['Region', 'Casos activos confirmados']]
+                casosActivosConfirmados.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosActivosConfirmados[date] = dataframe['Casos activos confirmados']
+
+        if date > '2020-07-02':
+
+            dataframe.rename(columns={'Región': 'Region'}, inplace=True)
+            dataframe.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
+            dataframe.rename(columns={'Casos probables acumulados ': 'Casos probables acumulados'}, inplace=True)
+            dataframe.rename(columns={' Casos probables acumulados': 'Casos probables acumulados'}, inplace=True)
+            dataframe.rename(columns={'Casos  probables  acumulados': 'Casos probables acumulados'}, inplace=True)
+
+            dataframe.rename(columns={'Casos  activos probables': 'Casos activos probables'}, inplace=True)
+            dataframe.rename(columns={'Casos activos probables ': 'Casos activos probables'}, inplace=True)
+            dataframe.rename(columns={' Casos activos probables': 'Casos activos probables'}, inplace=True)
+            dataframe.rename(columns={'Casos  activos  probables': 'Casos activos probables'}, inplace=True)
+
+            if 'Casos probables acumulados' in dataframe.columns:
+                print(date, type(date))
+                if casosProbablesAcumulados['Region'].empty:
+                    casosProbablesAcumulados[['Region', 'Fecha']] = dataframe[['Region', 'Casos probables acumulados']]
+                    casosProbablesAcumulados.rename(columns={'Fecha': date}, inplace=True)
+                else:
+                    casosProbablesAcumulados[date] = dataframe['Casos probables acumulados']
+
+            if 'Casos activos probables' in dataframe.columns:
+                if casosActivosProbables['Region'].empty:
+                    casosActivosProbables[['Region', 'Fecha']] = dataframe[['Region', 'Casos activos probables']]
+                    casosActivosProbables.rename(columns={'Fecha': date}, inplace=True)
+                else:
+                    casosActivosProbables[date] = dataframe['Casos activos probables']
+
+
+    regionName(casosProbablesAcumulados)
+    regionName(casosActivosProbables)
+
     # estandarizar nombres de regiones
     regionName(cumulativoCasosNuevos)
     regionName(cumulativoCasosTotales)
@@ -356,6 +461,8 @@ def prod3_13_14_26_27(fte):
     regionName(casosNuevosConSintomas)
     regionName(casosNuevosSinSintomas)
     regionName(casosNuevosSinNotificar)
+    regionName(casosConfirmadosRecuperados)
+    regionName(casosActivosConfirmados)
 
     cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
@@ -363,13 +470,19 @@ def prod3_13_14_26_27(fte):
     casosNuevosConSintomas_T = casosNuevosConSintomas.transpose()
     casosNuevosSinSintomas_T = casosNuevosSinSintomas.transpose()
     casosNuevosSinNotificar_T = casosNuevosSinNotificar.transpose()
+    casosConfirmadosRecuperados_T = casosConfirmadosRecuperados.transpose()
+    casosActivosConfirmados_T = casosActivosConfirmados.transpose()
+    casosProbablesAcumulados_T = casosProbablesAcumulados.transpose()
+    casosActivosProbables_T = casosActivosProbables.transpose()
 
     #### PRODUCTO 3
 
     names = ['Casos acumulados','Casos nuevos totales','Casos nuevos con sintomas','Casos nuevos sin sintomas',
-                                'Casos nuevos sin notificar','Fallecidos totales']
+                                'Casos nuevos sin notificar','Fallecidos totales','Casos confirmados recuperados',
+                                'Casos activos confirmados','Casos activos probables','Casos probables acumulados']
     frames = [cumulativoCasosTotales,cumulativoCasosNuevos,casosNuevosConSintomas,casosNuevosSinSintomas,
-                                casosNuevosSinNotificar,cumulativoFallecidos]
+                                casosNuevosSinNotificar,cumulativoFallecidos,casosConfirmadosRecuperados,
+                                casosActivosConfirmados,casosActivosProbables,casosProbablesAcumulados]
 
 
     for i in range(len(names)):
@@ -541,6 +654,31 @@ def prod44(fte, producto):
                      value_name='Egresos')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod3Aux(fte, producto):
+    print('Generando input parte de DP3')
+    now = datetime.now()
+    today = now.strftime("%Y-%m-%d")
+    #today = datetime.strftime(datetime.now() - timedelta(10), '%Y-%m-%d')
+    output = producto + today + '-CasosProbables-totalRegional.csv'
+    df = pd.read_csv(fte, quotechar='"', sep=',', thousands=r'.', decimal=",")
+    df.rename(columns={'Unnamed: 0': 'Region'}, inplace=True)
+    if 'Unnamed: 7' in df.columns:
+        df.drop(columns=['Unnamed: 7'], inplace=True)
+
+    df_obj = df.select_dtypes(['object'])
+    df[df_obj.columns] = df_obj.apply(lambda x: x.str.strip())
+    regionName(df)
+    df.at[16, 'Region'] = 'Total'
+    # texttract reconoce 0 como o
+    df.replace({'O': 0}, inplace=True)
+    df.fillna('', inplace=True)
+    numeric_columns = [x for x in df.columns if x != 'Region']
+    for i in numeric_columns:
+        df[i] = df[i].astype(str)
+        #df[i] = df[i].replace({r'\.': ''}, regex=True)
+        df[i] = df[i].replace({r'\,': '.'}, regex=True)
+
+    df.to_csv(output, index=False)
 
 if __name__ == '__main__':
 
@@ -549,12 +687,13 @@ if __name__ == '__main__':
     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
     print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27('../output/producto4/')
+    #prod3Aux('../input/ReporteDiario/CasosProbables-Regional.csv', '../input/ReporteDiario/CasosProbables/')
+    prod3_13_14_26_27('../output/producto4/','../input/ReporteDiario/CasosProbables/')
 
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
     # exec(open('bulk_producto4.py').read())
-
+    #
     print('Generando producto 7')
     prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
 
@@ -571,7 +710,6 @@ if __name__ == '__main__':
     exec(open('bulk_producto7.py').read())
 
     print('Generando producto 17')
-    # copyfile('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento.csv')
     prod17('../input/ReporteDiario/PCREstablecimiento.csv', '../output/producto17/PCREstablecimiento')
 
     print('Generando producto 20')
