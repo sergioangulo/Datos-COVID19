@@ -106,7 +106,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
 
     # should we query on a weekly basis?
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
-    a_week_ago = now - dt.timedelta(days=7)
+    a_week_ago = now - dt.timedelta(days=2)
     print('We\'ll query from ' + str(a_week_ago) + ' to ' + str(now))
     # BUT the API receives unix time
     a_week_ago_unix = round(time.mktime(a_week_ago.timetuple()))
@@ -135,7 +135,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
     # Pero sirve para diferenciar series de tiempo según se requiera
     particulas = {'MP10': 'MPM10',
-                  'MP2.5': 'MPM25'
+                  #'MP2.5': 'MPM25'
                   }
     for each_particula in particulas:
         data_particula = []
@@ -201,15 +201,26 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         # for j in data_particula:
         #     print(j.dtypes)
         #     df_particula.join(j)
-        data_particula = pd.concat(data_particula, axis=1)
-        print(data_particula.to_string())
+        for i in range(0, len(data_particula)):
+            #print(data_particula[i])
+            if i == 0:
+                final_df = data_particula[i]
+                final_df['time'] = pd.to_datetime((final_df['time']))
+            else:
+                aux = data_particula[i]
+                aux['time'] = pd.to_datetime(aux['time'])
+                final_df = pd.merge(final_df, aux, on='time')
+
+        #data_particula = pd.concat(data_particula, axis=1)
+        #print(data_particula.to_string())
+        print(final_df)
 
         # read the file
         file = prod + '/' + each_particula + '-' + str(year) + '_std.csv'
         print('Appending to ' + file)
         df_file = pd.read_csv(file)
         # append to the file
-        #df_file =df_file.merge(data_particula)
+        #df_file = df_file.merge(data_particula)
         print(df_file)
 
 
