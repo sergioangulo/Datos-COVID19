@@ -101,16 +101,16 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     '''
     print('Querying MMA API for daily update of product 43')
     # necesitamos el año para saber en que archivo escribir.
-    now = dt.datetime.now()
-    year = now.year
+    to_date = dt.datetime.now()
+    year = to_date.year
 
     # should we query on a weekly basis?
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
-    a_week_ago = now - dt.timedelta(days=2)
-    print('We\'ll query from ' + str(a_week_ago) + ' to ' + str(now))
+    from_date = to_date - dt.timedelta(days=10)
+    print('We\'ll query from ' + str(from_date) + ' to ' + str(to_date))
     # BUT the API receives unix time
-    a_week_ago_unix = round(time.mktime(a_week_ago.timetuple()))
-    now_unix = round(time.mktime(now.timetuple()))
+    a_week_ago_unix = round(time.mktime(from_date.timetuple()))
+    now_unix = round(time.mktime(to_date.timetuple()))
     print('Unix: We\'ll query from ' + str(a_week_ago_unix) + ' to ' + str(now_unix))
 
     # usr and pass must be retrieve from github secrets
@@ -121,7 +121,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     }
     s = requests.Session()
     cookie = s.post(auth_url, data=data)
-    cookie = cookie.json()['data']['authenticator']
+    #cookie = cookie.json()['data']['authenticator']
     # get list of stations and metadata to build queries
     estaciones = pd.read_csv('../input/MMA/Estaciones.csv')
     estaciones = estaciones[estaciones['Key'].notna()]
@@ -213,16 +213,18 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
 
         #data_particula = pd.concat(data_particula, axis=1)
         #print(data_particula.to_string())
-        print(final_df)
+        #print(final_df)
+        final_df.rename(columns={'time': 'Nombre de estacion'}, inplace=True)
 
         # read the file
         file = prod + '/' + each_particula + '-' + str(year) + '_std.csv'
         print('Appending to ' + file)
         df_file = pd.read_csv(file)
         # append to the file
-        #df_file = df_file.merge(data_particula)
+        df_file = pd.concat([df_file, final_df], axis=0, ignore_index=True)
+        df_file.drop_duplicates(inplace=True)
         print(df_file)
-
+        df_file.to_csv('test.csv', index=False)
 
 if __name__ == '__main__':
     history = False
