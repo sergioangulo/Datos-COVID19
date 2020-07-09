@@ -47,16 +47,16 @@
 * Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
 ## Producto 16
 * Fuente: Informe Epidemiologico
-* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico/CasosGeneroEtario.csv)
 ## Producto 17
 * Fuente: Reporte Diario
 * Input: [../input/ReporteDiario/](../input/ReporteDiario)
 ## Producto 18
 * Fuente: Informe Epidemiologico
-* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+* Input: [../input/InformeEpidemiologico/TasaDeIncidencia.csv](../input/InformeEpidemiologico/TasaDeIncidencia.csv)
 ## Producto 19
 * Fuente: Informe Epidemiologico
-* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+* Input: [../input/InformeEpidemiologico/CasosActivosPorComuna.csv](../input/InformeEpidemiologico/CasosActivosPorComuna.csv)
 ## Producto 20
 * Fuente: Reporte Diario
 * Input: [../input/ReporteDiario/](../input/ReporteDiario)
@@ -74,7 +74,7 @@
 * Input: [../input/ReporteDiario/](../input/ReporteDiario)
 ## Producto 25
 * Fuente: Informe Epidemiologico
-* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+* Input: [../input/InformeEpidemiologico/CasosActivosPorComuna.csv](../input/InformeEpidemiologico/CasosActivosPorComuna.csv)
 ## Producto 26
 * Fuente: Reporte Diario
 * Input: [../input/ReporteDiario/](../input/ReporteDiario)
@@ -113,7 +113,7 @@
 * Input: [../input/NuevaDefDefunciones/](../input/NuevaDefDefunciones)
 ## Producto 38
 * Fuente: Informe Epidemiologico
-* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+* Input: [../input/InformeEpidemiologico/CasosActivosPorComuna.csv](../input/InformeEpidemiologico/CasosActivosPorComuna.csv)
 ## Producto 39
 * Fuente: Informe Epidemiologico
 * Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
@@ -129,3 +129,12 @@
 ## Producto 43
 * Fuente: MMA
 * Input: [../input/MMA/](../input/MMA)
+## Producto 44
+* Fuente: Reporte diario
+* Input: [../input/ReporteDiario/](../input/ReporteDiario)
+## Producto 45
+* Fuente: Informe Epidemiologico
+* Input: [../input/InformeEpidemiologico/](../input/InformeEpidemiologico)
+## Producto 46
+* Fuente: Curvas Epidemiologia
+* Input: [../input/Curvas_epi/activos vs recuperados.csv](../input/Curvas_epi/activos vs recuperados.csv)
