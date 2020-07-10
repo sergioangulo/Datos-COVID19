@@ -61,10 +61,13 @@ def prod_46(url, user, password, prod):
         data.append(df_aux)
     data = pd.concat(data)
 
+    #ordenamos las columnas
     sorted_columns = ['Serie'] + [x for x in data.columns if x != 'Serie']
     data = data[sorted_columns]
+    data.to_csv(prod + '.csv')
 
-    data.to_csv(prod + 'test.csv')
+    data_t = data.T
+    data_t.to_csv(prod + '_T.csv')
 
 
 
