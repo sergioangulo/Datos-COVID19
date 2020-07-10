@@ -32,13 +32,14 @@ import re
 
 def regionName(df):
     df["Region"] = df["Region"].replace({"Arica - Parinacota": "Arica y Parinacota",
+                                         "Arica Parinacota": "Arica y Parinacota",
                                          "Tarapaca": "Tarapacá", "Valparaiso": "Valparaíso",
                                          "Región Metropolitana de Santiago": "Metropolitana",
                                          "Metropolitana de Santiago": "Metropolitana",
                                          "Del Libertador General Bernardo O’Higgins": "O’Higgins",
                                          "Libertador General Bernardo OHiggins": "O’Higgins",
                                          "Libertador General Bernardo O'Higgins": "O’Higgins",
-                                         "Metropolitana de Santiago": "O’Higgins",
+                                         "Libertador Gral. B. O'Higgins": "O’Higgins",
                                          "Nuble": "Ñuble",
                                          "Biobio": "Biobío", "Concepción": "Biobío",
                                          "La Araucania": "Araucanía", "la Araucanía": "Araucanía",
