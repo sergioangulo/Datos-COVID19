@@ -565,11 +565,11 @@ def prod3_13_14_26_27(fte, fte2,ft3):
 
     df.to_csv('../output/producto47/MediaMovil.csv', index=False)
     df.T.to_csv('../output/producto47/MediaMovil_T.csv', header=False)
-    identifiers = ['Region']
-    variables = [x for x in mediamovil.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                 value_name='Media movil')
-    df_std.to_csv('../output/producto27/MediaMovil_std.csv', index=False)
+    #identifiers = ['Region']
+    #variables = [x for x in mediamovil.columns if x not in identifiers]
+    #df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    #             value_name='Media movil')
+    #df_std.to_csv('../output/producto27/MediaMovil_std.csv', index=False)
 
 
 def prod7_8(fte, producto):
