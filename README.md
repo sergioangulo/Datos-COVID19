@@ -98,6 +98,11 @@ Cada archivo entrega los datos de la emisión de un contaminante durante un año
 
 [Data Product 46 - Curva Activos vs. Recuperados](output/producto46): Este producto da cuenta de los casos activos y recuperados totales por día, acorde a la fecha de inicio de síntomas. Se actualiza la curva completa diaramente. [Ver más](output/producto46)
 
+[Data Product 47 - Media Movil](output/producto47): Este producto da cuenta de la media movil semanal. [Ver más](output/producto47)
+
+[Data Product 48 - SOCHIMI](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama.
+Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional
+ de la Fundación Ciencia & Vida. [Ver más](output/producto48)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
