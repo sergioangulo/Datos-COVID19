@@ -561,6 +561,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
     for i in columnas:
         df_t[i] = df_t[i].div(pop.iloc[i]['Poblacion'])
         df_t[i] = df_t[i].mul(100000)
+        df_t[i] = df_t[i].round(1)
     df = mediamovil.append(df_t, ignore_index=False, sort=False)
 
     df.T.to_csv('../output/producto47/MediaMovil.csv', index=True)
