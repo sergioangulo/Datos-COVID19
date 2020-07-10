@@ -24,21 +24,45 @@ SOFTWARE.
 import sys
 import requests
 import pandas as pd
-
+from utils import *
 
 def prod_46(url, user, password, prod):
     print('generando prod46')
-    print('asking to ' + url)
-    print('user: ' + user)
-    print('password: ' + password)
+    #print('asking to ' + url)
+    #print('user: ' + '*' * len(user))
+    #print('password: ' + '*' * len(password))
     r = requests.get(url, auth=(user, password))
-    print(r.json())
-    for
+    #print(r.json())
+    #for each_fecha in r.json():
+    #    print(each_fecha)
+    df_std = pd.DataFrame(r.json())
+    #print(df.head(20).to_string())
+    #print(df.columns)
+    df_std.columns = map(str.capitalize, df_std.columns)
+    df_std.columns = df_std.columns.str.replace('_', ' ')
+    df_std.rename(columns={'Region id': 'Codigo region'}, inplace=True)
+
+    df_std['Fecha'] = df_std['Fecha'].str[:10]
+
+    df_std['Region'] = df_std['Region'].str.replace('De ', '')
+    df_std['Region'] = df_std['Region'].str.replace('Del ', '')
+    regionName(df_std)
+
+    #df es el _std
+    #print(df_std.head(50).to_string())
+    df_std.to_csv(prod + '_std.csv', index=False)
+
+
+    df = df_std.set_index(['Fecha','Codigo region','Region', 'Servicio salud']).unstack(level=0)
+
+    print(df.head(20).to_string())
+    df.to_csv(prod + 'test.csv')
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 4:
         url = sys.argv[1]
         user = sys.argv[2]
         password = sys.argv[3]
-        prod_46(url, user, password, 'lala')
+        prod_46(url, user, password, 'Test')
 
