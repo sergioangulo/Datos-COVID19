@@ -67,7 +67,8 @@ def prod_46(url, user, password, prod):
     data.to_csv(prod + '.csv')
 
     data_t = data.T
-    data_t.to_csv(prod + '_T.csv')
+
+    data_t.to_csv(prod + '_T.csv', index_label=False)
 
 
 
