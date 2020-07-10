@@ -564,7 +564,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
     df = mediamovil.append(df_t, ignore_index=False, sort=False)
 
     df.T.to_csv('../output/producto47/MediaMovil.csv', index=True)
-    df.to_csv('../output/producto47/MediaMovil_T.csv', header=True)
+    df.to_csv('../output/producto47/MediaMovil_T.csv', header=False)
     #identifiers = ['Region']
     #variables = [x for x in mediamovil.columns if x not in identifiers]
     #df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
