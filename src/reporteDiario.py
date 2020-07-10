@@ -229,7 +229,7 @@ def prod5(fte, producto):
     df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
-def prod3_13_14_26_27(fte, fte2):
+def prod3_13_14_26_27(fte, fte2,ft3):
 
 #------------------ input directory: CasosProbables. In Reporte Diario since 2020-06-21
 
@@ -451,10 +451,9 @@ def prod3_13_14_26_27(fte, fte2):
                     casosActivosProbables[date] = dataframe['Casos activos probables']
 
 
+    # estandarizar nombres de regiones
     regionName(casosProbablesAcumulados)
     regionName(casosActivosProbables)
-
-    # estandarizar nombres de regiones
     regionName(cumulativoCasosNuevos)
     regionName(cumulativoCasosTotales)
     regionName(cumulativoFallecidos)
@@ -463,7 +462,6 @@ def prod3_13_14_26_27(fte, fte2):
     regionName(casosNuevosSinNotificar)
     regionName(casosConfirmadosRecuperados)
     regionName(casosActivosConfirmados)
-
     cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
     cumulativoFallecidos_T = cumulativoFallecidos.transpose()
@@ -516,6 +514,7 @@ def prod3_13_14_26_27(fte, fte2):
     df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
 
 
+
     #### PRODUCTO 13
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
     cumulativoCasosNuevos_T.to_csv('../output/producto13/CasosNuevosCumulativo_T.csv', header=False)
@@ -551,6 +550,27 @@ def prod3_13_14_26_27(fte, fte2):
     df_std = pd.melt(casosNuevosSinSintomas, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Casos confirmados')
     df_std.to_csv('../output/producto27/CasosNuevosSinSintomas_std.csv', index=False)
+
+    #### PRODUCTO 47
+
+    pop = pd.read_csv(ft3)
+    mediamovil = pd.merge(pop, cumulativoCasosNuevos, on='Region', how='outer')
+    df_t = mediamovil.T[3:].rolling(7).mean()
+    mediamovil = mediamovil.T[0:1]
+    columnas = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    for i in columnas:
+        df_t[i] = df_t[i].div(pop.iloc[i]['Poblacion'])
+        df_t[i] = df_t[i].mul(100000)
+        df_t[i] = df_t[i].round(1)
+    df = mediamovil.append(df_t, ignore_index=False, sort=False)
+
+    df.T.to_csv('../output/producto47/MediaMovil.csv', index=True)
+    df.to_csv('../output/producto47/MediaMovil_T.csv', header=False)
+    #identifiers = ['Region']
+    #variables = [x for x in mediamovil.columns if x not in identifiers]
+    #df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    #             value_name='Media movil')
+    #df_std.to_csv('../output/producto47/MediaMovil_std.csv', index=False)
 
 
 def prod7_8(fte, producto):
@@ -654,41 +674,14 @@ def prod44(fte, producto):
                      value_name='Egresos')
     df_std.to_csv(producto + '_std.csv', index=False)
 
-def prod3Aux(fte, producto):
-    print('Generando input parte de DP3')
-    now = datetime.now()
-    today = now.strftime("%Y-%m-%d")
-    #today = datetime.strftime(datetime.now() - timedelta(10), '%Y-%m-%d')
-    output = producto + today + '-CasosProbables-totalRegional.csv'
-    df = pd.read_csv(fte, quotechar='"', sep=',', thousands=r'.', decimal=",")
-    df.rename(columns={'Unnamed: 0': 'Region'}, inplace=True)
-    if 'Unnamed: 7' in df.columns:
-        df.drop(columns=['Unnamed: 7'], inplace=True)
-
-    df_obj = df.select_dtypes(['object'])
-    df[df_obj.columns] = df_obj.apply(lambda x: x.str.strip())
-    regionName(df)
-    df.at[16, 'Region'] = 'Total'
-    # texttract reconoce 0 como o
-    df.replace({'O': 0}, inplace=True)
-    df.fillna('', inplace=True)
-    numeric_columns = [x for x in df.columns if x != 'Region']
-    for i in numeric_columns:
-        df[i] = df[i].astype(str)
-        #df[i] = df[i].replace({r'\.': ''}, regex=True)
-        df[i] = df[i].replace({r'\,': '.'}, regex=True)
-
-    df.to_csv(output, index=False)
 
 if __name__ == '__main__':
 
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
-
     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
     print('Generando productos 3, 13, 14, 26 y 27')
-    #prod3Aux('../input/ReporteDiario/CasosProbables-Regional.csv', '../input/ReporteDiario/CasosProbables/')
-    prod3_13_14_26_27('../output/producto4/','../input/ReporteDiario/CasosProbables/')
+    prod3_13_14_26_27('../output/producto4/','../input/ReporteDiario/CasosProbables/','../input/ReporteDiario/Regiones.csv')
 
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
