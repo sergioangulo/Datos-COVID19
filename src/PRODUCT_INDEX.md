@@ -138,3 +138,9 @@
 ## Producto 46
 * Fuente: Curvas Epidemiologia
 * Input: [../input/Curvas_epi/activos vs recuperados.csv](../input/Curvas_epi/activos vs recuperados.csv)
+## Producto 47
+* Fuente: Reporte diario
+* Input: [../input/ReporteDiario/](../input/ReporteDiario)
+## Producto 48
+* Fuente: SOCHIMI
+* Input: API
