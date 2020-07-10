@@ -557,7 +557,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
     mediamovil = pd.merge(pop, cumulativoCasosNuevos, on='Region', how='outer')
     df_t = mediamovil.T[3:].rolling(7).mean()
     mediamovil = mediamovil.T[0:1]
-    columnas = list(range(0, 17))
+    columnas = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
     for i in columnas:
         df_t[i] = df_t[i].div(pop.iloc[i]['Poblacion'])
         df_t[i] = df_t[i].mul(100000)
