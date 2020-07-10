@@ -61,21 +61,30 @@ def normalizaNombreCodigoRegionYComuna(df):
     df["Comuna"] = df["Comuna"].replace({"Coyhaique": "coihaique",
                                          "Paihuano": "paiguano",
                                          "La Calera": "Calera",
-                                         "Llay-Llay": "Llaillay",
+                                         "Llay-Llay": "Llaillay"
                                          })
 
     # Lee IDs de comunas desde página web oficial de SUBDERE
     df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls",
                                    encoding="utf-8")
 
+    ##AYSEN issue
+    print('SEBAWTF')
+    df_dim_comunas['Nombre Comuna'] = df_dim_comunas['Nombre Comuna'].replace({"Aisén": "Aysen"})
+    df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
+    print(df_dim_comunas.to_string())
+    print("change comuna Aisen to Aysen from subdere")
+
     # Crea columna sin tildes, para hacer merge con datos publicados
     #df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
     df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD")\
         .str.encode("ascii", errors="ignore").str.decode("utf-8").str.lower().str.replace(' ', '')
 
-
     df["Comuna"] = df["Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")\
         .str.lower().str.replace(' ', '')
+
+
+    #print(df.to_string())
 
     #df = df.merge(df_dim_comunas, on="Comuna", how="outer")
     df = df.merge(df_dim_comunas, on="Comuna", how="inner")
@@ -98,6 +107,7 @@ def normalizaNombreCodigoRegionYComuna(df):
     #report on missing
     df1 = df[df.isnull().any(axis=1)]
     if df1.size > 0:
+        print('These are missing')
         print(df1.to_string())
 
     df = df[sortedColumns]
@@ -135,10 +145,14 @@ def std_getSuperficieComunasOfficial(input):
         'COMUNA': 'Comuna',
         'SUPERFICIE': 'Superficie_km2'
     }, inplace=True)
-    print(df.to_string())
+
     #missing antartica comuna 12202
     #df["Comuna"] = df["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
+    print("change comuna Aisen to Aysen from bienes")
+    df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
     df = normalizaNombreCodigoRegionYComuna(df)
+    print(df.to_string())
+    #print(df['Comuna'].to_string())
 
     return df
 
@@ -154,14 +168,16 @@ def std_getPoblacion(fte, std_df):
 
     columnsToKeep = ['Codigo comuna', 'Poblacion']
     df = df[columnsToKeep]
-
+    print('Keeping ' + str(df.columns))
     # if there is a poblacion columns, drop it
+    print('std_df.columns = ' + str(std_df.columns))
     if 'Poblacion' in std_df:
         std_df = std_df.drop(columns=['Poblacion'])
 
     columnsToKeep = list(std_df)
     columnsToKeep.append('Poblacion')
     std_df = std_df.merge(df, on="Codigo comuna", how="outer")
+    print('Poblacion total es ' + str(std_df['Poblacion'].sum()))
     return std_df
 
 
@@ -170,7 +186,6 @@ def writeStandardsToFile(prod):
     Actualizamos y/o generamos el archivo con entradas mas estables para las comunas:
     Region,Codigo region,Comuna,Codigo comuna,Superficie_km2,Poblacion
     '''
-    #out = std_getSuperficieComunas('https://es.wikipedia.org/wiki/Anexo:Comunas_de_Chile')
     out = std_getSuperficieComunasOfficial('../input/Otros/2020.xlsx')
     out = std_getPoblacion('../output/producto1/Covid-19.csv', out)
     out.to_csv(prod, index=False)
@@ -189,7 +204,6 @@ def insertSuperficiePoblacion(df):
     df = df[sortedColumns]
 
     return df
-
 
 
 if __name__ == '__main__':
