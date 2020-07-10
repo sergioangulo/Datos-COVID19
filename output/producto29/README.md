@@ -46,6 +46,9 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**10-07-2020**
+- Se ajustan fechas de prórroga de cuarentenas vigentes.
+
 **01-07-2020**
 - Se ajustan fechas de prórroga de cuarentenas vigentes.
 
