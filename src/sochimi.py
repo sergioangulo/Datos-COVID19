@@ -77,5 +77,5 @@ if __name__ == '__main__':
         url = sys.argv[1]
         user = sys.argv[2]
         password = sys.argv[3]
-        prod_46(url, user, password, 'Test')
+        prod_46(url, user, password, '../output/producto48/SOCHIMI')
 
