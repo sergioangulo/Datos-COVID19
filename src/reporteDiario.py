@@ -22,7 +22,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-
 """
 Los productos que salen del reporte diario son:
 3
@@ -45,6 +44,7 @@ Los productos que salen del reporte diario son:
 30
 36
 44
+47
 """
 
 import pandas as pd
@@ -77,10 +77,11 @@ def prod4(fte, producto):
     numeric_columns = [x for x in df.columns if x != 'Region']
     for i in numeric_columns:
         df[i] = df[i].astype(str)
-        #df[i] = df[i].replace({r'\.': ''}, regex=True)
+        # df[i] = df[i].replace({r'\.': ''}, regex=True)
         df[i] = df[i].replace({r'\,': '.'}, regex=True)
 
     df.to_csv(output, index=False)
+
 
 def prod5(fte, producto):
     print('Generando producto 5')
@@ -98,19 +99,19 @@ def prod5(fte, producto):
     timestamp = now.strftime("%Y-%m-%d")
     df_input_file = pd.read_csv(fte + 'CasosConfirmadosTotales.csv')
     df_input_file['Fecha'] = pd.to_datetime(df_input_file['Fecha'], format='%d-%m-%Y')
-    #print(df_input_file.to_string())
-    #las columnas son :
+    # print(df_input_file.to_string())
+    # las columnas son :
     # Casos totales acumulados  Casos nuevos totales  Casos nuevos con sintomas  Casos nuevos sin sintomas*  Casos nuevos sin notificar Fallecidos totales  Casos activos confirmados
 
     df_input_file.rename(columns={'Casos totales acumulados': 'Casos totales',
-                      'Casos nuevos totales': 'Casos nuevos totales',
-                      'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
-                      'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
-                      'Fallecidos totales': 'Fallecidos'}, inplace=True)
+                                  'Casos nuevos totales': 'Casos nuevos totales',
+                                  'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
+                                  'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
+                                  'Fallecidos totales': 'Fallecidos'}, inplace=True)
 
-    #print(timestamp)
+    # print(timestamp)
     last_row = df_input_file[df_input_file['Fecha'] == timestamp]
-    #print(last_row.to_string())
+    # print(last_row.to_string())
 
     df_output_file = pd.read_csv(producto)
 
@@ -120,16 +121,16 @@ def prod5(fte, producto):
 
     df_output_file.index = pd.to_datetime(df_output_file.index, format='%Y-%m-%d')
     df_output_file.index.name = 'Fecha'
-    #print(df_output_file.index)
-    #print(last_row['Fecha'].values[0])
+    # print(df_output_file.index)
+    # print(last_row['Fecha'].values[0])
     if last_row['Fecha'].values[0] in df_output_file.index:
         print('Fecha was there, overwriting it')
         df_output_file.drop(last_row['Fecha'].values[0], axis=0, inplace=True)
-        #print(df_output_file.to_string())
+        # print(df_output_file.to_string())
         last_row.index = last_row['Fecha']
         last_row.drop(columns=['Fecha'], inplace=True)
         df_output_file = df_output_file.append(last_row)
-        #print(df_output_file.to_string())
+        # print(df_output_file.to_string())
 
     else:
         print('new date, adding row')
@@ -148,7 +149,7 @@ def prod5(fte, producto):
 
     for i in df_output_file.index:
         if i >= fecha_de_corte:
-            #print(str(i))
+            # print(str(i))
             # Casos activos por FIS parten el 2 de Junio por definicion y corresponden a los casos activos del reporte diario
             df_output_file.loc[i, 'Casos activos por FIS'] = df_output_file.loc[i, 'Casos activos']
             # Recuperados FIS se calculan restando fallecidos y activos FIS
@@ -161,30 +162,32 @@ def prod5(fte, producto):
 
             # Casos activos por FD = casos activos hasta el 2 de Junio. Antes de eso se copian casos activos
 
-            #df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
-            #print(i)
+            # df.loc[i, 'C'] = df.loc[i - 1, 'C'] * df.loc[i, 'A'] + df.loc[i, 'B']
+            # print(i)
             if (i - fourteen_days) in df_output_file.index:
-                #print('14 days ago is on the df')
+                # print('14 days ago is on the df')
                 df_output_file.loc[i, 'Casos activos por FD'] = df_output_file.loc[i, 'Casos totales'] - \
                                                                 df_output_file.loc[i - fourteen_days, 'Casos totales']
                 if i == correccion_2020_06_17:
                     # activos de hoy = activos de ayer + casos de hoy - casos (t-14) - muertos hoy .  Les daría 75346 ...
                     print('Corrigiendo el 2020-06-17')
                     df_output_file.loc[i, 'Casos activos por FD'] = \
-                        df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD'] +\
-                        df_output_file.loc[i, 'Casos nuevos totales'] -\
-                        df_output_file.loc[i - fourteen_days, 'Casos nuevos totales'] -\
+                        df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD'] + \
+                        df_output_file.loc[i, 'Casos nuevos totales'] - \
+                        df_output_file.loc[i - fourteen_days, 'Casos nuevos totales'] - \
                         df_output_file.loc[i, 'Fallecidos'] + \
                         df_output_file.loc[i - timedelta(days=1), 'Fallecidos']
                     print('Casos activos por FD hoy: ' + str(df_output_file.loc[i, 'Casos activos por FD']))
-                    print('Casos activos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD']))
+                    print(
+                        'Casos activos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD']))
                     print('Casoso nuevos totales hoy : ' + str(df_output_file.loc[i, 'Casos nuevos totales']))
-                    print('Casos totales 14 dias atras: ' + str(df_output_file.loc[i - fourteen_days, 'Casos nuevos totales']))
+                    print('Casos totales 14 dias atras: ' + str(
+                        df_output_file.loc[i - fourteen_days, 'Casos nuevos totales']))
                     print('Fallecidos hoy: ' + str(df_output_file.loc[i, 'Fallecidos']))
                     print('Fallecidos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Fallecidos']))
             else:
                 print(str(i) + ' has no data 14 days ago')
-                #df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
+                # df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
                 #                                    df_output_file.loc[i - fourteen_days_ago, 'Casos totales']
 
             # Es igual a recuperados hasta el 1 de junio (inclusive), desde el 2 se calcula
@@ -207,38 +210,37 @@ def prod5(fte, producto):
     df_output_file.sort_index(inplace=True)
     totales = df_output_file.T
 
-    #print(totales.to_string())
-    #print(totales.columns[1:])
+    # print(totales.to_string())
+    # print(totales.columns[1:])
 
     ## esto es estandar
-    #totales = pd.read_csv(producto)
-    #print(totales.columns.dtype)
+    # totales = pd.read_csv(producto)
+    # print(totales.columns.dtype)
     totales.columns = totales.columns.astype(str)
 
-    #print(totales.to_string())
+    # print(totales.to_string())
 
     totales.to_csv(producto, index_label='Fecha')
     totales_t = totales.transpose()
     totales_t.to_csv(producto.replace('.csv', '_T.csv'))
-    #print(totales.to_string())
+    # print(totales.to_string())
 
     df_std = pd.melt(totales.reset_index(), id_vars='index', value_vars=totales.columns)
-    #df_std = pd.read_csv(producto.replace('.csv', '_T.csv'))
+    # df_std = pd.read_csv(producto.replace('.csv', '_T.csv'))
     df_std.rename(columns={'index': 'Dato', 'value': 'Total'}, inplace=True)
-    #print(df_std.to_string())
+    # print(df_std.to_string())
     df_std.to_csv(producto.replace('.csv', '_std.csv'), index=False)
 
 
-def prod3_13_14_26_27(fte, fte2,ft3):
-
-#------------------ input directory: CasosProbables. In Reporte Diario since 2020-06-21
+def prod3_13_14_26_27_47(fte, fte2, ft3):
+    # ------------------ input directory: CasosProbables. In Reporte Diario since 2020-06-21
 
     onlyfiles = [f for f in listdir(fte2) if isfile(join(fte2, f))]
 
     casosProbablesAcumulados = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
+                                             'Fecha': []})
     casosActivosProbables = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
+                                          'Fecha': []})
 
     onlyfiles.sort()
     for eachfile in onlyfiles:
@@ -247,7 +249,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
         dataframe2 = pd.read_csv(fte2 + eachfile)
 
         # sanitize headers
-    
+
         dataframe2.rename(columns={'Región': 'Region'}, inplace=True)
         dataframe2.rename(columns={'Casos  probables acumulados': 'Casos probables acumulados'}, inplace=True)
         dataframe2.rename(columns={' Casos probables acumulados': 'Casos probables acumulados'}, inplace=True)
@@ -271,8 +273,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
             else:
                 casosActivosProbables[date] = dataframe2['Casos activos probables']
 
-
-#------------- producto3 (before 2020-06-21 and addition to Tabla 1 in Reporte Diario)
+    # ------------- producto3 (before 2020-06-21 and addition to Tabla 1 in Reporte Diario)
 
     onlyfiles = [f for f in listdir(fte) if isfile(join(fte, f))]
     cumulativoCasosNuevos = pd.DataFrame({'Region': [],
@@ -282,16 +283,15 @@ def prod3_13_14_26_27(fte, fte2,ft3):
     cumulativoFallecidos = pd.DataFrame({'Region': [],
                                          'Fallecidos': []})
     casosNuevosConSintomas = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
+                                           'Fecha': []})
     casosNuevosSinSintomas = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
+                                           'Fecha': []})
     casosNuevosSinNotificar = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
+                                            'Fecha': []})
     casosConfirmadosRecuperados = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
+                                                'Fecha': []})
     casosActivosConfirmados = pd.DataFrame({'Region': [],
-                                         'Fecha': []})
-
+                                            'Fecha': []})
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -300,7 +300,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
-        #print(eachfile)
+        # print(eachfile)
         dataframe.rename(columns={'Región': 'Region'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos': 'Casos nuevos'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos': 'Casos nuevos'}, inplace=True)
@@ -313,7 +313,6 @@ def prod3_13_14_26_27(fte, fte2,ft3):
         dataframe.rename(columns={'Casos  totales  acumulados': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={'Casos totales acumulados ': 'Casos totales'}, inplace=True)
         dataframe.rename(columns={'Casos totales acumulados': 'Casos totales'}, inplace=True)
-
 
         dataframe.rename(columns={' Casos fallecidos': 'Fallecidos'}, inplace=True)
         dataframe.rename(columns={'Fallecidos totales ': 'Fallecidos'}, inplace=True)
@@ -356,7 +355,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
         dataframe.rename(columns={' Casos activos confirmados': 'Casos activos confirmados'}, inplace=True)
         dataframe.rename(columns={'Casos  activos  confirmados': 'Casos activos confirmados'}, inplace=True)
 
-        #if 'Se desconoce región de origen' in dataframe['Region']:
+        # if 'Se desconoce región de origen' in dataframe['Region']:
         dataframe = dataframe[dataframe['Region'] != 'Se desconoce región de origen']
         dataframe.reset_index(drop=True, inplace=True)
 
@@ -366,7 +365,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
             cumulativoCasosTotales[['Region', 'Casos totales']] = dataframe[['Region', 'Casos totales']]
             cumulativoCasosTotales.rename(columns={'Casos totales': date}, inplace=True)
         else:
-            #print(dataframe.columns)
+            # print(dataframe.columns)
             cumulativoCasosNuevos[date] = dataframe['Casos nuevos']
             cumulativoCasosTotales[date] = dataframe['Casos totales']
 
@@ -387,11 +386,10 @@ def prod3_13_14_26_27(fte, fte2,ft3):
             date2 = (pd.to_datetime(date)).strftime('%Y-%m-%d')
             if date2 < '2020-04-29':
                 if casosNuevosConSintomas['Region'].empty:
-                    casosNuevosConSintomas[['Region', 'Fecha']] = dataframe[['Region','Casos nuevos']]
+                    casosNuevosConSintomas[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos']]
                     casosNuevosConSintomas.rename(columns={'Fecha': date}, inplace=True)
                 else:
                     casosNuevosConSintomas[date] = dataframe['Casos nuevos']
-
 
         if 'Casos nuevos sin sintomas' in dataframe.columns:
             if casosNuevosSinSintomas['Region'].empty:
@@ -407,10 +405,10 @@ def prod3_13_14_26_27(fte, fte2,ft3):
             else:
                 casosNuevosSinNotificar[date] = dataframe['Casos nuevos sin notificar']
 
-
         if 'Casos confirmados recuperados' in dataframe.columns:
             if casosConfirmadosRecuperados['Region'].empty:
-                casosConfirmadosRecuperados[['Region', 'Fecha']] = dataframe[['Region', 'Casos confirmados recuperados']]
+                casosConfirmadosRecuperados[['Region', 'Fecha']] = dataframe[
+                    ['Region', 'Casos confirmados recuperados']]
                 casosConfirmadosRecuperados.rename(columns={'Fecha': date}, inplace=True)
             else:
                 casosConfirmadosRecuperados[date] = dataframe['Casos confirmados recuperados']
@@ -436,7 +434,7 @@ def prod3_13_14_26_27(fte, fte2,ft3):
             dataframe.rename(columns={'Casos  activos  probables': 'Casos activos probables'}, inplace=True)
 
             if 'Casos probables acumulados' in dataframe.columns:
-                print(date, type(date))
+                # print(date, type(date))
                 if casosProbablesAcumulados['Region'].empty:
                     casosProbablesAcumulados[['Region', 'Fecha']] = dataframe[['Region', 'Casos probables acumulados']]
                     casosProbablesAcumulados.rename(columns={'Fecha': date}, inplace=True)
@@ -449,7 +447,6 @@ def prod3_13_14_26_27(fte, fte2,ft3):
                     casosActivosProbables.rename(columns={'Fecha': date}, inplace=True)
                 else:
                     casosActivosProbables[date] = dataframe['Casos activos probables']
-
 
     # estandarizar nombres de regiones
     regionName(casosProbablesAcumulados)
@@ -475,31 +472,29 @@ def prod3_13_14_26_27(fte, fte2,ft3):
 
     #### PRODUCTO 3
 
-    names = ['Casos acumulados','Casos nuevos totales','Casos nuevos con sintomas','Casos nuevos sin sintomas',
-                                'Casos nuevos sin notificar','Fallecidos totales','Casos confirmados recuperados',
-                                'Casos activos confirmados','Casos activos probables','Casos probables acumulados']
-    frames = [cumulativoCasosTotales,cumulativoCasosNuevos,casosNuevosConSintomas,casosNuevosSinSintomas,
-                                casosNuevosSinNotificar,cumulativoFallecidos,casosConfirmadosRecuperados,
-                                casosActivosConfirmados,casosActivosProbables,casosProbablesAcumulados]
-
+    names = ['Casos acumulados', 'Casos nuevos totales', 'Casos nuevos con sintomas', 'Casos nuevos sin sintomas',
+             'Casos nuevos sin notificar', 'Fallecidos totales', 'Casos confirmados recuperados',
+             'Casos activos confirmados', 'Casos activos probables', 'Casos probables acumulados']
+    frames = [cumulativoCasosTotales, cumulativoCasosNuevos, casosNuevosConSintomas, casosNuevosSinSintomas,
+              casosNuevosSinNotificar, cumulativoFallecidos, casosConfirmadosRecuperados,
+              casosActivosConfirmados, casosActivosProbables, casosProbablesAcumulados]
 
     for i in range(len(names)):
 
-        list = [names[i]]*len(cumulativoCasosTotales)
+        list = [names[i]] * len(cumulativoCasosTotales)
         temp = pd.DataFrame.copy(frames[i])
-        temp.insert(1,'Categoria',list)
+        temp.insert(1, 'Categoria', list)
 
         if i == 0: TotalesPorRegion = temp
         if i > 0:
-            TotalesPorRegion = pd.concat([TotalesPorRegion,temp],axis=0)
-
+            TotalesPorRegion = pd.concat([TotalesPorRegion, temp], axis=0)
 
     TotalesPorRegion = TotalesPorRegion.fillna('')
     TotalesPorRegion_T = TotalesPorRegion.transpose()
 
     TotalesPorRegion.to_csv('../output/producto3/TotalesPorRegion.csv', index=False)
     TotalesPorRegion_T.to_csv('../output/producto3/TotalesPorRegion_T.csv', header=False)
-    identifiers = ['Region','Categoria']
+    identifiers = ['Region', 'Categoria']
     variables = [x for x in TotalesPorRegion.columns if x not in identifiers]
     df_std = pd.melt(TotalesPorRegion, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Total')
@@ -512,8 +507,6 @@ def prod3_13_14_26_27(fte, fte2,ft3):
     df_std = pd.melt(cumulativoCasosTotales, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Total')
     df_std.to_csv('../output/producto3/CasosTotalesCumulativo_std.csv', index=False)
-
-
 
     #### PRODUCTO 13
     cumulativoCasosNuevos.to_csv('../output/producto13/CasosNuevosCumulativo.csv', index=False)
@@ -553,24 +546,37 @@ def prod3_13_14_26_27(fte, fte2,ft3):
 
     #### PRODUCTO 47
 
-    pop = pd.read_csv(ft3)
+    #pop = pd.read_csv(ft3)
+    pop2 = pd.read_csv(ft3)
+    aux = pop2.groupby(['Region', 'Codigo region'])['Poblacion'].sum()
+    aux = aux.reset_index()
+    regionName(aux)
+
+    Total_row = {'Region': 'Total', 'Codigo region': np.NaN, 'Poblacion': aux['Poblacion'].sum()}
+    aux = aux.append(Total_row, ignore_index=True)
+    pop = aux
+
     mediamovil = pd.merge(pop, cumulativoCasosNuevos, on='Region', how='outer')
+    print(mediamovil.head(20).to_string())
     df_t = mediamovil.T[3:].rolling(7).mean()
     mediamovil = mediamovil.T[0:1]
-    columnas = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
-    for i in columnas:
+    columnas = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    # for i in columnas:
+    for i in df_t.columns:
         df_t[i] = df_t[i].div(pop.iloc[i]['Poblacion'])
         df_t[i] = df_t[i].mul(100000)
         df_t[i] = df_t[i].round(1)
     df = mediamovil.append(df_t, ignore_index=False, sort=False)
 
-    df.T.to_csv('../output/producto47/MediaMovil.csv', index=True)
+    df.T.to_csv('../output/producto47/MediaMovil.csv', index=False)
     df.to_csv('../output/producto47/MediaMovil_T.csv', header=False)
-    #identifiers = ['Region']
-    #variables = [x for x in mediamovil.columns if x not in identifiers]
-    #df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-    #             value_name='Media movil')
-    #df_std.to_csv('../output/producto47/MediaMovil_std.csv', index=False)
+    df_t = df.T
+
+    identifiers = ['Region']
+    variables = [x for x in df_t.columns if x not in identifiers]
+    df_std = pd.melt(df.T, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Media movil')
+    df_std.to_csv('../output/producto47/MediaMovil_std.csv', index=False)
 
 
 def prod7_8(fte, producto):
@@ -657,11 +663,12 @@ def prod36(fte, producto):
     df = pd.read_csv(fte)
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Region','Categoria']
+    identifiers = ['Region', 'Categoria']
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Numero')
     df_std.to_csv(producto + '_std.csv', index=False)
+
 
 def prod44(fte, producto):
     copyfile(fte, producto + '.csv')
@@ -676,12 +683,12 @@ def prod44(fte, producto):
 
 
 if __name__ == '__main__':
-
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
     print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27('../output/producto4/','../input/ReporteDiario/CasosProbables/','../input/ReporteDiario/Regiones.csv')
+    prod3_13_14_26_27_47('../output/producto4/', '../input/ReporteDiario/CasosProbables/',
+                         '../input/Otros/InformacionComunas.csv')
 
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
