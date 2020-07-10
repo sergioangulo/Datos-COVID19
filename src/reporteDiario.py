@@ -552,13 +552,22 @@ def prod3_13_14_26_27(fte, fte2,ft3):
     df_std.to_csv('../output/producto27/CasosNuevosSinSintomas_std.csv', index=False)
 
     #### PRODUCTO 47
+
     pop = pd.read_csv(ft3)
-    mediamovil = pd.merge(pop,cumulativoCasosNuevos,on='Region',how='outer')
-    mediamovil.to_csv('../output/producto47/MediaMovil.csv', index=False)
-    mediamovil.T.to_csv('../output/producto47/MediaMovil_T.csv', header=False)
+    mediamovil = pd.merge(pop, cumulativoCasosNuevos, on='Region', how='outer')
+    df_t = mediamovil.T[3:].rolling(7).mean()
+    mediamovil = mediamovil.T[0:1]
+    columnas = list(range(0, 17))
+    for i in columnas:
+        df_t[i] = df_t[i].div(pop.iloc[i]['Poblacion'])
+        df_t[i] = df_t[i].mul(100000)
+    df = mediamovil.append(df_t, ignore_index=False, sort=False)
+
+    df.to_csv('../output/producto47/MediaMovil.csv', index=False)
+    df.T.to_csv('../output/producto47/MediaMovil_T.csv', header=False)
     identifiers = ['Region']
     variables = [x for x in mediamovil.columns if x not in identifiers]
-    df_std = pd.melt(mediamovil, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                  value_name='Media movil')
     df_std.to_csv('../output/producto27/MediaMovil_std.csv', index=False)
 
