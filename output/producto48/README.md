@@ -1,4 +1,4 @@
-# DP48 - ENCUESTA DIARIA REALIDAD NACIONAL INTENSIVO: Descripción
+# DP48 - Encuesta Diaria Realidad Nacional Medicina Intensiva: Descripción
 Archivo que da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de 
 camas, incluyendo: camas intensivas ocupadas, camas intensivas totales, camas intermedias ocupadas, camas intermedias 
 totales, ventiladores mecanicos invasivos (VMI) en uso por pacientes Covid19 confirmados y Covid19 sospechosos, Vmi 
