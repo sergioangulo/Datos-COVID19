@@ -681,6 +681,31 @@ def prod44(fte, producto):
                      value_name='Egresos')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod49(fte, fte2, producto):
+    # massage casos nuevos diarios
+    df2 = pd.read_csv(fte2, header=None).T
+    df2 = df2[[0, 7]]
+    df2 = df2[1:]
+    df2.rename(columns={0: 'fecha', 7: 'casos'}, inplace=True)
+
+    # massage tests diarios
+    df = pd.read_csv(fte, header=None).T
+    df = df[[0, 8]]
+    df = df[2:]
+    df.rename(columns={0: 'fecha', 8: 'pcr'}, inplace=True)
+
+    # positividad
+    positividad = pd.merge(df, df2, on='fecha', how='left')
+    positividad['positividad'] = positividad['casos'].astype(float).div(positividad['pcr'].astype(float)).round(4)
+
+    # moving average
+    positividad['mediamovil_positividad'] = positividad['positividad'].rolling(7).mean().round(4)
+
+    #write
+    positividad.to_csv(producto + '_T.csv', header=True)
+    positividad.T.to_csv(producto + '.csv', header=True)
+    ###falta std
+
 
 if __name__ == '__main__':
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
@@ -688,7 +713,7 @@ if __name__ == '__main__':
 
     print('Generando productos 3, 13, 14, 26 y 27')
     prod3_13_14_26_27_47('../output/producto4/', '../input/ReporteDiario/CasosProbables/',
-                         '../input/Otros/InformacionComunas.csv')
+                          '../input/Otros/InformacionComunas.csv')
 
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
@@ -729,3 +754,6 @@ if __name__ == '__main__':
 
     print('Generando producto 44')
     prod44('../input/ReporteDiario/EgresosHospitalarios.csv', '../output/producto44/EgresosHospitalarios')
+
+    print('Generando producto 49')
+    prod49('../input/ReporteDiario/PCREstablecimiento.csv','../output/producto13/CasosNuevosCumulativo.csv', '../output/producto49/Positividad_Diaria_Media')
