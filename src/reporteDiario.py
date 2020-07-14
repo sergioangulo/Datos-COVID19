@@ -703,8 +703,8 @@ def prod49(fte, fte2, producto):
 
     #write
     positividad.index = positividad['fecha']
-    positividad.to_csv(producto + '_T.csv', header=True)
-    positividad.T.to_csv(producto + '.csv', header=True)
+    positividad.to_csv(producto + '_T.csv', header=True, index=False)
+    positividad.T.to_csv(producto + '.csv', header=True, index=False)
     ###falta std
 
 
