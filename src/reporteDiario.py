@@ -702,6 +702,7 @@ def prod49(fte, fte2, producto):
     positividad['mediamovil_positividad'] = positividad['positividad'].rolling(7).mean().round(4)
 
     #write
+    positividad.index = positividad['fecha']
     positividad.to_csv(producto + '_T.csv', header=True)
     positividad.T.to_csv(producto + '.csv', header=True)
     ###falta std
