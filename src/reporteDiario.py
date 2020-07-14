@@ -686,25 +686,25 @@ def prod49(fte, fte2, producto):
     df2 = pd.read_csv(fte2, header=None).T
     df2 = df2[[0, 7]]
     df2 = df2[1:]
-    df2.rename(columns={0: 'fecha', 7: 'casos'}, inplace=True)
+    df2.rename(columns={0: 'Fecha', 7: 'casos'}, inplace=True)
 
     # massage tests diarios
     df = pd.read_csv(fte, header=None).T
     df = df[[0, 8]]
     df = df[2:]
-    df.rename(columns={0: 'fecha', 8: 'pcr'}, inplace=True)
+    df.rename(columns={0: 'Fecha', 8: 'pcr'}, inplace=True)
 
     # positividad
-    positividad = pd.merge(df, df2, on='fecha', how='left')
+    positividad = pd.merge(df, df2, on='Fecha', how='left')
     positividad['positividad'] = positividad['casos'].astype(float).div(positividad['pcr'].astype(float)).round(4)
 
     # moving average
     positividad['mediamovil_positividad'] = positividad['positividad'].rolling(7).mean().round(4)
 
     #write
-    positividad.index = positividad['fecha']
+    positividad.index = positividad['Fecha']
     positividad.to_csv(producto + '_T.csv', header=True, index=False)
-    positividad.T.to_csv(producto + '.csv', header=True, index=False)
+    positividad.T.to_csv(producto + '.csv', header=False, index=True)
     ###falta std
 
 
