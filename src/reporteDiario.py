@@ -705,7 +705,13 @@ def prod49(fte, fte2, producto):
     positividad.index = positividad['Fecha']
     positividad.to_csv(producto + '_T.csv', header=True, index=False)
     positividad.T.to_csv(producto + '.csv', header=False, index=True)
-    ###falta std
+
+
+    df_std = pd.melt(positividad, id_vars=['Fecha'], value_name='Total', var_name='Serie')
+    print(df_std.to_string())
+    df_std.to_csv(producto + '_std.csv', index=False)
+
+
 
 
 if __name__ == '__main__':
