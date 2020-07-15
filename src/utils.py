@@ -72,10 +72,10 @@ def normalizaNombreCodigoRegionYComuna(df):
                                    encoding="utf-8")
 
     ##AYSEN issue
-    print('SEBAWTF')
+
     df_dim_comunas['Nombre Comuna'] = df_dim_comunas['Nombre Comuna'].replace({"Aisén": "Aysen"})
     df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
-    print(df_dim_comunas.to_string())
+    #print(df_dim_comunas.to_string())
     print("change comuna Aisen to Aysen from subdere")
 
     # Crea columna sin tildes, para hacer merge con datos publicados
@@ -154,7 +154,7 @@ def std_getSuperficieComunasOfficial(input):
     print("change comuna Aisen to Aysen from bienes")
     df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
     df = normalizaNombreCodigoRegionYComuna(df)
-    print(df.to_string())
+    #print(df.to_string())
     #print(df['Comuna'].to_string())
 
     return df
