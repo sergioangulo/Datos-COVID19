@@ -46,8 +46,11 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**15-07-2020**<br>
+- Cambio de Estado en Cuarentenas Futuras a Activas (2) 
+
 **13-07-2020**
-- Se incorporan Cuarentenas notificadas (Res.Ex. pendiente) para el Radio Urbano de Arica (Re-ingreso) y Comuna de Rengo
+- Se incorporan Cuarentenas notificadas (Res.Ex. MINSAL 522 de 12 de julio de 2020) para el Radio Urbano de Arica (Re-ingreso) y Comuna de Rengo
 
 **10-07-2020**
 - Se ajustan fechas de prórroga de cuarentenas vigentes.
