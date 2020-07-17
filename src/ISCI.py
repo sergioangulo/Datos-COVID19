@@ -43,8 +43,12 @@ def prod50(url, prod):
     #get each week Monday as date
     df['Fecha'] = '2020-W' + df['Week'].astype(str) + '-1'
 
-    #df['Fecha'] = pd.datetime(df['Fecha'], format="%Y-W%W-%w")
-    print(df.dtypes)
+    for i in range(len(df)):
+        df.at[i, 'Fecha'] = dt.datetime.strptime(df.at[i, 'Fecha'], "%Y-W%W-%w")
+
+
+        #df['Fecha2'] = dt.datetime(df['Fecha'], format="%Y-W%W-%w")
+    #print(df.dtypes)
     print(df.head(10).to_string())
 
 
