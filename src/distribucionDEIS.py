@@ -56,4 +56,4 @@ def prod50(fte, producto):
 if __name__ == '__main__':
 
     print('Generando producto 50')
-    prod50('../input/DistribucionDEIS/2020-07-17-DefuncionesDEIS', '../output/producto50/DefuncionesDEISPorComuna')
+    prod50('../input/DistribucionDEIS/2020-07-19-DefuncionesDEIS', '../output/producto50/DefuncionesDEISPorComuna')
