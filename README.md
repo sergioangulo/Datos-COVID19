@@ -1,7 +1,7 @@
 # Datos-COVID19
 El objetivo de la Mesa de Datos COVID-19 liderada por el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación es disponer información de nuestro país durante la pandemia para promover el uso de datos para investigación científica, clínica y para soluciones innovadoras que contribuyan a la toma de decisiones de las autoridades y la ciudadanía frente a esta pandemia. Se disponen los datos epidemiológicos provenientes del Ministerio de Salud (MINSAL) y datos de otras fuentes, documentados y abiertos para el análisis de la comunidad, en concordancia con la [Ley Nº 19.628](https://www.leychile.cl/Navegar?idNorma=141599). 
 
-Ver http://www.minciencia.gob.cl/COVID19 para más información.
+Ver http://www.minciencia.gob.cl/COVID19 para más información, incluyendo actas de las reuniones de la mesa y también los informes publicados a la fecha.
 
 # Data Products
 
@@ -98,6 +98,9 @@ Cada archivo entrega los datos de la emisión de un contaminante durante un año
 
 [Data Product 46 - Curva Activos vs. Recuperados](output/producto46): Este producto da cuenta de los casos activos y recuperados totales por día, acorde a la fecha de inicio de síntomas. Se actualiza la curva completa diaramente. [Ver más](output/producto46)
 
+[Data Product 47 - Media Movil de Casos Nuevos por 100,000Hab.](output/producto47): Este producto da cuenta de la media movil semanal de casos nuevos confirmados por region, normalizado por cada 100,000 habitantes. [Ver más](output/producto47)
+
+[Data Product 48 - Encuesta diaria realidad nacional medicina intensiva(SOCHIMI)](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama. Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida. [Ver más](output/producto48)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 

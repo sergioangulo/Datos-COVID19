@@ -143,12 +143,14 @@ def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().s
     outputPrefix = ''
     if 'Nacimientos' in prod:
         print('Actualizando el producto 31')
-        suffix = 'nacimiento'
+        #suffix = 'nacimiento'
+        suffix = 'estnacimiento'
         outputPrefix = 'Nacimientos'
 
     elif 'Defunciones' in prod:
         print('Actualizando el producto 32')
-        suffix = 'defuncion'
+        #suffix = 'defuncion'
+        suffix = 'estdefuncion'
         outputPrefix = 'Defunciones'
 
     # get the xlsx from the API
@@ -359,7 +361,8 @@ if __name__ == '__main__':
         print('Generando el producto 32')
         prod31_32('../input/RegistroCivil/', '../output/producto32/')
     else:
-        URL = 'https://api.sed.srcei.cl/api/estadistica/'
+        #URL = 'https://api.sed.srcei.cl/api/estadistica/'
+        URL = 'https://apirs.srcei.cl/api/'
         if len(sys.argv) == 3:
             print('Actualizando productos entre ' + sys.argv[1] + ' y ' + sys.argv[2])
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/', fromDate=sys.argv[1], toDate=sys.argv[2])
