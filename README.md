@@ -102,6 +102,9 @@ Cada archivo entrega los datos de la emisión de un contaminante durante un año
 
 [Data Product 48 - Encuesta diaria realidad nacional medicina intensiva(SOCHIMI)](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama. Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida. [Ver más](output/producto48)
 
+[Data Product 50 - Defunciones notificadas por el Departamento de Estadísticas e Información Sanitaria (DEIS) por comuna](output/producto50): Descripción
+Datos que corresponden a los fallecidos en cada una de las comunas de Chile, según residencia y fecha [Ver más](output/producto50)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
