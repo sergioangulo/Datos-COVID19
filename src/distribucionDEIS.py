@@ -33,7 +33,7 @@ SOFTWARE.
 
 """
 Los productos que son alimentados con estos inputs son:
-15
+50
 """
 
 

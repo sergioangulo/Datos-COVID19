@@ -26,7 +26,7 @@ import requests
 import pandas as pd
 from utils import *
 
-def prod_46(url, user, password, prod):
+def prod_48(url, user, password, prod):
     print('generando prod46')
     #print('asking to ' + url)
     #print('user: ' + '*' * len(user))
@@ -78,5 +78,5 @@ if __name__ == '__main__':
         url = sys.argv[1]
         user = sys.argv[2]
         password = sys.argv[3]
-        prod_46(url, user, password, '../output/producto48/SOCHIMI')
+        prod_48(url, user, password, '../output/producto48/SOCHIMI')
 
