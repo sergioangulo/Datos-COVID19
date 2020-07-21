@@ -45,6 +45,7 @@ Los productos que salen del reporte diario son:
 36
 44
 47
+49
 """
 
 import pandas as pd
@@ -763,4 +764,4 @@ if __name__ == '__main__':
     prod44('../input/ReporteDiario/EgresosHospitalarios.csv', '../output/producto44/EgresosHospitalarios')
 
     print('Generando producto 49')
-    prod49('../input/ReporteDiario/PCREstablecimiento.csv','../output/producto13/CasosNuevosCumulativo.csv', '../output/producto49/Positividad_Diaria_Media')
+    prod49('../input/ReporteDiario/PCREstablecimiento.csv','../output/producto5/TotalesNacionales.csv', '../output/producto49/Positividad_Diaria_Media')
