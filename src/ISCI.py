@@ -28,9 +28,11 @@ import pandas as pd
 from utils import *
 import datetime as dt
 
-def prod50(url, prod):
-    print('Generando prod 50')
+def prod51(url, prod):
+    print('Generando prod 51')
     df = pd.read_csv(url)
+    print(df.to_string())
+    df.to_csv('test.csv')
 
     # drop empty columns
     df.dropna(axis=1, how='all', inplace=True)
@@ -39,6 +41,7 @@ def prod50(url, prod):
     df.columns = map(str.capitalize, df.columns)
     df.columns = df.columns.str.replace('_', ' ')
     df = normalizaNombreCodigoRegionYComuna(df)
+    regionName(df)
 
     #get each week Monday as date
     df['Fecha'] = '2020-W' + df['Week'].astype(str) + '-1'
@@ -46,13 +49,12 @@ def prod50(url, prod):
     for i in range(len(df)):
         df.at[i, 'Fecha'] = dt.datetime.strptime(df.at[i, 'Fecha'], "%Y-W%W-%w")
 
+    ## This is the std product
+    df.to_csv(prod + '/ISCI_std.csv', index=False)
 
-        #df['Fecha2'] = dt.datetime(df['Fecha'], format="%Y-W%W-%w")
-    #print(df.dtypes)
-    print(df.head(10).to_string())
 
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
         url = sys.argv[1]
-        prod50(url, 'tests')
+        prod51(url, '../output/producto51')
