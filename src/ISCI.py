@@ -31,8 +31,7 @@ import datetime as dt
 def prod51(url, prod):
     print('Generando prod 51')
     df = pd.read_csv(url)
-    print(df.to_string())
-    df.to_csv('test.csv')
+
 
     # drop empty columns
     df.dropna(axis=1, how='all', inplace=True)
