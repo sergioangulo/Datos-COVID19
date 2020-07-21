@@ -7,7 +7,7 @@ name: Actualiza_productos_de_nueva_definicion_defunciones
 on:
     push:
         branches: master
-        paths: 'input/NuevaDefDefunciones/*.xlsx'
+        paths: 'input/NuevaDefDefunciones/*'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

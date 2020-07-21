@@ -147,3 +147,7 @@
 ## Producto 49
 * Fuente: Reporte diario
 * Input: [../input/ReporteDiario/](../input/ReporteDiario)
+## Producto 50
+* Fuente: DEIS
+* Input: [../input/DistribucionDEIS/](../input/DistribucionDEIS/)
+
