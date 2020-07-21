@@ -21,6 +21,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
+import datetime as dt
+import time
+import pandas as pd
+import sys
+import glob
+import requests
 
 '''
 1.- RM, con archivos xlsx, cada uno corresponde a una particula, y el archivo tiene un tab por año.
@@ -29,15 +35,12 @@ Dado el volumen (un dato por hora) y complejidad de los datos, la primera separa
 
 '''
 
-import pandas as pd
-import sys
-import glob
 
 
 def prod43_no_header(fte, prod, year='2020'):
     print('Generando producto 43')
     particles = ['CO', 'MP2.5', 'MP10', 'NO2', 'O3', 'SO2']
-    #particles = ['SO2']
+    # particles = ['SO2']
     for each_particle in particles:
         input_path = fte + each_particle
         print('Processing ' + each_particle + ' from  ' + input_path + ' for year ' + year)
@@ -55,35 +58,35 @@ def prod43_no_header(fte, prod, year='2020'):
             # encontramos solo un archivo para el año
             df = pd.read_excel(xlsx_file[0], header=None)
 
-            #separamos header y datos
+            # separamos header y datos
 
             # Asumo que despues de UTM_Norte vienen fechas
             last_header_row = df.index[df[0] == 'UTM_Norte'].tolist()[0]
             print('Data starts after row ' + str(last_header_row))
-            #en header boto date y time, por eso el slice cuenta desde la columna 2
+            # en header boto date y time, por eso el slice cuenta desde la columna 2
             header = df.loc[:last_header_row, :]
             header.at[0, 0] = 'Nombre de estacion'
             header.at[2, 0] = 'Codigo region'
             header.at[3, 0] = 'Comuna'
             header.at[4, 0] = 'Codigo comuna'
-            #print(header.to_string())
+            # print(header.to_string())
 
             # guardamos la data
             data = df.loc[last_header_row + 1:, :]
             data = data[data[0].notna()]
-            #print(data.head().to_string())
+            # print(data.head().to_string())
             data[0].replace(to_replace=' 00:00:00', value='', inplace=True, regex=True)
             data[1].replace(to_replace='24:00:00', value='00:00:00', inplace=True, regex=True)
             data[0] = data[0].astype(str)
             data[0] = data[0] + ' ' + data[1]
-            #print(data.head().to_string())
+            # print(data.head().to_string())
 
             # En header y data podemos botar 1
             header = header.drop(columns=[1])
             data = data.drop(columns=[1])
-            #print(header.to_string())
+            # print(header.to_string())
 
-            #print(data.head().to_string())
+            # print(data.head().to_string())
 
             df = pd.concat([header, data])
 
@@ -91,28 +94,141 @@ def prod43_no_header(fte, prod, year='2020'):
             df.to_csv(prod + each_particle + '-' + year + '_std.csv', index=False, header=False)
 
 
-def prod43_header(fte, prod):
-    print('Reading with headers')
+def prod43_from_mma_api(usr, password, auth_url, url, prod):
+    '''
+    Cosultamos la API una vez cada semana, y nos traemos los ultimos 2 dias para sobreescribir.
+    Los ultimos datos estan corregidos
+    '''
+    print('Querying MMA API for daily update of product 43')
+    # necesitamos el año para saber en que archivo escribir.
 
-    # df = pd.read_excel(xlsx_file[0], header=[0, 1, 2, 3, 4, 5, 6])
-    # print(df.columns[0][3])
-    # df.rename(columns={'date': 'Nombre estacion',
-    #                    'Codigo_comuna': 'Comuna'}
-    #           , inplace=True)
-    # #region esta repetido :(
-    # level4 = df.columns.get_level_values(4).tolist()
-    # index = level4.index('Region')
-    # level4[index] = 'Codigo comuna'
-    # df.columns.set_levels(level4, level=4, inplace=True)
-    # print(df.head().to_string())
+    to_date = dt.datetime.now() - dt.timedelta(days=1)
+    year = to_date.year
 
-    # df.columns = df.columns.set_levels(['Comuna'], level=3)
+    # debemos actualizar semanalmente, respondio Marcelo Corral
+    # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
+    from_date = to_date - dt.timedelta(days=7)
+    print('We\'ll query from ' + str(from_date) + ' to ' + str(to_date))
+    # BUT the API receives unix time
+    a_week_ago_unix = round(time.mktime(from_date.timetuple()))
+    now_unix = round(time.mktime(to_date.timetuple()))
+    print('Unix: We\'ll query from ' + str(a_week_ago_unix) + ' to ' + str(now_unix))
+
+    # usr and pass must be retrieve from github secrets
+    # auth_url returns a cookie that must be passed then for the query
+    data = {
+        'username': usr,
+        'password': password
+    }
+    s = requests.Session()
+    s.post(auth_url, data=data)
+    #cookie = cookie.json()['data']['authenticator']
+    # get list of stations and metadata to build queries
+    estaciones = pd.read_csv('../input/MMA/Estaciones.csv')
+    estaciones = estaciones[estaciones['Key'].notna()]
+    # print(estaciones.to_string())
+    # la consulta es asi: https://sinca.mma.gob.cl/api/domain/SMA/timeserie/117+MPM25VAL
+    # SSSRTPPPPLLL, donde:
+    # SSS : Estación (código Airviro)
+    # R : resolución de tiempo (código Airviro) + es hora, * es dia
+    # T : tipo (v: crudo M: validado)
+    # PPPP : parámetro (código Airviro)
+    # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
+    # Pero sirve para diferenciar series de tiempo según se requiera
+    particulas = {'MP10': 'MPM10',
+                  'MP2.5': 'MPM25'
+                  }
+    for each_particula in particulas:
+        data_particula = []
+        for index in estaciones.index:
+            # debemos consultar VAL, respondio Marcelo Corral
+            api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
+            print("Querying " + estaciones.loc[index, 'Nombre estacion'] + ' to ' + api_call)
+            response = s.get(api_call)
+            if response.status_code == 200:
+                # for k in response.json():
+                #     print(k)
+                #     for l in response.json()[k]:
+                #         print('\t' + l)
+                # proper_data = response.json()['data']['sampleQueries']['links']['lastMonth'] + '/ds61'
+                # proper_data = response.json()['data']['sampleQueries']['links']['yesterday'] + '/ds61'
+                proper_data = api_call + '/' + str(a_week_ago_unix) + '/' + str(now_unix) + '/ds61'
+                # print('Actual query ' + proper_data)
+                proper_data = s.get(proper_data)
+                #print(proper_data.json())
+                # header from local metadata:
+                header = {'Nombre de estacion': estaciones.loc[index, 'Nombre estacion'],
+                          'Region': estaciones.loc[index, 'Region'],
+                          'Codigo region': estaciones.loc[index, 'Codigo region'],
+                          'Comuna': estaciones.loc[index, 'Comuna'],
+                          'Codigo comuna': estaciones.loc[index, 'Codigo comuna'],
+                          'UTM_Este': estaciones.loc[index, 'UTM_Este'],
+                          'UTM_Norte': estaciones.loc[index, 'UTM_Norte']
+                          }
+                #print(header)
+                # put the json above in a dataframe
+                data = pd.DataFrame(proper_data.json()['data']['timeserie'])
+                #data['Nombre estacion'] = estaciones.loc[index, 'Nombre estacion']
+                data.rename(columns={'value': estaciones.loc[index, 'Nombre estacion']}, inplace=True)
+                #transform time from YYYYmmdd HHMM to YYYY-mm-dd hh:MM:SS
+
+                data['fecha'] = data['time'].map(lambda x: x[0:4] + '-' + x[4:6] + '-' + x[6:8])
+                data['hora'] = data['time'].map(lambda x:  x[9:11] + ':' + x[11:13] + ':00')
+                data['fecha'] = pd.to_datetime(data['fecha'])
+                # Identify the hour 24 (!!!!!!) and move a day forward, and subtract an hour
+                # a.- a day earlier
+                check = data.loc[data['hora'] == '24:00:00']
+                for idx in check.index:
+                    data.at[idx, 'fecha'] = data.at[idx, 'fecha'] + dt.timedelta(days=1)
+                # b.- the hour
+                data.loc[data['hora'] == '24:00:00', 'hora'] = '00:00:00'
+
+                #replace the former time with the corrected values
+                data['time'] = data['fecha'].dt.strftime('%Y-%m-%d') + ' ' + data['hora']
+                #print(data.to_string())
+                data.drop(columns=['fecha', 'hora', 'statusCode'], inplace=True)
+
+                # we should make sure we're writing on the file for this year
+                data_particula.append(data)
 
 
-    # print(df.columns)
-    # print(df['Region']['Codigo_region']['Codigo_comuna']['Region'])
 
-    # identificamos donde se acaban los headers para poder concatenar las fechas
+            else:
+                print('Instead of a status code 200, we got ' + str(response.status_code))
+
+
+        # this goes to the file
+        # df_particula = pd.DataFrame()
+        # for j in data_particula:
+        #     print(j.dtypes)
+        #     df_particula.join(j)
+        for i in range(0, len(data_particula)):
+            #print(data_particula[i])
+            if i == 0:
+                final_df = data_particula[i]
+                final_df['time'] = pd.to_datetime((final_df['time']))
+            else:
+                aux = data_particula[i]
+                aux['time'] = pd.to_datetime(aux['time'])
+                final_df = pd.merge(final_df, aux, on='time')
+
+        #data_particula = pd.concat(data_particula, axis=1)
+        #print(data_particula.to_string())
+        #print(final_df)
+        final_df.rename(columns={'time': 'Nombre de estacion'}, inplace=True)
+
+        # read the file
+        file = prod + '/' + each_particula + '-' + str(year) + '_std.csv'
+        print('Appending to ' + file)
+        df_file = pd.read_csv(file)
+        # append to the file
+        df_file = pd.concat([df_file, final_df], axis=0, ignore_index=True)
+
+        # Drop duplicates
+        df_file['Nombre de estacion'] = df_file['Nombre de estacion'].astype(str)
+        df_file = df_file.drop_duplicates(subset='Nombre de estacion', keep='last')
+
+        df_file.to_csv(file, index=False)
 
 if __name__ == '__main__':
     history = False
@@ -121,4 +237,8 @@ if __name__ == '__main__':
             prod43_no_header('../input/MMA/', '../output/producto43/', year=str(i))
 
     else:
-        prod43_no_header('../input/MMA/', '../output/producto43/')
+        #prod43_no_header('../input/MMA/', '../output/producto43/')
+        if len(sys.argv) == 3:
+            auth_url ='https://sinca.mma.gob.cl/api/auth.cgi'
+            url = 'https://sinca.mma.gob.cl/api/domain/SMA/timeserie'
+            prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, '../output/producto43')
