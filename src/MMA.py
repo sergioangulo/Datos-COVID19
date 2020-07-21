@@ -102,7 +102,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     print('Querying MMA API for daily update of product 43')
     # necesitamos el año para saber en que archivo escribir.
 
-    to_date = dt.datetime.now()
+    to_date = dt.datetime.now() - dt.timedelta(days=1)
     year = to_date.year
 
     # debemos actualizar semanalmente, respondio Marcelo Corral
@@ -136,7 +136,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
     # Pero sirve para diferenciar series de tiempo según se requiera
     particulas = {'MP10': 'MPM10',
-                  #'MP2.5': 'MPM25'
+                  'MP2.5': 'MPM25'
                   }
     for each_particula in particulas:
         data_particula = []
@@ -223,9 +223,12 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         df_file = pd.read_csv(file)
         # append to the file
         df_file = pd.concat([df_file, final_df], axis=0, ignore_index=True)
-        df_file.drop_duplicates(inplace=True)
-        print(df_file)
-        df_file.to_csv('test.csv', index=False)
+
+        # Drop duplicates
+        df_file['Nombre de estacion'] = df_file['Nombre de estacion'].astype(str)
+        df_file = df_file.drop_duplicates(subset='Nombre de estacion', keep='last')
+
+        df_file.to_csv(file, index=False)
 
 if __name__ == '__main__':
     history = False
