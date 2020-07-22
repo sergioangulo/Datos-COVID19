@@ -81,19 +81,35 @@ def prod37(fte, producto):
 
 def prod37NuevoV2(fte,producto):
 
-    copyfile(fte, producto + '.csv')
     df = pd.read_csv(fte)
-    identifiers = ['Publicacion']
+    #split publicacion in serie and publicacion
+    # new data frame with split value columns
+    new = df["Publicacion"].str.split(pat="_", n=1, expand=True)
+
+    # making separate first name column from new data frame
+    df["Serie"] = new[0]
+
+    # making separate last name column from new data frame
+    df["Publicacion"] = new[1]
+
+
+    identifiers = ['Serie', 'Publicacion']
     variables = [x for x in df.columns if x not in identifiers]
+    sorted_columns = identifiers + variables
+    df = df[sorted_columns]
     df[variables] = df[variables].fillna(0).astype(int)
+
+    df.to_csv(producto + '.csv', index=False)
+
+
     df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    print(df)
+    #df_t.to_csv(producto + '_T.csv', header=False)
+    #print(df)
     #identifiers = ['Publicacion']
     #variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Numero defunciones')
     df_std['Numero defunciones'] = df_std['Numero defunciones'].fillna(0).astype(int)
-    df_std.to_csv(producto + '_std.csv', index=False)
+    #df_std.to_csv(producto + '_std.csv', index=False)
 
 if __name__ == '__main__':
     print('Generando producto 37')
