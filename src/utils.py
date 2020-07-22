@@ -92,12 +92,12 @@ def normalizaNombreCodigoRegionYComuna(df):
     df = df.merge(df_dim_comunas, on="Comuna", how="inner")
 
     df['Comuna'] = df['Nombre Comuna']
-    df['Codigo comuna'] = df['Código Comuna 2017']
+    df['Codigo comuna'] = df['Código Comuna 2018']
     df['Region'] = df['Nombre Región']
     df['Codigo region'] = df['Código Región']
 
     df.drop(columns={'Código Región','Nombre Región',
-                     'Código Comuna 2017', 'Nombre Comuna',
+                     'Código Comuna 2018', 'Nombre Comuna',
                      'Código Provincia', 'Nombre Provincia',
                      'Abreviatura Región'
                      }, inplace=True)

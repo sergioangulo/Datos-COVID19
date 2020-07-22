@@ -49,7 +49,7 @@ def prod41(fte, prod):
     df_comuna.drop(columns=['Código Región', 'Nombre Región', 'Código Provincia', 'Nombre Provincia', 'Nombre Comuna',
                             'Abreviatura Región'],
                    inplace=True)
-    df_comuna.rename(columns={'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
+    df_comuna.rename(columns={'Código Comuna 2018': 'Codigo comuna'}, inplace=True)
 
     #print(df_comuna.to_string())
     df_comuna = df_comuna[['Comuna', 'Codigo comuna', 'Transacciones', 'Fecha']]

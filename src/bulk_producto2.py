@@ -29,7 +29,7 @@ df = df.rename(columns={
     "Nombre Comuna": "Comuna",
     "Código Región": "Region ID",
     "Código Provincia": "Provincia ID",
-    "Código Comuna 2017": "Comuna ID"
+    "Código Comuna 2018": "Comuna ID"
 })
 
 df["Casos Confirmados"] = df["Casos Confirmados"].fillna("-")
