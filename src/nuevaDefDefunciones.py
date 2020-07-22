@@ -82,6 +82,7 @@ def prod37(fte, producto):
 def prod37NuevoV2(fte,producto):
 
     df = pd.read_csv(fte)
+
     #split publicacion in serie and publicacion
     # new data frame with split value columns
     new = df["Publicacion"].str.split(pat="_", n=1, expand=True)
@@ -103,8 +104,8 @@ def prod37NuevoV2(fte,producto):
 
 
     df_t = df.T
-    #df_t.to_csv(producto + '_T.csv', header=False)
-    #print(df)
+    df_t.to_csv(producto + '_T.csv', header=False)
+    #print(df_t)
     #identifiers = ['Publicacion']
     #variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Numero defunciones')
