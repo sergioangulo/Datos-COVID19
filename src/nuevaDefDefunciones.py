@@ -27,60 +27,11 @@ Los productos que salen del las nuevas definiciones son:
 37
 """
 
-from utils import *
 import pandas as pd
-import glob
-from datetime import datetime
-from shutil import copyfile
 
 
-# debe ser como el prod15 historico
-# el nombre del archivo es el nombre de la serie
-# formato definitivo:
-# un solo archivo
-# totales en primera fila
-# cada fila es una fecha con las defunciones publicadas para ese dia por serie
-# cada columna es una serie
-def prod37(fte, producto):
-    df_full = pd.read_excel(fte + ' Min Ciencias acumulado.xlsx')
-    
-    #convert 1st row as series name: Defunciones_fecha
-    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].astype(str)
-    df_full.iloc[0, 1:] = df_full.iloc[0, 1:].replace(' 00:00:00', '', regex=True)
-    #print(df_full.iloc[0, 1:])
-    #print(df_full.to_string())
-    df_full.iloc[0, 1:] = 'Defunciones_' + df_full.iloc[0, 1:]
-
-    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].astype(str)
-    df_full.iloc[1:, 0] = df_full.iloc[1:, 0].replace(' 00:00:00', '', regex=True)
-
-    new_header = df_full.iloc[0]  # grab the first row for the header
-    df_full = df_full[1:]  # take the data less the header row
-    df_full.columns = new_header  # set the header row as the df header
-
-    #producto T
-    #print(df_full.to_string())
-    df_full.to_csv(producto + '_T.csv', index=False)
-
-    df_regular = df_full.T
-    #print(df_regular.to_string())
-    df_regular.rename(index={'Fecha': 'Publicacion'}, inplace=True)
-    #print(df_regular.index)
-    df_regular.to_csv(producto + '.csv', header=False)
-
-    df_regular = pd.read_csv(producto + '.csv')
-    #print(df_regular.to_string())
-
-    identifiers = ['Publicacion']
-    variables = [x for x in df_regular.columns if x not in identifiers]
-    df_std = pd.melt(df_regular, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Total')
-
-    #print(df_std.to_string())
-    df_std.to_csv(producto + '_std.csv', index=False)
-
-def prod37NuevoV2(fte,producto):
-
+def prod37(fte,producto):
+    print('Generando producto 37')
     df = pd.read_csv(fte)
 
     #split publicacion in serie and publicacion
@@ -106,12 +57,12 @@ def prod37NuevoV2(fte,producto):
     df_t = df.T
     df_t.to_csv(producto + '_T.csv', header=False)
     #print(df_t)
-    #identifiers = ['Publicacion']
-    #variables = [x for x in df.columns if x not in identifiers]
+
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Numero defunciones')
     df_std['Numero defunciones'] = df_std['Numero defunciones'].fillna(0).astype(int)
-    #df_std.to_csv(producto + '_std.csv', index=False)
+    #print(df_std)
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 if __name__ == '__main__':
-    print('Generando producto 37')
-    prod37NuevoV2('../input/NuevaDefDefunciones/DefuncionesDEIS.csv','../output/producto37/Defunciones_deis')
+
+    prod37('../input/NuevaDefDefunciones/DefuncionesDEIS.csv','../output/producto37/Defunciones_deis')
