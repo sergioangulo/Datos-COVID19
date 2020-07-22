@@ -65,4 +65,4 @@ def prod37(fte,producto):
 
 if __name__ == '__main__':
 
-    prod37('../input/NuevaDefDefunciones/DefuncionesDEIS.csv','../output/producto37/Defunciones_deis')
+    prod37('../input/NuevaDefDefunciones/DefuncionesDEIS.csv', '../output/producto37/Defunciones_deis')
