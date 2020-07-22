@@ -29,7 +29,7 @@ from utils import *
 def prod41(fte, prod):
     df_comuna = pd.read_csv(fte + 'TransaccionesBipComuna.csv')
     # No podemos normalizar estandar por comunas '-'
-    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls",
+    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
                                    encoding="utf-8")
     df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD") \
         .str.encode("ascii", errors="ignore").str.decode("utf-8").str.lower().str.replace(' ', '')
@@ -46,7 +46,8 @@ def prod41(fte, prod):
     df_comuna.loc[df_comuna.Comuna != '-', 'Comuna'] = df_comuna['Nombre Comuna']
 
     #drop redundant info
-    df_comuna.drop(columns=['Código Región', 'Nombre Región', 'Código Provincia', 'Nombre Provincia', 'Nombre Comuna'],
+    df_comuna.drop(columns=['Código Región', 'Nombre Región', 'Código Provincia', 'Nombre Provincia', 'Nombre Comuna',
+                            'Abreviatura Región'],
                    inplace=True)
     df_comuna.rename(columns={'Código Comuna 2017': 'Codigo comuna'}, inplace=True)
 
