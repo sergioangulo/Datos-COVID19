@@ -72,6 +72,7 @@ def normalizaNombreCodigoRegionYComuna(df):
                                    encoding="utf-8")
 
     ##AYSEN issue
+
     df_dim_comunas['Nombre Comuna'] = df_dim_comunas['Nombre Comuna'].replace({"Aisén": "Aysen"})
     df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
     #print(df_dim_comunas.to_string())
