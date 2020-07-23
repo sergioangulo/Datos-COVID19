@@ -107,6 +107,10 @@ Cada archivo entrega los datos de la emisión de un contaminante durante un año
 [Data Product 50 - Defunciones notificadas por el Departamento de Estadísticas e Información Sanitaria (DEIS) por comuna](output/producto50):
 Data product que da cuenta de los datos  correspondientes a los fallecidos en cada una de las comunas de Chile, según residencia y fecha [Ver más](output/producto50)
 
+[Data Product 50 - Datos de movilidad, provistos por Instituto Sistemas Complejos de Ingeniería (ISCI) en conjunto con Entel y Entel Ocean](output/producto51):
+Datos que corresponden a la variación porcentual de la movilidad entre zonas censales a partir de datos de infraestructura de telecomunicaciones. [Ver más](output/producto51)
+
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
