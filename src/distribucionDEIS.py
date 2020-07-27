@@ -208,7 +208,7 @@ class UpdateOutput:
 
 if __name__ == '__main__':
 
-    Update = UpdateOutput('../input/DistribucionDEIS/Template/DEIS_template.csv',
+    Update = UpdateOutput('../input/DistribucionDEIS/baseFiles/DEIS_template.csv',
                           '../input/DistribucionDEIS/df_deis.csv',
                           '../output/producto50/DefuncionesDEIS_confirmadosPorComuna.csv')
 
