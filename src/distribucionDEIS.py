@@ -75,9 +75,16 @@ class UpdateOutput:
 
         self.comuna = self.Comp['Comuna']
 
-    def new_input(self):
+    def new_input(self,serie):
+
+        if serie == 'confirmados':
+            k = 2
+        elif serie == 'sospechosos':
+            k = 3
 
         self.inputDF = pd.read_csv(self.input_file)
+
+        self.inputDF = self.inputDF.fillna(0)
 
         utils.comunaName(self.inputDF)
         utils.regionDEISName(self.inputDF)
@@ -97,7 +104,6 @@ class UpdateOutput:
 
         columns_name = self.inputDF.columns.values
 
-        #maxSE = self.inputDF[columns_name[1]].max()
         maxSE = self.inputDF[columns_name[1]].max()
         minSE = self.inputDF[columns_name[1]].min()
 
@@ -110,7 +116,6 @@ class UpdateOutput:
         print(date_list)
 
         self.df = pd.DataFrame(np.zeros((len(self.comuna), lenSE)))
-        #self.dfDesc = pd.DataFrame(np.zeros((1, lenSE)))
 
         dicts = {}
         keys = range(lenSE)
@@ -120,10 +125,9 @@ class UpdateOutput:
             dicts[i] = date_list[i]
 
         self.df.rename(columns=dicts, inplace=True)
-        #self.dfDesc.rename(columns=dicts, inplace=True)
 
         SE_comuna = self.inputDF[columns_name[1]]
-        value_comuna = self.inputDF[columns_name[2]]
+        value_comuna = self.inputDF[columns_name[k]]
 
         i = 0
         for row in self.inputDF.index:
@@ -136,9 +140,11 @@ class UpdateOutput:
 
         j = 0
 
+        
 
 
-    def join(self):
+
+    def join(self,serie):
 
         df_output = pd.concat([self.Comp, self.df], axis=1)
         df_output.drop(columns=['index'], axis=1, inplace=True)
@@ -179,7 +185,7 @@ class UpdateOutput:
 
         outputDF2.reset_index(inplace=True)
         outputDF2.drop(columns=['index'], axis=1, inplace=True)
-        outputDF2[variables] = outputDF2[variables].dropna().astype(int)
+        outputDF2[variables] = outputDF2[variables].dropna()#.astype(int)
 
         print(outputDF2.head(20))
  
@@ -187,21 +193,27 @@ class UpdateOutput:
         todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
         outputDF2.drop(todrop.index, inplace=True)
 
-        outputDF2.to_csv(self.output_file, index=False)
+        name = self.output_file
+        if serie == 'sospechosos':
+            name = self.output_file.replace('_confirmadosPorComuna.csv','_sospechososPorComuna.csv')
+ 
+        outputDF2.to_csv(name, index=False)
         outputDF2_T = outputDF2.T
-        outputDF2_T.to_csv(self.output_file.replace('.csv', '_T.csv'), header=False)
+        outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
         identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
         variables = [x for x in outputDF2.columns if x not in identifiers]
         outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Defunciones')
-        outputDF2_std.to_csv(self.output_file.replace('.csv', '_std.csv'), index=False)
+        outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
 
 if __name__ == '__main__':
 
     Update = UpdateOutput('../input/DistribucionDEIS/Template/DEIS_template.csv',
-                          '../input/DistribucionDEIS/df_confirmado_agrupado.csv',
-                          '../output/producto50/DefuncionesDEISPorComuna.csv')
+                          '../input/DistribucionDEIS/df_deis.csv',
+                          '../output/producto50/DefuncionesDEIS_confirmadosPorComuna.csv')
 
     Update.header_file()
-    Update.new_input()
-    Update.join()
+    Update.new_input('confirmados')
+    Update.join('confirmados')
+    Update.new_input('sospechosos')
+    Update.join('sospechosos')
