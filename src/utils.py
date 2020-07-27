@@ -215,6 +215,40 @@ def desconocidoName(df):
                                          "Desconocido Magallanes y la Antartica": "Desconocido Magallanes"
                                          })
 
+def comunaName(df):
+    df["comuna_residencia"] = df["comuna_residencia"].replace({"Camiña": "Camina", "Ollagüe": "Ollague", "María Elena": "Maria Elena",
+                                         "Copiapó": "Copiapo", "Chañaral": "Chanaral", "Vicuña": "Vicuna",
+                                         "Combarbalá": "Combarbala", "Río Hurtado": "Rio Hurtado",
+                                         "Valparaíso": "Valparaiso", "Con con": "Concon", "Con cón": "Concon", "Concón": "Concon",
+                                         "Con Con": "Concon", "Con Cón": "Concon",
+                                         "Juan Fernández": "Juan Fernandez", "Puchuncaví": "Puchuncavi",
+                                         "Viña del Mar": "Vina del Mar", "Santa María": "Santa Maria",
+                                         "Quilpué": "Quilpue", "Olmué": "Olmue", "Doñihue": "Donihue",
+                                         "Machalí": "Machali", "Requínoa": "Requinoa", "Chépica": "Chepica",
+                                         "Constitución": "Constitucion", "Río Claro": "Rio Claro", "Curicó": "Curico",
+                                         "Hualañé": "Hualane", "Licantén": "Licanten", "Vichuquén": "Vichuquen",
+                                         "Colbún": "Colbun", "Longaví": "Longavi", "Concepción": "Concepcion",
+                                         "Tomé": "Tome", "Cañete": "Canete", "Tirúa": "Tirua", "Mulchén": "Mulchen",
+                                         "Santa Bárbara": "Santa Barbara", "Alto Biobío": "Alto Biobio",
+                                         "Pitrufquén": "Pitrufquen", "Pucón": "Pucon", "Toltén": "Tolten",
+                                         "Vilcún": "Vilcun", "Curacautín": "Curacautin", "Purén": "Puren",
+                                         "Traiguén": "Traiguen", "Cochamó": "Cochamo", "Maullín": "Maullin",
+                                         "Curaco de Vélez": "Curaco de Velez", "Puqueldón": "Puqueldon",
+                                         "Queilén": "Queilen", "Quellón": "Quellon", "Río Negro": "Rio Negro",
+                                         "Chaitén": "Chaiten", "Futaleufú": "Futaleufu", "Hualaihué": "Hualaihue",
+                                         "Aisén": "Aysen", "Aysén": "Aysen", "O'Higgins": "OHiggins",
+                                         "Río Ibáñez": "Rio Ibanez", "Río Verde": "Rio Verde", "Antártica": "Antartica",
+                                         "Conchalí": "Conchali", "Estación Central": "Estacion Central",
+                                         "Maipú": "Maipu", "Ñuñoa": "Nunoa", "Peñalolén": "Penalolen",
+                                         "San Joaquín": "San Joaquin", "San Ramón": "San Ramon",
+                                         "San José de Maipo": "San Jose de Maipo", "Alhué": "Alhue",
+                                         "Curacaví": "Curacavi", "María Pinto": "Maria Pinto", "Peñaflor": "Penaflor",
+                                         "Máfil": "Mafil", "La Unión": "La Union", "Río Bueno": "Rio Bueno",
+                                         "Chillán": "Chillan", "Chillán Viejo": "Chillan Viejo", "Quillón": "Quillon",
+                                         "Ñiquén": "Niquen", "San Fabián": "San Fabian", "San Nicolás": "San Nicolas",
+                                         "Los Álamos": "Los Alamos", "Los Ángeles": "Los Angeles", "Hualpén": "Hualpen",
+                                         "Ránquil": "Ranquil"
+                                         })
 
 
 if __name__ == '__main__':
