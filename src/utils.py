@@ -209,6 +209,13 @@ def insertSuperficiePoblacion(df):
 
     return df
 
+def desconocidoName(df):
+    df["Comuna"] = df["Comuna"].replace({"Desconocido Del Libertador General Bernardo O’Higgins": "Desconocido O’Higgins",
+                                         "Desconocido La Araucania": "Desconocido Araucania",
+                                         "Desconocido Magallanes y la Antartica": "Desconocido Magallanes"
+                                         })
+
+
 
 if __name__ == '__main__':
     writeStandardsToFile('../input/Otros/InformacionComunas.csv')
