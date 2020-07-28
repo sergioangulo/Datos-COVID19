@@ -250,6 +250,27 @@ def comunaName(df):
                                          "Ránquil": "Ranquil"
                                          })
 
+def regionDEISName(df):
+    df["region_residencia"] = df["region_residencia"].replace({
+                                         "Metropolitana de Santiago": "Metropolitana",
+                                         "De Antofagasta": "Antofagasta",
+                                         "De Arica y Parinacota": "Arica y Parinacota",
+                                         "De Atacama": "Atacama",
+                                         "De Aisén del General Carlos Ibáñez del Campo": "Aysén",
+                                         "De Coquimbo": "Coquimbo",
+                                         "De Los Lagos": "Los Lagos",
+                                         "De Los Ríos": "Los Ríos",
+                                         "De Magallanes y la Antártica Chilena": "Magallanes",
+                                         "De Tarapacá": "Tarapacá",
+                                         "De Valparaíso": "Valparaíso",
+                                         "De La Araucanía": "Araucanía",
+                                         "Del Biobío": "Biobío",
+                                         "Del Libertador General Bernardo OHiggins": "O’Higgins",
+                                         "Del Maule": "Maule",
+                                         "De Ñuble": "Ñuble"
+                                         })
+
+
 
 if __name__ == '__main__':
     writeStandardsToFile('../input/Otros/InformacionComunas.csv')
