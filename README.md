@@ -129,7 +129,21 @@ utilizando los mismos scripts, pero manualmente.
    ![Actualiza_productos_de_reporte_diario](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_reporte_diario/badge.svg)
    * [Informe epidemiológico](src/informeEpidemiologico.py) 
    ![Actualiza_productos_de_informe_epidemiologico](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_informe_epidemiologico/badge.svg)
-
+   * [JAC](src/jac.py) 
+   ![Actualiza_productos_de_JAC](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_JAC/badge.svg)
+   * [MMA](src/MMA.py)
+   ![Actualiza_productos_de_MMA](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_MMA/badge.svg)
+   * [Defunciones DEIS](src/distribucionDEIS.py) 
+   ![Actualiza_productos_de_defunciones_DEIS](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_defunciones_DEIS/badge.svg)
+   * [SOCHIMI](src/sochimi.py)
+   ![Actualiza_productos_de_SOCHIMI](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_SOCHIMI/badge.svg)
+   * [Curvas EPI](src/Curvas_epi.py)
+   ![Actualiza_productos_de_curvas_epi](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_curvas_epi/badge.svg)
+   * [Nueva definicion defunciones](src/nuevaDefDefunciones.py)
+   ![Actualiza_productos_de_nueva_definicion_defunciones](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_nueva_definicion_defunciones/badge.svg)
+   * [Movilidad, UDD](src/UDD.py)
+   ![Actualiza_productos_de_UDD](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_UDD/badge.svg)
+   * []
 
 # Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos ha sido inicializada por el equipo del Data Observatory (http://www.dataobservatory.net), estan todos invitados a colaborar.
