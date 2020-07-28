@@ -144,3 +144,5 @@ Miguel A. Bustos Valdebenito | Estudiante Dr. Ing. Mec. - U.Chile | Mtr. Ing. In
 Annabella Zapata y Carlos Navarrete, Chilecracia y Datawheel
 
 Leandro Zamudio León y Luis Meneses Retamal | Soporta Ltda.
+
+[![Run on Repl.it](https://repl.it/badge/github/MinCiencia/Datos-COVID19)](https://repl.it/github/MinCiencia/Datos-COVID19)
