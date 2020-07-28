@@ -143,7 +143,6 @@ utilizando los mismos scripts, pero manualmente.
    ![Actualiza_productos_de_nueva_definicion_defunciones](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_nueva_definicion_defunciones/badge.svg)
    * [Movilidad, UDD](src/UDD.py)
    ![Actualiza_productos_de_UDD](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_UDD/badge.svg)
-   * []
 
 # Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos ha sido inicializada por el equipo del Data Observatory (http://www.dataobservatory.net), estan todos invitados a colaborar.
