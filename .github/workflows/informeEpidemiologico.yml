@@ -36,14 +36,6 @@ jobs:
     - name: generate products from Informe Epidemiologico
       run: cd src; python informeEpidemiologico.py
 
-#    - uses: peter-evans/create-pull-request@v2
-#      with:
-#          commit_message: "Por favor confirma que esta todo bien"
-#          title: "Se actualizo el input de informe epidemiologico, y generamos los productos correspondientes"
-#          branch-suffix: timestamp
-#          committer: minciencia github bot <actions@github.com>
-#          reviewers: pdaire, fzmolina, raliaga, dna33, scornejo, MinCiencia
-#          base: master
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
