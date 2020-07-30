@@ -178,14 +178,14 @@ def prod5(fte, producto):
                         df_output_file.loc[i - fourteen_days, 'Casos nuevos totales'] - \
                         df_output_file.loc[i, 'Fallecidos'] + \
                         df_output_file.loc[i - timedelta(days=1), 'Fallecidos']
-                    print('Casos activos por FD hoy: ' + str(df_output_file.loc[i, 'Casos activos por FD']))
-                    print(
-                        'Casos activos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD']))
-                    print('Casoso nuevos totales hoy : ' + str(df_output_file.loc[i, 'Casos nuevos totales']))
-                    print('Casos totales 14 dias atras: ' + str(
-                        df_output_file.loc[i - fourteen_days, 'Casos nuevos totales']))
-                    print('Fallecidos hoy: ' + str(df_output_file.loc[i, 'Fallecidos']))
-                    print('Fallecidos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Fallecidos']))
+                    # print('Casos activos por FD hoy: ' + str(df_output_file.loc[i, 'Casos activos por FD']))
+                    # print(
+                    #     'Casos activos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Casos activos por FD']))
+                    # print('Casoso nuevos totales hoy : ' + str(df_output_file.loc[i, 'Casos nuevos totales']))
+                    # print('Casos totales 14 dias atras: ' + str(
+                    #     df_output_file.loc[i - fourteen_days, 'Casos nuevos totales']))
+                    # print('Fallecidos hoy: ' + str(df_output_file.loc[i, 'Fallecidos']))
+                    # print('Fallecidos ayer: ' + str(df_output_file.loc[i - timedelta(days=1), 'Fallecidos']))
             else:
                 print(str(i) + ' has no data 14 days ago')
                 # df_output_file.loc[i, 'Casos activos por FD'] = df_output_file['Casos totales'] - \
@@ -245,7 +245,7 @@ def prod3_13_14_26_27_47(fte, fte2, ft3):
 
     onlyfiles.sort()
     for eachfile in onlyfiles:
-        print('processing ' + eachfile)
+        #print('processing ' + eachfile)
         date = eachfile.replace("-CasosProbables-totalRegional", "").replace(".csv", "")
         dataframe2 = pd.read_csv(fte2 + eachfile)
 
@@ -297,7 +297,7 @@ def prod3_13_14_26_27_47(fte, fte2, ft3):
     onlyfiles.sort()
     onlyfiles.remove('README.md')
     for eachfile in onlyfiles:
-        print('processing ' + eachfile)
+        #print('processing ' + eachfile)
         date = eachfile.replace("-CasosConfirmados-totalRegional", "").replace(".csv", "")
         dataframe = pd.read_csv(fte + eachfile)
         # sanitize headers
@@ -558,7 +558,7 @@ def prod3_13_14_26_27_47(fte, fte2, ft3):
     pop = aux
 
     mediamovil = pd.merge(pop, cumulativoCasosNuevos, on='Region', how='outer')
-    print(mediamovil.head(20).to_string())
+    #print(mediamovil.head(20).to_string())
     df_t = mediamovil.T[3:].rolling(7).mean()
     mediamovil = mediamovil.T[0:1]
     columnas = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
@@ -709,7 +709,7 @@ def prod49(fte, fte2, producto):
 
 
     df_std = pd.melt(positividad, id_vars=['Fecha'], value_name='Total', var_name='Serie')
-    print(df_std.to_string())
+    #print(df_std.to_string())
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
