@@ -122,6 +122,6 @@ if __name__ == '__main__':
         my_bucket_name = sys.argv[1]
         my_access_key = sys.argv[2]
         my_secret_key = sys.argv[3]
-        my_camasUCI = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI', my_access_key, my_secret_key, '../output/Producto52/Camas_UCI')
+        my_camasUCI = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI', my_access_key, my_secret_key, '../output/producto52/Camas_UCI')
         my_camasUCI.get_last_camas_xlsx()
         my_camasUCI.last_file_to_csv()
