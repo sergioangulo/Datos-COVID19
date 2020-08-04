@@ -46,6 +46,12 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**03-08-2020**
+- Se ajustan fechas de prórroga de cuarentenas vigentes a Indefinidas en conformidad con Res.Ex. 606 de 29 de julio
+- Se ajustan cuarentenas notificadas en Res.Ex. 593 del 24 de julio de 2020
+    - Término de Cuarentenas de San Antonio, San Felipe, Vitacura, Las Condes, Lo Barnechea, Ñuñoa, La Reina, Colina y Til Til
+    - Incorporación de cuarentenas de Copiapó, Coquimbo, La Serena, La Calera, LA Cruz, Isla de Maipo y Puerto Montt
+
 **24-07-2020**
 - Se ajustan fechas de prórroga de cuarentenas vigentes en conformidad con Res.Ex. 575 del 22 de julio
 
