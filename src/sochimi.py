@@ -32,7 +32,7 @@ def prod_48(url, user, password, prod):
     #print('user: ' + '*' * len(user))
     #print('password: ' + '*' * len(password))
     r = requests.get(url, auth=(user, password))
-    print(r.json())
+    #print(r.json())
     #for each_fecha in r.json():
     #    print(each_fecha)
     df_std = pd.DataFrame(r.json())
@@ -53,7 +53,7 @@ def prod_48(url, user, password, prod):
     df_std.to_csv(prod + '_std.csv', index=False)
 
     df = df_std.set_index(['Fecha','Codigo region','Region', 'Servicio salud']).unstack(level=0)
-    print(df.head(20).to_string())
+    #print(df.head(20).to_string())
     data = []
     for each_value in df.columns.get_level_values(0).drop_duplicates().to_list():
         df_aux = df[each_value]
