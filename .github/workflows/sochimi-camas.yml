@@ -38,7 +38,7 @@ jobs:
       run: |
           cd src
           python sochimi.py ${{ secrets.SOCHIMI_URL }} ${{ secrets.SOCHIMI_USER }} ${{ secrets.SOCHIMI_PASSWORD }}
-          python camas.py ${{ secrets.MINSAL_BUCKET }} ${{ secrets.MINSAL_BUCKET_ACCESS_KEY }} ${{ secrets.MINSAL_BUCKET_SECRET_KEY }}
+          python camas_uci.py ${{ secrets.MINSAL_BUCKET }} ${{ secrets.MINSAL_BUCKET_ACCESS_KEY }} ${{ secrets.MINSAL_BUCKET_SECRET_KEY }}
 
 
     - name: Uploads changes to S3
