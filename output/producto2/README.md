@@ -1,7 +1,9 @@
 # DP2 - Casos totales por comuna: Descripción
-Serie de archivos que dan cuenta de los casos confirmados notificados en cada una de las comunas de Chile, según residencia. Cada uno de los archivos corresponde a un informe publicado por el Ministerio de Salud del país, por fechas en que fueron publicados. 
+Serie de archivos que dan cuenta de los casos confirmados y probales (desde el 19 de junio, informe #27) notificados en cada una de las comunas de Chile, según residencia. Cada uno de los archivos corresponde a un informe publicado por el Ministerio de Salud del país, por fechas en que fueron publicados. 
 
-Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
+Se entiende por Caso probable: persona que cumple los criterios de definición de caso sospechoso con una muestra “indeterminada” a SARS-CoV-2 o bien personas en contacto estrecho con un caso confirmado que desarrollan al menos un síntoma compatible con COVID-19. 
+
+Se entiende por Caso confirmado: persona notificada que cumple los criterios de definición de caso sospechoso o probable con una muestra positiva a SARS-CoV-2, o bien persona no notificada con un registro de resultado de laboratorio positiva a SARS-CoV-2.
 
 Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual. 
 
