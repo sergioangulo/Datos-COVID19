@@ -27,6 +27,6 @@ El archivo 'SOCHIMI.csv' tiene las siguientes columnas:
 * Preprocesamiento y manejo de datos: Fundación Ciencia y Vida
 
 # Frecuencia de actualización
-4 a 5 veces por semana
+Semanal
 
 # Notas aclaratorias
