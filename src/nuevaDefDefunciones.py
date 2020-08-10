@@ -47,7 +47,8 @@ def prod37(fte,producto):
 
     identifiers = ['Serie', 'Publicacion']
     variables = [x for x in df.columns if x not in identifiers]
-    sorted_columns = identifiers + variables
+    var_aux = [x for x in df.columns if x not in identifiers + ['en verificación']]
+    sorted_columns = identifiers + ['en verificación'] + var_aux
     df = df[sorted_columns]
     df[variables] = df[variables].fillna(0).astype(int)
 
