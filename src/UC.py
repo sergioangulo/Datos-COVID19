@@ -45,6 +45,7 @@ def prod53(fte,prod):
             #print(df.columns)
             df = normalizaNombreCodigoRegion(df)
             df.drop(columns=['region'], inplace=True)
+            regionName(df)
             df.to_csv('../output/producto53/confirmados_regionales.csv', index=False)
         if 'nacional' in file:
             #print(df.columns)
