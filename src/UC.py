@@ -34,22 +34,24 @@ def prod53(fte,prod):
 
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
+        filename = file.split('/')
+        filename = filename[len(filename)-1]
         df = pd.read_csv(file, sep=";")
         if 'provincia' in file:
             #print(df.columns)
             df = normalizaNombreCodigoRegionYProvincia(df)
             df.drop(columns=['region', 'provincia'], inplace=True)
             regionName(df)
-            df.to_csv('../output/producto53/confirmados_provinciales.csv', index=False)
+            df.to_csv(prod + '/' + filename, index=False)
         if 'region' in file:
             #print(df.columns)
             df = normalizaNombreCodigoRegion(df)
             df.drop(columns=['region'], inplace=True)
             regionName(df)
-            df.to_csv('../output/producto53/confirmados_regionales.csv', index=False)
+            df.to_csv(prod + '/' + filename, index=False)
         if 'nacional' in file:
             #print(df.columns)
-            df.to_csv('../output/producto53/confirmados_nacionales.csv', index=False)
+            df.to_csv(prod + '/' + filename, index=False)
 
 if __name__ == '__main__':
     prod53('../input/UC', '../output/producto53')
