@@ -135,6 +135,49 @@ def normalizaNombreCodigoRegionYComuna(df):
     df['Codigo region'] = df['Codigo region'].astype(str)
     return df
 
+########
+def normalizaNombreCodigoRegionYProvincia(df):
+
+    # Lee IDs de provincias desde página web oficial de SUBDERE
+    df_dim_provincias = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+                                   encoding="utf-8")
+
+    df_dim_provincias.drop(columns=['Código Comuna 2018',
+                                    'Nombre Comuna',
+                                    'Abreviatura Región']
+                           , inplace=True)
+    df_dim_provincias.drop_duplicates(inplace=True)
+
+    df = pd.merge(df, df_dim_provincias, left_on="provincia", right_on="Código Provincia", how="left")
+
+
+    df['Provincia'] = df['Nombre Provincia']
+    df['Codigo provincia'] = df['Código Provincia']
+    df['Region'] = df['Nombre Región']
+    df['Codigo region'] = df['Código Región']
+
+
+    df.drop(columns={'Código Región','Nombre Región',
+                     'Código Provincia', 'Nombre Provincia'
+                     }, inplace=True)
+
+    # Sort Columns
+    columnsAddedHere = ['Region', 'Codigo region', 'Provincia', 'Codigo provincia']
+    originalColumns = [x for x in list(df) if x not in columnsAddedHere]
+    sortedColumns = columnsAddedHere + originalColumns
+
+
+
+    #report on missing
+    df1 = df[df.isnull().any(axis=1)]
+    if df1.size > 0:
+        print('These are missing')
+        print(df1.to_string())
+
+    df = df[sortedColumns]
+    df['Codigo region'] = df['Codigo region'].astype(str)
+    return df
+#######
 
 def FechaAlFinal(df):
     if 'Fecha' in df.columns:
