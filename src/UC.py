@@ -35,11 +35,14 @@ def prod53(fte,prod):
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
         df = pd.read_csv(file, sep=";")
-        if 'provincia' in file:
+        # if 'provincia' in file:
+        #     #print(df.columns)
+        #     df = normalizaNombreCodigoRegionYProvincia(df)
+        #     df.to_csv('../output/producto53/confirmados_provinciales.csv')
+        if 'region' in file:
             #print(df.columns)
-            df = normalizaNombreCodigoRegionYProvincia(df)
-            df.to_csv('../output/producto53/confirmados_provinciales.csv')
-
+            df = normalizaNombreCodigoRegion(df)
+            df.to_csv('../output/producto53/confirmados_regionales.csv')
 
 
 if __name__ == '__main__':
