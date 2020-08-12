@@ -137,11 +137,11 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
     # Pero sirve para diferenciar series de tiempo según se requiera
     particulas = {'MP10': 'MPM10',
-                  #'MP2.5': 'MPM25',
-                  #'SO2': 'M0001',
-                  #'O3': 'M0008',
-                  #'NO2': 'M0003',
-                  #'CO': 'M0004'
+                  'MP2.5': 'MPM25',
+                  'SO2': 'M0001',
+                  'O3': 'M0008',
+                  'NO2': 'M0003',
+                  'CO': 'M0004'
                   }
     for each_particula in particulas:
         data_particula = []
