@@ -26,7 +26,8 @@ import pandas as pd
 import glob
 from utils import *
 
-def prod53(fte,prod):
+
+def prod53(fte, prod):
     print('Generating producto53')
 
     # at least we have to process three files: nacional, region y provincia, and eventually, we should also prefix them
@@ -35,25 +36,37 @@ def prod53(fte,prod):
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
         filename = file.split('/')
-        filename = filename[len(filename)-1]
+        filename = filename[len(filename) - 1]
         df = pd.read_csv(file, sep=";")
         if 'provincia' in file:
-            #print(df.columns)
+            # print(df.columns)
             df = normalizaNombreCodigoRegionYProvincia(df)
             df.drop(columns=['region', 'provincia'], inplace=True)
             regionName(df)
-            df.to_csv(prod + '/' + filename, index=False)
+            if 'confirmados_' in file:
+                df.to_csv(prod + '/' + filename, index=False)
+            if 'r.' in file:
+                df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
         if 'region' in file:
-            #print(df.columns)
+            # print(df.columns)
             df = normalizaNombreCodigoRegion(df)
             df.drop(columns=['region'], inplace=True)
             regionName(df)
-            df.to_csv(prod + '/' + filename, index=False)
+            if 'confirmados_' in file:
+                df.to_csv(prod + '/' + filename, index=False)
+            if 'r.' in file:
+                df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
         if 'nacional' in file:
-            #print(df.columns)
-            df.to_csv(prod + '/' + filename, index=False)
+            # print(df.columns)
+            if 'confirmados_' in file:
+                df.to_csv(prod + '/' + filename, index=False)
+            if 'r.' in file:
+                df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
+
+
+def prod54(fte, prod):
+    print('Generating producto54')
+
 
 if __name__ == '__main__':
     prod53('../input/UC', '../output/producto53')
-
-
