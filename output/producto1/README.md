@@ -1,5 +1,5 @@
 # DP1 - Casos totales por comuna incremental: Descripción
-Archivo que da cuenta de los casos confirmados y probables notificados en cada una de las comunas de Chile, según residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país.
+Archivo que da cuenta de los casos confirmados y probables notificados (desde el 19 de junio, informe #27 se incluyen los casos probables) en cada una de las comunas de Chile, según residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país.
 
 Se entiende por Caso probable: persona que cumple los criterios de definición de caso sospechoso con una muestra “indeterminada” a SARS-CoV-2 o bien personas en contacto estrecho con un caso confirmado que desarrollan al menos un síntoma compatible con COVID-19.
 
