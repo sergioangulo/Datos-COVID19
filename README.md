@@ -116,7 +116,7 @@ Datos que corresponden a la cantidad de campas disponible en el sistema integrad
 [Data Product 53 - Series corregidas sobre el número de casos confirmados, provistos por el grupo ICOVID Chile a nivel regional](output/producto53):
 Casos confirmados según fecha de incio de síntomas corregidos por artefactos de los mecanismos de adquisición de datos (debido a la evolución clínica del covid en los pacientes, lapsos de tiemo de consulta o tiempo de diagnóstico) [Ver más](output/producto53)
 
-[Data Product 54 - Número de reproducción efectivo, provisto por el grupo ICOVID Chile.](output/producto54):
+[Data Product 54 - Número de reproducción efectivo, provisto por el grupo ICOVID Chile](output/producto54):
 R efectivo utilizando los datos en el data product 53, calculado por el grupo ICOVID Chile, colaboración entre Universidades de Concepción, de Chile y Católica y el Ministerio de Salud y Ciencia [Ver más](output/producto54)
 
 ## ¿Cómo funciona?
