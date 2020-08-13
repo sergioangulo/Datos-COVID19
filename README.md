@@ -110,6 +110,14 @@ Data product que da cuenta de los datos  correspondientes a los fallecidos en ca
 [Data Product 51 - Datos de movilidad, provistos por Instituto Sistemas Complejos de Ingeniería (ISCI) en conjunto con Entel y Entel Ocean](output/producto51):
 Datos que corresponden a la variación porcentual de la movilidad entre zonas censales a partir de datos de infraestructura de telecomunicaciones. [Ver más](output/producto51)
 
+[Data Product 52 - Disponibilidad de camas a nivel regional](output/producto52):
+Datos que corresponden a la cantidad de campas disponible en el sistema integrado de salud [Ver más](output/producto52)
+
+[Data Product 53 - Series corregidas sobre el número de casos confirmados, provistos por el grupo ICOVID Chile a nivel regional] (output/producto53):
+Casos confirmados según fecha de incio de síntomas corregidos por artefactos de los mecanismos de adquisición de datos (debido a la evolución clínica del covid en los pacientes, lapsos de tiemo de consulta o tiempo de diagnóstico) [Ver más](output/producto53)
+
+[Data Product 54 - Número de reproducción efectivo, provisto por el grupo ICOVID Chile.](output/producto54):
+R efectivo utilizando los datos en el data product 53, calculado por el grupo ICOVID Chile, colaboración entre Universidades de Concepción, de Chile y Católica y el Ministerio de Salud y Ciencia [Ver más](output/producto54)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
