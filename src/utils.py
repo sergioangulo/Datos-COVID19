@@ -30,6 +30,7 @@ Utilidades genéricas
 import pandas as pd
 import re
 
+
 def regionName(df):
     df["Region"] = df["Region"].replace({"Arica - Parinacota": "Arica y Parinacota",
                                          "Arica Parinacota": "Arica y Parinacota",
@@ -71,6 +72,7 @@ def regionName(df):
                                          "XII Región de Magallanes y de la Antártica Chilena": "Magallanes"
                                          })
 
+
 def regionNameRegex(df):
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
@@ -92,21 +94,20 @@ def normalizaNombreCodigoRegionYComuna(df):
 
     df_dim_comunas['Nombre Comuna'] = df_dim_comunas['Nombre Comuna'].replace({"Aisén": "Aysen"})
     df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
-    #print(df_dim_comunas.to_string())
+    # print(df_dim_comunas.to_string())
     print("change comuna Aisen to Aysen from subdere")
 
     # Crea columna sin tildes, para hacer merge con datos publicados
-    #df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
-    df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD")\
+    # df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
+    df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD") \
         .str.encode("ascii", errors="ignore").str.decode("utf-8").str.lower().str.replace(' ', '')
 
-    df["Comuna"] = df["Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")\
+    df["Comuna"] = df["Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8") \
         .str.lower().str.replace(' ', '')
 
+    # print(df.to_string())
 
-    #print(df.to_string())
-
-    #df = df.merge(df_dim_comunas, on="Comuna", how="outer")
+    # df = df.merge(df_dim_comunas, on="Comuna", how="outer")
     df = df.merge(df_dim_comunas, on="Comuna", how="inner")
 
     df['Comuna'] = df['Nombre Comuna']
@@ -114,7 +115,7 @@ def normalizaNombreCodigoRegionYComuna(df):
     df['Region'] = df['Nombre Región']
     df['Codigo region'] = df['Código Región']
 
-    df.drop(columns={'Código Región','Nombre Región',
+    df.drop(columns={'Código Región', 'Nombre Región',
                      'Código Comuna 2018', 'Nombre Comuna',
                      'Código Provincia', 'Nombre Provincia',
                      'Abreviatura Región'
@@ -125,7 +126,7 @@ def normalizaNombreCodigoRegionYComuna(df):
     originalColumns = [x for x in list(df) if x not in columnsAddedHere]
     sortedColumns = columnsAddedHere + originalColumns
 
-    #report on missing
+    # report on missing
     df1 = df[df.isnull().any(axis=1)]
     if df1.size > 0:
         print('These are missing')
@@ -135,6 +136,86 @@ def normalizaNombreCodigoRegionYComuna(df):
     df['Codigo region'] = df['Codigo region'].astype(str)
     return df
 
+
+########
+def normalizaNombreCodigoRegionYProvincia(df):
+    # Lee IDs de provincias desde página web oficial de SUBDERE
+    df_dim_provincias = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+                                      encoding="utf-8")
+
+    df_dim_provincias.drop(columns=['Código Comuna 2018',
+                                    'Nombre Comuna',
+                                    'Abreviatura Región']
+                           , inplace=True)
+    df_dim_provincias.drop_duplicates(inplace=True)
+
+    df = pd.merge(df, df_dim_provincias, left_on="provincia", right_on="Código Provincia", how="left")
+
+    df['Provincia'] = df['Nombre Provincia']
+    df['Codigo provincia'] = df['Código Provincia']
+    df['Region'] = df['Nombre Región']
+    df['Codigo region'] = df['Código Región']
+
+    df.drop(columns={'Código Región', 'Nombre Región',
+                     'Código Provincia', 'Nombre Provincia'
+                     }, inplace=True)
+
+    # Sort Columns
+    columnsAddedHere = ['Region', 'Codigo region', 'Provincia', 'Codigo provincia']
+    originalColumns = [x for x in list(df) if x not in columnsAddedHere]
+    sortedColumns = columnsAddedHere + originalColumns
+
+    # report on missing
+    df1 = df[df.isnull().any(axis=1)]
+    if df1.size > 0:
+        print('These are missing')
+        print(df1.to_string())
+
+    df = df[sortedColumns]
+    df['Codigo region'] = df['Codigo region'].astype(str)
+    return df
+
+
+def normalizaNombreCodigoRegion(df):
+    # Lee IDs de provincias desde página web oficial de SUBDERE
+    df_dim_regiones = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+                                    encoding="utf-8")
+
+    df_dim_regiones.drop(columns=['Código Comuna 2018',
+                                  'Nombre Comuna',
+                                  'Abreviatura Región',
+                                  'Código Provincia',
+                                  'Nombre Provincia']
+                         , inplace=True)
+    df_dim_regiones.drop_duplicates(inplace=True)
+
+    #print(df)
+    df = pd.merge(df, df_dim_regiones, left_on="region", right_on="Código Región", how="left")
+    #print(df)
+
+    df['Region'] = df['Nombre Región']
+    df['Codigo region'] = df['Código Región']
+
+    df.drop(columns={'Código Región', 'Nombre Región'
+                     }, inplace=True)
+
+    # Sort Columns
+    columnsAddedHere = ['Region', 'Codigo region']
+    originalColumns = [x for x in list(df) if x not in columnsAddedHere]
+    sortedColumns = columnsAddedHere + originalColumns
+
+    # report on missing
+    df1 = df[df.isnull().any(axis=1)]
+    if df1.size > 0:
+        print('These are missing')
+        print(df1.to_string())
+
+    df = df[sortedColumns]
+    df['Codigo region'] = df['Codigo region'].astype(str)
+    return df
+
+
+#######
 
 def FechaAlFinal(df):
     if 'Fecha' in df.columns:
@@ -148,7 +229,7 @@ def FechaAlFinal(df):
 
 def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
-    return(df.T)
+    return (df.T)
 
 
 def std_getSuperficieComunasOfficial(input):
@@ -167,13 +248,13 @@ def std_getSuperficieComunasOfficial(input):
         'SUPERFICIE': 'Superficie_km2'
     }, inplace=True)
 
-    #missing antartica comuna 12202
-    #df["Comuna"] = df["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
+    # missing antartica comuna 12202
+    # df["Comuna"] = df["Comuna"].replace({"La Calera": "Calera", "Llay-Llay": "Llaillay"})
     print("change comuna Aisen to Aysen from bienes")
     df['Comuna'] = df['Comuna'].replace({"Aisén": "Aysen"})
     df = normalizaNombreCodigoRegionYComuna(df)
-    #print(df.to_string())
-    #print(df['Comuna'].to_string())
+    # print(df.to_string())
+    # print(df['Comuna'].to_string())
 
     return df
 
@@ -226,67 +307,71 @@ def insertSuperficiePoblacion(df):
 
     return df
 
+
 def desconocidoName(df):
-    df["Comuna"] = df["Comuna"].replace({"Desconocido Del Libertador General Bernardo O’Higgins": "Desconocido O’Higgins",
-                                         "Desconocido La Araucania": "Desconocido Araucania",
-                                         "Desconocido Magallanes y la Antartica": "Desconocido Magallanes"
-                                         })
+    df["Comuna"] = df["Comuna"].replace(
+        {"Desconocido Del Libertador General Bernardo O’Higgins": "Desconocido O’Higgins",
+         "Desconocido La Araucania": "Desconocido Araucania",
+         "Desconocido Magallanes y la Antartica": "Desconocido Magallanes"
+         })
+
 
 def comunaName(df):
-    df["comuna_residencia"] = df["comuna_residencia"].replace({"Camiña": "Camina", "Ollagüe": "Ollague", "María Elena": "Maria Elena",
-                                         "Copiapó": "Copiapo", "Chañaral": "Chanaral", "Vicuña": "Vicuna",
-                                         "Combarbalá": "Combarbala", "Río Hurtado": "Rio Hurtado",
-                                         "Valparaíso": "Valparaiso", "Con con": "Concon", "Con cón": "Concon", "Concón": "Concon",
-                                         "Con Con": "Concon", "Con Cón": "Concon",
-                                         "Juan Fernández": "Juan Fernandez", "Puchuncaví": "Puchuncavi",
-                                         "Viña del Mar": "Vina del Mar", "Santa María": "Santa Maria",
-                                         "Quilpué": "Quilpue", "Olmué": "Olmue", "Doñihue": "Donihue",
-                                         "Machalí": "Machali", "Requínoa": "Requinoa", "Chépica": "Chepica",
-                                         "Constitución": "Constitucion", "Río Claro": "Rio Claro", "Curicó": "Curico",
-                                         "Hualañé": "Hualane", "Licantén": "Licanten", "Vichuquén": "Vichuquen",
-                                         "Colbún": "Colbun", "Longaví": "Longavi", "Concepción": "Concepcion",
-                                         "Tomé": "Tome", "Cañete": "Canete", "Tirúa": "Tirua", "Mulchén": "Mulchen",
-                                         "Santa Bárbara": "Santa Barbara", "Alto Biobío": "Alto Biobio",
-                                         "Pitrufquén": "Pitrufquen", "Pucón": "Pucon", "Toltén": "Tolten",
-                                         "Vilcún": "Vilcun", "Curacautín": "Curacautin", "Purén": "Puren",
-                                         "Traiguén": "Traiguen", "Cochamó": "Cochamo", "Maullín": "Maullin",
-                                         "Curaco de Vélez": "Curaco de Velez", "Puqueldón": "Puqueldon",
-                                         "Queilén": "Queilen", "Quellón": "Quellon", "Río Negro": "Rio Negro",
-                                         "Chaitén": "Chaiten", "Futaleufú": "Futaleufu", "Hualaihué": "Hualaihue",
-                                         "Aisén": "Aysen", "Aysén": "Aysen", "O'Higgins": "OHiggins",
-                                         "Río Ibáñez": "Rio Ibanez", "Río Verde": "Rio Verde", "Antártica": "Antartica",
-                                         "Conchalí": "Conchali", "Estación Central": "Estacion Central",
-                                         "Maipú": "Maipu", "Ñuñoa": "Nunoa", "Peñalolén": "Penalolen",
-                                         "San Joaquín": "San Joaquin", "San Ramón": "San Ramon",
-                                         "San José de Maipo": "San Jose de Maipo", "Alhué": "Alhue",
-                                         "Curacaví": "Curacavi", "María Pinto": "Maria Pinto", "Peñaflor": "Penaflor",
-                                         "Máfil": "Mafil", "La Unión": "La Union", "Río Bueno": "Rio Bueno",
-                                         "Chillán": "Chillan", "Chillán Viejo": "Chillan Viejo", "Quillón": "Quillon",
-                                         "Ñiquén": "Niquen", "San Fabián": "San Fabian", "San Nicolás": "San Nicolas",
-                                         "Los Álamos": "Los Alamos", "Los Ángeles": "Los Angeles", "Hualpén": "Hualpen",
-                                         "Ránquil": "Ranquil"
-                                         })
+    df["comuna_residencia"] = df["comuna_residencia"].replace(
+        {"Camiña": "Camina", "Ollagüe": "Ollague", "María Elena": "Maria Elena",
+         "Copiapó": "Copiapo", "Chañaral": "Chanaral", "Vicuña": "Vicuna",
+         "Combarbalá": "Combarbala", "Río Hurtado": "Rio Hurtado",
+         "Valparaíso": "Valparaiso", "Con con": "Concon", "Con cón": "Concon", "Concón": "Concon",
+         "Con Con": "Concon", "Con Cón": "Concon",
+         "Juan Fernández": "Juan Fernandez", "Puchuncaví": "Puchuncavi",
+         "Viña del Mar": "Vina del Mar", "Santa María": "Santa Maria",
+         "Quilpué": "Quilpue", "Olmué": "Olmue", "Doñihue": "Donihue",
+         "Machalí": "Machali", "Requínoa": "Requinoa", "Chépica": "Chepica",
+         "Constitución": "Constitucion", "Río Claro": "Rio Claro", "Curicó": "Curico",
+         "Hualañé": "Hualane", "Licantén": "Licanten", "Vichuquén": "Vichuquen",
+         "Colbún": "Colbun", "Longaví": "Longavi", "Concepción": "Concepcion",
+         "Tomé": "Tome", "Cañete": "Canete", "Tirúa": "Tirua", "Mulchén": "Mulchen",
+         "Santa Bárbara": "Santa Barbara", "Alto Biobío": "Alto Biobio",
+         "Pitrufquén": "Pitrufquen", "Pucón": "Pucon", "Toltén": "Tolten",
+         "Vilcún": "Vilcun", "Curacautín": "Curacautin", "Purén": "Puren",
+         "Traiguén": "Traiguen", "Cochamó": "Cochamo", "Maullín": "Maullin",
+         "Curaco de Vélez": "Curaco de Velez", "Puqueldón": "Puqueldon",
+         "Queilén": "Queilen", "Quellón": "Quellon", "Río Negro": "Rio Negro",
+         "Chaitén": "Chaiten", "Futaleufú": "Futaleufu", "Hualaihué": "Hualaihue",
+         "Aisén": "Aysen", "Aysén": "Aysen", "O'Higgins": "OHiggins",
+         "Río Ibáñez": "Rio Ibanez", "Río Verde": "Rio Verde", "Antártica": "Antartica",
+         "Conchalí": "Conchali", "Estación Central": "Estacion Central",
+         "Maipú": "Maipu", "Ñuñoa": "Nunoa", "Peñalolén": "Penalolen",
+         "San Joaquín": "San Joaquin", "San Ramón": "San Ramon",
+         "San José de Maipo": "San Jose de Maipo", "Alhué": "Alhue",
+         "Curacaví": "Curacavi", "María Pinto": "Maria Pinto", "Peñaflor": "Penaflor",
+         "Máfil": "Mafil", "La Unión": "La Union", "Río Bueno": "Rio Bueno",
+         "Chillán": "Chillan", "Chillán Viejo": "Chillan Viejo", "Quillón": "Quillon",
+         "Ñiquén": "Niquen", "San Fabián": "San Fabian", "San Nicolás": "San Nicolas",
+         "Los Álamos": "Los Alamos", "Los Ángeles": "Los Angeles", "Hualpén": "Hualpen",
+         "Ránquil": "Ranquil"
+         })
+
 
 def regionDEISName(df):
     df["region_residencia"] = df["region_residencia"].replace({
-                                         "Metropolitana de Santiago": "Metropolitana",
-                                         "De Antofagasta": "Antofagasta",
-                                         "De Arica y Parinacota": "Arica y Parinacota",
-                                         "De Atacama": "Atacama",
-                                         "De Aisén del General Carlos Ibáñez del Campo": "Aysén",
-                                         "De Coquimbo": "Coquimbo",
-                                         "De Los Lagos": "Los Lagos",
-                                         "De Los Ríos": "Los Ríos",
-                                         "De Magallanes y la Antártica Chilena": "Magallanes",
-                                         "De Tarapacá": "Tarapacá",
-                                         "De Valparaíso": "Valparaíso",
-                                         "De La Araucanía": "Araucanía",
-                                         "Del Biobío": "Biobío",
-                                         "Del Libertador General Bernardo OHiggins": "O’Higgins",
-                                         "Del Maule": "Maule",
-                                         "De Ñuble": "Ñuble"
-                                         })
-
+        "Metropolitana de Santiago": "Metropolitana",
+        "De Antofagasta": "Antofagasta",
+        "De Arica y Parinacota": "Arica y Parinacota",
+        "De Atacama": "Atacama",
+        "De Aisén del General Carlos Ibáñez del Campo": "Aysén",
+        "De Coquimbo": "Coquimbo",
+        "De Los Lagos": "Los Lagos",
+        "De Los Ríos": "Los Ríos",
+        "De Magallanes y la Antártica Chilena": "Magallanes",
+        "De Tarapacá": "Tarapacá",
+        "De Valparaíso": "Valparaíso",
+        "De La Araucanía": "Araucanía",
+        "Del Biobío": "Biobío",
+        "Del Libertador General Bernardo OHiggins": "O’Higgins",
+        "Del Maule": "Maule",
+        "De Ñuble": "Ñuble"
+    })
 
 
 if __name__ == '__main__':
