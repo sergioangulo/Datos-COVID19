@@ -35,7 +35,11 @@ jobs:
         pip install -r requirements.txt
 
     - name: generate products from Reporte Diario
-      run: cd src; python reporteDiario.py
+      run: |
+          cd src
+          python reporteDiario.py
+          python Curvas_epi.py
+          python nuevaDefDefunciones.py
 
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
