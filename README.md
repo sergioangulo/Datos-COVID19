@@ -113,7 +113,7 @@ Datos que corresponden a la variación porcentual de la movilidad entre zonas ce
 [Data Product 52 - Disponibilidad de camas críticas a nivel regional](output/producto52):
 Datos que corresponden a la cantidad de campas disponible en el sistema integrado de salud [Ver más](output/producto52)
 
-[Data Product 53 - Series corregidas sobre el número de casos confirmados, provistos por el grupo ICOVID Chile a nivel regional](output/producto53):
+[Data Product 53 - Series corregidas sobre el número de casos confirmados, provistos por el grupo ICOVID Chile a nivel nacional, regional y provincial](output/producto53):
 Casos confirmados según fecha de incio de síntomas corregidos por artefactos de los mecanismos de adquisición de datos (debido a la evolución clínica del covid en los pacientes, lapsos de tiemo de consulta o tiempo de diagnóstico) [Ver más](output/producto53)
 
 [Data Product 54 - Número de reproducción efectivo, provisto por el grupo ICOVID Chile](output/producto54):
