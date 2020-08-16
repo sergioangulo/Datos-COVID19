@@ -62,6 +62,9 @@ def prod53(fte, prod):
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
+        if 'ss' in file:
+            if 'r.' in file:
+                df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
 
 
 def prod54(fte, prod):
