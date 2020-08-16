@@ -103,11 +103,12 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # necesitamos el año para saber en que archivo escribir.
 
     to_date = dt.datetime.now() - dt.timedelta(days=1)
-    year = to_date.year
+    to_year = to_date.year
 
     # debemos actualizar semanalmente, respondio Marcelo Corral
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
     from_date = to_date - dt.timedelta(days=7)
+    from_year = from_date.year
     print('We\'ll query from ' + str(from_date) + ' to ' + str(to_date))
     # BUT the API receives unix time
     a_week_ago_unix = round(time.mktime(from_date.timetuple()))
@@ -136,10 +137,15 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
     # Pero sirve para diferenciar series de tiempo según se requiera
     particulas = {'MP10': 'MPM10',
-                  'MP2.5': 'MPM25'
+                  'MP2.5': 'MPM25',
+                  'SO2': 'M0001',
+                  'O3': 'M0008',
+                  'NO2': 'M0003',
+                  'CO': 'M0004'
                   }
     for each_particula in particulas:
         data_particula = []
+        print('Updating ' + each_particula)
         for index in estaciones.index:
             # debemos consultar VAL, respondio Marcelo Corral
             api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
@@ -202,13 +208,13 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         # for j in data_particula:
         #     print(j.dtypes)
         #     df_particula.join(j)
-        for i in range(0, len(data_particula)):
+        for j in range(0, len(data_particula)):
             #print(data_particula[i])
-            if i == 0:
-                final_df = data_particula[i]
+            if j == 0:
+                final_df = data_particula[j]
                 final_df['time'] = pd.to_datetime((final_df['time']))
             else:
-                aux = data_particula[i]
+                aux = data_particula[j]
                 aux['time'] = pd.to_datetime(aux['time'])
                 final_df = pd.merge(final_df, aux, on='time')
 
@@ -218,17 +224,66 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         final_df.rename(columns={'time': 'Nombre de estacion'}, inplace=True)
 
         # read the file
-        file = prod + '/' + each_particula + '-' + str(year) + '_std.csv'
-        print('Appending to ' + file)
-        df_file = pd.read_csv(file)
-        # append to the file
-        df_file = pd.concat([df_file, final_df], axis=0, ignore_index=True)
+        if from_year == to_year:
+            file = prod + '/' + each_particula + '-' + str(to_year) + '_std.csv'
+            print('Appending to ' + file)
+            df_file = pd.read_csv(file)
+            # append to the file
+            df_file = pd.concat([df_file, final_df], axis=0, ignore_index=True)
 
-        # Drop duplicates
-        df_file['Nombre de estacion'] = df_file['Nombre de estacion'].astype(str)
-        df_file = df_file.drop_duplicates(subset='Nombre de estacion', keep='last')
+            # Drop duplicates
+            df_file['Nombre de estacion'] = df_file['Nombre de estacion'].astype(str)
+            df_file = df_file.drop_duplicates(subset='Nombre de estacion', keep='last')
 
-        df_file.to_csv(file, index=False)
+            df_file.to_csv(file, index=False)
+        else:
+            print('we jumped years!')
+            file_from_year = prod + '/' + each_particula + '-' + str(from_year) + '_std.csv'
+            print('Appending to ' + file_from_year)
+            df_file1 = pd.read_csv(file_from_year)
+            threshold = dt.datetime.strptime(str(to_year) +'-01-01 00:00:00', '%Y-%m-%d %H:%M:%S')
+            df_from_year = final_df[final_df['Nombre de estacion'] < threshold]
+            # append to the file
+            df_file1 = pd.concat([df_file1, df_from_year], axis=0, ignore_index=True)
+
+            # Drop duplicates
+            df_file1['Nombre de estacion'] = df_file1['Nombre de estacion'].astype(str)
+            df_file1 = df_file1.drop_duplicates(subset='Nombre de estacion', keep='last')
+
+            # sort values
+            df_f1_headers = df_file1.iloc[0:6, :]
+            df_f1_data = df_file1.iloc[6:, :]
+
+            df_f1_data.sort_values(by=['Nombre de estacion'], inplace=True)
+            print(df_file1.head(10).to_string())
+            print(df_f1_headers.to_string())
+            print(df_f1_data.head(5).to_string())
+            df_file1 = pd.concat([df_f1_headers, df_f1_data])
+
+            df_file1.to_csv(file_from_year, index=False)
+
+
+            file_to_year = prod + '/' + each_particula + '-' + str(to_year) + '_std.csv'
+            print('Appending to ' + file_to_year)
+            df_file2 = pd.read_csv(file_to_year)
+            df_to_year = final_df[final_df['Nombre de estacion'] >= threshold]
+            # append to the file
+            df_file2 = pd.concat([df_file2, df_to_year], axis=0, ignore_index=True)
+
+            # Drop duplicates
+            df_file2['Nombre de estacion'] = df_file2['Nombre de estacion'].astype(str)
+            df_file2 = df_file2.drop_duplicates(subset='Nombre de estacion', keep='last')
+
+            # sort values
+            df_f2_headers = df_file2.iloc[0:6, :]
+            df_f2_data = df_file2.iloc[6:, :]
+
+            df_f2_data.sort_values(by=['Nombre de estacion'], inplace=True)
+
+            df_file2 = pd.concat([df_f2_headers, df_f2_data])
+
+
+            df_file2.to_csv(file_to_year, index=False)
 
 if __name__ == '__main__':
     history = False
