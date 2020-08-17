@@ -150,7 +150,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
             # debemos consultar VAL, respondio Marcelo Corral
             api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
             print("Querying " + estaciones.loc[index, 'Nombre estacion'] + ' to ' + api_call)
-            response = s.get(api_call)
+            response = s.get(api_call, timeout=15)
             if response.status_code == 200:
                 # for k in response.json():
                 #     print(k)
