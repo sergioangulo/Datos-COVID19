@@ -27,6 +27,8 @@ import pandas as pd
 import sys
 import glob
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 '''
 1.- RM, con archivos xlsx, cada uno corresponde a una particula, y el archivo tiene un tab por año.
@@ -122,6 +124,11 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
         'password': password
     }
     s = requests.Session()
+    # github action failing
+    retries = Retry(total=5,
+                    backoff_factor=0.1,
+                    status_forcelist=[500, 502, 503, 504])
+    s.mount('http://', HTTPAdapter(max_retries=retries))
     s.post(auth_url, data=data)
     #cookie = cookie.json()['data']['authenticator']
     # get list of stations and metadata to build queries
@@ -146,7 +153,6 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     for each_particula in particulas:
         data_particula = []
         print('\nUpdating ' + each_particula)
-        time.sleep(3)
         for index in estaciones.index:
             # debemos consultar VAL, respondio Marcelo Corral
             api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
