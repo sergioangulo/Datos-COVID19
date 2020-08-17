@@ -37,6 +37,7 @@ def prod53(fte, prod):
         print('Processing file ' + file)
         filename = file.split('/')
         filename = filename[len(filename) - 1]
+        filename = filename.replace(' ', '_')
         df = pd.read_csv(file, sep=";")
         if 'provincia' in file:
             # print(df.columns)
@@ -62,7 +63,9 @@ def prod53(fte, prod):
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
-        if 'ss' in file:
+        if 'ss.csv' in file:
+            if 'confirmados_' in file:
+                df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
 
