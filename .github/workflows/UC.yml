@@ -19,14 +19,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - name: Check out our repo
+      uses: actions/checkout@v2
 
     - name: Check out datagovuc/ICOVID
       uses: actions/checkout@master
       with:
         repository: datagovuc/ICOVID
         token: ${{ secrets.DO_BOT_AUTOMATION_PAT }}
-
+        path: ICOVID
 
     # Sets up python
     - name: Set up Python 3.8
@@ -43,6 +44,7 @@ jobs:
     - name: generate products for UC
       run: |
           pwd
+          ls
           echo "rsync -av --exclude "README.md" ICOVID/DO/ Datos-COVID19/input/UC"
           cd src
           python UC.py
