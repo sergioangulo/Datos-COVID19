@@ -80,6 +80,9 @@ def regionNameRegex(df):
 
 def normalizaNombreCodigoRegionYComuna(df):
     # standards:
+    if 'comuna' in df.columns:
+        df.rename(columns={'comuna': 'Comuna'}, inplace=True)
+
     df["Comuna"] = df["Comuna"].replace({"Coyhaique": "coihaique",
                                          "Paihuano": "paiguano",
                                          "La Calera": "Calera",
@@ -137,6 +140,57 @@ def normalizaNombreCodigoRegionYComuna(df):
     return df
 
 
+####
+def normalizaNombreCodigoRegionYCodigoComuna(df):
+    # standards:
+    if 'comuna' in df.columns:
+        df.rename(columns={'comuna': 'Comuna'}, inplace=True)
+
+    # df["Comuna"] = df["Comuna"].replace({"Coyhaique": "coihaique",
+    #                                      "Paihuano": "paiguano",
+    #                                      "La Calera": "Calera",
+    #                                      "Llay-Llay": "Llaillay"
+    #                                      })
+
+    # Lee IDs de comunas desde página web oficial de SUBDERE
+    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+                                   encoding="utf-8")
+
+    ##AYSEN issue
+
+    df_dim_comunas['Nombre Comuna'] = df_dim_comunas['Nombre Comuna'].replace({"Aisén": "Aysen"})
+    # print(df_dim_comunas.to_string())
+    df_dim_comunas.rename(columns={'Código Comuna 2018': 'Codigo comuna'}, inplace=True)
+
+    # df = df.merge(df_dim_comunas, on="Comuna", how="outer")
+    df = df.merge(df_dim_comunas, on="Codigo comuna", how="inner")
+
+    df['Comuna'] = df['Nombre Comuna']
+    df['Region'] = df['Nombre Región']
+    df['Codigo region'] = df['Código Región']
+
+    df.drop(columns={'Código Región', 'Nombre Región',
+                     'Nombre Comuna',
+                     'Código Provincia', 'Nombre Provincia',
+                     'Abreviatura Región'
+                     }, inplace=True)
+
+    # Sort Columns
+    columnsAddedHere = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+    originalColumns = [x for x in list(df) if x not in columnsAddedHere]
+    sortedColumns = columnsAddedHere + originalColumns
+
+    # report on missing
+    df1 = df[df.isnull().any(axis=1)]
+    if df1.size > 0:
+        print('These are missing')
+        print(df1.to_string())
+
+    df = df[sortedColumns]
+    df['Codigo region'] = df['Codigo region'].astype(str)
+    return df
+
+
 ########
 def normalizaNombreCodigoRegionYProvincia(df):
     # Lee IDs de provincias desde página web oficial de SUBDERE
@@ -165,12 +219,6 @@ def normalizaNombreCodigoRegionYProvincia(df):
     originalColumns = [x for x in list(df) if x not in columnsAddedHere]
     sortedColumns = columnsAddedHere + originalColumns
 
-    # report on missing
-    df1 = df[df.isnull().any(axis=1)]
-    if df1.size > 0:
-        print('These are missing')
-        print(df1.to_string())
-
     df = df[sortedColumns]
     df['Codigo region'] = df['Codigo region'].astype(str)
     return df
@@ -189,9 +237,9 @@ def normalizaNombreCodigoRegion(df):
                          , inplace=True)
     df_dim_regiones.drop_duplicates(inplace=True)
 
-    #print(df)
+    # print(df)
     df = pd.merge(df, df_dim_regiones, left_on="region", right_on="Código Región", how="left")
-    #print(df)
+    # print(df)
 
     df['Region'] = df['Nombre Región']
     df['Codigo region'] = df['Código Región']

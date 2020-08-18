@@ -39,15 +39,30 @@ def prod53(fte, prod):
         filename = filename[len(filename) - 1]
         filename = filename.replace(' ', '_')
         df = pd.read_csv(file, sep=";")
+        if 'comuna' in file:
+            df.rename(columns={'comuna': 'Codigo comuna'}, inplace=True)
+            df.drop('comuna_residencia', axis=1, inplace=True)
+            print(df.columns)
+            df = normalizaNombreCodigoRegionYCodigoComuna(df)
+            regionName(df)
+            if 'Positividad' in file:
+                df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
         if 'provincia' in file:
             # print(df.columns)
+            # standardize
             df = normalizaNombreCodigoRegionYProvincia(df)
-            df.drop(columns=['region', 'provincia'], inplace=True)
+            if 'region' in df.columns:
+                df.drop(columns=['region'], inplace=True)
+            if 'provincia' in df.columns:
+                df.drop(columns=['provincia'], inplace=True)
             regionName(df)
+            # write
             if 'confirmados_' in file:
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
+            if 'Positividad' in file:
+                df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
         if 'region' in file:
             # print(df.columns)
             df = normalizaNombreCodigoRegion(df)
@@ -57,12 +72,17 @@ def prod53(fte, prod):
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
+            if 'Positividad' in file:
+                df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
         if 'nacional' in file:
             # print(df.columns)
             if 'confirmados_' in file:
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
+            if 'Positividad' in file:
+                df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
+
         if 'ss.csv' in file:
             if 'confirmados_' in file:
                 df.to_csv(prod + '/' + filename, index=False)
