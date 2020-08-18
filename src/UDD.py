@@ -56,6 +56,13 @@ def prod33(fte,prod):
 
         i += 1
 
+    for file in glob.glob(fte + 'indicadoresIM_*_*.csv'):
+        print('Processing ' + file)
+        temp = pd.read_csv(file, sep=",", encoding="utf-8", decimal=".")
+
+        df_new = pd.concat([df_new,temp],axis=0)
+
+    df_new.sort_values(by=['comuna','date'], ascending=[True, True], inplace=True)
  
     df_new.rename(columns={'date': 'Fecha', 'comuna': 'Comuna'}, inplace=True)
 
