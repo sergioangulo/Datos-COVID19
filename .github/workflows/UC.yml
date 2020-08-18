@@ -6,7 +6,7 @@ name: Actualiza_productos_UC
 # events but only for the master branch
 on:
     push:
-        branches: automating_UC
+        branches: master
         paths: '.github/workflows/UC.yml'
 
 
