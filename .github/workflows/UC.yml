@@ -20,10 +20,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    #- name: Check out our repo
-    #  uses: actions/checkout@v2
-    #  with:
-    #    path: main
+    - name: Check out our repo
+      uses: actions/checkout@v2
+      with:
+        path: Datos-COVID19
 
     - name: 'Check out datagovuc/ICOVID'
       uses: actions/checkout@v2
@@ -32,7 +32,7 @@ jobs:
       with:
           token: ${{ env.GITHUB_TOKEN }}
           repository: datagovuc/ICOVID
-          path: $GITHUB_WORKSPACE/ICOVID-co
+          path: ICOVID-co
 
 
       # Sets up python
