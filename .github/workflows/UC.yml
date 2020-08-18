@@ -32,7 +32,7 @@ jobs:
 #        token: ${{ secrets.DO_BOT_AUTOMATION_PAT }}
 #        path: ICOVID-co
     - name: manual checkout
-        run: |
+      run: |
           git clone https://$ {{ secrets.DO_BOT_AUTOMATION_PAT }}@github.com/datagovuc/ICOVID.git
           ls
 
