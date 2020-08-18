@@ -28,7 +28,7 @@ jobs:
     - name: 'Check out datagovuc/ICOVID'
       uses: actions/checkout@v2
       with:
-        token: "$ {{ secrets.DO_BOT_AUTOMATION_PAT }}"
+        token: $ {{ secrets.DO_BOT_AUTOMATION_PAT }}
         repository: datagovuc/ICOVID
         path: ICOVID
 #    - name: manual checkout
