@@ -25,16 +25,16 @@ jobs:
     #  with:
     #    path: main
 
-#    - name: Check out datagovuc/ICOVID
-#      uses: actions/checkout@v2
-#      with:
-#        repository: datagovuc/ICOVID
-#        token: ${{ secrets.DO_BOT_AUTOMATION_PAT }}
-#        path: ICOVID-co
-    - name: manual checkout
-      run: |
-          git clone https://"$ {{ secrets.DO_BOT_AUTOMATION_PAT }}"\@github.com/datagovuc/ICOVID.git
-          ls
+    - name: 'Check out datagovuc/ICOVID'
+      uses: actions/checkout@v2
+      with:
+        repository: datagovuc/ICOVID
+        token: ${{ secrets.DO_BOT_AUTOMATION_PAT }}
+        path: ICOVID
+#    - name: manual checkout
+#      run: |
+#          git clone https://"$ {{ secrets.DO_BOT_AUTOMATION_PAT }}"\@github.com/datagovuc/ICOVID.git
+#          ls
 
 
       # Sets up python
