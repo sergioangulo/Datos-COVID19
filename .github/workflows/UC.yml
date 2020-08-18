@@ -28,7 +28,7 @@ jobs:
       with:
         repository: datagovuc/ICOVID
         token: ${{ secrets.DO_BOT_AUTOMATION_PAT }}
-        path: ICOVID
+        path: ICOVID-co
 
     # Sets up python
     - name: Set up Python 3.8
