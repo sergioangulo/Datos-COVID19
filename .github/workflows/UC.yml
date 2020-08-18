@@ -54,14 +54,14 @@ jobs:
           ls -la Datos-COVID19/input/UC
           rsync -av --exclude "README.md" ICOVID/DO/ Datos-COVID19/input/UC
           ls -la Datos-COVID19/input/UC
-          # cd Datos-COVID19/src
-          # python UC.py
+          cd Datos-COVID19/src
+          python UC.py
 
 
 
 #    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
 #      with:
-#        commit_message: "Added data from reporte diario to repo"
+#        commit_message: "Added data from UC to repo"
 #
 #        # Optional glob pattern of files which should be added to the commit
 #        file_pattern: output/*/*.csv
