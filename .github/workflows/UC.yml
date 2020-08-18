@@ -32,7 +32,7 @@ jobs:
       with:
           token: ${{ env.GITHUB_TOKEN }}
           repository: datagovuc/ICOVID
-          path: ICOVID-co
+          path: $GITHUB_WORKSPACE/ICOVID-co
 
 
       # Sets up python
