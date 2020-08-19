@@ -119,6 +119,9 @@ Casos confirmados según fecha de incio de síntomas corregidos por artefactos d
 [Data Product 54 - Número de reproducción efectivo, provisto por el grupo ICOVID Chile](output/producto54):
 R efectivo utilizando los datos en el data product 53, calculado por el grupo ICOVID Chile, colaboración entre Universidades de Concepción, de Chile y Católica y el Ministerio de Salud y Ciencia [Ver más](output/producto54)
 
+[Data Product 55 - Positividad de examenes PCR según fecha del examen, provistos por ICOVID Chile](output/producto55):
+Media movil de los últimos 7 días de la positividad de los examenes de PCR a SARS-CoV-2, definida como la proporción de los test que resultan positivos, sobre el total de test efectuados ese día (test positivos / test totales). Colaboración entre Universidades de Concepción, de Chile y Católica y el Ministerio de Salud y Ciencia [Ver más](output/producto55)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
