@@ -129,11 +129,11 @@ def normalizaNombreCodigoRegionYComuna(df):
     originalColumns = [x for x in list(df) if x not in columnsAddedHere]
     sortedColumns = columnsAddedHere + originalColumns
 
-    # report on missing
-    df1 = df[df.isnull().any(axis=1)]
-    if df1.size > 0:
-        print('These are missing')
-        print(df1.to_string())
+    # # report on missing
+    # df1 = df[df.isnull().any(axis=1)]
+    # if df1.size > 0:
+    #     print('These are missing')
+    #     print(df1.to_string())
 
     df = df[sortedColumns]
     df['Codigo region'] = df['Codigo region'].astype(str)
