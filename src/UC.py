@@ -21,6 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
+import csv
+import itertools
 
 import pandas as pd
 import glob
@@ -38,9 +40,15 @@ def prod53(fte, prod):
         filename = file.split('/')
         filename = filename[len(filename) - 1]
         filename = filename.replace(' ', '_')
-        df = pd.read_csv(file, sep=";")
+        head = ''.join(itertools.islice(open(file, encoding='ISO-8859-1'), 5))
+        s = csv.Sniffer()
+        my_separator = s.sniff(head).delimiter
+        print('Found separator: ' + my_separator)
+
+        df = pd.read_csv(file, sep=my_separator)
         if 'comuna' in file:
             df.rename(columns={'comuna': 'Codigo comuna'}, inplace=True)
+            df.rename(columns={'codigo_comuna': 'Codigo comuna'}, inplace=True)
             df.drop('comuna_residencia', axis=1, inplace=True)
             print(df.columns)
             df = normalizaNombreCodigoRegionYCodigoComuna(df)
@@ -50,6 +58,7 @@ def prod53(fte, prod):
         if 'provincia' in file:
             # print(df.columns)
             # standardize
+            df.rename(columns={'codigo_provincia': 'provincia'}, inplace=True)
             df = normalizaNombreCodigoRegionYProvincia(df)
             if 'region' in df.columns:
                 df.drop(columns=['region'], inplace=True)
@@ -65,6 +74,7 @@ def prod53(fte, prod):
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
         if 'region' in file:
             # print(df.columns)
+            df.rename(columns={'codigo_region': 'region'}, inplace=True)
             df = normalizaNombreCodigoRegion(df)
             df.drop(columns=['region'], inplace=True)
             regionName(df)
