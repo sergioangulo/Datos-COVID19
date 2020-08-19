@@ -362,7 +362,8 @@ if __name__ == '__main__':
         prod31_32('../input/RegistroCivil/', '../output/producto32/')
     else:
         #URL = 'https://api.sed.srcei.cl/api/estadistica/'
-        URL = 'https://apirs.srcei.cl/api/'
+        #URL = 'https://apirs.srcei.cl/api/'
+        URL = 'https://codigo.registrocivil.cl/api/'
         if len(sys.argv) == 3:
             print('Actualizando productos entre ' + sys.argv[1] + ' y ' + sys.argv[2])
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/', fromDate=sys.argv[1], toDate=sys.argv[2])
