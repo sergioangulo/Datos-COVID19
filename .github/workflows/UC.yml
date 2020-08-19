@@ -53,26 +53,27 @@ jobs:
           ls
           ls -la Datos-COVID19/input/UC
           rsync -av --exclude "README.md" ICOVID/DO/ Datos-COVID19/input/UC
+          rm -rf  ICOVID
           ls -la Datos-COVID19/input/UC
           cd Datos-COVID19/src
           python UC.py
 
 
 
-#    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
-#      with:
-#        commit_message: "Added data from UC to repo"
-#
-#        # Optional glob pattern of files which should be added to the commit
-#        file_pattern: output/*/*.csv
-#
-#        # Optional local file path to the repository
-#        repository: .
-#
-#        # Optional commit user and author settings
-#        commit_user_name: MinCiencia GitHub Actions Bot
-#        commit_user_email: actions@github.com
-#        commit_author: minciencia github bot <actions@github.com>
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: "Added data from UC to repo"
+
+        # Optional glob pattern of files which should be added to the commit
+        file_pattern: output/*/*.csv
+
+        # Optional local file path to the repository
+        repository: .
+
+        # Optional commit user and author settings
+        commit_user_name: MinCiencia GitHub Actions Bot
+        commit_user_email: actions@github.com
+        commit_author: minciencia github bot <actions@github.com>
 #    - name: update_API
 #      run: |
 #        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
