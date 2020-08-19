@@ -1,5 +1,7 @@
 # DP54 - Número de reproducción efectivo, provisto por el grupo ICOVID Chile.
 
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl).
+
 El presente producto contiene información sobre el número de reproducción efectivo, estimado en base a los casos confirmados según la fecha de inicio de los síntomas, utilizado como un proxy de la fecha de infección. El número de reproducción efectivo se estimó empleando el método propuesto por:
 
 Cori, A., Ferguson, N.M., Fraser, C., Cauchemez, S. (2013). A new framework and software to estimate time-varying reproduction numbers during epidemics. American Journal of Epidemiology, 178: 1505 - 1512.
