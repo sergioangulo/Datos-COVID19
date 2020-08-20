@@ -46,6 +46,8 @@ def prod53(fte, prod):
         print('Found separator: ' + my_separator)
 
         df = pd.read_csv(file, sep=my_separator)
+
+        # Comunal
         if 'comuna' in file:
             df.rename(columns={'comuna': 'Codigo comuna'}, inplace=True)
             df.rename(columns={'codigo_comuna': 'Codigo comuna'}, inplace=True)
@@ -55,6 +57,8 @@ def prod53(fte, prod):
             regionName(df)
             if 'Positividad' in file:
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
+
+        # Provincial
         if 'provincia' in file:
             # print(df.columns)
             # standardize
@@ -72,6 +76,10 @@ def prod53(fte, prod):
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
             if 'Positividad' in file:
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
+            if 'prob48' in file:
+                df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
+
+        # Regional
         if 'region' in file:
             # print(df.columns)
             df.rename(columns={'codigo_region': 'region'}, inplace=True)
@@ -84,6 +92,10 @@ def prod53(fte, prod):
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
             if 'Positividad' in file:
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
+            if 'prob48' in file:
+                df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
+
+        # Nacional
         if 'nacional' in file:
             # print(df.columns)
             if 'confirmados_' in file:
@@ -92,7 +104,8 @@ def prod53(fte, prod):
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
             if 'Positividad' in file:
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
-
+            if 'prob48' in file:
+                df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
         if 'ss.csv' in file:
             if 'confirmados_' in file:
                 df.to_csv(prod + '/' + filename, index=False)
