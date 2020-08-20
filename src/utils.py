@@ -37,7 +37,7 @@ def regionName(df):
                                          "XV Región de Arica y Parinacota": "Arica y Parinacota",
                                          "I Región de Tarapacá": "Tarapacá",
                                          "Tarapaca": "Tarapacá",
-                                         "II Región de Antofagasta": "Antofagaste",
+                                         "II Región de Antofagasta": "Antofagasta",
                                          "III Región de Atacama": "Atacama",
                                          "IV Región de Coquimbo": "Coquimbo",
                                          "V Región de Valparaíso": "Valparaíso",
