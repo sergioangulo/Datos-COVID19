@@ -122,6 +122,11 @@ R efectivo utilizando los datos en el data product 53, calculado por el grupo IC
 [Data Product 55 - Positividad de examenes PCR según fecha del examen, provistos por ICOVID Chile](output/producto55):
 Media movil de los últimos 7 días de la positividad de los examenes de PCR a SARS-CoV-2, definida como la proporción de los test que resultan positivos, sobre el total de test efectuados ese día (test positivos / test totales). Colaboración entre Universidades de Concepción, de Chile y Católica y el Ministerio de Salud y Ciencia [Ver más](output/producto55)
 
+[Data Product 56 - Proporcion de casos confirmados según fecha de incio de síntomas, provistos por ICOVID Chile](output/producto56):
+Información sobre la proporción de casos confirmados para los cuales el tiempo transcurrido entre la fecha de inicio de los síntomas y la fecha en que el resultado del test de PCR a SARS-CoV-2 es recibido por la autoridad sanitaria es menor o igual a 48 horas (casos confirmados tempranos). [Ver más](output/producto56)
+
+
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
