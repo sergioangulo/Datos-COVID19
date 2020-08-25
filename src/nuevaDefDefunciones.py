@@ -52,6 +52,7 @@ def prod37(fte,producto):
     df = df[sorted_columns]
     df[variables] = df[variables].fillna(0).astype(int)
 
+
     df.to_csv(producto + '.csv', index=False)
 
 
@@ -61,6 +62,7 @@ def prod37(fte,producto):
 
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Numero defunciones')
     df_std['Numero defunciones'] = df_std['Numero defunciones'].fillna(0).astype(int)
+    df_std.sort_values(by=['Fecha', 'Publicacion'], inplace=True)
     #print(df_std)
     df_std.to_csv(producto + '_std.csv', index=False)
 
