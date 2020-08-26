@@ -52,7 +52,7 @@ def prod37(fte,producto):
     df = df[sorted_columns]
     df[variables] = df[variables].fillna(0).astype(int)
 
-
+    df.sort_values(by=['Publicacion'], inplace=True)
     df.to_csv(producto + '.csv', index=False)
 
 
