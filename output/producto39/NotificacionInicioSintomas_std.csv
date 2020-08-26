@@ -1,4 +1,10 @@
 Categoria,Serie,Fecha,Casos
+Fecha inicio de sintomas,confirmada,sin fecha,0
+Fecha inicio de sintomas,no notificada,sin fecha,1
+Fecha inicio de sintomas,probable,sin fecha,0
+Fecha notificación,confirmada,sin fecha,0
+Fecha notificación,no notificada,sin fecha,1
+Fecha notificación,probable,sin fecha,0
 Fecha inicio de sintomas,confirmada,2020-02-22,1
 Fecha inicio de sintomas,no notificada,2020-02-22,0
 Fecha inicio de sintomas,probable,2020-02-22,0
