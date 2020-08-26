@@ -85,7 +85,7 @@ Fecha notificación,no notificada,2020-03-06,0
 Fecha notificación,probable,2020-03-06,0
 Fecha inicio de sintomas,confirmada,2020-03-07,14
 Fecha inicio de sintomas,no notificada,2020-03-07,0
-Fecha inicio de sintomas,probable,2020-03-07,0
+Fecha inicio de sintomas,probable,2020-03-07,1
 Fecha notificación,confirmada,2020-03-07,2
 Fecha notificación,no notificada,2020-03-07,0
 Fecha notificación,probable,2020-03-07,0
@@ -114,10 +114,10 @@ Fecha notificación,confirmada,2020-03-11,17
 Fecha notificación,no notificada,2020-03-11,0
 Fecha notificación,probable,2020-03-11,0
 Fecha inicio de sintomas,confirmada,2020-03-12,69
-Fecha inicio de sintomas,no notificada,2020-03-12,1
+Fecha inicio de sintomas,no notificada,2020-03-12,0
 Fecha inicio de sintomas,probable,2020-03-12,2
 Fecha notificación,confirmada,2020-03-12,13
-Fecha notificación,no notificada,2020-03-12,1
+Fecha notificación,no notificada,2020-03-12,0
 Fecha notificación,probable,2020-03-12,0
 Fecha inicio de sintomas,confirmada,2020-03-13,117
 Fecha inicio de sintomas,no notificada,2020-03-13,0
@@ -137,7 +137,7 @@ Fecha inicio de sintomas,probable,2020-03-15,3
 Fecha notificación,confirmada,2020-03-15,50
 Fecha notificación,no notificada,2020-03-15,0
 Fecha notificación,probable,2020-03-15,0
-Fecha inicio de sintomas,confirmada,2020-03-16,283
+Fecha inicio de sintomas,confirmada,2020-03-16,284
 Fecha inicio de sintomas,no notificada,2020-03-16,1
 Fecha inicio de sintomas,probable,2020-03-16,2
 Fecha notificación,confirmada,2020-03-16,87
@@ -152,14 +152,14 @@ Fecha notificación,probable,2020-03-17,0
 Fecha inicio de sintomas,confirmada,2020-03-18,271
 Fecha inicio de sintomas,no notificada,2020-03-18,1
 Fecha inicio de sintomas,probable,2020-03-18,2
-Fecha notificación,confirmada,2020-03-18,112
+Fecha notificación,confirmada,2020-03-18,114
 Fecha notificación,no notificada,2020-03-18,1
 Fecha notificación,probable,2020-03-18,1
 Fecha inicio de sintomas,confirmada,2020-03-19,294
-Fecha inicio de sintomas,no notificada,2020-03-19,2
+Fecha inicio de sintomas,no notificada,2020-03-19,3
 Fecha inicio de sintomas,probable,2020-03-19,1
 Fecha notificación,confirmada,2020-03-19,153
-Fecha notificación,no notificada,2020-03-19,2
+Fecha notificación,no notificada,2020-03-19,3
 Fecha notificación,probable,2020-03-19,2
 Fecha inicio de sintomas,confirmada,2020-03-20,366
 Fecha inicio de sintomas,no notificada,2020-03-20,1
@@ -209,9 +209,9 @@ Fecha inicio de sintomas,probable,2020-03-27,5
 Fecha notificación,confirmada,2020-03-27,383
 Fecha notificación,no notificada,2020-03-27,5
 Fecha notificación,probable,2020-03-27,1
-Fecha inicio de sintomas,confirmada,2020-03-28,324
+Fecha inicio de sintomas,confirmada,2020-03-28,325
 Fecha inicio de sintomas,no notificada,2020-03-28,7
-Fecha inicio de sintomas,probable,2020-03-28,1
+Fecha inicio de sintomas,probable,2020-03-28,2
 Fecha notificación,confirmada,2020-03-28,274
 Fecha notificación,no notificada,2020-03-28,7
 Fecha notificación,probable,2020-03-28,4
@@ -220,14 +220,14 @@ Fecha inicio de sintomas,no notificada,2020-03-29,9
 Fecha inicio de sintomas,probable,2020-03-29,3
 Fecha notificación,confirmada,2020-03-29,300
 Fecha notificación,no notificada,2020-03-29,9
-Fecha notificación,probable,2020-03-29,1
+Fecha notificación,probable,2020-03-29,2
 Fecha inicio de sintomas,confirmada,2020-03-30,382
 Fecha inicio de sintomas,no notificada,2020-03-30,12
 Fecha inicio de sintomas,probable,2020-03-30,1
 Fecha notificación,confirmada,2020-03-30,373
 Fecha notificación,no notificada,2020-03-30,12
-Fecha notificación,probable,2020-03-30,4
-Fecha inicio de sintomas,confirmada,2020-03-31,330
+Fecha notificación,probable,2020-03-30,5
+Fecha inicio de sintomas,confirmada,2020-03-31,331
 Fecha inicio de sintomas,no notificada,2020-03-31,9
 Fecha inicio de sintomas,probable,2020-03-31,0
 Fecha notificación,confirmada,2020-03-31,355
@@ -254,7 +254,7 @@ Fecha notificación,probable,2020-04-03,0
 Fecha inicio de sintomas,confirmada,2020-04-04,380
 Fecha inicio de sintomas,no notificada,2020-04-04,9
 Fecha inicio de sintomas,probable,2020-04-04,3
-Fecha notificación,confirmada,2020-04-04,321
+Fecha notificación,confirmada,2020-04-04,322
 Fecha notificación,no notificada,2020-04-04,9
 Fecha notificación,probable,2020-04-04,0
 Fecha inicio de sintomas,confirmada,2020-04-05,339
@@ -264,22 +264,22 @@ Fecha notificación,confirmada,2020-04-05,240
 Fecha notificación,no notificada,2020-04-05,12
 Fecha notificación,probable,2020-04-05,1
 Fecha inicio de sintomas,confirmada,2020-04-06,422
-Fecha inicio de sintomas,no notificada,2020-04-06,30
+Fecha inicio de sintomas,no notificada,2020-04-06,28
 Fecha inicio de sintomas,probable,2020-04-06,9
-Fecha notificación,confirmada,2020-04-06,467
-Fecha notificación,no notificada,2020-04-06,30
+Fecha notificación,confirmada,2020-04-06,466
+Fecha notificación,no notificada,2020-04-06,28
 Fecha notificación,probable,2020-04-06,0
 Fecha inicio de sintomas,confirmada,2020-04-07,382
-Fecha inicio de sintomas,no notificada,2020-04-07,36
+Fecha inicio de sintomas,no notificada,2020-04-07,35
 Fecha inicio de sintomas,probable,2020-04-07,3
 Fecha notificación,confirmada,2020-04-07,503
-Fecha notificación,no notificada,2020-04-07,36
+Fecha notificación,no notificada,2020-04-07,35
 Fecha notificación,probable,2020-04-07,1
-Fecha inicio de sintomas,confirmada,2020-04-08,401
-Fecha inicio de sintomas,no notificada,2020-04-08,22
+Fecha inicio de sintomas,confirmada,2020-04-08,402
+Fecha inicio de sintomas,no notificada,2020-04-08,21
 Fecha inicio de sintomas,probable,2020-04-08,1
-Fecha notificación,confirmada,2020-04-08,471
-Fecha notificación,no notificada,2020-04-08,22
+Fecha notificación,confirmada,2020-04-08,472
+Fecha notificación,no notificada,2020-04-08,21
 Fecha notificación,probable,2020-04-08,2
 Fecha inicio de sintomas,confirmada,2020-04-09,429
 Fecha inicio de sintomas,no notificada,2020-04-09,41
@@ -314,7 +314,7 @@ Fecha notificación,probable,2020-04-13,0
 Fecha inicio de sintomas,confirmada,2020-04-14,487
 Fecha inicio de sintomas,no notificada,2020-04-14,57
 Fecha inicio de sintomas,probable,2020-04-14,0
-Fecha notificación,confirmada,2020-04-14,506
+Fecha notificación,confirmada,2020-04-14,507
 Fecha notificación,no notificada,2020-04-14,57
 Fecha notificación,probable,2020-04-14,3
 Fecha inicio de sintomas,confirmada,2020-04-15,615
@@ -324,10 +324,10 @@ Fecha notificación,confirmada,2020-04-15,572
 Fecha notificación,no notificada,2020-04-15,60
 Fecha notificación,probable,2020-04-15,1
 Fecha inicio de sintomas,confirmada,2020-04-16,565
-Fecha inicio de sintomas,no notificada,2020-04-16,62
+Fecha inicio de sintomas,no notificada,2020-04-16,61
 Fecha inicio de sintomas,probable,2020-04-16,1
-Fecha notificación,confirmada,2020-04-16,585
-Fecha notificación,no notificada,2020-04-16,62
+Fecha notificación,confirmada,2020-04-16,584
+Fecha notificación,no notificada,2020-04-16,61
 Fecha notificación,probable,2020-04-16,0
 Fecha inicio de sintomas,confirmada,2020-04-17,573
 Fecha inicio de sintomas,no notificada,2020-04-17,61
@@ -347,424 +347,424 @@ Fecha inicio de sintomas,probable,2020-04-19,2
 Fecha notificación,confirmada,2020-04-19,329
 Fecha notificación,no notificada,2020-04-19,35
 Fecha notificación,probable,2020-04-19,1
-Fecha inicio de sintomas,confirmada,2020-04-20,928
-Fecha inicio de sintomas,no notificada,2020-04-20,143
+Fecha inicio de sintomas,confirmada,2020-04-20,927
+Fecha inicio de sintomas,no notificada,2020-04-20,144
 Fecha inicio de sintomas,probable,2020-04-20,12
 Fecha notificación,confirmada,2020-04-20,611
-Fecha notificación,no notificada,2020-04-20,143
+Fecha notificación,no notificada,2020-04-20,144
 Fecha notificación,probable,2020-04-20,0
-Fecha inicio de sintomas,confirmada,2020-04-21,688
-Fecha inicio de sintomas,no notificada,2020-04-21,105
+Fecha inicio de sintomas,confirmada,2020-04-21,687
+Fecha inicio de sintomas,no notificada,2020-04-21,104
 Fecha inicio de sintomas,probable,2020-04-21,5
 Fecha notificación,confirmada,2020-04-21,617
-Fecha notificación,no notificada,2020-04-21,105
+Fecha notificación,no notificada,2020-04-21,104
 Fecha notificación,probable,2020-04-21,4
 Fecha inicio de sintomas,confirmada,2020-04-22,784
 Fecha inicio de sintomas,no notificada,2020-04-22,79
-Fecha inicio de sintomas,probable,2020-04-22,4
-Fecha notificación,confirmada,2020-04-22,713
+Fecha inicio de sintomas,probable,2020-04-22,5
+Fecha notificación,confirmada,2020-04-22,712
 Fecha notificación,no notificada,2020-04-22,79
 Fecha notificación,probable,2020-04-22,3
-Fecha inicio de sintomas,confirmada,2020-04-23,843
+Fecha inicio de sintomas,confirmada,2020-04-23,844
 Fecha inicio de sintomas,no notificada,2020-04-23,69
 Fecha inicio de sintomas,probable,2020-04-23,3
-Fecha notificación,confirmada,2020-04-23,732
+Fecha notificación,confirmada,2020-04-23,731
 Fecha notificación,no notificada,2020-04-23,69
 Fecha notificación,probable,2020-04-23,5
-Fecha inicio de sintomas,confirmada,2020-04-24,1039
+Fecha inicio de sintomas,confirmada,2020-04-24,1042
 Fecha inicio de sintomas,no notificada,2020-04-24,86
 Fecha inicio de sintomas,probable,2020-04-24,8
-Fecha notificación,confirmada,2020-04-24,739
+Fecha notificación,confirmada,2020-04-24,742
 Fecha notificación,no notificada,2020-04-24,86
 Fecha notificación,probable,2020-04-24,1
 Fecha inicio de sintomas,confirmada,2020-04-25,1036
-Fecha inicio de sintomas,no notificada,2020-04-25,60
-Fecha inicio de sintomas,probable,2020-04-25,12
-Fecha notificación,confirmada,2020-04-25,515
-Fecha notificación,no notificada,2020-04-25,60
+Fecha inicio de sintomas,no notificada,2020-04-25,58
+Fecha inicio de sintomas,probable,2020-04-25,13
+Fecha notificación,confirmada,2020-04-25,514
+Fecha notificación,no notificada,2020-04-25,58
 Fecha notificación,probable,2020-04-25,3
-Fecha inicio de sintomas,confirmada,2020-04-26,1052
+Fecha inicio de sintomas,confirmada,2020-04-26,1053
 Fecha inicio de sintomas,no notificada,2020-04-26,73
 Fecha inicio de sintomas,probable,2020-04-26,12
 Fecha notificación,confirmada,2020-04-26,432
 Fecha notificación,no notificada,2020-04-26,73
-Fecha notificación,probable,2020-04-26,2
-Fecha inicio de sintomas,confirmada,2020-04-27,1691
-Fecha inicio de sintomas,no notificada,2020-04-27,81
+Fecha notificación,probable,2020-04-26,4
+Fecha inicio de sintomas,confirmada,2020-04-27,1690
+Fecha inicio de sintomas,no notificada,2020-04-27,80
 Fecha inicio de sintomas,probable,2020-04-27,21
-Fecha notificación,confirmada,2020-04-27,1173
-Fecha notificación,no notificada,2020-04-27,81
+Fecha notificación,confirmada,2020-04-27,1177
+Fecha notificación,no notificada,2020-04-27,80
 Fecha notificación,probable,2020-04-27,6
 Fecha inicio de sintomas,confirmada,2020-04-28,1634
 Fecha inicio de sintomas,no notificada,2020-04-28,130
 Fecha inicio de sintomas,probable,2020-04-28,24
-Fecha notificación,confirmada,2020-04-28,1338
+Fecha notificación,confirmada,2020-04-28,1334
 Fecha notificación,no notificada,2020-04-28,130
 Fecha notificación,probable,2020-04-28,15
 Fecha inicio de sintomas,confirmada,2020-04-29,1622
-Fecha inicio de sintomas,no notificada,2020-04-29,168
+Fecha inicio de sintomas,no notificada,2020-04-29,167
 Fecha inicio de sintomas,probable,2020-04-29,21
 Fecha notificación,confirmada,2020-04-29,1603
-Fecha notificación,no notificada,2020-04-29,168
+Fecha notificación,no notificada,2020-04-29,167
 Fecha notificación,probable,2020-04-29,5
 Fecha inicio de sintomas,confirmada,2020-04-30,1951
-Fecha inicio de sintomas,no notificada,2020-04-30,130
-Fecha inicio de sintomas,probable,2020-04-30,21
+Fecha inicio de sintomas,no notificada,2020-04-30,118
+Fecha inicio de sintomas,probable,2020-04-30,22
 Fecha notificación,confirmada,2020-04-30,1702
-Fecha notificación,no notificada,2020-04-30,130
+Fecha notificación,no notificada,2020-04-30,118
 Fecha notificación,probable,2020-04-30,13
-Fecha inicio de sintomas,confirmada,2020-05-01,2825
-Fecha inicio de sintomas,no notificada,2020-05-01,49
+Fecha inicio de sintomas,confirmada,2020-05-01,2824
+Fecha inicio de sintomas,no notificada,2020-05-01,48
 Fecha inicio de sintomas,probable,2020-05-01,57
 Fecha notificación,confirmada,2020-05-01,1113
-Fecha notificación,no notificada,2020-05-01,49
+Fecha notificación,no notificada,2020-05-01,48
 Fecha notificación,probable,2020-05-01,10
-Fecha inicio de sintomas,confirmada,2020-05-02,2561
+Fecha inicio de sintomas,confirmada,2020-05-02,2563
 Fecha inicio de sintomas,no notificada,2020-05-02,87
 Fecha inicio de sintomas,probable,2020-05-02,49
-Fecha notificación,confirmada,2020-05-02,1551
+Fecha notificación,confirmada,2020-05-02,1552
 Fecha notificación,no notificada,2020-05-02,87
-Fecha notificación,probable,2020-05-02,5
-Fecha inicio de sintomas,confirmada,2020-05-03,2724
+Fecha notificación,probable,2020-05-02,6
+Fecha inicio de sintomas,confirmada,2020-05-03,2725
 Fecha inicio de sintomas,no notificada,2020-05-03,84
 Fecha inicio de sintomas,probable,2020-05-03,50
 Fecha notificación,confirmada,2020-05-03,1573
 Fecha notificación,no notificada,2020-05-03,84
 Fecha notificación,probable,2020-05-03,27
-Fecha inicio de sintomas,confirmada,2020-05-04,3698
-Fecha inicio de sintomas,no notificada,2020-05-04,183
+Fecha inicio de sintomas,confirmada,2020-05-04,3710
+Fecha inicio de sintomas,no notificada,2020-05-04,182
 Fecha inicio de sintomas,probable,2020-05-04,49
-Fecha notificación,confirmada,2020-05-04,2916
-Fecha notificación,no notificada,2020-05-04,183
+Fecha notificación,confirmada,2020-05-04,2928
+Fecha notificación,no notificada,2020-05-04,182
 Fecha notificación,probable,2020-05-04,34
-Fecha inicio de sintomas,confirmada,2020-05-05,3369
-Fecha inicio de sintomas,no notificada,2020-05-05,288
+Fecha inicio de sintomas,confirmada,2020-05-05,3375
+Fecha inicio de sintomas,no notificada,2020-05-05,280
 Fecha inicio de sintomas,probable,2020-05-05,42
-Fecha notificación,confirmada,2020-05-05,3067
-Fecha notificación,no notificada,2020-05-05,288
+Fecha notificación,confirmada,2020-05-05,3068
+Fecha notificación,no notificada,2020-05-05,280
 Fecha notificación,probable,2020-05-05,30
-Fecha inicio de sintomas,confirmada,2020-05-06,3362
-Fecha inicio de sintomas,no notificada,2020-05-06,274
+Fecha inicio de sintomas,confirmada,2020-05-06,3365
+Fecha inicio de sintomas,no notificada,2020-05-06,269
 Fecha inicio de sintomas,probable,2020-05-06,48
-Fecha notificación,confirmada,2020-05-06,3074
-Fecha notificación,no notificada,2020-05-06,274
+Fecha notificación,confirmada,2020-05-06,3076
+Fecha notificación,no notificada,2020-05-06,269
 Fecha notificación,probable,2020-05-06,44
-Fecha inicio de sintomas,confirmada,2020-05-07,3566
-Fecha inicio de sintomas,no notificada,2020-05-07,253
-Fecha inicio de sintomas,probable,2020-05-07,29
-Fecha notificación,confirmada,2020-05-07,3328
-Fecha notificación,no notificada,2020-05-07,253
+Fecha inicio de sintomas,confirmada,2020-05-07,3567
+Fecha inicio de sintomas,no notificada,2020-05-07,254
+Fecha inicio de sintomas,probable,2020-05-07,30
+Fecha notificación,confirmada,2020-05-07,3329
+Fecha notificación,no notificada,2020-05-07,254
 Fecha notificación,probable,2020-05-07,43
-Fecha inicio de sintomas,confirmada,2020-05-08,4056
-Fecha inicio de sintomas,no notificada,2020-05-08,312
-Fecha inicio de sintomas,probable,2020-05-08,50
-Fecha notificación,confirmada,2020-05-08,3444
-Fecha notificación,no notificada,2020-05-08,312
+Fecha inicio de sintomas,confirmada,2020-05-08,4061
+Fecha inicio de sintomas,no notificada,2020-05-08,311
+Fecha inicio de sintomas,probable,2020-05-08,49
+Fecha notificación,confirmada,2020-05-08,3451
+Fecha notificación,no notificada,2020-05-08,311
 Fecha notificación,probable,2020-05-08,18
 Fecha inicio de sintomas,confirmada,2020-05-09,3830
 Fecha inicio de sintomas,no notificada,2020-05-09,157
-Fecha inicio de sintomas,probable,2020-05-09,42
+Fecha inicio de sintomas,probable,2020-05-09,41
 Fecha notificación,confirmada,2020-05-09,2609
 Fecha notificación,no notificada,2020-05-09,157
 Fecha notificación,probable,2020-05-09,13
 Fecha inicio de sintomas,confirmada,2020-05-10,4230
-Fecha inicio de sintomas,no notificada,2020-05-10,104
+Fecha inicio de sintomas,no notificada,2020-05-10,103
 Fecha inicio de sintomas,probable,2020-05-10,67
 Fecha notificación,confirmada,2020-05-10,2047
-Fecha notificación,no notificada,2020-05-10,104
-Fecha notificación,probable,2020-05-10,11
+Fecha notificación,no notificada,2020-05-10,103
+Fecha notificación,probable,2020-05-10,10
 Fecha inicio de sintomas,confirmada,2020-05-11,5185
-Fecha inicio de sintomas,no notificada,2020-05-11,419
-Fecha inicio de sintomas,probable,2020-05-11,70
-Fecha notificación,confirmada,2020-05-11,5078
-Fecha notificación,no notificada,2020-05-11,419
+Fecha inicio de sintomas,no notificada,2020-05-11,415
+Fecha inicio de sintomas,probable,2020-05-11,69
+Fecha notificación,confirmada,2020-05-11,5079
+Fecha notificación,no notificada,2020-05-11,415
 Fecha notificación,probable,2020-05-11,34
-Fecha inicio de sintomas,confirmada,2020-05-12,4639
+Fecha inicio de sintomas,confirmada,2020-05-12,4640
 Fecha inicio de sintomas,no notificada,2020-05-12,321
 Fecha inicio de sintomas,probable,2020-05-12,59
-Fecha notificación,confirmada,2020-05-12,4664
+Fecha notificación,confirmada,2020-05-12,4663
 Fecha notificación,no notificada,2020-05-12,321
 Fecha notificación,probable,2020-05-12,53
 Fecha inicio de sintomas,confirmada,2020-05-13,4157
-Fecha inicio de sintomas,no notificada,2020-05-13,239
+Fecha inicio de sintomas,no notificada,2020-05-13,238
 Fecha inicio de sintomas,probable,2020-05-13,66
-Fecha notificación,confirmada,2020-05-13,4052
-Fecha notificación,no notificada,2020-05-13,239
+Fecha notificación,confirmada,2020-05-13,4051
+Fecha notificación,no notificada,2020-05-13,238
 Fecha notificación,probable,2020-05-13,46
 Fecha inicio de sintomas,confirmada,2020-05-14,4051
 Fecha inicio de sintomas,no notificada,2020-05-14,296
 Fecha inicio de sintomas,probable,2020-05-14,86
-Fecha notificación,confirmada,2020-05-14,4121
+Fecha notificación,confirmada,2020-05-14,4122
 Fecha notificación,no notificada,2020-05-14,296
 Fecha notificación,probable,2020-05-14,48
 Fecha inicio de sintomas,confirmada,2020-05-15,5221
 Fecha inicio de sintomas,no notificada,2020-05-15,405
-Fecha inicio de sintomas,probable,2020-05-15,97
-Fecha notificación,confirmada,2020-05-15,3942
+Fecha inicio de sintomas,probable,2020-05-15,95
+Fecha notificación,confirmada,2020-05-15,3946
 Fecha notificación,no notificada,2020-05-15,405
 Fecha notificación,probable,2020-05-15,58
-Fecha inicio de sintomas,confirmada,2020-05-16,4555
+Fecha inicio de sintomas,confirmada,2020-05-16,4559
 Fecha inicio de sintomas,no notificada,2020-05-16,453
-Fecha inicio de sintomas,probable,2020-05-16,75
-Fecha notificación,confirmada,2020-05-16,3046
+Fecha inicio de sintomas,probable,2020-05-16,74
+Fecha notificación,confirmada,2020-05-16,3057
 Fecha notificación,no notificada,2020-05-16,453
-Fecha notificación,probable,2020-05-16,30
-Fecha inicio de sintomas,confirmada,2020-05-17,4511
+Fecha notificación,probable,2020-05-16,31
+Fecha inicio de sintomas,confirmada,2020-05-17,4512
 Fecha inicio de sintomas,no notificada,2020-05-17,201
 Fecha inicio de sintomas,probable,2020-05-17,84
-Fecha notificación,confirmada,2020-05-17,2693
+Fecha notificación,confirmada,2020-05-17,2695
 Fecha notificación,no notificada,2020-05-17,201
 Fecha notificación,probable,2020-05-17,22
-Fecha inicio de sintomas,confirmada,2020-05-18,5835
+Fecha inicio de sintomas,confirmada,2020-05-18,5834
 Fecha inicio de sintomas,no notificada,2020-05-18,282
-Fecha inicio de sintomas,probable,2020-05-18,155
-Fecha notificación,confirmada,2020-05-18,5522
+Fecha inicio de sintomas,probable,2020-05-18,154
+Fecha notificación,confirmada,2020-05-18,5514
 Fecha notificación,no notificada,2020-05-18,282
-Fecha notificación,probable,2020-05-18,69
-Fecha inicio de sintomas,confirmada,2020-05-19,4953
-Fecha inicio de sintomas,no notificada,2020-05-19,488
+Fecha notificación,probable,2020-05-18,68
+Fecha inicio de sintomas,confirmada,2020-05-19,4950
+Fecha inicio de sintomas,no notificada,2020-05-19,485
 Fecha inicio de sintomas,probable,2020-05-19,126
-Fecha notificación,confirmada,2020-05-19,5550
-Fecha notificación,no notificada,2020-05-19,488
-Fecha notificación,probable,2020-05-19,79
-Fecha inicio de sintomas,confirmada,2020-05-20,5753
-Fecha inicio de sintomas,no notificada,2020-05-20,714
+Fecha notificación,confirmada,2020-05-19,5547
+Fecha notificación,no notificada,2020-05-19,485
+Fecha notificación,probable,2020-05-19,78
+Fecha inicio de sintomas,confirmada,2020-05-20,5751
+Fecha inicio de sintomas,no notificada,2020-05-20,710
 Fecha inicio de sintomas,probable,2020-05-20,180
-Fecha notificación,confirmada,2020-05-20,5265
-Fecha notificación,no notificada,2020-05-20,714
-Fecha notificación,probable,2020-05-20,76
-Fecha inicio de sintomas,confirmada,2020-05-21,4524
+Fecha notificación,confirmada,2020-05-20,5285
+Fecha notificación,no notificada,2020-05-20,710
+Fecha notificación,probable,2020-05-20,74
+Fecha inicio de sintomas,confirmada,2020-05-21,4525
 Fecha inicio de sintomas,no notificada,2020-05-21,261
-Fecha inicio de sintomas,probable,2020-05-21,151
-Fecha notificación,confirmada,2020-05-21,3095
+Fecha inicio de sintomas,probable,2020-05-21,149
+Fecha notificación,confirmada,2020-05-21,3103
 Fecha notificación,no notificada,2020-05-21,261
 Fecha notificación,probable,2020-05-21,55
-Fecha inicio de sintomas,confirmada,2020-05-22,5527
+Fecha inicio de sintomas,confirmada,2020-05-22,5528
 Fecha inicio de sintomas,no notificada,2020-05-22,359
-Fecha inicio de sintomas,probable,2020-05-22,173
+Fecha inicio de sintomas,probable,2020-05-22,172
 Fecha notificación,confirmada,2020-05-22,5673
 Fecha notificación,no notificada,2020-05-22,359
-Fecha notificación,probable,2020-05-22,92
-Fecha inicio de sintomas,confirmada,2020-05-23,5003
+Fecha notificación,probable,2020-05-22,90
+Fecha inicio de sintomas,confirmada,2020-05-23,5004
 Fecha inicio de sintomas,no notificada,2020-05-23,195
 Fecha inicio de sintomas,probable,2020-05-23,203
 Fecha notificación,confirmada,2020-05-23,3743
 Fecha notificación,no notificada,2020-05-23,195
-Fecha notificación,probable,2020-05-23,59
-Fecha inicio de sintomas,confirmada,2020-05-24,4542
-Fecha inicio de sintomas,no notificada,2020-05-24,141
-Fecha inicio de sintomas,probable,2020-05-24,207
-Fecha notificación,confirmada,2020-05-24,3471
-Fecha notificación,no notificada,2020-05-24,141
-Fecha notificación,probable,2020-05-24,56
-Fecha inicio de sintomas,confirmada,2020-05-25,6245
+Fecha notificación,probable,2020-05-23,57
+Fecha inicio de sintomas,confirmada,2020-05-24,4541
+Fecha inicio de sintomas,no notificada,2020-05-24,140
+Fecha inicio de sintomas,probable,2020-05-24,205
+Fecha notificación,confirmada,2020-05-24,3470
+Fecha notificación,no notificada,2020-05-24,140
+Fecha notificación,probable,2020-05-24,55
+Fecha inicio de sintomas,confirmada,2020-05-25,6247
 Fecha inicio de sintomas,no notificada,2020-05-25,299
-Fecha inicio de sintomas,probable,2020-05-25,454
-Fecha notificación,confirmada,2020-05-25,6856
+Fecha inicio de sintomas,probable,2020-05-25,453
+Fecha notificación,confirmada,2020-05-25,6855
 Fecha notificación,no notificada,2020-05-25,299
 Fecha notificación,probable,2020-05-25,144
-Fecha inicio de sintomas,confirmada,2020-05-26,4746
-Fecha inicio de sintomas,no notificada,2020-05-26,278
+Fecha inicio de sintomas,confirmada,2020-05-26,4748
+Fecha inicio de sintomas,no notificada,2020-05-26,277
 Fecha inicio de sintomas,probable,2020-05-26,394
-Fecha notificación,confirmada,2020-05-26,6043
-Fecha notificación,no notificada,2020-05-26,278
+Fecha notificación,confirmada,2020-05-26,6045
+Fecha notificación,no notificada,2020-05-26,277
 Fecha notificación,probable,2020-05-26,172
 Fecha inicio de sintomas,confirmada,2020-05-27,4929
-Fecha inicio de sintomas,no notificada,2020-05-27,271
-Fecha inicio de sintomas,probable,2020-05-27,454
+Fecha inicio de sintomas,no notificada,2020-05-27,270
+Fecha inicio de sintomas,probable,2020-05-27,453
 Fecha notificación,confirmada,2020-05-27,5633
-Fecha notificación,no notificada,2020-05-27,271
+Fecha notificación,no notificada,2020-05-27,270
 Fecha notificación,probable,2020-05-27,149
-Fecha inicio de sintomas,confirmada,2020-05-28,4979
-Fecha inicio de sintomas,no notificada,2020-05-28,319
+Fecha inicio de sintomas,confirmada,2020-05-28,4980
+Fecha inicio de sintomas,no notificada,2020-05-28,318
 Fecha inicio de sintomas,probable,2020-05-28,568
-Fecha notificación,confirmada,2020-05-28,4740
-Fecha notificación,no notificada,2020-05-28,319
-Fecha notificación,probable,2020-05-28,119
-Fecha inicio de sintomas,confirmada,2020-05-29,5167
-Fecha inicio de sintomas,no notificada,2020-05-29,296
-Fecha inicio de sintomas,probable,2020-05-29,645
-Fecha notificación,confirmada,2020-05-29,5335
-Fecha notificación,no notificada,2020-05-29,296
+Fecha notificación,confirmada,2020-05-28,4743
+Fecha notificación,no notificada,2020-05-28,318
+Fecha notificación,probable,2020-05-28,118
+Fecha inicio de sintomas,confirmada,2020-05-29,5172
+Fecha inicio de sintomas,no notificada,2020-05-29,295
+Fecha inicio de sintomas,probable,2020-05-29,644
+Fecha notificación,confirmada,2020-05-29,5334
+Fecha notificación,no notificada,2020-05-29,295
 Fecha notificación,probable,2020-05-29,131
-Fecha inicio de sintomas,confirmada,2020-05-30,4833
-Fecha inicio de sintomas,no notificada,2020-05-30,188
-Fecha inicio de sintomas,probable,2020-05-30,720
+Fecha inicio de sintomas,confirmada,2020-05-30,4837
+Fecha inicio de sintomas,no notificada,2020-05-30,186
+Fecha inicio de sintomas,probable,2020-05-30,721
 Fecha notificación,confirmada,2020-05-30,3794
-Fecha notificación,no notificada,2020-05-30,188
-Fecha notificación,probable,2020-05-30,102
-Fecha inicio de sintomas,confirmada,2020-05-31,4422
-Fecha inicio de sintomas,no notificada,2020-05-31,101
-Fecha inicio de sintomas,probable,2020-05-31,748
+Fecha notificación,no notificada,2020-05-30,186
+Fecha notificación,probable,2020-05-30,101
+Fecha inicio de sintomas,confirmada,2020-05-31,4423
+Fecha inicio de sintomas,no notificada,2020-05-31,102
+Fecha inicio de sintomas,probable,2020-05-31,746
 Fecha notificación,confirmada,2020-05-31,3093
-Fecha notificación,no notificada,2020-05-31,101
+Fecha notificación,no notificada,2020-05-31,102
 Fecha notificación,probable,2020-05-31,292
-Fecha inicio de sintomas,confirmada,2020-06-01,7090
+Fecha inicio de sintomas,confirmada,2020-06-01,7096
 Fecha inicio de sintomas,no notificada,2020-06-01,250
 Fecha inicio de sintomas,probable,2020-06-01,1367
-Fecha notificación,confirmada,2020-06-01,7281
+Fecha notificación,confirmada,2020-06-01,7287
 Fecha notificación,no notificada,2020-06-01,250
 Fecha notificación,probable,2020-06-01,967
-Fecha inicio de sintomas,confirmada,2020-06-02,4718
+Fecha inicio de sintomas,confirmada,2020-06-02,4721
 Fecha inicio de sintomas,no notificada,2020-06-02,256
-Fecha inicio de sintomas,probable,2020-06-02,933
-Fecha notificación,confirmada,2020-06-02,6261
+Fecha inicio de sintomas,probable,2020-06-02,932
+Fecha notificación,confirmada,2020-06-02,6263
 Fecha notificación,no notificada,2020-06-02,256
 Fecha notificación,probable,2020-06-02,1042
-Fecha inicio de sintomas,confirmada,2020-06-03,4526
-Fecha inicio de sintomas,no notificada,2020-06-03,268
+Fecha inicio de sintomas,confirmada,2020-06-03,4525
+Fecha inicio de sintomas,no notificada,2020-06-03,264
 Fecha inicio de sintomas,probable,2020-06-03,945
-Fecha notificación,confirmada,2020-06-03,5635
-Fecha notificación,no notificada,2020-06-03,268
-Fecha notificación,probable,2020-06-03,998
-Fecha inicio de sintomas,confirmada,2020-06-04,4480
-Fecha inicio de sintomas,no notificada,2020-06-04,303
+Fecha notificación,confirmada,2020-06-03,5633
+Fecha notificación,no notificada,2020-06-03,264
+Fecha notificación,probable,2020-06-03,996
+Fecha inicio de sintomas,confirmada,2020-06-04,4481
+Fecha inicio de sintomas,no notificada,2020-06-04,297
 Fecha inicio de sintomas,probable,2020-06-04,891
-Fecha notificación,confirmada,2020-06-04,5722
-Fecha notificación,no notificada,2020-06-04,303
+Fecha notificación,confirmada,2020-06-04,5723
+Fecha notificación,no notificada,2020-06-04,297
 Fecha notificación,probable,2020-06-04,1057
 Fecha inicio de sintomas,confirmada,2020-06-05,5143
-Fecha inicio de sintomas,no notificada,2020-06-05,214
-Fecha inicio de sintomas,probable,2020-06-05,1048
-Fecha notificación,confirmada,2020-06-05,5383
-Fecha notificación,no notificada,2020-06-05,214
+Fecha inicio de sintomas,no notificada,2020-06-05,211
+Fecha inicio de sintomas,probable,2020-06-05,1047
+Fecha notificación,confirmada,2020-06-05,5382
+Fecha notificación,no notificada,2020-06-05,211
 Fecha notificación,probable,2020-06-05,1028
 Fecha inicio de sintomas,confirmada,2020-06-06,4481
 Fecha inicio de sintomas,no notificada,2020-06-06,90
-Fecha inicio de sintomas,probable,2020-06-06,939
-Fecha notificación,confirmada,2020-06-06,3771
+Fecha inicio de sintomas,probable,2020-06-06,938
+Fecha notificación,confirmada,2020-06-06,3772
 Fecha notificación,no notificada,2020-06-06,90
 Fecha notificación,probable,2020-06-06,561
-Fecha inicio de sintomas,confirmada,2020-06-07,3967
+Fecha inicio de sintomas,confirmada,2020-06-07,3969
 Fecha inicio de sintomas,no notificada,2020-06-07,75
-Fecha inicio de sintomas,probable,2020-06-07,875
-Fecha notificación,confirmada,2020-06-07,2963
+Fecha inicio de sintomas,probable,2020-06-07,874
+Fecha notificación,confirmada,2020-06-07,2962
 Fecha notificación,no notificada,2020-06-07,75
 Fecha notificación,probable,2020-06-07,415
 Fecha inicio de sintomas,confirmada,2020-06-08,5302
 Fecha inicio de sintomas,no notificada,2020-06-08,277
-Fecha inicio de sintomas,probable,2020-06-08,1239
-Fecha notificación,confirmada,2020-06-08,6366
+Fecha inicio de sintomas,probable,2020-06-08,1238
+Fecha notificación,confirmada,2020-06-08,6372
 Fecha notificación,no notificada,2020-06-08,277
-Fecha notificación,probable,2020-06-08,1254
+Fecha notificación,probable,2020-06-08,1253
 Fecha inicio de sintomas,confirmada,2020-06-09,4107
-Fecha inicio de sintomas,no notificada,2020-06-09,272
-Fecha inicio de sintomas,probable,2020-06-09,935
-Fecha notificación,confirmada,2020-06-09,5664
-Fecha notificación,no notificada,2020-06-09,272
-Fecha notificación,probable,2020-06-09,1230
-Fecha inicio de sintomas,confirmada,2020-06-10,4394
-Fecha inicio de sintomas,no notificada,2020-06-10,220
+Fecha inicio de sintomas,no notificada,2020-06-09,271
+Fecha inicio de sintomas,probable,2020-06-09,931
+Fecha notificación,confirmada,2020-06-09,5668
+Fecha notificación,no notificada,2020-06-09,271
+Fecha notificación,probable,2020-06-09,1228
+Fecha inicio de sintomas,confirmada,2020-06-10,4398
+Fecha inicio de sintomas,no notificada,2020-06-10,215
 Fecha inicio de sintomas,probable,2020-06-10,993
-Fecha notificación,confirmada,2020-06-10,5414
-Fecha notificación,no notificada,2020-06-10,220
-Fecha notificación,probable,2020-06-10,1216
-Fecha inicio de sintomas,confirmada,2020-06-11,3894
-Fecha inicio de sintomas,no notificada,2020-06-11,231
-Fecha inicio de sintomas,probable,2020-06-11,932
-Fecha notificación,confirmada,2020-06-11,4902
-Fecha notificación,no notificada,2020-06-11,231
-Fecha notificación,probable,2020-06-11,1244
-Fecha inicio de sintomas,confirmada,2020-06-12,4487
-Fecha inicio de sintomas,no notificada,2020-06-12,270
-Fecha inicio de sintomas,probable,2020-06-12,992
-Fecha notificación,confirmada,2020-06-12,4673
-Fecha notificación,no notificada,2020-06-12,270
-Fecha notificación,probable,2020-06-12,1206
-Fecha inicio de sintomas,confirmada,2020-06-13,4131
+Fecha notificación,confirmada,2020-06-10,5420
+Fecha notificación,no notificada,2020-06-10,215
+Fecha notificación,probable,2020-06-10,1214
+Fecha inicio de sintomas,confirmada,2020-06-11,3897
+Fecha inicio de sintomas,no notificada,2020-06-11,230
+Fecha inicio de sintomas,probable,2020-06-11,931
+Fecha notificación,confirmada,2020-06-11,4906
+Fecha notificación,no notificada,2020-06-11,230
+Fecha notificación,probable,2020-06-11,1243
+Fecha inicio de sintomas,confirmada,2020-06-12,4491
+Fecha inicio de sintomas,no notificada,2020-06-12,268
+Fecha inicio de sintomas,probable,2020-06-12,991
+Fecha notificación,confirmada,2020-06-12,4681
+Fecha notificación,no notificada,2020-06-12,268
+Fecha notificación,probable,2020-06-12,1202
+Fecha inicio de sintomas,confirmada,2020-06-13,4132
 Fecha inicio de sintomas,no notificada,2020-06-13,141
 Fecha inicio de sintomas,probable,2020-06-13,909
-Fecha notificación,confirmada,2020-06-13,3251
+Fecha notificación,confirmada,2020-06-13,3252
 Fecha notificación,no notificada,2020-06-13,141
 Fecha notificación,probable,2020-06-13,577
-Fecha inicio de sintomas,confirmada,2020-06-14,3682
+Fecha inicio de sintomas,confirmada,2020-06-14,3683
 Fecha inicio de sintomas,no notificada,2020-06-14,61
 Fecha inicio de sintomas,probable,2020-06-14,836
 Fecha notificación,confirmada,2020-06-14,2604
 Fecha notificación,no notificada,2020-06-14,61
 Fecha notificación,probable,2020-06-14,441
-Fecha inicio de sintomas,confirmada,2020-06-15,4713
-Fecha inicio de sintomas,no notificada,2020-06-15,272
+Fecha inicio de sintomas,confirmada,2020-06-15,4718
+Fecha inicio de sintomas,no notificada,2020-06-15,270
 Fecha inicio de sintomas,probable,2020-06-15,1169
-Fecha notificación,confirmada,2020-06-15,5828
-Fecha notificación,no notificada,2020-06-15,272
+Fecha notificación,confirmada,2020-06-15,5829
+Fecha notificación,no notificada,2020-06-15,270
 Fecha notificación,probable,2020-06-15,1262
-Fecha inicio de sintomas,confirmada,2020-06-16,3984
-Fecha inicio de sintomas,no notificada,2020-06-16,299
+Fecha inicio de sintomas,confirmada,2020-06-16,3985
+Fecha inicio de sintomas,no notificada,2020-06-16,298
 Fecha inicio de sintomas,probable,2020-06-16,940
-Fecha notificación,confirmada,2020-06-16,5307
-Fecha notificación,no notificada,2020-06-16,299
-Fecha notificación,probable,2020-06-16,1125
-Fecha inicio de sintomas,confirmada,2020-06-17,3670
-Fecha inicio de sintomas,no notificada,2020-06-17,312
-Fecha inicio de sintomas,probable,2020-06-17,867
-Fecha notificación,confirmada,2020-06-17,4805
-Fecha notificación,no notificada,2020-06-17,312
-Fecha notificación,probable,2020-06-17,1105
+Fecha notificación,confirmada,2020-06-16,5303
+Fecha notificación,no notificada,2020-06-16,298
+Fecha notificación,probable,2020-06-16,1124
+Fecha inicio de sintomas,confirmada,2020-06-17,3674
+Fecha inicio de sintomas,no notificada,2020-06-17,311
+Fecha inicio de sintomas,probable,2020-06-17,866
+Fecha notificación,confirmada,2020-06-17,4804
+Fecha notificación,no notificada,2020-06-17,311
+Fecha notificación,probable,2020-06-17,1104
 Fecha inicio de sintomas,confirmada,2020-06-18,3793
-Fecha inicio de sintomas,no notificada,2020-06-18,348
+Fecha inicio de sintomas,no notificada,2020-06-18,346
 Fecha inicio de sintomas,probable,2020-06-18,894
-Fecha notificación,confirmada,2020-06-18,4565
-Fecha notificación,no notificada,2020-06-18,348
-Fecha notificación,probable,2020-06-18,1149
+Fecha notificación,confirmada,2020-06-18,4573
+Fecha notificación,no notificada,2020-06-18,346
+Fecha notificación,probable,2020-06-18,1148
 Fecha inicio de sintomas,confirmada,2020-06-19,3920
-Fecha inicio de sintomas,no notificada,2020-06-19,218
-Fecha inicio de sintomas,probable,2020-06-19,831
-Fecha notificación,confirmada,2020-06-19,4499
-Fecha notificación,no notificada,2020-06-19,218
-Fecha notificación,probable,2020-06-19,1194
-Fecha inicio de sintomas,confirmada,2020-06-20,3689
-Fecha inicio de sintomas,no notificada,2020-06-20,121
+Fecha inicio de sintomas,no notificada,2020-06-19,217
+Fecha inicio de sintomas,probable,2020-06-19,830
+Fecha notificación,confirmada,2020-06-19,4502
+Fecha notificación,no notificada,2020-06-19,217
+Fecha notificación,probable,2020-06-19,1193
+Fecha inicio de sintomas,confirmada,2020-06-20,3691
+Fecha inicio de sintomas,no notificada,2020-06-20,120
 Fecha inicio de sintomas,probable,2020-06-20,900
-Fecha notificación,confirmada,2020-06-20,2749
-Fecha notificación,no notificada,2020-06-20,121
-Fecha notificación,probable,2020-06-20,537
-Fecha inicio de sintomas,confirmada,2020-06-21,3038
+Fecha notificación,confirmada,2020-06-20,2750
+Fecha notificación,no notificada,2020-06-20,120
+Fecha notificación,probable,2020-06-20,536
+Fecha inicio de sintomas,confirmada,2020-06-21,3042
 Fecha inicio de sintomas,no notificada,2020-06-21,85
-Fecha inicio de sintomas,probable,2020-06-21,773
-Fecha notificación,confirmada,2020-06-21,2181
+Fecha inicio de sintomas,probable,2020-06-21,771
+Fecha notificación,confirmada,2020-06-21,2182
 Fecha notificación,no notificada,2020-06-21,85
-Fecha notificación,probable,2020-06-21,354
-Fecha inicio de sintomas,confirmada,2020-06-22,3733
+Fecha notificación,probable,2020-06-21,353
+Fecha inicio de sintomas,confirmada,2020-06-22,3734
 Fecha inicio de sintomas,no notificada,2020-06-22,154
 Fecha inicio de sintomas,probable,2020-06-22,979
-Fecha notificación,confirmada,2020-06-22,4997
+Fecha notificación,confirmada,2020-06-22,5000
 Fecha notificación,no notificada,2020-06-22,154
 Fecha notificación,probable,2020-06-22,1288
 Fecha inicio de sintomas,confirmada,2020-06-23,3364
 Fecha inicio de sintomas,no notificada,2020-06-23,200
-Fecha inicio de sintomas,probable,2020-06-23,778
-Fecha notificación,confirmada,2020-06-23,4212
+Fecha inicio de sintomas,probable,2020-06-23,777
+Fecha notificación,confirmada,2020-06-23,4215
 Fecha notificación,no notificada,2020-06-23,200
 Fecha notificación,probable,2020-06-23,1067
-Fecha inicio de sintomas,confirmada,2020-06-24,3115
-Fecha inicio de sintomas,no notificada,2020-06-24,179
+Fecha inicio de sintomas,confirmada,2020-06-24,3117
+Fecha inicio de sintomas,no notificada,2020-06-24,176
 Fecha inicio de sintomas,probable,2020-06-24,748
-Fecha notificación,confirmada,2020-06-24,4163
-Fecha notificación,no notificada,2020-06-24,179
-Fecha notificación,probable,2020-06-24,1082
-Fecha inicio de sintomas,confirmada,2020-06-25,2998
+Fecha notificación,confirmada,2020-06-24,4165
+Fecha notificación,no notificada,2020-06-24,176
+Fecha notificación,probable,2020-06-24,1081
+Fecha inicio de sintomas,confirmada,2020-06-25,3003
 Fecha inicio de sintomas,no notificada,2020-06-25,184
 Fecha inicio de sintomas,probable,2020-06-25,665
-Fecha notificación,confirmada,2020-06-25,3805
+Fecha notificación,confirmada,2020-06-25,3809
 Fecha notificación,no notificada,2020-06-25,184
-Fecha notificación,probable,2020-06-25,1043
-Fecha inicio de sintomas,confirmada,2020-06-26,3125
-Fecha inicio de sintomas,no notificada,2020-06-26,145
+Fecha notificación,probable,2020-06-25,1044
+Fecha inicio de sintomas,confirmada,2020-06-26,3124
+Fecha inicio de sintomas,no notificada,2020-06-26,144
 Fecha inicio de sintomas,probable,2020-06-26,689
-Fecha notificación,confirmada,2020-06-26,3730
-Fecha notificación,no notificada,2020-06-26,145
+Fecha notificación,confirmada,2020-06-26,3735
+Fecha notificación,no notificada,2020-06-26,144
 Fecha notificación,probable,2020-06-26,1042
-Fecha inicio de sintomas,confirmada,2020-06-27,2670
-Fecha inicio de sintomas,no notificada,2020-06-27,82
-Fecha inicio de sintomas,probable,2020-06-27,559
-Fecha notificación,confirmada,2020-06-27,2645
-Fecha notificación,no notificada,2020-06-27,82
-Fecha notificación,probable,2020-06-27,526
-Fecha inicio de sintomas,confirmada,2020-06-28,2534
+Fecha inicio de sintomas,confirmada,2020-06-27,2669
+Fecha inicio de sintomas,no notificada,2020-06-27,81
+Fecha inicio de sintomas,probable,2020-06-27,560
+Fecha notificación,confirmada,2020-06-27,2647
+Fecha notificación,no notificada,2020-06-27,81
+Fecha notificación,probable,2020-06-27,527
+Fecha inicio de sintomas,confirmada,2020-06-28,2536
 Fecha inicio de sintomas,no notificada,2020-06-28,38
 Fecha inicio de sintomas,probable,2020-06-28,603
-Fecha notificación,confirmada,2020-06-28,2118
+Fecha notificación,confirmada,2020-06-28,2119
 Fecha notificación,no notificada,2020-06-28,38
 Fecha notificación,probable,2020-06-28,337
 Fecha inicio de sintomas,confirmada,2020-06-29,2669
@@ -773,315 +773,333 @@ Fecha inicio de sintomas,probable,2020-06-29,677
 Fecha notificación,confirmada,2020-06-29,1944
 Fecha notificación,no notificada,2020-06-29,43
 Fecha notificación,probable,2020-06-29,366
-Fecha inicio de sintomas,confirmada,2020-06-30,2902
+Fecha inicio de sintomas,confirmada,2020-06-30,2906
 Fecha inicio de sintomas,no notificada,2020-06-30,136
-Fecha inicio de sintomas,probable,2020-06-30,720
+Fecha inicio de sintomas,probable,2020-06-30,718
 Fecha notificación,confirmada,2020-06-30,3938
 Fecha notificación,no notificada,2020-06-30,136
-Fecha notificación,probable,2020-06-30,878
-Fecha inicio de sintomas,confirmada,2020-07-01,3245
-Fecha inicio de sintomas,no notificada,2020-07-01,129
-Fecha inicio de sintomas,probable,2020-07-01,632
-Fecha notificación,confirmada,2020-07-01,3636
-Fecha notificación,no notificada,2020-07-01,129
+Fecha notificación,probable,2020-06-30,876
+Fecha inicio de sintomas,confirmada,2020-07-01,3244
+Fecha inicio de sintomas,no notificada,2020-07-01,128
+Fecha inicio de sintomas,probable,2020-07-01,633
+Fecha notificación,confirmada,2020-07-01,3634
+Fecha notificación,no notificada,2020-07-01,128
 Fecha notificación,probable,2020-07-01,982
-Fecha inicio de sintomas,confirmada,2020-07-02,2378
-Fecha inicio de sintomas,no notificada,2020-07-02,110
-Fecha inicio de sintomas,probable,2020-07-02,530
-Fecha notificación,confirmada,2020-07-02,3369
-Fecha notificación,no notificada,2020-07-02,110
-Fecha notificación,probable,2020-07-02,892
-Fecha inicio de sintomas,confirmada,2020-07-03,2598
+Fecha inicio de sintomas,confirmada,2020-07-02,2380
+Fecha inicio de sintomas,no notificada,2020-07-02,109
+Fecha inicio de sintomas,probable,2020-07-02,529
+Fecha notificación,confirmada,2020-07-02,3370
+Fecha notificación,no notificada,2020-07-02,109
+Fecha notificación,probable,2020-07-02,891
+Fecha inicio de sintomas,confirmada,2020-07-03,2599
 Fecha inicio de sintomas,no notificada,2020-07-03,97
-Fecha inicio de sintomas,probable,2020-07-03,539
-Fecha notificación,confirmada,2020-07-03,3363
+Fecha inicio de sintomas,probable,2020-07-03,538
+Fecha notificación,confirmada,2020-07-03,3360
 Fecha notificación,no notificada,2020-07-03,97
-Fecha notificación,probable,2020-07-03,814
-Fecha inicio de sintomas,confirmada,2020-07-04,2327
+Fecha notificación,probable,2020-07-03,813
+Fecha inicio de sintomas,confirmada,2020-07-04,2328
 Fecha inicio de sintomas,no notificada,2020-07-04,44
 Fecha inicio de sintomas,probable,2020-07-04,505
-Fecha notificación,confirmada,2020-07-04,1690
+Fecha notificación,confirmada,2020-07-04,1691
 Fecha notificación,no notificada,2020-07-04,44
 Fecha notificación,probable,2020-07-04,347
-Fecha inicio de sintomas,confirmada,2020-07-05,2244
+Fecha inicio de sintomas,confirmada,2020-07-05,2245
 Fecha inicio de sintomas,no notificada,2020-07-05,30
-Fecha inicio de sintomas,probable,2020-07-05,526
+Fecha inicio de sintomas,probable,2020-07-05,525
 Fecha notificación,confirmada,2020-07-05,1632
 Fecha notificación,no notificada,2020-07-05,30
 Fecha notificación,probable,2020-07-05,275
-Fecha inicio de sintomas,confirmada,2020-07-06,2780
-Fecha inicio de sintomas,no notificada,2020-07-06,86
-Fecha inicio de sintomas,probable,2020-07-06,622
-Fecha notificación,confirmada,2020-07-06,3544
-Fecha notificación,no notificada,2020-07-06,86
+Fecha inicio de sintomas,confirmada,2020-07-06,2782
+Fecha inicio de sintomas,no notificada,2020-07-06,85
+Fecha inicio de sintomas,probable,2020-07-06,620
+Fecha notificación,confirmada,2020-07-06,3547
+Fecha notificación,no notificada,2020-07-06,85
 Fecha notificación,probable,2020-07-06,767
-Fecha inicio de sintomas,confirmada,2020-07-07,2430
-Fecha inicio de sintomas,no notificada,2020-07-07,83
-Fecha inicio de sintomas,probable,2020-07-07,560
-Fecha notificación,confirmada,2020-07-07,3271
-Fecha notificación,no notificada,2020-07-07,83
-Fecha notificación,probable,2020-07-07,797
-Fecha inicio de sintomas,confirmada,2020-07-08,2232
-Fecha inicio de sintomas,no notificada,2020-07-08,73
-Fecha inicio de sintomas,probable,2020-07-08,355
-Fecha notificación,confirmada,2020-07-08,2784
-Fecha notificación,no notificada,2020-07-08,73
-Fecha notificación,probable,2020-07-08,768
+Fecha inicio de sintomas,confirmada,2020-07-07,2435
+Fecha inicio de sintomas,no notificada,2020-07-07,78
+Fecha inicio de sintomas,probable,2020-07-07,561
+Fecha notificación,confirmada,2020-07-07,3275
+Fecha notificación,no notificada,2020-07-07,78
+Fecha notificación,probable,2020-07-07,796
+Fecha inicio de sintomas,confirmada,2020-07-08,2236
+Fecha inicio de sintomas,no notificada,2020-07-08,71
+Fecha inicio de sintomas,probable,2020-07-08,353
+Fecha notificación,confirmada,2020-07-08,2790
+Fecha notificación,no notificada,2020-07-08,71
+Fecha notificación,probable,2020-07-08,767
 Fecha inicio de sintomas,confirmada,2020-07-09,2217
 Fecha inicio de sintomas,no notificada,2020-07-09,58
-Fecha inicio de sintomas,probable,2020-07-09,385
-Fecha notificación,confirmada,2020-07-09,2934
+Fecha inicio de sintomas,probable,2020-07-09,386
+Fecha notificación,confirmada,2020-07-09,2931
 Fecha notificación,no notificada,2020-07-09,58
-Fecha notificación,probable,2020-07-09,678
-Fecha inicio de sintomas,confirmada,2020-07-10,2493
-Fecha inicio de sintomas,no notificada,2020-07-10,54
-Fecha inicio de sintomas,probable,2020-07-10,367
+Fecha notificación,probable,2020-07-09,675
+Fecha inicio de sintomas,confirmada,2020-07-10,2497
+Fecha inicio de sintomas,no notificada,2020-07-10,52
+Fecha inicio de sintomas,probable,2020-07-10,368
 Fecha notificación,confirmada,2020-07-10,2597
-Fecha notificación,no notificada,2020-07-10,54
-Fecha notificación,probable,2020-07-10,629
-Fecha inicio de sintomas,confirmada,2020-07-11,1965
-Fecha inicio de sintomas,no notificada,2020-07-11,38
-Fecha inicio de sintomas,probable,2020-07-11,283
-Fecha notificación,confirmada,2020-07-11,1732
-Fecha notificación,no notificada,2020-07-11,38
-Fecha notificación,probable,2020-07-11,299
-Fecha inicio de sintomas,confirmada,2020-07-12,1899
+Fecha notificación,no notificada,2020-07-10,52
+Fecha notificación,probable,2020-07-10,630
+Fecha inicio de sintomas,confirmada,2020-07-11,1967
+Fecha inicio de sintomas,no notificada,2020-07-11,37
+Fecha inicio de sintomas,probable,2020-07-11,282
+Fecha notificación,confirmada,2020-07-11,1733
+Fecha notificación,no notificada,2020-07-11,37
+Fecha notificación,probable,2020-07-11,298
+Fecha inicio de sintomas,confirmada,2020-07-12,1901
 Fecha inicio de sintomas,no notificada,2020-07-12,15
-Fecha inicio de sintomas,probable,2020-07-12,221
-Fecha notificación,confirmada,2020-07-12,1357
+Fecha inicio de sintomas,probable,2020-07-12,220
+Fecha notificación,confirmada,2020-07-12,1356
 Fecha notificación,no notificada,2020-07-12,15
 Fecha notificación,probable,2020-07-12,195
-Fecha inicio de sintomas,confirmada,2020-07-13,2365
+Fecha inicio de sintomas,confirmada,2020-07-13,2364
 Fecha inicio de sintomas,no notificada,2020-07-13,64
 Fecha inicio de sintomas,probable,2020-07-13,222
 Fecha notificación,confirmada,2020-07-13,2959
 Fecha notificación,no notificada,2020-07-13,64
-Fecha notificación,probable,2020-07-13,613
-Fecha inicio de sintomas,confirmada,2020-07-14,2206
-Fecha inicio de sintomas,no notificada,2020-07-14,69
+Fecha notificación,probable,2020-07-13,614
+Fecha inicio de sintomas,confirmada,2020-07-14,2212
+Fecha inicio de sintomas,no notificada,2020-07-14,68
 Fecha inicio de sintomas,probable,2020-07-14,153
-Fecha notificación,confirmada,2020-07-14,2740
-Fecha notificación,no notificada,2020-07-14,69
-Fecha notificación,probable,2020-07-14,473
-Fecha inicio de sintomas,confirmada,2020-07-15,2073
-Fecha inicio de sintomas,no notificada,2020-07-15,60
+Fecha notificación,confirmada,2020-07-14,2742
+Fecha notificación,no notificada,2020-07-14,68
+Fecha notificación,probable,2020-07-14,470
+Fecha inicio de sintomas,confirmada,2020-07-15,2078
+Fecha inicio de sintomas,no notificada,2020-07-15,57
 Fecha inicio de sintomas,probable,2020-07-15,137
-Fecha notificación,confirmada,2020-07-15,2486
-Fecha notificación,no notificada,2020-07-15,60
-Fecha notificación,probable,2020-07-15,193
-Fecha inicio de sintomas,confirmada,2020-07-16,1714
+Fecha notificación,confirmada,2020-07-15,2488
+Fecha notificación,no notificada,2020-07-15,57
+Fecha notificación,probable,2020-07-15,195
+Fecha inicio de sintomas,confirmada,2020-07-16,1715
 Fecha inicio de sintomas,no notificada,2020-07-16,10
-Fecha inicio de sintomas,probable,2020-07-16,126
+Fecha inicio de sintomas,probable,2020-07-16,124
 Fecha notificación,confirmada,2020-07-16,1299
 Fecha notificación,no notificada,2020-07-16,10
-Fecha notificación,probable,2020-07-16,64
-Fecha inicio de sintomas,confirmada,2020-07-17,2209
+Fecha notificación,probable,2020-07-16,63
+Fecha inicio de sintomas,confirmada,2020-07-17,2210
 Fecha inicio de sintomas,no notificada,2020-07-17,55
 Fecha inicio de sintomas,probable,2020-07-17,140
-Fecha notificación,confirmada,2020-07-17,2450
+Fecha notificación,confirmada,2020-07-17,2451
 Fecha notificación,no notificada,2020-07-17,55
 Fecha notificación,probable,2020-07-17,165
-Fecha inicio de sintomas,confirmada,2020-07-18,1926
+Fecha inicio de sintomas,confirmada,2020-07-18,1927
 Fecha inicio de sintomas,no notificada,2020-07-18,12
-Fecha inicio de sintomas,probable,2020-07-18,103
+Fecha inicio de sintomas,probable,2020-07-18,104
 Fecha notificación,confirmada,2020-07-18,1592
 Fecha notificación,no notificada,2020-07-18,12
 Fecha notificación,probable,2020-07-18,62
-Fecha inicio de sintomas,confirmada,2020-07-19,1613
+Fecha inicio de sintomas,confirmada,2020-07-19,1615
 Fecha inicio de sintomas,no notificada,2020-07-19,10
 Fecha inicio de sintomas,probable,2020-07-19,137
-Fecha notificación,confirmada,2020-07-19,1373
+Fecha notificación,confirmada,2020-07-19,1376
 Fecha notificación,no notificada,2020-07-19,10
 Fecha notificación,probable,2020-07-19,58
-Fecha inicio de sintomas,confirmada,2020-07-20,2380
+Fecha inicio de sintomas,confirmada,2020-07-20,2381
 Fecha inicio de sintomas,no notificada,2020-07-20,42
-Fecha inicio de sintomas,probable,2020-07-20,195
+Fecha inicio de sintomas,probable,2020-07-20,196
 Fecha notificación,confirmada,2020-07-20,2698
 Fecha notificación,no notificada,2020-07-20,42
-Fecha notificación,probable,2020-07-20,192
-Fecha inicio de sintomas,confirmada,2020-07-21,1962
+Fecha notificación,probable,2020-07-20,191
+Fecha inicio de sintomas,confirmada,2020-07-21,1963
 Fecha inicio de sintomas,no notificada,2020-07-21,23
-Fecha inicio de sintomas,probable,2020-07-21,142
-Fecha notificación,confirmada,2020-07-21,2291
+Fecha inicio de sintomas,probable,2020-07-21,143
+Fecha notificación,confirmada,2020-07-21,2278
 Fecha notificación,no notificada,2020-07-21,23
 Fecha notificación,probable,2020-07-21,186
-Fecha inicio de sintomas,confirmada,2020-07-22,1911
-Fecha inicio de sintomas,no notificada,2020-07-22,20
-Fecha inicio de sintomas,probable,2020-07-22,138
-Fecha notificación,confirmada,2020-07-22,2378
-Fecha notificación,no notificada,2020-07-22,20
+Fecha inicio de sintomas,confirmada,2020-07-22,1915
+Fecha inicio de sintomas,no notificada,2020-07-22,19
+Fecha inicio de sintomas,probable,2020-07-22,135
+Fecha notificación,confirmada,2020-07-22,2379
+Fecha notificación,no notificada,2020-07-22,19
 Fecha notificación,probable,2020-07-22,145
-Fecha inicio de sintomas,confirmada,2020-07-23,2048
-Fecha inicio de sintomas,no notificada,2020-07-23,34
-Fecha inicio de sintomas,probable,2020-07-23,121
-Fecha notificación,confirmada,2020-07-23,2365
-Fecha notificación,no notificada,2020-07-23,34
+Fecha inicio de sintomas,confirmada,2020-07-23,2053
+Fecha inicio de sintomas,no notificada,2020-07-23,31
+Fecha inicio de sintomas,probable,2020-07-23,124
+Fecha notificación,confirmada,2020-07-23,2366
+Fecha notificación,no notificada,2020-07-23,31
 Fecha notificación,probable,2020-07-23,158
-Fecha inicio de sintomas,confirmada,2020-07-24,1941
-Fecha inicio de sintomas,no notificada,2020-07-24,38
-Fecha inicio de sintomas,probable,2020-07-24,120
-Fecha notificación,confirmada,2020-07-24,2120
-Fecha notificación,no notificada,2020-07-24,38
+Fecha inicio de sintomas,confirmada,2020-07-24,1945
+Fecha inicio de sintomas,no notificada,2020-07-24,36
+Fecha inicio de sintomas,probable,2020-07-24,122
+Fecha notificación,confirmada,2020-07-24,2122
+Fecha notificación,no notificada,2020-07-24,36
 Fecha notificación,probable,2020-07-24,147
-Fecha inicio de sintomas,confirmada,2020-07-25,1722
-Fecha inicio de sintomas,no notificada,2020-07-25,33
+Fecha inicio de sintomas,confirmada,2020-07-25,1724
+Fecha inicio de sintomas,no notificada,2020-07-25,32
 Fecha inicio de sintomas,probable,2020-07-25,124
-Fecha notificación,confirmada,2020-07-25,1497
-Fecha notificación,no notificada,2020-07-25,33
-Fecha notificación,probable,2020-07-25,69
-Fecha inicio de sintomas,confirmada,2020-07-26,1503
+Fecha notificación,confirmada,2020-07-25,1501
+Fecha notificación,no notificada,2020-07-25,32
+Fecha notificación,probable,2020-07-25,67
+Fecha inicio de sintomas,confirmada,2020-07-26,1507
 Fecha inicio de sintomas,no notificada,2020-07-26,4
-Fecha inicio de sintomas,probable,2020-07-26,142
-Fecha notificación,confirmada,2020-07-26,1345
+Fecha inicio de sintomas,probable,2020-07-26,140
+Fecha notificación,confirmada,2020-07-26,1346
 Fecha notificación,no notificada,2020-07-26,4
 Fecha notificación,probable,2020-07-26,48
-Fecha inicio de sintomas,confirmada,2020-07-27,2203
-Fecha inicio de sintomas,no notificada,2020-07-27,29
-Fecha inicio de sintomas,probable,2020-07-27,221
-Fecha notificación,confirmada,2020-07-27,2532
-Fecha notificación,no notificada,2020-07-27,29
-Fecha notificación,probable,2020-07-27,165
-Fecha inicio de sintomas,confirmada,2020-07-28,1849
+Fecha inicio de sintomas,confirmada,2020-07-27,2211
+Fecha inicio de sintomas,no notificada,2020-07-27,28
+Fecha inicio de sintomas,probable,2020-07-27,223
+Fecha notificación,confirmada,2020-07-27,2536
+Fecha notificación,no notificada,2020-07-27,28
+Fecha notificación,probable,2020-07-27,169
+Fecha inicio de sintomas,confirmada,2020-07-28,1850
 Fecha inicio de sintomas,no notificada,2020-07-28,33
-Fecha inicio de sintomas,probable,2020-07-28,166
-Fecha notificación,confirmada,2020-07-28,2094
+Fecha inicio de sintomas,probable,2020-07-28,168
+Fecha notificación,confirmada,2020-07-28,2086
 Fecha notificación,no notificada,2020-07-28,33
-Fecha notificación,probable,2020-07-28,124
-Fecha inicio de sintomas,confirmada,2020-07-29,1748
+Fecha notificación,probable,2020-07-28,123
+Fecha inicio de sintomas,confirmada,2020-07-29,1754
 Fecha inicio de sintomas,no notificada,2020-07-29,37
 Fecha inicio de sintomas,probable,2020-07-29,199
-Fecha notificación,confirmada,2020-07-29,2086
+Fecha notificación,confirmada,2020-07-29,2090
 Fecha notificación,no notificada,2020-07-29,37
-Fecha notificación,probable,2020-07-29,141
-Fecha inicio de sintomas,confirmada,2020-07-30,1863
-Fecha inicio de sintomas,no notificada,2020-07-30,41
-Fecha inicio de sintomas,probable,2020-07-30,216
+Fecha notificación,probable,2020-07-29,145
+Fecha inicio de sintomas,confirmada,2020-07-30,1866
+Fecha inicio de sintomas,no notificada,2020-07-30,40
+Fecha inicio de sintomas,probable,2020-07-30,217
 Fecha notificación,confirmada,2020-07-30,2075
-Fecha notificación,no notificada,2020-07-30,41
-Fecha notificación,probable,2020-07-30,146
-Fecha inicio de sintomas,confirmada,2020-07-31,1900
-Fecha inicio de sintomas,no notificada,2020-07-31,36
-Fecha inicio de sintomas,probable,2020-07-31,241
-Fecha notificación,confirmada,2020-07-31,1930
-Fecha notificación,no notificada,2020-07-31,36
-Fecha notificación,probable,2020-07-31,158
-Fecha inicio de sintomas,confirmada,2020-08-01,1900
+Fecha notificación,no notificada,2020-07-30,40
+Fecha notificación,probable,2020-07-30,148
+Fecha inicio de sintomas,confirmada,2020-07-31,1905
+Fecha inicio de sintomas,no notificada,2020-07-31,35
+Fecha inicio de sintomas,probable,2020-07-31,240
+Fecha notificación,confirmada,2020-07-31,1928
+Fecha notificación,no notificada,2020-07-31,35
+Fecha notificación,probable,2020-07-31,156
+Fecha inicio de sintomas,confirmada,2020-08-01,1909
 Fecha inicio de sintomas,no notificada,2020-08-01,10
 Fecha inicio de sintomas,probable,2020-08-01,336
-Fecha notificación,confirmada,2020-08-01,1375
+Fecha notificación,confirmada,2020-08-01,1379
 Fecha notificación,no notificada,2020-08-01,10
-Fecha notificación,probable,2020-08-01,55
-Fecha inicio de sintomas,confirmada,2020-08-02,1576
-Fecha inicio de sintomas,no notificada,2020-08-02,6
-Fecha inicio de sintomas,probable,2020-08-02,321
-Fecha notificación,confirmada,2020-08-02,1102
-Fecha notificación,no notificada,2020-08-02,6
+Fecha notificación,probable,2020-08-01,54
+Fecha inicio de sintomas,confirmada,2020-08-02,1579
+Fecha inicio de sintomas,no notificada,2020-08-02,5
+Fecha inicio de sintomas,probable,2020-08-02,320
+Fecha notificación,confirmada,2020-08-02,1104
+Fecha notificación,no notificada,2020-08-02,5
 Fecha notificación,probable,2020-08-02,100
-Fecha inicio de sintomas,confirmada,2020-08-03,2053
-Fecha inicio de sintomas,no notificada,2020-08-03,19
-Fecha inicio de sintomas,probable,2020-08-03,431
-Fecha notificación,confirmada,2020-08-03,2339
-Fecha notificación,no notificada,2020-08-03,19
-Fecha notificación,probable,2020-08-03,449
-Fecha inicio de sintomas,confirmada,2020-08-04,1900
-Fecha inicio de sintomas,no notificada,2020-08-04,28
-Fecha inicio de sintomas,probable,2020-08-04,379
-Fecha notificación,confirmada,2020-08-04,2358
-Fecha notificación,no notificada,2020-08-04,28
-Fecha notificación,probable,2020-08-04,463
-Fecha inicio de sintomas,confirmada,2020-08-05,1766
-Fecha inicio de sintomas,no notificada,2020-08-05,31
-Fecha inicio de sintomas,probable,2020-08-05,347
-Fecha notificación,confirmada,2020-08-05,2230
-Fecha notificación,no notificada,2020-08-05,31
-Fecha notificación,probable,2020-08-05,424
-Fecha inicio de sintomas,confirmada,2020-08-06,1803
-Fecha inicio de sintomas,no notificada,2020-08-06,36
+Fecha inicio de sintomas,confirmada,2020-08-03,2067
+Fecha inicio de sintomas,no notificada,2020-08-03,18
+Fecha inicio de sintomas,probable,2020-08-03,432
+Fecha notificación,confirmada,2020-08-03,2335
+Fecha notificación,no notificada,2020-08-03,18
+Fecha notificación,probable,2020-08-03,448
+Fecha inicio de sintomas,confirmada,2020-08-04,1911
+Fecha inicio de sintomas,no notificada,2020-08-04,26
+Fecha inicio de sintomas,probable,2020-08-04,380
+Fecha notificación,confirmada,2020-08-04,2362
+Fecha notificación,no notificada,2020-08-04,26
+Fecha notificación,probable,2020-08-04,459
+Fecha inicio de sintomas,confirmada,2020-08-05,1784
+Fecha inicio de sintomas,no notificada,2020-08-05,29
+Fecha inicio de sintomas,probable,2020-08-05,351
+Fecha notificación,confirmada,2020-08-05,2241
+Fecha notificación,no notificada,2020-08-05,29
+Fecha notificación,probable,2020-08-05,429
+Fecha inicio de sintomas,confirmada,2020-08-06,1827
+Fecha inicio de sintomas,no notificada,2020-08-06,35
 Fecha inicio de sintomas,probable,2020-08-06,307
-Fecha notificación,confirmada,2020-08-06,2046
-Fecha notificación,no notificada,2020-08-06,36
-Fecha notificación,probable,2020-08-06,391
-Fecha inicio de sintomas,confirmada,2020-08-07,1797
-Fecha inicio de sintomas,no notificada,2020-08-07,25
-Fecha inicio de sintomas,probable,2020-08-07,311
-Fecha notificación,confirmada,2020-08-07,2038
-Fecha notificación,no notificada,2020-08-07,25
-Fecha notificación,probable,2020-08-07,420
-Fecha inicio de sintomas,confirmada,2020-08-08,1433
-Fecha inicio de sintomas,no notificada,2020-08-08,15
+Fecha notificación,confirmada,2020-08-06,2056
+Fecha notificación,no notificada,2020-08-06,35
+Fecha notificación,probable,2020-08-06,397
+Fecha inicio de sintomas,confirmada,2020-08-07,1816
+Fecha inicio de sintomas,no notificada,2020-08-07,22
+Fecha inicio de sintomas,probable,2020-08-07,317
+Fecha notificación,confirmada,2020-08-07,2043
+Fecha notificación,no notificada,2020-08-07,22
+Fecha notificación,probable,2020-08-07,416
+Fecha inicio de sintomas,confirmada,2020-08-08,1475
+Fecha inicio de sintomas,no notificada,2020-08-08,14
 Fecha inicio de sintomas,probable,2020-08-08,350
-Fecha notificación,confirmada,2020-08-08,1240
-Fecha notificación,no notificada,2020-08-08,15
-Fecha notificación,probable,2020-08-08,184
-Fecha inicio de sintomas,confirmada,2020-08-09,1249
-Fecha inicio de sintomas,no notificada,2020-08-09,3
-Fecha inicio de sintomas,probable,2020-08-09,315
+Fecha notificación,confirmada,2020-08-08,1247
+Fecha notificación,no notificada,2020-08-08,14
+Fecha notificación,probable,2020-08-08,185
+Fecha inicio de sintomas,confirmada,2020-08-09,1274
+Fecha inicio de sintomas,no notificada,2020-08-09,2
+Fecha inicio de sintomas,probable,2020-08-09,312
 Fecha notificación,confirmada,2020-08-09,919
-Fecha notificación,no notificada,2020-08-09,3
-Fecha notificación,probable,2020-08-09,143
-Fecha inicio de sintomas,confirmada,2020-08-10,1892
-Fecha inicio de sintomas,no notificada,2020-08-10,21
-Fecha inicio de sintomas,probable,2020-08-10,431
-Fecha notificación,confirmada,2020-08-10,2192
-Fecha notificación,no notificada,2020-08-10,21
-Fecha notificación,probable,2020-08-10,481
-Fecha inicio de sintomas,confirmada,2020-08-11,1656
-Fecha inicio de sintomas,no notificada,2020-08-11,16
-Fecha inicio de sintomas,probable,2020-08-11,320
-Fecha notificación,confirmada,2020-08-11,2054
-Fecha notificación,no notificada,2020-08-11,16
-Fecha notificación,probable,2020-08-11,505
-Fecha inicio de sintomas,confirmada,2020-08-12,1490
-Fecha inicio de sintomas,no notificada,2020-08-12,27
-Fecha inicio de sintomas,probable,2020-08-12,302
-Fecha notificación,confirmada,2020-08-12,1906
-Fecha notificación,no notificada,2020-08-12,27
-Fecha notificación,probable,2020-08-12,469
-Fecha inicio de sintomas,confirmada,2020-08-13,1296
+Fecha notificación,no notificada,2020-08-09,2
+Fecha notificación,probable,2020-08-09,142
+Fecha inicio de sintomas,confirmada,2020-08-10,1973
+Fecha inicio de sintomas,no notificada,2020-08-10,18
+Fecha inicio de sintomas,probable,2020-08-10,442
+Fecha notificación,confirmada,2020-08-10,2204
+Fecha notificación,no notificada,2020-08-10,18
+Fecha notificación,probable,2020-08-10,471
+Fecha inicio de sintomas,confirmada,2020-08-11,1760
+Fecha inicio de sintomas,no notificada,2020-08-11,14
+Fecha inicio de sintomas,probable,2020-08-11,335
+Fecha notificación,confirmada,2020-08-11,2068
+Fecha notificación,no notificada,2020-08-11,14
+Fecha notificación,probable,2020-08-11,499
+Fecha inicio de sintomas,confirmada,2020-08-12,1628
+Fecha inicio de sintomas,no notificada,2020-08-12,22
+Fecha inicio de sintomas,probable,2020-08-12,312
+Fecha notificación,confirmada,2020-08-12,1925
+Fecha notificación,no notificada,2020-08-12,22
+Fecha notificación,probable,2020-08-12,456
+Fecha inicio de sintomas,confirmada,2020-08-13,1473
 Fecha inicio de sintomas,no notificada,2020-08-13,14
-Fecha inicio de sintomas,probable,2020-08-13,218
-Fecha notificación,confirmada,2020-08-13,1729
+Fecha inicio de sintomas,probable,2020-08-13,256
+Fecha notificación,confirmada,2020-08-13,1750
 Fecha notificación,no notificada,2020-08-13,14
-Fecha notificación,probable,2020-08-13,420
-Fecha inicio de sintomas,confirmada,2020-08-14,1332
-Fecha inicio de sintomas,no notificada,2020-08-14,23
-Fecha inicio de sintomas,probable,2020-08-14,209
-Fecha notificación,confirmada,2020-08-14,1705
-Fecha notificación,no notificada,2020-08-14,23
-Fecha notificación,probable,2020-08-14,396
-Fecha inicio de sintomas,confirmada,2020-08-15,895
-Fecha inicio de sintomas,no notificada,2020-08-15,15
-Fecha inicio de sintomas,probable,2020-08-15,236
-Fecha notificación,confirmada,2020-08-15,964
-Fecha notificación,no notificada,2020-08-15,15
-Fecha notificación,probable,2020-08-15,151
-Fecha inicio de sintomas,confirmada,2020-08-16,645
+Fecha notificación,probable,2020-08-13,413
+Fecha inicio de sintomas,confirmada,2020-08-14,1614
+Fecha inicio de sintomas,no notificada,2020-08-14,15
+Fecha inicio de sintomas,probable,2020-08-14,237
+Fecha notificación,confirmada,2020-08-14,1729
+Fecha notificación,no notificada,2020-08-14,15
+Fecha notificación,probable,2020-08-14,389
+Fecha inicio de sintomas,confirmada,2020-08-15,1269
+Fecha inicio de sintomas,no notificada,2020-08-15,12
+Fecha inicio de sintomas,probable,2020-08-15,271
+Fecha notificación,confirmada,2020-08-15,976
+Fecha notificación,no notificada,2020-08-15,12
+Fecha notificación,probable,2020-08-15,144
+Fecha inicio de sintomas,confirmada,2020-08-16,1104
 Fecha inicio de sintomas,no notificada,2020-08-16,9
-Fecha inicio de sintomas,probable,2020-08-16,246
-Fecha notificación,confirmada,2020-08-16,819
+Fecha inicio de sintomas,probable,2020-08-16,285
+Fecha notificación,confirmada,2020-08-16,846
 Fecha notificación,no notificada,2020-08-16,9
-Fecha notificación,probable,2020-08-16,119
-Fecha inicio de sintomas,confirmada,2020-08-17,738
-Fecha inicio de sintomas,no notificada,2020-08-17,39
-Fecha inicio de sintomas,probable,2020-08-17,213
-Fecha notificación,confirmada,2020-08-17,1732
-Fecha notificación,no notificada,2020-08-17,39
-Fecha notificación,probable,2020-08-17,444
-Fecha inicio de sintomas,confirmada,2020-08-18,389
-Fecha inicio de sintomas,no notificada,2020-08-18,64
-Fecha inicio de sintomas,probable,2020-08-18,111
-Fecha notificación,confirmada,2020-08-18,1078
-Fecha notificación,no notificada,2020-08-18,64
-Fecha notificación,probable,2020-08-18,377
-Fecha inicio de sintomas,confirmada,2020-08-19,89
-Fecha inicio de sintomas,no notificada,2020-08-19,32
-Fecha inicio de sintomas,probable,2020-08-19,30
-Fecha notificación,confirmada,2020-08-19,207
-Fecha notificación,no notificada,2020-08-19,32
-Fecha notificación,probable,2020-08-19,496
-Fecha inicio de sintomas,confirmada,2020-08-20,0
-Fecha inicio de sintomas,no notificada,2020-08-20,0
-Fecha inicio de sintomas,probable,2020-08-20,1
-Fecha notificación,confirmada,2020-08-20,1
-Fecha notificación,no notificada,2020-08-20,0
-Fecha notificación,probable,2020-08-20,9
+Fecha notificación,probable,2020-08-16,115
+Fecha inicio de sintomas,confirmada,2020-08-17,1513
+Fecha inicio de sintomas,no notificada,2020-08-17,21
+Fecha inicio de sintomas,probable,2020-08-17,336
+Fecha notificación,confirmada,2020-08-17,2092
+Fecha notificación,no notificada,2020-08-17,21
+Fecha notificación,probable,2020-08-17,416
+Fecha inicio de sintomas,confirmada,2020-08-18,1361
+Fecha inicio de sintomas,no notificada,2020-08-18,52
+Fecha inicio de sintomas,probable,2020-08-18,267
+Fecha notificación,confirmada,2020-08-18,1943
+Fecha notificación,no notificada,2020-08-18,52
+Fecha notificación,probable,2020-08-18,344
+Fecha inicio de sintomas,confirmada,2020-08-19,1062
+Fecha inicio de sintomas,no notificada,2020-08-19,28
+Fecha inicio de sintomas,probable,2020-08-19,227
+Fecha notificación,confirmada,2020-08-19,1824
+Fecha notificación,no notificada,2020-08-19,28
+Fecha notificación,probable,2020-08-19,490
+Fecha inicio de sintomas,confirmada,2020-08-20,797
+Fecha inicio de sintomas,no notificada,2020-08-20,31
+Fecha inicio de sintomas,probable,2020-08-20,176
+Fecha notificación,confirmada,2020-08-20,1579
+Fecha notificación,no notificada,2020-08-20,31
+Fecha notificación,probable,2020-08-20,409
+Fecha inicio de sintomas,confirmada,2020-08-21,346
+Fecha inicio de sintomas,no notificada,2020-08-21,46
+Fecha inicio de sintomas,probable,2020-08-21,83
+Fecha notificación,confirmada,2020-08-21,1034
+Fecha notificación,no notificada,2020-08-21,46
+Fecha notificación,probable,2020-08-21,483
+Fecha inicio de sintomas,confirmada,2020-08-22,69
+Fecha inicio de sintomas,no notificada,2020-08-22,8
+Fecha inicio de sintomas,probable,2020-08-22,14
+Fecha notificación,confirmada,2020-08-22,140
+Fecha notificación,no notificada,2020-08-22,8
+Fecha notificación,probable,2020-08-22,168
+Fecha inicio de sintomas,confirmada,2020-08-23,0
+Fecha inicio de sintomas,no notificada,2020-08-23,0
+Fecha inicio de sintomas,probable,2020-08-23,0
+Fecha notificación,confirmada,2020-08-23,0
+Fecha notificación,no notificada,2020-08-23,0
+Fecha notificación,probable,2020-08-23,3
