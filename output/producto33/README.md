@@ -19,7 +19,7 @@ Mensual.
 # Más información sobre cómo se obtienen estos datos
 El Instituto de Data Science (IDS) de la Facultad de Ingeniería de la Universidad del Desarrollo (UDD) con el apoyo de Telefónica Chile y CISCO, convocaron a un equipo de expertos nacionales e internacionales para para proveer información actualizada y precisa sobre la movilidad en Chile en tiempos de cuarentena.
 
-## Método
+# Método
 Los índices en este producto consideran datos anonimizados del periodo desde antes del comienzo de la crisis sanitaria (26 de febrero, 2020).
 
 Se utilizaron registros anonimizados y agregados de telefonía para estimar el número de viajes entre comunas.  Es importante destacar que este set de datos no da la ubicación exacta de los dispositivos sino que la antena a la que se conectó. Es decir, ya por diseño tenemos una primera anonimización de la ubicación. El tema de la privacidad es fundamental para los participantes en esta iniciativa y se han adoptado los protocolos internacionales más estrictos.
@@ -29,3 +29,7 @@ Para efectos de este trabajo, consideramos un viaje el paso de una antena a otra
 Para poder comparar las comunas, se utiliza un índice de movilidad (IM). El IM corresponde a cuantos viajes se realizaron dentro de una comuna específica normalizado por el número de habitantes de la comuna.
 
 Es interesante distinguir entre los viajes dentro de la comuna `IM_interno` y los que cruzan el límite comunal `IM_externo`.
+
+# Nota aclaratoria
+
+El uso de este data product es independiente y separado de la autorización otorgada por el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación, mediante resolución de fecha 3 de junio de 2020. Considerando lo anterior, así como las limitaciones convencionales mediante las cuales se acordó su publicación, este data product sólo admite usos no comerciales.
