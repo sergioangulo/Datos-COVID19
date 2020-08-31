@@ -158,6 +158,7 @@ Fecha,Serie,Total
 2020-08-28,pcr,30274
 2020-08-29,pcr,32237
 2020-08-30,pcr,34769
+2020-08-31,pcr,31914
 2020-03-25,casos,220.0
 2020-03-26,casos,164.0
 2020-03-27,casos,304.0
@@ -316,7 +317,8 @@ Fecha,Serie,Total
 2020-08-27,casos,1739.0
 2020-08-28,casos,1868.0
 2020-08-29,casos,2033.0
-2020-08-30,casos,1966
+2020-08-30,casos,1966.0
+2020-08-31,casos,1753
 2020-03-25,positividad,0.0669
 2020-03-26,positividad,0.0336
 2020-03-27,positividad,0.0412
@@ -476,6 +478,7 @@ Fecha,Serie,Total
 2020-08-28,positividad,0.0617
 2020-08-29,positividad,0.0631
 2020-08-30,positividad,0.0565
+2020-08-31,positividad,0.0549
 2020-03-25,mediamovil_positividad,
 2020-03-26,mediamovil_positividad,
 2020-03-27,mediamovil_positividad,
@@ -635,3 +638,4 @@ Fecha,Serie,Total
 2020-08-28,mediamovil_positividad,0.0637
 2020-08-29,mediamovil_positividad,0.0635
 2020-08-30,mediamovil_positividad,0.0629
+2020-08-31,mediamovil_positividad,0.0608
