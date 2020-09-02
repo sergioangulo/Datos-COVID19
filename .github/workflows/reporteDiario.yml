@@ -37,9 +37,13 @@ jobs:
     - name: generate products from Reporte Diario
       run: |
           cd src
-          python reporteDiario.py
-          python Curvas_epi.py
-          python nuevaDefDefunciones.py
+          python reporteDiario.py && \
+          python Curvas_epi.py &&\
+          python nuevaDefDefunciones.py &&\
+          python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
+              ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
+              "Actualizamos los productos del reporte diario, y el 36 y 47"
+
 
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
