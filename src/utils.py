@@ -69,6 +69,7 @@ def regionName(df):
                                          "XI Región de Aisén del General Carlos Ibáñez del Campo": "Aysén",
                                          "Magallanes y la Antartica": "Magallanes",
                                          "Magallanes y de la Antártica Chilena": "Magallanes",
+                                         "Magallanes y la Antártica Chilena": "Magallanes",
                                          "XII Región de Magallanes y de la Antártica Chilena": "Magallanes"
                                          })
 
