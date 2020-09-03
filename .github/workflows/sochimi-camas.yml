@@ -39,6 +39,9 @@ jobs:
           cd src
           python sochimi.py ${{ secrets.SOCHIMI_URL }} ${{ secrets.SOCHIMI_USER }} ${{ secrets.SOCHIMI_PASSWORD }}
           python camas_uci.py ${{ secrets.MINSAL_BUCKET }} ${{ secrets.MINSAL_BUCKET_ACCESS_KEY }} ${{ secrets.MINSAL_BUCKET_SECRET_KEY }}
+          python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
+            ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
+            "Actualizamos los productos de SOCHIMI y camas uci del DEIS"
 
 
     - name: Uploads changes to S3
