@@ -48,6 +48,7 @@ from shutil import copyfile
 import glob
 import re
 import numpy as np
+from utils import *
 
 
 def prod1(fte, producto):
@@ -390,6 +391,21 @@ def prod45(fte, fte2, prod):
                      value_name='Casos ' + name)
     df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
 
+def prod57(fte, prod):
+    print("Generando producto 57")
+    df = pd.read_csv(fte, encoding='utf-8')
+
+    df.rename(columns={'fecha_fallecimiento': 'Fecha',
+                       'region_residencia': 'Region',
+                       'fallecidos': 'Total',
+                       'hospitalizacion': 'Hospitalizacion'},
+              inplace=True)
+
+    regionNameRegex(df)
+    regionName(df)
+    df['Region'] = df['Region'].str.strip()
+    df.to_csv(prod + '_t.csv', index=False)
+
 
 if __name__ == '__main__':
     prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
@@ -447,3 +463,5 @@ if __name__ == '__main__':
     prod45('../input/InformeEpidemiologico/', 'NoNotificados',
            '../output/producto45/CasosNoNotificadosPorComunaHistorico')
     prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
+
+    prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_regionales')
