@@ -397,7 +397,6 @@ def prod57(fte, prod):
 
     df.rename(columns={'fecha_fallecimiento': 'Fecha',
                        'region_residencia': 'Region',
-                       'fallecidos': 'Total',
                        'hospitalizacion': 'Hospitalizacion'},
               inplace=True)
 
@@ -410,7 +409,7 @@ def prod57(fte, prod):
 def prod58_60(fte, prod):
     print("Generando producto 58, 59, 60")
     df = pd.read_csv(fte, encoding='utf-8')
-    df.to_csv(prod + '_t.csv', index=False)
+    df.to_csv(prod + '.csv', index=False)
 
 def prod61(fte, prod):
     print("Generando producto 61")
@@ -425,67 +424,67 @@ def prod61(fte, prod):
     regionNameRegex(df)
     regionName(df)
     df['Region'] = df['Region'].str.strip()
-    df.to_csv(prod + '_t.csv', index=False)
+    df.to_csv(prod + '.csv', index=False)
 
 
 
 if __name__ == '__main__':
-    # prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
-    #
-    # prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
-    #
-    # print('Generando producto 6')
-    # exec(open('bulk_producto2.py').read())
-    #
-    # print('Generando producto 15')
-    # prod15('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
-    #
-    # prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
-    #
-    # print('Generando producto 18')
-    # prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
-    #
-    # print('Generando producto 19')
-    # prod19_25_38('../input/InformeEpidemiologico/CasosActivosPorComuna.csv',
-    #              '../output/producto19/CasosActivosPorComuna')
-    #
-    # print('Generando producto 21')
-    # prod21_22('../input/InformeEpidemiologico/SintomasCasosConfirmados.csv',
-    #           '../output/producto21/SintomasCasosConfirmados')
-    # prod21_22('../input/InformeEpidemiologico/SintomasHospitalizados.csv',
-    #           '../output/producto21/SintomasHospitalizados')
-    # prod21Nuevo('../input/InformeEpidemiologico/Sintomas.csv', '../output/producto21/Sintomas')
-    #
-    # print('Generando producto 22')
-    # prod21_22('../input/InformeEpidemiologico/HospitalizadosGeneroEtario_Acumulado.csv',
-    #           '../output/producto22/HospitalizadosEtario_Acumulado')
-    # prod21_22('../input/InformeEpidemiologico/HospitalizadosUCI_Acumulado.csv',
-    #           '../output/producto22/HospitalizadosUCI_Acumulado')
-    #
-    # print('Generando producto 25')
-    # prod19_25_38('../input/InformeEpidemiologico/CasosActualesPorComuna.csv',
-    #              '../output/producto25/CasosActualesPorComuna')
-    #
-    # print('Generando producto 28')
-    # prod28('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
-    #
-    # print('Generando producto 35')
-    # prod35('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
-    #
-    # print('Generando producto 38')
-    # prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv',
-    #              '../output/producto38/CasosFallecidosPorComuna')
-    #
-    # print('Generando producto 39')
-    # prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv',
-    #        '../output/producto39/NotificacionInicioSintomas')
-    #
-    # print('Generando producto 45')
-    # prod45('../input/InformeEpidemiologico/', 'Confirmados', '../output/producto45/CasosConfirmadosPorComunaHistorico')
-    # prod45('../input/InformeEpidemiologico/', 'NoNotificados',
-    #        '../output/producto45/CasosNoNotificadosPorComunaHistorico')
-    # prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
-    #
+    prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
+
+    prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
+
+    print('Generando producto 6')
+    exec(open('bulk_producto2.py').read())
+
+    print('Generando producto 15')
+    prod15('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
+
+    prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+
+    print('Generando producto 18')
+    prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
+
+    print('Generando producto 19')
+    prod19_25_38('../input/InformeEpidemiologico/CasosActivosPorComuna.csv',
+                 '../output/producto19/CasosActivosPorComuna')
+
+    print('Generando producto 21')
+    prod21_22('../input/InformeEpidemiologico/SintomasCasosConfirmados.csv',
+              '../output/producto21/SintomasCasosConfirmados')
+    prod21_22('../input/InformeEpidemiologico/SintomasHospitalizados.csv',
+              '../output/producto21/SintomasHospitalizados')
+    prod21Nuevo('../input/InformeEpidemiologico/Sintomas.csv', '../output/producto21/Sintomas')
+
+    print('Generando producto 22')
+    prod21_22('../input/InformeEpidemiologico/HospitalizadosGeneroEtario_Acumulado.csv',
+              '../output/producto22/HospitalizadosEtario_Acumulado')
+    prod21_22('../input/InformeEpidemiologico/HospitalizadosUCI_Acumulado.csv',
+              '../output/producto22/HospitalizadosUCI_Acumulado')
+
+    print('Generando producto 25')
+    prod19_25_38('../input/InformeEpidemiologico/CasosActualesPorComuna.csv',
+                 '../output/producto25/CasosActualesPorComuna')
+
+    print('Generando producto 28')
+    prod28('../input/InformeEpidemiologico/', '../output/producto28/FechaInicioSintomas_reportadosSEREMIHistorico')
+
+    print('Generando producto 35')
+    prod35('../input/InformeEpidemiologico/Comorbilidad.csv', '../output/producto35/Comorbilidad')
+
+    print('Generando producto 38')
+    prod19_25_38('../input/InformeEpidemiologico/CasosFallecidosPorComuna.csv',
+                 '../output/producto38/CasosFallecidosPorComuna')
+
+    print('Generando producto 39')
+    prod39('../input/InformeEpidemiologico/NotificacionInicioSintomas.csv',
+           '../output/producto39/NotificacionInicioSintomas')
+
+    print('Generando producto 45')
+    prod45('../input/InformeEpidemiologico/', 'Confirmados', '../output/producto45/CasosConfirmadosPorComunaHistorico')
+    prod45('../input/InformeEpidemiologico/', 'NoNotificados',
+           '../output/producto45/CasosNoNotificadosPorComunaHistorico')
+    prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
+
     prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_regionales')
 
     prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto58/casos_nuevos_acumulados_por_fecha')
