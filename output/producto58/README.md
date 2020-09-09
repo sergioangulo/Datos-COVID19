@@ -1,4 +1,5 @@
-PRODUCTO 58 - Fallecidos regionales
+Data Product 58 - Disponibilidad de camas críticas a nivel regional desagregado por día
+---------------
 
 Descripcion general
 -------------------
