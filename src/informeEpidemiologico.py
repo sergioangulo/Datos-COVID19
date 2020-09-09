@@ -403,7 +403,7 @@ def prod57(fte, prod):
     regionNameRegex(df)
     regionName(df)
     df['Region'] = df['Region'].str.strip()
-    df.to_csv(prod + '_t.csv', index=False)
+    df.to_csv(prod + '.csv', index=False)
 
 
 def prod58_60(fte, prod):
@@ -485,7 +485,7 @@ if __name__ == '__main__':
            '../output/producto45/CasosNoNotificadosPorComunaHistorico')
     prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
 
-    prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_regionales')
+    prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_hospitalizados')
 
     prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
 
