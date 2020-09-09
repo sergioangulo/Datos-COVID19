@@ -48,6 +48,7 @@ from shutil import copyfile
 import glob
 import re
 import numpy as np
+from utils import *
 
 
 def prod1(fte, producto):
@@ -390,6 +391,42 @@ def prod45(fte, fte2, prod):
                      value_name='Casos ' + name)
     df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
 
+def prod57(fte, prod):
+    print("Generando producto 57")
+    df = pd.read_csv(fte, encoding='utf-8')
+
+    df.rename(columns={'fecha_fallecimiento': 'Fecha',
+                       'region_residencia': 'Region',
+                       'hospitalizacion': 'Hospitalizacion'},
+              inplace=True)
+
+    regionNameRegex(df)
+    regionName(df)
+    df['Region'] = df['Region'].str.strip()
+    df.to_csv(prod + '_t.csv', index=False)
+
+
+def prod58_60(fte, prod):
+    print("Generando producto 58, 59, 60")
+    df = pd.read_csv(fte, encoding='utf-8')
+    df.to_csv(prod + '.csv', index=False)
+
+def prod61(fte, prod):
+    print("Generando producto 61")
+    df = pd.read_csv(fte, encoding='utf-8')
+
+    df.rename(columns={'comuna': 'Comuna',
+                       'cie_10': 'CIE 10',
+                       'casos': 'Casos',
+                       'region': 'Region'},
+              inplace=True)
+
+    regionNameRegex(df)
+    regionName(df)
+    df['Region'] = df['Region'].str.strip()
+    df.to_csv(prod + '.csv', index=False)
+
+
 
 if __name__ == '__main__':
     prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
@@ -447,3 +484,15 @@ if __name__ == '__main__':
     prod45('../input/InformeEpidemiologico/', 'NoNotificados',
            '../output/producto45/CasosNoNotificadosPorComunaHistorico')
     prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
+
+    prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_regionales')
+
+    prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
+
+    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
+              '../output/producto59/etapa_clinica_por_fecha_notificacion')
+    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
+              '../output/producto60/etapa_clinica_por_fis')
+    prod61('../input/InformeEpidemiologico/serie_fallecidos_comuna.csv',
+              '../output/producto61/serie_fallecidos_comuna')
+
