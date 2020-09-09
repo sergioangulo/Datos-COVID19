@@ -47,6 +47,7 @@ class CamasUCI:
         self.date = None
         self.tables = None
         self.dataframes = None
+        print('The folder is ' + self.folder)
 
     def get_last_camas_xlsx(self):
         get_last_modified = lambda obj: int(obj.last_modified.strftime('%s'))
@@ -57,6 +58,8 @@ class CamasUCI:
 
         self.last_added = objs[-1]
         print('last added file is: ' + self.last_added.key)
+
+
 
     def last_file_to_csv(self):
         file_path = self.last_added.key
@@ -117,6 +120,76 @@ class CamasUCI:
 
         df_std.to_csv(self.output + '_std.csv', index=False)
 
+
+    def last_file_to_csv_diaria(self):
+        file_path = self.last_added.key
+
+        s3_client = boto3.client('s3',
+                                 aws_access_key_id=self.access_key,
+                                 aws_secret_access_key=self.secret_key)
+
+        obj = s3_client.get_object(Bucket=self.bucket, Key=file_path)
+
+        df_uci_habilitada = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI HABILITADA')
+        df_uci_habilitada.rename(columns={'Camas UCI habilitadas': 'Region'}, inplace=True)
+        regionName(df_uci_habilitada)
+        df_uci_habilitada = df_uci_habilitada[df_uci_habilitada['Region'].notna()]
+        df_uci_habilitada['Serie'] = 'Camas UCI habilitadas'
+        #print(df_uci_habilitada.to_string())
+
+        df_uci_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA COVID')
+        df_uci_covid.rename(columns={'Camas UCI ocupadas COVID-19': 'Region'}, inplace=True)
+        regionName(df_uci_covid)
+        df_uci_covid = df_uci_covid[df_uci_covid['Region'].notna()]
+        df_uci_covid['Serie'] = 'Camas UCI ocupadas COVID-19'
+        #print(df_uci_covid.to_string())
+
+        df_uci_no_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA NO COVID')
+        df_uci_no_covid.rename(columns={'Camas UCI ocupadas no COVID-19': 'Region'}, inplace=True)
+        regionName(df_uci_no_covid)
+        df_uci_no_covid = df_uci_no_covid[df_uci_no_covid['Region'].notna()]
+        df_uci_no_covid['Serie'] = 'Camas UCI ocupadas no COVID-19'
+        #print(df_uci_no_covid.to_string())
+
+        df_camas_base = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA TOTAL')
+        df_camas_base.rename(columns={'Camas UCI ocupadas': 'Region'}, inplace=True)
+        regionName(df_camas_base)
+        df_camas_base = df_camas_base[df_camas_base['Region'].notna()]
+        df_camas_base['Serie'] = 'Camas UCI ocupadas'
+        #print(df_camas_base.to_string())
+
+
+        result = pd.concat([df_uci_habilitada, df_uci_covid, df_uci_no_covid, df_camas_base])
+
+        allCols = list(result)
+        for i in allCols:
+            if isinstance(i, str):
+                if 'Unnamed' in i:
+                    print('drop unnamed col')
+                    result.drop(columns=i, inplace=True)
+
+
+
+
+        identifiers = ['Region', 'Serie']
+        variables = [x for x in result.columns if x not in identifiers]
+
+
+        for i in range(len(variables)):
+            result.rename(columns={variables[i]: variables[i].date()}, inplace=True)
+            variables[i] = variables[i].date()
+
+        result = result[identifiers + variables]
+        result.to_csv(self.output + '.csv', index=False)
+
+        df_t = result.T
+        df_t.to_csv(self.output + '_t.csv', header=False)
+
+        df_std = pd.melt(result, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                         value_name='Casos')
+
+        df_std.to_csv(self.output + '_std.csv', index=False)
+
 if __name__ == '__main__':
     if len(sys.argv) == 4:
         my_bucket_name = sys.argv[1]
@@ -125,3 +198,9 @@ if __name__ == '__main__':
         my_camasUCI = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI/', my_access_key, my_secret_key, '../output/producto52/Camas_UCI')
         my_camasUCI.get_last_camas_xlsx()
         my_camasUCI.last_file_to_csv()
+
+
+        my_camasUCI_diarias = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI_diaria/', my_access_key, my_secret_key,
+                               '../output/producto58/Camas_UCI_diarias')
+        my_camasUCI_diarias.get_last_camas_xlsx()
+        my_camasUCI_diarias.last_file_to_csv_diaria()
