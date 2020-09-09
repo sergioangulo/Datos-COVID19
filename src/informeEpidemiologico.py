@@ -487,7 +487,7 @@ if __name__ == '__main__':
 
     prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_regionales')
 
-    prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto58/casos_nuevos_acumulados_por_fecha')
+    prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
 
     prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
               '../output/producto59/etapa_clinica_por_fecha_notificacion')
