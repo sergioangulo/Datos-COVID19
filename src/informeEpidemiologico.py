@@ -485,14 +485,14 @@ if __name__ == '__main__':
            '../output/producto45/CasosNoNotificadosPorComunaHistorico')
     prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
 
-    # prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_hospitalizados')
-    #
-    # prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
-    #
-    # prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
-    #           '../output/producto59/etapa_clinica_por_fecha_notificacion')
-    # prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
-    #           '../output/producto60/etapa_clinica_por_fis')
-    # prod61('../input/InformeEpidemiologico/serie_fallecidos_comuna.csv',
-    #           '../output/producto61/serie_fallecidos_comuna')
+    prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_hospitalizados')
+
+    prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
+
+    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
+              '../output/producto59/etapa_clinica_por_fecha_notificacion')
+    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
+              '../output/producto60/etapa_clinica_por_fis')
+    prod61('../input/InformeEpidemiologico/serie_fallecidos_comuna.csv',
+              '../output/producto61/serie_fallecidos_comuna')
 
