@@ -75,8 +75,9 @@ def regionName(df):
 
 
 def regionNameRegex(df):
-    df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
     df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región del ', value=r'')
+    df['Region'] = df['Region'].replace(regex=True, to_replace=r'.*Región de ', value=r'')
+
 
 
 def normalizaNombreCodigoRegionYComuna(df):
