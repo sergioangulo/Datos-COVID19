@@ -46,11 +46,17 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**09-09-2020**
+- Pull request de actualización de DataScienceUDD
+- Se agregan cuarentenas hasta el dia 20200909, sólo se modifica el archivo `Cuarentenas-Totales.csv`.
+- No se modifican las columnas `detalle`, `superficie en m` ni `perímetro en m`, ya que no conocemos la metodología de los autores originales.
+- El pull request se hace para mantener funcionando el código del IM de DataScienceUDD, ver Producto 33
+
 **03-08-2020**
 - Se ajustan fechas de prórroga de cuarentenas vigentes a Indefinidas en conformidad con Res.Ex. 606 de 29 de julio
 - Se ajustan cuarentenas notificadas en Res.Ex. 593 del 24 de julio de 2020
-    - Término de Cuarentenas de San Antonio, San Felipe, Vitacura, Las Condes, Lo Barnechea, Ñuñoa, La Reina, Colina y Til Til
-    - Incorporación de cuarentenas de Copiapó, Coquimbo, La Serena, La Calera, LA Cruz, Isla de Maipo y Puerto Montt
+	- Término de Cuarentenas de San Antonio, San Felipe, Vitacura, Las Condes, Lo Barnechea, Ñuñoa, La Reina, Colina y Til Til
+	- Incorporación de cuarentenas de Copiapó, Coquimbo, La Serena, La Calera, LA Cruz, Isla de Maipo y Puerto Montt
 
 **24-07-2020**
 - Se ajustan fechas de prórroga de cuarentenas vigentes en conformidad con Res.Ex. 575 del 22 de julio
@@ -59,7 +65,7 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 - Se ajustan fechas de prórroga de cuarentenas vigentes.
 
 **15-07-2020**<br>
-- Cambio de Estado en Cuarentenas Futuras a Activas (2) 
+- Cambio de Estado en Cuarentenas Futuras a Activas (2)
 
 **13-07-2020**
 - Se incorporan Cuarentenas notificadas (Res.Ex. MINSAL 522 de 12 de julio de 2020) para el Radio Urbano de Arica (Re-ingreso) y Comuna de Rengo
@@ -81,7 +87,7 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 - Se ajustan fechas de prórroga de cuarentenas vigentes en conformidad con Res.Ex. MINSAL 479 punto 1
 
 **19-06-2020 rev2**<br>
-- Cambio de Estado en Cuarentenas Futuras a Activas (5) 
+- Cambio de Estado en Cuarentenas Futuras a Activas (5)
 
 **19-06-2020**<br>
 - Corrección de delimitación de cuarentena ID 90 (Curicó Urbano) en base a cartografía dispuesta por el Jefe de la Defensa Nacional Región del Maule
@@ -92,10 +98,10 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 - Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 467 del 17 de junio punto 2  (San Felipe, Los Andes, Rancagua, Machalí, Curicó Urbano)
 - Se ajustan fechas de prórroga de cuarentenas en conformidad con punto 1 de la resolución antes mencionada
 
-**12-06-2020**<br> 
-- Cambio de Estado en Cuarentenas Futuras a Activas (9) 
+**12-06-2020**<br>
+- Cambio de Estado en Cuarentenas Futuras a Activas (9)
 
-**11-06-2020**<br> 
+**11-06-2020**<br>
 - En conformidad con Res.Ex. MINSAL 424 del 7 de junio se cambia la catergoría de la cuarentena ID 77 (Calama) de "Área Urbana Completa" a "Comuna Completa" modificando el área en el archivo GeoJSON
 - Se incorporan Cuarentenas decretadas en Res.Ex. MINSAL 448 del 10 de junio punto 3.
 - Se ajustan fechas de prórroga de cuarentenas
