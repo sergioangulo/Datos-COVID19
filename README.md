@@ -129,13 +129,13 @@ Información sobre la proporción de casos confirmados para los cuales el tiempo
 Archivo que da cuenta de los casos fallecidos confirmados y probables por COVID-19 notificados en la plataforma EPIVIGILA o informados por los laboratorios al Ministero de Salud y que se encuentran dentro del conteo oficial de casos, por fecha de defunción, región de ocurrencia, y si el caso se hospitalizó o no. [Ver más](output/producto57)
 
 [Data Product 58 - Disponibilidad de camas críticas a nivel regional desagregado por día](output/producto58):
-Datos que corresponden a la cantidad de campas disponible en el sistema integrado de salud [Ver más](output/producto58)
+Datos que corresponden a la cantidad de camas disponible en el sistema integrado de salud [Ver más](output/producto58)
 
 [Data Product 59 - Curva de casos por etapa clínica (confirmados, probables y no-notificados), por fecha de notificación, desagregados por día](output/producto59):
-Curva completa de los casos por etapa clínica (confirmados, probables y no-notificados a nivel nacional, desagregado por día [Ver más](output/producto59)
+Curva completa de los casos por etapa clínica (confirmados, probables y no-notificados) a nivel nacional, por fecha de notificación, desagregado por día [Ver más](output/producto59)
 
 [Data Product 60 - Curva de casos por etapa clínica (confirmados, probables y no-notificados), por fecha de inicio de síntomas, desagregados por día](output/producto60):
-Curva completa de los casos por etapa clínica (confirmados, probables y no-notificados a nivel nacional, desagregado por día [Ver más](output/producto60)
+Curva completa de los casos por etapa clínica (confirmados, probables y no-notificados) a nivel nacional, por fecha de inicio de síntomas o toma de muestras de cada caso, desagregado por día [Ver más](output/producto60)
 
 [Data Product 61 - Fallecidos confirmados por comuna (U07.1)](output/producto61):
 Fallecidos confirmados por DEIS, desagregados por comuna [Ver más](output/producto61)
