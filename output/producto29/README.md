@@ -46,6 +46,11 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 
 # Notas de Versión
 
+**11-09-2020**
+- Pull request, el formato de las fechas estaba incorrecto: se había
+  cambiado '-' por '/', este request arregla eso.
+
+
 **09-09-2020**
 - Pull request de actualización de DataScienceUDD
 - Se agregan cuarentenas hasta el dia 20200909, sólo se modifica el archivo `Cuarentenas-Totales.csv`.
