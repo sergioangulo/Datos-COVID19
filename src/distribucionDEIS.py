@@ -9,7 +9,7 @@ import sys
 '''
 MIT License
 
-Copyright (c) 2020 Faviola Molina
+Copyright (c) 2020 Faviola Molina, dLab- Fundación Ciencia y Vida
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
