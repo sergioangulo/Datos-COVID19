@@ -49,6 +49,7 @@ Variable: días miércoles para cambios en áreas, días viernes para cambio de 
 **11-09-2020**
 - Pull request, el formato de las fechas estaba incorrecto: se había
   cambiado '-' por '/', este request arregla eso.
+- y ahora con `pd.to_csv(..., index=False)`
 
 
 **09-09-2020**
