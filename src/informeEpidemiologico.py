@@ -1,7 +1,8 @@
 '''
 MIT License
 
-Copyright (c) 2020 Sebastian Cornejo
+Copyright (c) 2020 Sebastian Cornejo 
+              in collaboration with Faviola Molina from dLab - Fundación Ciencia y Vida
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
