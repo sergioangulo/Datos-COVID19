@@ -407,8 +407,8 @@ def prod57(fte, prod):
     df.to_csv(prod + '.csv', index=False)
 
 
-def prod58_60(fte, prod):
-    print("Generando producto 58, 59, 60")
+def prod59_60_62(fte, prod):
+    print("Generando producto 59, 60, 62")
     df = pd.read_csv(fte, encoding='utf-8')
     df.to_csv(prod + '.csv', index=False)
 
@@ -488,11 +488,11 @@ if __name__ == '__main__':
 
     prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_hospitalizados')
 
-    prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
+    prod59_60_62('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
 
-    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
+    prod59_60_62('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
               '../output/producto59/etapa_clinica_por_fecha_notificacion')
-    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
+    prod59_60_62('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
               '../output/producto60/etapa_clinica_por_fis')
     prod61('../input/InformeEpidemiologico/serie_fallecidos_comuna.csv',
               '../output/producto61/serie_fallecidos_comuna')
