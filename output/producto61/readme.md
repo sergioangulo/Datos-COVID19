@@ -1,4 +1,4 @@
-PRODUCTO 61 - Fallecidos confirmados por comuna
+PRODUCTO 61 - PRODUCTO 61 - Fallecidos acumulados confirmados (U07.1) y probables (U07.2) por comuna
 
 
 Descripcion general
