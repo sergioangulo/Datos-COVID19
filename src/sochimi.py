@@ -27,7 +27,7 @@ import pandas as pd
 from utils import *
 
 def prod_48(url, user, password, prod):
-    print('generando prod46')
+    print('generando prod48')
     #print('asking to ' + url)
     #print('user: ' + '*' * len(user))
     #print('password: ' + '*' * len(password))
