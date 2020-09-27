@@ -172,7 +172,7 @@ def prod16_etapa_clinica(fte, producto):
     variables = [x for x in df.columns if x not in identifiers]
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                      value_name='Casos confirmados')
-    df_std.to_csv(producto + '_std.csv', index=False)
+    df_std.to_csv(producto + '_std.csv', header=False)
 
 def prod18(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
