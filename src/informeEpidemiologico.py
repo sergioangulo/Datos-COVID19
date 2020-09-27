@@ -159,6 +159,20 @@ def prod16(fte, producto):
                      value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod16_etapa_clinica(fte, producto):
+    print('Generando producto 16, con etapas clinicas')
+
+    df = pd.read_csv(fte)
+    df.to_csv(producto + '.csv', index=False)
+
+    df_T = df.T
+    df_T.to_csv(producto + '_t.csv', index=False)
+
+    identifiers = ['Grupo de edad', 'Sexo', 'Etapa clinica']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod18(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
@@ -441,6 +455,8 @@ if __name__ == '__main__':
     prod15('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+
+    prod16_etapa_clinica('../input/InformeEpidemiologico/CasosGeneroEtarioEtapaClinica.csv', '../output/producto16/CasosGeneroEtarioEtapaClinica')
 
     print('Generando producto 18')
     prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
