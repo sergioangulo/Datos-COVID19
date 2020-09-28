@@ -186,6 +186,7 @@ Fecha,Serie,Total
 2020-09-25,pcr,37653
 2020-09-26,pcr,38161
 2020-09-27,pcr,39405
+2020-09-28,pcr,37473
 2020-03-25,casos,220.0
 2020-03-26,casos,164.0
 2020-03-27,casos,304.0
@@ -372,7 +373,8 @@ Fecha,Serie,Total
 2020-09-24,casos,1731.0
 2020-09-25,casos,2222.0
 2020-09-26,casos,2109.0
-2020-09-27,casos,1923
+2020-09-27,casos,1923.0
+2020-09-28,casos,1770
 2020-03-25,positividad,0.0669
 2020-03-26,positividad,0.0336
 2020-03-27,positividad,0.0412
@@ -560,6 +562,7 @@ Fecha,Serie,Total
 2020-09-25,positividad,0.059
 2020-09-26,positividad,0.0553
 2020-09-27,positividad,0.0488
+2020-09-28,positividad,0.0472
 2020-03-25,mediamovil_positividad,
 2020-03-26,mediamovil_positividad,
 2020-03-27,mediamovil_positividad,
@@ -747,3 +750,4 @@ Fecha,Serie,Total
 2020-09-25,mediamovil_positividad,0.0668
 2020-09-26,mediamovil_positividad,0.0671
 2020-09-27,mediamovil_positividad,0.0658
+2020-09-28,mediamovil_positividad,0.0624
