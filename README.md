@@ -143,6 +143,27 @@ Fallecidos confirmados por DEIS, desagregados por comuna [Ver más](output/produ
 [Data Product 62 - Curva de casos nuevos desagregados por día](output/producto62):
 Curva completa de los casos nuevos confirmados (incluye probables) y acumulados de COVID-19 según fecha de confirmación por laboratorio a nivel nacional, desagregado por día [Ver más](output/producto62)
 
+[Data Product 63 - Número de personas notificadas con exámenes RT- PCR por Comuna](output/producto63):
+Número de personas notificadas con exámenes RT-PCR positivos. Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto63)
+
+[Data Product 64 - Cantidad de Test por búsqueda activa de casos (BAC) por Comuna](output/producto64):
+Proporción de test realizados por búsqueda activa de casos sobre el total de los test realizados en las personas notificadas con resultados de laboratorio.Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto64) 
+
+[Data Product 65 - Indice de Positividad Test RT-PCR por Comuna](output/producto65):
+Proporción de resultados de test positivos en las personas notificadas con resultados de laboratorio.
+Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
+acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto65)
+
+[Data Product 66 - Cobertura de testeo por Comuna](output/producto66):
+Proporción de casos nuevos notificados (sospechosos) con al menos un resultado de examen de RT-PCR.
+Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
+acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto66)
+
+[Data Product 67 - Oportunidad en la notificación de casos nuevos por Comuna](output/producto67):
+Proporción de casos nuevos confirmados por laboratorio, que fueron notificados en la primera consulta o contacto con salud, es decir, antes del proceso de la toma de muestra.
+Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
+acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto67)
+
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
