@@ -15,21 +15,21 @@ df = pd.concat(df)
 df["Comuna"] = df["Comuna"].replace({"Coyhaique": "Coihaique", "OHiggins": "O'Higgins"})
 
 # Lee IDs de comunas desde página web oficial de SUBDERE
-df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/cut_2018_v03.xls", encoding="utf-8")
+df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls", encoding="utf-8")
 
 # Crea columna sin tildes, para hacer merge con datos publicados
 df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD").str.encode("ascii", errors="ignore").str.decode("utf-8")
 
 df = df.merge(df_dim_comunas, on="Comuna", how="outer")
 
-df = df.drop(columns=["Comuna", "Region", "Codigo region", "Codigo comuna"])
+df = df.drop(columns=["Comuna", "Region", "Codigo region", "Codigo comuna", "Abreviatura Región"])
 df = df.rename(columns={
     "Nombre Región": "Region",
     "Nombre Provincia": "Provincia", 
     "Nombre Comuna": "Comuna",
     "Código Región": "Region ID",
     "Código Provincia": "Provincia ID",
-    "Código Comuna 2017": "Comuna ID"
+    "Código Comuna 2018": "Comuna ID"
 })
 
 df["Casos Confirmados"] = df["Casos Confirmados"].fillna("-")

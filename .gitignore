@@ -2,7 +2,8 @@ venv-*
 .idea/*
 temp*
 .DS_Store
-*.ipynb
+.ipynb
 __pycache__
+*.tmp
 
 
