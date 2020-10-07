@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Actualiza_productos_de_informe_epidemiologico
+name: Actualiza_productos_de_informe_testeo_trazabilidad
 
 # Controls when the action will run. Triggers the workflow on push or pull request 
 # events but only for the master branch
@@ -53,13 +53,5 @@ jobs:
         commit_user_name: MinCiencia GitHub Actions Bot
         commit_user_email: actions@github.com
         commit_author: minciencia github bot <actions@github.com>
-
-
-#    - name: update_API
-#      run: |
-#        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
-#        -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
-#        -d '{"event_type": "update_please_from_informe_testeo_trazabilidad"}'
-
 
 
