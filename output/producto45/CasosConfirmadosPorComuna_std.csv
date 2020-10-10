@@ -939,7 +939,7 @@ Metropolitana,13,Conchali,13104,139195.0,SE9,0.0
 Metropolitana,13,Curacavi,13503,36430.0,SE9,0.0
 Metropolitana,13,El Bosque,13105,172000.0,SE9,0.0
 Metropolitana,13,El Monte,13602,40014.0,SE9,0.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE9,0.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE9,1.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE9,1.0
 Metropolitana,13,Independencia,13108,142065.0,SE9,0.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE9,0.0
@@ -2610,7 +2610,7 @@ Biobío,08,Canete,08203,37003.0,SE14,0.0
 Biobío,08,Chiguayante,08103,91180.0,SE14,16.0
 Biobío,08,Concepcion,08101,238092.0,SE14,23.0
 Biobío,08,Contulmo,08204,6330.0,SE14,0.0
-Biobío,08,Coronel,08102,125829.0,SE14,4.0
+Biobío,08,Coronel,08102,125829.0,SE14,5.0
 Biobío,08,Curanilahue,08205,33892.0,SE14,0.0
 Biobío,08,Florida,08104,11841.0,SE14,1.0
 Biobío,08,Hualpen,08112,97273.0,SE14,26.0
@@ -2694,7 +2694,7 @@ Los Ríos,14,Mariquina,14106,23250.0,SE14,4.0
 Los Ríos,14,Paillaco,14107,20798.0,SE14,0.0
 Los Ríos,14,Panguipulli,14108,35991.0,SE14,0.0
 Los Ríos,14,Rio Bueno,14204,32925.0,SE14,3.0
-Los Ríos,14,Valdivia,14101,176774.0,SE14,25.0
+Los Ríos,14,Valdivia,14101,176774.0,SE14,26.0
 Los Ríos,14,Desconocido Los Rios,0,0.0,SE14,0.0
 Magallanes,12,Antartica,12202,137.0,SE14,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE14,1.0
@@ -2702,7 +2702,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE14,0.0
 Magallanes,12,Natales,12401,23782.0,SE14,0.0
 Magallanes,12,Porvenir,12301,7323.0,SE14,1.0
 Magallanes,12,Primavera,12302,694.0,SE14,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE14,145.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE14,147.0
 Magallanes,12,Rio Verde,12103,211.0,SE14,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE14,0.0
 Magallanes,12,Timaukel,12303,282.0,SE14,0.0
@@ -2742,7 +2742,7 @@ Maule,07,Desconocido Maule,0,0.0,SE14,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE14,0.0
 Metropolitana,13,Buin,13402,109641.0,SE14,10.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE14,1.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE14,12.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE14,13.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE14,13.0
 Metropolitana,13,Colina,13301,180353.0,SE14,22.0
 Metropolitana,13,Conchali,13104,139195.0,SE14,19.0
@@ -2764,7 +2764,7 @@ Metropolitana,13,Lo Barnechea,13115,124076.0,SE14,20.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE14,23.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE14,15.0
 Metropolitana,13,Macul,13118,134635.0,SE14,19.0
-Metropolitana,13,Maipu,13119,578605.0,SE14,81.0
+Metropolitana,13,Maipu,13119,578605.0,SE14,82.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE14,0.0
 Metropolitana,13,Melipilla,13501,141612.0,SE14,5.0
 Metropolitana,13,Nunoa,13120,250192.0,SE14,44.0
@@ -2917,7 +2917,7 @@ Araucanía,09,Freire,09105,25446.0,SE15,0.0
 Araucanía,09,Galvarino,09106,12633.0,SE15,0.0
 Araucanía,09,Gorbea,09107,15148.0,SE15,0.0
 Araucanía,09,Lautaro,09108,40746.0,SE15,5.0
-Araucanía,09,Loncoche,09109,24739.0,SE15,5.0
+Araucanía,09,Loncoche,09109,24739.0,SE15,4.0
 Araucanía,09,Lonquimay,09205,11049.0,SE15,0.0
 Araucanía,09,Los Sauces,09206,7517.0,SE15,0.0
 Araucanía,09,Lumaco,09207,10050.0,SE15,0.0
@@ -3300,7 +3300,7 @@ Araucanía,09,Victoria,09211,35467.0,SE16,31.0
 Araucanía,09,Vilcun,09119,30766.0,SE16,4.0
 Araucanía,09,Villarrica,09120,59103.0,SE16,1.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE16,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE16,53.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE16,54.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE16,0.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE16,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE16,0.0
@@ -3426,7 +3426,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE16,0.0
 Magallanes,12,Natales,12401,23782.0,SE16,1.0
 Magallanes,12,Porvenir,12301,7323.0,SE16,2.0
 Magallanes,12,Primavera,12302,694.0,SE16,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE16,132.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE16,133.0
 Magallanes,12,Rio Verde,12103,211.0,SE16,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE16,0.0
 Magallanes,12,Timaukel,12303,282.0,SE16,0.0
@@ -3488,7 +3488,7 @@ Metropolitana,13,Lo Barnechea,13115,124076.0,SE16,38.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE16,21.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE16,31.0
 Metropolitana,13,Macul,13118,134635.0,SE16,23.0
-Metropolitana,13,Maipu,13119,578605.0,SE16,115.0
+Metropolitana,13,Maipu,13119,578605.0,SE16,116.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE16,0.0
 Metropolitana,13,Melipilla,13501,141612.0,SE16,23.0
 Metropolitana,13,Nunoa,13120,250192.0,SE16,66.0
@@ -3785,7 +3785,7 @@ Los Ríos,14,Desconocido Los Rios,0,0.0,SE17,0.0
 Magallanes,12,Antartica,12202,137.0,SE17,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE17,0.0
 Magallanes,12,Laguna Blanca,12102,264.0,SE17,0.0
-Magallanes,12,Natales,12401,23782.0,SE17,1.0
+Magallanes,12,Natales,12401,23782.0,SE17,0.0
 Magallanes,12,Porvenir,12301,7323.0,SE17,0.0
 Magallanes,12,Primavera,12302,694.0,SE17,0.0
 Magallanes,12,Punta Arenas,12101,141984.0,SE17,85.0
@@ -3867,7 +3867,7 @@ Metropolitana,13,Quilicura,13125,254694.0,SE17,321.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE17,99.0
 Metropolitana,13,Recoleta,13127,190075.0,SE17,284.0
 Metropolitana,13,Renca,13128,160847.0,SE17,109.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE17,154.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE17,155.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE17,84.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE17,4.0
 Metropolitana,13,San Miguel,13130,133059.0,SE17,78.0
@@ -4011,7 +4011,7 @@ Araucanía,09,Melipeuco,09110,6265.0,SE18,0.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE18,2.0
 Araucanía,09,Padre Las Casas,09112,82110.0,SE18,0.0
 Araucanía,09,Perquenco,09113,7223.0,SE18,0.0
-Araucanía,09,Pitrufquen,09114,26096.0,SE18,1.0
+Araucanía,09,Pitrufquen,09114,26096.0,SE18,0.0
 Araucanía,09,Pucon,09115,29782.0,SE18,0.0
 Araucanía,09,Puren,09208,12188.0,SE18,2.0
 Araucanía,09,Renaico,09209,10833.0,SE18,4.0
@@ -4109,7 +4109,7 @@ Los Lagos,10,Cochamo,10103,4006.0,SE18,0.0
 Los Lagos,10,Curaco de Velez,10204,4066.0,SE18,0.0
 Los Lagos,10,Dalcahue,10205,15069.0,SE18,0.0
 Los Lagos,10,Fresia,10104,12656.0,SE18,0.0
-Los Lagos,10,Frutillar,10105,20223.0,SE18,0.0
+Los Lagos,10,Frutillar,10105,20223.0,SE18,1.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE18,0.0
 Los Lagos,10,Hualaihue,10403,9525.0,SE18,0.0
 Los Lagos,10,Llanquihue,10107,18621.0,SE18,0.0
@@ -4200,14 +4200,14 @@ Metropolitana,13,El Monte,13602,40014.0,SE18,17.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE18,370.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE18,205.0
 Metropolitana,13,Independencia,13108,142065.0,SE18,561.0
-Metropolitana,13,Isla de Maipo,13603,40171.0,SE18,10.0
+Metropolitana,13,Isla de Maipo,13603,40171.0,SE18,11.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE18,122.0
 Metropolitana,13,La Florida,13110,402433.0,SE18,587.0
 Metropolitana,13,La Granja,13111,122557.0,SE18,267.0
 Metropolitana,13,La Pintana,13112,189335.0,SE18,375.0
 Metropolitana,13,La Reina,13113,100252.0,SE18,75.0
 Metropolitana,13,Lampa,13302,126898.0,SE18,135.0
-Metropolitana,13,Las Condes,13114,330759.0,SE18,244.0
+Metropolitana,13,Las Condes,13114,330759.0,SE18,245.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE18,153.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE18,181.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE18,191.0
@@ -4217,7 +4217,7 @@ Metropolitana,13,Maria Pinto,13504,14926.0,SE18,2.0
 Metropolitana,13,Melipilla,13501,141612.0,SE18,87.0
 Metropolitana,13,Nunoa,13120,250192.0,SE18,152.0
 Metropolitana,13,Padre Hurtado,13604,74188.0,SE18,59.0
-Metropolitana,13,Paine,13404,82766.0,SE18,27.0
+Metropolitana,13,Paine,13404,82766.0,SE18,28.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE18,169.0
 Metropolitana,13,Penaflor,13605,101058.0,SE18,57.0
 Metropolitana,13,Penalolen,13122,266798.0,SE18,403.0
@@ -4225,7 +4225,7 @@ Metropolitana,13,Pirque,13202,30433.0,SE18,38.0
 Metropolitana,13,Providencia,13123,157749.0,SE18,97.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE18,354.0
 Metropolitana,13,Puente Alto,13201,645909.0,SE18,845.0
-Metropolitana,13,Quilicura,13125,254694.0,SE18,537.0
+Metropolitana,13,Quilicura,13125,254694.0,SE18,538.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE18,268.0
 Metropolitana,13,Recoleta,13127,190075.0,SE18,726.0
 Metropolitana,13,Renca,13128,160847.0,SE18,302.0
@@ -4365,7 +4365,7 @@ Araucanía,09,Freire,09105,25446.0,SE19,11.0
 Araucanía,09,Galvarino,09106,12633.0,SE19,0.0
 Araucanía,09,Gorbea,09107,15148.0,SE19,3.0
 Araucanía,09,Lautaro,09108,40746.0,SE19,11.0
-Araucanía,09,Loncoche,09109,24739.0,SE19,3.0
+Araucanía,09,Loncoche,09109,24739.0,SE19,2.0
 Araucanía,09,Lonquimay,09205,11049.0,SE19,12.0
 Araucanía,09,Los Sauces,09206,7517.0,SE19,0.0
 Araucanía,09,Lumaco,09207,10050.0,SE19,0.0
@@ -4512,7 +4512,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE19,0.0
 Magallanes,12,Natales,12401,23782.0,SE19,0.0
 Magallanes,12,Porvenir,12301,7323.0,SE19,1.0
 Magallanes,12,Primavera,12302,694.0,SE19,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE19,83.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE19,84.0
 Magallanes,12,Rio Verde,12103,211.0,SE19,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE19,2.0
 Magallanes,12,Timaukel,12303,282.0,SE19,0.0
@@ -4552,7 +4552,7 @@ Maule,07,Desconocido Maule,0,0.0,SE19,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE19,5.0
 Metropolitana,13,Buin,13402,109641.0,SE19,139.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE19,18.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE19,204.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE19,205.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE19,585.0
 Metropolitana,13,Colina,13301,180353.0,SE19,363.0
 Metropolitana,13,Conchali,13104,139195.0,SE19,618.0
@@ -4565,7 +4565,7 @@ Metropolitana,13,Independencia,13108,142065.0,SE19,779.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE19,25.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE19,241.0
 Metropolitana,13,La Florida,13110,402433.0,SE19,1042.0
-Metropolitana,13,La Granja,13111,122557.0,SE19,618.0
+Metropolitana,13,La Granja,13111,122557.0,SE19,619.0
 Metropolitana,13,La Pintana,13112,189335.0,SE19,849.0
 Metropolitana,13,La Reina,13113,100252.0,SE19,125.0
 Metropolitana,13,Lampa,13302,126898.0,SE19,288.0
@@ -4594,7 +4594,7 @@ Metropolitana,13,Renca,13128,160847.0,SE19,616.0
 Metropolitana,13,San Bernardo,13401,334836.0,SE19,658.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE19,500.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE19,49.0
-Metropolitana,13,San Miguel,13130,133059.0,SE19,444.0
+Metropolitana,13,San Miguel,13130,133059.0,SE19,445.0
 Metropolitana,13,San Pedro,13505,11953.0,SE19,8.0
 Metropolitana,13,San Ramon,13131,86510.0,SE19,455.0
 Metropolitana,13,Santiago,13101,503147.0,SE19,1720.0
@@ -4632,7 +4632,7 @@ O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE19,0.0
 O’Higgins,06,Rancagua,06101,265211.0,SE19,85.0
 O’Higgins,06,Rengo,06115,63710.0,SE19,7.0
 O’Higgins,06,Requinoa,06116,30371.0,SE19,4.0
-O’Higgins,06,San Fernando,06301,78642.0,SE19,6.0
+O’Higgins,06,San Fernando,06301,78642.0,SE19,7.0
 O’Higgins,06,San Vicente,06117,50617.0,SE19,16.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE19,5.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE19,0.0
@@ -4914,7 +4914,7 @@ Maule,07,Desconocido Maule,0,0.0,SE20,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE20,1.0
 Metropolitana,13,Buin,13402,109641.0,SE20,187.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE20,29.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE20,273.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE20,274.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE20,691.0
 Metropolitana,13,Colina,13301,180353.0,SE20,542.0
 Metropolitana,13,Conchali,13104,139195.0,SE20,702.0
@@ -4948,15 +4948,15 @@ Metropolitana,13,Penalolen,13122,266798.0,SE20,1318.0
 Metropolitana,13,Pirque,13202,30433.0,SE20,80.0
 Metropolitana,13,Providencia,13123,157749.0,SE20,327.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE20,1017.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE20,2212.0
-Metropolitana,13,Quilicura,13125,254694.0,SE20,945.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE20,2213.0
+Metropolitana,13,Quilicura,13125,254694.0,SE20,944.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE20,575.0
 Metropolitana,13,Recoleta,13127,190075.0,SE20,1114.0
 Metropolitana,13,Renca,13128,160847.0,SE20,723.0
 Metropolitana,13,San Bernardo,13401,334836.0,SE20,886.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE20,630.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE20,56.0
-Metropolitana,13,San Miguel,13130,133059.0,SE20,507.0
+Metropolitana,13,San Miguel,13130,133059.0,SE20,508.0
 Metropolitana,13,San Pedro,13505,11953.0,SE20,15.0
 Metropolitana,13,San Ramon,13131,86510.0,SE20,552.0
 Metropolitana,13,Santiago,13101,503147.0,SE20,1720.0
@@ -5276,14 +5276,14 @@ Maule,07,Desconocido Maule,0,0.0,SE21,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE21,4.0
 Metropolitana,13,Buin,13402,109641.0,SE21,224.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE21,35.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE21,312.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE21,311.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE21,718.0
 Metropolitana,13,Colina,13301,180353.0,SE21,602.0
 Metropolitana,13,Conchali,13104,139195.0,SE21,657.0
 Metropolitana,13,Curacavi,13503,36430.0,SE21,95.0
 Metropolitana,13,El Bosque,13105,172000.0,SE21,530.0
 Metropolitana,13,El Monte,13602,40014.0,SE21,138.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE21,662.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE21,663.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE21,438.0
 Metropolitana,13,Independencia,13108,142065.0,SE21,768.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE21,70.0
@@ -5298,10 +5298,10 @@ Metropolitana,13,Lo Barnechea,13115,124076.0,SE21,424.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE21,377.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE21,512.0
 Metropolitana,13,Macul,13118,134635.0,SE21,615.0
-Metropolitana,13,Maipu,13119,578605.0,SE21,1542.0
+Metropolitana,13,Maipu,13119,578605.0,SE21,1541.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE21,37.0
-Metropolitana,13,Melipilla,13501,141612.0,SE21,331.0
-Metropolitana,13,Nunoa,13120,250192.0,SE21,750.0
+Metropolitana,13,Melipilla,13501,141612.0,SE21,332.0
+Metropolitana,13,Nunoa,13120,250192.0,SE21,751.0
 Metropolitana,13,Padre Hurtado,13604,74188.0,SE21,240.0
 Metropolitana,13,Paine,13404,82766.0,SE21,110.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE21,353.0
@@ -5320,7 +5320,7 @@ Metropolitana,13,San Joaquin,13129,103485.0,SE21,394.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE21,92.0
 Metropolitana,13,San Miguel,13130,133059.0,SE21,604.0
 Metropolitana,13,San Pedro,13505,11953.0,SE21,16.0
-Metropolitana,13,San Ramon,13131,86510.0,SE21,521.0
+Metropolitana,13,San Ramon,13131,86510.0,SE21,522.0
 Metropolitana,13,Santiago,13101,503147.0,SE21,1820.0
 Metropolitana,13,Talagante,13601,81838.0,SE21,124.0
 Metropolitana,13,Tiltil,13303,21477.0,SE21,58.0
@@ -5595,7 +5595,7 @@ Los Ríos,14,Desconocido Los Rios,0,0.0,SE22,0.0
 Magallanes,12,Antartica,12202,137.0,SE22,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE22,0.0
 Magallanes,12,Laguna Blanca,12102,264.0,SE22,0.0
-Magallanes,12,Natales,12401,23782.0,SE22,0.0
+Magallanes,12,Natales,12401,23782.0,SE22,1.0
 Magallanes,12,Porvenir,12301,7323.0,SE22,0.0
 Magallanes,12,Primavera,12302,694.0,SE22,0.0
 Magallanes,12,Punta Arenas,12101,141984.0,SE22,24.0
@@ -5636,7 +5636,7 @@ Maule,07,Villa Alegre,07407,17512.0,SE22,9.0
 Maule,07,Yerbas Buenas,07408,19200.0,SE22,23.0
 Maule,07,Desconocido Maule,0,0.0,SE22,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE22,9.0
-Metropolitana,13,Buin,13402,109641.0,SE22,193.0
+Metropolitana,13,Buin,13402,109641.0,SE22,202.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE22,56.0
 Metropolitana,13,Cerrillos,13102,88956.0,SE22,232.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE22,725.0
@@ -5657,15 +5657,15 @@ Metropolitana,13,La Reina,13113,100252.0,SE22,230.0
 Metropolitana,13,Lampa,13302,126898.0,SE22,351.0
 Metropolitana,13,Las Condes,13114,330759.0,SE22,651.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE22,387.0
-Metropolitana,13,Lo Espejo,13116,103865.0,SE22,464.0
+Metropolitana,13,Lo Espejo,13116,103865.0,SE22,465.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE22,589.0
 Metropolitana,13,Macul,13118,134635.0,SE22,468.0
 Metropolitana,13,Maipu,13119,578605.0,SE22,1471.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE22,36.0
 Metropolitana,13,Melipilla,13501,141612.0,SE22,465.0
-Metropolitana,13,Nunoa,13120,250192.0,SE22,603.0
+Metropolitana,13,Nunoa,13120,250192.0,SE22,602.0
 Metropolitana,13,Padre Hurtado,13604,74188.0,SE22,207.0
-Metropolitana,13,Paine,13404,82766.0,SE22,97.0
+Metropolitana,13,Paine,13404,82766.0,SE22,98.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE22,427.0
 Metropolitana,13,Penaflor,13605,101058.0,SE22,280.0
 Metropolitana,13,Penalolen,13122,266798.0,SE22,1394.0
@@ -5677,7 +5677,7 @@ Metropolitana,13,Quilicura,13125,254694.0,SE22,994.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE22,741.0
 Metropolitana,13,Recoleta,13127,190075.0,SE22,809.0
 Metropolitana,13,Renca,13128,160847.0,SE22,752.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE22,1184.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE22,1186.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE22,384.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE22,63.0
 Metropolitana,13,San Miguel,13130,133059.0,SE22,509.0
@@ -5821,7 +5821,7 @@ Araucanía,09,Melipeuco,09110,6265.0,SE23,1.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE23,24.0
 Araucanía,09,Padre Las Casas,09112,82110.0,SE23,4.0
 Araucanía,09,Perquenco,09113,7223.0,SE23,7.0
-Araucanía,09,Pitrufquen,09114,26096.0,SE23,11.0
+Araucanía,09,Pitrufquen,09114,26096.0,SE23,10.0
 Araucanía,09,Pucon,09115,29782.0,SE23,9.0
 Araucanía,09,Puren,09208,12188.0,SE23,0.0
 Araucanía,09,Renaico,09209,10833.0,SE23,2.0
@@ -6003,26 +6003,26 @@ Metropolitana,13,Calera de Tango,13403,28525.0,SE23,61.0
 Metropolitana,13,Cerrillos,13102,88956.0,SE23,257.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE23,684.0
 Metropolitana,13,Colina,13301,180353.0,SE23,541.0
-Metropolitana,13,Conchali,13104,139195.0,SE23,530.0
+Metropolitana,13,Conchali,13104,139195.0,SE23,531.0
 Metropolitana,13,Curacavi,13503,36430.0,SE23,96.0
-Metropolitana,13,El Bosque,13105,172000.0,SE23,679.0
+Metropolitana,13,El Bosque,13105,172000.0,SE23,680.0
 Metropolitana,13,El Monte,13602,40014.0,SE23,124.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE23,585.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE23,586.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE23,342.0
 Metropolitana,13,Independencia,13108,142065.0,SE23,507.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE23,84.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE23,337.0
-Metropolitana,13,La Florida,13110,402433.0,SE23,1430.0
+Metropolitana,13,La Florida,13110,402433.0,SE23,1431.0
 Metropolitana,13,La Granja,13111,122557.0,SE23,638.0
 Metropolitana,13,La Pintana,13112,189335.0,SE23,1061.0
 Metropolitana,13,La Reina,13113,100252.0,SE23,182.0
 Metropolitana,13,Lampa,13302,126898.0,SE23,374.0
-Metropolitana,13,Las Condes,13114,330759.0,SE23,521.0
+Metropolitana,13,Las Condes,13114,330759.0,SE23,522.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE23,404.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE23,466.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE23,468.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE23,467.0
 Metropolitana,13,Macul,13118,134635.0,SE23,465.0
-Metropolitana,13,Maipu,13119,578605.0,SE23,1463.0
+Metropolitana,13,Maipu,13119,578605.0,SE23,1461.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE23,20.0
 Metropolitana,13,Melipilla,13501,141612.0,SE23,428.0
 Metropolitana,13,Nunoa,13120,250192.0,SE23,560.0
@@ -6030,7 +6030,7 @@ Metropolitana,13,Padre Hurtado,13604,74188.0,SE23,240.0
 Metropolitana,13,Paine,13404,82766.0,SE23,160.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE23,448.0
 Metropolitana,13,Penaflor,13605,101058.0,SE23,277.0
-Metropolitana,13,Penalolen,13122,266798.0,SE23,1047.0
+Metropolitana,13,Penalolen,13122,266798.0,SE23,1048.0
 Metropolitana,13,Pirque,13202,30433.0,SE23,66.0
 Metropolitana,13,Providencia,13123,157749.0,SE23,240.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE23,1126.0
@@ -6045,7 +6045,7 @@ Metropolitana,13,San Jose de Maipo,13203,18644.0,SE23,68.0
 Metropolitana,13,San Miguel,13130,133059.0,SE23,508.0
 Metropolitana,13,San Pedro,13505,11953.0,SE23,23.0
 Metropolitana,13,San Ramon,13131,86510.0,SE23,464.0
-Metropolitana,13,Santiago,13101,503147.0,SE23,1249.0
+Metropolitana,13,Santiago,13101,503147.0,SE23,1250.0
 Metropolitana,13,Talagante,13601,81838.0,SE23,181.0
 Metropolitana,13,Tiltil,13303,21477.0,SE23,53.0
 Metropolitana,13,Vitacura,13132,96774.0,SE23,123.0
@@ -6175,7 +6175,7 @@ Araucanía,09,Freire,09105,25446.0,SE24,6.0
 Araucanía,09,Galvarino,09106,12633.0,SE24,13.0
 Araucanía,09,Gorbea,09107,15148.0,SE24,6.0
 Araucanía,09,Lautaro,09108,40746.0,SE24,10.0
-Araucanía,09,Loncoche,09109,24739.0,SE24,7.0
+Araucanía,09,Loncoche,09109,24739.0,SE24,6.0
 Araucanía,09,Lonquimay,09205,11049.0,SE24,0.0
 Araucanía,09,Los Sauces,09206,7517.0,SE24,1.0
 Araucanía,09,Lumaco,09207,10050.0,SE24,8.0
@@ -6188,7 +6188,7 @@ Araucanía,09,Pucon,09115,29782.0,SE24,3.0
 Araucanía,09,Puren,09208,12188.0,SE24,6.0
 Araucanía,09,Renaico,09209,10833.0,SE24,5.0
 Araucanía,09,Saavedra,09116,12793.0,SE24,3.0
-Araucanía,09,Temuco,09101,302931.0,SE24,30.0
+Araucanía,09,Temuco,09101,302931.0,SE24,29.0
 Araucanía,09,Teodoro Schmidt,09117,15786.0,SE24,9.0
 Araucanía,09,Tolten,09118,10055.0,SE24,0.0
 Araucanía,09,Traiguen,09210,19314.0,SE24,7.0
@@ -6232,7 +6232,7 @@ Biobío,08,Concepcion,08101,238092.0,SE24,222.0
 Biobío,08,Contulmo,08204,6330.0,SE24,0.0
 Biobío,08,Coronel,08102,125829.0,SE24,116.0
 Biobío,08,Curanilahue,08205,33892.0,SE24,8.0
-Biobío,08,Florida,08104,11841.0,SE24,6.0
+Biobío,08,Florida,08104,11841.0,SE24,7.0
 Biobío,08,Hualpen,08112,97273.0,SE24,63.0
 Biobío,08,Hualqui,08105,26201.0,SE24,11.0
 Biobío,08,Laja,08304,23873.0,SE24,11.0
@@ -6362,29 +6362,29 @@ Maule,07,Desconocido Maule,0,0.0,SE24,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE24,17.0
 Metropolitana,13,Buin,13402,109641.0,SE24,197.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE24,47.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE24,271.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE24,270.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE24,546.0
 Metropolitana,13,Colina,13301,180353.0,SE24,357.0
-Metropolitana,13,Conchali,13104,139195.0,SE24,435.0
+Metropolitana,13,Conchali,13104,139195.0,SE24,436.0
 Metropolitana,13,Curacavi,13503,36430.0,SE24,79.0
-Metropolitana,13,El Bosque,13105,172000.0,SE24,589.0
+Metropolitana,13,El Bosque,13105,172000.0,SE24,590.0
 Metropolitana,13,El Monte,13602,40014.0,SE24,123.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE24,455.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE24,456.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE24,267.0
 Metropolitana,13,Independencia,13108,142065.0,SE24,365.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE24,75.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE24,256.0
-Metropolitana,13,La Florida,13110,402433.0,SE24,1005.0
+Metropolitana,13,La Florida,13110,402433.0,SE24,1006.0
 Metropolitana,13,La Granja,13111,122557.0,SE24,487.0
 Metropolitana,13,La Pintana,13112,189335.0,SE24,702.0
 Metropolitana,13,La Reina,13113,100252.0,SE24,141.0
 Metropolitana,13,Lampa,13302,126898.0,SE24,308.0
-Metropolitana,13,Las Condes,13114,330759.0,SE24,441.0
+Metropolitana,13,Las Condes,13114,330759.0,SE24,453.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE24,294.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE24,343.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE24,423.0
 Metropolitana,13,Macul,13118,134635.0,SE24,306.0
-Metropolitana,13,Maipu,13119,578605.0,SE24,1231.0
+Metropolitana,13,Maipu,13119,578605.0,SE24,1233.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE24,16.0
 Metropolitana,13,Melipilla,13501,141612.0,SE24,360.0
 Metropolitana,13,Nunoa,13120,250192.0,SE24,468.0
@@ -6395,8 +6395,8 @@ Metropolitana,13,Penaflor,13605,101058.0,SE24,243.0
 Metropolitana,13,Penalolen,13122,266798.0,SE24,801.0
 Metropolitana,13,Pirque,13202,30433.0,SE24,70.0
 Metropolitana,13,Providencia,13123,157749.0,SE24,198.0
-Metropolitana,13,Pudahuel,13124,253139.0,SE24,721.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE24,1901.0
+Metropolitana,13,Pudahuel,13124,253139.0,SE24,723.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE24,1900.0
 Metropolitana,13,Quilicura,13125,254694.0,SE24,744.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE24,462.0
 Metropolitana,13,Recoleta,13127,190075.0,SE24,492.0
@@ -6406,7 +6406,7 @@ Metropolitana,13,San Joaquin,13129,103485.0,SE24,325.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE24,56.0
 Metropolitana,13,San Miguel,13130,133059.0,SE24,364.0
 Metropolitana,13,San Pedro,13505,11953.0,SE24,8.0
-Metropolitana,13,San Ramon,13131,86510.0,SE24,328.0
+Metropolitana,13,San Ramon,13131,86510.0,SE24,327.0
 Metropolitana,13,Santiago,13101,503147.0,SE24,1007.0
 Metropolitana,13,Talagante,13601,81838.0,SE24,211.0
 Metropolitana,13,Tiltil,13303,21477.0,SE24,37.0
@@ -6556,7 +6556,7 @@ Araucanía,09,Tolten,09118,10055.0,SE25,0.0
 Araucanía,09,Traiguen,09210,19314.0,SE25,6.0
 Araucanía,09,Victoria,09211,35467.0,SE25,2.0
 Araucanía,09,Vilcun,09119,30766.0,SE25,5.0
-Araucanía,09,Villarrica,09120,59103.0,SE25,19.0
+Araucanía,09,Villarrica,09120,59103.0,SE25,20.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE25,0.0
 Arica y Parinacota,15,Arica,15101,247552.0,SE25,286.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE25,0.0
@@ -6592,7 +6592,7 @@ Biobío,08,Canete,08203,37003.0,SE25,6.0
 Biobío,08,Chiguayante,08103,91180.0,SE25,38.0
 Biobío,08,Concepcion,08101,238092.0,SE25,225.0
 Biobío,08,Contulmo,08204,6330.0,SE25,5.0
-Biobío,08,Coronel,08102,125829.0,SE25,168.0
+Biobío,08,Coronel,08102,125829.0,SE25,169.0
 Biobío,08,Curanilahue,08205,33892.0,SE25,16.0
 Biobío,08,Florida,08104,11841.0,SE25,4.0
 Biobío,08,Hualpen,08112,97273.0,SE25,74.0
@@ -6601,7 +6601,7 @@ Biobío,08,Laja,08304,23873.0,SE25,15.0
 Biobío,08,Lebu,08201,27100.0,SE25,6.0
 Biobío,08,Los Alamos,08206,22524.0,SE25,28.0
 Biobío,08,Los Angeles,08301,218515.0,SE25,136.0
-Biobío,08,Lota,08106,45750.0,SE25,65.0
+Biobío,08,Lota,08106,45750.0,SE25,64.0
 Biobío,08,Mulchen,08305,31041.0,SE25,12.0
 Biobío,08,Nacimiento,08306,27944.0,SE25,29.0
 Biobío,08,Negrete,08307,10429.0,SE25,16.0
@@ -6729,7 +6729,7 @@ Metropolitana,13,Cerro Navia,13103,142465.0,SE25,461.0
 Metropolitana,13,Colina,13301,180353.0,SE25,289.0
 Metropolitana,13,Conchali,13104,139195.0,SE25,335.0
 Metropolitana,13,Curacavi,13503,36430.0,SE25,51.0
-Metropolitana,13,El Bosque,13105,172000.0,SE25,456.0
+Metropolitana,13,El Bosque,13105,172000.0,SE25,455.0
 Metropolitana,13,El Monte,13602,40014.0,SE25,140.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE25,365.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE25,253.0
@@ -6741,12 +6741,12 @@ Metropolitana,13,La Granja,13111,122557.0,SE25,343.0
 Metropolitana,13,La Pintana,13112,189335.0,SE25,590.0
 Metropolitana,13,La Reina,13113,100252.0,SE25,138.0
 Metropolitana,13,Lampa,13302,126898.0,SE25,201.0
-Metropolitana,13,Las Condes,13114,330759.0,SE25,324.0
+Metropolitana,13,Las Condes,13114,330759.0,SE25,353.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE25,170.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE25,317.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE25,302.0
 Metropolitana,13,Macul,13118,134635.0,SE25,274.0
-Metropolitana,13,Maipu,13119,578605.0,SE25,1009.0
+Metropolitana,13,Maipu,13119,578605.0,SE25,1008.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE25,16.0
 Metropolitana,13,Melipilla,13501,141612.0,SE25,403.0
 Metropolitana,13,Nunoa,13120,250192.0,SE25,338.0
@@ -6757,9 +6757,9 @@ Metropolitana,13,Penaflor,13605,101058.0,SE25,236.0
 Metropolitana,13,Penalolen,13122,266798.0,SE25,642.0
 Metropolitana,13,Pirque,13202,30433.0,SE25,37.0
 Metropolitana,13,Providencia,13123,157749.0,SE25,176.0
-Metropolitana,13,Pudahuel,13124,253139.0,SE25,619.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE25,1514.0
-Metropolitana,13,Quilicura,13125,254694.0,SE25,539.0
+Metropolitana,13,Pudahuel,13124,253139.0,SE25,617.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE25,1515.0
+Metropolitana,13,Quilicura,13125,254694.0,SE25,540.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE25,341.0
 Metropolitana,13,Recoleta,13127,190075.0,SE25,441.0
 Metropolitana,13,Renca,13128,160847.0,SE25,833.0
@@ -6847,7 +6847,7 @@ Valparaíso,05,Quintero,05107,36135.0,SE25,30.0
 Valparaíso,05,Rinconada,05303,11263.0,SE25,12.0
 Valparaíso,05,San Antonio,05601,96761.0,SE25,87.0
 Valparaíso,05,San Esteban,05304,20643.0,SE25,12.0
-Valparaíso,05,San Felipe,05701,83494.0,SE25,73.0
+Valparaíso,05,San Felipe,05701,83494.0,SE25,74.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE25,17.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE25,10.0
 Valparaíso,05,Valparaiso,05101,315732.0,SE25,306.0
@@ -6952,7 +6952,7 @@ Biobío,08,Arauco,08202,38679.0,SE26,45.0
 Biobío,08,Cabrero,08303,30725.0,SE26,14.0
 Biobío,08,Canete,08203,37003.0,SE26,5.0
 Biobío,08,Chiguayante,08103,91180.0,SE26,37.0
-Biobío,08,Concepcion,08101,238092.0,SE26,151.0
+Biobío,08,Concepcion,08101,238092.0,SE26,152.0
 Biobío,08,Contulmo,08204,6330.0,SE26,10.0
 Biobío,08,Coronel,08102,125829.0,SE26,125.0
 Biobío,08,Curanilahue,08205,33892.0,SE26,16.0
@@ -7013,7 +7013,7 @@ Los Lagos,10,Los Muermos,10106,17817.0,SE26,7.0
 Los Lagos,10,Maullin,10108,14894.0,SE26,1.0
 Los Lagos,10,Osorno,10301,173410.0,SE26,11.0
 Los Lagos,10,Palena,10404,1827.0,SE26,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE26,146.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE26,147.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE26,2.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE26,15.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE26,0.0
@@ -7086,7 +7086,7 @@ Maule,07,Desconocido Maule,0,0.0,SE26,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE26,14.0
 Metropolitana,13,Buin,13402,109641.0,SE26,132.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE26,50.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE26,155.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE26,154.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE26,256.0
 Metropolitana,13,Colina,13301,180353.0,SE26,227.0
 Metropolitana,13,Conchali,13104,139195.0,SE26,244.0
@@ -7095,7 +7095,7 @@ Metropolitana,13,El Bosque,13105,172000.0,SE26,403.0
 Metropolitana,13,El Monte,13602,40014.0,SE26,90.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE26,279.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE26,161.0
-Metropolitana,13,Independencia,13108,142065.0,SE26,189.0
+Metropolitana,13,Independencia,13108,142065.0,SE26,190.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE26,68.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE26,152.0
 Metropolitana,13,La Florida,13110,402433.0,SE26,612.0
@@ -7103,12 +7103,12 @@ Metropolitana,13,La Granja,13111,122557.0,SE26,240.0
 Metropolitana,13,La Pintana,13112,189335.0,SE26,410.0
 Metropolitana,13,La Reina,13113,100252.0,SE26,99.0
 Metropolitana,13,Lampa,13302,126898.0,SE26,156.0
-Metropolitana,13,Las Condes,13114,330759.0,SE26,264.0
+Metropolitana,13,Las Condes,13114,330759.0,SE26,287.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE26,123.0
-Metropolitana,13,Lo Espejo,13116,103865.0,SE26,233.0
+Metropolitana,13,Lo Espejo,13116,103865.0,SE26,234.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE26,200.0
 Metropolitana,13,Macul,13118,134635.0,SE26,176.0
-Metropolitana,13,Maipu,13119,578605.0,SE26,781.0
+Metropolitana,13,Maipu,13119,578605.0,SE26,782.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE26,31.0
 Metropolitana,13,Melipilla,13501,141612.0,SE26,306.0
 Metropolitana,13,Nunoa,13120,250192.0,SE26,270.0
@@ -7120,11 +7120,11 @@ Metropolitana,13,Penalolen,13122,266798.0,SE26,433.0
 Metropolitana,13,Pirque,13202,30433.0,SE26,50.0
 Metropolitana,13,Providencia,13123,157749.0,SE26,162.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE26,446.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE26,1197.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE26,1200.0
 Metropolitana,13,Quilicura,13125,254694.0,SE26,334.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE26,248.0
 Metropolitana,13,Recoleta,13127,190075.0,SE26,244.0
-Metropolitana,13,Renca,13128,160847.0,SE26,574.0
+Metropolitana,13,Renca,13128,160847.0,SE26,575.0
 Metropolitana,13,San Bernardo,13401,334836.0,SE26,635.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE26,218.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE26,37.0
@@ -7180,7 +7180,7 @@ Tarapacá,01,Pozo Almonte,01401,17395.0,SE26,33.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE26,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE26,5.0
 Valparaíso,05,Cabildo,05402,20663.0,SE26,33.0
-Valparaíso,05,Calera,05502,53591.0,SE26,78.0
+Valparaíso,05,Calera,05502,53591.0,SE26,77.0
 Valparaíso,05,Calle Larga,05302,16482.0,SE26,19.0
 Valparaíso,05,Cartagena,05603,25357.0,SE26,14.0
 Valparaíso,05,Casablanca,05102,29170.0,SE26,14.0
@@ -7269,7 +7269,7 @@ Araucanía,09,Melipeuco,09110,6265.0,SE27,1.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE27,6.0
 Araucanía,09,Padre Las Casas,09112,82110.0,SE27,16.0
 Araucanía,09,Perquenco,09113,7223.0,SE27,3.0
-Araucanía,09,Pitrufquen,09114,26096.0,SE27,5.0
+Araucanía,09,Pitrufquen,09114,26096.0,SE27,6.0
 Araucanía,09,Pucon,09115,29782.0,SE27,1.0
 Araucanía,09,Puren,09208,12188.0,SE27,2.0
 Araucanía,09,Renaico,09209,10833.0,SE27,4.0
@@ -7408,7 +7408,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE27,0.0
 Magallanes,12,Natales,12401,23782.0,SE27,7.0
 Magallanes,12,Porvenir,12301,7323.0,SE27,0.0
 Magallanes,12,Primavera,12302,694.0,SE27,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE27,47.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE27,48.0
 Magallanes,12,Rio Verde,12103,211.0,SE27,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE27,0.0
 Magallanes,12,Timaukel,12303,282.0,SE27,0.0
@@ -7457,7 +7457,7 @@ Metropolitana,13,El Bosque,13105,172000.0,SE27,324.0
 Metropolitana,13,El Monte,13602,40014.0,SE27,86.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE27,194.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE27,131.0
-Metropolitana,13,Independencia,13108,142065.0,SE27,177.0
+Metropolitana,13,Independencia,13108,142065.0,SE27,179.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE27,58.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE27,97.0
 Metropolitana,13,La Florida,13110,402433.0,SE27,405.0
@@ -7465,7 +7465,7 @@ Metropolitana,13,La Granja,13111,122557.0,SE27,225.0
 Metropolitana,13,La Pintana,13112,189335.0,SE27,271.0
 Metropolitana,13,La Reina,13113,100252.0,SE27,93.0
 Metropolitana,13,Lampa,13302,126898.0,SE27,137.0
-Metropolitana,13,Las Condes,13114,330759.0,SE27,201.0
+Metropolitana,13,Las Condes,13114,330759.0,SE27,211.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE27,101.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE27,162.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE27,162.0
@@ -7486,8 +7486,8 @@ Metropolitana,13,Puente Alto,13201,645909.0,SE27,861.0
 Metropolitana,13,Quilicura,13125,254694.0,SE27,277.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE27,211.0
 Metropolitana,13,Recoleta,13127,190075.0,SE27,209.0
-Metropolitana,13,Renca,13128,160847.0,SE27,467.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE27,451.0
+Metropolitana,13,Renca,13128,160847.0,SE27,466.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE27,452.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE27,153.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE27,26.0
 Metropolitana,13,San Miguel,13130,133059.0,SE27,180.0
@@ -7532,7 +7532,7 @@ O’Higgins,06,San Fernando,06301,78642.0,SE27,41.0
 O’Higgins,06,San Vicente,06117,50617.0,SE27,25.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE27,18.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE27,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE27,111.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE27,110.0
 Tarapacá,01,Camina,01402,1375.0,SE27,3.0
 Tarapacá,01,Colchane,01403,1583.0,SE27,8.0
 Tarapacá,01,Huara,01404,3000.0,SE27,12.0
@@ -7770,7 +7770,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE28,0.0
 Magallanes,12,Natales,12401,23782.0,SE28,2.0
 Magallanes,12,Porvenir,12301,7323.0,SE28,0.0
 Magallanes,12,Primavera,12302,694.0,SE28,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE28,74.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE28,75.0
 Magallanes,12,Rio Verde,12103,211.0,SE28,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE28,0.0
 Magallanes,12,Timaukel,12303,282.0,SE28,0.0
@@ -7799,7 +7799,7 @@ Maule,07,Rio Claro,07108,14753.0,SE28,2.0
 Maule,07,Romeral,07306,16170.0,SE28,7.0
 Maule,07,Sagrada Familia,07307,19469.0,SE28,9.0
 Maule,07,San Clemente,07109,46292.0,SE28,57.0
-Maule,07,San Javier,07406,49451.0,SE28,49.0
+Maule,07,San Javier,07406,49451.0,SE28,50.0
 Maule,07,San Rafael,07110,9959.0,SE28,5.0
 Maule,07,Talca,07101,236724.0,SE28,117.0
 Maule,07,Teno,07308,30850.0,SE28,23.0
@@ -7819,15 +7819,15 @@ Metropolitana,13,El Bosque,13105,172000.0,SE28,220.0
 Metropolitana,13,El Monte,13602,40014.0,SE28,67.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE28,190.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE28,111.0
-Metropolitana,13,Independencia,13108,142065.0,SE28,148.0
+Metropolitana,13,Independencia,13108,142065.0,SE28,150.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE28,100.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE28,103.0
 Metropolitana,13,La Florida,13110,402433.0,SE28,308.0
 Metropolitana,13,La Granja,13111,122557.0,SE28,139.0
-Metropolitana,13,La Pintana,13112,189335.0,SE28,182.0
+Metropolitana,13,La Pintana,13112,189335.0,SE28,183.0
 Metropolitana,13,La Reina,13113,100252.0,SE28,62.0
 Metropolitana,13,Lampa,13302,126898.0,SE28,134.0
-Metropolitana,13,Las Condes,13114,330759.0,SE28,128.0
+Metropolitana,13,Las Condes,13114,330759.0,SE28,130.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE28,48.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE28,121.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE28,177.0
@@ -7844,7 +7844,7 @@ Metropolitana,13,Penalolen,13122,266798.0,SE28,289.0
 Metropolitana,13,Pirque,13202,30433.0,SE28,22.0
 Metropolitana,13,Providencia,13123,157749.0,SE28,106.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE28,297.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE28,613.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE28,614.0
 Metropolitana,13,Quilicura,13125,254694.0,SE28,195.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE28,202.0
 Metropolitana,13,Recoleta,13127,190075.0,SE28,156.0
@@ -8006,7 +8006,7 @@ Araucanía,09,Victoria,09211,35467.0,SE29,14.0
 Araucanía,09,Vilcun,09119,30766.0,SE29,6.0
 Araucanía,09,Villarrica,09120,59103.0,SE29,4.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE29,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE29,733.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE29,738.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE29,2.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE29,1.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE29,8.0
@@ -8090,7 +8090,7 @@ Los Lagos,10,Chonchi,10203,16013.0,SE29,0.0
 Los Lagos,10,Cochamo,10103,4006.0,SE29,4.0
 Los Lagos,10,Curaco de Velez,10204,4066.0,SE29,0.0
 Los Lagos,10,Dalcahue,10205,15069.0,SE29,0.0
-Los Lagos,10,Fresia,10104,12656.0,SE29,5.0
+Los Lagos,10,Fresia,10104,12656.0,SE29,4.0
 Los Lagos,10,Frutillar,10105,20223.0,SE29,7.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE29,0.0
 Los Lagos,10,Hualaihue,10403,9525.0,SE29,7.0
@@ -8176,20 +8176,20 @@ Metropolitana,13,Cerrillos,13102,88956.0,SE29,89.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE29,130.0
 Metropolitana,13,Colina,13301,180353.0,SE29,66.0
 Metropolitana,13,Conchali,13104,139195.0,SE29,83.0
-Metropolitana,13,Curacavi,13503,36430.0,SE29,37.0
-Metropolitana,13,El Bosque,13105,172000.0,SE29,201.0
+Metropolitana,13,Curacavi,13503,36430.0,SE29,38.0
+Metropolitana,13,El Bosque,13105,172000.0,SE29,200.0
 Metropolitana,13,El Monte,13602,40014.0,SE29,32.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE29,123.0
-Metropolitana,13,Huechuraba,13107,112528.0,SE29,89.0
+Metropolitana,13,Huechuraba,13107,112528.0,SE29,90.0
 Metropolitana,13,Independencia,13108,142065.0,SE29,99.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE29,108.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE29,51.0
 Metropolitana,13,La Florida,13110,402433.0,SE29,263.0
 Metropolitana,13,La Granja,13111,122557.0,SE29,97.0
 Metropolitana,13,La Pintana,13112,189335.0,SE29,198.0
-Metropolitana,13,La Reina,13113,100252.0,SE29,48.0
+Metropolitana,13,La Reina,13113,100252.0,SE29,47.0
 Metropolitana,13,Lampa,13302,126898.0,SE29,97.0
-Metropolitana,13,Las Condes,13114,330759.0,SE29,133.0
+Metropolitana,13,Las Condes,13114,330759.0,SE29,134.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE29,63.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE29,127.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE29,155.0
@@ -8368,7 +8368,7 @@ Araucanía,09,Victoria,09211,35467.0,SE30,14.0
 Araucanía,09,Vilcun,09119,30766.0,SE30,19.0
 Araucanía,09,Villarrica,09120,59103.0,SE30,1.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE30,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE30,728.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE30,723.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE30,4.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE30,1.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE30,0.0
@@ -8400,7 +8400,7 @@ Biobío,08,Arauco,08202,38679.0,SE30,43.0
 Biobío,08,Cabrero,08303,30725.0,SE30,2.0
 Biobío,08,Canete,08203,37003.0,SE30,35.0
 Biobío,08,Chiguayante,08103,91180.0,SE30,72.0
-Biobío,08,Concepcion,08101,238092.0,SE30,147.0
+Biobío,08,Concepcion,08101,238092.0,SE30,148.0
 Biobío,08,Contulmo,08204,6330.0,SE30,1.0
 Biobío,08,Coronel,08102,125829.0,SE30,118.0
 Biobío,08,Curanilahue,08205,33892.0,SE30,22.0
@@ -8494,7 +8494,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE30,0.0
 Magallanes,12,Natales,12401,23782.0,SE30,1.0
 Magallanes,12,Porvenir,12301,7323.0,SE30,0.0
 Magallanes,12,Primavera,12302,694.0,SE30,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE30,110.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE30,111.0
 Magallanes,12,Rio Verde,12103,211.0,SE30,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE30,0.0
 Magallanes,12,Timaukel,12303,282.0,SE30,0.0
@@ -8522,7 +8522,7 @@ Maule,07,Retiro,07405,21071.0,SE30,8.0
 Maule,07,Rio Claro,07108,14753.0,SE30,14.0
 Maule,07,Romeral,07306,16170.0,SE30,16.0
 Maule,07,Sagrada Familia,07307,19469.0,SE30,5.0
-Maule,07,San Clemente,07109,46292.0,SE30,24.0
+Maule,07,San Clemente,07109,46292.0,SE30,25.0
 Maule,07,San Javier,07406,49451.0,SE30,71.0
 Maule,07,San Rafael,07110,9959.0,SE30,3.0
 Maule,07,Talca,07101,236724.0,SE30,101.0
@@ -8551,7 +8551,7 @@ Metropolitana,13,La Granja,13111,122557.0,SE30,101.0
 Metropolitana,13,La Pintana,13112,189335.0,SE30,155.0
 Metropolitana,13,La Reina,13113,100252.0,SE30,36.0
 Metropolitana,13,Lampa,13302,126898.0,SE30,58.0
-Metropolitana,13,Las Condes,13114,330759.0,SE30,112.0
+Metropolitana,13,Las Condes,13114,330759.0,SE30,122.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE30,55.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE30,108.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE30,73.0
@@ -8568,7 +8568,7 @@ Metropolitana,13,Penalolen,13122,266798.0,SE30,205.0
 Metropolitana,13,Pirque,13202,30433.0,SE30,16.0
 Metropolitana,13,Providencia,13123,157749.0,SE30,61.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE30,182.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE30,359.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE30,360.0
 Metropolitana,13,Quilicura,13125,254694.0,SE30,147.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE30,125.0
 Metropolitana,13,Recoleta,13127,190075.0,SE30,117.0
@@ -8642,7 +8642,7 @@ Valparaíso,05,Juan Fernandez,05104,1033.0,SE30,0.0
 Valparaíso,05,La Cruz,05504,25321.0,SE30,32.0
 Valparaíso,05,La Ligua,05401,37739.0,SE30,35.0
 Valparaíso,05,Limache,05802,49931.0,SE30,27.0
-Valparaíso,05,Llaillay,05703,26533.0,SE30,11.0
+Valparaíso,05,Llaillay,05703,26533.0,SE30,12.0
 Valparaíso,05,Los Andes,05301,68093.0,SE30,50.0
 Valparaíso,05,Nogales,05506,23490.0,SE30,31.0
 Valparaíso,05,Olmue,05803,19266.0,SE30,14.0
@@ -8660,9 +8660,9 @@ Valparaíso,05,San Esteban,05304,20643.0,SE30,7.0
 Valparaíso,05,San Felipe,05701,83494.0,SE30,19.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE30,7.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE30,1.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE30,215.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE30,216.0
 Valparaíso,05,Villa Alemana,05804,139310.0,SE30,69.0
-Valparaíso,05,Vina del Mar,05109,361371.0,SE30,159.0
+Valparaíso,05,Vina del Mar,05109,361371.0,SE30,158.0
 Valparaíso,05,Zapallar,05405,7994.0,SE30,4.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE30,0.0
 Ñuble,16,Bulnes,16102,22607.0,SE30,35.0
@@ -8730,7 +8730,7 @@ Araucanía,09,Victoria,09211,35467.0,SE31,12.0
 Araucanía,09,Vilcun,09119,30766.0,SE31,8.0
 Araucanía,09,Villarrica,09120,59103.0,SE31,2.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE31,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE31,561.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE31,566.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE31,5.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE31,15.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE31,9.0
@@ -8872,7 +8872,7 @@ Maule,07,Empedrado,07104,4206.0,SE31,1.0
 Maule,07,Hualane,07302,10222.0,SE31,0.0
 Maule,07,Licanten,07303,6989.0,SE31,2.0
 Maule,07,Linares,07401,101073.0,SE31,70.0
-Maule,07,Longavi,07403,32810.0,SE31,12.0
+Maule,07,Longavi,07403,32810.0,SE31,13.0
 Maule,07,Maule,07105,60000.0,SE31,25.0
 Maule,07,Molina,07304,49800.0,SE31,24.0
 Maule,07,Parral,07404,44544.0,SE31,10.0
@@ -8896,7 +8896,7 @@ Maule,07,Desconocido Maule,0,0.0,SE31,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE31,14.0
 Metropolitana,13,Buin,13402,109641.0,SE31,71.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE31,10.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE31,64.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE31,63.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE31,174.0
 Metropolitana,13,Colina,13301,180353.0,SE31,48.0
 Metropolitana,13,Conchali,13104,139195.0,SE31,99.0
@@ -8904,21 +8904,21 @@ Metropolitana,13,Curacavi,13503,36430.0,SE31,26.0
 Metropolitana,13,El Bosque,13105,172000.0,SE31,102.0
 Metropolitana,13,El Monte,13602,40014.0,SE31,41.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE31,75.0
-Metropolitana,13,Huechuraba,13107,112528.0,SE31,78.0
+Metropolitana,13,Huechuraba,13107,112528.0,SE31,77.0
 Metropolitana,13,Independencia,13108,142065.0,SE31,97.0
-Metropolitana,13,Isla de Maipo,13603,40171.0,SE31,70.0
+Metropolitana,13,Isla de Maipo,13603,40171.0,SE31,69.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE31,48.0
 Metropolitana,13,La Florida,13110,402433.0,SE31,175.0
 Metropolitana,13,La Granja,13111,122557.0,SE31,61.0
 Metropolitana,13,La Pintana,13112,189335.0,SE31,157.0
-Metropolitana,13,La Reina,13113,100252.0,SE31,40.0
+Metropolitana,13,La Reina,13113,100252.0,SE31,41.0
 Metropolitana,13,Lampa,13302,126898.0,SE31,61.0
-Metropolitana,13,Las Condes,13114,330759.0,SE31,84.0
+Metropolitana,13,Las Condes,13114,330759.0,SE31,103.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE31,53.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE31,70.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE31,95.0
-Metropolitana,13,Macul,13118,134635.0,SE31,79.0
-Metropolitana,13,Maipu,13119,578605.0,SE31,264.0
+Metropolitana,13,Macul,13118,134635.0,SE31,80.0
+Metropolitana,13,Maipu,13119,578605.0,SE31,265.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE31,7.0
 Metropolitana,13,Melipilla,13501,141612.0,SE31,59.0
 Metropolitana,13,Nunoa,13120,250192.0,SE31,98.0
@@ -9014,7 +9014,7 @@ Valparaíso,05,Petorca,05404,10558.0,SE31,6.0
 Valparaíso,05,Puchuncavi,05105,20071.0,SE31,5.0
 Valparaíso,05,Putaendo,05705,17645.0,SE31,10.0
 Valparaíso,05,Quillota,05501,97572.0,SE31,69.0
-Valparaíso,05,Quilpue,05801,167085.0,SE31,57.0
+Valparaíso,05,Quilpue,05801,167085.0,SE31,58.0
 Valparaíso,05,Quintero,05107,36135.0,SE31,5.0
 Valparaíso,05,Rinconada,05303,11263.0,SE31,0.0
 Valparaíso,05,San Antonio,05601,96761.0,SE31,51.0
@@ -9022,7 +9022,7 @@ Valparaíso,05,San Esteban,05304,20643.0,SE31,8.0
 Valparaíso,05,San Felipe,05701,83494.0,SE31,47.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE31,21.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE31,3.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE31,202.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE31,203.0
 Valparaíso,05,Villa Alemana,05804,139310.0,SE31,62.0
 Valparaíso,05,Vina del Mar,05109,361371.0,SE31,173.0
 Valparaíso,05,Zapallar,05405,7994.0,SE31,5.0
@@ -9049,7 +9049,7 @@ Valparaíso,05,Desconocido Valparaiso,0,0.0,SE31,0.0
 Ñuble,16,Treguaco,16207,5696.0,SE31,0.0
 Ñuble,16,Yungay,16109,18596.0,SE31,1.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE31,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE32,544.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE32,545.0
 Antofagasta,02,Calama,02201,190336.0,SE32,182.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE32,7.0
 Antofagasta,02,Mejillones,02102,14776.0,SE32,9.0
@@ -9092,7 +9092,7 @@ Araucanía,09,Victoria,09211,35467.0,SE32,4.0
 Araucanía,09,Vilcun,09119,30766.0,SE32,14.0
 Araucanía,09,Villarrica,09120,59103.0,SE32,3.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE32,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE32,573.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE32,568.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE32,0.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE32,36.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE32,2.0
@@ -9185,7 +9185,7 @@ Los Lagos,10,Los Muermos,10106,17817.0,SE32,28.0
 Los Lagos,10,Maullin,10108,14894.0,SE32,19.0
 Los Lagos,10,Osorno,10301,173410.0,SE32,123.0
 Los Lagos,10,Palena,10404,1827.0,SE32,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE32,294.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE32,295.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE32,9.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE32,33.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE32,0.0
@@ -9268,7 +9268,7 @@ Metropolitana,13,El Monte,13602,40014.0,SE32,39.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE32,68.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE32,70.0
 Metropolitana,13,Independencia,13108,142065.0,SE32,74.0
-Metropolitana,13,Isla de Maipo,13603,40171.0,SE32,60.0
+Metropolitana,13,Isla de Maipo,13603,40171.0,SE32,61.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE32,41.0
 Metropolitana,13,La Florida,13110,402433.0,SE32,146.0
 Metropolitana,13,La Granja,13111,122557.0,SE32,69.0
@@ -9303,7 +9303,7 @@ Metropolitana,13,San Jose de Maipo,13203,18644.0,SE32,7.0
 Metropolitana,13,San Miguel,13130,133059.0,SE32,74.0
 Metropolitana,13,San Pedro,13505,11953.0,SE32,5.0
 Metropolitana,13,San Ramon,13131,86510.0,SE32,49.0
-Metropolitana,13,Santiago,13101,503147.0,SE32,157.0
+Metropolitana,13,Santiago,13101,503147.0,SE32,158.0
 Metropolitana,13,Talagante,13601,81838.0,SE32,31.0
 Metropolitana,13,Tiltil,13303,21477.0,SE32,10.0
 Metropolitana,13,Vitacura,13132,96774.0,SE32,23.0
@@ -9367,7 +9367,7 @@ Valparaíso,05,La Cruz,05504,25321.0,SE32,12.0
 Valparaíso,05,La Ligua,05401,37739.0,SE32,28.0
 Valparaíso,05,Limache,05802,49931.0,SE32,58.0
 Valparaíso,05,Llaillay,05703,26533.0,SE32,10.0
-Valparaíso,05,Los Andes,05301,68093.0,SE32,25.0
+Valparaíso,05,Los Andes,05301,68093.0,SE32,26.0
 Valparaíso,05,Nogales,05506,23490.0,SE32,31.0
 Valparaíso,05,Olmue,05803,19266.0,SE32,26.0
 Valparaíso,05,Panquehue,05704,7633.0,SE32,2.0
@@ -9384,7 +9384,7 @@ Valparaíso,05,San Esteban,05304,20643.0,SE32,3.0
 Valparaíso,05,San Felipe,05701,83494.0,SE32,56.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE32,7.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE32,0.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE32,197.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE32,196.0
 Valparaíso,05,Villa Alemana,05804,139310.0,SE32,67.0
 Valparaíso,05,Vina del Mar,05109,361371.0,SE32,212.0
 Valparaíso,05,Zapallar,05405,7994.0,SE32,10.0
@@ -9411,8 +9411,8 @@ Valparaíso,05,Desconocido Valparaiso,0,0.0,SE32,0.0
 Ñuble,16,Treguaco,16207,5696.0,SE32,5.0
 Ñuble,16,Yungay,16109,18596.0,SE32,8.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE32,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE33,459.0
-Antofagasta,02,Calama,02201,190336.0,SE33,153.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE33,460.0
+Antofagasta,02,Calama,02201,190336.0,SE33,154.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE33,1.0
 Antofagasta,02,Mejillones,02102,14776.0,SE33,21.0
 Antofagasta,02,Ollague,02202,287.0,SE33,0.0
@@ -9484,12 +9484,12 @@ Biobío,08,Alto Biobio,08314,6775.0,SE33,1.0
 Biobío,08,Antuco,08302,4306.0,SE33,1.0
 Biobío,08,Arauco,08202,38679.0,SE33,44.0
 Biobío,08,Cabrero,08303,30725.0,SE33,11.0
-Biobío,08,Canete,08203,37003.0,SE33,32.0
+Biobío,08,Canete,08203,37003.0,SE33,33.0
 Biobío,08,Chiguayante,08103,91180.0,SE33,81.0
 Biobío,08,Concepcion,08101,238092.0,SE33,256.0
 Biobío,08,Contulmo,08204,6330.0,SE33,1.0
 Biobío,08,Coronel,08102,125829.0,SE33,101.0
-Biobío,08,Curanilahue,08205,33892.0,SE33,5.0
+Biobío,08,Curanilahue,08205,33892.0,SE33,4.0
 Biobío,08,Florida,08104,11841.0,SE33,11.0
 Biobío,08,Hualpen,08112,97273.0,SE33,127.0
 Biobío,08,Hualqui,08105,26201.0,SE33,32.0
@@ -9497,7 +9497,7 @@ Biobío,08,Laja,08304,23873.0,SE33,10.0
 Biobío,08,Lebu,08201,27100.0,SE33,7.0
 Biobío,08,Los Alamos,08206,22524.0,SE33,14.0
 Biobío,08,Los Angeles,08301,218515.0,SE33,51.0
-Biobío,08,Lota,08106,45750.0,SE33,35.0
+Biobío,08,Lota,08106,45750.0,SE33,36.0
 Biobío,08,Mulchen,08305,31041.0,SE33,16.0
 Biobío,08,Nacimiento,08306,27944.0,SE33,8.0
 Biobío,08,Negrete,08307,10429.0,SE33,12.0
@@ -9545,9 +9545,9 @@ Los Lagos,10,Hualaihue,10403,9525.0,SE33,2.0
 Los Lagos,10,Llanquihue,10107,18621.0,SE33,19.0
 Los Lagos,10,Los Muermos,10106,17817.0,SE33,13.0
 Los Lagos,10,Maullin,10108,14894.0,SE33,27.0
-Los Lagos,10,Osorno,10301,173410.0,SE33,92.0
+Los Lagos,10,Osorno,10301,173410.0,SE33,93.0
 Los Lagos,10,Palena,10404,1827.0,SE33,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE33,253.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE33,252.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE33,13.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE33,20.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE33,0.0
@@ -9622,7 +9622,7 @@ Metropolitana,13,Buin,13402,109641.0,SE33,40.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE33,12.0
 Metropolitana,13,Cerrillos,13102,88956.0,SE33,32.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE33,110.0
-Metropolitana,13,Colina,13301,180353.0,SE33,49.0
+Metropolitana,13,Colina,13301,180353.0,SE33,50.0
 Metropolitana,13,Conchali,13104,139195.0,SE33,69.0
 Metropolitana,13,Curacavi,13503,36430.0,SE33,32.0
 Metropolitana,13,El Bosque,13105,172000.0,SE33,62.0
@@ -9678,7 +9678,7 @@ O’Higgins,06,Coltauco,06104,21263.0,SE33,30.0
 O’Higgins,06,Donihue,06105,22700.0,SE33,15.0
 O’Higgins,06,Graneros,06106,36504.0,SE33,36.0
 O’Higgins,06,La Estrella,06202,3114.0,SE33,0.0
-O’Higgins,06,Las Cabras,06107,26749.0,SE33,25.0
+O’Higgins,06,Las Cabras,06107,26749.0,SE33,26.0
 O’Higgins,06,Litueche,06203,6765.0,SE33,4.0
 O’Higgins,06,Lolol,06304,7289.0,SE33,1.0
 O’Higgins,06,Machali,06108,59913.0,SE33,23.0
@@ -9698,7 +9698,7 @@ O’Higgins,06,Placilla,06308,9164.0,SE33,2.0
 O’Higgins,06,Pumanque,06309,3531.0,SE33,0.0
 O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE33,4.0
 O’Higgins,06,Rancagua,06101,265211.0,SE33,209.0
-O’Higgins,06,Rengo,06115,63710.0,SE33,23.0
+O’Higgins,06,Rengo,06115,63710.0,SE33,24.0
 O’Higgins,06,Requinoa,06116,30371.0,SE33,8.0
 O’Higgins,06,San Fernando,06301,78642.0,SE33,43.0
 O’Higgins,06,San Vicente,06117,50617.0,SE33,29.0
@@ -9708,12 +9708,12 @@ Tarapacá,01,Alto Hospicio,01107,129999.0,SE33,172.0
 Tarapacá,01,Camina,01402,1375.0,SE33,4.0
 Tarapacá,01,Colchane,01403,1583.0,SE33,1.0
 Tarapacá,01,Huara,01404,3000.0,SE33,6.0
-Tarapacá,01,Iquique,01101,223463.0,SE33,208.0
+Tarapacá,01,Iquique,01101,223463.0,SE33,207.0
 Tarapacá,01,Pica,01405,5958.0,SE33,29.0
 Tarapacá,01,Pozo Almonte,01401,17395.0,SE33,43.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE33,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE33,1.0
-Valparaíso,05,Cabildo,05402,20663.0,SE33,13.0
+Valparaíso,05,Cabildo,05402,20663.0,SE33,14.0
 Valparaíso,05,Calera,05502,53591.0,SE33,57.0
 Valparaíso,05,Calle Larga,05302,16482.0,SE33,5.0
 Valparaíso,05,Cartagena,05603,25357.0,SE33,7.0
@@ -9727,7 +9727,7 @@ Valparaíso,05,Isla de Pascua,05201,8277.0,SE33,0.0
 Valparaíso,05,Juan Fernandez,05104,1033.0,SE33,0.0
 Valparaíso,05,La Cruz,05504,25321.0,SE33,15.0
 Valparaíso,05,La Ligua,05401,37739.0,SE33,39.0
-Valparaíso,05,Limache,05802,49931.0,SE33,41.0
+Valparaíso,05,Limache,05802,49931.0,SE33,42.0
 Valparaíso,05,Llaillay,05703,26533.0,SE33,4.0
 Valparaíso,05,Los Andes,05301,68093.0,SE33,8.0
 Valparaíso,05,Nogales,05506,23490.0,SE33,32.0
@@ -9779,7 +9779,7 @@ Antofagasta,02,Maria Elena,02302,6814.0,SE34,2.0
 Antofagasta,02,Mejillones,02102,14776.0,SE34,16.0
 Antofagasta,02,Ollague,02202,287.0,SE34,0.0
 Antofagasta,02,San Pedro de Atacama,02203,10434.0,SE34,13.0
-Antofagasta,02,Sierra Gorda,02103,1746.0,SE34,2.0
+Antofagasta,02,Sierra Gorda,02103,1746.0,SE34,1.0
 Antofagasta,02,Taltal,02104,13657.0,SE34,9.0
 Antofagasta,02,Tocopilla,02301,28079.0,SE34,19.0
 Antofagasta,02,Desconocido Antofagasta,0,0.0,SE34,0.0
@@ -9835,7 +9835,7 @@ Aysén,11,Aysen,11201,25002.0,SE34,2.0
 Aysén,11,Chile Chico,11401,5121.0,SE34,0.0
 Aysén,11,Cisnes,11202,5828.0,SE34,0.0
 Aysén,11,Cochrane,11301,3685.0,SE34,0.0
-Aysén,11,Coyhaique,11101,61210.0,SE34,18.0
+Aysén,11,Coyhaique,11101,61210.0,SE34,17.0
 Aysén,11,Guaitecas,11203,1599.0,SE34,0.0
 Aysén,11,Lago Verde,11102,920.0,SE34,0.0
 Aysén,11,OHiggins,11302,661.0,SE34,0.0
@@ -9904,7 +9904,7 @@ Los Lagos,10,Fresia,10104,12656.0,SE34,18.0
 Los Lagos,10,Frutillar,10105,20223.0,SE34,17.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE34,0.0
 Los Lagos,10,Hualaihue,10403,9525.0,SE34,5.0
-Los Lagos,10,Llanquihue,10107,18621.0,SE34,25.0
+Los Lagos,10,Llanquihue,10107,18621.0,SE34,26.0
 Los Lagos,10,Los Muermos,10106,17817.0,SE34,20.0
 Los Lagos,10,Maullin,10108,14894.0,SE34,39.0
 Los Lagos,10,Osorno,10301,173410.0,SE34,101.0
@@ -9942,7 +9942,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE34,0.0
 Magallanes,12,Natales,12401,23782.0,SE34,4.0
 Magallanes,12,Porvenir,12301,7323.0,SE34,37.0
 Magallanes,12,Primavera,12302,694.0,SE34,3.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE34,593.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE34,594.0
 Magallanes,12,Rio Verde,12103,211.0,SE34,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE34,0.0
 Magallanes,12,Timaukel,12303,282.0,SE34,0.0
@@ -9984,7 +9984,7 @@ Metropolitana,13,Buin,13402,109641.0,SE34,56.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE34,7.0
 Metropolitana,13,Cerrillos,13102,88956.0,SE34,28.0
 Metropolitana,13,Cerro Navia,13103,142465.0,SE34,90.0
-Metropolitana,13,Colina,13301,180353.0,SE34,63.0
+Metropolitana,13,Colina,13301,180353.0,SE34,64.0
 Metropolitana,13,Conchali,13104,139195.0,SE34,76.0
 Metropolitana,13,Curacavi,13503,36430.0,SE34,18.0
 Metropolitana,13,El Bosque,13105,172000.0,SE34,76.0
@@ -10002,7 +10002,7 @@ Metropolitana,13,Lampa,13302,126898.0,SE34,53.0
 Metropolitana,13,Las Condes,13114,330759.0,SE34,84.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE34,67.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE34,62.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE34,77.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE34,78.0
 Metropolitana,13,Macul,13118,134635.0,SE34,47.0
 Metropolitana,13,Maipu,13119,578605.0,SE34,177.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE34,2.0
@@ -10016,7 +10016,7 @@ Metropolitana,13,Penalolen,13122,266798.0,SE34,128.0
 Metropolitana,13,Pirque,13202,30433.0,SE34,12.0
 Metropolitana,13,Providencia,13123,157749.0,SE34,33.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE34,188.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE34,312.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE34,313.0
 Metropolitana,13,Quilicura,13125,254694.0,SE34,113.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE34,90.0
 Metropolitana,13,Recoleta,13127,190075.0,SE34,93.0
@@ -10063,10 +10063,10 @@ O’Higgins,06,Rancagua,06101,265211.0,SE34,194.0
 O’Higgins,06,Rengo,06115,63710.0,SE34,25.0
 O’Higgins,06,Requinoa,06116,30371.0,SE34,17.0
 O’Higgins,06,San Fernando,06301,78642.0,SE34,57.0
-O’Higgins,06,San Vicente,06117,50617.0,SE34,28.0
+O’Higgins,06,San Vicente,06117,50617.0,SE34,27.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE34,50.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE34,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE34,105.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE34,104.0
 Tarapacá,01,Camina,01402,1375.0,SE34,0.0
 Tarapacá,01,Colchane,01403,1583.0,SE34,1.0
 Tarapacá,01,Huara,01404,3000.0,SE34,3.0
@@ -10105,10 +10105,10 @@ Valparaíso,05,Quintero,05107,36135.0,SE34,4.0
 Valparaíso,05,Rinconada,05303,11263.0,SE34,0.0
 Valparaíso,05,San Antonio,05601,96761.0,SE34,58.0
 Valparaíso,05,San Esteban,05304,20643.0,SE34,3.0
-Valparaíso,05,San Felipe,05701,83494.0,SE34,14.0
+Valparaíso,05,San Felipe,05701,83494.0,SE34,15.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE34,15.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE34,3.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE34,258.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE34,259.0
 Valparaíso,05,Villa Alemana,05804,139310.0,SE34,69.0
 Valparaíso,05,Vina del Mar,05109,361371.0,SE34,248.0
 Valparaíso,05,Zapallar,05405,7994.0,SE34,5.0
@@ -10170,7 +10170,7 @@ Araucanía,09,Pucon,09115,29782.0,SE35,3.0
 Araucanía,09,Puren,09208,12188.0,SE35,2.0
 Araucanía,09,Renaico,09209,10833.0,SE35,6.0
 Araucanía,09,Saavedra,09116,12793.0,SE35,6.0
-Araucanía,09,Temuco,09101,302931.0,SE35,79.0
+Araucanía,09,Temuco,09101,302931.0,SE35,80.0
 Araucanía,09,Teodoro Schmidt,09117,15786.0,SE35,15.0
 Araucanía,09,Tolten,09118,10055.0,SE35,0.0
 Araucanía,09,Traiguen,09210,19314.0,SE35,1.0
@@ -10178,7 +10178,7 @@ Araucanía,09,Victoria,09211,35467.0,SE35,10.0
 Araucanía,09,Vilcun,09119,30766.0,SE35,5.0
 Araucanía,09,Villarrica,09120,59103.0,SE35,14.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE35,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE35,434.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE35,432.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE35,1.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE35,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE35,6.0
@@ -10197,7 +10197,7 @@ Aysén,11,Aysen,11201,25002.0,SE35,0.0
 Aysén,11,Chile Chico,11401,5121.0,SE35,0.0
 Aysén,11,Cisnes,11202,5828.0,SE35,0.0
 Aysén,11,Cochrane,11301,3685.0,SE35,0.0
-Aysén,11,Coyhaique,11101,61210.0,SE35,25.0
+Aysén,11,Coyhaique,11101,61210.0,SE35,24.0
 Aysén,11,Guaitecas,11203,1599.0,SE35,0.0
 Aysén,11,Lago Verde,11102,920.0,SE35,0.0
 Aysén,11,OHiggins,11302,661.0,SE35,0.0
@@ -10208,11 +10208,11 @@ Biobío,08,Alto Biobio,08314,6775.0,SE35,1.0
 Biobío,08,Antuco,08302,4306.0,SE35,3.0
 Biobío,08,Arauco,08202,38679.0,SE35,32.0
 Biobío,08,Cabrero,08303,30725.0,SE35,17.0
-Biobío,08,Canete,08203,37003.0,SE35,20.0
+Biobío,08,Canete,08203,37003.0,SE35,19.0
 Biobío,08,Chiguayante,08103,91180.0,SE35,138.0
 Biobío,08,Concepcion,08101,238092.0,SE35,354.0
 Biobío,08,Contulmo,08204,6330.0,SE35,2.0
-Biobío,08,Coronel,08102,125829.0,SE35,147.0
+Biobío,08,Coronel,08102,125829.0,SE35,148.0
 Biobío,08,Curanilahue,08205,33892.0,SE35,54.0
 Biobío,08,Florida,08104,11841.0,SE35,10.0
 Biobío,08,Hualpen,08112,97273.0,SE35,150.0
@@ -10271,7 +10271,7 @@ Los Lagos,10,Los Muermos,10106,17817.0,SE35,22.0
 Los Lagos,10,Maullin,10108,14894.0,SE35,32.0
 Los Lagos,10,Osorno,10301,173410.0,SE35,123.0
 Los Lagos,10,Palena,10404,1827.0,SE35,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE35,232.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE35,233.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE35,13.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE35,36.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE35,0.0
@@ -10304,7 +10304,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE35,0.0
 Magallanes,12,Natales,12401,23782.0,SE35,29.0
 Magallanes,12,Porvenir,12301,7323.0,SE35,21.0
 Magallanes,12,Primavera,12302,694.0,SE35,1.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE35,872.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE35,873.0
 Magallanes,12,Rio Verde,12103,211.0,SE35,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE35,0.0
 Magallanes,12,Timaukel,12303,282.0,SE35,0.0
@@ -10366,7 +10366,7 @@ Metropolitana,13,Lo Barnechea,13115,124076.0,SE35,58.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE35,60.0
 Metropolitana,13,Lo Prado,13117,104403.0,SE35,102.0
 Metropolitana,13,Macul,13118,134635.0,SE35,60.0
-Metropolitana,13,Maipu,13119,578605.0,SE35,180.0
+Metropolitana,13,Maipu,13119,578605.0,SE35,181.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE35,3.0
 Metropolitana,13,Melipilla,13501,141612.0,SE35,48.0
 Metropolitana,13,Nunoa,13120,250192.0,SE35,68.0
@@ -10374,7 +10374,7 @@ Metropolitana,13,Padre Hurtado,13604,74188.0,SE35,28.0
 Metropolitana,13,Paine,13404,82766.0,SE35,69.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE35,44.0
 Metropolitana,13,Penaflor,13605,101058.0,SE35,53.0
-Metropolitana,13,Penalolen,13122,266798.0,SE35,117.0
+Metropolitana,13,Penalolen,13122,266798.0,SE35,116.0
 Metropolitana,13,Pirque,13202,30433.0,SE35,9.0
 Metropolitana,13,Providencia,13123,157749.0,SE35,25.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE35,152.0
@@ -10384,7 +10384,7 @@ Metropolitana,13,Quinta Normal,13126,136368.0,SE35,95.0
 Metropolitana,13,Recoleta,13127,190075.0,SE35,69.0
 Metropolitana,13,Renca,13128,160847.0,SE35,143.0
 Metropolitana,13,San Bernardo,13401,334836.0,SE35,133.0
-Metropolitana,13,San Joaquin,13129,103485.0,SE35,61.0
+Metropolitana,13,San Joaquin,13129,103485.0,SE35,62.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE35,5.0
 Metropolitana,13,San Miguel,13130,133059.0,SE35,52.0
 Metropolitana,13,San Pedro,13505,11953.0,SE35,1.0
@@ -10428,7 +10428,7 @@ O’Higgins,06,San Fernando,06301,78642.0,SE35,95.0
 O’Higgins,06,San Vicente,06117,50617.0,SE35,35.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE35,63.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE35,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE35,114.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE35,112.0
 Tarapacá,01,Camina,01402,1375.0,SE35,0.0
 Tarapacá,01,Colchane,01403,1583.0,SE35,1.0
 Tarapacá,01,Huara,01404,3000.0,SE35,6.0
@@ -10438,7 +10438,7 @@ Tarapacá,01,Pozo Almonte,01401,17395.0,SE35,39.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE35,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE35,10.0
 Valparaíso,05,Cabildo,05402,20663.0,SE35,20.0
-Valparaíso,05,Calera,05502,53591.0,SE35,64.0
+Valparaíso,05,Calera,05502,53591.0,SE35,63.0
 Valparaíso,05,Calle Larga,05302,16482.0,SE35,3.0
 Valparaíso,05,Cartagena,05603,25357.0,SE35,2.0
 Valparaíso,05,Casablanca,05102,29170.0,SE35,15.0
@@ -10461,7 +10461,7 @@ Valparaíso,05,Papudo,05403,6201.0,SE35,3.0
 Valparaíso,05,Petorca,05404,10558.0,SE35,16.0
 Valparaíso,05,Puchuncavi,05105,20071.0,SE35,8.0
 Valparaíso,05,Putaendo,05705,17645.0,SE35,5.0
-Valparaíso,05,Quillota,05501,97572.0,SE35,83.0
+Valparaíso,05,Quillota,05501,97572.0,SE35,82.0
 Valparaíso,05,Quilpue,05801,167085.0,SE35,110.0
 Valparaíso,05,Quintero,05107,36135.0,SE35,14.0
 Valparaíso,05,Rinconada,05303,11263.0,SE35,1.0
@@ -10471,7 +10471,7 @@ Valparaíso,05,San Felipe,05701,83494.0,SE35,20.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE35,3.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE35,16.0
 Valparaíso,05,Valparaiso,05101,315732.0,SE35,238.0
-Valparaíso,05,Villa Alemana,05804,139310.0,SE35,82.0
+Valparaíso,05,Villa Alemana,05804,139310.0,SE35,84.0
 Valparaíso,05,Vina del Mar,05109,361371.0,SE35,253.0
 Valparaíso,05,Zapallar,05405,7994.0,SE35,10.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE35,0.0
@@ -10497,7 +10497,7 @@ Valparaíso,05,Desconocido Valparaiso,0,0.0,SE35,0.0
 Ñuble,16,Treguaco,16207,5696.0,SE35,12.0
 Ñuble,16,Yungay,16109,18596.0,SE35,1.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE35,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE36,299.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE36,298.0
 Antofagasta,02,Calama,02201,190336.0,SE36,113.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE36,4.0
 Antofagasta,02,Mejillones,02102,14776.0,SE36,8.0
@@ -10519,7 +10519,7 @@ Araucanía,09,Freire,09105,25446.0,SE36,3.0
 Araucanía,09,Galvarino,09106,12633.0,SE36,5.0
 Araucanía,09,Gorbea,09107,15148.0,SE36,2.0
 Araucanía,09,Lautaro,09108,40746.0,SE36,3.0
-Araucanía,09,Loncoche,09109,24739.0,SE36,22.0
+Araucanía,09,Loncoche,09109,24739.0,SE36,24.0
 Araucanía,09,Lonquimay,09205,11049.0,SE36,20.0
 Araucanía,09,Los Sauces,09206,7517.0,SE36,0.0
 Araucanía,09,Lumaco,09207,10050.0,SE36,4.0
@@ -10527,7 +10527,7 @@ Araucanía,09,Melipeuco,09110,6265.0,SE36,12.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE36,22.0
 Araucanía,09,Padre Las Casas,09112,82110.0,SE36,53.0
 Araucanía,09,Perquenco,09113,7223.0,SE36,4.0
-Araucanía,09,Pitrufquen,09114,26096.0,SE36,3.0
+Araucanía,09,Pitrufquen,09114,26096.0,SE36,2.0
 Araucanía,09,Pucon,09115,29782.0,SE36,0.0
 Araucanía,09,Puren,09208,12188.0,SE36,0.0
 Araucanía,09,Renaico,09209,10833.0,SE36,11.0
@@ -10540,7 +10540,7 @@ Araucanía,09,Victoria,09211,35467.0,SE36,10.0
 Araucanía,09,Vilcun,09119,30766.0,SE36,7.0
 Araucanía,09,Villarrica,09120,59103.0,SE36,32.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE36,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE36,314.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE36,315.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE36,1.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE36,2.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE36,4.0
@@ -10575,22 +10575,22 @@ Biobío,08,Chiguayante,08103,91180.0,SE36,133.0
 Biobío,08,Concepcion,08101,238092.0,SE36,304.0
 Biobío,08,Contulmo,08204,6330.0,SE36,2.0
 Biobío,08,Coronel,08102,125829.0,SE36,152.0
-Biobío,08,Curanilahue,08205,33892.0,SE36,80.0
+Biobío,08,Curanilahue,08205,33892.0,SE36,79.0
 Biobío,08,Florida,08104,11841.0,SE36,15.0
 Biobío,08,Hualpen,08112,97273.0,SE36,135.0
 Biobío,08,Hualqui,08105,26201.0,SE36,43.0
 Biobío,08,Laja,08304,23873.0,SE36,6.0
 Biobío,08,Lebu,08201,27100.0,SE36,23.0
 Biobío,08,Los Alamos,08206,22524.0,SE36,34.0
-Biobío,08,Los Angeles,08301,218515.0,SE36,86.0
+Biobío,08,Los Angeles,08301,218515.0,SE36,85.0
 Biobío,08,Lota,08106,45750.0,SE36,47.0
 Biobío,08,Mulchen,08305,31041.0,SE36,30.0
-Biobío,08,Nacimiento,08306,27944.0,SE36,21.0
+Biobío,08,Nacimiento,08306,27944.0,SE36,20.0
 Biobío,08,Negrete,08307,10429.0,SE36,8.0
 Biobío,08,Penco,08107,49865.0,SE36,47.0
 Biobío,08,Quilaco,08308,4179.0,SE36,7.0
 Biobío,08,Quilleco,08309,10032.0,SE36,4.0
-Biobío,08,San Pedro de la Paz,08108,145906.0,SE36,135.0
+Biobío,08,San Pedro de la Paz,08108,145906.0,SE36,136.0
 Biobío,08,San Rosendo,08310,3611.0,SE36,0.0
 Biobío,08,Santa Barbara,08311,14592.0,SE36,7.0
 Biobío,08,Santa Juana,08109,14779.0,SE36,25.0
@@ -10603,7 +10603,7 @@ Biobío,08,Desconocido Biobio,0,0.0,SE36,0.0
 Coquimbo,04,Andacollo,04103,11791.0,SE36,25.0
 Coquimbo,04,Canela,04202,9546.0,SE36,4.0
 Coquimbo,04,Combarbala,04302,13884.0,SE36,4.0
-Coquimbo,04,Coquimbo,04102,256735.0,SE36,190.0
+Coquimbo,04,Coquimbo,04102,256735.0,SE36,191.0
 Coquimbo,04,Illapel,04201,32801.0,SE36,23.0
 Coquimbo,04,La Higuera,04104,4450.0,SE36,2.0
 Coquimbo,04,La Serena,04101,249656.0,SE36,159.0
@@ -10631,9 +10631,9 @@ Los Lagos,10,Hualaihue,10403,9525.0,SE36,5.0
 Los Lagos,10,Llanquihue,10107,18621.0,SE36,21.0
 Los Lagos,10,Los Muermos,10106,17817.0,SE36,28.0
 Los Lagos,10,Maullin,10108,14894.0,SE36,33.0
-Los Lagos,10,Osorno,10301,173410.0,SE36,121.0
+Los Lagos,10,Osorno,10301,173410.0,SE36,122.0
 Los Lagos,10,Palena,10404,1827.0,SE36,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE36,207.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE36,208.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE36,20.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE36,30.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE36,0.0
@@ -10643,7 +10643,7 @@ Los Lagos,10,Queilen,10207,5543.0,SE36,0.0
 Los Lagos,10,Quellon,10208,29309.0,SE36,0.0
 Los Lagos,10,Quemchi,10209,8783.0,SE36,1.0
 Los Lagos,10,Quinchao,10210,8298.0,SE36,0.0
-Los Lagos,10,Rio Negro,10305,14275.0,SE36,4.0
+Los Lagos,10,Rio Negro,10305,14275.0,SE36,5.0
 Los Lagos,10,San Juan de la Costa,10306,7639.0,SE36,8.0
 Los Lagos,10,San Pablo,10307,10553.0,SE36,1.0
 Los Lagos,10,Desconocido Los Lagos,0,0.0,SE36,0.0
@@ -10666,7 +10666,7 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE36,0.0
 Magallanes,12,Natales,12401,23782.0,SE36,80.0
 Magallanes,12,Porvenir,12301,7323.0,SE36,46.0
 Magallanes,12,Primavera,12302,694.0,SE36,5.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE36,1074.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE36,1076.0
 Magallanes,12,Rio Verde,12103,211.0,SE36,1.0
 Magallanes,12,San Gregorio,12104,681.0,SE36,0.0
 Magallanes,12,Timaukel,12303,282.0,SE36,0.0
@@ -10683,7 +10683,7 @@ Maule,07,Hualane,07302,10222.0,SE36,2.0
 Maule,07,Licanten,07303,6989.0,SE36,26.0
 Maule,07,Linares,07401,101073.0,SE36,94.0
 Maule,07,Longavi,07403,32810.0,SE36,60.0
-Maule,07,Maule,07105,60000.0,SE36,57.0
+Maule,07,Maule,07105,60000.0,SE36,58.0
 Maule,07,Molina,07304,49800.0,SE36,114.0
 Maule,07,Parral,07404,44544.0,SE36,40.0
 Maule,07,Pelarco,07106,9083.0,SE36,1.0
@@ -10695,10 +10695,10 @@ Maule,07,Rio Claro,07108,14753.0,SE36,13.0
 Maule,07,Romeral,07306,16170.0,SE36,1.0
 Maule,07,Sagrada Familia,07307,19469.0,SE36,9.0
 Maule,07,San Clemente,07109,46292.0,SE36,108.0
-Maule,07,San Javier,07406,49451.0,SE36,39.0
+Maule,07,San Javier,07406,49451.0,SE36,40.0
 Maule,07,San Rafael,07110,9959.0,SE36,6.0
 Maule,07,Talca,07101,236724.0,SE36,234.0
-Maule,07,Teno,07308,30850.0,SE36,29.0
+Maule,07,Teno,07308,30850.0,SE36,30.0
 Maule,07,Vichuquen,07309,4381.0,SE36,0.0
 Maule,07,Villa Alegre,07407,17512.0,SE36,1.0
 Maule,07,Yerbas Buenas,07408,19200.0,SE36,16.0
@@ -10711,9 +10711,9 @@ Metropolitana,13,Cerro Navia,13103,142465.0,SE36,70.0
 Metropolitana,13,Colina,13301,180353.0,SE36,54.0
 Metropolitana,13,Conchali,13104,139195.0,SE36,61.0
 Metropolitana,13,Curacavi,13503,36430.0,SE36,20.0
-Metropolitana,13,El Bosque,13105,172000.0,SE36,75.0
+Metropolitana,13,El Bosque,13105,172000.0,SE36,76.0
 Metropolitana,13,El Monte,13602,40014.0,SE36,15.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE36,52.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE36,53.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE36,47.0
 Metropolitana,13,Independencia,13108,142065.0,SE36,57.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE36,11.0
@@ -10740,13 +10740,13 @@ Metropolitana,13,Penalolen,13122,266798.0,SE36,96.0
 Metropolitana,13,Pirque,13202,30433.0,SE36,22.0
 Metropolitana,13,Providencia,13123,157749.0,SE36,33.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE36,108.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE36,381.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE36,382.0
 Metropolitana,13,Quilicura,13125,254694.0,SE36,82.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE36,92.0
 Metropolitana,13,Recoleta,13127,190075.0,SE36,94.0
-Metropolitana,13,Renca,13128,160847.0,SE36,191.0
+Metropolitana,13,Renca,13128,160847.0,SE36,190.0
 Metropolitana,13,San Bernardo,13401,334836.0,SE36,110.0
-Metropolitana,13,San Joaquin,13129,103485.0,SE36,40.0
+Metropolitana,13,San Joaquin,13129,103485.0,SE36,39.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE36,14.0
 Metropolitana,13,San Miguel,13130,133059.0,SE36,61.0
 Metropolitana,13,San Pedro,13505,11953.0,SE36,3.0
@@ -10790,31 +10790,31 @@ O’Higgins,06,San Fernando,06301,78642.0,SE36,84.0
 O’Higgins,06,San Vicente,06117,50617.0,SE36,41.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE36,86.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE36,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE36,82.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE36,81.0
 Tarapacá,01,Camina,01402,1375.0,SE36,0.0
 Tarapacá,01,Colchane,01403,1583.0,SE36,0.0
 Tarapacá,01,Huara,01404,3000.0,SE36,0.0
-Tarapacá,01,Iquique,01101,223463.0,SE36,143.0
+Tarapacá,01,Iquique,01101,223463.0,SE36,144.0
 Tarapacá,01,Pica,01405,5958.0,SE36,5.0
 Tarapacá,01,Pozo Almonte,01401,17395.0,SE36,24.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE36,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE36,9.0
 Valparaíso,05,Cabildo,05402,20663.0,SE36,18.0
-Valparaíso,05,Calera,05502,53591.0,SE36,44.0
+Valparaíso,05,Calera,05502,53591.0,SE36,43.0
 Valparaíso,05,Calle Larga,05302,16482.0,SE36,5.0
 Valparaíso,05,Cartagena,05603,25357.0,SE36,11.0
 Valparaíso,05,Casablanca,05102,29170.0,SE36,9.0
-Valparaíso,05,Catemu,05702,15213.0,SE36,18.0
+Valparaíso,05,Catemu,05702,15213.0,SE36,19.0
 Valparaíso,05,Concon,05103,45889.0,SE36,19.0
 Valparaíso,05,El Quisco,05604,17742.0,SE36,30.0
 Valparaíso,05,El Tabo,05605,14338.0,SE36,7.0
 Valparaíso,05,Hijuelas,05503,19099.0,SE36,14.0
 Valparaíso,05,Isla de Pascua,05201,8277.0,SE36,0.0
 Valparaíso,05,Juan Fernandez,05104,1033.0,SE36,0.0
-Valparaíso,05,La Cruz,05504,25321.0,SE36,18.0
+Valparaíso,05,La Cruz,05504,25321.0,SE36,19.0
 Valparaíso,05,La Ligua,05401,37739.0,SE36,23.0
 Valparaíso,05,Limache,05802,49931.0,SE36,23.0
-Valparaíso,05,Llaillay,05703,26533.0,SE36,20.0
+Valparaíso,05,Llaillay,05703,26533.0,SE36,19.0
 Valparaíso,05,Los Andes,05301,68093.0,SE36,37.0
 Valparaíso,05,Nogales,05506,23490.0,SE36,18.0
 Valparaíso,05,Olmue,05803,19266.0,SE36,14.0
@@ -10824,7 +10824,7 @@ Valparaíso,05,Petorca,05404,10558.0,SE36,3.0
 Valparaíso,05,Puchuncavi,05105,20071.0,SE36,5.0
 Valparaíso,05,Putaendo,05705,17645.0,SE36,8.0
 Valparaíso,05,Quillota,05501,97572.0,SE36,52.0
-Valparaíso,05,Quilpue,05801,167085.0,SE36,156.0
+Valparaíso,05,Quilpue,05801,167085.0,SE36,154.0
 Valparaíso,05,Quintero,05107,36135.0,SE36,7.0
 Valparaíso,05,Rinconada,05303,11263.0,SE36,1.0
 Valparaíso,05,San Antonio,05601,96761.0,SE36,59.0
@@ -10832,13 +10832,13 @@ Valparaíso,05,San Esteban,05304,20643.0,SE36,3.0
 Valparaíso,05,San Felipe,05701,83494.0,SE36,36.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE36,4.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE36,6.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE36,276.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE36,278.0
 Valparaíso,05,Villa Alemana,05804,139310.0,SE36,84.0
 Valparaíso,05,Vina del Mar,05109,361371.0,SE36,245.0
 Valparaíso,05,Zapallar,05405,7994.0,SE36,10.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE36,0.0
 Ñuble,16,Bulnes,16102,22607.0,SE36,39.0
-Ñuble,16,Chillan,16101,198624.0,SE36,229.0
+Ñuble,16,Chillan,16101,198624.0,SE36,231.0
 Ñuble,16,Chillan Viejo,16103,33827.0,SE36,16.0
 Ñuble,16,Cobquecura,16202,5275.0,SE36,5.0
 Ñuble,16,Coelemu,16203,16845.0,SE36,12.0
@@ -10887,7 +10887,7 @@ Araucanía,09,Los Sauces,09206,7517.0,SE37,3.0
 Araucanía,09,Lumaco,09207,10050.0,SE37,11.0
 Araucanía,09,Melipeuco,09110,6265.0,SE37,1.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE37,21.0
-Araucanía,09,Padre Las Casas,09112,82110.0,SE37,35.0
+Araucanía,09,Padre Las Casas,09112,82110.0,SE37,36.0
 Araucanía,09,Perquenco,09113,7223.0,SE37,10.0
 Araucanía,09,Pitrufquen,09114,26096.0,SE37,4.0
 Araucanía,09,Pucon,09115,29782.0,SE37,0.0
@@ -10895,14 +10895,14 @@ Araucanía,09,Puren,09208,12188.0,SE37,1.0
 Araucanía,09,Renaico,09209,10833.0,SE37,9.0
 Araucanía,09,Saavedra,09116,12793.0,SE37,1.0
 Araucanía,09,Temuco,09101,302931.0,SE37,139.0
-Araucanía,09,Teodoro Schmidt,09117,15786.0,SE37,40.0
+Araucanía,09,Teodoro Schmidt,09117,15786.0,SE37,39.0
 Araucanía,09,Tolten,09118,10055.0,SE37,11.0
 Araucanía,09,Traiguen,09210,19314.0,SE37,1.0
 Araucanía,09,Victoria,09211,35467.0,SE37,12.0
 Araucanía,09,Vilcun,09119,30766.0,SE37,5.0
 Araucanía,09,Villarrica,09120,59103.0,SE37,34.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE37,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE37,344.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE37,341.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE37,0.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE37,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE37,2.0
@@ -10930,21 +10930,21 @@ Aysén,11,Tortel,11303,572.0,SE37,0.0
 Aysén,11,Desconocido Aysen,0,0.0,SE37,0.0
 Biobío,08,Alto Biobio,08314,6775.0,SE37,1.0
 Biobío,08,Antuco,08302,4306.0,SE37,3.0
-Biobío,08,Arauco,08202,38679.0,SE37,37.0
+Biobío,08,Arauco,08202,38679.0,SE37,36.0
 Biobío,08,Cabrero,08303,30725.0,SE37,9.0
-Biobío,08,Canete,08203,37003.0,SE37,18.0
+Biobío,08,Canete,08203,37003.0,SE37,16.0
 Biobío,08,Chiguayante,08103,91180.0,SE37,68.0
 Biobío,08,Concepcion,08101,238092.0,SE37,220.0
 Biobío,08,Contulmo,08204,6330.0,SE37,2.0
 Biobío,08,Coronel,08102,125829.0,SE37,152.0
 Biobío,08,Curanilahue,08205,33892.0,SE37,107.0
 Biobío,08,Florida,08104,11841.0,SE37,13.0
-Biobío,08,Hualpen,08112,97273.0,SE37,86.0
+Biobío,08,Hualpen,08112,97273.0,SE37,87.0
 Biobío,08,Hualqui,08105,26201.0,SE37,25.0
 Biobío,08,Laja,08304,23873.0,SE37,12.0
 Biobío,08,Lebu,08201,27100.0,SE37,52.0
 Biobío,08,Los Alamos,08206,22524.0,SE37,30.0
-Biobío,08,Los Angeles,08301,218515.0,SE37,53.0
+Biobío,08,Los Angeles,08301,218515.0,SE37,52.0
 Biobío,08,Lota,08106,45750.0,SE37,64.0
 Biobío,08,Mulchen,08305,31041.0,SE37,27.0
 Biobío,08,Nacimiento,08306,27944.0,SE37,25.0
@@ -10965,7 +10965,7 @@ Biobío,08,Desconocido Biobio,0,0.0,SE37,0.0
 Coquimbo,04,Andacollo,04103,11791.0,SE37,20.0
 Coquimbo,04,Canela,04202,9546.0,SE37,4.0
 Coquimbo,04,Combarbala,04302,13884.0,SE37,2.0
-Coquimbo,04,Coquimbo,04102,256735.0,SE37,158.0
+Coquimbo,04,Coquimbo,04102,256735.0,SE37,159.0
 Coquimbo,04,Illapel,04201,32801.0,SE37,13.0
 Coquimbo,04,La Higuera,04104,4450.0,SE37,2.0
 Coquimbo,04,La Serena,04101,249656.0,SE37,90.0
@@ -10976,7 +10976,7 @@ Coquimbo,04,Paiguano,04105,4675.0,SE37,5.0
 Coquimbo,04,Punitaqui,04304,12165.0,SE37,13.0
 Coquimbo,04,Rio Hurtado,04305,4372.0,SE37,4.0
 Coquimbo,04,Salamanca,04204,29110.0,SE37,9.0
-Coquimbo,04,Vicuna,04106,29741.0,SE37,17.0
+Coquimbo,04,Vicuna,04106,29741.0,SE37,18.0
 Coquimbo,04,Desconocido Coquimbo,0,0.0,SE37,0.0
 Los Lagos,10,Ancud,10202,42458.0,SE37,2.0
 Los Lagos,10,Calbuco,10102,36744.0,SE37,17.0
@@ -10993,9 +10993,9 @@ Los Lagos,10,Hualaihue,10403,9525.0,SE37,5.0
 Los Lagos,10,Llanquihue,10107,18621.0,SE37,21.0
 Los Lagos,10,Los Muermos,10106,17817.0,SE37,21.0
 Los Lagos,10,Maullin,10108,14894.0,SE37,61.0
-Los Lagos,10,Osorno,10301,173410.0,SE37,133.0
+Los Lagos,10,Osorno,10301,173410.0,SE37,132.0
 Los Lagos,10,Palena,10404,1827.0,SE37,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE37,178.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE37,179.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE37,20.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE37,16.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE37,1.0
@@ -11026,7 +11026,7 @@ Magallanes,12,Antartica,12202,137.0,SE37,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE37,0.0
 Magallanes,12,Laguna Blanca,12102,264.0,SE37,0.0
 Magallanes,12,Natales,12401,23782.0,SE37,117.0
-Magallanes,12,Porvenir,12301,7323.0,SE37,42.0
+Magallanes,12,Porvenir,12301,7323.0,SE37,41.0
 Magallanes,12,Primavera,12302,694.0,SE37,1.0
 Magallanes,12,Punta Arenas,12101,141984.0,SE37,1043.0
 Magallanes,12,Rio Verde,12103,211.0,SE37,0.0
@@ -11059,7 +11059,7 @@ Maule,07,Sagrada Familia,07307,19469.0,SE37,29.0
 Maule,07,San Clemente,07109,46292.0,SE37,67.0
 Maule,07,San Javier,07406,49451.0,SE37,53.0
 Maule,07,San Rafael,07110,9959.0,SE37,8.0
-Maule,07,Talca,07101,236724.0,SE37,303.0
+Maule,07,Talca,07101,236724.0,SE37,302.0
 Maule,07,Teno,07308,30850.0,SE37,20.0
 Maule,07,Vichuquen,07309,4381.0,SE37,0.0
 Maule,07,Villa Alegre,07407,17512.0,SE37,6.0
@@ -11083,16 +11083,16 @@ Metropolitana,13,La Cisterna,13109,100434.0,SE37,26.0
 Metropolitana,13,La Florida,13110,402433.0,SE37,149.0
 Metropolitana,13,La Granja,13111,122557.0,SE37,51.0
 Metropolitana,13,La Pintana,13112,189335.0,SE37,57.0
-Metropolitana,13,La Reina,13113,100252.0,SE37,26.0
+Metropolitana,13,La Reina,13113,100252.0,SE37,27.0
 Metropolitana,13,Lampa,13302,126898.0,SE37,33.0
 Metropolitana,13,Las Condes,13114,330759.0,SE37,95.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE37,21.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE37,63.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE37,36.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE37,35.0
 Metropolitana,13,Macul,13118,134635.0,SE37,47.0
-Metropolitana,13,Maipu,13119,578605.0,SE37,177.0
+Metropolitana,13,Maipu,13119,578605.0,SE37,178.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE37,1.0
-Metropolitana,13,Melipilla,13501,141612.0,SE37,78.0
+Metropolitana,13,Melipilla,13501,141612.0,SE37,79.0
 Metropolitana,13,Nunoa,13120,250192.0,SE37,74.0
 Metropolitana,13,Padre Hurtado,13604,74188.0,SE37,28.0
 Metropolitana,13,Paine,13404,82766.0,SE37,58.0
@@ -11105,10 +11105,10 @@ Metropolitana,13,Pudahuel,13124,253139.0,SE37,95.0
 Metropolitana,13,Puente Alto,13201,645909.0,SE37,279.0
 Metropolitana,13,Quilicura,13125,254694.0,SE37,72.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE37,53.0
-Metropolitana,13,Recoleta,13127,190075.0,SE37,54.0
-Metropolitana,13,Renca,13128,160847.0,SE37,179.0
+Metropolitana,13,Recoleta,13127,190075.0,SE37,53.0
+Metropolitana,13,Renca,13128,160847.0,SE37,178.0
 Metropolitana,13,San Bernardo,13401,334836.0,SE37,101.0
-Metropolitana,13,San Joaquin,13129,103485.0,SE37,32.0
+Metropolitana,13,San Joaquin,13129,103485.0,SE37,33.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE37,11.0
 Metropolitana,13,San Miguel,13130,133059.0,SE37,35.0
 Metropolitana,13,San Pedro,13505,11953.0,SE37,0.0
@@ -11146,28 +11146,28 @@ O’Higgins,06,Placilla,06308,9164.0,SE37,8.0
 O’Higgins,06,Pumanque,06309,3531.0,SE37,1.0
 O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE37,9.0
 O’Higgins,06,Rancagua,06101,265211.0,SE37,206.0
-O’Higgins,06,Rengo,06115,63710.0,SE37,13.0
+O’Higgins,06,Rengo,06115,63710.0,SE37,12.0
 O’Higgins,06,Requinoa,06116,30371.0,SE37,4.0
 O’Higgins,06,San Fernando,06301,78642.0,SE37,65.0
-O’Higgins,06,San Vicente,06117,50617.0,SE37,42.0
+O’Higgins,06,San Vicente,06117,50617.0,SE37,41.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE37,50.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE37,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE37,64.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE37,65.0
 Tarapacá,01,Camina,01402,1375.0,SE37,0.0
 Tarapacá,01,Colchane,01403,1583.0,SE37,0.0
 Tarapacá,01,Huara,01404,3000.0,SE37,2.0
-Tarapacá,01,Iquique,01101,223463.0,SE37,125.0
+Tarapacá,01,Iquique,01101,223463.0,SE37,124.0
 Tarapacá,01,Pica,01405,5958.0,SE37,5.0
 Tarapacá,01,Pozo Almonte,01401,17395.0,SE37,13.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE37,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE37,2.0
 Valparaíso,05,Cabildo,05402,20663.0,SE37,10.0
-Valparaíso,05,Calera,05502,53591.0,SE37,20.0
+Valparaíso,05,Calera,05502,53591.0,SE37,22.0
 Valparaíso,05,Calle Larga,05302,16482.0,SE37,6.0
 Valparaíso,05,Cartagena,05603,25357.0,SE37,11.0
 Valparaíso,05,Casablanca,05102,29170.0,SE37,21.0
 Valparaíso,05,Catemu,05702,15213.0,SE37,12.0
-Valparaíso,05,Concon,05103,45889.0,SE37,16.0
+Valparaíso,05,Concon,05103,45889.0,SE37,17.0
 Valparaíso,05,El Quisco,05604,17742.0,SE37,16.0
 Valparaíso,05,El Tabo,05605,14338.0,SE37,4.0
 Valparaíso,05,Hijuelas,05503,19099.0,SE37,13.0
@@ -11186,13 +11186,13 @@ Valparaíso,05,Petorca,05404,10558.0,SE37,7.0
 Valparaíso,05,Puchuncavi,05105,20071.0,SE37,3.0
 Valparaíso,05,Putaendo,05705,17645.0,SE37,17.0
 Valparaíso,05,Quillota,05501,97572.0,SE37,33.0
-Valparaíso,05,Quilpue,05801,167085.0,SE37,112.0
+Valparaíso,05,Quilpue,05801,167085.0,SE37,113.0
 Valparaíso,05,Quintero,05107,36135.0,SE37,8.0
 Valparaíso,05,Rinconada,05303,11263.0,SE37,1.0
 Valparaíso,05,San Antonio,05601,96761.0,SE37,35.0
 Valparaíso,05,San Esteban,05304,20643.0,SE37,8.0
 Valparaíso,05,San Felipe,05701,83494.0,SE37,43.0
-Valparaíso,05,Santa Maria,05706,16367.0,SE37,13.0
+Valparaíso,05,Santa Maria,05706,16367.0,SE37,14.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE37,8.0
 Valparaíso,05,Valparaiso,05101,315732.0,SE37,218.0
 Valparaíso,05,Villa Alemana,05804,139310.0,SE37,98.0
@@ -11221,7 +11221,7 @@ Valparaíso,05,Desconocido Valparaiso,0,0.0,SE37,0.0
 Ñuble,16,Treguaco,16207,5696.0,SE37,5.0
 Ñuble,16,Yungay,16109,18596.0,SE37,12.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE37,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE38,206.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE38,207.0
 Antofagasta,02,Calama,02201,190336.0,SE38,59.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE38,0.0
 Antofagasta,02,Mejillones,02102,14776.0,SE38,16.0
@@ -11231,8 +11231,8 @@ Antofagasta,02,Sierra Gorda,02103,1746.0,SE38,2.0
 Antofagasta,02,Taltal,02104,13657.0,SE38,5.0
 Antofagasta,02,Tocopilla,02301,28079.0,SE38,3.0
 Antofagasta,02,Desconocido Antofagasta,0,0.0,SE38,0.0
-Araucanía,09,Angol,09201,56058.0,SE38,37.0
-Araucanía,09,Carahue,09102,25486.0,SE38,36.0
+Araucanía,09,Angol,09201,56058.0,SE38,36.0
+Araucanía,09,Carahue,09102,25486.0,SE38,34.0
 Araucanía,09,Cholchol,09121,12341.0,SE38,11.0
 Araucanía,09,Collipulli,09202,26148.0,SE38,6.0
 Araucanía,09,Cunco,09103,18055.0,SE38,8.0
@@ -11240,31 +11240,31 @@ Araucanía,09,Curacautin,09203,18178.0,SE38,3.0
 Araucanía,09,Curarrehue,09104,7802.0,SE38,0.0
 Araucanía,09,Ercilla,09204,8458.0,SE38,45.0
 Araucanía,09,Freire,09105,25446.0,SE38,2.0
-Araucanía,09,Galvarino,09106,12633.0,SE38,12.0
+Araucanía,09,Galvarino,09106,12633.0,SE38,10.0
 Araucanía,09,Gorbea,09107,15148.0,SE38,5.0
 Araucanía,09,Lautaro,09108,40746.0,SE38,27.0
-Araucanía,09,Loncoche,09109,24739.0,SE38,35.0
+Araucanía,09,Loncoche,09109,24739.0,SE38,37.0
 Araucanía,09,Lonquimay,09205,11049.0,SE38,31.0
 Araucanía,09,Los Sauces,09206,7517.0,SE38,2.0
-Araucanía,09,Lumaco,09207,10050.0,SE38,6.0
+Araucanía,09,Lumaco,09207,10050.0,SE38,5.0
 Araucanía,09,Melipeuco,09110,6265.0,SE38,1.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE38,14.0
-Araucanía,09,Padre Las Casas,09112,82110.0,SE38,25.0
+Araucanía,09,Padre Las Casas,09112,82110.0,SE38,24.0
 Araucanía,09,Perquenco,09113,7223.0,SE38,1.0
 Araucanía,09,Pitrufquen,09114,26096.0,SE38,4.0
 Araucanía,09,Pucon,09115,29782.0,SE38,2.0
 Araucanía,09,Puren,09208,12188.0,SE38,1.0
 Araucanía,09,Renaico,09209,10833.0,SE38,16.0
 Araucanía,09,Saavedra,09116,12793.0,SE38,5.0
-Araucanía,09,Temuco,09101,302931.0,SE38,152.0
-Araucanía,09,Teodoro Schmidt,09117,15786.0,SE38,30.0
+Araucanía,09,Temuco,09101,302931.0,SE38,151.0
+Araucanía,09,Teodoro Schmidt,09117,15786.0,SE38,31.0
 Araucanía,09,Tolten,09118,10055.0,SE38,3.0
 Araucanía,09,Traiguen,09210,19314.0,SE38,8.0
 Araucanía,09,Victoria,09211,35467.0,SE38,12.0
-Araucanía,09,Vilcun,09119,30766.0,SE38,6.0
+Araucanía,09,Vilcun,09119,30766.0,SE38,4.0
 Araucanía,09,Villarrica,09120,59103.0,SE38,29.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE38,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE38,322.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE38,316.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE38,0.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE38,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE38,3.0
@@ -11292,23 +11292,23 @@ Aysén,11,Tortel,11303,572.0,SE38,0.0
 Aysén,11,Desconocido Aysen,0,0.0,SE38,0.0
 Biobío,08,Alto Biobio,08314,6775.0,SE38,2.0
 Biobío,08,Antuco,08302,4306.0,SE38,0.0
-Biobío,08,Arauco,08202,38679.0,SE38,34.0
+Biobío,08,Arauco,08202,38679.0,SE38,33.0
 Biobío,08,Cabrero,08303,30725.0,SE38,9.0
 Biobío,08,Canete,08203,37003.0,SE38,11.0
 Biobío,08,Chiguayante,08103,91180.0,SE38,59.0
 Biobío,08,Concepcion,08101,238092.0,SE38,161.0
 Biobío,08,Contulmo,08204,6330.0,SE38,4.0
 Biobío,08,Coronel,08102,125829.0,SE38,170.0
-Biobío,08,Curanilahue,08205,33892.0,SE38,118.0
+Biobío,08,Curanilahue,08205,33892.0,SE38,116.0
 Biobío,08,Florida,08104,11841.0,SE38,8.0
 Biobío,08,Hualpen,08112,97273.0,SE38,49.0
 Biobío,08,Hualqui,08105,26201.0,SE38,21.0
 Biobío,08,Laja,08304,23873.0,SE38,6.0
-Biobío,08,Lebu,08201,27100.0,SE38,59.0
-Biobío,08,Los Alamos,08206,22524.0,SE38,15.0
-Biobío,08,Los Angeles,08301,218515.0,SE38,59.0
+Biobío,08,Lebu,08201,27100.0,SE38,57.0
+Biobío,08,Los Alamos,08206,22524.0,SE38,14.0
+Biobío,08,Los Angeles,08301,218515.0,SE38,60.0
 Biobío,08,Lota,08106,45750.0,SE38,66.0
-Biobío,08,Mulchen,08305,31041.0,SE38,13.0
+Biobío,08,Mulchen,08305,31041.0,SE38,14.0
 Biobío,08,Nacimiento,08306,27944.0,SE38,7.0
 Biobío,08,Negrete,08307,10429.0,SE38,0.0
 Biobío,08,Penco,08107,49865.0,SE38,37.0
@@ -11318,7 +11318,7 @@ Biobío,08,San Pedro de la Paz,08108,145906.0,SE38,84.0
 Biobío,08,San Rosendo,08310,3611.0,SE38,1.0
 Biobío,08,Santa Barbara,08311,14592.0,SE38,3.0
 Biobío,08,Santa Juana,08109,14779.0,SE38,3.0
-Biobío,08,Talcahuano,08110,158345.0,SE38,90.0
+Biobío,08,Talcahuano,08110,158345.0,SE38,91.0
 Biobío,08,Tirua,08207,11019.0,SE38,1.0
 Biobío,08,Tome,08111,58729.0,SE38,66.0
 Biobío,08,Tucapel,08312,15205.0,SE38,4.0
@@ -11344,30 +11344,30 @@ Los Lagos,10,Ancud,10202,42458.0,SE38,4.0
 Los Lagos,10,Calbuco,10102,36744.0,SE38,21.0
 Los Lagos,10,Castro,10201,47607.0,SE38,15.0
 Los Lagos,10,Chaiten,10401,5020.0,SE38,0.0
-Los Lagos,10,Chonchi,10203,16013.0,SE38,3.0
+Los Lagos,10,Chonchi,10203,16013.0,SE38,2.0
 Los Lagos,10,Cochamo,10103,4006.0,SE38,0.0
 Los Lagos,10,Curaco de Velez,10204,4066.0,SE38,0.0
 Los Lagos,10,Dalcahue,10205,15069.0,SE38,4.0
-Los Lagos,10,Fresia,10104,12656.0,SE38,15.0
+Los Lagos,10,Fresia,10104,12656.0,SE38,16.0
 Los Lagos,10,Frutillar,10105,20223.0,SE38,31.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE38,0.0
 Los Lagos,10,Hualaihue,10403,9525.0,SE38,4.0
 Los Lagos,10,Llanquihue,10107,18621.0,SE38,17.0
 Los Lagos,10,Los Muermos,10106,17817.0,SE38,12.0
 Los Lagos,10,Maullin,10108,14894.0,SE38,43.0
-Los Lagos,10,Osorno,10301,173410.0,SE38,150.0
+Los Lagos,10,Osorno,10301,173410.0,SE38,148.0
 Los Lagos,10,Palena,10404,1827.0,SE38,0.0
 Los Lagos,10,Puerto Montt,10101,269398.0,SE38,217.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE38,3.0
 Los Lagos,10,Puerto Varas,10109,48620.0,SE38,13.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE38,0.0
-Los Lagos,10,Purranque,10303,21080.0,SE38,11.0
+Los Lagos,10,Purranque,10303,21080.0,SE38,10.0
 Los Lagos,10,Puyehue,10304,11787.0,SE38,5.0
 Los Lagos,10,Queilen,10207,5543.0,SE38,0.0
 Los Lagos,10,Quellon,10208,29309.0,SE38,0.0
 Los Lagos,10,Quemchi,10209,8783.0,SE38,0.0
 Los Lagos,10,Quinchao,10210,8298.0,SE38,0.0
-Los Lagos,10,Rio Negro,10305,14275.0,SE38,30.0
+Los Lagos,10,Rio Negro,10305,14275.0,SE38,31.0
 Los Lagos,10,San Juan de la Costa,10306,7639.0,SE38,37.0
 Los Lagos,10,San Pablo,10307,10553.0,SE38,4.0
 Los Lagos,10,Desconocido Los Lagos,0,0.0,SE38,0.0
@@ -11378,11 +11378,11 @@ Los Ríos,14,Lago Ranco,14203,10292.0,SE38,1.0
 Los Ríos,14,Lanco,14103,17652.0,SE38,6.0
 Los Ríos,14,Los Lagos,14104,20518.0,SE38,2.0
 Los Ríos,14,Mafil,14105,7389.0,SE38,2.0
-Los Ríos,14,Mariquina,14106,23250.0,SE38,1.0
+Los Ríos,14,Mariquina,14106,23250.0,SE38,2.0
 Los Ríos,14,Paillaco,14107,20798.0,SE38,8.0
 Los Ríos,14,Panguipulli,14108,35991.0,SE38,38.0
 Los Ríos,14,Rio Bueno,14204,32925.0,SE38,16.0
-Los Ríos,14,Valdivia,14101,176774.0,SE38,48.0
+Los Ríos,14,Valdivia,14101,176774.0,SE38,49.0
 Los Ríos,14,Desconocido Los Rios,0,0.0,SE38,0.0
 Magallanes,12,Antartica,12202,137.0,SE38,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE38,0.0
@@ -11390,15 +11390,15 @@ Magallanes,12,Laguna Blanca,12102,264.0,SE38,1.0
 Magallanes,12,Natales,12401,23782.0,SE38,117.0
 Magallanes,12,Porvenir,12301,7323.0,SE38,48.0
 Magallanes,12,Primavera,12302,694.0,SE38,1.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE38,1013.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE38,1041.0
 Magallanes,12,Rio Verde,12103,211.0,SE38,0.0
 Magallanes,12,San Gregorio,12104,681.0,SE38,3.0
-Magallanes,12,Timaukel,12303,282.0,SE38,4.0
+Magallanes,12,Timaukel,12303,282.0,SE38,5.0
 Magallanes,12,Torres del Paine,12402,1021.0,SE38,2.0
 Magallanes,12,Desconocido Magallanes,0,0.0,SE38,0.0
 Maule,07,Cauquenes,07201,44143.0,SE38,8.0
 Maule,07,Chanco,07202,9331.0,SE38,6.0
-Maule,07,Colbun,07402,22565.0,SE38,13.0
+Maule,07,Colbun,07402,22565.0,SE38,12.0
 Maule,07,Constitucion,07102,50348.0,SE38,3.0
 Maule,07,Curepto,07103,9426.0,SE38,3.0
 Maule,07,Curico,07301,163626.0,SE38,97.0
@@ -11419,7 +11419,7 @@ Maule,07,Rio Claro,07108,14753.0,SE38,17.0
 Maule,07,Romeral,07306,16170.0,SE38,24.0
 Maule,07,Sagrada Familia,07307,19469.0,SE38,3.0
 Maule,07,San Clemente,07109,46292.0,SE38,68.0
-Maule,07,San Javier,07406,49451.0,SE38,27.0
+Maule,07,San Javier,07406,49451.0,SE38,28.0
 Maule,07,San Rafael,07110,9959.0,SE38,16.0
 Maule,07,Talca,07101,236724.0,SE38,304.0
 Maule,07,Teno,07308,30850.0,SE38,22.0
@@ -11428,10 +11428,10 @@ Maule,07,Villa Alegre,07407,17512.0,SE38,4.0
 Maule,07,Yerbas Buenas,07408,19200.0,SE38,9.0
 Maule,07,Desconocido Maule,0,0.0,SE38,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE38,3.0
-Metropolitana,13,Buin,13402,109641.0,SE38,54.0
+Metropolitana,13,Buin,13402,109641.0,SE38,53.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE38,8.0
 Metropolitana,13,Cerrillos,13102,88956.0,SE38,27.0
-Metropolitana,13,Cerro Navia,13103,142465.0,SE38,44.0
+Metropolitana,13,Cerro Navia,13103,142465.0,SE38,45.0
 Metropolitana,13,Colina,13301,180353.0,SE38,36.0
 Metropolitana,13,Conchali,13104,139195.0,SE38,48.0
 Metropolitana,13,Curacavi,13503,36430.0,SE38,10.0
@@ -11442,21 +11442,21 @@ Metropolitana,13,Huechuraba,13107,112528.0,SE38,29.0
 Metropolitana,13,Independencia,13108,142065.0,SE38,34.0
 Metropolitana,13,Isla de Maipo,13603,40171.0,SE38,13.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE38,27.0
-Metropolitana,13,La Florida,13110,402433.0,SE38,141.0
+Metropolitana,13,La Florida,13110,402433.0,SE38,142.0
 Metropolitana,13,La Granja,13111,122557.0,SE38,55.0
-Metropolitana,13,La Pintana,13112,189335.0,SE38,46.0
+Metropolitana,13,La Pintana,13112,189335.0,SE38,50.0
 Metropolitana,13,La Reina,13113,100252.0,SE38,21.0
 Metropolitana,13,Lampa,13302,126898.0,SE38,21.0
-Metropolitana,13,Las Condes,13114,330759.0,SE38,72.0
+Metropolitana,13,Las Condes,13114,330759.0,SE38,71.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE38,19.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE38,31.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE38,21.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE38,23.0
 Metropolitana,13,Macul,13118,134635.0,SE38,38.0
 Metropolitana,13,Maipu,13119,578605.0,SE38,184.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE38,2.0
 Metropolitana,13,Melipilla,13501,141612.0,SE38,38.0
 Metropolitana,13,Nunoa,13120,250192.0,SE38,41.0
-Metropolitana,13,Padre Hurtado,13604,74188.0,SE38,18.0
+Metropolitana,13,Padre Hurtado,13604,74188.0,SE38,17.0
 Metropolitana,13,Paine,13404,82766.0,SE38,60.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE38,22.0
 Metropolitana,13,Penaflor,13605,101058.0,SE38,33.0
@@ -11464,17 +11464,17 @@ Metropolitana,13,Penalolen,13122,266798.0,SE38,49.0
 Metropolitana,13,Pirque,13202,30433.0,SE38,7.0
 Metropolitana,13,Providencia,13123,157749.0,SE38,34.0
 Metropolitana,13,Pudahuel,13124,253139.0,SE38,66.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE38,211.0
-Metropolitana,13,Quilicura,13125,254694.0,SE38,60.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE38,213.0
+Metropolitana,13,Quilicura,13125,254694.0,SE38,62.0
 Metropolitana,13,Quinta Normal,13126,136368.0,SE38,28.0
-Metropolitana,13,Recoleta,13127,190075.0,SE38,50.0
+Metropolitana,13,Recoleta,13127,190075.0,SE38,51.0
 Metropolitana,13,Renca,13128,160847.0,SE38,180.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE38,87.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE38,88.0
 Metropolitana,13,San Joaquin,13129,103485.0,SE38,26.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE38,12.0
-Metropolitana,13,San Miguel,13130,133059.0,SE38,38.0
+Metropolitana,13,San Miguel,13130,133059.0,SE38,39.0
 Metropolitana,13,San Pedro,13505,11953.0,SE38,3.0
-Metropolitana,13,San Ramon,13131,86510.0,SE38,37.0
+Metropolitana,13,San Ramon,13131,86510.0,SE38,39.0
 Metropolitana,13,Santiago,13101,503147.0,SE38,127.0
 Metropolitana,13,Talagante,13601,81838.0,SE38,13.0
 Metropolitana,13,Tiltil,13303,21477.0,SE38,1.0
@@ -11486,12 +11486,12 @@ O’Higgins,06,Codegua,06102,14096.0,SE38,11.0
 O’Higgins,06,Coinco,06103,7831.0,SE38,2.0
 O’Higgins,06,Coltauco,06104,21263.0,SE38,9.0
 O’Higgins,06,Donihue,06105,22700.0,SE38,13.0
-O’Higgins,06,Graneros,06106,36504.0,SE38,26.0
+O’Higgins,06,Graneros,06106,36504.0,SE38,27.0
 O’Higgins,06,La Estrella,06202,3114.0,SE38,1.0
 O’Higgins,06,Las Cabras,06107,26749.0,SE38,17.0
 O’Higgins,06,Litueche,06203,6765.0,SE38,0.0
 O’Higgins,06,Lolol,06304,7289.0,SE38,0.0
-O’Higgins,06,Machali,06108,59913.0,SE38,20.0
+O’Higgins,06,Machali,06108,59913.0,SE38,21.0
 O’Higgins,06,Malloa,06109,14163.0,SE38,9.0
 O’Higgins,06,Marchihue,06204,7632.0,SE38,0.0
 O’Higgins,06,Mostazal,06110,27462.0,SE38,7.0
@@ -11501,16 +11501,16 @@ O’Higgins,06,Olivar,06111,14624.0,SE38,12.0
 O’Higgins,06,Palmilla,06306,13299.0,SE38,4.0
 O’Higgins,06,Paredones,06206,6349.0,SE38,1.0
 O’Higgins,06,Peralillo,06307,11848.0,SE38,9.0
-O’Higgins,06,Peumo,06112,14952.0,SE38,16.0
+O’Higgins,06,Peumo,06112,14952.0,SE38,15.0
 O’Higgins,06,Pichidegua,06113,20743.0,SE38,21.0
 O’Higgins,06,Pichilemu,06201,17882.0,SE38,8.0
 O’Higgins,06,Placilla,06308,9164.0,SE38,4.0
 O’Higgins,06,Pumanque,06309,3531.0,SE38,0.0
 O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE38,7.0
 O’Higgins,06,Rancagua,06101,265211.0,SE38,172.0
-O’Higgins,06,Rengo,06115,63710.0,SE38,15.0
+O’Higgins,06,Rengo,06115,63710.0,SE38,16.0
 O’Higgins,06,Requinoa,06116,30371.0,SE38,7.0
-O’Higgins,06,San Fernando,06301,78642.0,SE38,80.0
+O’Higgins,06,San Fernando,06301,78642.0,SE38,81.0
 O’Higgins,06,San Vicente,06117,50617.0,SE38,41.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE38,19.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE38,0.0
@@ -11518,7 +11518,7 @@ Tarapacá,01,Alto Hospicio,01107,129999.0,SE38,42.0
 Tarapacá,01,Camina,01402,1375.0,SE38,0.0
 Tarapacá,01,Colchane,01403,1583.0,SE38,0.0
 Tarapacá,01,Huara,01404,3000.0,SE38,0.0
-Tarapacá,01,Iquique,01101,223463.0,SE38,95.0
+Tarapacá,01,Iquique,01101,223463.0,SE38,90.0
 Tarapacá,01,Pica,01405,5958.0,SE38,3.0
 Tarapacá,01,Pozo Almonte,01401,17395.0,SE38,6.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE38,0.0
@@ -11530,7 +11530,7 @@ Valparaíso,05,Cartagena,05603,25357.0,SE38,13.0
 Valparaíso,05,Casablanca,05102,29170.0,SE38,9.0
 Valparaíso,05,Catemu,05702,15213.0,SE38,6.0
 Valparaíso,05,Concon,05103,45889.0,SE38,7.0
-Valparaíso,05,El Quisco,05604,17742.0,SE38,6.0
+Valparaíso,05,El Quisco,05604,17742.0,SE38,5.0
 Valparaíso,05,El Tabo,05605,14338.0,SE38,4.0
 Valparaíso,05,Hijuelas,05503,19099.0,SE38,4.0
 Valparaíso,05,Isla de Pascua,05201,8277.0,SE38,0.0
@@ -11540,15 +11540,15 @@ Valparaíso,05,La Ligua,05401,37739.0,SE38,9.0
 Valparaíso,05,Limache,05802,49931.0,SE38,12.0
 Valparaíso,05,Llaillay,05703,26533.0,SE38,11.0
 Valparaíso,05,Los Andes,05301,68093.0,SE38,28.0
-Valparaíso,05,Nogales,05506,23490.0,SE38,7.0
+Valparaíso,05,Nogales,05506,23490.0,SE38,8.0
 Valparaíso,05,Olmue,05803,19266.0,SE38,3.0
 Valparaíso,05,Panquehue,05704,7633.0,SE38,0.0
-Valparaíso,05,Papudo,05403,6201.0,SE38,13.0
+Valparaíso,05,Papudo,05403,6201.0,SE38,12.0
 Valparaíso,05,Petorca,05404,10558.0,SE38,6.0
 Valparaíso,05,Puchuncavi,05105,20071.0,SE38,1.0
 Valparaíso,05,Putaendo,05705,17645.0,SE38,6.0
 Valparaíso,05,Quillota,05501,97572.0,SE38,18.0
-Valparaíso,05,Quilpue,05801,167085.0,SE38,81.0
+Valparaíso,05,Quilpue,05801,167085.0,SE38,82.0
 Valparaíso,05,Quintero,05107,36135.0,SE38,6.0
 Valparaíso,05,Rinconada,05303,11263.0,SE38,0.0
 Valparaíso,05,San Antonio,05601,96761.0,SE38,32.0
@@ -11556,13 +11556,13 @@ Valparaíso,05,San Esteban,05304,20643.0,SE38,7.0
 Valparaíso,05,San Felipe,05701,83494.0,SE38,38.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE38,13.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE38,1.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE38,133.0
-Valparaíso,05,Villa Alemana,05804,139310.0,SE38,61.0
-Valparaíso,05,Vina del Mar,05109,361371.0,SE38,133.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE38,136.0
+Valparaíso,05,Villa Alemana,05804,139310.0,SE38,63.0
+Valparaíso,05,Vina del Mar,05109,361371.0,SE38,135.0
 Valparaíso,05,Zapallar,05405,7994.0,SE38,3.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE38,0.0
 Ñuble,16,Bulnes,16102,22607.0,SE38,22.0
-Ñuble,16,Chillan,16101,198624.0,SE38,121.0
+Ñuble,16,Chillan,16101,198624.0,SE38,122.0
 Ñuble,16,Chillan Viejo,16103,33827.0,SE38,11.0
 Ñuble,16,Cobquecura,16202,5275.0,SE38,5.0
 Ñuble,16,Coelemu,16203,16845.0,SE38,11.0
@@ -11580,10 +11580,10 @@ Valparaíso,05,Desconocido Valparaiso,0,0.0,SE38,0.0
 Ñuble,16,San Fabian,16304,4654.0,SE38,2.0
 Ñuble,16,San Ignacio,16108,16624.0,SE38,2.0
 Ñuble,16,San Nicolas,16305,12172.0,SE38,12.0
-Ñuble,16,Treguaco,16207,5696.0,SE38,0.0
+Ñuble,16,Treguaco,16207,5696.0,SE38,1.0
 Ñuble,16,Yungay,16109,18596.0,SE38,13.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE38,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE39,211.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE39,217.0
 Antofagasta,02,Calama,02201,190336.0,SE39,84.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE39,1.0
 Antofagasta,02,Mejillones,02102,14776.0,SE39,7.0
@@ -11593,40 +11593,40 @@ Antofagasta,02,Sierra Gorda,02103,1746.0,SE39,2.0
 Antofagasta,02,Taltal,02104,13657.0,SE39,7.0
 Antofagasta,02,Tocopilla,02301,28079.0,SE39,4.0
 Antofagasta,02,Desconocido Antofagasta,0,0.0,SE39,0.0
-Araucanía,09,Angol,09201,56058.0,SE39,37.0
-Araucanía,09,Carahue,09102,25486.0,SE39,63.0
+Araucanía,09,Angol,09201,56058.0,SE39,38.0
+Araucanía,09,Carahue,09102,25486.0,SE39,71.0
 Araucanía,09,Cholchol,09121,12341.0,SE39,8.0
-Araucanía,09,Collipulli,09202,26148.0,SE39,11.0
+Araucanía,09,Collipulli,09202,26148.0,SE39,13.0
 Araucanía,09,Cunco,09103,18055.0,SE39,17.0
 Araucanía,09,Curacautin,09203,18178.0,SE39,2.0
 Araucanía,09,Curarrehue,09104,7802.0,SE39,0.0
 Araucanía,09,Ercilla,09204,8458.0,SE39,29.0
 Araucanía,09,Freire,09105,25446.0,SE39,1.0
-Araucanía,09,Galvarino,09106,12633.0,SE39,8.0
-Araucanía,09,Gorbea,09107,15148.0,SE39,9.0
-Araucanía,09,Lautaro,09108,40746.0,SE39,25.0
-Araucanía,09,Loncoche,09109,24739.0,SE39,36.0
-Araucanía,09,Lonquimay,09205,11049.0,SE39,8.0
+Araucanía,09,Galvarino,09106,12633.0,SE39,9.0
+Araucanía,09,Gorbea,09107,15148.0,SE39,10.0
+Araucanía,09,Lautaro,09108,40746.0,SE39,27.0
+Araucanía,09,Loncoche,09109,24739.0,SE39,39.0
+Araucanía,09,Lonquimay,09205,11049.0,SE39,7.0
 Araucanía,09,Los Sauces,09206,7517.0,SE39,2.0
-Araucanía,09,Lumaco,09207,10050.0,SE39,6.0
+Araucanía,09,Lumaco,09207,10050.0,SE39,7.0
 Araucanía,09,Melipeuco,09110,6265.0,SE39,0.0
 Araucanía,09,Nueva Imperial,09111,33777.0,SE39,20.0
-Araucanía,09,Padre Las Casas,09112,82110.0,SE39,31.0
+Araucanía,09,Padre Las Casas,09112,82110.0,SE39,39.0
 Araucanía,09,Perquenco,09113,7223.0,SE39,3.0
 Araucanía,09,Pitrufquen,09114,26096.0,SE39,9.0
-Araucanía,09,Pucon,09115,29782.0,SE39,4.0
+Araucanía,09,Pucon,09115,29782.0,SE39,5.0
 Araucanía,09,Puren,09208,12188.0,SE39,3.0
-Araucanía,09,Renaico,09209,10833.0,SE39,10.0
-Araucanía,09,Saavedra,09116,12793.0,SE39,22.0
-Araucanía,09,Temuco,09101,302931.0,SE39,233.0
-Araucanía,09,Teodoro Schmidt,09117,15786.0,SE39,30.0
+Araucanía,09,Renaico,09209,10833.0,SE39,12.0
+Araucanía,09,Saavedra,09116,12793.0,SE39,23.0
+Araucanía,09,Temuco,09101,302931.0,SE39,245.0
+Araucanía,09,Teodoro Schmidt,09117,15786.0,SE39,31.0
 Araucanía,09,Tolten,09118,10055.0,SE39,1.0
 Araucanía,09,Traiguen,09210,19314.0,SE39,2.0
 Araucanía,09,Victoria,09211,35467.0,SE39,18.0
-Araucanía,09,Vilcun,09119,30766.0,SE39,13.0
-Araucanía,09,Villarrica,09120,59103.0,SE39,51.0
+Araucanía,09,Vilcun,09119,30766.0,SE39,18.0
+Araucanía,09,Villarrica,09120,59103.0,SE39,58.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE39,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE39,315.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE39,335.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE39,0.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE39,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE39,3.0
@@ -11635,17 +11635,17 @@ Atacama,03,Alto del Carmen,03302,5729.0,SE39,3.0
 Atacama,03,Caldera,03102,19426.0,SE39,3.0
 Atacama,03,Chanaral,03201,13164.0,SE39,2.0
 Atacama,03,Copiapo,03101,171766.0,SE39,57.0
-Atacama,03,Diego de Almagro,03202,14358.0,SE39,24.0
-Atacama,03,Freirina,03303,7681.0,SE39,21.0
+Atacama,03,Diego de Almagro,03202,14358.0,SE39,25.0
+Atacama,03,Freirina,03303,7681.0,SE39,22.0
 Atacama,03,Huasco,03304,11264.0,SE39,20.0
 Atacama,03,Tierra Amarilla,03103,14312.0,SE39,6.0
-Atacama,03,Vallenar,03301,57009.0,SE39,113.0
+Atacama,03,Vallenar,03301,57009.0,SE39,117.0
 Atacama,03,Desconocido Atacama,0,0.0,SE39,0.0
-Aysén,11,Aysen,11201,25002.0,SE39,4.0
+Aysén,11,Aysen,11201,25002.0,SE39,5.0
 Aysén,11,Chile Chico,11401,5121.0,SE39,1.0
 Aysén,11,Cisnes,11202,5828.0,SE39,0.0
 Aysén,11,Cochrane,11301,3685.0,SE39,0.0
-Aysén,11,Coyhaique,11101,61210.0,SE39,165.0
+Aysén,11,Coyhaique,11101,61210.0,SE39,167.0
 Aysén,11,Guaitecas,11203,1599.0,SE39,0.0
 Aysén,11,Lago Verde,11102,920.0,SE39,0.0
 Aysén,11,OHiggins,11302,661.0,SE39,0.0
@@ -11654,37 +11654,37 @@ Aysén,11,Tortel,11303,572.0,SE39,0.0
 Aysén,11,Desconocido Aysen,0,0.0,SE39,0.0
 Biobío,08,Alto Biobio,08314,6775.0,SE39,0.0
 Biobío,08,Antuco,08302,4306.0,SE39,3.0
-Biobío,08,Arauco,08202,38679.0,SE39,20.0
+Biobío,08,Arauco,08202,38679.0,SE39,27.0
 Biobío,08,Cabrero,08303,30725.0,SE39,10.0
-Biobío,08,Canete,08203,37003.0,SE39,35.0
-Biobío,08,Chiguayante,08103,91180.0,SE39,88.0
-Biobío,08,Concepcion,08101,238092.0,SE39,192.0
+Biobío,08,Canete,08203,37003.0,SE39,39.0
+Biobío,08,Chiguayante,08103,91180.0,SE39,89.0
+Biobío,08,Concepcion,08101,238092.0,SE39,197.0
 Biobío,08,Contulmo,08204,6330.0,SE39,1.0
-Biobío,08,Coronel,08102,125829.0,SE39,232.0
-Biobío,08,Curanilahue,08205,33892.0,SE39,76.0
+Biobío,08,Coronel,08102,125829.0,SE39,237.0
+Biobío,08,Curanilahue,08205,33892.0,SE39,84.0
 Biobío,08,Florida,08104,11841.0,SE39,17.0
-Biobío,08,Hualpen,08112,97273.0,SE39,76.0
+Biobío,08,Hualpen,08112,97273.0,SE39,77.0
 Biobío,08,Hualqui,08105,26201.0,SE39,14.0
-Biobío,08,Laja,08304,23873.0,SE39,8.0
-Biobío,08,Lebu,08201,27100.0,SE39,47.0
-Biobío,08,Los Alamos,08206,22524.0,SE39,46.0
-Biobío,08,Los Angeles,08301,218515.0,SE39,73.0
-Biobío,08,Lota,08106,45750.0,SE39,54.0
-Biobío,08,Mulchen,08305,31041.0,SE39,13.0
-Biobío,08,Nacimiento,08306,27944.0,SE39,9.0
+Biobío,08,Laja,08304,23873.0,SE39,9.0
+Biobío,08,Lebu,08201,27100.0,SE39,51.0
+Biobío,08,Los Alamos,08206,22524.0,SE39,38.0
+Biobío,08,Los Angeles,08301,218515.0,SE39,74.0
+Biobío,08,Lota,08106,45750.0,SE39,57.0
+Biobío,08,Mulchen,08305,31041.0,SE39,14.0
+Biobío,08,Nacimiento,08306,27944.0,SE39,11.0
 Biobío,08,Negrete,08307,10429.0,SE39,4.0
-Biobío,08,Penco,08107,49865.0,SE39,30.0
+Biobío,08,Penco,08107,49865.0,SE39,32.0
 Biobío,08,Quilaco,08308,4179.0,SE39,1.0
 Biobío,08,Quilleco,08309,10032.0,SE39,3.0
-Biobío,08,San Pedro de la Paz,08108,145906.0,SE39,75.0
+Biobío,08,San Pedro de la Paz,08108,145906.0,SE39,74.0
 Biobío,08,San Rosendo,08310,3611.0,SE39,1.0
 Biobío,08,Santa Barbara,08311,14592.0,SE39,3.0
 Biobío,08,Santa Juana,08109,14779.0,SE39,4.0
-Biobío,08,Talcahuano,08110,158345.0,SE39,83.0
+Biobío,08,Talcahuano,08110,158345.0,SE39,85.0
 Biobío,08,Tirua,08207,11019.0,SE39,0.0
 Biobío,08,Tome,08111,58729.0,SE39,49.0
 Biobío,08,Tucapel,08312,15205.0,SE39,4.0
-Biobío,08,Yumbel,08313,22132.0,SE39,7.0
+Biobío,08,Yumbel,08313,22132.0,SE39,8.0
 Biobío,08,Desconocido Biobio,0,0.0,SE39,0.0
 Coquimbo,04,Andacollo,04103,11791.0,SE39,12.0
 Coquimbo,04,Canela,04202,9546.0,SE39,4.0
@@ -11692,10 +11692,10 @@ Coquimbo,04,Combarbala,04302,13884.0,SE39,2.0
 Coquimbo,04,Coquimbo,04102,256735.0,SE39,95.0
 Coquimbo,04,Illapel,04201,32801.0,SE39,26.0
 Coquimbo,04,La Higuera,04104,4450.0,SE39,1.0
-Coquimbo,04,La Serena,04101,249656.0,SE39,53.0
+Coquimbo,04,La Serena,04101,249656.0,SE39,55.0
 Coquimbo,04,Los Vilos,04203,23374.0,SE39,15.0
-Coquimbo,04,Monte Patria,04303,32527.0,SE39,14.0
-Coquimbo,04,Ovalle,04301,121269.0,SE39,47.0
+Coquimbo,04,Monte Patria,04303,32527.0,SE39,16.0
+Coquimbo,04,Ovalle,04301,121269.0,SE39,49.0
 Coquimbo,04,Paiguano,04105,4675.0,SE39,4.0
 Coquimbo,04,Punitaqui,04304,12165.0,SE39,8.0
 Coquimbo,04,Rio Hurtado,04305,4372.0,SE39,0.0
@@ -11706,7 +11706,7 @@ Los Lagos,10,Ancud,10202,42458.0,SE39,7.0
 Los Lagos,10,Calbuco,10102,36744.0,SE39,25.0
 Los Lagos,10,Castro,10201,47607.0,SE39,9.0
 Los Lagos,10,Chaiten,10401,5020.0,SE39,0.0
-Los Lagos,10,Chonchi,10203,16013.0,SE39,4.0
+Los Lagos,10,Chonchi,10203,16013.0,SE39,5.0
 Los Lagos,10,Cochamo,10103,4006.0,SE39,0.0
 Los Lagos,10,Curaco de Velez,10204,4066.0,SE39,0.0
 Los Lagos,10,Dalcahue,10205,15069.0,SE39,0.0
@@ -11715,21 +11715,21 @@ Los Lagos,10,Frutillar,10105,20223.0,SE39,48.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE39,0.0
 Los Lagos,10,Hualaihue,10403,9525.0,SE39,3.0
 Los Lagos,10,Llanquihue,10107,18621.0,SE39,13.0
-Los Lagos,10,Los Muermos,10106,17817.0,SE39,30.0
+Los Lagos,10,Los Muermos,10106,17817.0,SE39,33.0
 Los Lagos,10,Maullin,10108,14894.0,SE39,18.0
-Los Lagos,10,Osorno,10301,173410.0,SE39,211.0
+Los Lagos,10,Osorno,10301,173410.0,SE39,225.0
 Los Lagos,10,Palena,10404,1827.0,SE39,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE39,257.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE39,266.0
 Los Lagos,10,Puerto Octay,10302,9192.0,SE39,6.0
-Los Lagos,10,Puerto Varas,10109,48620.0,SE39,40.0
+Los Lagos,10,Puerto Varas,10109,48620.0,SE39,42.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE39,0.0
-Los Lagos,10,Purranque,10303,21080.0,SE39,10.0
-Los Lagos,10,Puyehue,10304,11787.0,SE39,14.0
+Los Lagos,10,Purranque,10303,21080.0,SE39,11.0
+Los Lagos,10,Puyehue,10304,11787.0,SE39,16.0
 Los Lagos,10,Queilen,10207,5543.0,SE39,0.0
 Los Lagos,10,Quellon,10208,29309.0,SE39,0.0
 Los Lagos,10,Quemchi,10209,8783.0,SE39,0.0
 Los Lagos,10,Quinchao,10210,8298.0,SE39,3.0
-Los Lagos,10,Rio Negro,10305,14275.0,SE39,33.0
+Los Lagos,10,Rio Negro,10305,14275.0,SE39,35.0
 Los Lagos,10,San Juan de la Costa,10306,7639.0,SE39,47.0
 Los Lagos,10,San Pablo,10307,10553.0,SE39,14.0
 Los Lagos,10,Desconocido Los Lagos,0,0.0,SE39,0.0
@@ -11737,41 +11737,41 @@ Los Ríos,14,Corral,14102,5447.0,SE39,8.0
 Los Ríos,14,Futrono,14202,15261.0,SE39,6.0
 Los Ríos,14,La Union,14201,39538.0,SE39,14.0
 Los Ríos,14,Lago Ranco,14203,10292.0,SE39,4.0
-Los Ríos,14,Lanco,14103,17652.0,SE39,10.0
+Los Ríos,14,Lanco,14103,17652.0,SE39,11.0
 Los Ríos,14,Los Lagos,14104,20518.0,SE39,2.0
 Los Ríos,14,Mafil,14105,7389.0,SE39,1.0
-Los Ríos,14,Mariquina,14106,23250.0,SE39,4.0
-Los Ríos,14,Paillaco,14107,20798.0,SE39,42.0
+Los Ríos,14,Mariquina,14106,23250.0,SE39,5.0
+Los Ríos,14,Paillaco,14107,20798.0,SE39,43.0
 Los Ríos,14,Panguipulli,14108,35991.0,SE39,38.0
-Los Ríos,14,Rio Bueno,14204,32925.0,SE39,37.0
-Los Ríos,14,Valdivia,14101,176774.0,SE39,181.0
+Los Ríos,14,Rio Bueno,14204,32925.0,SE39,39.0
+Los Ríos,14,Valdivia,14101,176774.0,SE39,184.0
 Los Ríos,14,Desconocido Los Rios,0,0.0,SE39,0.0
 Magallanes,12,Antartica,12202,137.0,SE39,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE39,0.0
 Magallanes,12,Laguna Blanca,12102,264.0,SE39,5.0
-Magallanes,12,Natales,12401,23782.0,SE39,74.0
-Magallanes,12,Porvenir,12301,7323.0,SE39,51.0
+Magallanes,12,Natales,12401,23782.0,SE39,80.0
+Magallanes,12,Porvenir,12301,7323.0,SE39,54.0
 Magallanes,12,Primavera,12302,694.0,SE39,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE39,1123.0
-Magallanes,12,Rio Verde,12103,211.0,SE39,0.0
-Magallanes,12,San Gregorio,12104,681.0,SE39,3.0
-Magallanes,12,Timaukel,12303,282.0,SE39,4.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE39,1282.0
+Magallanes,12,Rio Verde,12103,211.0,SE39,1.0
+Magallanes,12,San Gregorio,12104,681.0,SE39,5.0
+Magallanes,12,Timaukel,12303,282.0,SE39,5.0
 Magallanes,12,Torres del Paine,12402,1021.0,SE39,0.0
 Magallanes,12,Desconocido Magallanes,0,0.0,SE39,0.0
 Maule,07,Cauquenes,07201,44143.0,SE39,11.0
 Maule,07,Chanco,07202,9331.0,SE39,4.0
-Maule,07,Colbun,07402,22565.0,SE39,21.0
+Maule,07,Colbun,07402,22565.0,SE39,19.0
 Maule,07,Constitucion,07102,50348.0,SE39,4.0
 Maule,07,Curepto,07103,9426.0,SE39,7.0
-Maule,07,Curico,07301,163626.0,SE39,123.0
+Maule,07,Curico,07301,163626.0,SE39,124.0
 Maule,07,Empedrado,07104,4206.0,SE39,0.0
 Maule,07,Hualane,07302,10222.0,SE39,7.0
 Maule,07,Licanten,07303,6989.0,SE39,6.0
 Maule,07,Linares,07401,101073.0,SE39,32.0
 Maule,07,Longavi,07403,32810.0,SE39,32.0
-Maule,07,Maule,07105,60000.0,SE39,64.0
-Maule,07,Molina,07304,49800.0,SE39,75.0
-Maule,07,Parral,07404,44544.0,SE39,30.0
+Maule,07,Maule,07105,60000.0,SE39,65.0
+Maule,07,Molina,07304,49800.0,SE39,76.0
+Maule,07,Parral,07404,44544.0,SE39,33.0
 Maule,07,Pelarco,07106,9083.0,SE39,2.0
 Maule,07,Pelluhue,07203,8092.0,SE39,5.0
 Maule,07,Pencahue,07107,8601.0,SE39,4.0
@@ -11781,63 +11781,63 @@ Maule,07,Rio Claro,07108,14753.0,SE39,15.0
 Maule,07,Romeral,07306,16170.0,SE39,14.0
 Maule,07,Sagrada Familia,07307,19469.0,SE39,3.0
 Maule,07,San Clemente,07109,46292.0,SE39,40.0
-Maule,07,San Javier,07406,49451.0,SE39,37.0
+Maule,07,San Javier,07406,49451.0,SE39,38.0
 Maule,07,San Rafael,07110,9959.0,SE39,10.0
-Maule,07,Talca,07101,236724.0,SE39,267.0
-Maule,07,Teno,07308,30850.0,SE39,49.0
+Maule,07,Talca,07101,236724.0,SE39,274.0
+Maule,07,Teno,07308,30850.0,SE39,50.0
 Maule,07,Vichuquen,07309,4381.0,SE39,4.0
 Maule,07,Villa Alegre,07407,17512.0,SE39,8.0
 Maule,07,Yerbas Buenas,07408,19200.0,SE39,9.0
 Maule,07,Desconocido Maule,0,0.0,SE39,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE39,9.0
-Metropolitana,13,Buin,13402,109641.0,SE39,57.0
+Metropolitana,13,Buin,13402,109641.0,SE39,59.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE39,5.0
 Metropolitana,13,Cerrillos,13102,88956.0,SE39,23.0
-Metropolitana,13,Cerro Navia,13103,142465.0,SE39,36.0
-Metropolitana,13,Colina,13301,180353.0,SE39,37.0
-Metropolitana,13,Conchali,13104,139195.0,SE39,42.0
+Metropolitana,13,Cerro Navia,13103,142465.0,SE39,39.0
+Metropolitana,13,Colina,13301,180353.0,SE39,38.0
+Metropolitana,13,Conchali,13104,139195.0,SE39,46.0
 Metropolitana,13,Curacavi,13503,36430.0,SE39,8.0
-Metropolitana,13,El Bosque,13105,172000.0,SE39,47.0
+Metropolitana,13,El Bosque,13105,172000.0,SE39,50.0
 Metropolitana,13,El Monte,13602,40014.0,SE39,35.0
 Metropolitana,13,Estacion Central,13106,206792.0,SE39,34.0
 Metropolitana,13,Huechuraba,13107,112528.0,SE39,29.0
 Metropolitana,13,Independencia,13108,142065.0,SE39,53.0
-Metropolitana,13,Isla de Maipo,13603,40171.0,SE39,16.0
+Metropolitana,13,Isla de Maipo,13603,40171.0,SE39,17.0
 Metropolitana,13,La Cisterna,13109,100434.0,SE39,23.0
-Metropolitana,13,La Florida,13110,402433.0,SE39,105.0
-Metropolitana,13,La Granja,13111,122557.0,SE39,54.0
-Metropolitana,13,La Pintana,13112,189335.0,SE39,66.0
+Metropolitana,13,La Florida,13110,402433.0,SE39,113.0
+Metropolitana,13,La Granja,13111,122557.0,SE39,55.0
+Metropolitana,13,La Pintana,13112,189335.0,SE39,73.0
 Metropolitana,13,La Reina,13113,100252.0,SE39,28.0
 Metropolitana,13,Lampa,13302,126898.0,SE39,29.0
-Metropolitana,13,Las Condes,13114,330759.0,SE39,93.0
+Metropolitana,13,Las Condes,13114,330759.0,SE39,99.0
 Metropolitana,13,Lo Barnechea,13115,124076.0,SE39,35.0
 Metropolitana,13,Lo Espejo,13116,103865.0,SE39,39.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE39,23.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE39,25.0
 Metropolitana,13,Macul,13118,134635.0,SE39,40.0
-Metropolitana,13,Maipu,13119,578605.0,SE39,156.0
+Metropolitana,13,Maipu,13119,578605.0,SE39,159.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE39,1.0
 Metropolitana,13,Melipilla,13501,141612.0,SE39,64.0
-Metropolitana,13,Nunoa,13120,250192.0,SE39,58.0
-Metropolitana,13,Padre Hurtado,13604,74188.0,SE39,26.0
+Metropolitana,13,Nunoa,13120,250192.0,SE39,61.0
+Metropolitana,13,Padre Hurtado,13604,74188.0,SE39,27.0
 Metropolitana,13,Paine,13404,82766.0,SE39,47.0
-Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE39,48.0
-Metropolitana,13,Penaflor,13605,101058.0,SE39,31.0
-Metropolitana,13,Penalolen,13122,266798.0,SE39,103.0
+Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE39,49.0
+Metropolitana,13,Penaflor,13605,101058.0,SE39,33.0
+Metropolitana,13,Penalolen,13122,266798.0,SE39,105.0
 Metropolitana,13,Pirque,13202,30433.0,SE39,7.0
-Metropolitana,13,Providencia,13123,157749.0,SE39,50.0
-Metropolitana,13,Pudahuel,13124,253139.0,SE39,65.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE39,229.0
-Metropolitana,13,Quilicura,13125,254694.0,SE39,72.0
-Metropolitana,13,Quinta Normal,13126,136368.0,SE39,32.0
-Metropolitana,13,Recoleta,13127,190075.0,SE39,45.0
-Metropolitana,13,Renca,13128,160847.0,SE39,143.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE39,93.0
-Metropolitana,13,San Joaquin,13129,103485.0,SE39,24.0
+Metropolitana,13,Providencia,13123,157749.0,SE39,49.0
+Metropolitana,13,Pudahuel,13124,253139.0,SE39,68.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE39,245.0
+Metropolitana,13,Quilicura,13125,254694.0,SE39,75.0
+Metropolitana,13,Quinta Normal,13126,136368.0,SE39,35.0
+Metropolitana,13,Recoleta,13127,190075.0,SE39,44.0
+Metropolitana,13,Renca,13128,160847.0,SE39,148.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE39,94.0
+Metropolitana,13,San Joaquin,13129,103485.0,SE39,26.0
 Metropolitana,13,San Jose de Maipo,13203,18644.0,SE39,4.0
-Metropolitana,13,San Miguel,13130,133059.0,SE39,36.0
-Metropolitana,13,San Pedro,13505,11953.0,SE39,0.0
-Metropolitana,13,San Ramon,13131,86510.0,SE39,24.0
-Metropolitana,13,Santiago,13101,503147.0,SE39,139.0
+Metropolitana,13,San Miguel,13130,133059.0,SE39,38.0
+Metropolitana,13,San Pedro,13505,11953.0,SE39,1.0
+Metropolitana,13,San Ramon,13131,86510.0,SE39,27.0
+Metropolitana,13,Santiago,13101,503147.0,SE39,140.0
 Metropolitana,13,Talagante,13601,81838.0,SE39,20.0
 Metropolitana,13,Tiltil,13303,21477.0,SE39,3.0
 Metropolitana,13,Vitacura,13132,96774.0,SE39,15.0
@@ -11846,7 +11846,7 @@ O’Higgins,06,Chepica,06302,15925.0,SE39,6.0
 O’Higgins,06,Chimbarongo,06303,37696.0,SE39,9.0
 O’Higgins,06,Codegua,06102,14096.0,SE39,8.0
 O’Higgins,06,Coinco,06103,7831.0,SE39,1.0
-O’Higgins,06,Coltauco,06104,21263.0,SE39,4.0
+O’Higgins,06,Coltauco,06104,21263.0,SE39,5.0
 O’Higgins,06,Donihue,06105,22700.0,SE39,11.0
 O’Higgins,06,Graneros,06106,36504.0,SE39,25.0
 O’Higgins,06,La Estrella,06202,3114.0,SE39,2.0
@@ -11854,77 +11854,77 @@ O’Higgins,06,Las Cabras,06107,26749.0,SE39,8.0
 O’Higgins,06,Litueche,06203,6765.0,SE39,5.0
 O’Higgins,06,Lolol,06304,7289.0,SE39,0.0
 O’Higgins,06,Machali,06108,59913.0,SE39,16.0
-O’Higgins,06,Malloa,06109,14163.0,SE39,6.0
+O’Higgins,06,Malloa,06109,14163.0,SE39,7.0
 O’Higgins,06,Marchihue,06204,7632.0,SE39,1.0
 O’Higgins,06,Mostazal,06110,27462.0,SE39,13.0
-O’Higgins,06,Nancagua,06305,19141.0,SE39,4.0
+O’Higgins,06,Nancagua,06305,19141.0,SE39,5.0
 O’Higgins,06,Navidad,06205,6904.0,SE39,1.0
-O’Higgins,06,Olivar,06111,14624.0,SE39,18.0
+O’Higgins,06,Olivar,06111,14624.0,SE39,19.0
 O’Higgins,06,Palmilla,06306,13299.0,SE39,2.0
 O’Higgins,06,Paredones,06206,6349.0,SE39,1.0
 O’Higgins,06,Peralillo,06307,11848.0,SE39,5.0
 O’Higgins,06,Peumo,06112,14952.0,SE39,16.0
-O’Higgins,06,Pichidegua,06113,20743.0,SE39,21.0
+O’Higgins,06,Pichidegua,06113,20743.0,SE39,22.0
 O’Higgins,06,Pichilemu,06201,17882.0,SE39,4.0
 O’Higgins,06,Placilla,06308,9164.0,SE39,3.0
 O’Higgins,06,Pumanque,06309,3531.0,SE39,0.0
 O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE39,1.0
-O’Higgins,06,Rancagua,06101,265211.0,SE39,162.0
+O’Higgins,06,Rancagua,06101,265211.0,SE39,164.0
 O’Higgins,06,Rengo,06115,63710.0,SE39,17.0
 O’Higgins,06,Requinoa,06116,30371.0,SE39,10.0
-O’Higgins,06,San Fernando,06301,78642.0,SE39,72.0
-O’Higgins,06,San Vicente,06117,50617.0,SE39,35.0
+O’Higgins,06,San Fernando,06301,78642.0,SE39,76.0
+O’Higgins,06,San Vicente,06117,50617.0,SE39,37.0
 O’Higgins,06,Santa Cruz,06310,41096.0,SE39,12.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE39,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE39,42.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE39,47.0
 Tarapacá,01,Camina,01402,1375.0,SE39,1.0
 Tarapacá,01,Colchane,01403,1583.0,SE39,0.0
 Tarapacá,01,Huara,01404,3000.0,SE39,2.0
-Tarapacá,01,Iquique,01101,223463.0,SE39,81.0
+Tarapacá,01,Iquique,01101,223463.0,SE39,91.0
 Tarapacá,01,Pica,01405,5958.0,SE39,4.0
 Tarapacá,01,Pozo Almonte,01401,17395.0,SE39,8.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE39,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE39,3.0
 Valparaíso,05,Cabildo,05402,20663.0,SE39,2.0
-Valparaíso,05,Calera,05502,53591.0,SE39,13.0
+Valparaíso,05,Calera,05502,53591.0,SE39,14.0
 Valparaíso,05,Calle Larga,05302,16482.0,SE39,10.0
-Valparaíso,05,Cartagena,05603,25357.0,SE39,13.0
-Valparaíso,05,Casablanca,05102,29170.0,SE39,10.0
+Valparaíso,05,Cartagena,05603,25357.0,SE39,14.0
+Valparaíso,05,Casablanca,05102,29170.0,SE39,11.0
 Valparaíso,05,Catemu,05702,15213.0,SE39,14.0
 Valparaíso,05,Concon,05103,45889.0,SE39,14.0
-Valparaíso,05,El Quisco,05604,17742.0,SE39,5.0
+Valparaíso,05,El Quisco,05604,17742.0,SE39,6.0
 Valparaíso,05,El Tabo,05605,14338.0,SE39,3.0
 Valparaíso,05,Hijuelas,05503,19099.0,SE39,1.0
 Valparaíso,05,Isla de Pascua,05201,8277.0,SE39,0.0
 Valparaíso,05,Juan Fernandez,05104,1033.0,SE39,0.0
 Valparaíso,05,La Cruz,05504,25321.0,SE39,7.0
 Valparaíso,05,La Ligua,05401,37739.0,SE39,14.0
-Valparaíso,05,Limache,05802,49931.0,SE39,8.0
+Valparaíso,05,Limache,05802,49931.0,SE39,9.0
 Valparaíso,05,Llaillay,05703,26533.0,SE39,3.0
-Valparaíso,05,Los Andes,05301,68093.0,SE39,34.0
-Valparaíso,05,Nogales,05506,23490.0,SE39,5.0
+Valparaíso,05,Los Andes,05301,68093.0,SE39,33.0
+Valparaíso,05,Nogales,05506,23490.0,SE39,6.0
 Valparaíso,05,Olmue,05803,19266.0,SE39,3.0
 Valparaíso,05,Panquehue,05704,7633.0,SE39,0.0
-Valparaíso,05,Papudo,05403,6201.0,SE39,4.0
+Valparaíso,05,Papudo,05403,6201.0,SE39,5.0
 Valparaíso,05,Petorca,05404,10558.0,SE39,1.0
-Valparaíso,05,Puchuncavi,05105,20071.0,SE39,3.0
+Valparaíso,05,Puchuncavi,05105,20071.0,SE39,4.0
 Valparaíso,05,Putaendo,05705,17645.0,SE39,7.0
-Valparaíso,05,Quillota,05501,97572.0,SE39,16.0
-Valparaíso,05,Quilpue,05801,167085.0,SE39,62.0
-Valparaíso,05,Quintero,05107,36135.0,SE39,6.0
+Valparaíso,05,Quillota,05501,97572.0,SE39,20.0
+Valparaíso,05,Quilpue,05801,167085.0,SE39,71.0
+Valparaíso,05,Quintero,05107,36135.0,SE39,7.0
 Valparaíso,05,Rinconada,05303,11263.0,SE39,3.0
 Valparaíso,05,San Antonio,05601,96761.0,SE39,51.0
 Valparaíso,05,San Esteban,05304,20643.0,SE39,14.0
-Valparaíso,05,San Felipe,05701,83494.0,SE39,53.0
+Valparaíso,05,San Felipe,05701,83494.0,SE39,54.0
 Valparaíso,05,Santa Maria,05706,16367.0,SE39,6.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE39,0.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE39,129.0
-Valparaíso,05,Villa Alemana,05804,139310.0,SE39,39.0
-Valparaíso,05,Vina del Mar,05109,361371.0,SE39,117.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE39,131.0
+Valparaíso,05,Villa Alemana,05804,139310.0,SE39,40.0
+Valparaíso,05,Vina del Mar,05109,361371.0,SE39,122.0
 Valparaíso,05,Zapallar,05405,7994.0,SE39,2.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE39,0.0
 Ñuble,16,Bulnes,16102,22607.0,SE39,9.0
-Ñuble,16,Chillan,16101,198624.0,SE39,93.0
+Ñuble,16,Chillan,16101,198624.0,SE39,94.0
 Ñuble,16,Chillan Viejo,16103,33827.0,SE39,24.0
 Ñuble,16,Cobquecura,16202,5275.0,SE39,1.0
 Ñuble,16,Coelemu,16203,16845.0,SE39,15.0
@@ -11945,8 +11945,8 @@ Valparaíso,05,Desconocido Valparaiso,0,0.0,SE39,0.0
 Ñuble,16,Treguaco,16207,5696.0,SE39,5.0
 Ñuble,16,Yungay,16109,18596.0,SE39,4.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE39,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE40,138.0
-Antofagasta,02,Calama,02201,190336.0,SE40,50.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE40,210.0
+Antofagasta,02,Calama,02201,190336.0,SE40,66.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE40,0.0
 Antofagasta,02,Mejillones,02102,14776.0,SE40,6.0
 Antofagasta,02,Ollague,02202,287.0,SE40,0.0
@@ -11955,402 +11955,402 @@ Antofagasta,02,Sierra Gorda,02103,1746.0,SE40,1.0
 Antofagasta,02,Taltal,02104,13657.0,SE40,2.0
 Antofagasta,02,Tocopilla,02301,28079.0,SE40,4.0
 Antofagasta,02,Desconocido Antofagasta,0,0.0,SE40,0.0
-Araucanía,09,Angol,09201,56058.0,SE40,10.0
-Araucanía,09,Carahue,09102,25486.0,SE40,26.0
-Araucanía,09,Cholchol,09121,12341.0,SE40,1.0
-Araucanía,09,Collipulli,09202,26148.0,SE40,6.0
-Araucanía,09,Cunco,09103,18055.0,SE40,2.0
-Araucanía,09,Curacautin,09203,18178.0,SE40,0.0
+Araucanía,09,Angol,09201,56058.0,SE40,30.0
+Araucanía,09,Carahue,09102,25486.0,SE40,56.0
+Araucanía,09,Cholchol,09121,12341.0,SE40,7.0
+Araucanía,09,Collipulli,09202,26148.0,SE40,18.0
+Araucanía,09,Cunco,09103,18055.0,SE40,3.0
+Araucanía,09,Curacautin,09203,18178.0,SE40,1.0
 Araucanía,09,Curarrehue,09104,7802.0,SE40,1.0
-Araucanía,09,Ercilla,09204,8458.0,SE40,12.0
-Araucanía,09,Freire,09105,25446.0,SE40,3.0
-Araucanía,09,Galvarino,09106,12633.0,SE40,2.0
-Araucanía,09,Gorbea,09107,15148.0,SE40,3.0
-Araucanía,09,Lautaro,09108,40746.0,SE40,9.0
-Araucanía,09,Loncoche,09109,24739.0,SE40,15.0
-Araucanía,09,Lonquimay,09205,11049.0,SE40,1.0
-Araucanía,09,Los Sauces,09206,7517.0,SE40,1.0
-Araucanía,09,Lumaco,09207,10050.0,SE40,1.0
+Araucanía,09,Ercilla,09204,8458.0,SE40,17.0
+Araucanía,09,Freire,09105,25446.0,SE40,19.0
+Araucanía,09,Galvarino,09106,12633.0,SE40,21.0
+Araucanía,09,Gorbea,09107,15148.0,SE40,12.0
+Araucanía,09,Lautaro,09108,40746.0,SE40,20.0
+Araucanía,09,Loncoche,09109,24739.0,SE40,29.0
+Araucanía,09,Lonquimay,09205,11049.0,SE40,4.0
+Araucanía,09,Los Sauces,09206,7517.0,SE40,5.0
+Araucanía,09,Lumaco,09207,10050.0,SE40,2.0
 Araucanía,09,Melipeuco,09110,6265.0,SE40,2.0
-Araucanía,09,Nueva Imperial,09111,33777.0,SE40,4.0
-Araucanía,09,Padre Las Casas,09112,82110.0,SE40,12.0
-Araucanía,09,Perquenco,09113,7223.0,SE40,1.0
-Araucanía,09,Pitrufquen,09114,26096.0,SE40,4.0
-Araucanía,09,Pucon,09115,29782.0,SE40,8.0
+Araucanía,09,Nueva Imperial,09111,33777.0,SE40,11.0
+Araucanía,09,Padre Las Casas,09112,82110.0,SE40,38.0
+Araucanía,09,Perquenco,09113,7223.0,SE40,3.0
+Araucanía,09,Pitrufquen,09114,26096.0,SE40,21.0
+Araucanía,09,Pucon,09115,29782.0,SE40,25.0
 Araucanía,09,Puren,09208,12188.0,SE40,1.0
-Araucanía,09,Renaico,09209,10833.0,SE40,6.0
-Araucanía,09,Saavedra,09116,12793.0,SE40,7.0
-Araucanía,09,Temuco,09101,302931.0,SE40,103.0
-Araucanía,09,Teodoro Schmidt,09117,15786.0,SE40,18.0
-Araucanía,09,Tolten,09118,10055.0,SE40,2.0
-Araucanía,09,Traiguen,09210,19314.0,SE40,2.0
-Araucanía,09,Victoria,09211,35467.0,SE40,16.0
-Araucanía,09,Vilcun,09119,30766.0,SE40,0.0
-Araucanía,09,Villarrica,09120,59103.0,SE40,41.0
+Araucanía,09,Renaico,09209,10833.0,SE40,16.0
+Araucanía,09,Saavedra,09116,12793.0,SE40,20.0
+Araucanía,09,Temuco,09101,302931.0,SE40,224.0
+Araucanía,09,Teodoro Schmidt,09117,15786.0,SE40,27.0
+Araucanía,09,Tolten,09118,10055.0,SE40,3.0
+Araucanía,09,Traiguen,09210,19314.0,SE40,8.0
+Araucanía,09,Victoria,09211,35467.0,SE40,23.0
+Araucanía,09,Vilcun,09119,30766.0,SE40,16.0
+Araucanía,09,Villarrica,09120,59103.0,SE40,93.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE40,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE40,226.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE40,363.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE40,1.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE40,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE40,3.0
 Arica y Parinacota,15,Desconocido Arica y Parinacota,0,0.0,SE40,0.0
-Atacama,03,Alto del Carmen,03302,5729.0,SE40,0.0
-Atacama,03,Caldera,03102,19426.0,SE40,0.0
-Atacama,03,Chanaral,03201,13164.0,SE40,0.0
-Atacama,03,Copiapo,03101,171766.0,SE40,34.0
-Atacama,03,Diego de Almagro,03202,14358.0,SE40,10.0
-Atacama,03,Freirina,03303,7681.0,SE40,4.0
-Atacama,03,Huasco,03304,11264.0,SE40,7.0
-Atacama,03,Tierra Amarilla,03103,14312.0,SE40,8.0
-Atacama,03,Vallenar,03301,57009.0,SE40,43.0
+Atacama,03,Alto del Carmen,03302,5729.0,SE40,1.0
+Atacama,03,Caldera,03102,19426.0,SE40,3.0
+Atacama,03,Chanaral,03201,13164.0,SE40,1.0
+Atacama,03,Copiapo,03101,171766.0,SE40,69.0
+Atacama,03,Diego de Almagro,03202,14358.0,SE40,21.0
+Atacama,03,Freirina,03303,7681.0,SE40,10.0
+Atacama,03,Huasco,03304,11264.0,SE40,9.0
+Atacama,03,Tierra Amarilla,03103,14312.0,SE40,17.0
+Atacama,03,Vallenar,03301,57009.0,SE40,67.0
 Atacama,03,Desconocido Atacama,0,0.0,SE40,0.0
 Aysén,11,Aysen,11201,25002.0,SE40,2.0
 Aysén,11,Chile Chico,11401,5121.0,SE40,1.0
 Aysén,11,Cisnes,11202,5828.0,SE40,0.0
 Aysén,11,Cochrane,11301,3685.0,SE40,0.0
-Aysén,11,Coyhaique,11101,61210.0,SE40,59.0
+Aysén,11,Coyhaique,11101,61210.0,SE40,102.0
 Aysén,11,Guaitecas,11203,1599.0,SE40,1.0
 Aysén,11,Lago Verde,11102,920.0,SE40,0.0
 Aysén,11,OHiggins,11302,661.0,SE40,0.0
-Aysén,11,Rio Ibanez,11402,2699.0,SE40,1.0
+Aysén,11,Rio Ibanez,11402,2699.0,SE40,3.0
 Aysén,11,Tortel,11303,572.0,SE40,0.0
 Aysén,11,Desconocido Aysen,0,0.0,SE40,0.0
 Biobío,08,Alto Biobio,08314,6775.0,SE40,2.0
-Biobío,08,Antuco,08302,4306.0,SE40,1.0
-Biobío,08,Arauco,08202,38679.0,SE40,26.0
-Biobío,08,Cabrero,08303,30725.0,SE40,19.0
-Biobío,08,Canete,08203,37003.0,SE40,22.0
-Biobío,08,Chiguayante,08103,91180.0,SE40,39.0
-Biobío,08,Concepcion,08101,238092.0,SE40,81.0
+Biobío,08,Antuco,08302,4306.0,SE40,4.0
+Biobío,08,Arauco,08202,38679.0,SE40,29.0
+Biobío,08,Cabrero,08303,30725.0,SE40,28.0
+Biobío,08,Canete,08203,37003.0,SE40,40.0
+Biobío,08,Chiguayante,08103,91180.0,SE40,64.0
+Biobío,08,Concepcion,08101,238092.0,SE40,132.0
 Biobío,08,Contulmo,08204,6330.0,SE40,2.0
-Biobío,08,Coronel,08102,125829.0,SE40,90.0
-Biobío,08,Curanilahue,08205,33892.0,SE40,32.0
-Biobío,08,Florida,08104,11841.0,SE40,14.0
-Biobío,08,Hualpen,08112,97273.0,SE40,43.0
-Biobío,08,Hualqui,08105,26201.0,SE40,3.0
-Biobío,08,Laja,08304,23873.0,SE40,13.0
-Biobío,08,Lebu,08201,27100.0,SE40,16.0
-Biobío,08,Los Alamos,08206,22524.0,SE40,17.0
-Biobío,08,Los Angeles,08301,218515.0,SE40,36.0
-Biobío,08,Lota,08106,45750.0,SE40,48.0
-Biobío,08,Mulchen,08305,31041.0,SE40,2.0
-Biobío,08,Nacimiento,08306,27944.0,SE40,6.0
-Biobío,08,Negrete,08307,10429.0,SE40,8.0
-Biobío,08,Penco,08107,49865.0,SE40,13.0
-Biobío,08,Quilaco,08308,4179.0,SE40,0.0
+Biobío,08,Coronel,08102,125829.0,SE40,131.0
+Biobío,08,Curanilahue,08205,33892.0,SE40,42.0
+Biobío,08,Florida,08104,11841.0,SE40,16.0
+Biobío,08,Hualpen,08112,97273.0,SE40,55.0
+Biobío,08,Hualqui,08105,26201.0,SE40,8.0
+Biobío,08,Laja,08304,23873.0,SE40,19.0
+Biobío,08,Lebu,08201,27100.0,SE40,17.0
+Biobío,08,Los Alamos,08206,22524.0,SE40,31.0
+Biobío,08,Los Angeles,08301,218515.0,SE40,69.0
+Biobío,08,Lota,08106,45750.0,SE40,66.0
+Biobío,08,Mulchen,08305,31041.0,SE40,9.0
+Biobío,08,Nacimiento,08306,27944.0,SE40,7.0
+Biobío,08,Negrete,08307,10429.0,SE40,13.0
+Biobío,08,Penco,08107,49865.0,SE40,19.0
+Biobío,08,Quilaco,08308,4179.0,SE40,1.0
 Biobío,08,Quilleco,08309,10032.0,SE40,2.0
-Biobío,08,San Pedro de la Paz,08108,145906.0,SE40,46.0
-Biobío,08,San Rosendo,08310,3611.0,SE40,0.0
+Biobío,08,San Pedro de la Paz,08108,145906.0,SE40,63.0
+Biobío,08,San Rosendo,08310,3611.0,SE40,1.0
 Biobío,08,Santa Barbara,08311,14592.0,SE40,2.0
-Biobío,08,Santa Juana,08109,14779.0,SE40,6.0
-Biobío,08,Talcahuano,08110,158345.0,SE40,46.0
-Biobío,08,Tirua,08207,11019.0,SE40,1.0
-Biobío,08,Tome,08111,58729.0,SE40,25.0
-Biobío,08,Tucapel,08312,15205.0,SE40,1.0
-Biobío,08,Yumbel,08313,22132.0,SE40,9.0
+Biobío,08,Santa Juana,08109,14779.0,SE40,11.0
+Biobío,08,Talcahuano,08110,158345.0,SE40,62.0
+Biobío,08,Tirua,08207,11019.0,SE40,3.0
+Biobío,08,Tome,08111,58729.0,SE40,38.0
+Biobío,08,Tucapel,08312,15205.0,SE40,4.0
+Biobío,08,Yumbel,08313,22132.0,SE40,17.0
 Biobío,08,Desconocido Biobio,0,0.0,SE40,0.0
-Coquimbo,04,Andacollo,04103,11791.0,SE40,8.0
+Coquimbo,04,Andacollo,04103,11791.0,SE40,10.0
 Coquimbo,04,Canela,04202,9546.0,SE40,1.0
-Coquimbo,04,Combarbala,04302,13884.0,SE40,0.0
-Coquimbo,04,Coquimbo,04102,256735.0,SE40,49.0
-Coquimbo,04,Illapel,04201,32801.0,SE40,13.0
+Coquimbo,04,Combarbala,04302,13884.0,SE40,1.0
+Coquimbo,04,Coquimbo,04102,256735.0,SE40,70.0
+Coquimbo,04,Illapel,04201,32801.0,SE40,14.0
 Coquimbo,04,La Higuera,04104,4450.0,SE40,0.0
-Coquimbo,04,La Serena,04101,249656.0,SE40,26.0
-Coquimbo,04,Los Vilos,04203,23374.0,SE40,5.0
-Coquimbo,04,Monte Patria,04303,32527.0,SE40,2.0
-Coquimbo,04,Ovalle,04301,121269.0,SE40,14.0
+Coquimbo,04,La Serena,04101,249656.0,SE40,59.0
+Coquimbo,04,Los Vilos,04203,23374.0,SE40,7.0
+Coquimbo,04,Monte Patria,04303,32527.0,SE40,6.0
+Coquimbo,04,Ovalle,04301,121269.0,SE40,20.0
 Coquimbo,04,Paiguano,04105,4675.0,SE40,1.0
 Coquimbo,04,Punitaqui,04304,12165.0,SE40,2.0
 Coquimbo,04,Rio Hurtado,04305,4372.0,SE40,0.0
 Coquimbo,04,Salamanca,04204,29110.0,SE40,1.0
-Coquimbo,04,Vicuna,04106,29741.0,SE40,3.0
+Coquimbo,04,Vicuna,04106,29741.0,SE40,4.0
 Coquimbo,04,Desconocido Coquimbo,0,0.0,SE40,0.0
-Los Lagos,10,Ancud,10202,42458.0,SE40,12.0
-Los Lagos,10,Calbuco,10102,36744.0,SE40,8.0
-Los Lagos,10,Castro,10201,47607.0,SE40,8.0
+Los Lagos,10,Ancud,10202,42458.0,SE40,16.0
+Los Lagos,10,Calbuco,10102,36744.0,SE40,24.0
+Los Lagos,10,Castro,10201,47607.0,SE40,9.0
 Los Lagos,10,Chaiten,10401,5020.0,SE40,0.0
-Los Lagos,10,Chonchi,10203,16013.0,SE40,1.0
+Los Lagos,10,Chonchi,10203,16013.0,SE40,4.0
 Los Lagos,10,Cochamo,10103,4006.0,SE40,0.0
 Los Lagos,10,Curaco de Velez,10204,4066.0,SE40,0.0
 Los Lagos,10,Dalcahue,10205,15069.0,SE40,1.0
-Los Lagos,10,Fresia,10104,12656.0,SE40,33.0
-Los Lagos,10,Frutillar,10105,20223.0,SE40,20.0
+Los Lagos,10,Fresia,10104,12656.0,SE40,39.0
+Los Lagos,10,Frutillar,10105,20223.0,SE40,33.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE40,0.0
-Los Lagos,10,Hualaihue,10403,9525.0,SE40,7.0
-Los Lagos,10,Llanquihue,10107,18621.0,SE40,20.0
-Los Lagos,10,Los Muermos,10106,17817.0,SE40,14.0
-Los Lagos,10,Maullin,10108,14894.0,SE40,9.0
-Los Lagos,10,Osorno,10301,173410.0,SE40,135.0
+Los Lagos,10,Hualaihue,10403,9525.0,SE40,8.0
+Los Lagos,10,Llanquihue,10107,18621.0,SE40,27.0
+Los Lagos,10,Los Muermos,10106,17817.0,SE40,30.0
+Los Lagos,10,Maullin,10108,14894.0,SE40,11.0
+Los Lagos,10,Osorno,10301,173410.0,SE40,230.0
 Los Lagos,10,Palena,10404,1827.0,SE40,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE40,122.0
-Los Lagos,10,Puerto Octay,10302,9192.0,SE40,5.0
-Los Lagos,10,Puerto Varas,10109,48620.0,SE40,23.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE40,241.0
+Los Lagos,10,Puerto Octay,10302,9192.0,SE40,9.0
+Los Lagos,10,Puerto Varas,10109,48620.0,SE40,37.0
 Los Lagos,10,Puqueldon,10206,4201.0,SE40,0.0
-Los Lagos,10,Purranque,10303,21080.0,SE40,20.0
-Los Lagos,10,Puyehue,10304,11787.0,SE40,23.0
+Los Lagos,10,Purranque,10303,21080.0,SE40,34.0
+Los Lagos,10,Puyehue,10304,11787.0,SE40,35.0
 Los Lagos,10,Queilen,10207,5543.0,SE40,0.0
 Los Lagos,10,Quellon,10208,29309.0,SE40,0.0
 Los Lagos,10,Quemchi,10209,8783.0,SE40,0.0
 Los Lagos,10,Quinchao,10210,8298.0,SE40,0.0
-Los Lagos,10,Rio Negro,10305,14275.0,SE40,43.0
-Los Lagos,10,San Juan de la Costa,10306,7639.0,SE40,25.0
-Los Lagos,10,San Pablo,10307,10553.0,SE40,11.0
+Los Lagos,10,Rio Negro,10305,14275.0,SE40,63.0
+Los Lagos,10,San Juan de la Costa,10306,7639.0,SE40,42.0
+Los Lagos,10,San Pablo,10307,10553.0,SE40,12.0
 Los Lagos,10,Desconocido Los Lagos,0,0.0,SE40,0.0
-Los Ríos,14,Corral,14102,5447.0,SE40,8.0
-Los Ríos,14,Futrono,14202,15261.0,SE40,3.0
-Los Ríos,14,La Union,14201,39538.0,SE40,6.0
+Los Ríos,14,Corral,14102,5447.0,SE40,12.0
+Los Ríos,14,Futrono,14202,15261.0,SE40,4.0
+Los Ríos,14,La Union,14201,39538.0,SE40,17.0
 Los Ríos,14,Lago Ranco,14203,10292.0,SE40,1.0
-Los Ríos,14,Lanco,14103,17652.0,SE40,20.0
-Los Ríos,14,Los Lagos,14104,20518.0,SE40,2.0
-Los Ríos,14,Mafil,14105,7389.0,SE40,3.0
-Los Ríos,14,Mariquina,14106,23250.0,SE40,11.0
-Los Ríos,14,Paillaco,14107,20798.0,SE40,12.0
-Los Ríos,14,Panguipulli,14108,35991.0,SE40,19.0
-Los Ríos,14,Rio Bueno,14204,32925.0,SE40,18.0
-Los Ríos,14,Valdivia,14101,176774.0,SE40,92.0
+Los Ríos,14,Lanco,14103,17652.0,SE40,22.0
+Los Ríos,14,Los Lagos,14104,20518.0,SE40,7.0
+Los Ríos,14,Mafil,14105,7389.0,SE40,5.0
+Los Ríos,14,Mariquina,14106,23250.0,SE40,17.0
+Los Ríos,14,Paillaco,14107,20798.0,SE40,22.0
+Los Ríos,14,Panguipulli,14108,35991.0,SE40,22.0
+Los Ríos,14,Rio Bueno,14204,32925.0,SE40,32.0
+Los Ríos,14,Valdivia,14101,176774.0,SE40,150.0
 Los Ríos,14,Desconocido Los Rios,0,0.0,SE40,0.0
 Magallanes,12,Antartica,12202,137.0,SE40,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE40,0.0
 Magallanes,12,Laguna Blanca,12102,264.0,SE40,0.0
-Magallanes,12,Natales,12401,23782.0,SE40,22.0
-Magallanes,12,Porvenir,12301,7323.0,SE40,21.0
-Magallanes,12,Primavera,12302,694.0,SE40,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE40,442.0
+Magallanes,12,Natales,12401,23782.0,SE40,69.0
+Magallanes,12,Porvenir,12301,7323.0,SE40,39.0
+Magallanes,12,Primavera,12302,694.0,SE40,1.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE40,883.0
 Magallanes,12,Rio Verde,12103,211.0,SE40,0.0
-Magallanes,12,San Gregorio,12104,681.0,SE40,1.0
-Magallanes,12,Timaukel,12303,282.0,SE40,0.0
+Magallanes,12,San Gregorio,12104,681.0,SE40,3.0
+Magallanes,12,Timaukel,12303,282.0,SE40,2.0
 Magallanes,12,Torres del Paine,12402,1021.0,SE40,0.0
 Magallanes,12,Desconocido Magallanes,0,0.0,SE40,0.0
-Maule,07,Cauquenes,07201,44143.0,SE40,2.0
-Maule,07,Chanco,07202,9331.0,SE40,9.0
-Maule,07,Colbun,07402,22565.0,SE40,17.0
+Maule,07,Cauquenes,07201,44143.0,SE40,3.0
+Maule,07,Chanco,07202,9331.0,SE40,15.0
+Maule,07,Colbun,07402,22565.0,SE40,25.0
 Maule,07,Constitucion,07102,50348.0,SE40,1.0
-Maule,07,Curepto,07103,9426.0,SE40,3.0
-Maule,07,Curico,07301,163626.0,SE40,51.0
+Maule,07,Curepto,07103,9426.0,SE40,4.0
+Maule,07,Curico,07301,163626.0,SE40,97.0
 Maule,07,Empedrado,07104,4206.0,SE40,0.0
 Maule,07,Hualane,07302,10222.0,SE40,2.0
 Maule,07,Licanten,07303,6989.0,SE40,1.0
-Maule,07,Linares,07401,101073.0,SE40,12.0
-Maule,07,Longavi,07403,32810.0,SE40,20.0
-Maule,07,Maule,07105,60000.0,SE40,26.0
-Maule,07,Molina,07304,49800.0,SE40,17.0
-Maule,07,Parral,07404,44544.0,SE40,14.0
-Maule,07,Pelarco,07106,9083.0,SE40,2.0
-Maule,07,Pelluhue,07203,8092.0,SE40,1.0
-Maule,07,Pencahue,07107,8601.0,SE40,6.0
+Maule,07,Linares,07401,101073.0,SE40,16.0
+Maule,07,Longavi,07403,32810.0,SE40,21.0
+Maule,07,Maule,07105,60000.0,SE40,46.0
+Maule,07,Molina,07304,49800.0,SE40,34.0
+Maule,07,Parral,07404,44544.0,SE40,23.0
+Maule,07,Pelarco,07106,9083.0,SE40,3.0
+Maule,07,Pelluhue,07203,8092.0,SE40,7.0
+Maule,07,Pencahue,07107,8601.0,SE40,7.0
 Maule,07,Rauco,07305,11248.0,SE40,6.0
-Maule,07,Retiro,07405,21071.0,SE40,19.0
+Maule,07,Retiro,07405,21071.0,SE40,23.0
 Maule,07,Rio Claro,07108,14753.0,SE40,6.0
-Maule,07,Romeral,07306,16170.0,SE40,1.0
+Maule,07,Romeral,07306,16170.0,SE40,2.0
 Maule,07,Sagrada Familia,07307,19469.0,SE40,1.0
-Maule,07,San Clemente,07109,46292.0,SE40,13.0
-Maule,07,San Javier,07406,49451.0,SE40,15.0
-Maule,07,San Rafael,07110,9959.0,SE40,6.0
-Maule,07,Talca,07101,236724.0,SE40,145.0
-Maule,07,Teno,07308,30850.0,SE40,6.0
+Maule,07,San Clemente,07109,46292.0,SE40,14.0
+Maule,07,San Javier,07406,49451.0,SE40,22.0
+Maule,07,San Rafael,07110,9959.0,SE40,10.0
+Maule,07,Talca,07101,236724.0,SE40,219.0
+Maule,07,Teno,07308,30850.0,SE40,11.0
 Maule,07,Vichuquen,07309,4381.0,SE40,3.0
-Maule,07,Villa Alegre,07407,17512.0,SE40,9.0
-Maule,07,Yerbas Buenas,07408,19200.0,SE40,2.0
+Maule,07,Villa Alegre,07407,17512.0,SE40,12.0
+Maule,07,Yerbas Buenas,07408,19200.0,SE40,3.0
 Maule,07,Desconocido Maule,0,0.0,SE40,0.0
 Metropolitana,13,Alhue,13502,7405.0,SE40,4.0
-Metropolitana,13,Buin,13402,109641.0,SE40,24.0
-Metropolitana,13,Calera de Tango,13403,28525.0,SE40,5.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE40,8.0
-Metropolitana,13,Cerro Navia,13103,142465.0,SE40,23.0
-Metropolitana,13,Colina,13301,180353.0,SE40,16.0
-Metropolitana,13,Conchali,13104,139195.0,SE40,18.0
-Metropolitana,13,Curacavi,13503,36430.0,SE40,1.0
-Metropolitana,13,El Bosque,13105,172000.0,SE40,18.0
-Metropolitana,13,El Monte,13602,40014.0,SE40,8.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE40,32.0
-Metropolitana,13,Huechuraba,13107,112528.0,SE40,16.0
-Metropolitana,13,Independencia,13108,142065.0,SE40,35.0
-Metropolitana,13,Isla de Maipo,13603,40171.0,SE40,10.0
-Metropolitana,13,La Cisterna,13109,100434.0,SE40,9.0
-Metropolitana,13,La Florida,13110,402433.0,SE40,47.0
-Metropolitana,13,La Granja,13111,122557.0,SE40,22.0
-Metropolitana,13,La Pintana,13112,189335.0,SE40,19.0
-Metropolitana,13,La Reina,13113,100252.0,SE40,26.0
-Metropolitana,13,Lampa,13302,126898.0,SE40,14.0
-Metropolitana,13,Las Condes,13114,330759.0,SE40,66.0
-Metropolitana,13,Lo Barnechea,13115,124076.0,SE40,20.0
-Metropolitana,13,Lo Espejo,13116,103865.0,SE40,25.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE40,26.0
-Metropolitana,13,Macul,13118,134635.0,SE40,18.0
-Metropolitana,13,Maipu,13119,578605.0,SE40,65.0
+Metropolitana,13,Buin,13402,109641.0,SE40,39.0
+Metropolitana,13,Calera de Tango,13403,28525.0,SE40,6.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE40,17.0
+Metropolitana,13,Cerro Navia,13103,142465.0,SE40,26.0
+Metropolitana,13,Colina,13301,180353.0,SE40,28.0
+Metropolitana,13,Conchali,13104,139195.0,SE40,27.0
+Metropolitana,13,Curacavi,13503,36430.0,SE40,5.0
+Metropolitana,13,El Bosque,13105,172000.0,SE40,50.0
+Metropolitana,13,El Monte,13602,40014.0,SE40,10.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE40,44.0
+Metropolitana,13,Huechuraba,13107,112528.0,SE40,24.0
+Metropolitana,13,Independencia,13108,142065.0,SE40,42.0
+Metropolitana,13,Isla de Maipo,13603,40171.0,SE40,16.0
+Metropolitana,13,La Cisterna,13109,100434.0,SE40,15.0
+Metropolitana,13,La Florida,13110,402433.0,SE40,72.0
+Metropolitana,13,La Granja,13111,122557.0,SE40,38.0
+Metropolitana,13,La Pintana,13112,189335.0,SE40,39.0
+Metropolitana,13,La Reina,13113,100252.0,SE40,33.0
+Metropolitana,13,Lampa,13302,126898.0,SE40,25.0
+Metropolitana,13,Las Condes,13114,330759.0,SE40,96.0
+Metropolitana,13,Lo Barnechea,13115,124076.0,SE40,33.0
+Metropolitana,13,Lo Espejo,13116,103865.0,SE40,36.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE40,41.0
+Metropolitana,13,Macul,13118,134635.0,SE40,27.0
+Metropolitana,13,Maipu,13119,578605.0,SE40,116.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE40,2.0
-Metropolitana,13,Melipilla,13501,141612.0,SE40,28.0
-Metropolitana,13,Nunoa,13120,250192.0,SE40,21.0
-Metropolitana,13,Padre Hurtado,13604,74188.0,SE40,14.0
-Metropolitana,13,Paine,13404,82766.0,SE40,14.0
-Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE40,6.0
-Metropolitana,13,Penaflor,13605,101058.0,SE40,14.0
-Metropolitana,13,Penalolen,13122,266798.0,SE40,44.0
-Metropolitana,13,Pirque,13202,30433.0,SE40,4.0
-Metropolitana,13,Providencia,13123,157749.0,SE40,17.0
-Metropolitana,13,Pudahuel,13124,253139.0,SE40,42.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE40,125.0
-Metropolitana,13,Quilicura,13125,254694.0,SE40,22.0
-Metropolitana,13,Quinta Normal,13126,136368.0,SE40,31.0
-Metropolitana,13,Recoleta,13127,190075.0,SE40,22.0
-Metropolitana,13,Renca,13128,160847.0,SE40,39.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE40,30.0
-Metropolitana,13,San Joaquin,13129,103485.0,SE40,10.0
-Metropolitana,13,San Jose de Maipo,13203,18644.0,SE40,3.0
-Metropolitana,13,San Miguel,13130,133059.0,SE40,22.0
-Metropolitana,13,San Pedro,13505,11953.0,SE40,0.0
-Metropolitana,13,San Ramon,13131,86510.0,SE40,14.0
-Metropolitana,13,Santiago,13101,503147.0,SE40,67.0
-Metropolitana,13,Talagante,13601,81838.0,SE40,17.0
+Metropolitana,13,Melipilla,13501,141612.0,SE40,34.0
+Metropolitana,13,Nunoa,13120,250192.0,SE40,51.0
+Metropolitana,13,Padre Hurtado,13604,74188.0,SE40,26.0
+Metropolitana,13,Paine,13404,82766.0,SE40,22.0
+Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE40,13.0
+Metropolitana,13,Penaflor,13605,101058.0,SE40,30.0
+Metropolitana,13,Penalolen,13122,266798.0,SE40,61.0
+Metropolitana,13,Pirque,13202,30433.0,SE40,7.0
+Metropolitana,13,Providencia,13123,157749.0,SE40,31.0
+Metropolitana,13,Pudahuel,13124,253139.0,SE40,58.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE40,192.0
+Metropolitana,13,Quilicura,13125,254694.0,SE40,42.0
+Metropolitana,13,Quinta Normal,13126,136368.0,SE40,43.0
+Metropolitana,13,Recoleta,13127,190075.0,SE40,44.0
+Metropolitana,13,Renca,13128,160847.0,SE40,62.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE40,104.0
+Metropolitana,13,San Joaquin,13129,103485.0,SE40,23.0
+Metropolitana,13,San Jose de Maipo,13203,18644.0,SE40,4.0
+Metropolitana,13,San Miguel,13130,133059.0,SE40,30.0
+Metropolitana,13,San Pedro,13505,11953.0,SE40,1.0
+Metropolitana,13,San Ramon,13131,86510.0,SE40,19.0
+Metropolitana,13,Santiago,13101,503147.0,SE40,91.0
+Metropolitana,13,Talagante,13601,81838.0,SE40,25.0
 Metropolitana,13,Tiltil,13303,21477.0,SE40,1.0
-Metropolitana,13,Vitacura,13132,96774.0,SE40,13.0
+Metropolitana,13,Vitacura,13132,96774.0,SE40,22.0
 Metropolitana,13,Desconocido Metropolitana,0,0.0,SE40,1.0
-O’Higgins,06,Chepica,06302,15925.0,SE40,9.0
-O’Higgins,06,Chimbarongo,06303,37696.0,SE40,4.0
-O’Higgins,06,Codegua,06102,14096.0,SE40,2.0
+O’Higgins,06,Chepica,06302,15925.0,SE40,11.0
+O’Higgins,06,Chimbarongo,06303,37696.0,SE40,7.0
+O’Higgins,06,Codegua,06102,14096.0,SE40,5.0
 O’Higgins,06,Coinco,06103,7831.0,SE40,0.0
-O’Higgins,06,Coltauco,06104,21263.0,SE40,5.0
-O’Higgins,06,Donihue,06105,22700.0,SE40,16.0
-O’Higgins,06,Graneros,06106,36504.0,SE40,20.0
+O’Higgins,06,Coltauco,06104,21263.0,SE40,12.0
+O’Higgins,06,Donihue,06105,22700.0,SE40,21.0
+O’Higgins,06,Graneros,06106,36504.0,SE40,30.0
 O’Higgins,06,La Estrella,06202,3114.0,SE40,0.0
-O’Higgins,06,Las Cabras,06107,26749.0,SE40,5.0
+O’Higgins,06,Las Cabras,06107,26749.0,SE40,8.0
 O’Higgins,06,Litueche,06203,6765.0,SE40,1.0
 O’Higgins,06,Lolol,06304,7289.0,SE40,0.0
-O’Higgins,06,Machali,06108,59913.0,SE40,12.0
-O’Higgins,06,Malloa,06109,14163.0,SE40,12.0
+O’Higgins,06,Machali,06108,59913.0,SE40,24.0
+O’Higgins,06,Malloa,06109,14163.0,SE40,14.0
 O’Higgins,06,Marchihue,06204,7632.0,SE40,0.0
-O’Higgins,06,Mostazal,06110,27462.0,SE40,2.0
-O’Higgins,06,Nancagua,06305,19141.0,SE40,2.0
+O’Higgins,06,Mostazal,06110,27462.0,SE40,5.0
+O’Higgins,06,Nancagua,06305,19141.0,SE40,5.0
 O’Higgins,06,Navidad,06205,6904.0,SE40,1.0
-O’Higgins,06,Olivar,06111,14624.0,SE40,6.0
-O’Higgins,06,Palmilla,06306,13299.0,SE40,1.0
-O’Higgins,06,Paredones,06206,6349.0,SE40,2.0
-O’Higgins,06,Peralillo,06307,11848.0,SE40,0.0
-O’Higgins,06,Peumo,06112,14952.0,SE40,7.0
-O’Higgins,06,Pichidegua,06113,20743.0,SE40,8.0
-O’Higgins,06,Pichilemu,06201,17882.0,SE40,1.0
-O’Higgins,06,Placilla,06308,9164.0,SE40,4.0
+O’Higgins,06,Olivar,06111,14624.0,SE40,9.0
+O’Higgins,06,Palmilla,06306,13299.0,SE40,2.0
+O’Higgins,06,Paredones,06206,6349.0,SE40,3.0
+O’Higgins,06,Peralillo,06307,11848.0,SE40,1.0
+O’Higgins,06,Peumo,06112,14952.0,SE40,10.0
+O’Higgins,06,Pichidegua,06113,20743.0,SE40,10.0
+O’Higgins,06,Pichilemu,06201,17882.0,SE40,4.0
+O’Higgins,06,Placilla,06308,9164.0,SE40,6.0
 O’Higgins,06,Pumanque,06309,3531.0,SE40,0.0
-O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE40,1.0
-O’Higgins,06,Rancagua,06101,265211.0,SE40,83.0
-O’Higgins,06,Rengo,06115,63710.0,SE40,7.0
-O’Higgins,06,Requinoa,06116,30371.0,SE40,10.0
-O’Higgins,06,San Fernando,06301,78642.0,SE40,41.0
-O’Higgins,06,San Vicente,06117,50617.0,SE40,12.0
-O’Higgins,06,Santa Cruz,06310,41096.0,SE40,4.0
+O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE40,4.0
+O’Higgins,06,Rancagua,06101,265211.0,SE40,133.0
+O’Higgins,06,Rengo,06115,63710.0,SE40,24.0
+O’Higgins,06,Requinoa,06116,30371.0,SE40,17.0
+O’Higgins,06,San Fernando,06301,78642.0,SE40,61.0
+O’Higgins,06,San Vicente,06117,50617.0,SE40,25.0
+O’Higgins,06,Santa Cruz,06310,41096.0,SE40,13.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE40,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE40,21.0
-Tarapacá,01,Camina,01402,1375.0,SE40,1.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE40,39.0
+Tarapacá,01,Camina,01402,1375.0,SE40,2.0
 Tarapacá,01,Colchane,01403,1583.0,SE40,0.0
-Tarapacá,01,Huara,01404,3000.0,SE40,0.0
-Tarapacá,01,Iquique,01101,223463.0,SE40,56.0
+Tarapacá,01,Huara,01404,3000.0,SE40,1.0
+Tarapacá,01,Iquique,01101,223463.0,SE40,99.0
 Tarapacá,01,Pica,01405,5958.0,SE40,4.0
-Tarapacá,01,Pozo Almonte,01401,17395.0,SE40,9.0
+Tarapacá,01,Pozo Almonte,01401,17395.0,SE40,11.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE40,0.0
-Valparaíso,05,Algarrobo,05602,15174.0,SE40,7.0
+Valparaíso,05,Algarrobo,05602,15174.0,SE40,10.0
 Valparaíso,05,Cabildo,05402,20663.0,SE40,1.0
-Valparaíso,05,Calera,05502,53591.0,SE40,4.0
-Valparaíso,05,Calle Larga,05302,16482.0,SE40,7.0
-Valparaíso,05,Cartagena,05603,25357.0,SE40,4.0
-Valparaíso,05,Casablanca,05102,29170.0,SE40,1.0
-Valparaíso,05,Catemu,05702,15213.0,SE40,7.0
-Valparaíso,05,Concon,05103,45889.0,SE40,5.0
-Valparaíso,05,El Quisco,05604,17742.0,SE40,4.0
-Valparaíso,05,El Tabo,05605,14338.0,SE40,2.0
-Valparaíso,05,Hijuelas,05503,19099.0,SE40,4.0
+Valparaíso,05,Calera,05502,53591.0,SE40,8.0
+Valparaíso,05,Calle Larga,05302,16482.0,SE40,11.0
+Valparaíso,05,Cartagena,05603,25357.0,SE40,7.0
+Valparaíso,05,Casablanca,05102,29170.0,SE40,3.0
+Valparaíso,05,Catemu,05702,15213.0,SE40,8.0
+Valparaíso,05,Concon,05103,45889.0,SE40,11.0
+Valparaíso,05,El Quisco,05604,17742.0,SE40,5.0
+Valparaíso,05,El Tabo,05605,14338.0,SE40,3.0
+Valparaíso,05,Hijuelas,05503,19099.0,SE40,10.0
 Valparaíso,05,Isla de Pascua,05201,8277.0,SE40,0.0
 Valparaíso,05,Juan Fernandez,05104,1033.0,SE40,0.0
-Valparaíso,05,La Cruz,05504,25321.0,SE40,5.0
-Valparaíso,05,La Ligua,05401,37739.0,SE40,21.0
-Valparaíso,05,Limache,05802,49931.0,SE40,7.0
-Valparaíso,05,Llaillay,05703,26533.0,SE40,13.0
-Valparaíso,05,Los Andes,05301,68093.0,SE40,26.0
-Valparaíso,05,Nogales,05506,23490.0,SE40,8.0
-Valparaíso,05,Olmue,05803,19266.0,SE40,4.0
+Valparaíso,05,La Cruz,05504,25321.0,SE40,8.0
+Valparaíso,05,La Ligua,05401,37739.0,SE40,27.0
+Valparaíso,05,Limache,05802,49931.0,SE40,13.0
+Valparaíso,05,Llaillay,05703,26533.0,SE40,20.0
+Valparaíso,05,Los Andes,05301,68093.0,SE40,46.0
+Valparaíso,05,Nogales,05506,23490.0,SE40,9.0
+Valparaíso,05,Olmue,05803,19266.0,SE40,6.0
 Valparaíso,05,Panquehue,05704,7633.0,SE40,1.0
-Valparaíso,05,Papudo,05403,6201.0,SE40,6.0
+Valparaíso,05,Papudo,05403,6201.0,SE40,10.0
 Valparaíso,05,Petorca,05404,10558.0,SE40,0.0
-Valparaíso,05,Puchuncavi,05105,20071.0,SE40,2.0
-Valparaíso,05,Putaendo,05705,17645.0,SE40,8.0
-Valparaíso,05,Quillota,05501,97572.0,SE40,10.0
-Valparaíso,05,Quilpue,05801,167085.0,SE40,41.0
-Valparaíso,05,Quintero,05107,36135.0,SE40,2.0
+Valparaíso,05,Puchuncavi,05105,20071.0,SE40,3.0
+Valparaíso,05,Putaendo,05705,17645.0,SE40,10.0
+Valparaíso,05,Quillota,05501,97572.0,SE40,16.0
+Valparaíso,05,Quilpue,05801,167085.0,SE40,77.0
+Valparaíso,05,Quintero,05107,36135.0,SE40,3.0
 Valparaíso,05,Rinconada,05303,11263.0,SE40,1.0
-Valparaíso,05,San Antonio,05601,96761.0,SE40,13.0
-Valparaíso,05,San Esteban,05304,20643.0,SE40,8.0
-Valparaíso,05,San Felipe,05701,83494.0,SE40,18.0
-Valparaíso,05,Santa Maria,05706,16367.0,SE40,8.0
+Valparaíso,05,San Antonio,05601,96761.0,SE40,26.0
+Valparaíso,05,San Esteban,05304,20643.0,SE40,9.0
+Valparaíso,05,San Felipe,05701,83494.0,SE40,26.0
+Valparaíso,05,Santa Maria,05706,16367.0,SE40,11.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE40,0.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE40,60.0
-Valparaíso,05,Villa Alemana,05804,139310.0,SE40,23.0
-Valparaíso,05,Vina del Mar,05109,361371.0,SE40,68.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE40,115.0
+Valparaíso,05,Villa Alemana,05804,139310.0,SE40,46.0
+Valparaíso,05,Vina del Mar,05109,361371.0,SE40,110.0
 Valparaíso,05,Zapallar,05405,7994.0,SE40,0.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE40,0.0
-Ñuble,16,Bulnes,16102,22607.0,SE40,8.0
-Ñuble,16,Chillan,16101,198624.0,SE40,39.0
-Ñuble,16,Chillan Viejo,16103,33827.0,SE40,6.0
+Ñuble,16,Bulnes,16102,22607.0,SE40,12.0
+Ñuble,16,Chillan,16101,198624.0,SE40,70.0
+Ñuble,16,Chillan Viejo,16103,33827.0,SE40,11.0
 Ñuble,16,Cobquecura,16202,5275.0,SE40,1.0
-Ñuble,16,Coelemu,16203,16845.0,SE40,9.0
-Ñuble,16,Coihueco,16302,28375.0,SE40,41.0
+Ñuble,16,Coelemu,16203,16845.0,SE40,12.0
+Ñuble,16,Coihueco,16302,28375.0,SE40,51.0
 Ñuble,16,El Carmen,16104,12334.0,SE40,0.0
-Ñuble,16,Ninhue,16204,5414.0,SE40,0.0
-Ñuble,16,Niquen,16303,11567.0,SE40,2.0
+Ñuble,16,Ninhue,16204,5414.0,SE40,1.0
+Ñuble,16,Niquen,16303,11567.0,SE40,4.0
 Ñuble,16,Pemuco,16105,8639.0,SE40,0.0
-Ñuble,16,Pinto,16106,11880.0,SE40,3.0
-Ñuble,16,Portezuelo,16205,4940.0,SE40,2.0
-Ñuble,16,Quillon,16107,18777.0,SE40,11.0
-Ñuble,16,Quirihue,16201,12192.0,SE40,10.0
-Ñuble,16,Ranquil,16206,6261.0,SE40,4.0
-Ñuble,16,San Carlos,16301,56252.0,SE40,5.0
+Ñuble,16,Pinto,16106,11880.0,SE40,8.0
+Ñuble,16,Portezuelo,16205,4940.0,SE40,3.0
+Ñuble,16,Quillon,16107,18777.0,SE40,12.0
+Ñuble,16,Quirihue,16201,12192.0,SE40,11.0
+Ñuble,16,Ranquil,16206,6261.0,SE40,7.0
+Ñuble,16,San Carlos,16301,56252.0,SE40,6.0
 Ñuble,16,San Fabian,16304,4654.0,SE40,0.0
-Ñuble,16,San Ignacio,16108,16624.0,SE40,2.0
+Ñuble,16,San Ignacio,16108,16624.0,SE40,3.0
 Ñuble,16,San Nicolas,16305,12172.0,SE40,1.0
-Ñuble,16,Treguaco,16207,5696.0,SE40,7.0
-Ñuble,16,Yungay,16109,18596.0,SE40,4.0
+Ñuble,16,Treguaco,16207,5696.0,SE40,6.0
+Ñuble,16,Yungay,16109,18596.0,SE40,5.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE40,0.0
-Antofagasta,02,Antofagasta,02101,425725.0,SE41,1.0
-Antofagasta,02,Calama,02201,190336.0,SE41,0.0
+Antofagasta,02,Antofagasta,02101,425725.0,SE41,51.0
+Antofagasta,02,Calama,02201,190336.0,SE41,13.0
 Antofagasta,02,Maria Elena,02302,6814.0,SE41,0.0
-Antofagasta,02,Mejillones,02102,14776.0,SE41,0.0
+Antofagasta,02,Mejillones,02102,14776.0,SE41,3.0
 Antofagasta,02,Ollague,02202,287.0,SE41,0.0
 Antofagasta,02,San Pedro de Atacama,02203,10434.0,SE41,0.0
-Antofagasta,02,Sierra Gorda,02103,1746.0,SE41,0.0
+Antofagasta,02,Sierra Gorda,02103,1746.0,SE41,2.0
 Antofagasta,02,Taltal,02104,13657.0,SE41,0.0
 Antofagasta,02,Tocopilla,02301,28079.0,SE41,0.0
 Antofagasta,02,Desconocido Antofagasta,0,0.0,SE41,0.0
-Araucanía,09,Angol,09201,56058.0,SE41,0.0
-Araucanía,09,Carahue,09102,25486.0,SE41,0.0
+Araucanía,09,Angol,09201,56058.0,SE41,7.0
+Araucanía,09,Carahue,09102,25486.0,SE41,6.0
 Araucanía,09,Cholchol,09121,12341.0,SE41,0.0
-Araucanía,09,Collipulli,09202,26148.0,SE41,0.0
-Araucanía,09,Cunco,09103,18055.0,SE41,0.0
+Araucanía,09,Collipulli,09202,26148.0,SE41,7.0
+Araucanía,09,Cunco,09103,18055.0,SE41,1.0
 Araucanía,09,Curacautin,09203,18178.0,SE41,0.0
 Araucanía,09,Curarrehue,09104,7802.0,SE41,0.0
 Araucanía,09,Ercilla,09204,8458.0,SE41,0.0
-Araucanía,09,Freire,09105,25446.0,SE41,0.0
-Araucanía,09,Galvarino,09106,12633.0,SE41,0.0
-Araucanía,09,Gorbea,09107,15148.0,SE41,0.0
-Araucanía,09,Lautaro,09108,40746.0,SE41,0.0
-Araucanía,09,Loncoche,09109,24739.0,SE41,0.0
-Araucanía,09,Lonquimay,09205,11049.0,SE41,0.0
-Araucanía,09,Los Sauces,09206,7517.0,SE41,0.0
-Araucanía,09,Lumaco,09207,10050.0,SE41,0.0
+Araucanía,09,Freire,09105,25446.0,SE41,4.0
+Araucanía,09,Galvarino,09106,12633.0,SE41,8.0
+Araucanía,09,Gorbea,09107,15148.0,SE41,2.0
+Araucanía,09,Lautaro,09108,40746.0,SE41,11.0
+Araucanía,09,Loncoche,09109,24739.0,SE41,11.0
+Araucanía,09,Lonquimay,09205,11049.0,SE41,4.0
+Araucanía,09,Los Sauces,09206,7517.0,SE41,2.0
+Araucanía,09,Lumaco,09207,10050.0,SE41,1.0
 Araucanía,09,Melipeuco,09110,6265.0,SE41,0.0
-Araucanía,09,Nueva Imperial,09111,33777.0,SE41,0.0
-Araucanía,09,Padre Las Casas,09112,82110.0,SE41,0.0
-Araucanía,09,Perquenco,09113,7223.0,SE41,0.0
+Araucanía,09,Nueva Imperial,09111,33777.0,SE41,4.0
+Araucanía,09,Padre Las Casas,09112,82110.0,SE41,3.0
+Araucanía,09,Perquenco,09113,7223.0,SE41,7.0
 Araucanía,09,Pitrufquen,09114,26096.0,SE41,0.0
-Araucanía,09,Pucon,09115,29782.0,SE41,0.0
+Araucanía,09,Pucon,09115,29782.0,SE41,5.0
 Araucanía,09,Puren,09208,12188.0,SE41,0.0
-Araucanía,09,Renaico,09209,10833.0,SE41,0.0
-Araucanía,09,Saavedra,09116,12793.0,SE41,0.0
-Araucanía,09,Temuco,09101,302931.0,SE41,0.0
+Araucanía,09,Renaico,09209,10833.0,SE41,1.0
+Araucanía,09,Saavedra,09116,12793.0,SE41,3.0
+Araucanía,09,Temuco,09101,302931.0,SE41,30.0
 Araucanía,09,Teodoro Schmidt,09117,15786.0,SE41,0.0
 Araucanía,09,Tolten,09118,10055.0,SE41,0.0
-Araucanía,09,Traiguen,09210,19314.0,SE41,0.0
-Araucanía,09,Victoria,09211,35467.0,SE41,0.0
+Araucanía,09,Traiguen,09210,19314.0,SE41,1.0
+Araucanía,09,Victoria,09211,35467.0,SE41,1.0
 Araucanía,09,Vilcun,09119,30766.0,SE41,0.0
-Araucanía,09,Villarrica,09120,59103.0,SE41,0.0
+Araucanía,09,Villarrica,09120,59103.0,SE41,20.0
 Araucanía,09,Desconocido Araucania,0,0.0,SE41,0.0
-Arica y Parinacota,15,Arica,15101,247552.0,SE41,0.0
+Arica y Parinacota,15,Arica,15101,247552.0,SE41,71.0
 Arica y Parinacota,15,Camarones,15102,1233.0,SE41,0.0
 Arica y Parinacota,15,General Lagos,15202,810.0,SE41,0.0
 Arica y Parinacota,15,Putre,15201,2515.0,SE41,0.0
@@ -12358,18 +12358,18 @@ Arica y Parinacota,15,Desconocido Arica y Parinacota,0,0.0,SE41,0.0
 Atacama,03,Alto del Carmen,03302,5729.0,SE41,0.0
 Atacama,03,Caldera,03102,19426.0,SE41,0.0
 Atacama,03,Chanaral,03201,13164.0,SE41,0.0
-Atacama,03,Copiapo,03101,171766.0,SE41,0.0
-Atacama,03,Diego de Almagro,03202,14358.0,SE41,0.0
-Atacama,03,Freirina,03303,7681.0,SE41,0.0
+Atacama,03,Copiapo,03101,171766.0,SE41,11.0
+Atacama,03,Diego de Almagro,03202,14358.0,SE41,3.0
+Atacama,03,Freirina,03303,7681.0,SE41,4.0
 Atacama,03,Huasco,03304,11264.0,SE41,0.0
 Atacama,03,Tierra Amarilla,03103,14312.0,SE41,0.0
-Atacama,03,Vallenar,03301,57009.0,SE41,0.0
+Atacama,03,Vallenar,03301,57009.0,SE41,13.0
 Atacama,03,Desconocido Atacama,0,0.0,SE41,0.0
 Aysén,11,Aysen,11201,25002.0,SE41,0.0
 Aysén,11,Chile Chico,11401,5121.0,SE41,0.0
 Aysén,11,Cisnes,11202,5828.0,SE41,0.0
 Aysén,11,Cochrane,11301,3685.0,SE41,0.0
-Aysén,11,Coyhaique,11101,61210.0,SE41,0.0
+Aysén,11,Coyhaique,11101,61210.0,SE41,26.0
 Aysén,11,Guaitecas,11203,1599.0,SE41,0.0
 Aysén,11,Lago Verde,11102,920.0,SE41,0.0
 Aysén,11,OHiggins,11302,661.0,SE41,0.0
@@ -12378,294 +12378,294 @@ Aysén,11,Tortel,11303,572.0,SE41,0.0
 Aysén,11,Desconocido Aysen,0,0.0,SE41,0.0
 Biobío,08,Alto Biobio,08314,6775.0,SE41,0.0
 Biobío,08,Antuco,08302,4306.0,SE41,0.0
-Biobío,08,Arauco,08202,38679.0,SE41,0.0
-Biobío,08,Cabrero,08303,30725.0,SE41,0.0
-Biobío,08,Canete,08203,37003.0,SE41,0.0
-Biobío,08,Chiguayante,08103,91180.0,SE41,0.0
-Biobío,08,Concepcion,08101,238092.0,SE41,0.0
+Biobío,08,Arauco,08202,38679.0,SE41,8.0
+Biobío,08,Cabrero,08303,30725.0,SE41,6.0
+Biobío,08,Canete,08203,37003.0,SE41,7.0
+Biobío,08,Chiguayante,08103,91180.0,SE41,8.0
+Biobío,08,Concepcion,08101,238092.0,SE41,28.0
 Biobío,08,Contulmo,08204,6330.0,SE41,0.0
-Biobío,08,Coronel,08102,125829.0,SE41,0.0
-Biobío,08,Curanilahue,08205,33892.0,SE41,0.0
-Biobío,08,Florida,08104,11841.0,SE41,0.0
-Biobío,08,Hualpen,08112,97273.0,SE41,0.0
-Biobío,08,Hualqui,08105,26201.0,SE41,0.0
-Biobío,08,Laja,08304,23873.0,SE41,0.0
-Biobío,08,Lebu,08201,27100.0,SE41,0.0
-Biobío,08,Los Alamos,08206,22524.0,SE41,0.0
-Biobío,08,Los Angeles,08301,218515.0,SE41,0.0
-Biobío,08,Lota,08106,45750.0,SE41,0.0
-Biobío,08,Mulchen,08305,31041.0,SE41,0.0
-Biobío,08,Nacimiento,08306,27944.0,SE41,0.0
-Biobío,08,Negrete,08307,10429.0,SE41,0.0
-Biobío,08,Penco,08107,49865.0,SE41,0.0
+Biobío,08,Coronel,08102,125829.0,SE41,19.0
+Biobío,08,Curanilahue,08205,33892.0,SE41,5.0
+Biobío,08,Florida,08104,11841.0,SE41,1.0
+Biobío,08,Hualpen,08112,97273.0,SE41,10.0
+Biobío,08,Hualqui,08105,26201.0,SE41,2.0
+Biobío,08,Laja,08304,23873.0,SE41,2.0
+Biobío,08,Lebu,08201,27100.0,SE41,5.0
+Biobío,08,Los Alamos,08206,22524.0,SE41,2.0
+Biobío,08,Los Angeles,08301,218515.0,SE41,15.0
+Biobío,08,Lota,08106,45750.0,SE41,27.0
+Biobío,08,Mulchen,08305,31041.0,SE41,4.0
+Biobío,08,Nacimiento,08306,27944.0,SE41,1.0
+Biobío,08,Negrete,08307,10429.0,SE41,2.0
+Biobío,08,Penco,08107,49865.0,SE41,3.0
 Biobío,08,Quilaco,08308,4179.0,SE41,0.0
 Biobío,08,Quilleco,08309,10032.0,SE41,0.0
-Biobío,08,San Pedro de la Paz,08108,145906.0,SE41,0.0
+Biobío,08,San Pedro de la Paz,08108,145906.0,SE41,21.0
 Biobío,08,San Rosendo,08310,3611.0,SE41,0.0
 Biobío,08,Santa Barbara,08311,14592.0,SE41,0.0
-Biobío,08,Santa Juana,08109,14779.0,SE41,0.0
-Biobío,08,Talcahuano,08110,158345.0,SE41,0.0
+Biobío,08,Santa Juana,08109,14779.0,SE41,1.0
+Biobío,08,Talcahuano,08110,158345.0,SE41,15.0
 Biobío,08,Tirua,08207,11019.0,SE41,0.0
-Biobío,08,Tome,08111,58729.0,SE41,0.0
-Biobío,08,Tucapel,08312,15205.0,SE41,0.0
-Biobío,08,Yumbel,08313,22132.0,SE41,0.0
+Biobío,08,Tome,08111,58729.0,SE41,8.0
+Biobío,08,Tucapel,08312,15205.0,SE41,1.0
+Biobío,08,Yumbel,08313,22132.0,SE41,16.0
 Biobío,08,Desconocido Biobio,0,0.0,SE41,0.0
-Coquimbo,04,Andacollo,04103,11791.0,SE41,0.0
+Coquimbo,04,Andacollo,04103,11791.0,SE41,3.0
 Coquimbo,04,Canela,04202,9546.0,SE41,0.0
 Coquimbo,04,Combarbala,04302,13884.0,SE41,0.0
-Coquimbo,04,Coquimbo,04102,256735.0,SE41,0.0
-Coquimbo,04,Illapel,04201,32801.0,SE41,0.0
+Coquimbo,04,Coquimbo,04102,256735.0,SE41,13.0
+Coquimbo,04,Illapel,04201,32801.0,SE41,2.0
 Coquimbo,04,La Higuera,04104,4450.0,SE41,0.0
-Coquimbo,04,La Serena,04101,249656.0,SE41,0.0
-Coquimbo,04,Los Vilos,04203,23374.0,SE41,0.0
-Coquimbo,04,Monte Patria,04303,32527.0,SE41,0.0
+Coquimbo,04,La Serena,04101,249656.0,SE41,9.0
+Coquimbo,04,Los Vilos,04203,23374.0,SE41,2.0
+Coquimbo,04,Monte Patria,04303,32527.0,SE41,3.0
 Coquimbo,04,Ovalle,04301,121269.0,SE41,0.0
 Coquimbo,04,Paiguano,04105,4675.0,SE41,0.0
 Coquimbo,04,Punitaqui,04304,12165.0,SE41,0.0
 Coquimbo,04,Rio Hurtado,04305,4372.0,SE41,0.0
-Coquimbo,04,Salamanca,04204,29110.0,SE41,0.0
+Coquimbo,04,Salamanca,04204,29110.0,SE41,1.0
 Coquimbo,04,Vicuna,04106,29741.0,SE41,0.0
 Coquimbo,04,Desconocido Coquimbo,0,0.0,SE41,0.0
-Los Lagos,10,Ancud,10202,42458.0,SE41,0.0
-Los Lagos,10,Calbuco,10102,36744.0,SE41,0.0
-Los Lagos,10,Castro,10201,47607.0,SE41,0.0
+Los Lagos,10,Ancud,10202,42458.0,SE41,5.0
+Los Lagos,10,Calbuco,10102,36744.0,SE41,15.0
+Los Lagos,10,Castro,10201,47607.0,SE41,2.0
 Los Lagos,10,Chaiten,10401,5020.0,SE41,0.0
-Los Lagos,10,Chonchi,10203,16013.0,SE41,0.0
+Los Lagos,10,Chonchi,10203,16013.0,SE41,6.0
 Los Lagos,10,Cochamo,10103,4006.0,SE41,0.0
 Los Lagos,10,Curaco de Velez,10204,4066.0,SE41,0.0
-Los Lagos,10,Dalcahue,10205,15069.0,SE41,0.0
-Los Lagos,10,Fresia,10104,12656.0,SE41,0.0
-Los Lagos,10,Frutillar,10105,20223.0,SE41,0.0
+Los Lagos,10,Dalcahue,10205,15069.0,SE41,2.0
+Los Lagos,10,Fresia,10104,12656.0,SE41,3.0
+Los Lagos,10,Frutillar,10105,20223.0,SE41,6.0
 Los Lagos,10,Futaleufu,10402,2806.0,SE41,0.0
-Los Lagos,10,Hualaihue,10403,9525.0,SE41,0.0
-Los Lagos,10,Llanquihue,10107,18621.0,SE41,0.0
+Los Lagos,10,Hualaihue,10403,9525.0,SE41,4.0
+Los Lagos,10,Llanquihue,10107,18621.0,SE41,1.0
 Los Lagos,10,Los Muermos,10106,17817.0,SE41,0.0
-Los Lagos,10,Maullin,10108,14894.0,SE41,0.0
-Los Lagos,10,Osorno,10301,173410.0,SE41,0.0
+Los Lagos,10,Maullin,10108,14894.0,SE41,1.0
+Los Lagos,10,Osorno,10301,173410.0,SE41,36.0
 Los Lagos,10,Palena,10404,1827.0,SE41,0.0
-Los Lagos,10,Puerto Montt,10101,269398.0,SE41,0.0
-Los Lagos,10,Puerto Octay,10302,9192.0,SE41,0.0
-Los Lagos,10,Puerto Varas,10109,48620.0,SE41,0.0
-Los Lagos,10,Puqueldon,10206,4201.0,SE41,0.0
-Los Lagos,10,Purranque,10303,21080.0,SE41,0.0
+Los Lagos,10,Puerto Montt,10101,269398.0,SE41,36.0
+Los Lagos,10,Puerto Octay,10302,9192.0,SE41,3.0
+Los Lagos,10,Puerto Varas,10109,48620.0,SE41,9.0
+Los Lagos,10,Puqueldon,10206,4201.0,SE41,1.0
+Los Lagos,10,Purranque,10303,21080.0,SE41,15.0
 Los Lagos,10,Puyehue,10304,11787.0,SE41,0.0
 Los Lagos,10,Queilen,10207,5543.0,SE41,0.0
-Los Lagos,10,Quellon,10208,29309.0,SE41,0.0
+Los Lagos,10,Quellon,10208,29309.0,SE41,2.0
 Los Lagos,10,Quemchi,10209,8783.0,SE41,0.0
 Los Lagos,10,Quinchao,10210,8298.0,SE41,0.0
-Los Lagos,10,Rio Negro,10305,14275.0,SE41,0.0
-Los Lagos,10,San Juan de la Costa,10306,7639.0,SE41,0.0
-Los Lagos,10,San Pablo,10307,10553.0,SE41,0.0
+Los Lagos,10,Rio Negro,10305,14275.0,SE41,10.0
+Los Lagos,10,San Juan de la Costa,10306,7639.0,SE41,5.0
+Los Lagos,10,San Pablo,10307,10553.0,SE41,5.0
 Los Lagos,10,Desconocido Los Lagos,0,0.0,SE41,0.0
-Los Ríos,14,Corral,14102,5447.0,SE41,0.0
-Los Ríos,14,Futrono,14202,15261.0,SE41,0.0
-Los Ríos,14,La Union,14201,39538.0,SE41,0.0
-Los Ríos,14,Lago Ranco,14203,10292.0,SE41,0.0
-Los Ríos,14,Lanco,14103,17652.0,SE41,0.0
-Los Ríos,14,Los Lagos,14104,20518.0,SE41,0.0
+Los Ríos,14,Corral,14102,5447.0,SE41,1.0
+Los Ríos,14,Futrono,14202,15261.0,SE41,6.0
+Los Ríos,14,La Union,14201,39538.0,SE41,2.0
+Los Ríos,14,Lago Ranco,14203,10292.0,SE41,1.0
+Los Ríos,14,Lanco,14103,17652.0,SE41,6.0
+Los Ríos,14,Los Lagos,14104,20518.0,SE41,1.0
 Los Ríos,14,Mafil,14105,7389.0,SE41,0.0
-Los Ríos,14,Mariquina,14106,23250.0,SE41,0.0
-Los Ríos,14,Paillaco,14107,20798.0,SE41,0.0
-Los Ríos,14,Panguipulli,14108,35991.0,SE41,0.0
-Los Ríos,14,Rio Bueno,14204,32925.0,SE41,0.0
-Los Ríos,14,Valdivia,14101,176774.0,SE41,0.0
+Los Ríos,14,Mariquina,14106,23250.0,SE41,1.0
+Los Ríos,14,Paillaco,14107,20798.0,SE41,8.0
+Los Ríos,14,Panguipulli,14108,35991.0,SE41,2.0
+Los Ríos,14,Rio Bueno,14204,32925.0,SE41,12.0
+Los Ríos,14,Valdivia,14101,176774.0,SE41,28.0
 Los Ríos,14,Desconocido Los Rios,0,0.0,SE41,0.0
 Magallanes,12,Antartica,12202,137.0,SE41,0.0
 Magallanes,12,Cabo de Hornos,12201,1983.0,SE41,0.0
-Magallanes,12,Laguna Blanca,12102,264.0,SE41,0.0
-Magallanes,12,Natales,12401,23782.0,SE41,0.0
-Magallanes,12,Porvenir,12301,7323.0,SE41,0.0
+Magallanes,12,Laguna Blanca,12102,264.0,SE41,1.0
+Magallanes,12,Natales,12401,23782.0,SE41,4.0
+Magallanes,12,Porvenir,12301,7323.0,SE41,5.0
 Magallanes,12,Primavera,12302,694.0,SE41,0.0
-Magallanes,12,Punta Arenas,12101,141984.0,SE41,0.0
+Magallanes,12,Punta Arenas,12101,141984.0,SE41,88.0
 Magallanes,12,Rio Verde,12103,211.0,SE41,0.0
-Magallanes,12,San Gregorio,12104,681.0,SE41,0.0
+Magallanes,12,San Gregorio,12104,681.0,SE41,1.0
 Magallanes,12,Timaukel,12303,282.0,SE41,0.0
 Magallanes,12,Torres del Paine,12402,1021.0,SE41,0.0
 Magallanes,12,Desconocido Magallanes,0,0.0,SE41,0.0
-Maule,07,Cauquenes,07201,44143.0,SE41,0.0
+Maule,07,Cauquenes,07201,44143.0,SE41,3.0
 Maule,07,Chanco,07202,9331.0,SE41,0.0
-Maule,07,Colbun,07402,22565.0,SE41,0.0
-Maule,07,Constitucion,07102,50348.0,SE41,0.0
-Maule,07,Curepto,07103,9426.0,SE41,0.0
-Maule,07,Curico,07301,163626.0,SE41,0.0
+Maule,07,Colbun,07402,22565.0,SE41,4.0
+Maule,07,Constitucion,07102,50348.0,SE41,1.0
+Maule,07,Curepto,07103,9426.0,SE41,2.0
+Maule,07,Curico,07301,163626.0,SE41,20.0
 Maule,07,Empedrado,07104,4206.0,SE41,0.0
-Maule,07,Hualane,07302,10222.0,SE41,0.0
+Maule,07,Hualane,07302,10222.0,SE41,1.0
 Maule,07,Licanten,07303,6989.0,SE41,0.0
-Maule,07,Linares,07401,101073.0,SE41,0.0
-Maule,07,Longavi,07403,32810.0,SE41,0.0
-Maule,07,Maule,07105,60000.0,SE41,0.0
-Maule,07,Molina,07304,49800.0,SE41,0.0
-Maule,07,Parral,07404,44544.0,SE41,0.0
+Maule,07,Linares,07401,101073.0,SE41,4.0
+Maule,07,Longavi,07403,32810.0,SE41,9.0
+Maule,07,Maule,07105,60000.0,SE41,13.0
+Maule,07,Molina,07304,49800.0,SE41,8.0
+Maule,07,Parral,07404,44544.0,SE41,7.0
 Maule,07,Pelarco,07106,9083.0,SE41,0.0
-Maule,07,Pelluhue,07203,8092.0,SE41,0.0
-Maule,07,Pencahue,07107,8601.0,SE41,0.0
-Maule,07,Rauco,07305,11248.0,SE41,0.0
-Maule,07,Retiro,07405,21071.0,SE41,0.0
-Maule,07,Rio Claro,07108,14753.0,SE41,0.0
+Maule,07,Pelluhue,07203,8092.0,SE41,1.0
+Maule,07,Pencahue,07107,8601.0,SE41,1.0
+Maule,07,Rauco,07305,11248.0,SE41,2.0
+Maule,07,Retiro,07405,21071.0,SE41,5.0
+Maule,07,Rio Claro,07108,14753.0,SE41,2.0
 Maule,07,Romeral,07306,16170.0,SE41,0.0
-Maule,07,Sagrada Familia,07307,19469.0,SE41,0.0
-Maule,07,San Clemente,07109,46292.0,SE41,0.0
-Maule,07,San Javier,07406,49451.0,SE41,0.0
-Maule,07,San Rafael,07110,9959.0,SE41,0.0
-Maule,07,Talca,07101,236724.0,SE41,0.0
-Maule,07,Teno,07308,30850.0,SE41,0.0
+Maule,07,Sagrada Familia,07307,19469.0,SE41,1.0
+Maule,07,San Clemente,07109,46292.0,SE41,2.0
+Maule,07,San Javier,07406,49451.0,SE41,11.0
+Maule,07,San Rafael,07110,9959.0,SE41,1.0
+Maule,07,Talca,07101,236724.0,SE41,63.0
+Maule,07,Teno,07308,30850.0,SE41,5.0
 Maule,07,Vichuquen,07309,4381.0,SE41,0.0
-Maule,07,Villa Alegre,07407,17512.0,SE41,0.0
+Maule,07,Villa Alegre,07407,17512.0,SE41,3.0
 Maule,07,Yerbas Buenas,07408,19200.0,SE41,0.0
 Maule,07,Desconocido Maule,0,0.0,SE41,0.0
-Metropolitana,13,Alhue,13502,7405.0,SE41,0.0
-Metropolitana,13,Buin,13402,109641.0,SE41,0.0
+Metropolitana,13,Alhue,13502,7405.0,SE41,2.0
+Metropolitana,13,Buin,13402,109641.0,SE41,6.0
 Metropolitana,13,Calera de Tango,13403,28525.0,SE41,0.0
-Metropolitana,13,Cerrillos,13102,88956.0,SE41,0.0
-Metropolitana,13,Cerro Navia,13103,142465.0,SE41,0.0
-Metropolitana,13,Colina,13301,180353.0,SE41,0.0
-Metropolitana,13,Conchali,13104,139195.0,SE41,0.0
+Metropolitana,13,Cerrillos,13102,88956.0,SE41,10.0
+Metropolitana,13,Cerro Navia,13103,142465.0,SE41,8.0
+Metropolitana,13,Colina,13301,180353.0,SE41,6.0
+Metropolitana,13,Conchali,13104,139195.0,SE41,8.0
 Metropolitana,13,Curacavi,13503,36430.0,SE41,0.0
-Metropolitana,13,El Bosque,13105,172000.0,SE41,0.0
-Metropolitana,13,El Monte,13602,40014.0,SE41,0.0
-Metropolitana,13,Estacion Central,13106,206792.0,SE41,0.0
-Metropolitana,13,Huechuraba,13107,112528.0,SE41,0.0
-Metropolitana,13,Independencia,13108,142065.0,SE41,0.0
-Metropolitana,13,Isla de Maipo,13603,40171.0,SE41,0.0
-Metropolitana,13,La Cisterna,13109,100434.0,SE41,0.0
-Metropolitana,13,La Florida,13110,402433.0,SE41,0.0
-Metropolitana,13,La Granja,13111,122557.0,SE41,0.0
-Metropolitana,13,La Pintana,13112,189335.0,SE41,0.0
+Metropolitana,13,El Bosque,13105,172000.0,SE41,6.0
+Metropolitana,13,El Monte,13602,40014.0,SE41,7.0
+Metropolitana,13,Estacion Central,13106,206792.0,SE41,6.0
+Metropolitana,13,Huechuraba,13107,112528.0,SE41,3.0
+Metropolitana,13,Independencia,13108,142065.0,SE41,19.0
+Metropolitana,13,Isla de Maipo,13603,40171.0,SE41,2.0
+Metropolitana,13,La Cisterna,13109,100434.0,SE41,6.0
+Metropolitana,13,La Florida,13110,402433.0,SE41,18.0
+Metropolitana,13,La Granja,13111,122557.0,SE41,5.0
+Metropolitana,13,La Pintana,13112,189335.0,SE41,11.0
 Metropolitana,13,La Reina,13113,100252.0,SE41,0.0
-Metropolitana,13,Lampa,13302,126898.0,SE41,0.0
-Metropolitana,13,Las Condes,13114,330759.0,SE41,0.0
-Metropolitana,13,Lo Barnechea,13115,124076.0,SE41,0.0
-Metropolitana,13,Lo Espejo,13116,103865.0,SE41,0.0
-Metropolitana,13,Lo Prado,13117,104403.0,SE41,0.0
-Metropolitana,13,Macul,13118,134635.0,SE41,0.0
-Metropolitana,13,Maipu,13119,578605.0,SE41,0.0
+Metropolitana,13,Lampa,13302,126898.0,SE41,5.0
+Metropolitana,13,Las Condes,13114,330759.0,SE41,21.0
+Metropolitana,13,Lo Barnechea,13115,124076.0,SE41,19.0
+Metropolitana,13,Lo Espejo,13116,103865.0,SE41,3.0
+Metropolitana,13,Lo Prado,13117,104403.0,SE41,6.0
+Metropolitana,13,Macul,13118,134635.0,SE41,9.0
+Metropolitana,13,Maipu,13119,578605.0,SE41,28.0
 Metropolitana,13,Maria Pinto,13504,14926.0,SE41,0.0
-Metropolitana,13,Melipilla,13501,141612.0,SE41,0.0
-Metropolitana,13,Nunoa,13120,250192.0,SE41,0.0
-Metropolitana,13,Padre Hurtado,13604,74188.0,SE41,0.0
+Metropolitana,13,Melipilla,13501,141612.0,SE41,9.0
+Metropolitana,13,Nunoa,13120,250192.0,SE41,11.0
+Metropolitana,13,Padre Hurtado,13604,74188.0,SE41,8.0
 Metropolitana,13,Paine,13404,82766.0,SE41,0.0
 Metropolitana,13,Pedro Aguirre Cerda,13121,107803.0,SE41,0.0
-Metropolitana,13,Penaflor,13605,101058.0,SE41,0.0
-Metropolitana,13,Penalolen,13122,266798.0,SE41,0.0
-Metropolitana,13,Pirque,13202,30433.0,SE41,0.0
-Metropolitana,13,Providencia,13123,157749.0,SE41,0.0
-Metropolitana,13,Pudahuel,13124,253139.0,SE41,0.0
-Metropolitana,13,Puente Alto,13201,645909.0,SE41,0.0
-Metropolitana,13,Quilicura,13125,254694.0,SE41,0.0
-Metropolitana,13,Quinta Normal,13126,136368.0,SE41,0.0
-Metropolitana,13,Recoleta,13127,190075.0,SE41,0.0
-Metropolitana,13,Renca,13128,160847.0,SE41,0.0
-Metropolitana,13,San Bernardo,13401,334836.0,SE41,0.0
-Metropolitana,13,San Joaquin,13129,103485.0,SE41,0.0
-Metropolitana,13,San Jose de Maipo,13203,18644.0,SE41,0.0
-Metropolitana,13,San Miguel,13130,133059.0,SE41,0.0
+Metropolitana,13,Penaflor,13605,101058.0,SE41,7.0
+Metropolitana,13,Penalolen,13122,266798.0,SE41,19.0
+Metropolitana,13,Pirque,13202,30433.0,SE41,3.0
+Metropolitana,13,Providencia,13123,157749.0,SE41,10.0
+Metropolitana,13,Pudahuel,13124,253139.0,SE41,9.0
+Metropolitana,13,Puente Alto,13201,645909.0,SE41,34.0
+Metropolitana,13,Quilicura,13125,254694.0,SE41,7.0
+Metropolitana,13,Quinta Normal,13126,136368.0,SE41,8.0
+Metropolitana,13,Recoleta,13127,190075.0,SE41,10.0
+Metropolitana,13,Renca,13128,160847.0,SE41,8.0
+Metropolitana,13,San Bernardo,13401,334836.0,SE41,8.0
+Metropolitana,13,San Joaquin,13129,103485.0,SE41,5.0
+Metropolitana,13,San Jose de Maipo,13203,18644.0,SE41,2.0
+Metropolitana,13,San Miguel,13130,133059.0,SE41,9.0
 Metropolitana,13,San Pedro,13505,11953.0,SE41,0.0
-Metropolitana,13,San Ramon,13131,86510.0,SE41,0.0
-Metropolitana,13,Santiago,13101,503147.0,SE41,0.0
-Metropolitana,13,Talagante,13601,81838.0,SE41,0.0
+Metropolitana,13,San Ramon,13131,86510.0,SE41,2.0
+Metropolitana,13,Santiago,13101,503147.0,SE41,17.0
+Metropolitana,13,Talagante,13601,81838.0,SE41,3.0
 Metropolitana,13,Tiltil,13303,21477.0,SE41,0.0
-Metropolitana,13,Vitacura,13132,96774.0,SE41,0.0
+Metropolitana,13,Vitacura,13132,96774.0,SE41,6.0
 Metropolitana,13,Desconocido Metropolitana,0,0.0,SE41,0.0
 O’Higgins,06,Chepica,06302,15925.0,SE41,0.0
-O’Higgins,06,Chimbarongo,06303,37696.0,SE41,0.0
-O’Higgins,06,Codegua,06102,14096.0,SE41,0.0
-O’Higgins,06,Coinco,06103,7831.0,SE41,0.0
-O’Higgins,06,Coltauco,06104,21263.0,SE41,0.0
-O’Higgins,06,Donihue,06105,22700.0,SE41,0.0
-O’Higgins,06,Graneros,06106,36504.0,SE41,0.0
+O’Higgins,06,Chimbarongo,06303,37696.0,SE41,2.0
+O’Higgins,06,Codegua,06102,14096.0,SE41,1.0
+O’Higgins,06,Coinco,06103,7831.0,SE41,2.0
+O’Higgins,06,Coltauco,06104,21263.0,SE41,1.0
+O’Higgins,06,Donihue,06105,22700.0,SE41,4.0
+O’Higgins,06,Graneros,06106,36504.0,SE41,13.0
 O’Higgins,06,La Estrella,06202,3114.0,SE41,0.0
-O’Higgins,06,Las Cabras,06107,26749.0,SE41,0.0
+O’Higgins,06,Las Cabras,06107,26749.0,SE41,1.0
 O’Higgins,06,Litueche,06203,6765.0,SE41,0.0
 O’Higgins,06,Lolol,06304,7289.0,SE41,0.0
-O’Higgins,06,Machali,06108,59913.0,SE41,0.0
+O’Higgins,06,Machali,06108,59913.0,SE41,9.0
 O’Higgins,06,Malloa,06109,14163.0,SE41,0.0
 O’Higgins,06,Marchihue,06204,7632.0,SE41,0.0
 O’Higgins,06,Mostazal,06110,27462.0,SE41,0.0
-O’Higgins,06,Nancagua,06305,19141.0,SE41,0.0
-O’Higgins,06,Navidad,06205,6904.0,SE41,0.0
-O’Higgins,06,Olivar,06111,14624.0,SE41,0.0
+O’Higgins,06,Nancagua,06305,19141.0,SE41,1.0
+O’Higgins,06,Navidad,06205,6904.0,SE41,1.0
+O’Higgins,06,Olivar,06111,14624.0,SE41,2.0
 O’Higgins,06,Palmilla,06306,13299.0,SE41,0.0
 O’Higgins,06,Paredones,06206,6349.0,SE41,0.0
 O’Higgins,06,Peralillo,06307,11848.0,SE41,0.0
-O’Higgins,06,Peumo,06112,14952.0,SE41,0.0
-O’Higgins,06,Pichidegua,06113,20743.0,SE41,0.0
-O’Higgins,06,Pichilemu,06201,17882.0,SE41,0.0
+O’Higgins,06,Peumo,06112,14952.0,SE41,3.0
+O’Higgins,06,Pichidegua,06113,20743.0,SE41,1.0
+O’Higgins,06,Pichilemu,06201,17882.0,SE41,1.0
 O’Higgins,06,Placilla,06308,9164.0,SE41,0.0
 O’Higgins,06,Pumanque,06309,3531.0,SE41,0.0
-O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE41,0.0
-O’Higgins,06,Rancagua,06101,265211.0,SE41,0.0
-O’Higgins,06,Rengo,06115,63710.0,SE41,0.0
-O’Higgins,06,Requinoa,06116,30371.0,SE41,0.0
-O’Higgins,06,San Fernando,06301,78642.0,SE41,0.0
-O’Higgins,06,San Vicente,06117,50617.0,SE41,0.0
-O’Higgins,06,Santa Cruz,06310,41096.0,SE41,0.0
+O’Higgins,06,Quinta de Tilcoco,06114,13877.0,SE41,2.0
+O’Higgins,06,Rancagua,06101,265211.0,SE41,16.0
+O’Higgins,06,Rengo,06115,63710.0,SE41,8.0
+O’Higgins,06,Requinoa,06116,30371.0,SE41,1.0
+O’Higgins,06,San Fernando,06301,78642.0,SE41,7.0
+O’Higgins,06,San Vicente,06117,50617.0,SE41,5.0
+O’Higgins,06,Santa Cruz,06310,41096.0,SE41,1.0
 O’Higgins,06,Desconocido O’Higgins,0,0.0,SE41,0.0
-Tarapacá,01,Alto Hospicio,01107,129999.0,SE41,0.0
-Tarapacá,01,Camina,01402,1375.0,SE41,0.0
+Tarapacá,01,Alto Hospicio,01107,129999.0,SE41,7.0
+Tarapacá,01,Camina,01402,1375.0,SE41,1.0
 Tarapacá,01,Colchane,01403,1583.0,SE41,0.0
 Tarapacá,01,Huara,01404,3000.0,SE41,0.0
-Tarapacá,01,Iquique,01101,223463.0,SE41,0.0
+Tarapacá,01,Iquique,01101,223463.0,SE41,15.0
 Tarapacá,01,Pica,01405,5958.0,SE41,0.0
-Tarapacá,01,Pozo Almonte,01401,17395.0,SE41,0.0
+Tarapacá,01,Pozo Almonte,01401,17395.0,SE41,3.0
 Tarapacá,01,Desconocido Tarapaca,0,0.0,SE41,0.0
 Valparaíso,05,Algarrobo,05602,15174.0,SE41,0.0
 Valparaíso,05,Cabildo,05402,20663.0,SE41,0.0
-Valparaíso,05,Calera,05502,53591.0,SE41,0.0
-Valparaíso,05,Calle Larga,05302,16482.0,SE41,0.0
+Valparaíso,05,Calera,05502,53591.0,SE41,1.0
+Valparaíso,05,Calle Larga,05302,16482.0,SE41,2.0
 Valparaíso,05,Cartagena,05603,25357.0,SE41,0.0
 Valparaíso,05,Casablanca,05102,29170.0,SE41,0.0
 Valparaíso,05,Catemu,05702,15213.0,SE41,0.0
-Valparaíso,05,Concon,05103,45889.0,SE41,0.0
+Valparaíso,05,Concon,05103,45889.0,SE41,2.0
 Valparaíso,05,El Quisco,05604,17742.0,SE41,0.0
-Valparaíso,05,El Tabo,05605,14338.0,SE41,0.0
-Valparaíso,05,Hijuelas,05503,19099.0,SE41,0.0
+Valparaíso,05,El Tabo,05605,14338.0,SE41,1.0
+Valparaíso,05,Hijuelas,05503,19099.0,SE41,2.0
 Valparaíso,05,Isla de Pascua,05201,8277.0,SE41,0.0
 Valparaíso,05,Juan Fernandez,05104,1033.0,SE41,0.0
-Valparaíso,05,La Cruz,05504,25321.0,SE41,0.0
-Valparaíso,05,La Ligua,05401,37739.0,SE41,0.0
-Valparaíso,05,Limache,05802,49931.0,SE41,0.0
-Valparaíso,05,Llaillay,05703,26533.0,SE41,0.0
-Valparaíso,05,Los Andes,05301,68093.0,SE41,0.0
-Valparaíso,05,Nogales,05506,23490.0,SE41,0.0
-Valparaíso,05,Olmue,05803,19266.0,SE41,0.0
-Valparaíso,05,Panquehue,05704,7633.0,SE41,0.0
-Valparaíso,05,Papudo,05403,6201.0,SE41,0.0
+Valparaíso,05,La Cruz,05504,25321.0,SE41,1.0
+Valparaíso,05,La Ligua,05401,37739.0,SE41,5.0
+Valparaíso,05,Limache,05802,49931.0,SE41,2.0
+Valparaíso,05,Llaillay,05703,26533.0,SE41,6.0
+Valparaíso,05,Los Andes,05301,68093.0,SE41,5.0
+Valparaíso,05,Nogales,05506,23490.0,SE41,1.0
+Valparaíso,05,Olmue,05803,19266.0,SE41,4.0
+Valparaíso,05,Panquehue,05704,7633.0,SE41,1.0
+Valparaíso,05,Papudo,05403,6201.0,SE41,1.0
 Valparaíso,05,Petorca,05404,10558.0,SE41,0.0
 Valparaíso,05,Puchuncavi,05105,20071.0,SE41,0.0
-Valparaíso,05,Putaendo,05705,17645.0,SE41,0.0
-Valparaíso,05,Quillota,05501,97572.0,SE41,0.0
-Valparaíso,05,Quilpue,05801,167085.0,SE41,0.0
-Valparaíso,05,Quintero,05107,36135.0,SE41,0.0
-Valparaíso,05,Rinconada,05303,11263.0,SE41,0.0
-Valparaíso,05,San Antonio,05601,96761.0,SE41,0.0
-Valparaíso,05,San Esteban,05304,20643.0,SE41,0.0
-Valparaíso,05,San Felipe,05701,83494.0,SE41,0.0
-Valparaíso,05,Santa Maria,05706,16367.0,SE41,0.0
+Valparaíso,05,Putaendo,05705,17645.0,SE41,1.0
+Valparaíso,05,Quillota,05501,97572.0,SE41,3.0
+Valparaíso,05,Quilpue,05801,167085.0,SE41,4.0
+Valparaíso,05,Quintero,05107,36135.0,SE41,2.0
+Valparaíso,05,Rinconada,05303,11263.0,SE41,1.0
+Valparaíso,05,San Antonio,05601,96761.0,SE41,2.0
+Valparaíso,05,San Esteban,05304,20643.0,SE41,1.0
+Valparaíso,05,San Felipe,05701,83494.0,SE41,5.0
+Valparaíso,05,Santa Maria,05706,16367.0,SE41,3.0
 Valparaíso,05,Santo Domingo,05606,11934.0,SE41,0.0
-Valparaíso,05,Valparaiso,05101,315732.0,SE41,0.0
-Valparaíso,05,Villa Alemana,05804,139310.0,SE41,0.0
-Valparaíso,05,Vina del Mar,05109,361371.0,SE41,0.0
+Valparaíso,05,Valparaiso,05101,315732.0,SE41,15.0
+Valparaíso,05,Villa Alemana,05804,139310.0,SE41,10.0
+Valparaíso,05,Vina del Mar,05109,361371.0,SE41,13.0
 Valparaíso,05,Zapallar,05405,7994.0,SE41,0.0
 Valparaíso,05,Desconocido Valparaiso,0,0.0,SE41,0.0
-Ñuble,16,Bulnes,16102,22607.0,SE41,0.0
-Ñuble,16,Chillan,16101,198624.0,SE41,0.0
+Ñuble,16,Bulnes,16102,22607.0,SE41,8.0
+Ñuble,16,Chillan,16101,198624.0,SE41,18.0
 Ñuble,16,Chillan Viejo,16103,33827.0,SE41,0.0
 Ñuble,16,Cobquecura,16202,5275.0,SE41,0.0
-Ñuble,16,Coelemu,16203,16845.0,SE41,0.0
-Ñuble,16,Coihueco,16302,28375.0,SE41,0.0
+Ñuble,16,Coelemu,16203,16845.0,SE41,2.0
+Ñuble,16,Coihueco,16302,28375.0,SE41,6.0
 Ñuble,16,El Carmen,16104,12334.0,SE41,0.0
-Ñuble,16,Ninhue,16204,5414.0,SE41,0.0
+Ñuble,16,Ninhue,16204,5414.0,SE41,1.0
 Ñuble,16,Niquen,16303,11567.0,SE41,0.0
 Ñuble,16,Pemuco,16105,8639.0,SE41,0.0
-Ñuble,16,Pinto,16106,11880.0,SE41,0.0
+Ñuble,16,Pinto,16106,11880.0,SE41,3.0
 Ñuble,16,Portezuelo,16205,4940.0,SE41,0.0
 Ñuble,16,Quillon,16107,18777.0,SE41,0.0
 Ñuble,16,Quirihue,16201,12192.0,SE41,0.0
-Ñuble,16,Ranquil,16206,6261.0,SE41,0.0
-Ñuble,16,San Carlos,16301,56252.0,SE41,0.0
+Ñuble,16,Ranquil,16206,6261.0,SE41,4.0
+Ñuble,16,San Carlos,16301,56252.0,SE41,6.0
 Ñuble,16,San Fabian,16304,4654.0,SE41,0.0
 Ñuble,16,San Ignacio,16108,16624.0,SE41,0.0
-Ñuble,16,San Nicolas,16305,12172.0,SE41,0.0
+Ñuble,16,San Nicolas,16305,12172.0,SE41,1.0
 Ñuble,16,Treguaco,16207,5696.0,SE41,0.0
 Ñuble,16,Yungay,16109,18596.0,SE41,0.0
 Ñuble,16,Desconocido Nuble,0,0.0,SE41,0.0
