@@ -28,12 +28,26 @@ import pandas as pd
 import glob
 from utils import *
 
+'''
+Aca generamos los productos
+53
+54
+55
+56
+'''
+
 
 def prod53(fte, prod):
-    print('Generating producto53')
+    print('Generating productos UC')
 
     # at least we have to process three files: nacional, region y provincia, and eventually, we should also prefix them
     # with a date to show a history. NO DATE NEEDED, confirmed by Alejandro. Just overwrite the files.
+
+    # make a list of files to report what have we processed:
+    p53_files = []
+    p54_files = []
+    p56_files = []
+    p55_files = []
 
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
@@ -56,6 +70,7 @@ def prod53(fte, prod):
             df = normalizaNombreCodigoRegionYCodigoComuna(df)
             regionName(df)
             if 'Positividad' in file:
+                p55_files.append(file)
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
 
         # Provincial
@@ -71,12 +86,16 @@ def prod53(fte, prod):
             regionName(df)
             # write
             if 'confirmados_' in file:
+                p53_files.append(file)
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
+                p54_files.append(file)
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
             if 'Positividad' in file:
+                p55_files.append(file)
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
             if 'prob48' in file:
+                p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
 
         # Regional
@@ -87,35 +106,49 @@ def prod53(fte, prod):
             df.drop(columns=['region'], inplace=True)
             regionName(df)
             if 'confirmados_' in file:
+                p53_files.append(file)
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
+                p54_files.append(file)
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
             if 'Positividad' in file:
+                p55_files.append(file)
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
             if 'prob48' in file:
+                p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
 
         # Nacional
         if 'nacional' in file:
             # print(df.columns)
             if 'confirmados_' in file:
+                p53_files.append(file)
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
+                p54_files.append(file)
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
             if 'Positividad' in file:
+                p55_files.append(file)
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
             if 'prob48' in file:
+                p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
         if 'ss.csv' in file:
             if 'confirmados_' in file:
+                p53_files.append(file)
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
+                p54_files.append(file)
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
 
+    ## Report what we've done
+    print('Producto 53 files: ' + str(p53_files))
+    print('Producto 54 files: ' + str(p54_files))
+    print('Producto 55 files: ' + str(p55_files))
+    print('Producto 56 files: ' + str(p56_files))
 
-def prod54(fte, prod):
-    print('Generating producto54')
-
+    not_processed = [x for x in glob.glob(fte + '/*') if x not in (p53_files + p54_files + p55_files + p56_files)]
+    print('Not processed: ' + str(not_processed))
 
 if __name__ == '__main__':
     prod53('../input/UC', '../output/producto53')
