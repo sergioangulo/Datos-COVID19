@@ -82,7 +82,7 @@ def prod53(fte, prod):
             if 'Positividad' in file:
                 p55_files.append(file)
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
-            if 'tasa test' in file:
+            if 'tasa test semanal' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
 
@@ -110,10 +110,10 @@ def prod53(fte, prod):
             if 'prob48' in file:
                 p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
-            if 'tasa test' in file:
+            if 'tasa test semanal' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
-            if 'carga.' in file:
+            if 'carga.' and 'ajustada' in file:
                 p69_files.append(file)
                 df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
             if 'total72.' in file:
@@ -145,10 +145,10 @@ def prod53(fte, prod):
             if 'prob48' in file:
                 p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
-            if 'tasa test' in file:
+            if 'tasa test semanal' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
-            if 'carga' in file:
+            if 'carga' and 'ajustada' in file:
                 p69_files.append(file)
                 df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
             if 'total72.' in file:
@@ -176,10 +176,10 @@ def prod53(fte, prod):
             if 'prob48' in file:
                 p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
-            if 'tasa test' in file:
+            if 'tasa test semanal' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
-            if 'carga.' in file:
+            if 'carga.' and 'ajustada' in file:
                 p69_files.append(file)
                 df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
             if 'total72.' in file:
@@ -200,7 +200,7 @@ def prod53(fte, prod):
             if 'r.' in file:
                 p54_files.append(file)
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
-            if 'carga.ss' in file:
+            if 'carga.'  and 'ajustada' in file:
                 p69_files.append(file)
                 df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
 
