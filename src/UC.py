@@ -101,6 +101,9 @@ def prod53(fte, prod):
             if 'prob48' in file:
                 p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
+            if 'tasa test' in file:
+                p68_files.append(file)
+                df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
 
         # Regional
         if 'region' in file:
@@ -121,6 +124,9 @@ def prod53(fte, prod):
             if 'prob48' in file:
                 p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
+            if 'tasa test' in file:
+                p68_files.append(file)
+                df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
 
         # Nacional
         if 'nacional' in file:
@@ -137,6 +143,11 @@ def prod53(fte, prod):
             if 'prob48' in file:
                 p56_files.append(file)
                 df.to_csv(prod.replace('53', '56') + '/' + filename, index=False)
+            if 'tasa test' in file:
+                p68_files.append(file)
+                df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
+
+        ## SS
         if 'ss.csv' in file:
             if 'confirmados_' in file:
                 p53_files.append(file)
