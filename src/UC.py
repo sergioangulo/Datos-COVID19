@@ -48,6 +48,7 @@ def prod53(fte, prod):
     p54_files = []
     p56_files = []
     p55_files = []
+    p68_files = []
 
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
@@ -72,6 +73,9 @@ def prod53(fte, prod):
             if 'Positividad' in file:
                 p55_files.append(file)
                 df.to_csv(prod.replace('53', '55') + '/' + filename, index=False)
+            if 'tasa test' in file:
+                p68_files.append(file)
+                df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
 
         # Provincial
         if 'provincia' in file:
@@ -146,8 +150,13 @@ def prod53(fte, prod):
     print('Producto 54 files: ' + str(p54_files))
     print('Producto 55 files: ' + str(p55_files))
     print('Producto 56 files: ' + str(p56_files))
+    print('Producto 68 files: ' + str(p68_files))
 
-    not_processed = [x for x in glob.glob(fte + '/*') if x not in (p53_files + p54_files + p55_files + p56_files)]
+    not_processed = [x for x in glob.glob(fte + '/*') if x not in (p53_files +
+                                                                   p54_files +
+                                                                   p55_files +
+                                                                   p56_files +
+                                                                   p68_files)]
     print('Not processed: ' + str(not_processed))
 
 if __name__ == '__main__':
