@@ -49,6 +49,7 @@ def prod53(fte, prod):
     p56_files = []
     p55_files = []
     p68_files = []
+    p69_files = []
 
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
@@ -104,6 +105,9 @@ def prod53(fte, prod):
             if 'tasa test' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
+            if 'carga.' in file:
+                p69_files.append(file)
+                df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
 
         # Regional
         if 'region' in file:
@@ -127,6 +131,9 @@ def prod53(fte, prod):
             if 'tasa test' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
+            if 'carga' in file:
+                p69_files.append(file)
+                df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
 
         # Nacional
         if 'nacional' in file:
@@ -146,15 +153,22 @@ def prod53(fte, prod):
             if 'tasa test' in file:
                 p68_files.append(file)
                 df.to_csv(prod.replace('53', '68') + '/' + filename, index=False)
+            if 'carga.' in file:
+                p69_files.append(file)
+                df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
 
         ## SS
-        if 'ss.csv' in file:
+        if 'ss.csv' or 'ss.ajustada.csv' in file:
             if 'confirmados_' in file:
                 p53_files.append(file)
                 df.to_csv(prod + '/' + filename, index=False)
             if 'r.' in file:
                 p54_files.append(file)
                 df.to_csv(prod.replace('53', '54') + '/' + filename, index=False)
+            if 'carga.ss' in file:
+                p69_files.append(file)
+                df.to_csv(prod.replace('53', '69') + '/' + filename, index=False)
+
 
     ## Report what we've done
     print('Producto 53 files: ' + str(p53_files))
@@ -162,12 +176,15 @@ def prod53(fte, prod):
     print('Producto 55 files: ' + str(p55_files))
     print('Producto 56 files: ' + str(p56_files))
     print('Producto 68 files: ' + str(p68_files))
+    print('Producto 69 files: ' + str(p69_files))
 
     not_processed = [x for x in glob.glob(fte + '/*') if x not in (p53_files +
                                                                    p54_files +
                                                                    p55_files +
                                                                    p56_files +
-                                                                   p68_files)]
+                                                                   p68_files +
+                                                                   p69_files)
+                     ]
     print('Not processed: ' + str(not_processed))
 
 if __name__ == '__main__':
