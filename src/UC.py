@@ -34,6 +34,11 @@ Aca generamos los productos
 54
 55
 56
+68
+69
+70
+71
+72
 '''
 
 
@@ -52,6 +57,7 @@ def prod53(fte, prod):
     p69_files = []
     p70_files = []
     p71_files = []
+    p72_files = []
 
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
@@ -116,6 +122,9 @@ def prod53(fte, prod):
             if 'not48.' in file:
                 p71_files.append(file)
                 df.to_csv(prod.replace('53', '71') + '/' + filename, index=False)
+            if 'lab24.' in file:
+                p72_files.append(file)
+                df.to_csv(prod.replace('53', '72') + '/' + filename, index=False)
 
         # Regional
         if 'region' in file:
@@ -148,6 +157,9 @@ def prod53(fte, prod):
             if 'not48.' in file:
                 p71_files.append(file)
                 df.to_csv(prod.replace('53', '71') + '/' + filename, index=False)
+            if 'lab24.' in file:
+                p72_files.append(file)
+                df.to_csv(prod.replace('53', '72') + '/' + filename, index=False)
 
         # Nacional
         if 'nacional' in file:
@@ -176,6 +188,9 @@ def prod53(fte, prod):
             if 'not48.' in file:
                 p71_files.append(file)
                 df.to_csv(prod.replace('53', '71') + '/' + filename, index=False)
+            if 'lab24.' in file:
+                p72_files.append(file)
+                df.to_csv(prod.replace('53', '72') + '/' + filename, index=False)
 
         ## SS
         if 'ss.csv' or 'ss.ajustada.csv' in file:
@@ -199,6 +214,7 @@ def prod53(fte, prod):
     print('Producto 69 files: ' + str(p69_files))
     print('Producto 70 files: ' + str(p70_files))
     print('Producto 71 files: ' + str(p71_files))
+    print('Producto 72 files: ' + str(p72_files))
 
     not_processed = [x for x in glob.glob(fte + '/*') if x not in (p53_files +
                                                                    p54_files +
@@ -207,7 +223,8 @@ def prod53(fte, prod):
                                                                    p68_files +
                                                                    p69_files +
                                                                    p70_files +
-                                                                   p71_files)
+                                                                   p71_files +
+                                                                   p72_files)
                      ]
     print('Not processed: ' + str(not_processed))
 
