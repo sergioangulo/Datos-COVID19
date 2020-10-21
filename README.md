@@ -164,6 +164,20 @@ Proporción de casos nuevos confirmados por laboratorio, que fueron notificados 
 Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
 acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto67)
 
+[Data Product 68 - Cantidad de exámenes de PCR por cada 1000 habitantes por semana, según fecha del examen, provistos por ICOVID Chile](output/producto68):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de los últimos 7 días, de la cantidad de examenes de PCR a SARS-CoV-2 realizados por cada 1000 habitantes.[Ver más](output/producto68)
+
+[Data Product 69 - Tasa de incidencia, por cada 100 mil habitantes, de casos confirmados diarios, provistos por el grupo ICOVID Chile](output/producto69):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la tasa de incidencia diaria, por cada 100 mil habitantes, de casos confirmados según fecha de inicio de los síntomas.[Ver más](output/producto69)
+
+[Data Product 70 - Confirmación temprana de casos sintomáticos, provistos por el grupo ICOVID Chile](output/producto70):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de 7 días, de la proporción de personas sintomáticas sospechosas cuyo resultado de PCR positivo a SARS-CoV-2 es informado a la autoridad sanitaria dentro de 3 días desde la fecha de inicio de síntomas.[Ver más](output/producto70)
+
+[Data Product 71 - Consulta temprana de casos sintomáticos, provistos por el grupo ICOVID Chile](output/producto71):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de 7 días, de la proporción de personas confirmadas sintomáticas que consultaron un especialista y fueron notificadas dentro de 2 días desde la fecha de iniciados sus síntomas. [Ver más](output/producto71)
+
+[Data Product 72 - Tiempo de examen y laboratorio de casos sintomáticos, provistos por el grupo ICOVID Chile](output/producto72):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de 7 días, de la proporción de personas confirmadas sintomáticas cuyo resultado de PCR positivo a SARS-CoV-2 es informado a la autoridad sanitaria dentro de 1 día desde la notificación como caso sospechoso en Epivigila. [Ver más](output/producto72)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
