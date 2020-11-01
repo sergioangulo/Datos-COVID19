@@ -367,8 +367,7 @@ def desconocidoName(df):
 
 
 def comunaName(df):
-    df["comuna_residencia"] = df["comuna_residencia"].replace(
-        {"Camiña": "Camina", "Ollagüe": "Ollague", "María Elena": "Maria Elena",
+    df["comuna_residencia"] = df["comuna_residencia"].replace({"Camiña": "Camina", "Ollagüe": "Ollague", "María Elena": "Maria Elena",
          "Copiapó": "Copiapo", "Chañaral": "Chanaral", "Vicuña": "Vicuna",
          "Combarbalá": "Combarbala", "Río Hurtado": "Rio Hurtado",
          "Valparaíso": "Valparaiso", "Con con": "Concon", "Con cón": "Concon", "Concón": "Concon",
