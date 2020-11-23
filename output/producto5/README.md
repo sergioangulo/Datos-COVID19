@@ -1,5 +1,5 @@
 # DP5 - Totales Nacionales Diarios: Descripción
-Set de 2 archivos sobre casos a nivel nacional. El primero de ellos (TotalesNacionales.csv) incluye los casos nuevos confirmados, totales o acumulados, fallecidos a nivel nacional, activos y recuperados según fecha de diagnóstico y según fecha de inicio de síntomas, reportados diariamente por el Ministerio de Salud desde el 03-03-2020 y proyectados desde el 8 de junio para el caso de activos y recuperados por fecha de dianóstoco según criterios de la autoridad sanitaria.
+Set de 2 archivos sobre casos a nivel nacional. El primero de ellos (TotalesNacionales.csv) incluye los casos nuevos confirmados, totales o acumulados, fallecidos a nivel nacional, activos y recuperados según fecha de diagnóstico y según fecha de inicio de síntomas, reportados diariamente por el Ministerio de Salud desde el 03-03-2020 y proyectados desde el 8 de junio para el caso de activos y recuperados por fecha de diagnóstico según criterios de la autoridad sanitaria.
 
 Se entiende por caso confirmado la persona que cumple con los criterios de definición de caso sospechoso con una muestra positiva de SARS-CoV-2.
 
@@ -27,5 +27,5 @@ Actualización diaria.
 
 **Nota aclaratoria 2**: Previo al 15 de abril de 2020 los reportes del Ministerio de Salud no entregaban datos de confirmados notificados en comunas con bajo número de casos, para proteger la identidad de las personas contagiadas.
 
-**Nota aclaratoria 3**: A partir del 2 de junio las series por Fecha de Diagnóstico se dejaron de reportar diariamente, pero se mantiene el cálculo acá a pedida de varios usiarios que quieren continuar utilizando dichas curvas.
+**Nota aclaratoria 3**: A partir del 2 de junio las series por Fecha de Diagnóstico se dejaron de reportar diariamente, pero se mantiene el cálculo acá a pedida de varios usuarios que quieren continuar utilizando dichas curvas.
 
