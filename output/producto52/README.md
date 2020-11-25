@@ -20,11 +20,10 @@ dependencia total o parcial asociado al riesgo (CUDYR A1-A2-A3-B1-B2).
 Estos valores están separados entre sí por comas (csv).
 
 # Fuente
-
+Unidad de Gestión de Camas Críticas, Subsecretaría de Redes Asistenciales, Ministerio de Salud
 
 
 # Frecuencia de actualización
-
-A ser definida
+Semanal
 
 # Notas aclaratorias
