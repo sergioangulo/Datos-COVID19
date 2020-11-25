@@ -420,6 +420,39 @@ def prod57(fte, prod):
     df['Region'] = df['Region'].str.strip()
     df.to_csv(prod + '.csv', index=False)
 
+    df2 = pd.read_csv(prod + '.csv')
+    identifiers = ['Fecha', 'Region', 'Hospitalizacion']
+    variables = [x for x in df2.columns if x not in identifiers]
+    identifiers.append('Publicacion')
+
+    df_std = pd.DataFrame()
+    i = 0
+    for publicacion in variables:
+        temp = pd.DataFrame()
+        temp['Publicacion'] = pd.Series([publicacion]*len(df2[publicacion]))
+        temp['Fecha'] = df2['Fecha'].copy()
+        temp['Region'] = df2['Region'].copy()
+        temp['Hospitalizacion'] = df2['Hospitalizacion'].copy()
+        temp['Fallecidos'] = df2[publicacion].copy()
+
+        dates_rep = temp['Fecha'].unique()
+        flag = 0
+        for day in dates_rep:
+            if flag == 0:
+                if day > publicacion:
+                    print(day,publicacion)
+                    flag = 1
+                    todrop = temp.loc[temp['Fecha'] > publicacion]
+                    temp.drop(todrop.index, inplace = True)
+
+        if i == 0:
+            df_std = temp.copy()
+            i += 1
+        else:
+            df_std = pd.concat([df_std, temp], axis = 0)
+
+    df_std.to_csv(prod + '_std.csv', index=False)
+
 
 def prod59_60_62(fte, prod):
     print("Generando producto 59, 60, 62")
