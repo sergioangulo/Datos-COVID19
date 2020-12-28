@@ -182,6 +182,9 @@ Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Mi
 [Data Product 73 - Tasa de incidencia de casos confirmados, por cada 100 mil habitantes, según grupo etario y semana epidemiológica, provistos por el Departamento de Epidemiología de MINSAL](output/producto73):
 El producto contiene información sobre la tasa de incidencia por cada 100 mil habitantes, de casos confirmados según semana epidemiológica de la notificación y grupo etario. [Ver más](output/producto73)
 
+[Data Product 74 - Etapas del plan paso a paso por comuna](output/producto74):
+El producto contiene información el estado de cada comuna del país en el plan paso a paso. [Ver más](output/producto73)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
