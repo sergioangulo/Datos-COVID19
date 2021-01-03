@@ -1,7 +1,8 @@
 '''
 MIT License
 
-Copyright (c) 2020 Sebastian Cornejo
+Copyright (c) 2020 Sebastian Cornejo 
+              in collaboration with Faviola Molina from dLab - Fundación Ciencia y Vida
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -158,6 +159,20 @@ def prod16(fte, producto):
                      value_name='Casos confirmados')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod16_etapa_clinica(fte, producto):
+    print('Generando producto 16, con etapas clinicas')
+
+    df = pd.read_csv(fte)
+    df.to_csv(producto + '.csv', index=False)
+
+    df_T = df.T
+    df_T.to_csv(producto + '_t.csv', index=False)
+
+    identifiers = ['Grupo de edad', 'Sexo', 'Etapa clinica']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                     value_name='Casos confirmados')
+    df_std.to_csv(producto + '_std.csv', header=False)
 
 def prod18(fte, producto):
     df = pd.read_csv(fte, dtype={'Codigo region': object, 'Codigo comuna': object})
@@ -405,9 +420,42 @@ def prod57(fte, prod):
     df['Region'] = df['Region'].str.strip()
     df.to_csv(prod + '.csv', index=False)
 
+    df2 = pd.read_csv(prod + '.csv')
+    identifiers = ['Fecha', 'Region', 'Hospitalizacion']
+    variables = [x for x in df2.columns if x not in identifiers]
+    identifiers.append('Publicacion')
 
-def prod58_60(fte, prod):
-    print("Generando producto 58, 59, 60")
+    df_std = pd.DataFrame()
+    i = 0
+    for publicacion in variables:
+        temp = pd.DataFrame()
+        temp['Publicacion'] = pd.Series([publicacion]*len(df2[publicacion]))
+        temp['Fecha'] = df2['Fecha'].copy()
+        temp['Region'] = df2['Region'].copy()
+        temp['Hospitalizacion'] = df2['Hospitalizacion'].copy()
+        temp['Fallecidos'] = df2[publicacion].copy()
+
+        dates_rep = temp['Fecha'].unique()
+        flag = 0
+        for day in dates_rep:
+            if flag == 0:
+                if day > publicacion:
+                    print(day,publicacion)
+                    flag = 1
+                    todrop = temp.loc[temp['Fecha'] > publicacion]
+                    temp.drop(todrop.index, inplace = True)
+
+        if i == 0:
+            df_std = temp.copy()
+            i += 1
+        else:
+            df_std = pd.concat([df_std, temp], axis = 0)
+
+    df_std.to_csv(prod + '_std.csv', index=False)
+
+
+def prod59_60_62(fte, prod):
+    print("Generando producto 59, 60, 62")
     df = pd.read_csv(fte, encoding='utf-8')
     df.to_csv(prod + '.csv', index=False)
 
@@ -440,6 +488,8 @@ if __name__ == '__main__':
     prod15('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
 
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
+
+    prod16_etapa_clinica('../input/InformeEpidemiologico/CasosGeneroEtarioEtapaClinica.csv', '../output/producto16/CasosGeneroEtarioEtapaClinica')
 
     print('Generando producto 18')
     prod18('../input/InformeEpidemiologico/TasaDeIncidencia.csv', '../output/producto18/TasaDeIncidencia')
@@ -487,11 +537,11 @@ if __name__ == '__main__':
 
     prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_hospitalizados')
 
-    prod58_60('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
+    prod59_60_62('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
 
-    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
+    prod59_60_62('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
               '../output/producto59/etapa_clinica_por_fecha_notificacion')
-    prod58_60('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
+    prod59_60_62('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
               '../output/producto60/etapa_clinica_por_fis')
     prod61('../input/InformeEpidemiologico/serie_fallecidos_comuna.csv',
               '../output/producto61/serie_fallecidos_comuna')

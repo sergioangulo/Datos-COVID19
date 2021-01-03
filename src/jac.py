@@ -54,7 +54,36 @@ def prod40_from_API(url, api_key, prod):
     response = requests.get(url + api_key)
     my_list = response.json()['aéreo nacional - movimientos y pasajeros']
 
-    df = pd.DataFrame(my_list)
+    #print(my_list)
+
+    df = pd.DataFrame(my_list, dtype=str)
+    #print(list(df))
+    # hay que comparar el mes con el principio de inicioSemana y finsemana:
+    # Si son iguales, corresponde al mes
+    # si no, corresponde al dia.
+    for i in range(len(df)):
+        mes = df.loc[i, 'mes']
+        iniSemana = df.loc[i, 'inicioSemana']
+        finDe = df.loc[i, 'finsemana']
+        # print('mes: ' + mes)
+        # print('iniSemana: ' + iniSemana[:2])
+        # print('finDe: ' + finDe[:2])
+        if int(mes) == int(iniSemana[:2]):
+            # print('mes primero en inisemana')
+            df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=False)
+        else:
+            # print('dia primero en inisemana')
+            df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=True)
+        if int(mes) == int(finDe[:2]):
+            # print('mes primero en finde')
+            df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=False)
+        else:
+            # print('dia primero en finde')
+            df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=True)
+
+
+    df['inicioSemana'] = pd.to_datetime(df['inicioSemana'], dayfirst=True)
+    df['finsemana'] = pd.to_datetime(df['finsemana'], dayfirst=True)
     # drop unused columns
     df.drop(columns=['anio', 'mes'], inplace=True)
 
@@ -94,8 +123,8 @@ def prod40_from_API(url, api_key, prod):
     df_aux = df_aux[columns]
 
     #fechas estan en dd-mm-YYYY
-    for i in ['Inicio_semana', 'Fin_semana']:
-        df_aux[i] = pd.to_datetime(df_aux[i], format='%d-%m-%Y')
+    #for i in ['Inicio_semana', 'Fin_semana']:
+     #   df_aux[i] = pd.to_datetime(df_aux[i], format='%d-%m-%Y')
 
     df_aux.to_csv(prod + '_std.csv', index=False)
 

@@ -1,7 +1,9 @@
 # D19 - Casos activos por fecha de inicio de síntomas y comuna: Descripción
 Archivo que da cuenta del número de casos confirmados activos notificados en cada una de las comunas de Chile, según residencia, y concatena la historia de los informes epidemiológicos publicados por el Ministerio de Salud del país.
 
-Se entiende por caso confirmado activo a la persona viva que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2, cuya fecha de inicio de síntomas en la notificación es menor o igual a 14 días a la fecha del reporte actual (considera solo vivos).
+Se entiende por caso confirmado activo a la persona viva que cumple con los criterios de definición de casos sospechoso con una muestra positiva de SARS-CoV-2, cuya fecha de inicio de síntomas en la notificación es menor o igual a 11 días a la fecha del reporte actual (considera solo vivos).
+
+NOTA: previo al 2020-10-24 los casos activos se contaban desde la fecha de inicio de síntomas en la notificación con un número de días menor o igual a 14.
 
 # Columnas y valores
 El archivo CasosActivosPorComuna.csv, contiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y una serie de columnas '[Fecha]', donde en cada una están los 'Casos activos' reportados en cada publicación de Epidemiología, por cada comuna, en cada fecha reportada. El archivo CasosActivosPorComuna_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).

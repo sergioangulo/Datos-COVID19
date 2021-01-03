@@ -100,7 +100,7 @@ Cada archivo entrega los datos de la emisión de un contaminante durante un año
 
 [Data Product 47 - Media Movil de Casos Nuevos por 100,000Hab.](output/producto47): Este producto da cuenta de la media movil semanal de casos nuevos confirmados por region, normalizado por cada 100,000 habitantes. [Ver más](output/producto47)
 
-[Data Product 48 - Encuesta diaria realidad nacional medicina intensiva(SOCHIMI)](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama. Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida. [Ver más](output/producto48)
+[Data Product 48 - Encuesta diaria realidad nacional medicina intensiva(SOCHIMIno e)](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama. Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida. [Ver más](output/producto48)
 
 [Data Product 49 - Positividad diaria y media móvil de exámenes PCR informados por día](output/producto49): Este producto da cuenta del número total de exámenes PCR realizados a nivel nacional, el número de casos nuevos totales, el resultado del cociente entre casos nuevos totales y exámenes realizados y el promedio móvil de los últimos 7 días de esa cantidad. [Ver más](output/producto49)
 
@@ -110,7 +110,7 @@ Data product que da cuenta de los datos  correspondientes a los fallecidos en ca
 [Data Product 51 - Datos de movilidad, provistos por Instituto Sistemas Complejos de Ingeniería (ISCI) en conjunto con Entel y Entel Ocean](output/producto51):
 Datos que corresponden a la variación porcentual de la movilidad entre zonas censales a partir de datos de infraestructura de telecomunicaciones. [Ver más](output/producto51)
 
-[Data Product 52 - Disponibilidad de camas críticas a nivel regional](output/producto52):
+[Data Product 52 - Disponibilidad de camas críticas a nivel regional agrupado por semana](output/producto52):
 Datos que corresponden a la cantidad de campas disponible en el sistema integrado de salud [Ver más](output/producto52)
 
 [Data Product 53 - Series corregidas sobre el número de casos confirmados, provistos por el grupo ICOVID Chile a nivel nacional, regional y provincial](output/producto53):
@@ -125,7 +125,65 @@ Media movil de los últimos 7 días de la positividad de los examenes de PCR a S
 [Data Product 56 - Proporcion de casos confirmados según fecha de incio de síntomas, provistos por ICOVID Chile](output/producto56):
 Información sobre la proporción de casos confirmados para los cuales el tiempo transcurrido entre la fecha de inicio de los síntomas y la fecha en que el resultado del test de PCR a SARS-CoV-2 es recibido por la autoridad sanitaria es menor o igual a 48 horas (casos confirmados tempranos). [Ver más](output/producto56)
 
+[Data Product 57 - Casos Fallecidos y estado de Hospitalización por región](output/producto57):
+Archivo que da cuenta de los casos fallecidos confirmados y probables por COVID-19 notificados en la plataforma EPIVIGILA o informados por los laboratorios al Ministero de Salud y que se encuentran dentro del conteo oficial de casos, por fecha de defunción, región de ocurrencia, y si el caso se hospitalizó o no. [Ver más](output/producto57)
 
+[Data Product 58 - Disponibilidad de camas críticas a nivel regional desagregado por día](output/producto58):
+Datos que corresponden a la cantidad de camas disponible en el sistema integrado de salud [Ver más](output/producto58)
+
+[Data Product 59 - Curva de casos por etapa clínica (confirmados, probables y no-notificados), por fecha de notificación, desagregados por día](output/producto59):
+Curva completa de los casos por etapa clínica (confirmados, probables y no-notificados) a nivel nacional, por fecha de notificación, desagregado por día [Ver más](output/producto59)
+
+[Data Product 60 - Curva de casos por etapa clínica (confirmados, probables y no-notificados), por fecha de inicio de síntomas, desagregados por día](output/producto60):
+Curva completa de los casos por etapa clínica (confirmados, probables y no-notificados) a nivel nacional, por fecha de inicio de síntomas o toma de muestras de cada caso, desagregado por día [Ver más](output/producto60)
+
+[Data Product 61 - Fallecidos confirmados por comuna (U07.1)](output/producto61):
+Fallecidos confirmados por DEIS, desagregados por comuna [Ver más](output/producto61)
+
+[Data Product 62 - Curva de casos nuevos desagregados por día](output/producto62):
+Curva completa de los casos nuevos confirmados (incluye probables) y acumulados de COVID-19 según fecha de confirmación por laboratorio a nivel nacional, desagregado por día [Ver más](output/producto62)
+
+[Data Product 63 - Número de personas notificadas con exámenes RT- PCR por Comuna](output/producto63):
+Número de personas notificadas con exámenes RT-PCR positivos. Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto63)
+
+[Data Product 64 - Cantidad de Test por búsqueda activa de casos (BAC) por Comuna](output/producto64):
+Proporción de test realizados por búsqueda activa de casos sobre el total de los test realizados en las personas notificadas con resultados de laboratorio.Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto64) 
+
+[Data Product 65 - Indice de Positividad Test RT-PCR por Comuna](output/producto65):
+Proporción de resultados de test positivos en las personas notificadas con resultados de laboratorio.
+Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
+acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto65)
+
+[Data Product 66 - Cobertura de testeo por Comuna](output/producto66):
+Proporción de casos nuevos notificados (sospechosos) con al menos un resultado de examen de RT-PCR.
+Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
+acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto66)
+
+[Data Product 67 - Oportunidad en la notificación de casos nuevos por Comuna](output/producto67):
+Proporción de casos nuevos confirmados por laboratorio, que fueron notificados en la primera consulta o contacto con salud, es decir, antes del proceso de la toma de muestra.
+Estos valores son levantados y reportados de manera semanal por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida
+acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente por el departamento de Epidemiología. [Ver más](output/producto67)
+
+[Data Product 68 - Cantidad de exámenes de PCR por cada 1000 habitantes por semana, según fecha del examen, provistos por ICOVID Chile](output/producto68):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de los últimos 7 días, de la cantidad de examenes de PCR a SARS-CoV-2 realizados por cada 1000 habitantes.[Ver más](output/producto68)
+
+[Data Product 69 - Tasa de incidencia, por cada 100 mil habitantes, de casos confirmados diarios, provistos por el grupo ICOVID Chile](output/producto69):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la tasa de incidencia diaria, por cada 100 mil habitantes, de casos confirmados según fecha de inicio de los síntomas.[Ver más](output/producto69)
+
+[Data Product 70 - Confirmación temprana de casos sintomáticos, provistos por el grupo ICOVID Chile](output/producto70):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de 7 días, de la proporción de personas sintomáticas sospechosas cuyo resultado de PCR positivo a SARS-CoV-2 es informado a la autoridad sanitaria dentro de 3 días desde la fecha de inicio de síntomas.[Ver más](output/producto70)
+
+[Data Product 71 - Consulta temprana de casos sintomáticos, provistos por el grupo ICOVID Chile](output/producto71):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de 7 días, de la proporción de personas confirmadas sintomáticas que consultaron un especialista y fueron notificadas dentro de 2 días desde la fecha de iniciados sus síntomas. [Ver más](output/producto71)
+
+[Data Product 72 - Tiempo de examen y laboratorio de casos sintomáticos, provistos por el grupo ICOVID Chile](output/producto72):
+Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Ministerio de Ciencias, e investigadores del grupo ICOVID Chile (https://www.icovidchile.cl). El producto contiene información sobre la media móvil, de 7 días, de la proporción de personas confirmadas sintomáticas cuyo resultado de PCR positivo a SARS-CoV-2 es informado a la autoridad sanitaria dentro de 1 día desde la notificación como caso sospechoso en Epivigila. [Ver más](output/producto72)
+
+[Data Product 73 - Tasa de incidencia de casos confirmados, por cada 100 mil habitantes, según grupo etario y semana epidemiológica, provistos por el Departamento de Epidemiología de MINSAL](output/producto73):
+El producto contiene información sobre la tasa de incidencia por cada 100 mil habitantes, de casos confirmados según semana epidemiológica de la notificación y grupo etario. [Ver más](output/producto73)
+
+[Data Product 74 - Etapas del plan paso a paso por comuna](output/producto74):
+El producto contiene información el estado de cada comuna del país en el plan paso a paso. [Ver más](output/producto74)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
