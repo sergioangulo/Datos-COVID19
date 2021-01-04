@@ -39,6 +39,7 @@ Aca generamos los productos
 70
 71
 72
+73
 '''
 
 
@@ -58,6 +59,7 @@ def prod53(fte, prod):
     p70_files = []
     p71_files = []
     p72_files = []
+    p73_files = []
 
     for file in glob.glob(fte + '/*'):
         print('Processing file ' + file)
@@ -160,6 +162,9 @@ def prod53(fte, prod):
             if 'lab24.' in file:
                 p72_files.append(file)
                 df.to_csv(prod.replace('53', '72') + '/' + filename, index=False)
+            if 'incidencia_edad' in file:
+                p73_files.append(file)
+                df.to_csv(prod.replace('53', '73') + '/' + filename, index=False)
 
         # Nacional
         if 'nacional' in file:
@@ -191,7 +196,9 @@ def prod53(fte, prod):
             if 'lab24.' in file:
                 p72_files.append(file)
                 df.to_csv(prod.replace('53', '72') + '/' + filename, index=False)
-
+            if 'incidencia_edad' in file:
+                p73_files.append(file)
+                df.to_csv(prod.replace('53', '73') + '/' + filename, index=False)
         ## SS
         if 'ss.csv' or 'ss.ajustada.csv' in file:
             if 'confirmados_' in file:
@@ -215,6 +222,7 @@ def prod53(fte, prod):
     print('Producto 70 files: ' + str(p70_files))
     print('Producto 71 files: ' + str(p71_files))
     print('Producto 72 files: ' + str(p72_files))
+    print('Producto 73 files: ' + str(p73_files))
 
     not_processed = [x for x in glob.glob(fte + '/*') if x not in (p53_files +
                                                                    p54_files +
@@ -224,7 +232,8 @@ def prod53(fte, prod):
                                                                    p69_files +
                                                                    p70_files +
                                                                    p71_files +
-                                                                   p72_files)
+                                                                   p72_files +
+                                                                   p73_files)
                      ]
     print('Not processed: ' + str(not_processed))
 
