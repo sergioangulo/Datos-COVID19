@@ -36,7 +36,7 @@ def prod74(fte,producto):
     df = pd.read_csv(fte)
 
 
-    identifiers = ['codigo_region', 'region_residencia','codigo_comuna','comuna_residencia']
+    identifiers = ['codigo_region', 'region_residencia','codigo_comuna','comuna_residencia','zona']
     variables = [x for x in df.columns if x not in identifiers]
     var_aux = [x for x in df.columns if x not in identifiers]
     sorted_columns = identifiers + var_aux
