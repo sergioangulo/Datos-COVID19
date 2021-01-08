@@ -1,5 +1,5 @@
 # DP20 - Ventiladores a nivel nacional: Descripción
-Este producto da cuenta del número total de ventiladores en el Sistema Integrado Covid 19, el número de ventiladores disponibles y el número de ventiladores ocupados, para cada fecha reportada.  Se concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país.
+Este producto da cuenta del número total de ventiladores en el Sistema Integrado Covid 19, el número de ventiladores disponibles y el número de ventiladores ocupados, para cada fecha reportada. Se concatena la historia de los reportes diarios publicados por el Ministerio de Salud del país.
 
 Se entiende por número total a todos los ventiladores operativos en el Sistema Integrado Covid 19.
 
@@ -15,3 +15,5 @@ Actualización diaria.
 # Notas aclaratorias
 
 **Nota aclaratoria 1:** Previo al 14 de abril del 2020, los reportes diarios del Ministerio de Salud no entrega información sobre la cantidad de ventiladores operativos, disponibles u ocupados.
+
+**Nota aclaratoria 2:** A partir del reporte diario del 7 de enero, se informa como Camas críticas, considerando que siempre son equipadas con ventiladores mecánicos. En estos archivos se mantienen la denominaciones.
