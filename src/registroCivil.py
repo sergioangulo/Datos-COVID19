@@ -348,6 +348,14 @@ def removeOldFiles():
             if os.path.isfile(todays_file):
                 print('Found a file for today: ' + todays_file + '. Removing yesterday\'s')
                 os.remove(file)
+    if '2021' in today:
+        print('Searching for files older than ' + today)
+        for file in glob.glob('../input/RegistroCivil/*/*' + yesterday + '_DO.csv'):
+            todays_file = file.replace(yesterday, today)
+            print('Found ' + file + ' to delete. Doing only if there\'s a file for today')
+            if os.path.isfile(todays_file):
+                print('Found a file for today: ' + todays_file + '. Removing yesterday\'s')
+                os.remove(file)
 
 
 if __name__ == '__main__':
