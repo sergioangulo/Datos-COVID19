@@ -84,6 +84,8 @@ def prod2(fte, producto):
     for eachColumn in df.columns:
         if '2020' in eachColumn:
             dates.append(eachColumn)
+        if '2021' in eachColumn:
+            dates.append(eachColumn)
     # print('las fechas son ' + str(dates))
     for eachdate in dates:
         filename = eachdate + '-CasosConfirmados.csv'
