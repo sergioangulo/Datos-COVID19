@@ -481,7 +481,7 @@ def prod61(fte, prod):
 if __name__ == '__main__':
     prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
 
-     prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
+    prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
     print('Generando producto 6')
     exec(open('bulk_producto2.py').read())
