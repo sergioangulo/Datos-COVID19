@@ -717,11 +717,11 @@ def prod49(fte, fte2, producto):
 
 if __name__ == '__main__':
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
-    prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
+     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
 
-    print('Generando productos 3, 13, 14, 26 y 27')
-    prod3_13_14_26_27_47('../output/producto4/', '../input/ReporteDiario/CasosProbables/',
-                          '../input/Otros/InformacionComunas.csv')
+     print('Generando productos 3, 13, 14, 26, 27 y 47')
+     prod3_13_14_26_27_47('../output/producto4/', '../input/ReporteDiario/CasosProbables/',
+                           '../input/Otros/InformacionComunas.csv')
 
     print('Generando producto 11')
     print('Generando producto 11: bulk_producto4.py hay un bug, debes generarlo a mano')
