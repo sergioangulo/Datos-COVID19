@@ -20,4 +20,4 @@ Ministerio de Salud de Chile
 
 # Frecuencia de actualización
 
-El archivo actual es una versión inicial que comprende la información entre el 10 y el 23 de diciembre. El equipo del Ministerio de Salud trabaja en curar la información histórica con las publicaciones en el Diario Oficial para poder actualizar el archivo cada vez que se actualiza el estado del territorio.
+El equipo del Ministerio de Salud trabaja en curar la información histórica con las publicaciones en el Diario Oficial para poder actualizar el archivo cada vez que se actualiza el estado del territorio.
