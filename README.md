@@ -185,6 +185,9 @@ El producto contiene información sobre la tasa de incidencia por cada 100 mil h
 [Data Product 74 - Etapas del plan paso a paso por comuna](output/producto74):
 El producto contiene información el estado de cada comuna del país en el plan paso a paso. [Ver más](output/producto74)
 
+[Data Product 75 - Media Móvil de casos nuevos y de casos activos](output/producto75):
+Este producto da cuenta de la media movil semanal de casos nuevos confirmados y probables por region, y la de casos activos confirmados más probables por región. [Ver más](output/producto74)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
