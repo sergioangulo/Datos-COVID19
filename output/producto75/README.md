@@ -1,5 +1,5 @@
 # DP75 - Media Móvil de casos nuevos y de casos activos: Descripción
-Este producto da cuenta de la media movil semanal de casos nuevos confirmados y probables por region, y la de casos activos confirmados más probables por región. 
+Este producto da cuenta de la media movil semanal de casos nuevos confirmados por region, y la de casos activos confirmados más probables por región. 
 
 # Columnas y valores
 El archivo MediaMovil_activos.csv contiene una columna 'Region', seguida por columnas correspondientes a ['fecha']. 

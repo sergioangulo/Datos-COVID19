@@ -581,7 +581,7 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
 
     #### PRODUCTO 75
 
-    ## Casos Nuevos
+    ## Casos Nuevos confirmados
 
     # pop = pd.read_csv(ft3)
     pop2 = pd.read_csv(ft3)
@@ -594,6 +594,7 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
     pop = aux
 
     mediamovil = pd.merge(pop, cumulativoCasosNuevos, on='Region', how='outer')
+
     # print(mediamovil.head(20).to_string())
     df_t = mediamovil.T[3:].rolling(7).mean()
     mediamovil = mediamovil.T[0:1]
@@ -613,7 +614,7 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
                      value_name='Media movil')
     df_std.to_csv('../output/producto75/MediaMovil_casos_nuevos_std.csv', index=False)
 
-    ## Casos Activos
+    ## Casos Activos confirmados y probables
 
     # pop = pd.read_csv(ft3)
     pop2 = pd.read_csv(ft3)
@@ -624,8 +625,7 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
     Total_row = {'Region': 'Total', 'Codigo region': np.NaN, 'Poblacion': aux['Poblacion'].sum()}
     aux = aux.append(Total_row, ignore_index=True)
     pop = aux
-    regionName(casosActivosConfirmados)
-    regionName(casosActivosProbables)
+
     mediamovil = pd.merge(pop, casosActivosConfirmados, on='Region', how='outer')
     mediamovil_probables = pd.merge(pop, casosActivosProbables, on='Region', how='outer')
 
