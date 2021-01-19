@@ -183,10 +183,10 @@ Este producto surge del trabajo colaborativo entre el Ministerio de Salud, el Mi
 El producto contiene información sobre la tasa de incidencia por cada 100 mil habitantes, de casos confirmados según semana epidemiológica de la notificación y grupo etario. [Ver más](output/producto73)
 
 [Data Product 74 - Etapas del plan paso a paso por comuna](output/producto74):
-El producto contiene información el estado de cada comuna del país en el plan paso a paso. [Ver más](output/producto74)
+El producto contiene información sobre el estado de cada comuna del país en el plan paso a paso desde la instauración del plan. [Ver más](output/producto74)
 
 [Data Product 75 - Media Móvil de casos nuevos y de casos activos](output/producto75):
-Este producto da cuenta de la media movil semanal de casos nuevos confirmados por region, y la de casos activos confirmados más probables por región. [Ver más](output/producto74)
+Este producto da cuenta de la media movil semanal de casos nuevos confirmados por región, y la de casos activos confirmados más probables por región. [Ver más](output/producto74)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
