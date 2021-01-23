@@ -152,11 +152,12 @@ def prod5(fte, producto):
         if i >= fecha_de_corte:
             # print(str(i))
             # Casos activos por FIS parten el 2 de Junio por definicion y corresponden a los casos activos del reporte diario
-            df_output_file.loc[i, 'Casos activos por FIS'] = df_output_file.loc[i, 'Casos activos']
+            df_output_file.loc[i, 'Casos activos'] = df_output_file.loc[i, 'Casos activos confirmados']
+            df_output_file.loc[i, 'Casos activos por FIS'] = df_output_file.loc[i, 'Casos activos confirmados']
             # Recuperados FIS se calculan restando fallecidos y activos FIS
             df_output_file.loc[i, 'Casos recuperados por FIS'] = \
                 df_output_file.loc[i, 'Casos totales'] - \
-                df_output_file.loc[i, 'Casos activos'] - \
+                df_output_file.loc[i, 'Casos activos confirmados'] - \
                 df_output_file.loc[i, 'Fallecidos']
             # Falta casos activos y recuperados por FD: ocupar numeros antiguos para calcular
             fourteen_days = timedelta(days=14)
