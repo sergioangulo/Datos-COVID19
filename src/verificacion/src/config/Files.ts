@@ -268,13 +268,12 @@ const FILES: Files = {
 	'producto74/paso_a_paso.csv': ['ISO'],
 	'producto74/paso_a_paso_std.csv': [],
 	'producto74/paso_a_paso_T.csv': [],
-    'producto75/MediaMovil_casos_activos.csv': [],
-    'producto75/MediaMovil_casos_activos_std.csv': [],
-    'producto75/MediaMovil_casos_activos_T.csv': [],
-    'producto75/MediaMovil_casos_nuevos.csv': [],
-    'producto75/MediaMovil_casos_nuevos_std.csv': [],
-    'producto75/MediaMovil_casos_nuevos_T.csv': [],
-
+	'producto75/MediaMovil_casos_activos.csv': ['ISO'],
+	'producto75/MediaMovil_casos_activos_std.csv': [],
+	'producto75/MediaMovil_casos_activos_T.csv': [],
+	'producto75/MediaMovil_casos_nuevos.csv': ['ISO'],
+	'producto75/MediaMovil_casos_nuevos_std.csv': [],
+	'producto75/MediaMovil_casos_nuevos_T.csv': [],
 };
 
 export default FILES;
