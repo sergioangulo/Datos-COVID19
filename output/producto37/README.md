@@ -9,6 +9,8 @@ Los criterios para identificar fallecidos debido a COVID19 para efectos del repo
 A su vez, los datos en defunciones_deis.csv (y sus versiones transpuestas y std) provienen del Departamento de Estadística e Información del Minsal (DEIS). El DEIS hace mejoras al registro de defunciones a medida que analiza diversas fuentes de datos, estas mejoras estudian la causa de defunción indicada en el certificado médico y la presencia de resultados RT-PCR, en caso de ser la defunción por cuadro clínico compatible a COVID19, y contar con PCR(-), o no haber sido testeado se incluye como sospechoso, mientras que si existe PCR(+) se incluye como confirmado.
 
 En ambos archivos, la columna “Defunciones” se refiere a la fecha de defunción (no es la fecha de inscripción).
+
+Más información relacionada con el procesamiento de esta información: https://github.com/MinCiencia/Datos-COVID19/issues/457
  
 # Columnas y valores
 Los archivos defunciones contienen las columnas 'Defunciones' y múltiples columnas correspondientes a '[fecha]'. Estas últimas columnas, ‘[fecha]’, contienen las 'Defunciones (por fecha de fechas de defunción)' inscritas en el Registro Civil de Chile con relación a COVID19, que al cruzar con la base de laboratorios tienen PCR positivo, y son datos provisorios a la fecha de publicación que se pueden actualizar retroactivamente.
