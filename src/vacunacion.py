@@ -49,7 +49,7 @@ class vacunacion:
                                              "Second": "Segunda"
                                              })
 
-        identifiers = ['Region']
+        identifiers = ['Region','Dosis']
         variables = [x for x in self.last_added.columns if x not in identifiers]
 
         self.last_added = self.last_added[identifiers + variables]
@@ -58,8 +58,8 @@ class vacunacion:
         df_t = self.last_added.T
         df_t.to_csv(self.output + '_t.csv', header=False)
 
-        df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                         value_name='Dosis')
+        df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Fecha'],
+                         value_name='Cantidad')
 
         df_std.to_csv(self.output + '_std.csv', index=False)
 
