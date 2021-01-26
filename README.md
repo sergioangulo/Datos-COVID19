@@ -188,6 +188,9 @@ El producto contiene información sobre el estado de cada comuna del país en el
 [Data Product 75 - Media Móvil de casos nuevos y de casos activos](output/producto75):
 Este producto da cuenta de la media movil semanal de casos nuevos confirmados por región, y la de casos activos confirmados más probables por región. [Ver más](output/producto75)
 
+[Data Product 76 - Avance en Campaña de Vacunación COVID-19](output/producto76):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2. [Ver más](output/producto76)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario
