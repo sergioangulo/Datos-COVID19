@@ -274,7 +274,7 @@ const FILES: Files = {
 	'producto75/MediaMovil_casos_nuevos.csv': ['ISO'],
 	'producto75/MediaMovil_casos_nuevos_std.csv': [],
 	'producto75/MediaMovil_casos_nuevos_T.csv': [],
-	'producto76/vacunacion.csv': [],
+	'producto76/vacunacion.csv': ['ISO'],
 	'producto76/vacunacion_t.csv': [],
 	'producto76/vacunacion_std.csv': [],
 };
