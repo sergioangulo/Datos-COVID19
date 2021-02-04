@@ -1,13 +1,12 @@
-name: Traffic to Badge
+name: traffic_daily_processing
 
-uses: yi-Xu-0100/traffic-to-badge@v1.4.0
-
+# Controls when the action will run. Triggers the workflow on push or pull request 
+# events but only for the master branch
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '1 0 * * *' #UTC
+    #push
+    # github runners are on GMT
+    schedule:
+      - cron:  '1 0 * * *'
 
 jobs:
   run:
