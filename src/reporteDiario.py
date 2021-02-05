@@ -48,13 +48,16 @@ Los productos que salen del reporte diario son:
 49
 """
 
-import pandas as pd
+from googleapiclient.discovery import build
 from utils import *
 from shutil import copyfile
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime, timedelta
 import numpy as np
+import pandas as pd
+import pickle
+import os.path
 
 
 def prod4(fte, producto):
@@ -695,15 +698,37 @@ def prod20(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
-def prod23(fte, producto):
-    copyfile(fte, producto + '.csv')
-    df = pd.read_csv(fte)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Casos']
-    variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='Casos confirmados')
-    df_std.to_csv(producto + '_std.csv', index=False)
+def prod23(fte, fte2, producto):
+    SPREADSHEET_ID = fte
+    RANGE_NAME = fte2
+    creds = None
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+    service = build('sheets', 'v4', credentials=creds)
+
+    # Call the Sheets API
+    sheet = service.spreadsheets()
+    result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
+                                range=RANGE_NAME).execute()
+    values = result.get('values', [])
+
+    if not values:
+        print('No data found.')
+    else:
+        print('Escribiendo productos Pacientes Críticos')
+        for row in values:
+            print('%s, %s, %s' % (row[0], row[1], row[len(row) - 1]))
+        df = pd.DataFrame(row)
+        df = df.T
+        df.columns = values[0]
+        df_t = df.T
+        df_t.to_csv(producto + '_T.csv', header=False)
+        identifiers = ['Casos']
+        variables = [x for x in df.columns if x not in identifiers]
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha',
+                         value_name='Pacientes Críticos')
+        df_std.to_csv(producto + '_std.csv', index=False)
 
 
 def prod24(fte, producto):
@@ -740,16 +765,36 @@ def prod36(fte, producto):
     df_std.to_csv(producto + '_std.csv', index=False)
 
 
-def prod44(fte, producto):
-    copyfile(fte, producto + '.csv')
-    df = pd.read_csv(fte)
-    df_t = df.T
-    df_t.to_csv(producto + '_T.csv', header=False)
-    identifiers = ['Egresos semanales']
-    variables = [x for x in df.columns if x not in identifiers]
-    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                     value_name='Egresos')
-    df_std.to_csv(producto + '_std.csv', index=False)
+def prod44(fte,fte2,producto):
+    SPREADSHEET_ID = fte
+    RANGE_NAME = fte2
+    creds = None
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+    service = build('sheets', 'v4', credentials=creds)
+
+    # Call the Sheets API
+    sheet = service.spreadsheets()
+    result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
+                                range=RANGE_NAME).execute()
+    values = result.get('values', [])
+
+    if not values:
+        print('No data found.')
+    else:
+        print('Escribiendo productos Egresos hospitalarios')
+        for row in values:
+            print('%s       , %s        , %s        ' % (row[0], row[len(row) - 7], row[len(row) - 1]))
+        df = pd.DataFrame(values[1:])
+        df.columns = values[0]
+        df_t = df.T
+        df_t.to_csv(producto + '_T.csv', header=False)
+        identifiers = ['Egresos semanales']
+        variables = [x for x in df.columns if x not in identifiers]
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                         value_name='Egresos')
+        df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod49(fte, fte2, producto):
     # massage casos nuevos diarios
@@ -818,7 +863,7 @@ if __name__ == '__main__':
     prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
 
     print('Generando producto 23')
-    prod23('../input/ReporteDiario/PacientesCriticos.csv', '../output/producto23/PacientesCriticos')
+    prod23('1ufPPKzzJeYMnctgtZRTBwTIAzz21IVvjrxXyERz-jg0','PacientesCriticos!1:999','../output/producto23/PacientesCriticos')
 
     print('Generando producto 24')
     prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
@@ -830,7 +875,7 @@ if __name__ == '__main__':
     prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
 
     print('Generando producto 44')
-    prod44('../input/ReporteDiario/EgresosHospitalarios.csv', '../output/producto44/EgresosHospitalarios')
+    prod44('1ufPPKzzJeYMnctgtZRTBwTIAzz21IVvjrxXyERz-jg0','EgresosHospitalarios!1:999', '../output/producto44/EgresosHospitalarios')
 
     print('Generando producto 49')
     prod49('../input/ReporteDiario/PCREstablecimiento.csv','../output/producto5/TotalesNacionales.csv', '../output/producto49/Positividad_Diaria_Media')
