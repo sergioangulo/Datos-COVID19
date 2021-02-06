@@ -722,11 +722,12 @@ def prod23(fte, fte2, producto):
         df = pd.DataFrame(row)
         df = df.T
         df.columns = values[0]
+        df.to_csv(producto + '.csv', index=False)
         df_t = df.T
         df_t.to_csv(producto + '_T.csv', header=False)
-        identifiers = ['Casos']
+        identifiers = ['Variable']
         variables = [x for x in df.columns if x not in identifiers]
-        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha',
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Pacientes Críticos')
         df_std.to_csv(producto + '_std.csv', index=False)
 
@@ -788,11 +789,12 @@ def prod44(fte,fte2,producto):
             print('%s       , %s        , %s        ' % (row[0], row[len(row) - 7], row[len(row) - 1]))
         df = pd.DataFrame(values[1:])
         df.columns = values[0]
+        df.to_csv(producto + '.csv', index=False)
         df_t = df.T
         df_t.to_csv(producto + '_T.csv', header=False)
-        identifiers = ['Egresos semanales']
+        identifiers = ['Semana']
         variables = [x for x in df.columns if x not in identifiers]
-        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha Publicación',
                          value_name='Egresos')
         df_std.to_csv(producto + '_std.csv', index=False)
 
