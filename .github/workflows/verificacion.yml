@@ -1,5 +1,7 @@
 name: verificación
-on: [push, pull_request]
+on: [pull_request]
+    schedule:
+      - cron:  '7 1 * * *'
 defaults:
   run:
     working-directory: ./src/verificacion
