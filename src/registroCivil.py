@@ -202,6 +202,8 @@ def prod31_32DO(fte, prod):
             data.append(df)
             if '2020-01-01' in file:
                 df_2020 = df
+            if '2021-01-01' in file:
+                df_2021 = df
 
     if 'producto32' in prod:
         outputPrefix = 'Defunciones'
@@ -210,6 +212,8 @@ def prod31_32DO(fte, prod):
             data.append(df)
             if '2020-01-01' in file:
                 df_2020 = df
+            if '2021-01-01' in file:
+                df_2021 = df
 
     data = pd.concat(data)
     #I'm appending to the file on disk what's comming from the API
@@ -230,6 +234,7 @@ def prod31_32DO(fte, prod):
     data_t.to_csv(prod + outputPrefix + '_T.csv')
 
     # issue 223: light product to consume raw from gh
+    #2020
     df_2020.to_csv(prod + '2020-' + outputPrefix + '_std.csv', index=False)
     reshaped = pd.pivot_table(df_2020, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
                               columns=['Fecha'],
@@ -241,6 +246,17 @@ def prod31_32DO(fte, prod):
     data_t.index.rename('', inplace=True)
     data_t.to_csv(prod + '2020-' + outputPrefix + '_T.csv')
 
+    #2021
+    df_2021.to_csv(prod + '2021-' + outputPrefix + '_std.csv', index=False)
+    reshaped = pd.pivot_table(df_2021, index=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'],
+                              columns=['Fecha'],
+                              values=outputPrefix)
+    reshaped.fillna(0, inplace=True)
+    reshaped = reshaped.applymap(np.int64)
+    reshaped.to_csv(prod + '2021-' + outputPrefix + '.csv')
+    data_t = reshaped.transpose()
+    data_t.index.rename('', inplace=True)
+    data_t.to_csv(prod + '2021-' + outputPrefix + '_T.csv')
 
 def compareAPIAgainstFile(df_api, fromDate, toDate):
     '''
@@ -374,10 +390,10 @@ if __name__ == '__main__':
         URL = 'https://codigo.registrocivil.cl/api/'
         if len(sys.argv) == 3:
             print('Actualizando productos entre ' + sys.argv[1] + ' y ' + sys.argv[2])
-            updateInputDO(URL, '../input/RegistroCivil/Nacimientos/', fromDate=sys.argv[1], toDate=sys.argv[2])
             updateInputDO(URL, '../input/RegistroCivil/Defunciones/', fromDate=sys.argv[1], toDate=sys.argv[2])
+            updateInputDO(URL, '../input/RegistroCivil/Nacimientos/', fromDate=sys.argv[1], toDate=sys.argv[2])
         elif len(sys.argv) == 1:
-            print('Actualizando productos para el año 2020')
+            print('Actualizando productos para el año 2020-2021')
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/')
             updateInputDO(URL, '../input/RegistroCivil/Defunciones/')
         else:
