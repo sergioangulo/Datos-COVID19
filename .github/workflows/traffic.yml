@@ -16,7 +16,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
+      - uses: actions/checkout@v2
       # Sets up python
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
