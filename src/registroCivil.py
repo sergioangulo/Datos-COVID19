@@ -137,7 +137,7 @@ def prod31_32(fte, prod):
     data_t.to_csv(prod + outputPrefix + '_T.csv')
 
 
-def updateInputDO(fte, prod, fromDate='2020-01-01', toDate=dt.datetime.today().strftime("%Y-%m-%d")):
+def updateInputDO(fte, prod, fromDate='2021-01-01', toDate=dt.datetime.today().strftime("%Y-%m-%d")):
     # check if we're on nacimientos or defunciones and when was the last update to the files
     suffix = ''
     outputPrefix = ''
@@ -393,7 +393,7 @@ if __name__ == '__main__':
             updateInputDO(URL, '../input/RegistroCivil/Defunciones/', fromDate=sys.argv[1], toDate=sys.argv[2])
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/', fromDate=sys.argv[1], toDate=sys.argv[2])
         elif len(sys.argv) == 1:
-            print('Actualizando productos para el año 2020-2021')
+            print('Actualizando productos para el año 2021')
             updateInputDO(URL, '../input/RegistroCivil/Nacimientos/')
             updateInputDO(URL, '../input/RegistroCivil/Defunciones/')
         else:
