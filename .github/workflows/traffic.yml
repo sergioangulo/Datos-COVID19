@@ -9,59 +9,27 @@ on:
       - cron:  '1 0 * * *'
 
 jobs:
-  run:
-    name: Make GitHub Traffic to Badge
+  # This workflow contains a single job called "actualiza..."
+  Actualiza estadisticas del repo:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2.3.4
 
-      - name: Get Commit Message
-        id: message
-        uses: actions/github-script@v3.1.0
-        env:
-          FULL_COMMIT_MESSAGE: '${{ github.event.head_commit.message }}'
+      # Sets up python
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
         with:
-          result-encoding: string
-          script: |
-            var message = `${process.env.FULL_COMMIT_MESSAGE}`;
-            core.info(message);
-            if (message != '') return message;
-            var time = new Date(Date.now()).toISOString();
-            core.info(time);
-            return `Get traffic data at ${time}`;
+          python-version: 3.7
 
-      - name: Set Traffic
-        id: traffic
-        uses: yi-Xu-0100/traffic-to-badge@v1.4.0
-        with:
-          my_token: ${{ secrets.TRAFFIC_TOKEN }}
-          #(default) static_list: ${{ github.repository }}
-          #(default) traffic_branch: traffic
-          #(default) views_color: brightgreen
-          #(default) clones_color: brightgreen
-          #(default) views_week_color: brightgreen
-          #(default) clones_week_color: brightgreen
-          #(default) total_views_color: brightgreen
-          #(default) total_clones_color: brightgreen
-          #(default) total_views_week_color: brightgreen
-          #(default) total_clones_week_color: brightgreen
-          #(default) logo: github
-          year: 2021
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: ${{ steps.traffic.outputs.traffic_branch }}
-          publish_dir: ${{ steps.traffic.outputs.traffic_path }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          full_commit_message: ${{ steps.message.outputs.result }}
-
-      - name: Show Traffic Data
+      # Runs a set of commands using the runners shell
+      - name: Install dependencies
         run: |
-          echo ${{ steps.traffic.outputs.traffic_branch }}
-          echo ${{ steps.traffic.outputs.traffic_path }}
-          cd ${{ steps.traffic.outputs.traffic_path }}
-          ls -a
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: generate products from Reporte Diario
+        run: |
+          cd src
+          python traffic.py
