@@ -6,7 +6,7 @@ on:
     #push
     # github runners are on GMT
     schedule:
-      - cron:  '20 23 * * *'
+      - cron:  '49 23 * * *'
 
 jobs:
   # This workflow contains a single job called "actualiza..."
@@ -29,7 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: generate products from Reporte Diario
+      - name: generate input of traffic
         run: |
           cd src
           python traffic.py ${{ secrets.API_REQUEST }} MinCiencia
