@@ -32,4 +32,4 @@ jobs:
       - name: generate products from Reporte Diario
         run: |
           cd src
-          python traffic.py ${{ secrets.API_REQUEST }} MinCiencia ${{ secrets.NEW_RELIC_USER }} ${{ secrets.NEW_RELIC_KEY }}
+          python traffic.py ${{ secrets.API_REQUEST }} MinCiencia

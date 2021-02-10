@@ -28,12 +28,10 @@ import pandas as pd
 from datetime import datetime
 
 class traffic:
-    def __init__(self, user, token,new_relic_user,new_relic_key):
+    def __init__(self, user, token):
 
         self.user = user
         self.token = token
-        self.new_relic_user = new_relic_user
-        self.new_relic_key = new_relic_key
         self.df_clones = pd.DataFrame(columns=['timestamp','count','uniques'])
         self.df_views = pd.DataFrame(columns=['timestamp','count','uniques'])
         self.now = pd.to_datetime(datetime.now()).strftime('%Y-%m-%d-%H:%M:%S')
@@ -151,7 +149,7 @@ if __name__ == '__main__':
     my_token = sys.argv[1]
     my_newrelic_user = sys.argv[3]
     my_newrelic_key = sys.argv[4]
-    my_traffic = traffic(my_user,my_token,my_newrelic_user,my_newrelic_key)
+    my_traffic = traffic(my_user,my_token)
     my_traffic.lambda_handler()
     my_traffic.save()
 
