@@ -6,7 +6,7 @@ on:
     #push
     # github runners are on GMT
     schedule:
-      - cron:  '2 23,0 * * *'
+      - cron:  '20 23 * * *'
 
 jobs:
   # This workflow contains a single job called "actualiza..."
