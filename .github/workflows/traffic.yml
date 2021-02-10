@@ -33,3 +33,20 @@ jobs:
         run: |
           cd src
           python traffic.py ${{ secrets.API_REQUEST }} MinCiencia
+
+      - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+        with:
+          commit_message: "Added data from traffic api to repo input"
+
+        # Optional glob pattern of files which should be added to the commit
+          file_pattern: input/*/*.csv
+
+        # Optional local file path to the repository
+          repository: .
+
+        # Optional commit user and author settings
+          commit_user_name: MinCiencia GitHub Actions Bot
+          commit_user_email: actions@github.com
+          commit_author: minciencia github bot <actions@github.com>
+
+
