@@ -120,17 +120,17 @@ class traffic:
     def save(self):
         #views
         self.df_views['timestamp'] = pd.to_datetime(self.df_views['timestamp'], format='%Y-%m-%d').dt.date
-        self.df_views.to_csv('../input/traffic/%s_views.csv' % self.now,index=False)
+        self.df_views.to_csv('../input/traffic/views.csv',mode='a',index=False,header=False)
 
         #clones
         self.df_clones['timestamp'] = pd.to_datetime(self.df_clones['timestamp'], format='%Y-%m-%d').dt.date
-        self.df_clones.to_csv('../input/traffic/%s_clones.csv' % self.now,index=False)
+        self.df_clones.to_csv('../input/traffic/clones.csv',mode='a',index=False,header=False)
 
         #referrers
-        self.df_referring.to_csv('../input/traffic/%s_referrers.csv' % self.now, index=False)
+        self.df_referring.to_csv('../input/traffic/referrers.csv',mode='a', index=False,header=False)
 
         #popular
-        self.df_popular.to_csv('../input/traffic/%s_popular.csv' % self.now, index=False)
+        self.df_popular.to_csv('../input/traffic/popular.csv',mode='a', index=False,header=False)
 
 if __name__ == '__main__':
     my_user = sys.argv[2]
