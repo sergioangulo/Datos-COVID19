@@ -34,7 +34,9 @@ class traffic:
         self.token = token
         self.df_clones = pd.DataFrame(columns=['timestamp','count','uniques'])
         self.df_views = pd.DataFrame(columns=['timestamp','count','uniques'])
-        self.now = pd.to_datetime(datetime.now()).strftime('%Y-%m-%d-%H:%M:%S')
+        self.now = pd.to_datetime(datetime.now()).strftime('%Y-%m-%d')
+        self.df_referring = pd.DataFrame(columns=['timestamp','referrer','count','uniques'])
+        self.df_popular = pd.DataFrame(columns=['timestamp','path','count','uniques'])
 
 
     def lambda_handler(self):
@@ -76,64 +78,44 @@ class traffic:
                 print(dfi)
                 self.df_clones = self.df_clones.append(dfi,ignore_index=True)
 
-            # print("Getting referral data for %s" % repo_name)
-            # referrals = request.Request(
-            #     "%s/repos/%s/%s/traffic/popular/referrers" % (base_url, user, repo_name), headers={"Authorization": "token %s" % self.token}
-            # )
-            # referrals = request.urlopen(referrals)
-            # referrals = json.load(referrals)
-            # if len(referrals) > 0:
-            #     for ref in referrals:
-            #         referred = {
-            #             "eventType": "Referral",
-            #             "repo_name": repo_name,
-            #             "referrer": ref["referrer"],
-            #             "count": ref["count"],
-            #             "uniques": ref["uniques"],
-            #         }
-            #         print(referred)
-            #         headers = {
-            #             "X-Insert-Key": "%s" % self.new_relic_key,
-            #         }
-            #         req = request.Request(
-            #             "https://insights-collector.newrelic.com/v1/accounts/%s/events"
-            #             % self.new_relic_user,
-            #             headers=headers,
-            #             data=json.dumps(referred).encode("utf-8"),
-            #         )
-            #         resp = request.urlopen(req)
-            #         print(resp.read())
-            #
-            # print("Getting top referral path data for %s" % repo_name)
-            #
-            # paths = request.Request(
-            #     "%s/repos/%s/%s/traffic/popular/paths" % (base_url, user, repo_name), headers={"Authorization": "token %s" % self.token}
-            # )
-            # paths = request.urlopen(paths)
-            # paths = json.load(paths)
-            # if len(paths) > 0:
-            #     for ref in paths:
-            #         paths = {
-            #             "eventType": "ReferralPath",
-            #             "repo_name": repo_name,
-            #             "path": ref["path"],
-            #             "title": ref["title"],
-            #             "count": ref["count"],
-            #             "uniques": ref["uniques"],
-            #         }
-            #         print(paths)
-            #         headers = {
-            #             "X-Insert-Key": "%s" % self.new_relic_key,
-            #         }
-            #         req = request.Request(
-            #             "https://insights-collector.newrelic.com/v1/accounts/%s/events"
-            #             % self.new_relic_user,
-            #             headers=headers,
-            #             data=json.dumps(paths).encode("utf-8"),
-            #         )
-            #         resp = request.urlopen(req)
-            #         print(resp.read())
-            #
+            print("Getting referral data for %s" % repo_name)
+            referrals = request.Request(
+                "%s/repos/%s/%s/traffic/popular/referrers" % (base_url, user, repo_name), headers={"Authorization": "token %s" % self.token}
+            )
+            referrals = request.urlopen(referrals)
+            referrals = json.load(referrals)
+            if len(referrals) > 0:
+                for ref in referrals:
+                    referred = {
+                        "timestamp": self.now,
+                        "referrer": ref["referrer"],
+                        "count": ref["count"],
+                        "uniques": ref["uniques"],
+                    }
+                    dfi = pd.Series(referred)
+                    print(dfi)
+                    self.df_referring = self.df_referring.append(dfi,ignore_index=True)
+
+
+            print("Getting top referral path data for %s" % repo_name)
+
+            paths = request.Request(
+                "%s/repos/%s/%s/traffic/popular/paths" % (base_url, user, repo_name), headers={"Authorization": "token %s" % self.token}
+            )
+            paths = request.urlopen(paths)
+            paths = json.load(paths)
+            if len(paths) > 0:
+                for ref in paths:
+                    paths = {
+                        "timestamp": self.now,
+                        "path": ref["path"],
+                        "count": ref["count"],
+                        "uniques": ref["uniques"],
+                    }
+                    dfi = pd.Series(paths)
+                    print(dfi)
+                    self.df_popular = self.df_popular.append(dfi, ignore_index=True)
+
 
     def save(self):
         #views
@@ -143,6 +125,12 @@ class traffic:
         #clones
         self.df_clones['timestamp'] = pd.to_datetime(self.df_clones['timestamp'], format='%Y-%m-%d').dt.date
         self.df_clones.to_csv('../input/traffic/%s_clones.csv' % self.now,index=False)
+
+        #referrers
+        self.df_referring.to_csv('../input/traffic/%s_referrers.csv' % self.now, index=False)
+
+        #popular
+        self.df_popular.to_csv('../input/traffic/%s_popular.csv' % self.now, index=False)
 
 if __name__ == '__main__':
     my_user = sys.argv[2]
