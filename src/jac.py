@@ -65,9 +65,9 @@ def prod40_from_API(url, api_key, prod):
         mes = df.loc[i, 'mes']
         iniSemana = df.loc[i, 'inicioSemana']
         finDe = df.loc[i, 'finsemana']
-        # print('mes: ' + mes)
-        # print('iniSemana: ' + iniSemana[:2])
-        # print('finDe: ' + finDe[:2])
+        print('mes: ' + mes)
+        print('iniSemana: ' + iniSemana[:2])
+        print('finDe: ' + finDe[:2])
         if int(mes) == int(iniSemana[:2]):
             # print('mes primero en inisemana')
             df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=False)
