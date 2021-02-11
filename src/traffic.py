@@ -135,8 +135,6 @@ class traffic:
 if __name__ == '__main__':
     my_user = sys.argv[2]
     my_token = sys.argv[1]
-    my_newrelic_user = sys.argv[3]
-    my_newrelic_key = sys.argv[4]
     my_traffic = traffic(my_user,my_token)
     my_traffic.lambda_handler()
     my_traffic.save()
