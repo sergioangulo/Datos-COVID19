@@ -269,6 +269,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
 
             df_file1.to_csv(file_from_year, index=False)
 
+            #has to manage case in which file does not exist
 
             file_to_year = prod + '/' + each_particula + '-' + str(to_year) + '_std.csv'
             print('Appending to ' + file_to_year)
