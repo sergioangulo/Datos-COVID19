@@ -1,4 +1,4 @@
-# DP 34 - Datos históricos de calidad del aire por hora: Descripción
+# DP 34 - Datos de calidad del aire por hora: Descripción
 
 Cada archivo entrega los datos de la emisión de un contaminante durante un año con frecuencia horaria junto con la información de las estaciones de medición. Existe un archivo para cada contaminante y para cada año.
 
