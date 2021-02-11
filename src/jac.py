@@ -69,33 +69,18 @@ def prod40_from_API(url, api_key, prod):
         print('mes: ' + mes)
         print('iniSemana: ' + iniSemana[:2])
         print('finDe: ' + finDe[:2])
-        if int(anio) == int('2020'):
-            if int(mes) == int(iniSemana[:2]):
-                # print('mes primero en inisemana')
-                df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=False)
-            else:
-                # print('dia primero en inisemana')
-                df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=True)
-            if int(mes) == int(finDe[:2]):
-                # print('mes primero en finde')
-                df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=False)
-            else:
-                # print('dia primero en finde')
-                df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=True)
+        if int(mes) == int(iniSemana[:2]):
+            # print('mes primero en inisemana')
+            df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=False)
         else:
-            if int(mes) == int(iniSemana[:1]):
-                # print('mes primero en inisemana')
-                df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=False)
-            else:
-                # print('dia primero en inisemana')
-                df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=True)
-            if int(mes) == int(finDe[:1]):
-                # print('mes primero en finde')
-                df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=False)
-            else:
-                # print('dia primero en finde')
-                df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=True)
-
+            # print('dia primero en inisemana')
+            df.loc[i, 'inicioSemana'] = pd.to_datetime(df.loc[i, 'inicioSemana'], dayfirst=True)
+        if int(mes) == int(finDe[:2]):
+            # print('mes primero en finde')
+            df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=False)
+        else:
+            # print('dia primero en finde')
+            df.loc[i, 'finsemana'] = pd.to_datetime(df.loc[i, 'finsemana'], dayfirst=True)
 
     df['inicioSemana'] = pd.to_datetime(df['inicioSemana'], dayfirst=True)
     df['finsemana'] = pd.to_datetime(df['finsemana'], dayfirst=True)
