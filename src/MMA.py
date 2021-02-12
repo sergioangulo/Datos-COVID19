@@ -96,7 +96,7 @@ def prod43_no_header(fte, prod, year='2020'):
             df.to_csv(prod + each_particle + '-' + year + '_std.csv', index=False, header=False)
 
 
-def prod43_from_mma_api(usr, password, auth_url, url, prod):
+def prod43_from_mma_api(usr, password, auth_url, url, prod,gas):
     '''
     Cosultamos la API una vez cada semana, y nos traemos los ultimos 2 dias para sobreescribir.
     Los ultimos datos estan corregidos
@@ -143,13 +143,16 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
     # PPPP : parámetro (código Airviro)
     # LLL: Instancia, variación de serie de tiempo. Por ejemplo en las meteorológicas se usa para la altura.
     # Pero sirve para diferenciar series de tiempo según se requiera
-    particulas = {'MP10': 'MPM10',
-                  'MP2.5': 'MPM25',
-                  'SO2': 'M0001',
-                  'O3': 'M0008',
-                  'NO2': 'M0003',
-                  'CO': 'M0004'
-                  }
+    if gas == 'MP':
+        particulas = {'MP10': 'MPM10',
+                      'MP2.5': 'MPM25',
+                      }
+    else:
+        particulas = {'SO2': 'M0001',
+                      'O3': 'M0008',
+                      'NO2': 'M0003',
+                      'CO': 'M0004'
+                      }
     for each_particula in particulas:
         data_particula = []
         print('\nUpdating ' + each_particula)
@@ -304,4 +307,4 @@ if __name__ == '__main__':
         if len(sys.argv) == 3:
             auth_url ='https://sinca.mma.gob.cl/api/auth.cgi'
             url = 'https://sinca.mma.gob.cl/api/domain/SMA/timeserie'
-            prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, '../output/producto43')
+            prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, '../output/producto43',sys.argv[3])

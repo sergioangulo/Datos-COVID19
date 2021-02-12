@@ -1,4 +1,4 @@
-name: Actualiza_productos_de_MMA
+name: Actualiza_productos_de_MMA_otres
 
 # Controls when the action will run. Triggers the workflow on push or pull request 
 # events but only for the master branch
@@ -6,8 +6,8 @@ on:
     #push
   # github runners are on GMT
     schedule:
-      # run every sunday at 00:00
-      - cron:  '0 18 * * *'
+      # run every sunday at 15:00 chilito
+      - cron:  '0 18 * * 0'
 #    push:
 #        branches: master
 #        paths: 'src/MMA.py'
@@ -40,7 +40,10 @@ jobs:
     - name: querying API to update our products
       run: |
           cd src
-          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }}
+          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} 03
+          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} C0
+          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} N02
+          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} S02
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
