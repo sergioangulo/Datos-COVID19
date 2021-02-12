@@ -109,7 +109,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod):
 
     # debemos actualizar semanalmente, respondio Marcelo Corral
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
-    from_date = to_date - dt.timedelta(days=7)
+    from_date = to_date - dt.timedelta(days=3)
     from_year = from_date.year
     print('We\'ll query from ' + str(from_date) + ' to ' + str(to_date))
     # BUT the API receives unix time
