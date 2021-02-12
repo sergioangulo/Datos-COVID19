@@ -40,10 +40,8 @@ jobs:
     - name: querying API to update our products
       run: |
           cd src
-          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} 03
-          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} C0
-          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} N02
-          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} S02
+          python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} OTRES
+
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:

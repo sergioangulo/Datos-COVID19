@@ -109,7 +109,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod,gas):
 
     # debemos actualizar semanalmente, respondio Marcelo Corral
     # https: // stackoverflow.com / questions / 18200530 / get - the - last - sunday - and -saturdays - date - in -python
-    from_date = to_date - dt.timedelta(days=3)
+    from_date = to_date - dt.timedelta(days=7)
     from_year = from_date.year
     print('We\'ll query from ' + str(from_date) + ' to ' + str(to_date))
     # BUT the API receives unix time
@@ -153,6 +153,9 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod,gas):
                       'NO2': 'M0003',
                       'CO': 'M0004'
                       }
+        from_date = to_date - dt.timedelta(days=30)
+        from_year = from_date.year
+        a_week_ago_unix = round(time.mktime(from_date.timetuple()))
     for each_particula in particulas:
         data_particula = []
         print('\nUpdating ' + each_particula)
@@ -160,7 +163,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod,gas):
             # debemos consultar VAL, respondio Marcelo Corral
             api_call = url + '/' + estaciones.loc[index, 'Key'] + '+' + particulas[each_particula] + 'VAL'
             print("Querying " + estaciones.loc[index, 'Nombre estacion'] + ' to ' + api_call)
-            response = s.get(api_call, timeout=15)
+            response = s.get(api_call, timeout=60)
             if response.status_code == 200:
                 # for k in response.json():
                 #     print(k)
