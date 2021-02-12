@@ -304,7 +304,7 @@ if __name__ == '__main__':
 
     else:
         #prod43_no_header('../input/MMA/', '../output/producto43/')
-        if len(sys.argv) == 3:
+        if len(sys.argv) == 4:
             auth_url ='https://sinca.mma.gob.cl/api/auth.cgi'
             url = 'https://sinca.mma.gob.cl/api/domain/SMA/timeserie'
             prod43_from_mma_api(sys.argv[1], sys.argv[2], auth_url, url, '../output/producto43',sys.argv[3])
