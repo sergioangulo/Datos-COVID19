@@ -211,7 +211,7 @@ utilizando los mismos scripts, pero manualmente.
    * [JAC](src/jac.py) 
    ![Actualiza_productos_de_JAC](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_JAC/badge.svg)
    * [MMA](src/MMA.py)
-   ![Actualiza_productos_de_MMA](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_MMA/badge.svg)
+   ![Actualiza_productos_de_MMA_MP](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_MMA_MP/badge.svg)
    * [Defunciones DEIS](src/distribucionDEIS.py) 
    ![Actualiza_productos_de_defunciones_DEIS](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_defunciones_DEIS/badge.svg)
    * [SOCHIMI](src/sochimi.py)
