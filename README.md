@@ -99,7 +99,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información, incluyendo acta
 
 [Data Product 47 - Media Movil de Casos Nuevos por 100,000Hab.](output/producto47): Este producto da cuenta de la media movil semanal de casos nuevos confirmados por region, normalizado por cada 100,000 habitantes. [Ver más](output/producto47)
 
-[Data Product 48 - Encuesta diaria realidad nacional medicina intensiva(SOCHIMIno e)](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama. Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida. [Ver más](output/producto48)
+[Data Product 48 - Encuesta diaria realidad nacional medicina intensiva(SOCHIMI)](output/producto48): Este producto da cuenta del número de camas ocupadas por servicio de salud a lo largo del país, considerando los tipos de cama. Estos valores son levantados y reportados de manera diaria por los miembros de la SOCHIMI y la Universidad Finis Terrae, por fecha y servicio de salud, y disponibilizados por el Laboratorio de Biología Computacional de la Fundación Ciencia & Vida. [Ver más](output/producto48)
 
 [Data Product 49 - Positividad diaria y media móvil de exámenes PCR informados por día](output/producto49): Este producto da cuenta del número total de exámenes PCR realizados a nivel nacional, el número de casos nuevos totales, el resultado del cociente entre casos nuevos totales y exámenes realizados y el promedio móvil de los últimos 7 días de esa cantidad. [Ver más](output/producto49)
 
