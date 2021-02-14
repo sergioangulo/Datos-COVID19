@@ -28,44 +28,80 @@ import pandas as pd
 from utils import *
 
 class vacunacion:
-    def __init__(self, input, output):
+    def __init__(self, input, output,indicador):
         self.input = input
         self.output = output
+        self.indicador = indicador
 
 
     def get_last(self):
+        if self.indicador == 'fabricante':
+            self.last_added = pd.read_csv('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination-type.csv')
 
-        self.last_added = pd.read_csv('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv')
-        #print('last added file is: ' + self.last_added.max(axis=0))
+        else:
+            self.last_added = pd.read_csv(
+                'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv')
 
 
 
     def last_to_csv(self):
+        if self.indicador == 'fabricante':
+            ## campana por fabricante
 
-        self.last_added.rename(columns={'Dose': 'Dosis'}, inplace=True)
-        regionName(self.last_added)
+            self.last_added.rename(columns={'Dose': 'Dosis'}, inplace=True)
+            self.last_added.rename(columns={'Type': 'Fabricante'}, inplace=True)
 
-        self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
-                                             "Second": "Segunda"
-                                             })
+            self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
+                                                                         "Second": "Segunda"
+                                                                         })
 
-        identifiers = ['Region','Dosis']
-        variables = [x for x in self.last_added.columns if x not in identifiers]
+            identifiers = ['Fabricante', 'Dosis']
+            variables = [x for x in self.last_added.columns if x not in identifiers]
 
-        self.last_added = self.last_added[identifiers + variables]
-        self.last_added.to_csv(self.output + '.csv', index=False)
+            self.last_added = self.last_added[identifiers + variables]
+            self.last_added.to_csv(self.output + '.csv', index=False)
 
-        df_t = self.last_added.T
-        df_t.to_csv(self.output + '_t.csv', header=False)
+            df_t = self.last_added.T
+            df_t.to_csv(self.output + '_t.csv', header=False)
 
-        df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Fecha'],
-                         value_name='Cantidad')
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Fecha'],
+                             value_name='Cantidad')
 
-        df_std.to_csv(self.output + '_std.csv', index=False)
+            df_std.to_csv(self.output + '_std.csv', index=False)
+        else:
+            ## campana por region
+
+            self.last_added.rename(columns={'Dose': 'Dosis'}, inplace=True)
+            regionName(self.last_added)
+
+            self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
+                                                                         "Second": "Segunda"
+                                                                         })
+
+            identifiers = ['Region', 'Dosis']
+            variables = [x for x in self.last_added.columns if x not in identifiers]
+
+            self.last_added = self.last_added[identifiers + variables]
+            self.last_added.to_csv(self.output + '.csv', index=False)
+
+            df_t = self.last_added.T
+            df_t.to_csv(self.output + '_t.csv', header=False)
+
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Fecha'],
+                             value_name='Cantidad')
+
+            df_std.to_csv(self.output + '_std.csv', index=False)
+
+
 
 if __name__ == '__main__':
+    print('Actualizamos campana de vacunacion')
+    my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/vacunacion','campana')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
 
-    my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/vacunacion')
+    print('Actualizamos dosis por fabricante')
+    my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/fabricante','fabricante')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
