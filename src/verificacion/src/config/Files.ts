@@ -287,6 +287,9 @@ const FILES: Files = {
 	'producto76/vacunacion.csv': ['ISO'],
 	'producto76/vacunacion_t.csv': [],
 	'producto76/vacunacion_std.csv': [],
+	'producto76/fabricante.csv': ['ISO'],
+	'producto76/fabricante_t.csv': [],
+	'producto76/fabricante_std.csv': [],
 };
 
 export default FILES;
