@@ -38,11 +38,17 @@ class vacunacion:
         if self.indicador == 'fabricante':
             self.last_added = pd.read_csv('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination-type.csv')
 
-        else:
+        elif self.indicador == 'campana':
             self.last_added = pd.read_csv(
                 'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv')
 
+        elif self.indicador == 'edad':
+            self.last_added = pd.read_csv(
+                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-ages.csv')
 
+        elif self.indicador == 'caracteristicas_del_vacunado':
+            self.last_added = pd.read_csv(
+                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-groups.csv')
 
     def last_to_csv(self):
         if self.indicador == 'fabricante':
@@ -68,7 +74,8 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
-        else:
+
+        elif self.indicador == 'campana':
             ## campana por region
 
             self.last_added.rename(columns={'Dose': 'Dosis'}, inplace=True)
@@ -92,7 +99,53 @@ class vacunacion:
 
             df_std.to_csv(self.output + '_std.csv', index=False)
 
+        elif self.indicador == 'edad':
+            ## campana por edad
 
+            self.last_added.rename(columns={'Dose': 'Dosis',
+                                            'Age':'Rango_etario'}, inplace=True)
+
+            self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
+                                                                         "Second": "Segunda"
+                                                                         })
+
+            identifiers = ['Rango_etario', 'Dosis']
+            variables = [x for x in self.last_added.columns if x not in identifiers]
+
+            self.last_added = self.last_added[identifiers + variables]
+            self.last_added.to_csv(self.output + '.csv', index=False)
+
+            df_t = self.last_added.T
+            df_t.to_csv(self.output + '_t.csv', header=False)
+
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Fecha'],
+                             value_name='Cantidad')
+
+            df_std.to_csv(self.output + '_std.csv', index=False)
+
+        elif self.indicador == 'caracteristicas_del_vacunado':
+            ## campana por caracter del vacunado
+
+            self.last_added.rename(columns={'Dose': 'Dosis',
+                                            'Group':'Grupo'}, inplace=True)
+
+            self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
+                                                                         "Second": "Segunda"
+                                                                         })
+
+            identifiers = ['Grupo', 'Dosis']
+            variables = [x for x in self.last_added.columns if x not in identifiers]
+
+            self.last_added = self.last_added[identifiers + variables]
+            self.last_added.to_csv(self.output + '.csv', index=False)
+
+            df_t = self.last_added.T
+            df_t.to_csv(self.output + '_t.csv', header=False)
+
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Fecha'],
+                             value_name='Cantidad')
+
+            df_std.to_csv(self.output + '_std.csv', index=False)
 
 if __name__ == '__main__':
     print('Actualizamos campana de vacunacion')
@@ -105,3 +158,12 @@ if __name__ == '__main__':
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
+    print('Actualizamos dosis por edad')
+    my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/rango_etario','edad')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por caracteristicas_del_vacunado')
+    my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/grupo','caracteristicas_del_vacunado')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
