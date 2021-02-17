@@ -290,6 +290,12 @@ const FILES: Files = {
 	'producto76/fabricante.csv': [],
 	'producto76/fabricante_t.csv': [],
 	'producto76/fabricante_std.csv': [],
+	'producto76/grupo.csv': [],
+	'producto76/grupo_t.csv': [],
+	'producto76/grupo_std.csv': [],
+	'producto76/rango_etario.csv': [],
+	'producto76/rango_etario_t.csv': [],
+	'producto76/rango_etario_std.csv': [],
 };
 
 export default FILES;
