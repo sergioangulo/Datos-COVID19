@@ -33,7 +33,11 @@ jobs:
         pip install -r requirements.txt
 
     - name: generate products from ISCI
-      run: cd src; python ISCI.py
+      run: cd src; python ISCI.py &&\
+        python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
+        ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
+        "Actualicé los datos de movilidad en todo el territorio nacional que produce el @centroISCI junto a @EntelOcean  😘💫. Mira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
+
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
