@@ -1,4 +1,4 @@
-Grupo,Total,Total,Desconocido,Desconocido,Personal de salud,Personal de salud,Personas en centros cerrados,Personas en centros cerrados,Personas Servicios esenciales del estado,Personas Servicios esenciales del estado,Personas Servicios infraestructura crítica,Personas Servicios infraestructura crítica,Población Sana,Población Sana,Población vulnerable,Población vulnerable
-Dosis,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda
-2021-02-15,2092453,54819,67,41,485475,53832,33075,931,191449,15,42699,0,28298,0,1311390,0
-2021-02-16,2092453,54819,67,41,485475,53832,33075,931,191449,15,42699,0,28298,0,1311390,0
+Grupo,Total,Total,"{""Group"":""Desconocido"",""Dose"":""First"",""2021-02-15"":""67"",""2021-02-16"":""2""}","{""Group"":""Desconocido"",""Dose"":""Second"",""2021-02-15"":""41"",""2021-02-16"":""0""}",Personal de salud,Personal de salud,Personas en centros cerrados,Personas en centros cerrados,Personas Servicios esenciales del estado,Personas Servicios esenciales del estado,Personas Servicios infraestructura crítica,Personas Servicios infraestructura crítica,Población Sana,Población Sana,Población vulnerable,Población vulnerable
+Dosis,Primera,Segunda,,,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda,Primera,Segunda
+2021-02-15,2092453.0,54819.0,,,485475.0,53832.0,33075.0,931.0,191449.0,15.0,42699.0,0.0,28298.0,0.0,1311390.0,0.0
+2021-02-16,2320697.0,55028.0,,,500615.0,53912.0,34811.0,1050.0,220163.0,61.0,68926.0,5.0,32417.0,0.0,1463765.0,0.0
