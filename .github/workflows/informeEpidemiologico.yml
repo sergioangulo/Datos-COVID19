@@ -36,7 +36,10 @@ jobs:
     - name: generate products from Informe Epidemiologico
       run: |
         cd src
-        python informeEpidemiologico.py
+        python informeEpidemiologico.py &&\
+        python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
+                              ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
+                              "Actualicé los datos del informe epidemiológico publicado por el @ministeriodesalud de hoy 😘💫"
 
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1

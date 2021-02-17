@@ -39,7 +39,10 @@ jobs:
     - name: generate products from Reporte Diario
       run: |
           cd src
-          python vacunacion.py
+          python vacunacion.py &&\
+          python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
+                      ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
+                      "Actualicé los datos que dan cuenta del avance en la campaña de vacunación de hoy 😘💫"
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
