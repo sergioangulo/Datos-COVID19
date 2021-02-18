@@ -21,10 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
-import sys
-
-import boto3
-import pandas as pd
+import requests
 from utils import *
 
 class vacunacion:
@@ -32,23 +29,60 @@ class vacunacion:
         self.input = input
         self.output = output
         self.indicador = indicador
-
+        self.my_files = {
+            'vacunacion_fabricante':
+                'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination-type.csv',
+            'vacunacion_region':
+                'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv',
+            'vacunacion_edad':
+                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-ages.csv',
+            'vacunacion_grupo':
+                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-groups.csv',
+        }
+        self.path = '../input/Vacunacion'
 
     def get_last(self):
+
+        ## selecciona el archivo que corresponde
         if self.indicador == 'fabricante':
-            self.last_added = pd.read_csv('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination-type.csv')
+            print('Retrieving files')
+            print('vacunacion_fabricante')
+            r = requests.get(self.my_files['vacunacion_fabricante'])
+            content = r.content
+            csv_file = open(self.path + '/' + 'vacunacion_fabricante' + '.csv', 'wb')
+            csv_file.write(content)
+            csv_file.close()
+            self.last_added = pd.read_csv('../input/Vacunacion/vacunacion_fabricante.csv')
 
         elif self.indicador == 'campana':
-            self.last_added = pd.read_csv(
-                'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv')
+            print('Retrieving files')
+            print('vacunacion_region')
+            r = requests.get(self.my_files['vacunacion_region'])
+            content = r.content
+            csv_file = open(self.path + '/' + 'vacunacion_region' + '.csv', 'wb')
+            csv_file.write(content)
+            csv_file.close()
+            self.last_added = pd.read_csv('../input/Vacunacion/vacunacion_region.csv')
 
         elif self.indicador == 'edad':
-            self.last_added = pd.read_csv(
-                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-ages.csv')
+            print('Retrieving files')
+            print('vacunacion_edad')
+            r = requests.get(self.my_files['vacunacion_edad'])
+            content = r.content
+            csv_file = open(self.path + '/' + 'vacunacion_edad' + '.csv', 'wb')
+            csv_file.write(content)
+            csv_file.close()
+            self.last_added = pd.read_csv('../input/Vacunacion/vacunacion_edad.csv')
 
         elif self.indicador == 'caracteristicas_del_vacunado':
-            self.last_added = pd.read_csv(
-                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-groups.csv')
+            print('Retrieving files')
+            print('vacunacion_grupo')
+            r = requests.get(self.my_files['vacunacion_grupo'])
+            content = r.content
+            csv_file = open(self.path + '/' + 'vacunacion_grupo' + '.csv', 'wb')
+            csv_file.write(content)
+            csv_file.close()
+            self.last_added = pd.read_csv('../input/Vacunacion/vacunacion_grupo.csv')
 
     def last_to_csv(self):
         if self.indicador == 'fabricante':
