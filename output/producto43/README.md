@@ -18,7 +18,7 @@ Los datos fueron entregados por el Sistema Nacional de Calidad del Aire del Mini
 
 # Frecuencia de Actualización
 
-Esta información es histórica, por lo que no se actualizará.
+Esta información see actualzia 1 vez al día para los MP y 1 vez a la semana para los gases.
 
 # Notas Aclaratorias
 
