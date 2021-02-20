@@ -215,8 +215,9 @@ class vacunacion:
             self.last_added.rename(columns={'REGION_CORTO': 'Region',
                                             'COD_COMUNA_FINAL': 'Comuna',
                                             'FECHA_INMUNIZACION': 'Fecha',
-                                            'SUM_of_2aDOSIS': 'Segunda_comuna',
-                                            'SUM_of_1aDOSIS': 'Primera_comuna'}, inplace=True)
+                                            'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
+                                            'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna'}, inplace=True)
+            self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_added.sort_values(by=['Region','Fecha'], inplace=True)
             regionName(self.last_added)
