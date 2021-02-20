@@ -34,45 +34,75 @@ import re
 def regionName(df):
     df["Region"] = df["Region"].replace({"Arica - Parinacota": "Arica y Parinacota",
                                          "Arica Parinacota": "Arica y Parinacota",
+                                         "Región de Arica y Parinacota":"Arica y Parinacota",
+                                         " Arica y Parinacota": "Arica y Parinacota",
                                          "XV Región de Arica y Parinacota": "Arica y Parinacota",
                                          "I Región de Tarapacá": "Tarapacá",
                                          "Tarapaca": "Tarapacá",
+                                         " Tarapacá": "Tarapacá",
                                          "II Región de Antofagasta": "Antofagasta",
+                                         " Antofagasta": "Antofagasta",
+                                         "Región de Antofagasta":"Antofagasta",
                                          "III Región de Atacama": "Atacama",
+                                         "Región de Atacama":"Atacama",
+                                         " Atacama": "Atacama",
                                          "IV Región de Coquimbo": "Coquimbo",
+                                         " Coquimbo": "Coquimbo",
+                                         "Región de Coquimbo":"Coquimbo",
                                          "V Región de Valparaíso": "Valparaíso",
                                          "Valparaiso": "Valparaíso",
+                                         " Valparaíso": "Valparaíso",
                                          "Región Metropolitana de Santiago": "Metropolitana",
                                          "Metropolitana de Santiago": "Metropolitana",
-                                         "Región Metropolitana de Santiago": "Metropolitana",
+                                         "Metropolitana  Santiago": "Metropolitana",
                                          "O'Higgins": "O’Higgins",
                                          "Del Libertador General Bernardo O’Higgins": "O’Higgins",
                                          "Libertador General Bernardo OHiggins": "O’Higgins",
                                          "Libertador General Bernardo O'Higgins": "O’Higgins",
                                          "Libertador Gral. B. O'Higgins": "O’Higgins",
+                                         "Libertador B. O'Higgins": "O’Higgins",
                                          "VI Región del Libertador General Bernardo O'Higgins": "O’Higgins",
                                          "VII Región del Maule": "Maule",
                                          "Nuble": "Ñuble",
+                                         " Ñuble": "Ñuble",
                                          "XVI Región de Ñuble": "Ñuble",
                                          "Biobio": "Biobío", "Concepción": "Biobío",
                                          "VIII Región del Biobío": "Biobío",
+                                         "Bíobío": "Biobío",
                                          "Araucania": "Araucanía",
                                          "La Araucania": "Araucanía",
                                          "la Araucanía": "Araucanía",
                                          "La Araucanía": "Araucanía",
+                                         " La Araucanía": "Araucanía",
                                          "IX Región de la Araucanía": "Araucanía",
                                          "Los Rios": "Los Ríos", "de Los Ríos": "Los Ríos", "De los Rios": "Los Ríos",
                                          "XIV Región de los Ríos": "Los Ríos",
+                                         " Los Ríos": "Los Ríos",
                                          "De los Lagos": "Los Lagos",
                                          "X Región de Los Lagos": "Los Lagos",
+                                         " Los Lagos": "Los Lagos",
                                          "Aysen": "Aysén",
+                                         " Aisén Gral. C. Ibáñez Campo": "Aysén",
                                          "Aysén del General Carlos Ibañez del Campo": "Aysén",
                                          "Aysén del General Carlos Ibáñez del Campo": "Aysén",
+                                         "Región de Aisén del Gral. C. Ibáñez del Campo":"Aysén",
                                          "XI Región de Aisén del General Carlos Ibáñez del Campo": "Aysén",
                                          "Magallanes y la Antartica": "Magallanes",
-                                         "Magallanes y de la Antártica Chilena": "Magallanes",
+                                         " Magallanes y  La Antártica Chilena": "Magallanes",
                                          "Magallanes y la Antártica Chilena": "Magallanes",
-                                         "XII Región de Magallanes y de la Antártica Chilena": "Magallanes"
+                                         "Magallanes y La Antártica Chilena": "Magallanes",
+                                         "XII Región de Magallanes y de la Antártica Chilena": "Magallanes",
+                                         "Región de Aisén del General Carlos Ibáñez del Campo": "Aysén",
+                                         "Región de Los Lagos": "Los Lagos",
+                                         "Región de Los Ríos": "Los Ríos",
+                                         "Región de Magallanes y la Antártica Chilena": "Magallanes",
+                                         "Región de Tarapacá": "Tarapacá",
+                                         "Región de Valparaíso": "Valparaíso",
+                                         "Región de La Araucanía": "Araucanía",
+                                         "Región del Biobío": "Biobío",
+                                         "Región del Libertador B. O'Higgins": "O’Higgins",
+                                         "Región del Maule": "Maule",
+                                         "Región de Ñuble": "Ñuble"
                                          })
 
 
@@ -283,6 +313,15 @@ def transpone_csv(csvfile):
     df = pd.read_csv(csvfile)
     return (df.T)
 
+def fill_in_missing_dates(df, date_col_name, fill_value, idx):
+    columnas = df.columns
+    df.set_index(date_col_name,drop=True,inplace=True)
+    df.index = pd.DatetimeIndex(df.index)
+    df = df.reindex(idx,fill_value=fill_value)
+    df[date_col_name] = pd.DatetimeIndex(df.index)
+    df.reset_index(drop=True, inplace=True)
+    df = df[columnas]
+    return df
 
 def std_getSuperficieComunasOfficial(input):
     '''
@@ -422,6 +461,7 @@ def regionDEISName(df):
         "Del Libertador General Bernardo OHiggins": "O’Higgins",
         "Del Maule": "Maule",
         "De Ñuble": "Ñuble"
+
     })
 
 
