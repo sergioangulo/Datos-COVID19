@@ -450,16 +450,17 @@ class vacunacion:
                 df_grupo.reset_index(drop=True, inplace=True)
                 df = df.append(df_grupo, ignore_index=True)
 
-            new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
+            new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
+                       'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
-            for sex in sexo[0]:
-                col = [sex, sex]
+            for grupo in grupos[0]:
+                col = [grupo, grupo]
                 new_col = new_col.append(col, ignore_index=True)
-            df.insert(0, column='Sexo', value=new_col)
+            df.insert(0, column='Grupo', value=new_col)
             self.last_added = df
 
-            identifiers = ['Sexo', 'Dosis']
+            identifiers = ['Grupo', 'Dosis']
             variables = [x for x in self.last_added.columns if x not in identifiers]
 
             self.last_added = self.last_added[identifiers + variables]
@@ -468,7 +469,7 @@ class vacunacion:
             df_t = self.last_added.T
             df_t.to_csv(self.output + '_t.csv', header=False)
 
-            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Edad'],
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Subgrupo'],
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
@@ -488,10 +489,10 @@ if __name__ == '__main__':
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
-    # print('Actualizamos total de vacunados por grupo prioritario')
-    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
+    print('Actualizamos total de vacunados por grupo prioritario')
+    my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
 
     print('Actualizamos dosis por fabricante')
     my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
