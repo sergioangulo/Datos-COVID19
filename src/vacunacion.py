@@ -114,6 +114,11 @@ class vacunacion:
             print('vacunacion por region por edad')
             self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
 
+        elif self.indicador == 'vacunas_edad_sexo':
+            print('reading files')
+            print('vacunacion por sexo por edad')
+            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_3.csv', sep=';', encoding='ISO-8859-1')
+
     def last_to_csv(self):
         if self.indicador == 'fabricante':
             ## campana por fabricante
@@ -363,6 +368,65 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
+
+        elif self.indicador == 'vacunas_edad_sexo':
+            self.last_added.rename(columns={'NOMBRE_REGION': 'Region',
+                                            'SEXO': 'Sexo',
+                                            'EDAD_ANOS': 'Edad',
+                                            'POBLACION':'Poblacion',
+                                            'SUM_of_1aDOSIS': 'Primera',
+                                            'SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+            self.last_added.sort_values(by=['Sexo','Edad'], inplace=True)
+            self.last_added = self.last_added[['Sexo','Edad','Primera','Segunda']]
+            sexo = pd.DataFrame(self.last_added['Sexo'].unique())
+
+            ##crear total
+            df = pd.DataFrame()
+            for sex in sexo[0]:
+                total = pd.DataFrame(columns=['Sexo', 'Edad', 'Primera', 'Segunda'])
+                total['Edad'] = list(range(self.last_added.Edad.min(), self.last_added.Edad.max() + 1))
+                df_sex = self.last_added.loc[self.last_added['Sexo'] == sex]
+                df_sex.reset_index(drop=True, inplace=True)
+                df_sex.index = df_sex['Edad']
+                total.index = total['Edad']
+                total['Sexo'] = total.Sexo.fillna(sex)
+                total['Primera'] = total.Primera.fillna(0) + df_sex.Primera.fillna(0)
+                total['Segunda'] = total.Segunda.fillna(0) + df_sex.Segunda.fillna(0)
+                df = df.append(total, ignore_index=True)
+            self.last_added = df
+
+            ##transformar en input
+            df = pd.DataFrame()
+            sexo = pd.DataFrame(self.last_added['Sexo'].unique())
+            for sex in sexo[0]:
+                df_sex = self.last_added.loc[self.last_added['Sexo'] == sex]
+                df_sex.set_index('Edad', inplace=True)
+                df_sex = df_sex[['Primera', 'Segunda']].T
+                df_sex.reset_index(drop=True, inplace=True)
+                df = df.append(df_sex, ignore_index=True)
+
+            new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
+            df.insert(0, column='Dosis', value=new_col)
+            new_col = pd.DataFrame()
+            for sex in sexo[0]:
+                col = [sex, sex]
+                new_col = new_col.append(col, ignore_index=True)
+            df.insert(0, column='Sexo', value=new_col)
+            self.last_added = df
+
+            identifiers = ['Sexo','Dosis']
+            variables = [x for x in self.last_added.columns if x not in identifiers]
+
+            self.last_added = self.last_added[identifiers + variables]
+            self.last_added.to_csv(self.output + '.csv', index=False)
+
+            df_t = self.last_added.T
+            df_t.to_csv(self.output + '_t.csv', header=False)
+
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Edad'],
+                             value_name='Cantidad')
+
+            df_std.to_csv(self.output + '_std.csv', index=False)
 if __name__ == '__main__':
     print('Actualizamos campana de vacunacion por region')
     my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
@@ -371,6 +435,11 @@ if __name__ == '__main__':
 
     print('Actualizamos total de vacunados por region y edad')
     my_vacunas = vacunacion('../output/producto77/total_vacunados_edad','vacunas_edad_region')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos total de vacunados por sexo y edad')
+    my_vacunas = vacunacion('../output/producto77/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
