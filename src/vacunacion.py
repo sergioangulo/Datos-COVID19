@@ -119,6 +119,10 @@ class vacunacion:
             print('vacunacion por sexo por edad')
             self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_3.csv', sep=';', encoding='ISO-8859-1')
 
+        elif self.indicador == 'vacunas_prioridad':
+            print('reading files')
+            print('vacunacion por grupos prioritarios')
+            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_4.csv', sep=';', encoding='ISO-8859-1')
     def last_to_csv(self):
         if self.indicador == 'fabricante':
             ## campana por fabricante
@@ -427,6 +431,47 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
+
+        elif self.indicador == 'vacunas_prioridad':
+            self.last_added.rename(columns={'Criterio': 'Grupo',
+                                            'Subcriterio': 'Subgrupo',
+                                            '1aDOSIS': 'Primera',
+                                            '2aDOSIS': 'Segunda'}, inplace=True)
+            self.last_added.sort_values(by=['Grupo', 'Subgrupo'], inplace=True)
+            self.last_added = self.last_added[['Grupo', 'Subgrupo', 'Primera', 'Segunda']]
+
+            ##transformar en input
+            df = pd.DataFrame()
+            grupos = pd.DataFrame(self.last_added['Grupo'].unique())
+            for grupo in grupos[0]:
+                df_grupo = self.last_added.loc[self.last_added['Grupo'] == grupo]
+                df_grupo.set_index('Subgrupo', inplace=True)
+                df_grupo = df_grupo[['Primera', 'Segunda']].T
+                df_grupo.reset_index(drop=True, inplace=True)
+                df = df.append(df_grupo, ignore_index=True)
+
+            new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
+            df.insert(0, column='Dosis', value=new_col)
+            new_col = pd.DataFrame()
+            for sex in sexo[0]:
+                col = [sex, sex]
+                new_col = new_col.append(col, ignore_index=True)
+            df.insert(0, column='Sexo', value=new_col)
+            self.last_added = df
+
+            identifiers = ['Sexo', 'Dosis']
+            variables = [x for x in self.last_added.columns if x not in identifiers]
+
+            self.last_added = self.last_added[identifiers + variables]
+            self.last_added.to_csv(self.output + '.csv', index=False)
+
+            df_t = self.last_added.T
+            df_t.to_csv(self.output + '_t.csv', header=False)
+
+            df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Edad'],
+                             value_name='Cantidad')
+
+            df_std.to_csv(self.output + '_std.csv', index=False)
 if __name__ == '__main__':
     print('Actualizamos campana de vacunacion por region')
     my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
@@ -434,26 +479,31 @@ if __name__ == '__main__':
     my_vacunas.last_to_csv()
 
     print('Actualizamos total de vacunados por region y edad')
-    my_vacunas = vacunacion('../output/producto77/total_vacunados_edad','vacunas_edad_region')
+    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
     print('Actualizamos total de vacunados por sexo y edad')
-    my_vacunas = vacunacion('../output/producto77/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
-    # print('Actualizamos dosis por fabricante')
-    # my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/fabricante','fabricante')
+    # print('Actualizamos total de vacunados por grupo prioritario')
+    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por edad')
-    # my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/rango_etario','edad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por caracteristicas_del_vacunado')
-    # my_vacunas = vacunacion('https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv','../output/producto76/grupo','caracteristicas_del_vacunado')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por fabricante')
+    my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por edad')
+    my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por caracteristicas_del_vacunado')
+    my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
