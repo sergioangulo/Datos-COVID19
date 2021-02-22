@@ -91,6 +91,7 @@ def regionName(df):
                                          " Magallanes y  La Antártica Chilena": "Magallanes",
                                          "Magallanes y la Antártica Chilena": "Magallanes",
                                          "Magallanes y La Antártica Chilena": "Magallanes",
+                                         "Magallanes y de la Antártica Chilena": "Magallanes",
                                          "XII Región de Magallanes y de la Antártica Chilena": "Magallanes",
                                          "Región de Aisén del General Carlos Ibáñez del Campo": "Aysén",
                                          "Región de Los Lagos": "Los Lagos",
