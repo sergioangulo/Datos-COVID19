@@ -864,8 +864,8 @@ if __name__ == '__main__':
     print('Generando producto 20')
     prod20('../input/ReporteDiario/NumeroVentiladores.csv', '../output/producto20/NumeroVentiladores')
 
-    print('Generando producto 23')
-    prod23('1ufPPKzzJeYMnctgtZRTBwTIAzz21IVvjrxXyERz-jg0','PacientesCriticos!1:999','../output/producto23/PacientesCriticos')
+    # print('Generando producto 23')
+    # prod23('1ufPPKzzJeYMnctgtZRTBwTIAzz21IVvjrxXyERz-jg0','PacientesCriticos!1:999','../output/producto23/PacientesCriticos')
 
     print('Generando producto 24')
     prod24('../input/ReporteDiario/CamasHospital_Diario.csv', '../output/producto24/CamasHospital_Diario')
