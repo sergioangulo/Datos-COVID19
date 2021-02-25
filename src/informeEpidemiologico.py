@@ -146,7 +146,7 @@ def prod15(fte, prod):
     variables = [x for x in latestdf.columns if x not in identifiers]
     df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
                      value_name='Casos confirmados')
-    df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
+    #df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
 
 
 def prod16(fte, producto):
