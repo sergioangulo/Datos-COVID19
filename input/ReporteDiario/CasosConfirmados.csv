@@ -1,19 +1,19 @@
-Region,Casos totales acumulados,Casos nuevos totales,Casos nuevos con sintomas,Casos nuevos sin sintomas*,Casos nuevos sin notificar,Casos activos confirmados,Fallecidos totales,Casos confirmados recuperados,Casos probables acumulados,Casos activos probables
-Arica y Parinacota,14862,51,27,23,1,584,286,13985,389,5
-Tarapacá,24244,62,53,7,2,707,408,23126,4962,148
-Antofagasta,36825,99,80,14,5,1203,739,34852,2262,92
-Atacama,11758,77,35,42,0,445,147,11167,230,8
-Coquimbo,20161,77,64,13,0,793,389,18976,2932,119
-Valparaíso,48683,200,166,28,6,1537,1563,45556,19460,494
-Metropolitana,360908,660,508,98,54,4747,11892,343965,50433,1237
-O’Higgins,29463,147,125,21,1,792,753,27931,6113,174
-Maule,41918,106,96,10,0,1516,825,39572,1189,60
-Ñuble,16483,77,66,11,0,588,316,15589,4944,183
-Biobío,70583,333,263,63,7,2693,1239,66617,10926,404
-Araucanía,38681,299,241,51,7,1508,497,36674,1829,182
-Los Ríos,18393,101,70,29,2,917,207,17278,985,105
-Los Lagos,50224,213,167,44,2,1463,580,48174,6397,368
-Aysén,3008,6,3,2,1,96,24,2890,523,41
-Magallanes,21628,46,34,12,0,381,307,20930,2014,85
-Se desconoce región de origen,50,0,0,0,0,0,1,50,0,0
-Total,807872,2554,1998,468,88,19970,20173,767332,115588,3705
+Region,Casos totales acumulados,Casos activos confirmados,Fallecidos totales,Casos confirmados recuperados,Casos confirmados por antigeno,Casos con sospecha de reinfeccion,Casos probables acumulados,Casos activos probables,Casos nuevos totales,Casos nuevos con sintomas,Casos nuevos sin sintomas*,Casos nuevos sin notificar,Casos nuevos confirmados por antigeno
+Arica y Parinacota,14934,611,290,14026,0,6,411,27,92,44,47,1,0
+Tarapacá,24427,787,415,23219,6,17,5015,165,184,130,51,3,0
+Antofagasta,37055,1282,750,34988,0,14,2304,117,244,163,67,14,0
+Atacama,11794,433,151,11212,0,4,242,18,37,13,24,0,0
+Coquimbo,20349,864,397,19083,1,6,2984,159,172,121,43,8,0
+Valparaíso,49112,1733,1575,45771,2,11,19638,603,416,297,78,41,0
+Metropolitana,361991,5106,11909,344654,29,138,50795,1450,938,647,211,80,0
+O’Higgins,29644,862,761,28030,2,10,6190,228,163,121,42,0,0
+Maule,42228,1630,835,39754,2,23,1278,142,291,192,94,5,0
+Ñuble,16608,605,318,15691,0,15,4970,175,107,93,14,0,0
+Biobío,71197,2866,1257,67036,7,31,11201,637,560,433,119,8,0
+Araucanía,39015,1562,509,36939,5,11,1960,294,326,233,71,22,0
+Los Ríos,18662,1034,218,17417,0,9,1027,136,261,159,99,3,0
+Los Lagos,50548,1530,593,48409,7,11,6502,418,323,217,103,3,0
+Aysén,3025,96,24,2906,0,1,520,36,16,11,5,0,0
+Magallanes,21686,382,307,20986,0,9,2023,85,51,39,12,0,0
+Se desconoce región de origen,69,0,1,69,0,0,0,0,0,0,0,0,0
+Total,812344,21383,20310,770190,61,316,117060,4690,4181,2913,1080,188,0
