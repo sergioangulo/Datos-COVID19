@@ -297,6 +297,12 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
                                                 'Fecha': []})
     casosActivosConfirmados = pd.DataFrame({'Region': [],
                                             'Fecha': []})
+    casosConfirmadosAntigeno = pd.DataFrame({'Region': [],
+                                            'Fecha': []})
+    casosSospechososReinfeccion = pd.DataFrame({'Region': [],
+                                             'Fecha': []})
+    casosNuevosAntigeno = pd.DataFrame({'Region': [],
+                                             'Fecha': []})
 
     onlyfiles.sort()
     onlyfiles.remove('README.md')
@@ -425,6 +431,27 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
             else:
                 casosActivosConfirmados[date] = dataframe['Casos activos confirmados']
 
+        if 'Casos confirmados por antigeno' in dataframe.columns:
+            if casosConfirmadosAntigeno['Region'].empty:
+                casosConfirmadosAntigeno[['Region', 'Fecha']] = dataframe[['Region', 'Casos confirmados por antigeno']]
+                casosConfirmadosAntigeno.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosConfirmadosAntigeno[date] = dataframe['Casos confirmados por antigeno']
+
+        if 'Casos nuevos confirmados por antigeno' in dataframe.columns:
+            if casosNuevosAntigeno['Region'].empty:
+                casosNuevosAntigeno[['Region', 'Fecha']] = dataframe[['Region', 'Casos nuevos confirmados por antigeno']]
+                casosNuevosAntigeno.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosNuevosAntigeno[date] = dataframe['Casos nuevos confirmados por antigeno']
+
+        if 'Casos con sospecha de reinfeccion' in dataframe.columns:
+            if casosSospechososReinfeccion['Region'].empty:
+                casosSospechososReinfeccion[['Region', 'Fecha']] = dataframe[['Region', 'Casos con sospecha de reinfeccion']]
+                casosSospechososReinfeccion.rename(columns={'Fecha': date}, inplace=True)
+            else:
+                casosSospechososReinfeccion[date] = dataframe['Casos con sospecha de reinfeccion']
+
         if date > '2020-07-02':
 
             dataframe.rename(columns={'Región': 'Region'}, inplace=True)
@@ -453,6 +480,8 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
                 else:
                     casosActivosProbables[date] = dataframe['Casos activos probables']
 
+
+
     # estandarizar nombres de regiones
     regionName(casosProbablesAcumulados)
     regionName(casosActivosProbables)
@@ -464,6 +493,9 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
     regionName(casosNuevosSinNotificar)
     regionName(casosConfirmadosRecuperados)
     regionName(casosActivosConfirmados)
+    regionName(casosSospechososReinfeccion)
+    regionName(casosNuevosAntigeno)
+    regionName(casosConfirmadosAntigeno)
     cumulativoCasosNuevos_T = cumulativoCasosNuevos.transpose()
     cumulativoCasosTotales_T = cumulativoCasosTotales.transpose()
     cumulativoFallecidos_T = cumulativoFallecidos.transpose()
@@ -474,15 +506,20 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
     casosActivosConfirmados_T = casosActivosConfirmados.transpose()
     casosProbablesAcumulados_T = casosProbablesAcumulados.transpose()
     casosActivosProbables_T = casosActivosProbables.transpose()
+    casosSospechososReinfeccion_T = casosSospechososReinfeccion.transpose()
+    casosNuevosAntigeno_T = casosNuevosAntigeno.transpose()
+    casosConfirmadosAntigeno_T = casosConfirmadosAntigeno.transpose()
 
     #### PRODUCTO 3
 
     names = ['Casos acumulados', 'Casos nuevos totales', 'Casos nuevos con sintomas', 'Casos nuevos sin sintomas',
              'Casos nuevos sin notificar', 'Fallecidos totales', 'Casos confirmados recuperados',
-             'Casos activos confirmados', 'Casos activos probables', 'Casos probables acumulados']
+             'Casos activos confirmados', 'Casos activos probables', 'Casos probables acumulados','Casos confirmados por antigeno',
+             'Casos nuevos confirmados por antigeno','Casos con sospecha de reinfeccion']
     frames = [cumulativoCasosTotales, cumulativoCasosNuevos, casosNuevosConSintomas, casosNuevosSinSintomas,
               casosNuevosSinNotificar, cumulativoFallecidos, casosConfirmadosRecuperados,
-              casosActivosConfirmados, casosActivosProbables, casosProbablesAcumulados]
+              casosActivosConfirmados, casosActivosProbables, casosProbablesAcumulados,casosConfirmadosAntigeno,
+              casosNuevosAntigeno,casosSospechososReinfeccion]
 
     for i in range(len(names)):
 
