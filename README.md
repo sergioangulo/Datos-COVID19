@@ -187,8 +187,22 @@ El producto contiene información sobre el estado de cada comuna del país en el
 [Data Product 75 - Media Móvil de casos nuevos y de casos activos](output/producto75):
 Este producto da cuenta de la media movil semanal de casos nuevos confirmados por región, y la de casos activos confirmados más probables por región. [Ver más](output/producto75)
 
-[Data Product 76 - Avance en Campaña de Vacunación COVID-19](output/producto76):
-Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2. [Ver más](output/producto76)
+[Data Product 76 - Avance regional en Campaña de Vacunación COVID-19](output/producto76):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 a nivel regional. [Ver más](output/producto76)
+
+[Data Product 77 - Avance por rango etario y región en Campaña de Vacunación COVID-19](output/producto77):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 por rango etario y región. [Ver más](output/producto77)
+
+[Data Product 78 - Avance por sexo y edad en Campaña de Vacunación COVID-19](output/producto78):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 por edad (en años) y sexo. [Ver más](output/producto78)
+
+[Data Product 79 - Avance por grupo prioritario en Campaña de Vacunación COVID-19](output/producto79):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 por criterio y sub criterio de prioridad. [Ver más](output/producto79)
+
+[Data Product 80 - Avance comunal en Campaña de Vacunación COVID-19](output/producto80):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 a nivel comunal. [Ver más](output/producto80)
+
+
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
