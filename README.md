@@ -202,6 +202,8 @@ Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov
 [Data Product 80 - Avance comunal en Campaña de Vacunación COVID-19](output/producto80):
 Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 a nivel comunal. [Ver más](output/producto80)
 
+[Data Product 81 - Avance comunal por edad en Campaña de Vacunación COVID-19](output/producto81):
+Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 a nivel comunal por edad. [Ver más](output/producto81)
 
 
 ## ¿Cómo funciona?
