@@ -311,7 +311,7 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
-            df_std.to_json(self.output + '.json')
+            df_std.to_json(self.output + '.json',orient='values',force_ascii=False)
 
 
         elif self.indicador == 'vacunas_edad_region':
@@ -385,7 +385,7 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
-            df_std.to_json(self.output + '.json')
+            df_std.to_json(self.output + '.json',orient='values',force_ascii=False)
 
 
         elif self.indicador == 'vacunas_edad_sexo':
@@ -446,6 +446,7 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
+            df_std.to_json(self.output + '.json', orient='values', force_ascii=False)
 
         elif self.indicador == 'vacunas_prioridad':
             self.last_added.rename(columns={'Criterio': 'Grupo',
@@ -488,7 +489,7 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
-            df_std.to_json(self.output + '.json')
+            df_std.to_json(self.output + '.json',orient='values',force_ascii=False)
 
         elif self.indicador == 'vacunas_comuna':
             ##template por comuna
