@@ -311,6 +311,8 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
+            df_std.to_json(self.output + '.json')
+
 
         elif self.indicador == 'vacunas_edad_region':
             self.last_added.rename(columns={'NOMBRE_REGION': 'Region',
@@ -383,6 +385,8 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
+            df_std.to_json(self.output + '.json')
+
 
         elif self.indicador == 'vacunas_edad_sexo':
             self.last_added.rename(columns={'NOMBRE_REGION': 'Region',
@@ -484,6 +488,7 @@ class vacunacion:
                              value_name='Cantidad')
 
             df_std.to_csv(self.output + '_std.csv', index=False)
+            df_std.to_json(self.output + '.json')
 
         elif self.indicador == 'vacunas_comuna':
             ##template por comuna
