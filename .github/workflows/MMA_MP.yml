@@ -43,8 +43,7 @@ jobs:
           python MMA.py ${{ secrets.MMA_USER }} ${{ secrets.MMA_PASS }} MP &&\
           python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
                                 ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
-                                "Actualicé los datos de calidad del aire en todo el territorio nacional, desde las estaciones del SINCA del @MMAChile 💫. ¡Gracias a sus equipos por la información 😘!cMira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
-
+                                mma_mp
 
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1

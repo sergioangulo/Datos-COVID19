@@ -39,8 +39,7 @@ jobs:
         python informeEpidemiologico.py &&\
         python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
                               ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
-                              "Actualicé los datos del Informe Epidemiológico publicado por @ministeriosalud de hoy 💫, gracias a su equipo de especialistas en epidemiología. Mira qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
-
+                              informeepi
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
