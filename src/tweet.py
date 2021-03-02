@@ -47,7 +47,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
     elif carrier == 'vacunacion':
         # create update elements
-        tweet_text = '🤖Actualicé los datos que dan cuenta del avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a la APS y al equipo de la División de Planificación Sanitaria del @ministeriosalud. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé los datos que dan cuenta del avance en la campaña de vacunación #YoMeVacuno 💫, gracias a la APS y al equipo de la División de Planificación Sanitaria del @ministeriosalud. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
         media1= my_api.media_upload('./img/Datos covid_Bot_C_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         # media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
