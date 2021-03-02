@@ -51,7 +51,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_vacunacion = pd.read_csv('../output/producto76/vacunacion_t.csv')
         vacunados = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][1]))
         # create update elements
-        tweet_text = '🤖Actualicé los datos que dan cuenta del avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS del @ministeriosalud. Van '+vacunados+'vacunados. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé los datos que dan cuenta del avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS del @ministeriosalud. Van '+str(vacunados)+'vacunados. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
         media1= my_api.media_upload('./img/Datos covid_Bot_C_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         # media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
