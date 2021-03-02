@@ -635,7 +635,8 @@ class vacunacion:
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
                     outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'],inplace=True)
                     variables = [x for x in outputDF2.columns if x not in identifiers]
                     outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                                             value_name='Primera Dosis')
@@ -645,7 +646,8 @@ class vacunacion:
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
                     outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'], inplace=True)
                     variables = [x for x in outputDF2.columns if x not in identifiers]
                     outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                                             value_name='Segunda Dosis')
@@ -790,9 +792,10 @@ class vacunacion:
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
                     outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'],inplace=True)
                     variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
                                             value_name='Primera Dosis')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
                 elif k == 4:
@@ -800,9 +803,10 @@ class vacunacion:
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
                     outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'],inplace=True)
                     variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
                                             value_name='Segunda Dosis')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
