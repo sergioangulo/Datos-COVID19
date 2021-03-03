@@ -58,14 +58,13 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
     elif carrier == 'mmamp':
         # create update elements
         tweet_text = '🤖Actualicé los datos de calidad del aire en todo el territorio nacional, desde las estaciones del SINCA del @MMAChile 💫. Mira específicamente qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
-        # media1= my_api.media_upload('./img/Datos covid_Bot_A_g1.png')
+        media1= my_api.media_upload('./img/Datos covid_Bot_G_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         # media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
         # media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
 
         # Generate text tweet with media (image)
-        my_api.update_status(status=tweet_text)
-                             # media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
+        my_api.update_status(status=tweet_text, media_ids=[media1.media_id]))
 
     elif carrier == 'informeepi':
         # create update elements
