@@ -27,10 +27,10 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         if variacion_nacional >= 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
-            reply1_text = '🤖La media móvil de casos nuevos creció en '+str(variacion_nacional)+'%. :(. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75'
+            reply1_text = '🤖La media móvil semanal de casos nuevos creció en '+str(variacion_nacional)+'% respecto de la semana anterior 😞. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75'
         else:
             variacion_nacional = ("%.2f" % variacion_nacional)
-            reply1_text = '🤖La media móvil de casos nuevos bajó en '+str(variacion_nacional)+'%. :). Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75'
+            reply1_text = '🤖La media móvil semanal de casos nuevos bajó en '+str(variacion_nacional)+'% respecto de la semana anterior 😊. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75'
 
         # Generate text tweet with media (image)
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
