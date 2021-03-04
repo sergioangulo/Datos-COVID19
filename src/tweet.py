@@ -70,8 +70,12 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
 
     elif carrier == 'informeepi':
+        my_epi= pd.read_csv('../output/producto1/Covid-19_T.csv')
+        fecha_informe = my_epi.iloc[my_epi.index.max()-1][0]
+
+
         # create update elements
-        tweet_text = '🤖Actualicé los datos del Informe Epidemiológico publicado por @ministeriosalud de hoy 💫, gracias a su equipo de especialistas en epidemiología. Mira qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé los datos del Informe Epidemiológico publicado por @ministeriosalud de hoy 💫, con los datos correspondientes al '+fecha_informe+'. Gracias al equipo de especialistas en epidemiología. Mira qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
         media1= my_api.media_upload('./img/Datos covid_Bot_B_g1.png')
         media2= my_api.media_upload('./img/Datos covid_Bot_B_g2.png')
         media3= my_api.media_upload('./img/Datos covid_Bot_B_g3.png')
