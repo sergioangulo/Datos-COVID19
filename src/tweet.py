@@ -25,7 +25,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         positividad_nacional = ("%.2f" % positividad_nacional)
 
         # create update elements
-        tweet_text = '🤖Actualicé datos del reporte diario del @ministeriosalud de hoy 💫, gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. La media móvil de casos nuevos es '+str(mediamovil_nacional)+', con positividad media '+str(positividad_nacional)'. Mira detalles en las imágenes y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé datos del reporte diario del @ministeriosalud de hoy 💫, gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. La media móvil de casos nuevos es '+str(mediamovil_nacional)+', con positividad media '+str(positividad_nacional)+'. Mira detalles en las imágenes y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
         media1= my_api.media_upload('./img/Datos covid_Bot_A_g1.png')
         media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
