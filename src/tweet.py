@@ -19,39 +19,42 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         mediamovil_nacional = int(pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]))
         variacion_nacional = float(100*(pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]) - pd.to_numeric(
             my_mediamovil.iloc[my_mediamovil.index.max() - 7][17]))/pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]))
-        positividad_nacional = int(pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
+        positividad_nacional = float(100*pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
         variacion_positividad = float(100*(pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]) - pd.to_numeric(
             my_positividad.iloc[my_positividad.index.max() - 7][4]))/pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
         positividad_nacional = ("%.2f" % positividad_nacional)
 
         # create update elements
-        tweet_text = '🤖Actualicé datos del reporte diario del @ministeriosalud de hoy 💫, gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. La media móvil de casos nuevos es '+str(mediamovil_nacional)+', con positividad media '+str(positividad_nacional)+'. Mira detalles en las imágenes y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫, gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
+
+
+        if variacion_nacional >= 0 and variacion_positividad >= 0:
+            variacion_nacional = ("%.2f" % variacion_nacional)
+            variacion_positividad = ("%.2f" % variacion_positividad)
+            reply1_text = '🤖 En comparación con la semana anterior, la media móvil de los últimos 7 días para casos nuevos creció en '+str(variacion_nacional)+'% y la positividad en '+str(variacion_positividad)+'% a nivel nacional. Detalles a nivel regional en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
+
+        elif variacion_nacional >= 0 and variacion_positividad < 0:
+            variacion_nacional = ("%.2f" % variacion_nacional)
+            variacion_positividad = ("%.2f" % variacion_positividad)
+            reply1_text = '🤖 En comparación con la semana anterior, la media móvil de los últimos 7 días para casos nuevos creció en '+str(variacion_nacional)+'% y la positividad bajó en '+str(variacion_positividad)+'% a nivel nacional. Detalles a nivel regional en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
+
+        elif variacion_nacional < 0 and variacion_positividad < 0:
+            variacion_nacional = ("%.2f" % variacion_nacional)
+            variacion_positividad = ("%.2f" % variacion_positividad)
+            reply1_text = '🤖 En comparación con la semana anterior, la media móvil de los últimos 7 días para casos nuevos creció en '+str(variacion_nacional)+'% y la positividad en '+str(variacion_positividad)+'% a nivel nacional. Detalles a nivel regional en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
+
+        elif variacion_nacional < 0 and variacion_positividad >= 0:
+            variacion_nacional = ("%.2f" % variacion_nacional)
+            variacion_positividad = ("%.2f" % variacion_positividad)
+            reply1_text = '🤖 En comparación con la semana anterior, la media móvil de los últimos 7 días para casos nuevos bajó en ' + str(
+                variacion_nacional) + '% y la positividad aumentó en ' + str(
+                variacion_positividad) + '% a nivel nacional. Detalles a nivel regional en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
+
+        # Generate text tweet with media (image)
         media1= my_api.media_upload('./img/Datos covid_Bot_A_g1.png')
         media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
         media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
-
-        if variacion_nacional >= 0 and positividad_nacional >= 0:
-            variacion_nacional = ("%.2f" % variacion_nacional)
-            variacion_positividad = ("%.2f" % variacion_positividad)
-            reply1_text = '🤖La media móvil semanal de casos nuevos creció en '+str(variacion_nacional)+'% y la positividad en '+str(variacion_positividad)+'% respecto de la semana anterior. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
-
-        elif variacion_nacional >= 0 and positividad_nacional < 0:
-            variacion_nacional = ("%.2f" % variacion_nacional)
-            variacion_positividad = ("%.2f" % variacion_positividad)
-            reply1_text = '🤖La media móvil semanal de casos nuevos creció en '+str(variacion_nacional)+'% y la positividad bajó en '+str(variacion_positividad)+'% respecto de la semana anterior. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
-
-        elif variacion_nacional < 0 and positividad_nacional < 0:
-            variacion_nacional = ("%.2f" % variacion_nacional)
-            variacion_positividad = ("%.2f" % variacion_positividad)
-            reply1_text = '🤖La media móvil semanal de casos nuevos bajó en '+str(variacion_nacional)+'% y la positividad en '+str(variacion_positividad)+'% respecto de la semana anterior. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
-
-        elif variacion_nacional < 0 and positividad_nacional >= 0:
-            variacion_nacional = ("%.2f" % variacion_nacional)
-            variacion_positividad = ("%.2f" % variacion_positividad)
-            reply1_text = '🤖La media móvil semanal de casos nuevos bajó en '+str(variacion_nacional)+'% y la positividad creció en '+str(variacion_positividad)+'% respecto de la semana anterior. Detalles: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
-
-        # Generate text tweet with media (image)
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
         my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
 
