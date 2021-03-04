@@ -208,15 +208,14 @@ Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
-1. El reporte diario
-1. El informe epidemiológico
-1. API del Registro Civil
-1. Contribuciones de geojsons: Pull requests de  Soporta Ltda. e ISCI.
-1. Datos de movilidad de UDD
-1. Datos del Ministerio de Transporte
-1. Datos del Ministerio del Medio Ambiente
+1. El reporte diario del Ministerio de Salud de Chile
+1. El informe epidemiológico del Ministerio de Salud de Chile
+1. Las bases de datos del Registro Civil de Chile
+1. Datos de movilidad de Universidad del Desarrollo y Universidad de Chile, a través de sus Institutos de Data Science y Instituto de Sistemas Complejos de Ingeniería, respectivamente.
+1. Datos del transporte público y el uso de aeropuertos del Ministerio de Transporte
+1. Datos de la calidad del aire del SINCA del Ministerio del Medio Ambiente
 
-Para el caso de los pdfs, transcribimos los contenidos para generar archivos CSV, que son utilizados para generar los productos relevantes.
+Para el caso de los reportes e informe, transcribimos las fuentes en formatos legibles por máquina a archivos CSV, que son utilizados como input de este repo una vez ocurre el reporte diario o la publicación del informe, para generar los productos del repositorio.
 Cada vez que se actualizan los archivos de entrada, se gatillan las acciones abajo. Si hay fallas, los productos son generados 
 utilizando los mismos scripts, pero manualmente.
 
@@ -240,7 +239,7 @@ utilizando los mismos scripts, pero manualmente.
    ![Actualiza_productos_de_UDD](https://github.com/MinCiencia/Datos-COVID19/workflows/Actualiza_productos_de_UDD/badge.svg)
 
 # Contacto
-Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos ha sido inicializada por el equipo del Data Observatory (http://www.dataobservatory.net), estan todos invitados a colaborar.
+Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos fue inicializada por @scornejob y @fzmolina, equipo 2019-2020 del Data Observatory (http://www.dataobservatory.net), y hoy es mantenida por el Equipo Futuro de @MinCiencia. Estan todas y todos coordialmente invitados a colaborar.
 Si has creado una solución que permita facilitar el trabajo con estos datos, algún análisis, o simplemente tienes una solicitud de data product considerando los datos que MINSAL hace públicos hoy, escríbenos a darancibia@minciencia.gob.cl
 
 ## Agradecimientos
@@ -252,5 +251,7 @@ Miguel A. Bustos Valdebenito | Estudiante Dr. Ing. Mec. - U.Chile | Mtr. Ing. In
 Annabella Zapata y Carlos Navarrete, Chilecracia y Datawheel
 
 Leandro Zamudio León y Luis Meneses Retamal | Soporta Ltda.
+
+Juan Cristobal Olivares | @juancri
 
 [![Run on Repl.it](https://repl.it/badge/github/MinCiencia/Datos-COVID19)](https://repl.it/github/MinCiencia/Datos-COVID19)
