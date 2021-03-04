@@ -64,7 +64,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         # media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
 
         # Generate text tweet with media (image)
-        my_api.update_status(status=tweet_text, media_ids=[media1.media_id]))
+        my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
 
     elif carrier == 'informeepi':
         # create update elements
