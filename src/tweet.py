@@ -87,19 +87,25 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
     elif carrier == 'vacunacion':
         my_vacunacion = pd.read_csv('../output/producto76/vacunacion_t.csv')
         vacunados = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][1]))
+        vacunados_pauta_completa = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][2]))
+        my_vacunacion_avance = vacunados/15000000
+        my_vacunacion_avance_pauta_completa = vacunados_pauta_completa/15000000
+        my_vacunacion_avance = ("%.2f" % my_vacunacion_avance)
+        my_vacunacion_avance_pauta_completa = ("%.2f" % my_vacunacion_avance_pauta_completa)
+
         # create update elements
-        tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados con primera dosis en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
+        reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
+
         media1= my_api.media_upload('./img/Datos covid_Bot_C_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         # media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
         # media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
 
         # Generate text tweet with media (image)
-        my_api.update_status(status=tweet_text, media_ids=[media1.media_id
-                                                           # media2.media_id,
-                                                           # media3.media_id,
-                                                           # media4.media_id
-                                                           ])
+        tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
+        my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
+
 
     elif carrier == 'testeo':
         tweet_text = "Actualicé los datos del informe de testeo y trazabilidad del @ministeriosalud de hoy 💫, ¡gracias @FunCienciayVida! Mira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
