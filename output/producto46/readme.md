@@ -1,9 +1,9 @@
 # DP46 - Curva Activos vs. Recuperados: Descripción
 Archivo sobre casos activos y recuperados a nivel nacional, se actualiza la curva completa diariamente. 
 
-Se entiende en este reporte por "recuperados" la proyección de recuperados que tras ser confirmados, reportan su fecha de inicio de síntomas y han transcurrido 14 días o más desde ella.
+Se entiende en este reporte por "recuperados" la proyección de recuperados que tras ser confirmados, reportan su fecha de inicio de síntomas y han transcurrido 11 días o más desde ella.
 
-Se entiende en este reporte por "activos", a aquellos casos que se encuentran en los primeros 14 días posteriores a su fecha de diagnóstico.
+Se entiende en este reporte por "activos", a aquellos casos que se encuentran en los primeros 11 días posteriores a su fecha de diagnóstico.
 
 En ambos casos, se excluyen fallecidos.
 
