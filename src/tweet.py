@@ -99,10 +99,10 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         # create update elements
         tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados con primera dosis en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
         reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
-        if now.hour < 14:
-            time = '11 am'
-        else:
+        if now.hour > 19:
             time = '7 pm'
+        else:
+            time = '11 am'
 
         reply2_text = '🤖 A las '+time+' del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' personas han recibido la vacuna contra COVID-19 hoy. Detalles en https://github.com/MinCiencia/Datos-COVID19'
 
@@ -113,8 +113,9 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         # Generate text tweet with media (image)
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
-        my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
-        my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet.id)
+        tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
+        my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
+
 
 
 
