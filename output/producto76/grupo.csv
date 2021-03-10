@@ -1,6 +1,6 @@
 Grupo,Dosis,2021-02-15,2021-02-16,2021-02-17,2021-02-18,2021-02-19,2021-02-20,2021-02-21,2021-03-07,2021-03-08,2021-03-09
-Total,Primera,2092453.0,2320697.0,2320697.0,2320697.0,2320697.0,2320697.0,2320697.0,4049948.0,4175743.0,4175743.0
-Total,Segunda,54819.0,55028.0,55028.0,55028.0,55028.0,55028.0,55028.0,574628.0,772389.0,772389.0
+Total,Primera,2092453.0,2320697.0,2320697.0,2320697.0,2320697.0,2320697.0,2320697.0,4049948.0,4175743.0,4225248.0
+Total,Segunda,54819.0,55028.0,55028.0,55028.0,55028.0,55028.0,55028.0,574628.0,772389.0,864070.0
 Desconocido,Primera,67.0,2.0,,,,,,,,
 Desconocido,Segunda,41.0,0.0,,,,,,,,
 Personal de salud,Primera,485475.0,500615.0,500615.0,500615.0,500615.0,500615.0,500615.0,,,
@@ -15,69 +15,69 @@ Población Sana,Primera,28298.0,32417.0,32417.0,32417.0,32417.0,32417.0,32417.0,
 Población Sana,Segunda,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
 Población vulnerable,Primera,1311390.0,1463765.0,1463765.0,1463765.0,1463765.0,1463765.0,1463765.0,,,
 Población vulnerable,Segunda,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
-Adm. apoyo no clinico FFAA y de orden,Primera,,,,,,,,4154.0,4202.0,4202.0
-Adm. apoyo no clinico FFAA y de orden,Segunda,,,,,,,,844.0,1311.0,1311.0
-Administrativo de apoyo no clinico sector privado,Primera,,,,,,,,21442.0,21617.0,21617.0
-Administrativo de apoyo no clinico sector privado,Segunda,,,,,,,,4977.0,6040.0,6040.0
-Administrativo de apoyo no clinico sector público,Primera,,,,,,,,26104.0,26362.0,26362.0
-Administrativo de apoyo no clinico sector público,Segunda,,,,,,,,7147.0,8863.0,8863.0
-Alumnos en práctica sector público,Primera,,,,,,,,15182.0,15435.0,15435.0
-Alumnos en práctica sector público,Segunda,,,,,,,,6617.0,7700.0,7700.0
-"Alumnos en práctica, sector privado",Primera,,,,,,,,9063.0,9300.0,9300.0
-"Alumnos en práctica, sector privado",Segunda,,,,,,,,3011.0,3483.0,3483.0
-FFAA y de orden,Primera,,,,,,,,23008.0,23166.0,23166.0
-FFAA y de orden,Segunda,,,,,,,,8049.0,9999.0,9999.0
-Privado,Primera,,,,,,,,184728.0,186178.0,186178.0
-Privado,Segunda,,,,,,,,83827.0,97062.0,97062.0
-Público,Primera,,,,,,,,300442.0,301914.0,301914.0
-Público,Segunda,,,,,,,,191869.0,208511.0,208511.0
-Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Primera,,,,,,,,26870.0,26941.0,26941.0
-Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Segunda,,,,,,,,11589.0,12843.0,12843.0
-Instituciones de Salud Mental,Primera,,,,,,,,3758.0,3885.0,3885.0
-Instituciones de Salud Mental,Segunda,,,,,,,,727.0,910.0,910.0
-Población privada de libertad,Primera,,,,,,,,4083.0,4151.0,4151.0
-Población privada de libertad,Segunda,,,,,,,,11.0,42.0,42.0
-Servicio Nacional de Menores (SENAME),Primera,,,,,,,,9814.0,9935.0,9935.0
-Servicio Nacional de Menores (SENAME),Segunda,,,,,,,,3088.0,3693.0,3693.0
-Administración del Estado,Primera,,,,,,,,126028.0,127323.0,127323.0
-Administración del Estado,Segunda,,,,,,,,190.0,4194.0,4194.0
-Atencion directa a la Ciudada,Primera,,,,,,,,126648.0,127961.0,127961.0
-Atencion directa a la Ciudada,Segunda,,,,,,,,401.0,3371.0,3371.0
-Carabineros- PDI,Primera,,,,,,,,46626.0,47027.0,47027.0
-Carabineros- PDI,Segunda,,,,,,,,186.0,3516.0,3516.0
-Farmacias y laboratorios,Primera,,,,,,,,24955.0,25249.0,25249.0
-Farmacias y laboratorios,Segunda,,,,,,,,58.0,1180.0,1180.0
-Fuerzas Armadas,Primera,,,,,,,,33729.0,33871.0,33871.0
-Fuerzas Armadas,Segunda,,,,,,,,1757.0,2957.0,2957.0
-Gendarmería,Primera,,,,,,,,4861.0,4934.0,4934.0
-Gendarmería,Segunda,,,,,,,,5.0,20.0,20.0
+Adm. apoyo no clinico FFAA y de orden,Primera,,,,,,,,4154.0,4202.0,4232.0
+Adm. apoyo no clinico FFAA y de orden,Segunda,,,,,,,,844.0,1311.0,1492.0
+Administrativo de apoyo no clinico sector privado,Primera,,,,,,,,21442.0,21617.0,21677.0
+Administrativo de apoyo no clinico sector privado,Segunda,,,,,,,,4977.0,6040.0,6679.0
+Administrativo de apoyo no clinico sector público,Primera,,,,,,,,26104.0,26362.0,26429.0
+Administrativo de apoyo no clinico sector público,Segunda,,,,,,,,7147.0,8863.0,9826.0
+Alumnos en práctica sector público,Primera,,,,,,,,15182.0,15435.0,15545.0
+Alumnos en práctica sector público,Segunda,,,,,,,,6617.0,7700.0,7914.0
+"Alumnos en práctica, sector privado",Primera,,,,,,,,9063.0,9300.0,9368.0
+"Alumnos en práctica, sector privado",Segunda,,,,,,,,3011.0,3483.0,3635.0
+FFAA y de orden,Primera,,,,,,,,23008.0,23166.0,23253.0
+FFAA y de orden,Segunda,,,,,,,,8049.0,9999.0,10908.0
+Privado,Primera,,,,,,,,184728.0,186178.0,186604.0
+Privado,Segunda,,,,,,,,83827.0,97062.0,101803.0
+Público,Primera,,,,,,,,300442.0,301914.0,302377.0
+Público,Segunda,,,,,,,,191869.0,208511.0,213996.0
+Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Primera,,,,,,,,26870.0,26941.0,26977.0
+Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Segunda,,,,,,,,11589.0,12843.0,13675.0
+Instituciones de Salud Mental,Primera,,,,,,,,3758.0,3885.0,3879.0
+Instituciones de Salud Mental,Segunda,,,,,,,,727.0,910.0,941.0
+Población privada de libertad,Primera,,,,,,,,4083.0,4151.0,4203.0
+Población privada de libertad,Segunda,,,,,,,,11.0,42.0,113.0
+Servicio Nacional de Menores (SENAME),Primera,,,,,,,,9814.0,9935.0,9948.0
+Servicio Nacional de Menores (SENAME),Segunda,,,,,,,,3088.0,3693.0,3922.0
+Administración del Estado,Primera,,,,,,,,126028.0,127323.0,127755.0
+Administración del Estado,Segunda,,,,,,,,190.0,4194.0,7029.0
+Atencion directa a la Ciudada,Primera,,,,,,,,126648.0,127961.0,128338.0
+Atencion directa a la Ciudada,Segunda,,,,,,,,401.0,3371.0,5385.0
+Carabineros- PDI,Primera,,,,,,,,46626.0,47027.0,47179.0
+Carabineros- PDI,Segunda,,,,,,,,186.0,3516.0,6560.0
+Farmacias y laboratorios,Primera,,,,,,,,24955.0,25249.0,25292.0
+Farmacias y laboratorios,Segunda,,,,,,,,58.0,1180.0,1977.0
+Fuerzas Armadas,Primera,,,,,,,,33729.0,33871.0,33990.0
+Fuerzas Armadas,Segunda,,,,,,,,1757.0,2957.0,3716.0
+Gendarmería,Primera,,,,,,,,4861.0,4934.0,4994.0
+Gendarmería,Segunda,,,,,,,,5.0,20.0,52.0
 Personal . crítico de Gobierno,Primera,,,,,,,,0.0,0.0,0.0
 Personal . crítico de Gobierno,Segunda,,,,,,,,0.0,0.0,0.0
-Personal de funciones en empresas de transporte de personas,Primera,,,,,,,,11698.0,11868.0,11868.0
-Personal de funciones en empresas de transporte de personas,Segunda,,,,,,,,126.0,168.0,168.0
+Personal de funciones en empresas de transporte de personas,Primera,,,,,,,,11698.0,11868.0,11971.0
+Personal de funciones en empresas de transporte de personas,Segunda,,,,,,,,126.0,168.0,265.0
 Personas  funciones en transporte de productos criticos,Primera,,,,,,,,1532.0,1552.0,1552.0
-Personas  funciones en transporte de productos criticos,Segunda,,,,,,,,1.0,4.0,4.0
-Personas de funciones en empresas de servicios básicos,Primera,,,,,,,,16869.0,17259.0,17259.0
-Personas de funciones en empresas de servicios básicos,Segunda,,,,,,,,146.0,269.0,269.0
-"Personas en funciones en ONEMI, CONAF, Bomberos",Primera,,,,,,,,17501.0,17574.0,17574.0
-"Personas en funciones en ONEMI, CONAF, Bomberos",Segunda,,,,,,,,91.0,150.0,150.0
+Personas  funciones en transporte de productos criticos,Segunda,,,,,,,,1.0,4.0,9.0
+Personas de funciones en empresas de servicios básicos,Primera,,,,,,,,16869.0,17259.0,17306.0
+Personas de funciones en empresas de servicios básicos,Segunda,,,,,,,,146.0,269.0,465.0
+"Personas en funciones en ONEMI, CONAF, Bomberos",Primera,,,,,,,,17501.0,17574.0,17640.0
+"Personas en funciones en ONEMI, CONAF, Bomberos",Segunda,,,,,,,,91.0,150.0,416.0
 Personas vacunadas por estudio clínico,Primera,,,,,,,,0.0,0.0,0.0
 Personas vacunadas por estudio clínico,Segunda,,,,,,,,0.0,0.0,0.0
-Profesores y Parvularias,Primera,,,,,,,,313992.0,316745.0,316745.0
-Profesores y Parvularias,Segunda,,,,,,,,3.0,22.0,22.0
+Profesores y Parvularias,Primera,,,,,,,,313992.0,316745.0,317368.0
+Profesores y Parvularias,Segunda,,,,,,,,3.0,22.0,70.0
 Recolectores de basura,Primera,,,,,,,,0.0,0.0,0.0
 Recolectores de basura,Segunda,,,,,,,,0.0,0.0,0.0
 Otros funcionarios públicos,Primera,,,,,,,,0.0,0.0,0.0
 Otros funcionarios públicos,Segunda,,,,,,,,0.0,0.0,0.0
-Población entre 18 a 39 años.,Primera,,,,,,,,44309.0,44757.0,44757.0
-Población entre 18 a 39 años.,Segunda,,,,,,,,658.0,1113.0,1113.0
-Población entre 40 a 49 años.,Primera,,,,,,,,34410.0,34567.0,34567.0
-Población entre 40 a 49 años.,Segunda,,,,,,,,799.0,1325.0,1325.0
-Población entre 50 a 59 años.,Primera,,,,,,,,43732.0,55529.0,55529.0
-Población entre 50 a 59 años.,Segunda,,,,,,,,1938.0,3234.0,3234.0
-Enfermos crónicos desde los 16 a 59 años,Primera,,,,,,,,21729.0,29597.0,29597.0
+Población entre 18 a 39 años.,Primera,,,,,,,,44309.0,44757.0,44926.0
+Población entre 18 a 39 años.,Segunda,,,,,,,,658.0,1113.0,1335.0
+Población entre 40 a 49 años.,Primera,,,,,,,,34410.0,34567.0,34713.0
+Población entre 40 a 49 años.,Segunda,,,,,,,,799.0,1325.0,1627.0
+Población entre 50 a 59 años.,Primera,,,,,,,,43732.0,55529.0,59269.0
+Población entre 50 a 59 años.,Segunda,,,,,,,,1938.0,3234.0,3898.0
+Enfermos crónicos desde los 16 a 59 años,Primera,,,,,,,,21729.0,29597.0,37134.0
 Enfermos crónicos desde los 16 a 59 años,Segunda,,,,,,,,17.0,18.0,18.0
-Enfermos crónicos desde los 18 a 59 años,Primera,,,,,,,,41970.0,102417.0,102417.0
-Enfermos crónicos desde los 18 a 59 años,Segunda,,,,,,,,508.0,970.0,970.0
-Personas mayores de 60 años,Primera,,,,,,,,2510711.0,2544427.0,2544427.0
-Personas mayores de 60 años,Segunda,,,,,,,,245988.0,389421.0,389421.0
+Enfermos crónicos desde los 18 a 59 años,Primera,,,,,,,,41970.0,102417.0,127080.0
+Enfermos crónicos desde los 18 a 59 años,Segunda,,,,,,,,508.0,970.0,1294.0
+Personas mayores de 60 años,Primera,,,,,,,,2510711.0,2544427.0,2554249.0
+Personas mayores de 60 años,Segunda,,,,,,,,245988.0,389421.0,455050.0
