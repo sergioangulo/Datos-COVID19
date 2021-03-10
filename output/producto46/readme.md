@@ -19,3 +19,5 @@ Actualización diaria.
 # Notas aclaratorias
 
 **Nota aclaratoria 1**:  Los valores en las últimas dos semanas se encuentran en etapa de reporte, por ende son provisorios y se espera que sean actualizados junto con cada publicación.
+
+**Nota aclaratoria 2**:  Esta curva incluye casos activos no-notificados, probables y confirmados. En el caso de lo reportado diaramente por Minsal, incluye solo estos últimos.
