@@ -104,7 +104,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         else:
             time = '11 am'
         #time = '7 pm'
-        reply2_text = '🤖 A las '+time+' del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' personas han recibido la vacuna contra COVID-19 hoy. Detalles en https://github.com/MinCiencia/Datos-COVID19'
+        reply2_text = '🤖 A las '+time+' del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' personas han recibido la vacuna contra COVID-19 hoy. Detalles por comuna, edad y prioridad en https://github.com/MinCiencia/Datos-COVID19'
 
         media1= my_api.media_upload('./img/Datos covid_Bot_C_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
