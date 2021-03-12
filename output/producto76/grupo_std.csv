@@ -901,8 +901,8 @@ Enfermos crónicos desde los 18 a 59 años,Primera,2021-03-10,227531.0
 Enfermos crónicos desde los 18 a 59 años,Segunda,2021-03-10,3440.0
 Personas mayores de 60 años,Primera,2021-03-10,2596192.0
 Personas mayores de 60 años,Segunda,2021-03-10,742828.0
-Total,Primera,2021-03-11,4507234.0
-Total,Segunda,2021-03-11,1366849.0
+Total,Primera,2021-03-11,4617701.0
+Total,Segunda,2021-03-11,1515874.0
 Desconocido,Primera,2021-03-11,
 Desconocido,Segunda,2021-03-11,
 Personal de salud,Primera,2021-03-11,
@@ -917,69 +917,151 @@ Población Sana,Primera,2021-03-11,
 Población Sana,Segunda,2021-03-11,
 Población vulnerable,Primera,2021-03-11,
 Población vulnerable,Segunda,2021-03-11,
-Adm. apoyo no clinico FFAA y de orden,Primera,2021-03-11,4320.0
-Adm. apoyo no clinico FFAA y de orden,Segunda,2021-03-11,2200.0
-Administrativo de apoyo no clinico sector privado,Primera,2021-03-11,22129.0
-Administrativo de apoyo no clinico sector privado,Segunda,2021-03-11,9643.0
-Administrativo de apoyo no clinico sector público,Primera,2021-03-11,26852.0
-Administrativo de apoyo no clinico sector público,Segunda,2021-03-11,13726.0
-Alumnos en práctica sector público,Primera,2021-03-11,16203.0
-Alumnos en práctica sector público,Segunda,2021-03-11,9224.0
-"Alumnos en práctica, sector privado",Primera,2021-03-11,9754.0
-"Alumnos en práctica, sector privado",Segunda,2021-03-11,4503.0
-FFAA y de orden,Primera,2021-03-11,23693.0
-FFAA y de orden,Segunda,2021-03-11,14546.0
-Privado,Primera,2021-03-11,189464.0
-Privado,Segunda,2021-03-11,123668.0
-Público,Primera,2021-03-11,305340.0
-Público,Segunda,2021-03-11,237862.0
-Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Primera,2021-03-11,26943.0
-Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Segunda,2021-03-11,16917.0
-Instituciones de Salud Mental,Primera,2021-03-11,3960.0
-Instituciones de Salud Mental,Segunda,2021-03-11,1353.0
-Población privada de libertad,Primera,2021-03-11,4241.0
-Población privada de libertad,Segunda,2021-03-11,702.0
-Servicio Nacional de Menores (SENAME),Primera,2021-03-11,10154.0
-Servicio Nacional de Menores (SENAME),Segunda,2021-03-11,5332.0
-Administración del Estado,Primera,2021-03-11,131502.0
-Administración del Estado,Segunda,2021-03-11,31284.0
-Atencion directa a la Ciudada,Primera,2021-03-11,133745.0
-Atencion directa a la Ciudada,Segunda,2021-03-11,22281.0
-Carabineros- PDI,Primera,2021-03-11,48126.0
-Carabineros- PDI,Segunda,2021-03-11,19434.0
-Farmacias y laboratorios,Primera,2021-03-11,25786.0
-Farmacias y laboratorios,Segunda,2021-03-11,7869.0
-Fuerzas Armadas,Primera,2021-03-11,35409.0
-Fuerzas Armadas,Segunda,2021-03-11,8859.0
-Gendarmería,Primera,2021-03-11,5728.0
-Gendarmería,Segunda,2021-03-11,570.0
+Adm. apoyo no clinico FFAA y de orden,Primera,2021-03-11,4341.0
+Adm. apoyo no clinico FFAA y de orden,Segunda,2021-03-11,2378.0
+Administrativo de apoyo no clinico sector privado,Primera,2021-03-11,22305.0
+Administrativo de apoyo no clinico sector privado,Segunda,2021-03-11,10595.0
+Administrativo de apoyo no clinico sector público,Primera,2021-03-11,27037.0
+Administrativo de apoyo no clinico sector público,Segunda,2021-03-11,15058.0
+Alumnos en práctica sector público,Primera,2021-03-11,16428.0
+Alumnos en práctica sector público,Segunda,2021-03-11,9589.0
+"Alumnos en práctica, sector privado",Primera,2021-03-11,9887.0
+"Alumnos en práctica, sector privado",Segunda,2021-03-11,4798.0
+FFAA y de orden,Primera,2021-03-11,23988.0
+FFAA y de orden,Segunda,2021-03-11,15452.0
+Privado,Primera,2021-03-11,190430.0
+Privado,Segunda,2021-03-11,129515.0
+Público,Primera,2021-03-11,306508.0
+Público,Segunda,2021-03-11,243920.0
+Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Primera,2021-03-11,27076.0
+Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Segunda,2021-03-11,17978.0
+Instituciones de Salud Mental,Primera,2021-03-11,4022.0
+Instituciones de Salud Mental,Segunda,2021-03-11,1604.0
+Población privada de libertad,Primera,2021-03-11,4238.0
+Población privada de libertad,Segunda,2021-03-11,830.0
+Servicio Nacional de Menores (SENAME),Primera,2021-03-11,10275.0
+Servicio Nacional de Menores (SENAME),Segunda,2021-03-11,5705.0
+Administración del Estado,Primera,2021-03-11,133391.0
+Administración del Estado,Segunda,2021-03-11,41365.0
+Atencion directa a la Ciudada,Primera,2021-03-11,136999.0
+Atencion directa a la Ciudada,Segunda,2021-03-11,30436.0
+Carabineros- PDI,Primera,2021-03-11,48527.0
+Carabineros- PDI,Segunda,2021-03-11,22658.0
+Farmacias y laboratorios,Primera,2021-03-11,26113.0
+Farmacias y laboratorios,Segunda,2021-03-11,10125.0
+Fuerzas Armadas,Primera,2021-03-11,36330.0
+Fuerzas Armadas,Segunda,2021-03-11,10414.0
+Gendarmería,Primera,2021-03-11,6051.0
+Gendarmería,Segunda,2021-03-11,730.0
 Personal . crítico de Gobierno,Primera,2021-03-11,0.0
 Personal . crítico de Gobierno,Segunda,2021-03-11,0.0
-Personal de funciones en empresas de transporte de personas,Primera,2021-03-11,12322.0
-Personal de funciones en empresas de transporte de personas,Segunda,2021-03-11,1151.0
-Personas  funciones en transporte de productos criticos,Primera,2021-03-11,1597.0
-Personas  funciones en transporte de productos criticos,Segunda,2021-03-11,122.0
-Personas de funciones en empresas de servicios básicos,Primera,2021-03-11,17830.0
-Personas de funciones en empresas de servicios básicos,Segunda,2021-03-11,2650.0
-"Personas en funciones en ONEMI, CONAF, Bomberos",Primera,2021-03-11,18293.0
-"Personas en funciones en ONEMI, CONAF, Bomberos",Segunda,2021-03-11,3290.0
+Personal de funciones en empresas de transporte de personas,Primera,2021-03-11,12449.0
+Personal de funciones en empresas de transporte de personas,Segunda,2021-03-11,1685.0
+Personas  funciones en transporte de productos criticos,Primera,2021-03-11,1627.0
+Personas  funciones en transporte de productos criticos,Segunda,2021-03-11,182.0
+Personas de funciones en empresas de servicios básicos,Primera,2021-03-11,18268.0
+Personas de funciones en empresas de servicios básicos,Segunda,2021-03-11,3714.0
+"Personas en funciones en ONEMI, CONAF, Bomberos",Primera,2021-03-11,18602.0
+"Personas en funciones en ONEMI, CONAF, Bomberos",Segunda,2021-03-11,4424.0
 Personas vacunadas por estudio clínico,Primera,2021-03-11,0.0
 Personas vacunadas por estudio clínico,Segunda,2021-03-11,0.0
-Profesores y Parvularias,Primera,2021-03-11,321241.0
-Profesores y Parvularias,Segunda,2021-03-11,375.0
+Profesores y Parvularias,Primera,2021-03-11,322614.0
+Profesores y Parvularias,Segunda,2021-03-11,631.0
 Recolectores de basura,Primera,2021-03-11,0.0
 Recolectores de basura,Segunda,2021-03-11,0.0
 Otros funcionarios públicos,Primera,2021-03-11,0.0
 Otros funcionarios públicos,Segunda,2021-03-11,0.0
-Población entre 18 a 39 años.,Primera,2021-03-11,45980.0
-Población entre 18 a 39 años.,Segunda,2021-03-11,3027.0
-Población entre 40 a 49 años.,Primera,2021-03-11,35657.0
-Población entre 40 a 49 años.,Segunda,2021-03-11,3715.0
-Población entre 50 a 59 años.,Primera,2021-03-11,73050.0
-Población entre 50 a 59 años.,Segunda,2021-03-11,7676.0
-Enfermos crónicos desde los 16 a 59 años,Primera,2021-03-11,97347.0
+Población entre 18 a 39 años.,Primera,2021-03-11,46546.0
+Población entre 18 a 39 años.,Segunda,2021-03-11,3704.0
+Población entre 40 a 49 años.,Primera,2021-03-11,36094.0
+Población entre 40 a 49 años.,Segunda,2021-03-11,4369.0
+Población entre 50 a 59 años.,Primera,2021-03-11,77620.0
+Población entre 50 a 59 años.,Segunda,2021-03-11,8823.0
+Enfermos crónicos desde los 16 a 59 años,Primera,2021-03-11,117935.0
 Enfermos crónicos desde los 16 a 59 años,Segunda,2021-03-11,19.0
-Enfermos crónicos desde los 18 a 59 años,Primera,2021-03-11,257787.0
-Enfermos crónicos desde los 18 a 59 años,Segunda,2021-03-11,4009.0
-Personas mayores de 60 años,Primera,2021-03-11,2602781.0
-Personas mayores de 60 años,Segunda,2021-03-11,810842.0
+Enfermos crónicos desde los 18 a 59 años,Primera,2021-03-11,315261.0
+Enfermos crónicos desde los 18 a 59 años,Segunda,2021-03-11,5236.0
+Personas mayores de 60 años,Primera,2021-03-11,2616739.0
+Personas mayores de 60 años,Segunda,2021-03-11,909937.0
+Total,Primera,2021-03-12,4617701.0
+Total,Segunda,2021-03-12,1515874.0
+Desconocido,Primera,2021-03-12,
+Desconocido,Segunda,2021-03-12,
+Personal de salud,Primera,2021-03-12,
+Personal de salud,Segunda,2021-03-12,
+Personas en centros cerrados,Primera,2021-03-12,
+Personas en centros cerrados,Segunda,2021-03-12,
+Personas Servicios esenciales del estado,Primera,2021-03-12,
+Personas Servicios esenciales del estado,Segunda,2021-03-12,
+Personas Servicios infraestructura crítica,Primera,2021-03-12,
+Personas Servicios infraestructura crítica,Segunda,2021-03-12,
+Población Sana,Primera,2021-03-12,
+Población Sana,Segunda,2021-03-12,
+Población vulnerable,Primera,2021-03-12,
+Población vulnerable,Segunda,2021-03-12,
+Adm. apoyo no clinico FFAA y de orden,Primera,2021-03-12,4341.0
+Adm. apoyo no clinico FFAA y de orden,Segunda,2021-03-12,2378.0
+Administrativo de apoyo no clinico sector privado,Primera,2021-03-12,22305.0
+Administrativo de apoyo no clinico sector privado,Segunda,2021-03-12,10595.0
+Administrativo de apoyo no clinico sector público,Primera,2021-03-12,27037.0
+Administrativo de apoyo no clinico sector público,Segunda,2021-03-12,15058.0
+Alumnos en práctica sector público,Primera,2021-03-12,16428.0
+Alumnos en práctica sector público,Segunda,2021-03-12,9589.0
+"Alumnos en práctica, sector privado",Primera,2021-03-12,9887.0
+"Alumnos en práctica, sector privado",Segunda,2021-03-12,4798.0
+FFAA y de orden,Primera,2021-03-12,23988.0
+FFAA y de orden,Segunda,2021-03-12,15452.0
+Privado,Primera,2021-03-12,190430.0
+Privado,Segunda,2021-03-12,129515.0
+Público,Primera,2021-03-12,306508.0
+Público,Segunda,2021-03-12,243920.0
+Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Primera,2021-03-12,27076.0
+Establecimientos de Larga Estadia de Adultos Mayores (ELEAM),Segunda,2021-03-12,17978.0
+Instituciones de Salud Mental,Primera,2021-03-12,4022.0
+Instituciones de Salud Mental,Segunda,2021-03-12,1604.0
+Población privada de libertad,Primera,2021-03-12,4238.0
+Población privada de libertad,Segunda,2021-03-12,830.0
+Servicio Nacional de Menores (SENAME),Primera,2021-03-12,10275.0
+Servicio Nacional de Menores (SENAME),Segunda,2021-03-12,5705.0
+Administración del Estado,Primera,2021-03-12,133391.0
+Administración del Estado,Segunda,2021-03-12,41365.0
+Atencion directa a la Ciudada,Primera,2021-03-12,136999.0
+Atencion directa a la Ciudada,Segunda,2021-03-12,30436.0
+Carabineros- PDI,Primera,2021-03-12,48527.0
+Carabineros- PDI,Segunda,2021-03-12,22658.0
+Farmacias y laboratorios,Primera,2021-03-12,26113.0
+Farmacias y laboratorios,Segunda,2021-03-12,10125.0
+Fuerzas Armadas,Primera,2021-03-12,36330.0
+Fuerzas Armadas,Segunda,2021-03-12,10414.0
+Gendarmería,Primera,2021-03-12,6051.0
+Gendarmería,Segunda,2021-03-12,730.0
+Personal . crítico de Gobierno,Primera,2021-03-12,0.0
+Personal . crítico de Gobierno,Segunda,2021-03-12,0.0
+Personal de funciones en empresas de transporte de personas,Primera,2021-03-12,12449.0
+Personal de funciones en empresas de transporte de personas,Segunda,2021-03-12,1685.0
+Personas  funciones en transporte de productos criticos,Primera,2021-03-12,1627.0
+Personas  funciones en transporte de productos criticos,Segunda,2021-03-12,182.0
+Personas de funciones en empresas de servicios básicos,Primera,2021-03-12,18268.0
+Personas de funciones en empresas de servicios básicos,Segunda,2021-03-12,3714.0
+"Personas en funciones en ONEMI, CONAF, Bomberos",Primera,2021-03-12,18602.0
+"Personas en funciones en ONEMI, CONAF, Bomberos",Segunda,2021-03-12,4424.0
+Personas vacunadas por estudio clínico,Primera,2021-03-12,0.0
+Personas vacunadas por estudio clínico,Segunda,2021-03-12,0.0
+Profesores y Parvularias,Primera,2021-03-12,322614.0
+Profesores y Parvularias,Segunda,2021-03-12,631.0
+Recolectores de basura,Primera,2021-03-12,0.0
+Recolectores de basura,Segunda,2021-03-12,0.0
+Otros funcionarios públicos,Primera,2021-03-12,0.0
+Otros funcionarios públicos,Segunda,2021-03-12,0.0
+Población entre 18 a 39 años.,Primera,2021-03-12,46546.0
+Población entre 18 a 39 años.,Segunda,2021-03-12,3704.0
+Población entre 40 a 49 años.,Primera,2021-03-12,36094.0
+Población entre 40 a 49 años.,Segunda,2021-03-12,4369.0
+Población entre 50 a 59 años.,Primera,2021-03-12,77620.0
+Población entre 50 a 59 años.,Segunda,2021-03-12,8823.0
+Enfermos crónicos desde los 16 a 59 años,Primera,2021-03-12,117935.0
+Enfermos crónicos desde los 16 a 59 años,Segunda,2021-03-12,19.0
+Enfermos crónicos desde los 18 a 59 años,Primera,2021-03-12,315261.0
+Enfermos crónicos desde los 18 a 59 años,Segunda,2021-03-12,5236.0
+Personas mayores de 60 años,Primera,2021-03-12,2616739.0
+Personas mayores de 60 años,Segunda,2021-03-12,909937.0
