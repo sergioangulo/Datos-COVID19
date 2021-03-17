@@ -43,10 +43,8 @@ def prod51(url, prod):
     regionName(df)
 
     #get each week Monday as date
-    df['Fecha'] = '2020-W' + df['Week'].astype(str) + '-1'
-
-    for i in range(len(df)):
-        df.at[i, 'Fecha'] = dt.datetime.strptime(df.at[i, 'Fecha'], "%Y-W%W-%w")
+    df['Fecha'] = df['Week'].apply(lambda w: "{}-W{}-1".format(2020 + w//54, w%54))
+    df['Fecha'] = pd.to_datetime(df['Fecha'], format="%Y-W%W-%w")
 
     ## This is the std product
     df.to_csv(prod + '/ISCI_std.csv', index=False)
