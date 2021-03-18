@@ -24,10 +24,14 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         variacion_positividad = float(100*(pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]) - pd.to_numeric(
             my_positividad.iloc[my_positividad.index.max() - 7][4]))/pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
         positividad_nacional = ("%.2f" % positividad_nacional)
+        positividad = float(100*pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][3]))
+        positividad_hoy = ("%.2f" % positividad)
+        casos_nuevos = str(my_positividad.iloc[my_positividad.index.max()][2])
+        muestras = str(my_positividad.iloc[my_positividad.index.max()][1])
 
         # create update elements
         tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫, gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
-
+        reply2_text = '🤖El total de casos nuevos de hoy es '+casos_nuevos+' . De las '+muestras+' muestras que se analizaron hoy en laboratorios un '+positividad_hoy+' resultó positivo.'
 
         if variacion_nacional >= 0 and variacion_positividad >= 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
@@ -58,6 +62,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
         my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
+        my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet.id)
 
     elif carrier == 'mmamp':
         # create update elements
