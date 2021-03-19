@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-
+import os
 import sys
 import pandas as pd
 from utils import *
@@ -50,8 +50,28 @@ def prod51(url, prod):
     df.to_csv(prod + '/ISCI_std.csv', index=False)
 
 
-
+def prod82(url, prod, output_name):
+    print('Generando producto {}'.format(prod))
+    df = pd.read_csv(url)
+    df.columns = ['region', 'semana', 'paso', 'nom_comuna', 'comuna', 'fecha_inicio', 'fecha_termino', 'var_salidas',
+                'var_salidas_cota_inferior', 'var_salidas_cota_superior']
+    print(os.listdir('../output/'))
+    if not prod in os.listdir('../output/'):
+        os.mkdir('../output/{}'.format(prod))
+    df.to_csv('../output/{}/{}.csv'.format(prod, output_name), index=False)
+    
 if __name__ == '__main__':
     if len(sys.argv) == 2:
         url = sys.argv[1]
         prod51(url, '../output/producto51')
+        
+    if len(sys.argv) == 4:
+        url = sys.argv[1]
+        prod51(url, '../output/producto51')
+        
+       
+        url = sys.argv[2]
+        prod82(url, 'producto82', 'ISCI_weeks')
+        
+        url = sys.argv[3]
+        prod82(url, 'producto82', 'ISCI_weekends')
