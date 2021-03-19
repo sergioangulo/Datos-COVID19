@@ -10,6 +10,10 @@ on: workflow_dispatch
 jobs:
   # This workflow contains a single job called "build"
   Actualiza_productos_de_ISCI:
+    env:
+      PROD51_URL: https://matiascerda.carto.com/api/v2/sql?format=CSV&filename=datos-movilidad-isci.csv&q=select%20*%20from%20data_variacion
+      PROD8X_URL_1: https://nodejs.isci.cl/api/visor-movilidad/week
+      PROD8X_URL_2: https://nodejs.isci.cl/api/visor-movilidad/weekend
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -31,7 +35,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: generate products from ISCI
-      run: cd src; python ISCI.py "https://matiascerda.carto.com/api/v2/sql?format=CSV&filename=datos-movilidad-isci.csv&q=select%20*%20from%20data_variacion"
+      run: cd src; python ISCI.py "$PROD51_URL" "$PROD8X_URL_1" "$PROD8X_URL_2"
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
