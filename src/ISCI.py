@@ -55,6 +55,7 @@ def prod82(url, prod, output_name):
     df = pd.read_csv(url)
     df.columns = ['region', 'semana', 'paso', 'nom_comuna', 'comuna', 'fecha_inicio', 'fecha_termino', 'var_salidas',
                 'var_salidas_cota_inferior', 'var_salidas_cota_superior']
+    print(os.listdir('../output/'))
     if not prod in os.listdir('../output/'):
         os.mkdir(prod)
     df.to_csv('../output/{}/{}.csv'.format(prod, output_name), index=False)
