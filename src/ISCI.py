@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-
+import os
 import sys
 import pandas as pd
 from utils import *
@@ -57,7 +57,7 @@ def prod82(url, prod, output_name):
                 'var_salidas_cota_inferior', 'var_salidas_cota_superior']
     if not prod in os.listdir('../output/'):
         os.mkdir(prod)
-    df.to_csv('{}/{}.csv'.format(prod, output_name), index=False)
+    df.to_csv('../output/{}/{}.csv'.format(prod, output_name), index=False)
     
 if __name__ == '__main__':
     if len(sys.argv) == 2:
@@ -70,7 +70,7 @@ if __name__ == '__main__':
         
        
         url = sys.argv[2]
-        prod82(url, '../output/producto82', 'ISCI_weeks')
+        prod82(url, 'producto82', 'ISCI_weeks')
         
         url = sys.argv[3]
-        prod82(url, '../output/producto82', 'ISCI_weekends')
+        prod82(url, 'producto82', 'ISCI_weekends')
