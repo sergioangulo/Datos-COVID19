@@ -57,7 +57,7 @@ def prod82(url, prod, output_name):
                 'var_salidas_cota_inferior', 'var_salidas_cota_superior']
     print(os.listdir('../output/'))
     if not prod in os.listdir('../output/'):
-        os.mkdir(prod)
+        os.mkdir('../output/{}'.format(prod))
     df.to_csv('../output/{}/{}.csv'.format(prod, output_name), index=False)
     
 if __name__ == '__main__':
