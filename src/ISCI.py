@@ -50,7 +50,7 @@ def prod51(url, prod):
     df.to_csv(prod + '/ISCI_std.csv', index=False)
 
 
-def prod8X(url, prod, output_name):
+def prod82(url, prod, output_name):
     print('Generando producto {}'.format(prod))
     df = pd.read_csv(url)
     df.columns = ['region', 'semana', 'paso', 'nom_comuna', 'comuna', 'fecha_inicio', 'fecha_termino', 'var_salidas',
@@ -70,7 +70,7 @@ if __name__ == '__main__':
         
        
         url = sys.argv[2]
-        prod8X(url, '../output/producto8X', 'ISCI_weeks')
+        prod8X(url, '../output/producto82', 'ISCI_weeks')
         
         url = sys.argv[3]
-        prod8X(url, '../output/producto8X', 'ISCI_weekends')
+        prod8X(url, '../output/producto82', 'ISCI_weekends')
