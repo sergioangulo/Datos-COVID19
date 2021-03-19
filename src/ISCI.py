@@ -70,7 +70,7 @@ if __name__ == '__main__':
         
        
         url = sys.argv[2]
-        prod8X(url, '../output/producto82', 'ISCI_weeks')
+        prod82(url, '../output/producto82', 'ISCI_weeks')
         
         url = sys.argv[3]
-        prod8X(url, '../output/producto82', 'ISCI_weekends')
+        prod82(url, '../output/producto82', 'ISCI_weekends')
