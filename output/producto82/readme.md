@@ -20,7 +20,7 @@ Corresponde a un archivo .csv que contiene las siguientes variables:
 - **var_salidas_cota_superior:** cota superior de movilidad hacia afuera de la comuna durante determinada semana, con respecto al nivel base (promedio dos primeras semanas de marzo 2020).
 - **var_salidas_cota_inferior:** cota inferior de la variación de movilidad hacia afuera de la comuna durante determinada semana, con respecto al nivel base.
 - **var_salidas:** estimación de la variación de movilidad hacia afuera de la comuna durante determinada semana, con respecto al nivel base. Corresponde al promedio entre **var_salidas_cota_superior** y **var_salidas_cota_inferior.**
-- **paso:** etapa del plan paso a paso en la que se encontró la comuna durante la mayor parte de la semana (sólo producto 16).
+- **paso:** etapa del plan paso a paso en la que se encontró la comuna durante la mayor parte de la semana.
 
 ## Más información en:
 
