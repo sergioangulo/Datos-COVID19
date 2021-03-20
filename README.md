@@ -205,6 +205,9 @@ Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov
 [Data Product 81 - Avance comunal por edad en Campaña de Vacunación COVID-19](output/producto81):
 Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 a nivel comunal por edad. [Ver más](output/producto81)
 
+[Data Product 82 - Movilidad por comuna](output/producto82):
+Este producto enseña la movilidad en cada territorio nacional, comparada con la semana de referencia que es la primera de Marzo de 2020. [Ver más](output/producto82)
+
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
