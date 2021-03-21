@@ -100,7 +100,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Arica,15,Arica y Parinacota,2.0,95.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Arica,15,Arica y Parinacota,2.0,123.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Arica,15,Arica y Parinacota,2.0,110.0
-10,2021-03-01,2021-03-07,Copiapó,3,Atacama,Arica,15,Arica y Parinacota,1.0,40.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Arica,15,Arica y Parinacota,2.0,124.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Arica,15,Arica y Parinacota,2.0,117.0
 12,2020-03-16,2020-03-22,Iquique,1,Tarapacá,Arica,15,Arica y Parinacota,2.0,52.0
 15,2020-04-06,2020-04-12,Iquique,1,Tarapacá,Arica,15,Arica y Parinacota,1.0,15.0
 18,2020-04-27,2020-05-03,Iquique,1,Tarapacá,Arica,15,Arica y Parinacota,1.0,34.0
@@ -160,7 +161,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,La Serena,4,Coquimbo,Arica,15,Arica y Parinacota,3.0,251.0
 8,2021-02-15,2021-02-21,La Serena,4,Coquimbo,Arica,15,Arica y Parinacota,3.0,305.0
 9,2021-02-22,2021-02-28,La Serena,4,Coquimbo,Arica,15,Arica y Parinacota,3.0,295.0
-10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Arica,15,Arica y Parinacota,2.0,243.0
+10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Arica,15,Arica y Parinacota,2.0,178.0
+11,2021-03-08,2021-03-14,La Serena,4,Coquimbo,Arica,15,Arica y Parinacota,2.0,159.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,45.0,6898.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,70.0,10640.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,70.0,11038.0
@@ -229,7 +231,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,28.0,2566.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,28.0,2695.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,27.0,3159.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,24.0,3353.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,27.0,3335.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Arica,15,Arica y Parinacota,21.0,2998.0
 1,2020-01-01,2020-01-05,Antofagasta,2,Antofagasta,Concepción,8,Biobío,6.0,886.0
 2,2020-01-06,2020-01-12,Antofagasta,2,Antofagasta,Concepción,8,Biobío,6.0,958.0
 3,2020-01-13,2020-01-19,Antofagasta,2,Antofagasta,Concepción,8,Biobío,7.0,1114.0
@@ -301,6 +304,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Antofagasta,2,Antofagasta,Concepción,8,Biobío,11.0,1294.0
 9,2021-02-22,2021-02-28,Antofagasta,2,Antofagasta,Concepción,8,Biobío,9.0,911.0
 10,2021-03-01,2021-03-07,Antofagasta,2,Antofagasta,Concepción,8,Biobío,11.0,1164.0
+11,2021-03-08,2021-03-14,Antofagasta,2,Antofagasta,Concepción,8,Biobío,8.0,675.0
 1,2020-01-01,2020-01-05,Arica,15,Arica y Parinacota,Concepción,8,Biobío,2.0,264.0
 2,2020-01-06,2020-01-12,Arica,15,Arica y Parinacota,Concepción,8,Biobío,3.0,427.0
 3,2020-01-13,2020-01-19,Arica,15,Arica y Parinacota,Concepción,8,Biobío,3.0,469.0
@@ -377,7 +381,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Balmaceda,11,Aysén,Concepción,8,Biobío,2.0,159.0
 8,2021-02-15,2021-02-21,Balmaceda,11,Aysén,Concepción,8,Biobío,2.0,197.0
 9,2021-02-22,2021-02-28,Balmaceda,11,Aysén,Concepción,8,Biobío,2.0,197.0
-10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Concepción,8,Biobío,1.0,102.0
+10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Concepción,8,Biobío,2.0,207.0
+11,2021-03-08,2021-03-14,Balmaceda,11,Aysén,Concepción,8,Biobío,2.0,178.0
 1,2020-01-01,2020-01-05,Calama,2,Antofagasta,Concepción,8,Biobío,4.0,548.0
 2,2020-01-06,2020-01-12,Calama,2,Antofagasta,Concepción,8,Biobío,8.0,1283.0
 3,2020-01-13,2020-01-19,Calama,2,Antofagasta,Concepción,8,Biobío,8.0,1351.0
@@ -449,6 +454,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Calama,2,Antofagasta,Concepción,8,Biobío,9.0,814.0
 9,2021-02-22,2021-02-28,Calama,2,Antofagasta,Concepción,8,Biobío,8.0,737.0
 10,2021-03-01,2021-03-07,Calama,2,Antofagasta,Concepción,8,Biobío,7.0,631.0
+11,2021-03-08,2021-03-14,Calama,2,Antofagasta,Concepción,8,Biobío,7.0,582.0
 12,2020-03-16,2020-03-22,Copiapó,3,Atacama,Concepción,8,Biobío,1.0,33.0
 37,2020-09-07,2020-09-13,Copiapó,3,Atacama,Concepción,8,Biobío,1.0,42.0
 1,2020-01-01,2020-01-05,Iquique,1,Tarapacá,Concepción,8,Biobío,8.0,847.0
@@ -513,7 +519,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Iquique,1,Tarapacá,Concepción,8,Biobío,9.0,1363.0
 8,2021-02-15,2021-02-21,Iquique,1,Tarapacá,Concepción,8,Biobío,11.0,1528.0
 9,2021-02-22,2021-02-28,Iquique,1,Tarapacá,Concepción,8,Biobío,9.0,1450.0
-10,2021-03-01,2021-03-07,Iquique,1,Tarapacá,Concepción,8,Biobío,8.0,1274.0
+10,2021-03-01,2021-03-07,Iquique,1,Tarapacá,Concepción,8,Biobío,9.0,1361.0
+11,2021-03-08,2021-03-14,Iquique,1,Tarapacá,Concepción,8,Biobío,9.0,1229.0
 1,2020-01-01,2020-01-05,La Serena,4,Coquimbo,Concepción,8,Biobío,2.0,268.0
 2,2020-01-06,2020-01-12,La Serena,4,Coquimbo,Concepción,8,Biobío,4.0,500.0
 3,2020-01-13,2020-01-19,La Serena,4,Coquimbo,Concepción,8,Biobío,4.0,478.0
@@ -565,6 +572,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,La Serena,4,Coquimbo,Concepción,8,Biobío,2.0,214.0
 9,2021-02-22,2021-02-28,La Serena,4,Coquimbo,Concepción,8,Biobío,2.0,195.0
 10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Concepción,8,Biobío,2.0,190.0
+11,2021-03-08,2021-03-14,La Serena,4,Coquimbo,Concepción,8,Biobío,2.0,140.0
 52,2020-12-21,2020-12-27,Castro,10,Los Lagos,Concepción,8,Biobío,2.0,139.0
 53,2020-12-28,2021-12-31,Castro,10,Los Lagos,Concepción,8,Biobío,1.0,44.0
 1,2021-01-01,2021-01-03,Castro,10,Los Lagos,Concepción,8,Biobío,1.0,48.0
@@ -576,7 +584,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Castro,10,Los Lagos,Concepción,8,Biobío,1.0,29.0
 8,2021-02-15,2021-02-21,Castro,10,Los Lagos,Concepción,8,Biobío,2.0,75.0
 9,2021-02-22,2021-02-28,Castro,10,Los Lagos,Concepción,8,Biobío,2.0,141.0
-10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Concepción,8,Biobío,1.0,110.0
+10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Concepción,8,Biobío,1.0,66.0
+11,2021-03-08,2021-03-14,Castro,10,Los Lagos,Concepción,8,Biobío,1.0,37.0
 42,2020-10-12,2020-10-18,Osorno,10,Los Lagos,Concepción,8,Biobío,2.0,132.0
 12,2020-03-16,2020-03-22,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,1.0,148.0
 44,2020-10-26,2020-11-01,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,1.0,11.0
@@ -598,7 +607,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,2.0,44.0
 8,2021-02-15,2021-02-21,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,2.0,61.0
 9,2021-02-22,2021-02-28,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,2.0,63.0
-10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,3.0,340.0
+10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,3.0,90.0
+11,2021-03-08,2021-03-14,Puerto Montt,10,Los Lagos,Concepción,8,Biobío,3.0,88.0
 1,2020-01-01,2020-01-05,Punta Arenas,12,Magallanes,Concepción,8,Biobío,3.0,492.0
 2,2020-01-06,2020-01-12,Punta Arenas,12,Magallanes,Concepción,8,Biobío,5.0,782.0
 3,2020-01-13,2020-01-19,Punta Arenas,12,Magallanes,Concepción,8,Biobío,5.0,811.0
@@ -635,6 +645,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Punta Arenas,12,Magallanes,Concepción,8,Biobío,2.0,198.0
 8,2021-02-15,2021-02-21,Punta Arenas,12,Magallanes,Concepción,8,Biobío,2.0,211.0
 9,2021-02-22,2021-02-28,Punta Arenas,12,Magallanes,Concepción,8,Biobío,2.0,207.0
+10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Concepción,8,Biobío,2.0,145.0
+11,2021-03-08,2021-03-14,Punta Arenas,12,Magallanes,Concepción,8,Biobío,2.0,126.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Concepción,8,Biobío,52.0,7263.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Concepción,8,Biobío,84.0,13342.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Concepción,8,Biobío,80.0,13333.0
@@ -707,11 +719,13 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Concepción,8,Biobío,44.0,4954.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Concepción,8,Biobío,44.0,5689.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Concepción,8,Biobío,44.0,5616.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Concepción,8,Biobío,45.0,5739.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Concepción,8,Biobío,45.0,5615.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Concepción,8,Biobío,45.0,4964.0
 29,2020-07-13,2020-07-19,Temuco,9,Araucanía,Concepción,8,Biobío,1.0,57.0
 38,2020-09-14,2020-09-20,Temuco,9,Araucanía,Concepción,8,Biobío,1.0,69.0
 41,2020-10-05,2020-10-11,Temuco,9,Araucanía,Concepción,8,Biobío,1.0,54.0
 50,2020-12-07,2020-12-13,Temuco,9,Araucanía,Concepción,8,Biobío,1.0,31.0
+11,2021-03-08,2021-03-14,Temuco,9,Araucanía,Concepción,8,Biobío,1.0,92.0
 1,2020-01-01,2020-01-05,Puerto Natales,12,Magallanes,Concepción,8,Biobío,1.0,162.0
 1,2020-01-01,2020-01-05,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,12.0,1651.0
 2,2020-01-06,2020-01-12,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,17.0,2519.0
@@ -783,7 +797,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,14.0,1266.0
 8,2021-02-15,2021-02-21,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,13.0,1610.0
 9,2021-02-22,2021-02-28,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,14.0,1585.0
-10,2021-03-01,2021-03-07,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,12.0,1312.0
+10,2021-03-01,2021-03-07,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,14.0,1528.0
+11,2021-03-08,2021-03-14,Antofagasta,2,Antofagasta,La Serena,4,Coquimbo,15.0,1456.0
 1,2020-01-01,2020-01-05,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,2.0,317.0
 2,2020-01-06,2020-01-12,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,2.0,353.0
 3,2020-01-13,2020-01-19,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,2.0,332.0
@@ -835,7 +850,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,3.0,207.0
 8,2021-02-15,2021-02-21,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,3.0,252.0
 9,2021-02-22,2021-02-28,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,3.0,181.0
-10,2021-03-01,2021-03-07,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,2.0,193.0
+10,2021-03-01,2021-03-07,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,2.0,149.0
+11,2021-03-08,2021-03-14,Arica,15,Arica y Parinacota,La Serena,4,Coquimbo,2.0,149.0
 1,2020-01-01,2020-01-05,Calama,2,Antofagasta,La Serena,4,Coquimbo,4.0,639.0
 2,2020-01-06,2020-01-12,Calama,2,Antofagasta,La Serena,4,Coquimbo,9.0,1468.0
 3,2020-01-13,2020-01-19,Calama,2,Antofagasta,La Serena,4,Coquimbo,8.0,1300.0
@@ -907,7 +923,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Calama,2,Antofagasta,La Serena,4,Coquimbo,12.0,1231.0
 8,2021-02-15,2021-02-21,Calama,2,Antofagasta,La Serena,4,Coquimbo,13.0,1153.0
 9,2021-02-22,2021-02-28,Calama,2,Antofagasta,La Serena,4,Coquimbo,14.0,1225.0
-10,2021-03-01,2021-03-07,Calama,2,Antofagasta,La Serena,4,Coquimbo,16.0,1335.0
+10,2021-03-01,2021-03-07,Calama,2,Antofagasta,La Serena,4,Coquimbo,16.0,1220.0
+11,2021-03-08,2021-03-14,Calama,2,Antofagasta,La Serena,4,Coquimbo,15.0,1071.0
 1,2020-01-01,2020-01-05,Concepción,8,Biobío,La Serena,4,Coquimbo,2.0,261.0
 2,2020-01-06,2020-01-12,Concepción,8,Biobío,La Serena,4,Coquimbo,4.0,492.0
 3,2020-01-13,2020-01-19,Concepción,8,Biobío,La Serena,4,Coquimbo,4.0,479.0
@@ -959,6 +976,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,La Serena,4,Coquimbo,2.0,172.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,La Serena,4,Coquimbo,2.0,204.0
 10,2021-03-01,2021-03-07,Concepción,8,Biobío,La Serena,4,Coquimbo,2.0,158.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,La Serena,4,Coquimbo,2.0,115.0
 15,2020-04-06,2020-04-12,Copiapó,3,Atacama,La Serena,4,Coquimbo,4.0,60.0
 16,2020-04-13,2020-04-19,Copiapó,3,Atacama,La Serena,4,Coquimbo,7.0,200.0
 17,2020-04-20,2020-04-26,Copiapó,3,Atacama,La Serena,4,Coquimbo,7.0,264.0
@@ -1030,7 +1048,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Iquique,1,Tarapacá,La Serena,4,Coquimbo,8.0,546.0
 8,2021-02-15,2021-02-21,Iquique,1,Tarapacá,La Serena,4,Coquimbo,8.0,636.0
 9,2021-02-22,2021-02-28,Iquique,1,Tarapacá,La Serena,4,Coquimbo,8.0,713.0
-10,2021-03-01,2021-03-07,Iquique,1,Tarapacá,La Serena,4,Coquimbo,8.0,689.0
+10,2021-03-01,2021-03-07,Iquique,1,Tarapacá,La Serena,4,Coquimbo,8.0,591.0
+11,2021-03-08,2021-03-14,Iquique,1,Tarapacá,La Serena,4,Coquimbo,8.0,520.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,La Serena,4,Coquimbo,48.0,7060.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,La Serena,4,Coquimbo,68.0,10857.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,La Serena,4,Coquimbo,66.0,10908.0
@@ -1101,7 +1120,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,La Serena,4,Coquimbo,53.0,6739.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,La Serena,4,Coquimbo,53.0,6428.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,La Serena,4,Coquimbo,53.0,5626.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,La Serena,4,Coquimbo,44.0,4933.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,La Serena,4,Coquimbo,45.0,4707.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,La Serena,4,Coquimbo,46.0,3507.0
 1,2020-01-01,2020-01-05,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,81.0,11207.0
 2,2020-01-06,2020-01-12,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,126.0,19265.0
 3,2020-01-13,2020-01-19,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,125.0,20618.0
@@ -1173,7 +1193,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,87.0,8378.0
 8,2021-02-15,2021-02-21,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,81.0,9923.0
 9,2021-02-22,2021-02-28,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,80.0,10052.0
-10,2021-03-01,2021-03-07,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,74.0,8860.0
+10,2021-03-01,2021-03-07,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,82.0,9842.0
+11,2021-03-08,2021-03-14,Antofagasta,2,Antofagasta,Santiago,13,Metropolitana,83.0,9742.0
 1,2020-01-01,2020-01-05,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,41.0,6288.0
 2,2020-01-06,2020-01-12,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,71.0,10535.0
 3,2020-01-13,2020-01-19,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,71.0,10879.0
@@ -1246,7 +1267,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,28.0,3222.0
 8,2021-02-15,2021-02-21,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,29.0,3040.0
 9,2021-02-22,2021-02-28,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,27.0,2932.0
-10,2021-03-01,2021-03-07,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,22.0,2383.0
+10,2021-03-01,2021-03-07,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,25.0,2464.0
+11,2021-03-08,2021-03-14,Arica,15,Arica y Parinacota,Santiago,13,Metropolitana,21.0,2655.0
 1,2020-01-01,2020-01-05,Balmaceda,11,Aysén,Santiago,13,Metropolitana,32.0,3793.0
 2,2020-01-06,2020-01-12,Balmaceda,11,Aysén,Santiago,13,Metropolitana,47.0,5429.0
 3,2020-01-13,2020-01-19,Balmaceda,11,Aysén,Santiago,13,Metropolitana,50.0,5750.0
@@ -1318,6 +1340,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Balmaceda,11,Aysén,Santiago,13,Metropolitana,25.0,2314.0
 9,2021-02-22,2021-02-28,Balmaceda,11,Aysén,Santiago,13,Metropolitana,24.0,2316.0
 10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Santiago,13,Metropolitana,18.0,1796.0
+11,2021-03-08,2021-03-14,Balmaceda,11,Aysén,Santiago,13,Metropolitana,18.0,1842.0
 1,2020-01-01,2020-01-05,Calama,2,Antofagasta,Santiago,13,Metropolitana,90.0,11436.0
 2,2020-01-06,2020-01-12,Calama,2,Antofagasta,Santiago,13,Metropolitana,129.0,19968.0
 3,2020-01-13,2020-01-19,Calama,2,Antofagasta,Santiago,13,Metropolitana,131.0,20470.0
@@ -1389,7 +1412,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Calama,2,Antofagasta,Santiago,13,Metropolitana,82.0,8888.0
 8,2021-02-15,2021-02-21,Calama,2,Antofagasta,Santiago,13,Metropolitana,78.0,8163.0
 9,2021-02-22,2021-02-28,Calama,2,Antofagasta,Santiago,13,Metropolitana,78.0,8664.0
-10,2021-03-01,2021-03-07,Calama,2,Antofagasta,Santiago,13,Metropolitana,31.0,2629.0
+10,2021-03-01,2021-03-07,Calama,2,Antofagasta,Santiago,13,Metropolitana,79.0,8203.0
+11,2021-03-08,2021-03-14,Calama,2,Antofagasta,Santiago,13,Metropolitana,81.0,8696.0
 1,2020-01-01,2020-01-05,Concepción,8,Biobío,Santiago,13,Metropolitana,49.0,8321.0
 2,2020-01-06,2020-01-12,Concepción,8,Biobío,Santiago,13,Metropolitana,80.0,13413.0
 3,2020-01-13,2020-01-19,Concepción,8,Biobío,Santiago,13,Metropolitana,76.0,12945.0
@@ -1461,7 +1485,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Santiago,13,Metropolitana,45.0,4904.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Santiago,13,Metropolitana,44.0,5744.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Santiago,13,Metropolitana,44.0,5988.0
-10,2021-03-01,2021-03-07,Concepción,8,Biobío,Santiago,13,Metropolitana,42.0,5701.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Santiago,13,Metropolitana,45.0,5862.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Santiago,13,Metropolitana,33.0,3375.0
 1,2020-01-01,2020-01-05,Copiapó,3,Atacama,Santiago,13,Metropolitana,30.0,3906.0
 2,2020-01-06,2020-01-12,Copiapó,3,Atacama,Santiago,13,Metropolitana,44.0,6820.0
 3,2020-01-13,2020-01-19,Copiapó,3,Atacama,Santiago,13,Metropolitana,44.0,6929.0
@@ -1513,7 +1538,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Copiapó,3,Atacama,Santiago,13,Metropolitana,28.0,3312.0
 8,2021-02-15,2021-02-21,Copiapó,3,Atacama,Santiago,13,Metropolitana,29.0,3808.0
 9,2021-02-22,2021-02-28,Copiapó,3,Atacama,Santiago,13,Metropolitana,28.0,4163.0
-10,2021-03-01,2021-03-07,Copiapó,3,Atacama,Santiago,13,Metropolitana,28.0,3809.0
+10,2021-03-01,2021-03-07,Copiapó,3,Atacama,Santiago,13,Metropolitana,28.0,3772.0
+11,2021-03-08,2021-03-14,Copiapó,3,Atacama,Santiago,13,Metropolitana,28.0,3520.0
 1,2020-01-01,2020-01-05,Iquique,1,Tarapacá,Santiago,13,Metropolitana,74.0,10024.0
 2,2020-01-06,2020-01-12,Iquique,1,Tarapacá,Santiago,13,Metropolitana,127.0,18369.0
 3,2020-01-13,2020-01-19,Iquique,1,Tarapacá,Santiago,13,Metropolitana,127.0,19574.0
@@ -1585,7 +1611,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Iquique,1,Tarapacá,Santiago,13,Metropolitana,66.0,7868.0
 8,2021-02-15,2021-02-21,Iquique,1,Tarapacá,Santiago,13,Metropolitana,64.0,8275.0
 9,2021-02-22,2021-02-28,Iquique,1,Tarapacá,Santiago,13,Metropolitana,66.0,9149.0
-10,2021-03-01,2021-03-07,Iquique,1,Tarapacá,Santiago,13,Metropolitana,67.0,8774.0
+10,2021-03-01,2021-03-07,Iquique,1,Tarapacá,Santiago,13,Metropolitana,69.0,8786.0
+11,2021-03-08,2021-03-14,Iquique,1,Tarapacá,Santiago,13,Metropolitana,71.0,9162.0
 1,2020-01-01,2020-01-05,Isla de Pascua,5,Valparaíso,Santiago,13,Metropolitana,10.0,2696.0
 2,2020-01-06,2020-01-12,Isla de Pascua,5,Valparaíso,Santiago,13,Metropolitana,12.0,3139.0
 3,2020-01-13,2020-01-19,Isla de Pascua,5,Valparaíso,Santiago,13,Metropolitana,12.0,3023.0
@@ -1687,7 +1714,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,La Serena,4,Coquimbo,Santiago,13,Metropolitana,51.0,6446.0
 8,2021-02-15,2021-02-21,La Serena,4,Coquimbo,Santiago,13,Metropolitana,49.0,6653.0
 9,2021-02-22,2021-02-28,La Serena,4,Coquimbo,Santiago,13,Metropolitana,51.0,6598.0
-10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Santiago,13,Metropolitana,32.0,4033.0
+10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Santiago,13,Metropolitana,45.0,5405.0
+11,2021-03-08,2021-03-14,La Serena,4,Coquimbo,Santiago,13,Metropolitana,43.0,4306.0
 1,2020-01-01,2020-01-05,Castro,10,Los Lagos,Santiago,13,Metropolitana,4.0,666.0
 2,2020-01-06,2020-01-12,Castro,10,Los Lagos,Santiago,13,Metropolitana,5.0,829.0
 3,2020-01-13,2020-01-19,Castro,10,Los Lagos,Santiago,13,Metropolitana,5.0,794.0
@@ -1712,7 +1740,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Castro,10,Los Lagos,Santiago,13,Metropolitana,9.0,531.0
 8,2021-02-15,2021-02-21,Castro,10,Los Lagos,Santiago,13,Metropolitana,9.0,748.0
 9,2021-02-22,2021-02-28,Castro,10,Los Lagos,Santiago,13,Metropolitana,9.0,962.0
-10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Santiago,13,Metropolitana,5.0,588.0
+10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Santiago,13,Metropolitana,8.0,775.0
+11,2021-03-08,2021-03-14,Castro,10,Los Lagos,Santiago,13,Metropolitana,8.0,743.0
 1,2020-01-01,2020-01-05,Osorno,10,Los Lagos,Santiago,13,Metropolitana,12.0,1780.0
 2,2020-01-06,2020-01-12,Osorno,10,Los Lagos,Santiago,13,Metropolitana,18.0,2526.0
 3,2020-01-13,2020-01-19,Osorno,10,Los Lagos,Santiago,13,Metropolitana,18.0,2542.0
@@ -1752,7 +1781,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Osorno,10,Los Lagos,Santiago,13,Metropolitana,11.0,1341.0
 8,2021-02-15,2021-02-21,Osorno,10,Los Lagos,Santiago,13,Metropolitana,11.0,1643.0
 9,2021-02-22,2021-02-28,Osorno,10,Los Lagos,Santiago,13,Metropolitana,11.0,1760.0
-10,2021-03-01,2021-03-07,Osorno,10,Los Lagos,Santiago,13,Metropolitana,7.0,1062.0
+10,2021-03-01,2021-03-07,Osorno,10,Los Lagos,Santiago,13,Metropolitana,10.0,1369.0
+11,2021-03-08,2021-03-14,Osorno,10,Los Lagos,Santiago,13,Metropolitana,7.0,1073.0
 1,2020-01-01,2020-01-05,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,84.0,11701.0
 2,2020-01-06,2020-01-12,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,130.0,18851.0
 3,2020-01-13,2020-01-19,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,132.0,19866.0
@@ -1825,7 +1855,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,59.0,4586.0
 8,2021-02-15,2021-02-21,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,57.0,5565.0
 9,2021-02-22,2021-02-28,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,55.0,7271.0
-10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,41.0,5420.0
+10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,55.0,6961.0
+11,2021-03-08,2021-03-14,Puerto Montt,10,Los Lagos,Santiago,13,Metropolitana,53.0,6380.0
 1,2020-01-01,2020-01-05,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,60.0,7651.0
 2,2020-01-06,2020-01-12,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,96.0,13380.0
 3,2020-01-13,2020-01-19,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,90.0,13158.0
@@ -1898,6 +1929,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,27.0,2891.0
 9,2021-02-22,2021-02-28,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,28.0,2787.0
 10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,24.0,2413.0
+11,2021-03-08,2021-03-14,Punta Arenas,12,Magallanes,Santiago,13,Metropolitana,22.0,2105.0
 51,2020-12-14,2020-12-20,Santiago,13,Metropolitana,Santiago,13,Metropolitana,1.0,68.0
 3,2021-01-11,2021-01-17,Santiago,13,Metropolitana,Santiago,13,Metropolitana,1.0,3.0
 1,2020-01-01,2020-01-05,Temuco,9,Araucanía,Santiago,13,Metropolitana,53.0,8362.0
@@ -1971,7 +2003,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Temuco,9,Araucanía,Santiago,13,Metropolitana,46.0,5601.0
 8,2021-02-15,2021-02-21,Temuco,9,Araucanía,Santiago,13,Metropolitana,46.0,6109.0
 9,2021-02-22,2021-02-28,Temuco,9,Araucanía,Santiago,13,Metropolitana,42.0,6418.0
-10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Santiago,13,Metropolitana,34.0,5505.0
+10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Santiago,13,Metropolitana,34.0,5362.0
+11,2021-03-08,2021-03-14,Temuco,9,Araucanía,Santiago,13,Metropolitana,33.0,4593.0
 1,2020-01-01,2020-01-05,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,28.0,3545.0
 2,2020-01-06,2020-01-12,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,40.0,4907.0
 3,2020-01-13,2020-01-19,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,40.0,5164.0
@@ -2022,6 +2055,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,16.0,2420.0
 9,2021-02-22,2021-02-28,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,16.0,2602.0
 10,2021-03-01,2021-03-07,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,15.0,2212.0
+11,2021-03-08,2021-03-14,Valdivia,14,Los Ríos,Santiago,13,Metropolitana,15.0,1783.0
 1,2020-01-01,2020-01-05,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,8.0,1319.0
 2,2020-01-06,2020-01-12,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,13.0,2117.0
 3,2020-01-13,2020-01-19,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,13.0,2110.0
@@ -2051,7 +2085,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,10.0,932.0
 8,2021-02-15,2021-02-21,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,10.0,1076.0
 9,2021-02-22,2021-02-28,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,10.0,1101.0
-10,2021-03-01,2021-03-07,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,6.0,664.0
+10,2021-03-01,2021-03-07,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,7.0,810.0
+11,2021-03-08,2021-03-14,Puerto Natales,12,Magallanes,Santiago,13,Metropolitana,6.0,715.0
 4,2020-01-20,2020-01-26,Antofagasta,2,Antofagasta,Puerto Montt,10,Los Lagos,2.0,294.0
 5,2020-01-27,2020-02-02,Antofagasta,2,Antofagasta,Puerto Montt,10,Los Lagos,2.0,301.0
 6,2020-02-03,2020-02-09,Antofagasta,2,Antofagasta,Puerto Montt,10,Los Lagos,2.0,321.0
@@ -2128,7 +2163,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Balmaceda,11,Aysén,Puerto Montt,10,Los Lagos,12.0,703.0
 8,2021-02-15,2021-02-21,Balmaceda,11,Aysén,Puerto Montt,10,Los Lagos,12.0,824.0
 9,2021-02-22,2021-02-28,Balmaceda,11,Aysén,Puerto Montt,10,Los Lagos,11.0,845.0
-10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Puerto Montt,10,Los Lagos,13.0,1111.0
+10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Puerto Montt,10,Los Lagos,13.0,1006.0
+11,2021-03-08,2021-03-14,Balmaceda,11,Aysén,Puerto Montt,10,Los Lagos,12.0,891.0
 44,2020-10-26,2020-11-01,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,1.0,5.0
 45,2020-11-02,2020-11-08,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,2.0,36.0
 46,2020-11-09,2020-11-15,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,1.0,19.0
@@ -2147,7 +2183,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,2.0,48.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,2.0,54.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,2.0,30.0
-10,2021-03-01,2021-03-07,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,3.0,409.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,3.0,79.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Puerto Montt,10,Los Lagos,3.0,58.0
 41,2020-10-05,2020-10-11,Osorno,10,Los Lagos,Puerto Montt,10,Los Lagos,2.0,110.0
 1,2020-01-01,2020-01-05,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,20.0,2758.0
 2,2020-01-06,2020-01-12,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,29.0,3947.0
@@ -2218,7 +2255,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,14.0,1081.0
 8,2021-02-15,2021-02-21,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,13.0,1108.0
 9,2021-02-22,2021-02-28,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,14.0,1299.0
-10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,14.0,1236.0
+10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,14.0,1091.0
+11,2021-03-08,2021-03-14,Punta Arenas,12,Magallanes,Puerto Montt,10,Los Lagos,12.0,890.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,86.0,13480.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,131.0,21335.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,131.0,21938.0
@@ -2291,7 +2329,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,59.0,4633.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,57.0,6479.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,55.0,6596.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,55.0,6004.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,55.0,6023.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Puerto Montt,10,Los Lagos,53.0,5941.0
 17,2020-04-20,2020-04-26,Temuco,9,Araucanía,Puerto Montt,10,Los Lagos,2.0,69.0
 33,2020-08-10,2020-08-16,Temuco,9,Araucanía,Puerto Montt,10,Los Lagos,1.0,1.0
 35,2020-08-24,2020-08-30,Temuco,9,Araucanía,Puerto Montt,10,Los Lagos,1.0,1.0
@@ -2322,6 +2361,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Puerto Natales,12,Magallanes,Puerto Montt,10,Los Lagos,5.0,312.0
 9,2021-02-22,2021-02-28,Puerto Natales,12,Magallanes,Puerto Montt,10,Los Lagos,5.0,282.0
 10,2021-03-01,2021-03-07,Puerto Natales,12,Magallanes,Puerto Montt,10,Los Lagos,4.0,334.0
+11,2021-03-08,2021-03-14,Puerto Natales,12,Magallanes,Puerto Montt,10,Los Lagos,4.0,309.0
 4,2020-01-20,2020-01-26,Antofagasta,2,Antofagasta,Temuco,9,Araucanía,2.0,319.0
 5,2020-01-27,2020-02-02,Antofagasta,2,Antofagasta,Temuco,9,Araucanía,2.0,313.0
 6,2020-02-03,2020-02-09,Antofagasta,2,Antofagasta,Temuco,9,Araucanía,2.0,340.0
@@ -2388,6 +2428,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Balmaceda,11,Aysén,Temuco,9,Araucanía,3.0,175.0
 9,2021-02-22,2021-02-28,Balmaceda,11,Aysén,Temuco,9,Araucanía,3.0,196.0
 10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Temuco,9,Araucanía,2.0,313.0
+11,2021-03-08,2021-03-14,Balmaceda,11,Aysén,Temuco,9,Araucanía,2.0,295.0
 12,2020-03-16,2020-03-22,Concepción,8,Biobío,Temuco,9,Araucanía,2.0,23.0
 38,2020-09-14,2020-09-20,Concepción,8,Biobío,Temuco,9,Araucanía,1.0,48.0
 2,2021-01-04,2021-01-10,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,54.0
@@ -2398,7 +2439,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,30.0
 8,2021-02-15,2021-02-21,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,30.0
 9,2021-02-22,2021-02-28,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,62.0
-10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,176.0
+10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,33.0
+11,2021-03-08,2021-03-14,Castro,10,Los Lagos,Temuco,9,Araucanía,2.0,15.0
 43,2020-10-19,2020-10-25,Osorno,10,Los Lagos,Temuco,9,Araucanía,1.0,82.0
 17,2020-04-20,2020-04-26,Puerto Montt,10,Los Lagos,Temuco,9,Araucanía,1.0,28.0
 33,2020-08-10,2020-08-16,Puerto Montt,10,Los Lagos,Temuco,9,Araucanía,1.0,2.0
@@ -2434,6 +2476,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Punta Arenas,12,Magallanes,Temuco,9,Araucanía,2.0,111.0
 9,2021-02-22,2021-02-28,Punta Arenas,12,Magallanes,Temuco,9,Araucanía,2.0,103.0
 10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Temuco,9,Araucanía,1.0,95.0
+11,2021-03-08,2021-03-14,Punta Arenas,12,Magallanes,Temuco,9,Araucanía,1.0,130.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Temuco,9,Araucanía,53.0,8149.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Temuco,9,Araucanía,80.0,12472.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Temuco,9,Araucanía,82.0,13728.0
@@ -2505,7 +2548,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Temuco,9,Araucanía,46.0,5817.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Temuco,9,Araucanía,45.0,6165.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Temuco,9,Araucanía,42.0,5469.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Temuco,9,Araucanía,34.0,4495.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Temuco,9,Araucanía,34.0,4405.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Temuco,9,Araucanía,34.0,4173.0
 51,2020-12-14,2020-12-20,Temuco,9,Araucanía,Temuco,9,Araucanía,1.0,8.0
 12,2020-03-16,2020-03-22,Valdivia,14,Los Ríos,Temuco,9,Araucanía,1.0,62.0
 48,2020-11-23,2020-11-29,Valdivia,14,Los Ríos,Temuco,9,Araucanía,1.0,19.0
@@ -2608,6 +2652,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Calama,2,Antofagasta,9.0,836.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Calama,2,Antofagasta,8.0,933.0
 10,2021-03-01,2021-03-07,Concepción,8,Biobío,Calama,2,Antofagasta,7.0,722.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Calama,2,Antofagasta,7.0,721.0
 13,2020-03-23,2020-03-29,Iquique,1,Tarapacá,Calama,2,Antofagasta,1.0,70.0
 16,2020-04-13,2020-04-19,Iquique,1,Tarapacá,Calama,2,Antofagasta,1.0,57.0
 20,2020-05-11,2020-05-17,Iquique,1,Tarapacá,Calama,2,Antofagasta,1.0,32.0
@@ -2686,7 +2731,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,La Serena,4,Coquimbo,Calama,2,Antofagasta,12.0,1176.0
 8,2021-02-15,2021-02-21,La Serena,4,Coquimbo,Calama,2,Antofagasta,14.0,1436.0
 9,2021-02-22,2021-02-28,La Serena,4,Coquimbo,Calama,2,Antofagasta,14.0,1427.0
-10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Calama,2,Antofagasta,9.0,1070.0
+10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Calama,2,Antofagasta,15.0,1400.0
+11,2021-03-08,2021-03-14,La Serena,4,Coquimbo,Calama,2,Antofagasta,15.0,1237.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Calama,2,Antofagasta,88.0,13821.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Calama,2,Antofagasta,130.0,19098.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Calama,2,Antofagasta,132.0,18992.0
@@ -2759,7 +2805,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Calama,2,Antofagasta,83.0,8371.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Calama,2,Antofagasta,81.0,8480.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Calama,2,Antofagasta,78.0,8612.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Calama,2,Antofagasta,74.0,8493.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Calama,2,Antofagasta,76.0,8569.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Calama,2,Antofagasta,80.0,8854.0
 13,2020-03-23,2020-03-29,Antofagasta,2,Antofagasta,Iquique,1,Tarapacá,2.0,38.0
 17,2020-04-20,2020-04-26,Antofagasta,2,Antofagasta,Iquique,1,Tarapacá,1.0,81.0
 26,2020-06-22,2020-06-28,Antofagasta,2,Antofagasta,Iquique,1,Tarapacá,1.0,25.0
@@ -2843,7 +2890,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Iquique,1,Tarapacá,9.0,1187.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Iquique,1,Tarapacá,11.0,1537.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Iquique,1,Tarapacá,9.0,1465.0
-10,2021-03-01,2021-03-07,Concepción,8,Biobío,Iquique,1,Tarapacá,8.0,1299.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Iquique,1,Tarapacá,9.0,1430.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Iquique,1,Tarapacá,8.0,1158.0
 13,2020-03-23,2020-03-29,Copiapó,3,Atacama,Iquique,1,Tarapacá,1.0,27.0
 1,2020-01-01,2020-01-05,La Serena,4,Coquimbo,Iquique,1,Tarapacá,6.0,879.0
 2,2020-01-06,2020-01-12,La Serena,4,Coquimbo,Iquique,1,Tarapacá,9.0,1379.0
@@ -2909,7 +2957,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,La Serena,4,Coquimbo,Iquique,1,Tarapacá,7.0,480.0
 8,2021-02-15,2021-02-21,La Serena,4,Coquimbo,Iquique,1,Tarapacá,7.0,636.0
 9,2021-02-22,2021-02-28,La Serena,4,Coquimbo,Iquique,1,Tarapacá,7.0,744.0
-10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Iquique,1,Tarapacá,4.0,603.0
+10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Iquique,1,Tarapacá,6.0,653.0
+11,2021-03-08,2021-03-14,La Serena,4,Coquimbo,Iquique,1,Tarapacá,6.0,637.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Iquique,1,Tarapacá,76.0,11361.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Iquique,1,Tarapacá,126.0,18627.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Iquique,1,Tarapacá,123.0,19080.0
@@ -2982,7 +3031,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Iquique,1,Tarapacá,66.0,7594.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Iquique,1,Tarapacá,62.0,8637.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Iquique,1,Tarapacá,63.0,10203.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Iquique,1,Tarapacá,61.0,9376.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Iquique,1,Tarapacá,63.0,9412.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Iquique,1,Tarapacá,64.0,9656.0
 1,2020-01-01,2020-01-05,Arica,15,Arica y Parinacota,Antofagasta,2,Antofagasta,3.0,320.0
 2,2020-01-06,2020-01-12,Arica,15,Arica y Parinacota,Antofagasta,2,Antofagasta,2.0,231.0
 3,2020-01-13,2020-01-19,Arica,15,Arica y Parinacota,Antofagasta,2,Antofagasta,3.0,325.0
@@ -3109,6 +3159,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Antofagasta,2,Antofagasta,11.0,1256.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Antofagasta,2,Antofagasta,9.0,892.0
 10,2021-03-01,2021-03-07,Concepción,8,Biobío,Antofagasta,2,Antofagasta,11.0,1377.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Antofagasta,2,Antofagasta,8.0,777.0
 13,2020-03-23,2020-03-29,Iquique,1,Tarapacá,Antofagasta,2,Antofagasta,2.0,48.0
 17,2020-04-20,2020-04-26,Iquique,1,Tarapacá,Antofagasta,2,Antofagasta,1.0,46.0
 21,2020-05-18,2020-05-24,Iquique,1,Tarapacá,Antofagasta,2,Antofagasta,1.0,1.0
@@ -3194,7 +3245,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,La Serena,4,Coquimbo,Antofagasta,2,Antofagasta,18.0,1488.0
 8,2021-02-15,2021-02-21,La Serena,4,Coquimbo,Antofagasta,2,Antofagasta,17.0,1652.0
 9,2021-02-22,2021-02-28,La Serena,4,Coquimbo,Antofagasta,2,Antofagasta,18.0,1813.0
-10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Antofagasta,2,Antofagasta,7.0,953.0
+10,2021-03-01,2021-03-07,La Serena,4,Coquimbo,Antofagasta,2,Antofagasta,18.0,1798.0
+11,2021-03-08,2021-03-14,La Serena,4,Coquimbo,Antofagasta,2,Antofagasta,18.0,1547.0
 4,2020-01-20,2020-01-26,Puerto Montt,10,Los Lagos,Antofagasta,2,Antofagasta,2.0,179.0
 5,2020-01-27,2020-02-02,Puerto Montt,10,Los Lagos,Antofagasta,2,Antofagasta,1.0,126.0
 5,2020-01-27,2020-02-02,Puerto Montt,10,Los Lagos,Antofagasta,2,Antofagasta,1.0,111.0
@@ -3277,6 +3329,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Antofagasta,2,Antofagasta,81.0,9025.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Antofagasta,2,Antofagasta,78.0,9835.0
 10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Antofagasta,2,Antofagasta,85.0,10770.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Antofagasta,2,Antofagasta,84.0,10169.0
 4,2020-01-20,2020-01-26,Temuco,9,Araucanía,Antofagasta,2,Antofagasta,2.0,240.0
 5,2020-01-27,2020-02-02,Temuco,9,Araucanía,Antofagasta,2,Antofagasta,2.0,284.0
 6,2020-02-03,2020-02-09,Temuco,9,Araucanía,Antofagasta,2,Antofagasta,2.0,309.0
@@ -3311,7 +3364,6 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Temuco,9,Araucanía,Antofagasta,2,Antofagasta,1.0,72.0
 9,2021-02-22,2021-02-28,Temuco,9,Araucanía,Antofagasta,2,Antofagasta,1.0,130.0
 10,2020-03-02,2020-03-08,Arica,15,Arica y Parinacota,Copiapó,3,Atacama,1.0,141.0
-10,2021-03-01,2021-03-07,Arica,15,Arica y Parinacota,Copiapó,3,Atacama,1.0,37.0
 13,2020-03-23,2020-03-29,Calama,2,Antofagasta,Copiapó,3,Atacama,1.0,17.0
 53,2020-12-28,2021-12-31,Calama,2,Antofagasta,Copiapó,3,Atacama,1.0,173.0
 37,2020-09-07,2020-09-13,Concepción,8,Biobío,Copiapó,3,Atacama,1.0,42.0
@@ -3369,7 +3421,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Copiapó,3,Atacama,28.0,3204.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Copiapó,3,Atacama,29.0,3858.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Copiapó,3,Atacama,28.0,3622.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Copiapó,3,Atacama,28.0,3320.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Copiapó,3,Atacama,28.0,3280.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Copiapó,3,Atacama,28.0,3171.0
 1,2020-01-01,2020-01-05,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,1.0,67.0
 2,2020-01-06,2020-01-12,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,2.0,134.0
 3,2020-01-13,2020-01-19,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,2.0,135.0
@@ -3427,6 +3480,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,2.0,60.0
 9,2021-02-22,2021-02-28,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,1.0,48.0
 10,2021-03-01,2021-03-07,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,3.0,85.0
+11,2021-03-08,2021-03-14,Balmaceda,11,Aysén,Punta Arenas,12,Magallanes,2.0,61.0
 1,2020-01-01,2020-01-05,Concepción,8,Biobío,Punta Arenas,12,Magallanes,3.0,478.0
 2,2020-01-06,2020-01-12,Concepción,8,Biobío,Punta Arenas,12,Magallanes,5.0,666.0
 3,2020-01-13,2020-01-19,Concepción,8,Biobío,Punta Arenas,12,Magallanes,5.0,734.0
@@ -3461,6 +3515,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Punta Arenas,12,Magallanes,2.0,212.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Punta Arenas,12,Magallanes,2.0,225.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Punta Arenas,12,Magallanes,2.0,267.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Punta Arenas,12,Magallanes,2.0,268.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Punta Arenas,12,Magallanes,2.0,219.0
 52,2020-12-21,2020-12-27,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,2.0,51.0
 53,2020-12-28,2021-12-31,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,2.0,26.0
 2,2021-01-04,2021-01-10,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,1.0,38.0
@@ -3472,6 +3528,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,1.0,78.0
 9,2021-02-22,2021-02-28,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,1.0,101.0
 10,2021-03-01,2021-03-07,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,1.0,151.0
+11,2021-03-08,2021-03-14,Castro,10,Los Lagos,Punta Arenas,12,Magallanes,1.0,149.0
 1,2020-01-01,2020-01-05,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,19.0,2298.0
 2,2020-01-06,2020-01-12,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,30.0,3799.0
 3,2020-01-13,2020-01-19,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,29.0,3632.0
@@ -3541,7 +3598,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,15.0,1010.0
 8,2021-02-15,2021-02-21,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,13.0,1104.0
 9,2021-02-22,2021-02-28,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,14.0,1485.0
-10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,10.0,1298.0
+10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,14.0,1485.0
+11,2021-03-08,2021-03-14,Puerto Montt,10,Los Lagos,Punta Arenas,12,Magallanes,13.0,1324.0
 33,2020-08-10,2020-08-16,Punta Arenas,12,Magallanes,Punta Arenas,12,Magallanes,1.0,3.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Punta Arenas,12,Magallanes,54.0,7560.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Punta Arenas,12,Magallanes,78.0,11060.0
@@ -3614,6 +3672,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Punta Arenas,12,Magallanes,27.0,3209.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Punta Arenas,12,Magallanes,29.0,3380.0
 10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Punta Arenas,12,Magallanes,25.0,2968.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Punta Arenas,12,Magallanes,24.0,2914.0
 1,2020-01-01,2020-01-05,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,2.0,267.0
 2,2020-01-06,2020-01-12,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,3.0,375.0
 3,2020-01-13,2020-01-19,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,2.0,263.0
@@ -3637,6 +3696,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,2.0,185.0
 9,2021-02-22,2021-02-28,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,2.0,206.0
 10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,1.0,175.0
+11,2021-03-08,2021-03-14,Temuco,9,Araucanía,Punta Arenas,12,Magallanes,1.0,159.0
 1,2020-01-01,2020-01-05,Puerto Natales,12,Magallanes,Punta Arenas,12,Magallanes,1.0,1.0
 2,2020-01-06,2020-01-12,Puerto Natales,12,Magallanes,Punta Arenas,12,Magallanes,2.0,26.0
 4,2020-01-20,2020-01-26,Puerto Natales,12,Magallanes,Punta Arenas,12,Magallanes,1.0,18.0
@@ -3679,7 +3739,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Balmaceda,11,Aysén,2.0,169.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Balmaceda,11,Aysén,2.0,237.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Balmaceda,11,Aysén,2.0,212.0
-10,2021-03-01,2021-03-07,Concepción,8,Biobío,Balmaceda,11,Aysén,1.0,104.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Balmaceda,11,Aysén,2.0,166.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Balmaceda,11,Aysén,2.0,160.0
 1,2020-01-01,2020-01-05,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,14.0,1809.0
 2,2020-01-06,2020-01-12,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,22.0,2873.0
 3,2020-01-13,2020-01-19,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,22.0,2982.0
@@ -3748,7 +3809,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,12.0,664.0
 8,2021-02-15,2021-02-21,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,12.0,779.0
 9,2021-02-22,2021-02-28,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,11.0,901.0
-10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,6.0,446.0
+10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,13.0,942.0
+11,2021-03-08,2021-03-14,Puerto Montt,10,Los Lagos,Balmaceda,11,Aysén,12.0,884.0
 1,2020-01-01,2020-01-05,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,1.0,65.0
 2,2020-01-06,2020-01-12,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,2.0,161.0
 3,2020-01-13,2020-01-19,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,2.0,149.0
@@ -3809,6 +3871,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,2.0,49.0
 9,2021-02-22,2021-02-28,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,2.0,47.0
 10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,2.0,38.0
+11,2021-03-08,2021-03-14,Punta Arenas,12,Magallanes,Balmaceda,11,Aysén,2.0,43.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Balmaceda,11,Aysén,28.0,3937.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Balmaceda,11,Aysén,42.0,5754.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Balmaceda,11,Aysén,42.0,5893.0
@@ -3873,7 +3936,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Balmaceda,11,Aysén,25.0,2058.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Balmaceda,11,Aysén,25.0,2120.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Balmaceda,11,Aysén,24.0,1925.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Balmaceda,11,Aysén,18.0,1707.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Balmaceda,11,Aysén,18.0,1689.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Balmaceda,11,Aysén,17.0,1739.0
 1,2020-01-01,2020-01-05,Temuco,9,Araucanía,Balmaceda,11,Aysén,2.0,258.0
 2,2020-01-06,2020-01-12,Temuco,9,Araucanía,Balmaceda,11,Aysén,3.0,345.0
 3,2020-01-13,2020-01-19,Temuco,9,Araucanía,Balmaceda,11,Aysén,3.0,347.0
@@ -3906,7 +3970,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Temuco,9,Araucanía,Balmaceda,11,Aysén,3.0,175.0
 8,2021-02-15,2021-02-21,Temuco,9,Araucanía,Balmaceda,11,Aysén,3.0,181.0
 9,2021-02-22,2021-02-28,Temuco,9,Araucanía,Balmaceda,11,Aysén,3.0,175.0
-10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Balmaceda,11,Aysén,1.0,120.0
+10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Balmaceda,11,Aysén,2.0,251.0
+11,2021-03-08,2021-03-14,Temuco,9,Araucanía,Balmaceda,11,Aysén,2.0,264.0
 52,2020-12-21,2020-12-27,Concepción,8,Biobío,Castro,10,Los Lagos,2.0,131.0
 53,2020-12-28,2021-12-31,Concepción,8,Biobío,Castro,10,Los Lagos,1.0,51.0
 1,2021-01-01,2021-01-03,Concepción,8,Biobío,Castro,10,Los Lagos,1.0,52.0
@@ -3918,7 +3983,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Concepción,8,Biobío,Castro,10,Los Lagos,1.0,35.0
 8,2021-02-15,2021-02-21,Concepción,8,Biobío,Castro,10,Los Lagos,2.0,114.0
 9,2021-02-22,2021-02-28,Concepción,8,Biobío,Castro,10,Los Lagos,2.0,140.0
-10,2021-03-01,2021-03-07,Concepción,8,Biobío,Castro,10,Los Lagos,1.0,65.0
+10,2021-03-01,2021-03-07,Concepción,8,Biobío,Castro,10,Los Lagos,1.0,28.0
+11,2021-03-08,2021-03-14,Concepción,8,Biobío,Castro,10,Los Lagos,1.0,33.0
 52,2020-12-21,2020-12-27,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,2.0,172.0
 53,2020-12-28,2021-12-31,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,2.0,99.0
 2,2021-01-04,2021-01-10,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,1.0,95.0
@@ -3930,6 +3996,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,1.0,103.0
 9,2021-02-22,2021-02-28,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,1.0,76.0
 10,2021-03-01,2021-03-07,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,1.0,79.0
+11,2021-03-08,2021-03-14,Punta Arenas,12,Magallanes,Castro,10,Los Lagos,1.0,79.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Castro,10,Los Lagos,4.0,578.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Castro,10,Los Lagos,5.0,780.0
 3,2020-01-13,2020-01-19,Santiago,13,Metropolitana,Castro,10,Los Lagos,5.0,731.0
@@ -3954,7 +4021,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Santiago,13,Metropolitana,Castro,10,Los Lagos,9.0,603.0
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Castro,10,Los Lagos,9.0,780.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Castro,10,Los Lagos,9.0,661.0
-10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Castro,10,Los Lagos,5.0,446.0
+10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Castro,10,Los Lagos,8.0,573.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Castro,10,Los Lagos,8.0,568.0
 2,2021-01-04,2021-01-10,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,31.0
 3,2021-01-11,2021-01-17,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,20.0
 4,2021-01-18,2021-01-24,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,21.0
@@ -3963,7 +4031,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,29.0
 8,2021-02-15,2021-02-21,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,34.0
 9,2021-02-22,2021-02-28,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,57.0
-10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,117.0
+10,2021-03-01,2021-03-07,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,27.0
+11,2021-03-08,2021-03-14,Temuco,9,Araucanía,Castro,10,Los Lagos,2.0,19.0
 51,2020-12-14,2020-12-20,Osorno,10,Los Lagos,Valdivia,14,Los Ríos,1.0,91.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Valdivia,14,Los Ríos,28.0,3502.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Valdivia,14,Los Ríos,40.0,5134.0
@@ -4014,6 +4083,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Valdivia,14,Los Ríos,16.0,2469.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Valdivia,14,Los Ríos,16.0,2196.0
 10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Valdivia,14,Los Ríos,15.0,1527.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Valdivia,14,Los Ríos,15.0,1249.0
 42,2020-10-12,2020-10-18,Temuco,9,Araucanía,Valdivia,14,Los Ríos,1.0,47.0
 44,2020-10-26,2020-11-01,Temuco,9,Araucanía,Valdivia,14,Los Ríos,1.0,27.0
 45,2020-11-02,2020-11-08,Temuco,9,Araucanía,Valdivia,14,Los Ríos,1.0,27.0
@@ -4037,7 +4107,8 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 7,2021-02-08,2021-02-14,Puerto Montt,10,Los Lagos,Puerto Natales,12,Magallanes,5.0,283.0
 8,2021-02-15,2021-02-21,Puerto Montt,10,Los Lagos,Puerto Natales,12,Magallanes,5.0,341.0
 9,2021-02-22,2021-02-28,Puerto Montt,10,Los Lagos,Puerto Natales,12,Magallanes,5.0,346.0
-10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Puerto Natales,12,Magallanes,3.0,379.0
+10,2021-03-01,2021-03-07,Puerto Montt,10,Los Lagos,Puerto Natales,12,Magallanes,4.0,459.0
+11,2021-03-08,2021-03-14,Puerto Montt,10,Los Lagos,Puerto Natales,12,Magallanes,4.0,436.0
 1,2020-01-01,2020-01-05,Punta Arenas,12,Magallanes,Puerto Natales,12,Magallanes,1.0,5.0
 2,2020-01-06,2020-01-12,Punta Arenas,12,Magallanes,Puerto Natales,12,Magallanes,2.0,26.0
 4,2020-01-20,2020-01-26,Punta Arenas,12,Magallanes,Puerto Natales,12,Magallanes,2.0,20.0
@@ -4079,6 +4150,7 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Puerto Natales,12,Magallanes,10.0,1402.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Puerto Natales,12,Magallanes,10.0,1437.0
 10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Puerto Natales,12,Magallanes,7.0,987.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Puerto Natales,12,Magallanes,7.0,1117.0
 12,2020-03-16,2020-03-22,Temuco,9,Araucanía,Puerto Natales,12,Magallanes,1.0,13.0
 1,2020-01-01,2020-01-05,Santiago,13,Metropolitana,Isla de Pascua,5,Valparaíso,10.0,2755.0
 2,2020-01-06,2020-01-12,Santiago,13,Metropolitana,Isla de Pascua,5,Valparaíso,12.0,3253.0
@@ -4141,5 +4213,6 @@ Semana,Inicio_semana,Fin_semana,Origen,Cod_region_origen,Region_origen,Destino,C
 8,2021-02-15,2021-02-21,Santiago,13,Metropolitana,Osorno,10,Los Lagos,11.0,1712.0
 9,2021-02-22,2021-02-28,Santiago,13,Metropolitana,Osorno,10,Los Lagos,11.0,1525.0
 10,2021-03-01,2021-03-07,Santiago,13,Metropolitana,Osorno,10,Los Lagos,9.0,1118.0
+11,2021-03-08,2021-03-14,Santiago,13,Metropolitana,Osorno,10,Los Lagos,9.0,1062.0
 42,2020-10-12,2020-10-18,Temuco,9,Araucanía,Osorno,10,Los Lagos,1.0,61.0
 50,2020-12-07,2020-12-13,Valdivia,14,Los Ríos,Osorno,10,Los Lagos,2.0,190.0
