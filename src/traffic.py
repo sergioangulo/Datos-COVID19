@@ -132,11 +132,25 @@ class traffic:
         #popular
         self.df_popular.to_csv('../input/Traffic/popular.csv',mode='a', index=False,header=False)
 
+    def publish():
+        views = pd.read_csv('../input/Traffic/views.csv')
+        views.sort_values(by=['count'], inplace=True)
+        views.drop_duplicates(subset=['timestamp'], keep='last', inplace=True)
+        views.sort_values(by=['timestamp'], inplace=True)
+        clones = pd.read_csv('../input/Traffic/clones.csv')
+        clones.sort_values(by=['count'], inplace=True)
+        clones.drop_duplicates(subset=['timestamp'], keep='last', inplace=True)
+        clones.sort_values(by=['timestamp'], inplace=True)
+        views.to_csv('../output/producto0/vistas.csv', index=False, header=False)
+        clones.to_csv('../output/producto0/descargas.csv', index=False, header=False)
+
+
 if __name__ == '__main__':
     my_user = sys.argv[2]
     my_token = sys.argv[1]
     my_traffic = traffic(my_user,my_token)
     my_traffic.lambda_handler()
     my_traffic.save()
+    my_traffic.publish()
 
 
