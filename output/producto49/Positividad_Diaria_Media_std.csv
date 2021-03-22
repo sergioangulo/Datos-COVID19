@@ -361,6 +361,7 @@ Fecha,Serie,Total
 2021-03-19,pcr,73129
 2021-03-20,pcr,76275
 2021-03-21,pcr,76335
+2021-03-22,pcr,75880
 2020-03-25,casos,220.0
 2020-03-26,casos,164.0
 2020-03-27,casos,304.0
@@ -722,7 +723,8 @@ Fecha,Serie,Total
 2021-03-18,casos,6249.0
 2021-03-19,casos,6604.0
 2021-03-20,casos,7084.0
-2021-03-21,casos,6836
+2021-03-21,casos,6836.0
+2021-03-22,casos,6155
 2020-03-25,positividad,0.0669
 2020-03-26,positividad,0.0336
 2020-03-27,positividad,0.0412
@@ -1085,6 +1087,7 @@ Fecha,Serie,Total
 2021-03-19,positividad,0.0903
 2021-03-20,positividad,0.0929
 2021-03-21,positividad,0.0896
+2021-03-22,positividad,0.0811
 2020-03-25,mediamovil_positividad,
 2020-03-26,mediamovil_positividad,
 2020-03-27,mediamovil_positividad,
@@ -1447,3 +1450,4 @@ Fecha,Serie,Total
 2021-03-19,mediamovil_positividad,0.0913
 2021-03-20,mediamovil_positividad,0.0924
 2021-03-21,mediamovil_positividad,0.0932
+2021-03-22,mediamovil_positividad,0.0942
