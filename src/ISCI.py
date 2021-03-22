@@ -43,7 +43,7 @@ def prod51(url, prod):
     regionName(df)
 
     #get each week Monday as date
-    df['Fecha'] = df['Week'].apply(lambda w: "{}-W{}-1".format(2020 + w//54, w%54))
+    df['Fecha'] = df['Week'].apply(lambda w: "{}-W{}-1".format(2020 + w//52, w%52))
     df['Fecha'] = pd.to_datetime(df['Fecha'], format="%Y-W%W-%w")
 
     ## This is the std product
