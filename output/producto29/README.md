@@ -1,6 +1,6 @@
 # DP29 - Cuarentenas Activas e Históricas: Descripción
 
-* Desde Julio 2021, recomendamos usar: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto74
+* Desde Julio 2020, recomendamos usar: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto74
 
 Set de 3 archivos en formato csv y un archivo en formato GeoJSON que contiene la identificación y características de las zonas de cuarentena establecidas por el Plan de Acción por Coronavirus del Gobierno de Chile.
 
