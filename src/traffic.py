@@ -132,7 +132,7 @@ class traffic:
         #popular
         self.df_popular.to_csv('../input/Traffic/popular.csv',mode='a', index=False,header=False)
 
-    def publish():
+    def publish(self):
         views = pd.read_csv('../input/Traffic/views.csv')
         views.sort_values(by=['count'], inplace=True)
         views.drop_duplicates(subset=['timestamp'], keep='last', inplace=True)
