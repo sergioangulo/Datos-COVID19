@@ -141,8 +141,8 @@ class traffic:
         clones.sort_values(by=['count'], inplace=True)
         clones.drop_duplicates(subset=['timestamp'], keep='last', inplace=True)
         clones.sort_values(by=['timestamp'], inplace=True)
-        views.to_csv('../output/producto0/vistas.csv', index=False, header=False)
-        clones.to_csv('../output/producto0/descargas.csv', index=False, header=False)
+        views.to_csv('../output/producto0/vistas.csv', index=False)
+        clones.to_csv('../output/producto0/descargas.csv', index=False)
 
 
 if __name__ == '__main__':
