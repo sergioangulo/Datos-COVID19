@@ -4,7 +4,9 @@ name: Actualiza_productos_de_ISCI
 
 # Controls when the action will run. Triggers the workflow on push or pull request 
 # events but only for the master branch
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: '0 18 * * 0'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -35,7 +37,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: generate products from ISCI
-      run: cd src; python ISCI.py "$PROD51_URL" "$PROD82_URL_1" "$PROD82_URL_2"
+      run: cd src; python ISCI.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:

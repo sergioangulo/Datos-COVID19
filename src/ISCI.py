@@ -61,17 +61,9 @@ def prod82(url, prod, output_name):
     df.to_csv('../output/{}/{}.csv'.format(prod, output_name), index=False)
     
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        url = sys.argv[1]
-        prod51(url, '../output/producto51')
-        
-    if len(sys.argv) == 4:
-        url = sys.argv[1]
-        prod51(url, '../output/producto51')
-        
-       
-        url = sys.argv[2]
-        prod82(url, 'producto82', 'ISCI_weeks')
-        
-        url = sys.argv[3]
-        prod82(url, 'producto82', 'ISCI_weekends')
+    url = 'https://matiascerda.carto.com/api/v2/sql?format=CSV&filename=datos-movilidad-isci.csv&q=select%20*%20from%20data_variacion'
+    prod51(url, '../output/producto51')
+    url = 'https://nodejs.isci.cl/api/visor-movilidad/week'
+    prod82(url, 'producto82', 'ISCI_weeks')
+    url = 'https://nodejs.isci.cl/api/visor-movilidad/weekend'
+    prod82(url, 'producto82', 'ISCI_weekends')
