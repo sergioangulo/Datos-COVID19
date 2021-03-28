@@ -156,6 +156,14 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
                                                            # media4.media_id
                                                            ])
 
+    elif carrier == 'isci':
+
+        # create update elements
+        tweet_text = '🤖Actualicé los datos de movilidad en todo el territorio nacional, gracias a @centroISCI y @EntelOcean 💫. Mira qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
+        media1 = my_api.media_upload('./img/Datos covid_Bot_I_g1.png')
+
+        # Generate text tweet with media (image)
+        my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
 
 if __name__ == '__main__':
 
