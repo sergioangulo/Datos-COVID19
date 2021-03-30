@@ -50,7 +50,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         muestras = str(int(my_positividad.iloc[my_positividad.index.max()][1]))
 
         # create update elements
-        tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫, gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
+        tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫 Gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
         reply2_text = '🤖El total de casos nuevos para hoy es '+casos_nuevos+'. De las '+muestras+' muestras que se analizaron en las últimas 24 horas en laboratorios nacionales, un '+positividad_hoy+'% resultó positivo.'
 
         if variacion_nacional >= 0 and variacion_positividad >= 0:
