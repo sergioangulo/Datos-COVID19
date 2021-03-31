@@ -33,13 +33,7 @@ class CamasUCI:
         self.folder = folder
         self.access_key = access_key
         self.secret_key = secret_key
-        # init session
-        self.session = boto3.Session(
-            aws_access_key_id=self.access_key,
-            aws_secret_access_key=self.secret_key,
-            region_name='us-east-1')
-        self.s3 = self.session.resource('s3')
-        self.actual_bucket = self.s3.Bucket(self.bucket)
+
 
         # store used variables
         self.output = output
@@ -50,56 +44,72 @@ class CamasUCI:
         print('The folder is ' + self.folder)
 
     def get_last_camas_xlsx(self):
-        get_last_modified = lambda obj: int(obj.last_modified.strftime('%s'))
+        if self.bucket == 'local':
+            self.df_uci_habilitada = pd.read_excel('../input/Camas_uci/last_uci_diario.xlsx', sheet_name='UCI HABILITADA')
+            self.df_uci_covid = pd.read_excel('../input/Camas_uci/last_uci_diario.xlsx', sheet_name='UCI OCUPADA COVID')
+            self.df_uci_no_covid = pd.read_excel('../input/Camas_uci/last_uci_diario.xlsx', sheet_name='UCI OCUPADA NO COVID')
+            self.df_camas_base = pd.read_excel('../input/Camas_uci/last_uci_diario.xlsx', sheet_name='CAMAS BASE')
 
-        objs = [obj for obj in self.actual_bucket.objects.filter(Prefix=self.folder) if 'xlsx' in obj.key]
+        else:
+            # init session
+            self.session = boto3.Session(
+                aws_access_key_id=self.access_key,
+                aws_secret_access_key=self.secret_key,
+                region_name='us-east-1')
+            self.s3 = self.session.resource('s3')
+            self.actual_bucket = self.s3.Bucket(self.bucket)
 
-        objs = [obj for obj in sorted(objs, key=get_last_modified)]
+            get_last_modified = lambda obj: int(obj.last_modified.strftime('%s'))
 
-        self.last_added = objs[-1]
-        print('last added file is: ' + self.last_added.key)
+            objs = [obj for obj in self.actual_bucket.objects.filter(Prefix=self.folder) if 'xlsx' in obj.key]
 
+            objs = [obj for obj in sorted(objs, key=get_last_modified)]
 
+            self.last_added = objs[-1]
+            print('last added file is: ' + self.last_added.key)
+            file_path = self.last_added.key
+            s3_client = boto3.client('s3',
+                                     aws_access_key_id=self.access_key,
+                                     aws_secret_access_key=self.secret_key)
+
+            obj = s3_client.get_object(Bucket=self.bucket, Key=file_path)
+            self.df_uci_habilitada = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI HABILITADA')
+            self.df_uci_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA COVID')
+            self.df_uci_no_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA NO COVID')
+            self.df_camas_base = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='CAMAS BASE')
 
     def last_file_to_csv(self):
-        file_path = self.last_added.key
 
-        s3_client = boto3.client('s3',
-                                 aws_access_key_id=self.access_key,
-                                 aws_secret_access_key=self.secret_key)
 
-        obj = s3_client.get_object(Bucket=self.bucket, Key=file_path)
-
-        df_uci_habilitada = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI HABILITADA')
-        df_uci_habilitada.rename(columns={'Camas UCI habilitadas': 'Region'}, inplace=True)
-        regionName(df_uci_habilitada)
-        df_uci_habilitada = df_uci_habilitada[df_uci_habilitada['Region'].notna()]
-        df_uci_habilitada['Serie'] = 'Camas UCI habilitadas'
+        self.df_uci_habilitada.rename(columns={'Camas UCI habilitadas': 'Region'}, inplace=True)
+        regionName(self.df_uci_habilitada)
+        self.df_uci_habilitada = self.df_uci_habilitada[self.df_uci_habilitada['Region'].notna()]
+        self.df_uci_habilitada['Serie'] = 'Camas UCI habilitadas'
        #print(df_uci_habilitada.to_string())
 
-        df_uci_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA COVID')
-        df_uci_covid.rename(columns={'Camas UCI ocupadas COVID-19': 'Region'}, inplace=True)
-        regionName(df_uci_covid)
-        df_uci_covid = df_uci_covid[df_uci_covid['Region'].notna()]
-        df_uci_covid['Serie'] = 'Camas UCI ocupadas COVID-19'
+
+        self.df_uci_covid.rename(columns={'Camas UCI ocupadas COVID-19': 'Region'}, inplace=True)
+        regionName(self.df_uci_covid)
+        self.df_uci_covid = self.df_uci_covid[self.df_uci_covid['Region'].notna()]
+        self.df_uci_covid['Serie'] = 'Camas UCI ocupadas COVID-19'
         #print(df_uci_covid.to_string())
 
-        df_uci_no_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA NO COVID')
-        df_uci_no_covid.rename(columns={'Camas UCI ocupadas no COVID-19': 'Region'}, inplace=True)
-        regionName(df_uci_no_covid)
-        df_uci_no_covid = df_uci_no_covid[df_uci_no_covid['Region'].notna()]
-        df_uci_no_covid['Serie'] = 'Camas UCI ocupadas no COVID-19'
+
+        self.df_uci_no_covid.rename(columns={'Camas UCI ocupadas no COVID-19': 'Region'}, inplace=True)
+        regionName(self.df_uci_no_covid)
+        self.df_uci_no_covid = self.df_uci_no_covid[self.df_uci_no_covid['Region'].notna()]
+        self.df_uci_no_covid['Serie'] = 'Camas UCI ocupadas no COVID-19'
         #print(df_uci_no_covid.to_string())
 
-        df_camas_base = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='CAMAS BASE')
-        df_camas_base.rename(columns={'Camas base (2019)': 'Region'}, inplace=True)
-        regionName(df_camas_base)
-        df_camas_base = df_camas_base[df_camas_base['Region'].notna()]
-        df_camas_base['Serie'] = 'Camas base (2019)'
+
+        self.df_camas_base.rename(columns={'Camas base (2019)': 'Region'}, inplace=True)
+        regionName(self.df_camas_base)
+        self.df_camas_base = self.df_camas_base[self.df_camas_base['Region'].notna()]
+        self.df_camas_base['Serie'] = 'Camas base (2019)'
         #print(df_camas_base.to_string())
 
 
-        result = pd.concat([df_uci_habilitada, df_uci_covid, df_uci_no_covid, df_camas_base])
+        result = pd.concat([self.df_uci_habilitada, self.df_uci_covid, self.df_uci_no_covid, self.df_camas_base])
 
 
         identifiers = ['Region', 'Serie']
@@ -122,58 +132,35 @@ class CamasUCI:
 
 
     def last_file_to_csv_diaria(self):
-        file_path = self.last_added.key
 
-        s3_client = boto3.client('s3',
-                                 aws_access_key_id=self.access_key,
-                                 aws_secret_access_key=self.secret_key)
+        self.df_uci_habilitada.rename(columns={'Camas UCI habilitadas': 'Region'}, inplace=True)
+        regionName(self.df_uci_habilitada)
+        self.df_uci_habilitada = self.df_uci_habilitada[self.df_uci_habilitada['Region'].notna()]
+        self.df_uci_habilitada['Serie'] = 'Camas UCI habilitadas'
+        # print(df_uci_habilitada.to_string())
 
-        obj = s3_client.get_object(Bucket=self.bucket, Key=file_path)
+        self.df_uci_covid.rename(columns={'Camas UCI ocupadas COVID-19': 'Region'}, inplace=True)
+        regionName(self.df_uci_covid)
+        self.df_uci_covid = self.df_uci_covid[self.df_uci_covid['Region'].notna()]
+        self.df_uci_covid['Serie'] = 'Camas UCI ocupadas COVID-19'
+        # print(df_uci_covid.to_string())
 
-        df_uci_habilitada = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI HABILITADA')
-        df_uci_habilitada.rename(columns={'Camas UCI habilitadas': 'Region'}, inplace=True)
-        regionName(df_uci_habilitada)
-        df_uci_habilitada = df_uci_habilitada[df_uci_habilitada['Region'].notna()]
-        df_uci_habilitada['Serie'] = 'Camas UCI habilitadas'
-        #print(df_uci_habilitada.to_string())
+        self.df_uci_no_covid.rename(columns={'Camas UCI ocupadas no COVID-19': 'Region'}, inplace=True)
+        regionName(self.df_uci_no_covid)
+        self.df_uci_no_covid = self.df_uci_no_covid[self.df_uci_no_covid['Region'].notna()]
+        self.df_uci_no_covid['Serie'] = 'Camas UCI ocupadas no COVID-19'
+        # print(df_uci_no_covid.to_string())
 
-        df_uci_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA COVID')
-        df_uci_covid.rename(columns={'Camas UCI ocupadas COVID-19': 'Region'}, inplace=True)
-        regionName(df_uci_covid)
-        df_uci_covid = df_uci_covid[df_uci_covid['Region'].notna()]
-        df_uci_covid['Serie'] = 'Camas UCI ocupadas COVID-19'
-        #print(df_uci_covid.to_string())
+        self.df_camas_base.rename(columns={'Camas base (2019)': 'Region'}, inplace=True)
+        regionName(self.df_camas_base)
+        self.df_camas_base = self.df_camas_base[self.df_camas_base['Region'].notna()]
+        self.df_camas_base['Serie'] = 'Camas base (2019)'
+        # print(df_camas_base.to_string())
 
-        df_uci_no_covid = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA NO COVID')
-        df_uci_no_covid.rename(columns={'Camas UCI ocupadas no COVID-19': 'Region'}, inplace=True)
-        regionName(df_uci_no_covid)
-        df_uci_no_covid = df_uci_no_covid[df_uci_no_covid['Region'].notna()]
-        df_uci_no_covid['Serie'] = 'Camas UCI ocupadas no COVID-19'
-        #print(df_uci_no_covid.to_string())
-
-        df_camas_base = pd.read_excel(obj['Body']._raw_stream.data, sheet_name='UCI OCUPADA TOTAL')
-        df_camas_base.rename(columns={'Camas UCI ocupadas': 'Region'}, inplace=True)
-        regionName(df_camas_base)
-        df_camas_base = df_camas_base[df_camas_base['Region'].notna()]
-        df_camas_base['Serie'] = 'Camas UCI ocupadas'
-        #print(df_camas_base.to_string())
-
-
-        result = pd.concat([df_uci_habilitada, df_uci_covid, df_uci_no_covid, df_camas_base])
-
-        allCols = list(result)
-        for i in allCols:
-            if isinstance(i, str):
-                if 'Unnamed' in i:
-                    print('drop unnamed col')
-                    result.drop(columns=i, inplace=True)
-
-
-
+        result = pd.concat([self.df_uci_habilitada, self.df_uci_covid, self.df_uci_no_covid, self.df_camas_base])
 
         identifiers = ['Region', 'Serie']
         variables = [x for x in result.columns if x not in identifiers]
-
 
         for i in range(len(variables)):
             result.rename(columns={variables[i]: variables[i].date()}, inplace=True)
@@ -195,6 +182,20 @@ if __name__ == '__main__':
         my_bucket_name = sys.argv[1]
         my_access_key = sys.argv[2]
         my_secret_key = sys.argv[3]
+        my_camasUCI = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI/', my_access_key, my_secret_key, '../output/producto52/Camas_UCI')
+        my_camasUCI.get_last_camas_xlsx()
+        my_camasUCI.last_file_to_csv()
+
+
+        my_camasUCI_diarias = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI_diaria/', my_access_key, my_secret_key,
+                               '../output/producto58/Camas_UCI_diarias')
+        my_camasUCI_diarias.get_last_camas_xlsx()
+        my_camasUCI_diarias.last_file_to_csv_diaria()
+
+    else:
+        my_bucket_name = 'local'
+        my_access_key = 'sys.argv[2]'
+        my_secret_key = 'sys.argv[3]'
         my_camasUCI = CamasUCI(my_bucket_name, 'home/Minsal/CamasUCI/', my_access_key, my_secret_key, '../output/producto52/Camas_UCI')
         my_camasUCI.get_last_camas_xlsx()
         my_camasUCI.last_file_to_csv()
