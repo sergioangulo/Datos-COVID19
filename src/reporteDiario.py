@@ -838,9 +838,12 @@ def prod44(fte,fte2,producto):
 def prod49(fte, fte2, producto):
     # massage casos nuevos diarios
     df2 = pd.read_csv(fte2, header=None).T
-    df2 = df2[[0, 7]]
+    df2 = df2[[0, 7,19]]
     df2 = df2[1:]
     df2.rename(columns={0: 'Fecha', 7: 'casos'}, inplace=True)
+    df2.fillna(0,inplace=True)
+    df2['casos'] = pd.to_numeric(df2['casos'])-pd.to_numeric(df2[19])
+    df2 = df2[['Fecha','casos']]
 
     # massage tests diarios
     df = pd.read_csv(fte, header=None).T

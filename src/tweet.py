@@ -51,7 +51,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         # create update elements
         tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫 Gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
-        reply2_text = '🤖El total de casos nuevos para hoy es '+casos_nuevos+'. De las '+muestras+' muestras que se analizaron en las últimas 24 horas en laboratorios nacionales, un '+positividad_hoy+'% resultó positivo.'
+        reply2_text = '🤖El total de casos confirmados con PCR+ hoy es '+casos_nuevos+'. De las '+muestras+' muestras que se analizaron en las últimas 24 horas en laboratorios nacionales, un '+positividad_hoy+'% resultó positivo.'
 
         if variacion_nacional >= 0 and variacion_positividad >= 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
@@ -81,8 +81,8 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
         media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
-        my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
-        my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet.id)
+        tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
+        tweet3 = my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
 
     elif carrier == 'mmamp':
         # create update elements
