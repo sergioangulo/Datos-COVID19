@@ -115,8 +115,8 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_vacunacion = pd.read_csv('../output/producto76/vacunacion_t.csv')
         vacunados = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][1]))
         vacunados_pauta_completa = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][2]))
-        my_vacunacion_avance = 100*vacunados/15000000
-        my_vacunacion_avance_pauta_completa = 100*vacunados_pauta_completa/15000000
+        my_vacunacion_avance = 100*vacunados/15200840
+        my_vacunacion_avance_pauta_completa = 100*vacunados_pauta_completa/15200840
         my_vacunacion_avance = ("%.2f" % my_vacunacion_avance)
         my_vacunacion_avance_pauta_completa = ("%.2f" % my_vacunacion_avance_pauta_completa)
         dosis_dia = vacunados+vacunados_pauta_completa - (pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][1]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][2]))
