@@ -37,6 +37,9 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
     if carrier == 'reportediario':
         my_positividad = pd.read_csv('../output/producto49/Positividad_Diaria_Media_T.csv')
         my_mediamovil = pd.read_csv('../output/producto75/MediaMovil_casos_nuevos_T.csv')
+        my_casos_nuevos_totales = pd.read_csv('../output/producto5/TotalesNacionales_T.csv')
+        casos_nuevos_totales = int(pd.to_numeric(my_casos_nuevos_totales.iloc[my_casos_nuevos_totales.index.max()][7]))
+        casos_nuevos_antigeno = int(pd.to_numeric(my_casos_nuevos_totales.iloc[my_casos_nuevos_totales.index.max()][19]))
         mediamovil_nacional = int(pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]))
         variacion_nacional = float(100*(pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]) - pd.to_numeric(
             my_mediamovil.iloc[my_mediamovil.index.max() - 7][17]))/pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]))
@@ -51,7 +54,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         # create update elements
         tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫 Gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
-        reply2_text = '🤖El total de casos confirmados con PCR+ hoy es '+casos_nuevos+'. De las '+muestras+' muestras que se analizaron en las últimas 24 horas en laboratorios nacionales, un '+positividad_hoy+'% resultó positivo.'
+        reply2_text = '🤖El total de casos confirmados hoy es '+str(casos_nuevos_totales)+', de los cuales '+str(casos_nuevos_antigeno)+' fueron confirmados con test de antígeno y '+casos_nuevos+' con PCR+. De las '+muestras+' muestras que se analizaron en las últimas 24 horas en laboratorios nacionales, un '+positividad_hoy+'% resultó positivo.'
 
         if variacion_nacional >= 0 and variacion_positividad >= 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
@@ -140,7 +143,6 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
         tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
         my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
-
 
     elif carrier == 'testeo':
         tweet_text = "Actualicé los datos del informe de testeo y trazabilidad del @ministeriosalud de hoy 💫, ¡gracias @FunCienciayVida! Mira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
