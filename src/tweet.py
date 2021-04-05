@@ -167,6 +167,14 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         # Generate text tweet with media (image)
         my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
 
+    elif carrier == 'udd':
+        # create update elements
+        tweet_text = '🤖Actualicé los datos de movilidad en todo el territorio nacional que produce el Instituto de Data Science de @UDD_cl junto a @TelefonicaCL 💫. Mira específicamente qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
+        media1 = my_api.media_upload('./img/Datos covid_Bot_E_g1.png')
+
+        # Generate text tweet with media (image)
+        my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
+
 if __name__ == '__main__':
 
     if len(sys.argv) == 6:

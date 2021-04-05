@@ -131,4 +131,4 @@ def prod33(fte,prod):
 
 if __name__ == '__main__':
     print('Generating producto 33')
-    prod33('../input/UDD/', '../output/producto33/IndiceDeMovilidad')
+    prod33('../input/UDD/', '../output/producto33/Nuevo_IndiceDeMovilidad')
