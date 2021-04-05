@@ -25,6 +25,7 @@ def check_mentions(api, keywords, since_id):
             comuna = comuna.lower()
             if comuna in keywords:
                 logger.info(f"Answering to {tweet.user.name}")
+                #casos activos
                 df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
                 dfT = pd.read_csv('../output/producto19/CasosActivosPorComuna_T.csv')
                 df["Comuna"] = df["Comuna"].str.lower()
@@ -33,17 +34,100 @@ def check_mentions(api, keywords, since_id):
                 casos_informe_anterior = int(pd.to_numeric(dfT.iloc[dfT.index.max() - 1][n + 1]))
                 variacion = casos_ultimo_informe - casos_informe_anterior
                 fecha = dfT.iloc[dfT.index.max()][0]
+
+                #vacunación
+                dfve1 = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis.csv')
+                dfve1_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv', header=None)
+                dfve2_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_2daDosis_T.csv', header=None)
+                dfvep_T = pd.read_csv('../output/producto81/poblacion_comuna_edad_T.csv', header=None)
+                dfv1_T = pd.read_csv('../output/producto80/vacunacion_comuna_1eraDosis_T.csv', header=None)
+                dfv2_T = pd.read_csv('../output/producto80/vacunacion_comuna_2daDosis_T.csv', header=None)
+                dfve1["Comuna"] = dfve1["Comuna"].str.lower()
+                n = dfve1.index[dfve1['Comuna'] == comuna]
+
+                #total poblacion objetivo de la comuna
+                dfvep_T = dfvep_T[5:][n + 1]
+                dfvep_T = dfvep_T.astype(float)
+                tot = int(dfvep_T.sum())
+
+                # Porcentaje 1era dosis
+                dfve1_T = dfve1_T[5:][n + 1]
+                dfve1_T = dfve1_T.astype(float)
+                v1 = int(dfve1_T.sum())
+                porcentaje1 = str(round(100*v1/tot))
+
+                # Porcentaje 2da dosis
+                dfve2_T = dfve2_T[5:][n + 1]
+                dfve2_T = dfve2_T.astype(float)
+                v2 = int(dfve2_T.sum())
+                porcentaje2 = str(round(100 * v2 / tot))
+
+                # Rolling mean last week
+                dfv1_T = dfv1_T[5:][n + 1]
+                dfv2_T = dfv2_T[5:][n + 1]
+                dfv1_T = dfv1_T.astype(float)
+                dfv2_T = dfv2_T.astype(float)
+                dft = dfv1_T + dfv2_T
+                dft.reset_index(drop=True, inplace=True)
+                dft = dft.rolling(7).mean().round(4)
+                promedio = str(int(dft.iloc[dft.index.max() - 1][n + 1]))
+
+
                 if variacion > 0:
                     reply = "🤖Hola @" + tweet.user.screen_name + ". En " + comuna + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(variacion) + " más que en el informe anterior."
-                    api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                    reply2 = "🤖Además, acorde a la última información de la campaña #YoMeVacuno 🤘, en "+comuna+" un "+porcentaje1+"% de la población objetivo tiene su primera dosis, y un "+porcentaje2+"% tiene su pauta completa. El promedio diario de personas vacunadas esta semana en "+comuna+" ha sido "+promedio+" 🦾."
+                    update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                    api.update_status(status=reply2, in_reply_to_status_id=update.id)
                 else:
                     reply = "🤖Hola @" + tweet.user.screen_name + ". En " + comuna + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str((-1) * variacion) + " menos que en el informe anterior."
-                    api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                    reply2 = "🤖Además, acorde a la última información de la campaña #YoMeVacuno 🤘, en " + comuna + " un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene su pauta completa. El promedio diario de personas vacunadas esta semana en " + comuna + " ha sido " + promedio + " 🦾."
+                    update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                    api.update_status(status=reply2, in_reply_to_status_id=update.id)
 
             else:
                 for word in tweet.text.lower().split():
                     if word in keywords:
                         logger.info(f"Answering to {tweet.user.name}")
+                        #vacunacion
+                        # vacunación
+                        dfve1 = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis.csv')
+                        dfve1_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv',
+                                              header=None)
+                        dfve2_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_2daDosis_T.csv', header=None)
+                        dfvep_T = pd.read_csv('../output/producto81/poblacion_comuna_edad_T.csv', header=None)
+                        dfv1_T = pd.read_csv('../output/producto80/vacunacion_comuna_1eraDosis_T.csv', header=None)
+                        dfv2_T = pd.read_csv('../output/producto80/vacunacion_comuna_2daDosis_T.csv', header=None)
+                        dfve1["Comuna"] = dfve1["Comuna"].str.lower()
+                        n = dfve1.index[dfve1['Comuna'] == comuna]
+
+                        # total poblacion objetivo de la comuna
+                        dfvep_T = dfvep_T[5:][n + 1]
+                        dfvep_T = dfvep_T.astype(float)
+                        tot = int(dfvep_T.sum())
+
+                        # Porcentaje 1era dosis
+                        dfve1_T = dfve1_T[5:][n + 1]
+                        dfve1_T = dfve1_T.astype(float)
+                        v1 = int(dfve1_T.sum())
+                        porcentaje1 = str(round(100 * v1 / tot))
+
+                        # Porcentaje 2da dosis
+                        dfve2_T = dfve2_T[5:][n + 1]
+                        dfve2_T = dfve2_T.astype(float)
+                        v2 = int(dfve2_T.sum())
+                        porcentaje2 = str(round(100 * v2 / tot))
+
+                        # Rolling mean last week
+                        dfv1_T = dfv1_T[5:][n + 1]
+                        dfv2_T = dfv2_T[5:][n + 1]
+                        dfv1_T = dfv1_T.astype(float)
+                        dfv2_T = dfv2_T.astype(float)
+                        dft = dfv1_T + dfv2_T
+                        dft.reset_index(drop=True, inplace=True)
+                        dft = dft.rolling(7).mean().round(4)
+                        promedio = str(int(dft.iloc[dft.index.max() - 1][n + 1]))
+
+                        #casos activos
                         df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
                         dfT = pd.read_csv('../output/producto19/CasosActivosPorComuna_T.csv')
                         df["Comuna"] = df["Comuna"].str.lower()
@@ -54,10 +138,16 @@ def check_mentions(api, keywords, since_id):
                         fecha = dfT.iloc[dfT.index.max()][0]
                         if variacion > 0:
                             reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(variacion) + " más que en el informe anterior."
-                            api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                            reply2 = "🤖Además, acorde a la última información de la campaña #YoMeVacuno 🤘, en " + word + " un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene su pauta completa. El promedio diario de personas vacunadas esta semana en " + word + " ha sido " + promedio + " 🦾."
+                            update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                            api.update_status(status=reply2, in_reply_to_status_id=update.id)
+
                         else:
                             reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str((-1) * variacion) + " menos que en el informe anterior."
-                            api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                            reply2 = "🤖Además, acorde a la última información de la campaña #YoMeVacuno 🤘, en " + word + " un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene su pauta completa. El promedio diario de personas vacunadas esta semana en " + word + " ha sido " + promedio + " 🦾."
+                            update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                            api.update_status(status=reply2, in_reply_to_status_id=update.id)
+
     return new_since_id
 
 def main(a,b,c,d):
