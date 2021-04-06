@@ -129,7 +129,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
         if now.hour > 19:
             time = '7 pm'
-        elif now.hour <13:
+        elif now.hour < 13:
             time = '7 pm'
         else:
             time = '11 am'
