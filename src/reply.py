@@ -153,7 +153,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1379211291080986631
+    since_id = 1379226923872714754
     df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
     df.dropna(subset=['Codigo comuna'], inplace=True)
     keywords = df.Comuna.unique()
