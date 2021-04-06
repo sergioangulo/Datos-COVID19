@@ -28,6 +28,8 @@ def check_mentions(api, keywords, since_id):
         texto = texto.replace('ó', 'o')
         texto = texto.replace('ú', 'u')
         texto = texto.replace('ü', 'u')
+        texto = texto.replace('?', '')
+        texto = texto.replace('¿', '')
         if any(keyword in texto for keyword in keywords):
             comuna = texto.replace('@min_ciencia_ia ', '')
             if comuna in keywords:
