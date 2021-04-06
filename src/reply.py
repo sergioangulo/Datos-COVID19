@@ -99,7 +99,7 @@ def check_mentions(api, keywords, since_id):
                         dfv1_T = pd.read_csv('../output/producto80/vacunacion_comuna_1eraDosis_T.csv', header=None)
                         dfv2_T = pd.read_csv('../output/producto80/vacunacion_comuna_2daDosis_T.csv', header=None)
                         dfve1["Comuna"] = dfve1["Comuna"].str.lower()
-                        n = dfve1.index[dfve1['Comuna'] == comuna]
+                        n = dfve1.index[dfve1['Comuna'] == word]
 
                         # total poblacion objetivo de la comuna
                         dfvep_T = dfvep_T[5:][n + 1]
