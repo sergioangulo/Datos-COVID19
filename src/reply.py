@@ -20,7 +20,8 @@ def check_mentions(api, keywords, since_id):
         new_since_id = max(tweet.id, new_since_id)
         if tweet.in_reply_to_status_id is not None:
             continue
-        if any(keyword in tweet.text.lower() for keyword in keywords):
+        text = tweet.text.lower().replace('ñ', 'n')
+        if any(keyword in text for keyword in keywords):
             comuna = tweet.text.replace('@min_ciencia_IA ', '')
             comuna = comuna.lower()
             if comuna in keywords:
