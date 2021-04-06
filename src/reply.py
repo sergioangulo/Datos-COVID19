@@ -7,6 +7,8 @@ import time
 import pandas as pd
 import os
 import numpy as np
+import requests
+import io
 import re
 import utils
 
@@ -16,6 +18,24 @@ logger = logging.getLogger()
 def check_mentions(api, keywords, since_id):
     logger.info("Retrieving mentions")
     new_since_id = since_id
+    my_files = {
+        'activos':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
+        'activos_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna_T.csv',
+        'vacunacion':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_1eraDosis.csv',
+        'vacunacion1_comuna_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv',
+        'vacunacion2_comuna_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_2daDosis_T.csv',
+        'poblacion_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/poblacion_comuna_edad_T.csv',
+        'vacunacion1_dosis_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_1eraDosis_T.csv',
+        'vacunacion2_dosis_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_2daDosis_T.csv',
+    }
     for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id).items():
         new_since_id = max(tweet.id, new_since_id)
         if tweet.in_reply_to_status_id is not None:
@@ -35,8 +55,12 @@ def check_mentions(api, keywords, since_id):
             if comuna in keywords:
                 logger.info(f"Answering to {tweet.user.name}")
                 #casos activos
-                df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
-                dfT = pd.read_csv('../output/producto19/CasosActivosPorComuna_T.csv')
+                content = requests.get(my_files['activos']).content
+                df = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
+                content = requests.get(my_files['activos_t']).content
+                dfT = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
                 df["Comuna"] = df["Comuna"].str.lower()
                 n = df.index[df['Comuna'] == comuna]
                 casos_ultimo_informe = int(pd.to_numeric(dfT.iloc[dfT.index.max()][n + 1]))
@@ -45,12 +69,24 @@ def check_mentions(api, keywords, since_id):
                 fecha = dfT.iloc[dfT.index.max()][0]
 
                 #vacunación
-                dfve1 = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis.csv')
-                dfve1_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv', header=None)
-                dfve2_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_2daDosis_T.csv', header=None)
-                dfvep_T = pd.read_csv('../output/producto81/poblacion_comuna_edad_T.csv', header=None)
-                dfv1_T = pd.read_csv('../output/producto80/vacunacion_comuna_1eraDosis_T.csv', header=None)
-                dfv2_T = pd.read_csv('../output/producto80/vacunacion_comuna_2daDosis_T.csv', header=None)
+                content = requests.get(my_files['vacunacion']).content
+                dfve1 = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
+                content = requests.get(my_files['vacunacion1_comuna_t']).content
+                dfve1_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                content = requests.get(my_files['vacunacion2_comuna_t']).content
+                dfve2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                content = requests.get(my_files['poblacion_t']).content
+                dfvep_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                content = requests.get(my_files['vacunacion1_dosis_t']).content
+                dfv1_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                content = requests.get(my_files['vacunacion2_dosis_t']).content
+                dfv2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
                 dfve1["Comuna"] = dfve1["Comuna"].str.lower()
                 n = dfve1.index[dfve1['Comuna'] == comuna]
 
@@ -98,14 +134,24 @@ def check_mentions(api, keywords, since_id):
                     if word in keywords:
                         logger.info(f"Answering to {tweet.user.name}")
                         #vacunacion
-                        # vacunación
-                        dfve1 = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis.csv')
-                        dfve1_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv',
-                                              header=None)
-                        dfve2_T = pd.read_csv('../output/producto81/vacunacion_comuna_edad_2daDosis_T.csv', header=None)
-                        dfvep_T = pd.read_csv('../output/producto81/poblacion_comuna_edad_T.csv', header=None)
-                        dfv1_T = pd.read_csv('../output/producto80/vacunacion_comuna_1eraDosis_T.csv', header=None)
-                        dfv2_T = pd.read_csv('../output/producto80/vacunacion_comuna_2daDosis_T.csv', header=None)
+                        content = requests.get(my_files['vacunacion']).content
+                        dfve1 = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
+                        content = requests.get(my_files['vacunacion1_comuna_t']).content
+                        dfve1_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                        content = requests.get(my_files['vacunacion2_comuna_t']).content
+                        dfve2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                        content = requests.get(my_files['poblacion_t']).content
+                        dfvep_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                        content = requests.get(my_files['vacunacion1_dosis_t']).content
+                        dfv1_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                        content = requests.get(my_files['vacunacion2_dosis_t']).content
+                        dfv2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
                         dfve1["Comuna"] = dfve1["Comuna"].str.lower()
                         n = dfve1.index[dfve1['Comuna'] == word]
 
@@ -137,8 +183,13 @@ def check_mentions(api, keywords, since_id):
                         promedio = str(int(dft.iloc[dft.index.max() - 1][n + 1]))
 
                         #casos activos
-                        df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
-                        dfT = pd.read_csv('../output/producto19/CasosActivosPorComuna_T.csv')
+
+                        content = requests.get(my_files['activos']).content
+                        df = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
+                        content = requests.get(my_files['activos_t']).content
+                        dfT = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
                         df["Comuna"] = df["Comuna"].str.lower()
                         n = df.index[df['Comuna'] == word]
                         casos_ultimo_informe = int(pd.to_numeric(dfT.iloc[dfT.index.max()][n + 1]))
@@ -161,8 +212,27 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1379262237949452290
-    df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
+    since_id = 1379432415693733892
+    my_files = {
+        'activos':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
+        'activos_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna_T.csv',
+        'vacunacion':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_1eraDosis.csv',
+        'vacunacion1_comuna_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv',
+        'vacunacion2_comuna_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_2daDosis_T.csv',
+        'poblacion_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/poblacion_comuna_edad_T.csv',
+        'vacunacion1_dosis_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_1eraDosis_T.csv',
+        'vacunacion2_dosis_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_2daDosis_T.csv',
+    }
+    content = requests.get(my_files['activos']).content
+    df = pd.read_csv(io.StringIO(content.decode('utf-8')))
     df.dropna(subset=['Codigo comuna'], inplace=True)
     keywords = df.Comuna.unique()
     a = np.array([x.lower() if isinstance(x, str) else x for x in keywords])
