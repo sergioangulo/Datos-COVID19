@@ -22,7 +22,7 @@ def check_mentions(api, keywords, since_id):
             continue
         text = tweet.text.lower().replace('ñ', 'n')
         if any(keyword in text for keyword in keywords):
-            comuna = tweet.text.replace('@min_ciencia_IA ', '')
+            comuna = text.replace('@min_ciencia_IA ', '')
             comuna = comuna.lower()
             if comuna in keywords:
                 logger.info(f"Answering to {tweet.user.name}")
@@ -86,7 +86,7 @@ def check_mentions(api, keywords, since_id):
                     api.update_status(status=reply2, in_reply_to_status_id=update.id)
 
             else:
-                for word in tweet.text.lower().split():
+                for word in text.lower().split():
                     if word in keywords:
                         logger.info(f"Answering to {tweet.user.name}")
                         #vacunacion
@@ -153,7 +153,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1379226923872714754
+    since_id = 1379228692258373633
     df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
     df.dropna(subset=['Codigo comuna'], inplace=True)
     keywords = df.Comuna.unique()
