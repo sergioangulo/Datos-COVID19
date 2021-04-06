@@ -138,13 +138,13 @@ def check_mentions(api, keywords, since_id):
                         fecha = dfT.iloc[dfT.index.max()][0]
                         if variacion > 0:
                             reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(variacion) + " más que en el informe anterior."
-                            reply2 = "🤖Además, acorde a la última información de la campaña #YoMeVacuno 🤘, en " + word + " un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene su pauta completa. El promedio diario de personas vacunadas esta semana en " + word + " ha sido " + promedio + " 🦾."
+                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno 🤘, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene ambas dosis. El promedio diario de personas vacunadas en " + word + " esta semana ha sido " + promedio + " 🦾."
                             update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                             api.update_status(status=reply2, in_reply_to_status_id=update.id)
 
                         else:
                             reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str((-1) * variacion) + " menos que en el informe anterior."
-                            reply2 = "🤖Además, acorde a la última información de la campaña #YoMeVacuno 🤘, en " + word + " un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene su pauta completa. El promedio diario de personas vacunadas esta semana en " + word + " ha sido " + promedio + " 🦾."
+                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno 🤘, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene ambas dosis. El promedio diario de personas vacunadas en " + word + " esta semana ha sido " + promedio + " 🦾."
                             update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                             api.update_status(status=reply2, in_reply_to_status_id=update.id)
 
