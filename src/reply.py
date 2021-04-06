@@ -20,10 +20,10 @@ def check_mentions(api, keywords, since_id):
         new_since_id = max(tweet.id, new_since_id)
         if tweet.in_reply_to_status_id is not None:
             continue
-        text = tweet.text.lower().replace('ñ', 'n')
-        if any(keyword in text for keyword in keywords):
-            comuna = text.replace('@min_ciencia_IA ', '')
-            comuna = comuna.lower()
+        texto = tweet.text.lower()
+        texto = texto.replace('ñ', 'n')
+        if any(keyword in texto for keyword in keywords):
+            comuna = texto.replace('@min_ciencia_ia ', '')
             if comuna in keywords:
                 logger.info(f"Answering to {tweet.user.name}")
                 #casos activos
@@ -153,7 +153,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1379228692258373633
+    since_id = 1379232065623891973
     df = pd.read_csv('../output/producto19/CasosActivosPorComuna.csv')
     df.dropna(subset=['Codigo comuna'], inplace=True)
     keywords = df.Comuna.unique()
