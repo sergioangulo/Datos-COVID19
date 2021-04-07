@@ -456,7 +456,7 @@ class vacunacion:
 
         elif self.indicador == 'vacunas_prioridad':
             self.last_added.rename(columns={'CRITERIO': 'Grupo',
-                                            'SUBCRITERIO': 'Subgrupo',
+                                            'SUB_CRITERIO': 'Subgrupo',
                                             '1aDOSIS1': 'Primera',
                                             '2aDOSIS1': 'Segunda'}, inplace=True)
             self.last_added.sort_values(by=['Grupo', 'Subgrupo'], inplace=True)
