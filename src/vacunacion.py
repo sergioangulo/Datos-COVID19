@@ -455,12 +455,17 @@ class vacunacion:
             df_std.to_json(self.output + '.json', orient='values', force_ascii=False)
 
         elif self.indicador == 'vacunas_prioridad':
-            self.last_added.rename(columns={'Criterio': 'Grupo',
-                                            'Subcriterio': 'Subgrupo',
-                                            '1aDOSIS': 'Primera',
-                                            '2aDOSIS': 'Segunda'}, inplace=True)
+            self.last_added.rename(columns={'CRITERIO': 'Grupo',
+                                            'SUB_CRITERIO': 'Subgrupo',
+                                            '1aDOSIS1': 'Primera',
+                                            '2aDOSIS1': 'Segunda'}, inplace=True)
             self.last_added.sort_values(by=['Grupo', 'Subgrupo'], inplace=True)
             self.last_added = self.last_added[['Grupo', 'Subgrupo', 'Primera', 'Segunda']]
+            self.last_added['Primera'] = self.last_added.groupby(['Grupo', 'Subgrupo'])['Primera'].transform('sum')
+            self.last_added['Segunda'] = self.last_added.groupby(['Grupo', 'Subgrupo'])['Segunda'].transform('sum')
+            self.last_added = self.last_added[['Grupo', 'Subgrupo', 'Primera', 'Segunda']]
+            self.last_added.drop_duplicates(inplace=True)
+
 
             ##transformar en input
             df = pd.DataFrame()
@@ -473,7 +478,7 @@ class vacunacion:
                 df = df.append(df_grupo, ignore_index=True)
 
             new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
-                       'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
+                       'Primera', 'Segunda', 'Primera', 'Segunda']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for grupo in grupos[0]:

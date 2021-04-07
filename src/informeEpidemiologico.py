@@ -382,50 +382,80 @@ def prod39(fte, producto):
 
 
 def prod45(fte, fte2, prod):
-    data = []
+    data_2020 = []
+    data_2021 = []
     for file in glob.glob(fte + '/*Casos' + fte2 + 'PorComuna.csv'):
         print(file)
         if file != fte + 'Casos' + fte2 + 'PorComuna.csv':
             date = re.search("\d{4}-\d{2}-\d{2}", file).group(0)
-            df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object, 'Codigo comuna': object})
-            df.dropna(how='all', inplace=True)
-            # Drop filas de totales por region
-            todrop = df.loc[df['Comuna'] == 'Total']
-            df.drop(todrop.index, inplace=True)
-            # Hay semanas epi que se llam S en vez de SE
-            for eachColumn in list(df):
-                if re.search("S\d{2}", eachColumn):
-                    print("Bad name " + eachColumn)
-                    df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
-            # insert publicacion as column 5
-            # df['Publicacion'] = date
-            df.insert(loc=5, column='Publicacion', value=date)
-            data.append(df)
-
+            if '2020' in date:
+                df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object, 'Codigo comuna': object})
+                df.dropna(how='all', inplace=True)
+                # Drop filas de totales por region
+                todrop = df.loc[df['Comuna'] == 'Total']
+                df.drop(todrop.index, inplace=True)
+                # Hay semanas epi que se llam S en vez de SE
+                for eachColumn in list(df):
+                    if re.search("S\d{2}", eachColumn):
+                        print("Bad name " + eachColumn)
+                        df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
+                # insert publicacion as column 5
+                # df['Publicacion'] = date
+                df.insert(loc=5, column='Publicacion', value=date)
+                data_2020.append(df)
+            else:
+                df = pd.read_csv(file, sep=",", encoding="utf-8",
+                                 dtype={'Codigo region': object, 'Codigo comuna': object})
+                df.dropna(how='all', inplace=True)
+                # Drop filas de totales por region
+                todrop = df.loc[df['Comuna'] == 'Total']
+                df.drop(todrop.index, inplace=True)
+                # Hay semanas epi que se llam S en vez de SE
+                for eachColumn in list(df):
+                    if re.search("S\d{2}", eachColumn):
+                        print("Bad name " + eachColumn)
+                        df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
+                # insert publicacion as column 5
+                # df['Publicacion'] = date
+                df.insert(loc=5, column='Publicacion', value=date)
+                data_2021.append(df)
+                
     name = fte2.lower()
 
     if name == 'nonotificados':
         name = 'no notificados'
 
-    # normalization
-    data = pd.concat(data)
-    data = data.fillna(0)
-    utils.regionName(data)
-    data.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
-    data.to_csv(prod + '.csv', index=False)
+    # normalization 2020
+    data_2020 = pd.concat(data_2020)
+    data_2020 = data_2020.fillna(0)
+    utils.regionName(data_2020)
+    data_2020.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2020.to_csv(prod + '_2020.csv', index=False)
     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    variables = [x for x in data.columns if x not in identifiers]
-    df_std = pd.melt(data, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    variables = [x for x in data_2020.columns if x not in identifiers]
+    df_std = pd.melt(data_2020, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
                      value_name='Casos ' + name)
-    df_std.to_csv(prod + '_std.csv', index=False)
+    df_std.to_csv(prod + '_2020_std.csv', index=False)
+
+    # normalization 2021
+    data_2021 = pd.concat(data_2021)
+    data_2021 = data_2021.fillna(0)
+    utils.regionName(data_2021)
+    data_2021.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2021.to_csv(prod + '_2021.csv', index=False)
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    variables = [x for x in data_2021.columns if x not in identifiers]
+    df_std = pd.melt(data_2021, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+                     value_name='Casos ' + name)
+    df_std.to_csv(prod + '_2021_std.csv', index=False)
 
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto45/SemanasEpidemiologicas.csv')
 
     # create old prod 45 from latest adition
-    latest = max(data['Publicacion'])
+    latest = max(data_2021['Publicacion'])
     print(latest)
-    latestdf = data.loc[data['Publicacion'] == latest]
+    latestdf = data_2021.loc[data_2021['Publicacion'] == latest]
     # print(latestdf)
     latestdf.drop(['Publicacion'], axis=1, inplace=True)
     latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)

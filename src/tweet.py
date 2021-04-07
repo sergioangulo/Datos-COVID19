@@ -105,13 +105,15 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         # create update elements
         tweet_text = '🤖Actualicé los datos del Informe Epidemiológico publicado por @ministeriosalud de hoy 💫, con los datos correspondientes al '+fecha_informe+'. Gracias al equipo de especialistas en epidemiología. Mira qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
+        reply1_text = '🤖A partir de este momento todas las respuestas que doy sobre cualquier comuna del país 🇨🇱, corresponden a este informe. Más detalles en https://github.com/MinCiencia/Datos-COVID19'
         media1= my_api.media_upload('./img/Datos covid_Bot_B_g1.png')
         media2= my_api.media_upload('./img/Datos covid_Bot_B_g2.png')
         media3= my_api.media_upload('./img/Datos covid_Bot_B_g3.png')
         media4= my_api.media_upload('./img/Datos covid_Bot_B_g4.png')
 
         # Generate text tweet with media (image)
-        my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
+        tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
+        my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
 
     elif carrier == 'vacunacion':
         now = datetime.datetime.now()
@@ -129,7 +131,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
         if now.hour > 19:
             time = '7 pm'
-        elif now.hour <13:
+        elif now.hour < 13:
             time = '7 pm'
         else:
             time = '11 am'
