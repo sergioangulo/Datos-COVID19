@@ -129,14 +129,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         # create update elements
         tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados con primera dosis en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
         reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
-        if now.hour > 19:
-            time = '7 pm'
-        elif now.hour < 13:
-            time = '7 pm'
-        else:
-            time = '11 am'
-
-        reply2_text = '🤖 A las '+time+' del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' personas han recibido la vacuna contra COVID-19 hoy. Detalles por comuna, edad y prioridad en https://github.com/MinCiencia/Datos-COVID19'
+        reply2_text = '🤖A las 9pm del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' recibieron la vacuna contra COVID-19. Detalles por comuna, edad, fabricante y prioridad en https://github.com/MinCiencia/Datos-COVID19'
 
         media1= my_api.media_upload('./img/Datos covid_Bot_C_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
