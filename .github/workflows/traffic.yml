@@ -38,9 +38,6 @@ jobs:
         with:
           commit_message: "Added data from traffic api to repo input"
 
-        # Optional glob pattern of files which should be added to the commit
-          file_pattern: input/*/*.csv
-
         # Optional local file path to the repository
           repository: .
 
