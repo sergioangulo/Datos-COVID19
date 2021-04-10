@@ -5,8 +5,8 @@ name: traffic_daily_processing
 on:
     #push
     # github runners are on GMT
-    schedule:
-      - cron:  '49 23 * * *'
+    on: workflow_dispatch
+
 
 jobs:
   # This workflow contains a single job called "actualiza..."
