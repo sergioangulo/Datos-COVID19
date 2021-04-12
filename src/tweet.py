@@ -105,7 +105,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         # create update elements
         tweet_text = '🤖Actualicé los datos del Informe Epidemiológico publicado por @ministeriosalud de hoy 💫, con los datos correspondientes al '+fecha_informe+'. Gracias al equipo de especialistas en epidemiología. Mira qué actualicé en la imagen y clona el GitHub https://github.com/MinCiencia/Datos-COVID19'
-        reply1_text = '🤖A partir de este momento todas las respuestas que doy sobre cualquier comuna del país 🇨🇱, corresponden a este informe. Más detalles en https://github.com/MinCiencia/Datos-COVID19'
+        reply1_text = '🤖A partir de este momento, todas mis respuestas sobre comunas del país 🇨🇱, corresponden al último informe. Más detalles en https://github.com/MinCiencia/Datos-COVID19'
         media1= my_api.media_upload('./img/Datos covid_Bot_B_g1.png')
         media2= my_api.media_upload('./img/Datos covid_Bot_B_g2.png')
         media3= my_api.media_upload('./img/Datos covid_Bot_B_g3.png')

@@ -96,16 +96,31 @@ class p84:
         date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
         print(date_list)
 
-        SE_comuna = self.last_added[columns_name[2]]
+        #vector con las variables
+        SE_comuna = self.last_added[columns_name[4]]
 
-        maxE = self.last_added[columns_name[3]].max()
-        minE = self.last_added[columns_name[3]].min()
-        print(minE, maxE)
-        age_list = list(range(minE, maxE + 1))
-        print(age_list)
+        for edad in ['<=39','40-49','50-59','60-69','70-79','80-89','>=90']:
+            if edad == '<=39':
+                df_edad = self.last_added[self.last_added['edad'] <= 39]
+            if edad == '40-49':
+                df_edad = self.last_added[self.last_added['edad'] <= 49]
+                df_edad = df_edad[df_edad['edad'] >= 40]
+            if edad == '50-59':
+                df_edad = self.last_added[self.last_added['edad'] <= 59]
+                df_edad = df_edad[df_edad['edad'] >= 50]
+            if edad == '60-69':
+                df_edad = self.last_added[self.last_added['edad'] <= 69]
+                df_edad = df_edad[df_edad['edad'] >= 60]
+            if edad == '70-79':
+                df_edad = self.last_added[self.last_added['edad'] <= 79]
+                df_edad = df_edad[df_edad['edad'] >= 70]
+            if edad == '80-89':
+                df_edad = self.last_added[self.last_added['edad'] <= 89]
+                df_edad = df_edad[df_edad['edad'] >= 80]
+            if edad == '>=90':
+                df_edad = self.last_added[self.last_added['edad'] >= 90]
 
-        for edad in age_list:
-            for k in [5,6]:
+            for k in [5,6,7]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
                 dicts = {}
@@ -116,10 +131,10 @@ class p84:
                     dicts[i] = date_list[i]
 
                 df.rename(columns=dicts, inplace=True)
-                value_comuna = self.last_added[columns_name[k]]
+                value_comuna = df_edad[columns_name[k]]
                 value_comuna.fillna(0,inplace=True)
                 i=0
-                for row in self.last_added.index:
+                for row in df_edad.index:
                     idx = comuna.loc[comuna == row].index.values
                     if idx.size > 0:
                         col = SE_comuna[i]
@@ -176,23 +191,33 @@ class p84:
                     outputDF2.drop(todrop.index, inplace=True)
 
                 if k == 5:
-                    name = self.output + '_'+str(edad)+'1eraDosis.csv'
+                    name = self.output + '_'+str(edad)+'_confirmadas.csv'
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
                     outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
                     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
                     variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Primera Dosis')
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Confirmada')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
-                if k == 6:
-                    name = self.output + '_'+str(edad)+'_2daDosis.csv'
+                elif k == 6:
+                    name = self.output + '_'+str(edad)+'_sospechosas.csv'
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
                     outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
                     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
                     variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Primera Dosis')
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Sospechosa')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                elif k == 7:
+                    name = self.output + '_'+str(edad)+'_totales.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
 if __name__ == '__main__':
