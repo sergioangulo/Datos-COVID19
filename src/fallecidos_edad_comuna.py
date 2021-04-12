@@ -72,11 +72,22 @@ class p84:
         self.last_added.rename(columns={'comuna_residencia': 'comuna'}, inplace=True)
         self.last_added.rename(columns={'region_residencia': 'Region'}, inplace=True)
         self.last_added = utils.normalizaNombreCodigoRegionYComuna(self.last_added)
+        df_sup = Comp[['Codigo comuna', 'Comuna']]
+        df_sup['Codigo comuna'] = df_sup['Codigo comuna'].replace('', 0)
+        self.last_added.drop(columns={'Comuna'}, inplace=True)
+        for k in range(len(self.last_added)):
+            if self.last_added.loc[k, 'Codigo comuna'] != '':
+                if self.last_added.loc[k, 'Codigo comuna'] < 10000:
+                    self.last_added.loc[k, 'Codigo comuna'] = '0' + str(self.last_added.loc[k, 'Codigo comuna'])
+                else:
+                    self.last_added.loc[k, 'Codigo comuna'] = str(self.last_added.loc[k, 'Codigo comuna'])
+        self.last_added = self.last_added.merge(df_sup, on="Codigo comuna", how="left")
+        self.last_added.set_index('Comuna', inplace=True)
 
         columns_name = self.last_added.columns.values
 
-        maxSE = self.last_added[columns_name[5]].max()
-        minSE = self.last_added[columns_name[5]].min()
+        maxSE = self.last_added[columns_name[4]].max()
+        minSE = self.last_added[columns_name[4]].min()
 
         print(minSE, maxSE)
         lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
@@ -87,103 +98,106 @@ class p84:
 
         SE_comuna = self.last_added[columns_name[2]]
 
-        for k in [3,4]:
-            df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
+        maxE = self.last_added[columns_name[3]].max()
+        minE = self.last_added[columns_name[3]].min()
+        print(minE, maxE)
+        age_list = list(range(minE, maxE + 1))
+        print(age_list)
 
-            dicts = {}
-            keys = range(lenSE)
-            # values = [i for i in range(lenSE)]
+        for edad in age_list:
+            for k in [5,6]:
+                df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
-            for i in keys:
-                dicts[i] = date_list[i]
+                dicts = {}
+                keys = range(lenSE)
+                # values = [i for i in range(lenSE)]
 
-            df.rename(columns=dicts, inplace=True)
-            value_comuna = self.last_added[columns_name[k]]
-            value_comuna.fillna(0,inplace=True)
-            i=0
-            for row in self.last_added.index:
-                idx = comuna.loc[comuna == row].index.values
-                if idx.size > 0:
-                    col = SE_comuna[i]
-                    df[col][idx] = value_comuna[i].astype(int)
+                for i in keys:
+                    dicts[i] = date_list[i]
 
-                i += 1
+                df.rename(columns=dicts, inplace=True)
+                value_comuna = self.last_added[columns_name[k]]
+                value_comuna.fillna(0,inplace=True)
+                i=0
+                for row in self.last_added.index:
+                    idx = comuna.loc[comuna == row].index.values
+                    if idx.size > 0:
+                        col = SE_comuna[i]
+                        df[col][idx] = value_comuna[i].astype(int)
 
-
-            df_output = pd.concat([Comp, df], axis=1)
-            df_output.drop(columns=['index'], axis=1, inplace=True)
-
-            nComunas = [len(list(group)) for key, group in groupby(df_output['Codigo region'])]
-
-            identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
-            variables = [x for x in df_output.columns if x not in identifiers]
-
-            begRow = 0
-
-            for i in range(len(nComunas)):
-
-                endRow = begRow + nComunas[i]
-
-                firstList = df_output[identifiers].iloc[endRow - 1].values.tolist()
-                firstList[2] = 'Total'
-                firstList[3] = ''
-
-                valuesTotal = df_output[variables][begRow:endRow].sum(axis=0).tolist()
-
-                regionTotal = pd.DataFrame((firstList + valuesTotal), index=df_output.columns.values).transpose()
-
-                if i < len(nComunas) - 1:
-                    blank_line = pd.Series(np.empty((len(regionTotal), 0)).tolist())
-
-                    regionTotal = pd.concat([regionTotal, blank_line], axis=0)
-                    regionTotal.drop(columns=0, axis=1, inplace=True)
-
-                temp = pd.concat([df_output.iloc[begRow:endRow], regionTotal], axis=0)
-                if i == 0:
-                    outputDF2 = temp
-                else:
-                    outputDF2 = pd.concat([outputDF2, temp], axis=0)
-
-                if i < len(nComunas) - 1:
-                    begRow = endRow
-
-                outputDF2.reset_index(inplace=True)
-                outputDF2.drop(columns=['index'], axis=1, inplace=True)
-                outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
-
-                print(outputDF2.head(20))
-
-                outputDF2.dropna(how='all', inplace=True)
-                todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
-                outputDF2.drop(todrop.index, inplace=True)
+                    i += 1
 
 
-            if k == 3:
-                name = self.output + '_1eraDosis.csv'
-                outputDF2.to_csv(name, index=False)
-                outputDF2_T = outputDF2.T
-                outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                df_output = pd.concat([Comp, df], axis=1)
+                df_output.drop(columns=['index'], axis=1, inplace=True)
+
+                nComunas = [len(list(group)) for key, group in groupby(df_output['Codigo region'])]
+
                 identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
-                outputDF2.drop(columns=['Poblacion'],inplace=True)
-                variables = [x for x in outputDF2.columns if x not in identifiers]
-                outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                                            value_name='Primera Dosis')
-                outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
-            elif k == 4:
-                name = self.output +'_2daDosis.csv'
-                outputDF2.to_csv(name, index=False)
-                outputDF2_T = outputDF2.T
-                outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
-                outputDF2.drop(columns=['Poblacion'], inplace=True)
-                variables = [x for x in outputDF2.columns if x not in identifiers]
-                outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
-                                            value_name='Segunda Dosis')
-                outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+                variables = [x for x in df_output.columns if x not in identifiers]
+
+                begRow = 0
+
+                for i in range(len(nComunas)):
+
+                    endRow = begRow + nComunas[i]
+
+                    firstList = df_output[identifiers].iloc[endRow - 1].values.tolist()
+                    firstList[2] = 'Total'
+                    firstList[3] = ''
+
+                    valuesTotal = df_output[variables][begRow:endRow].sum(axis=0).tolist()
+
+                    regionTotal = pd.DataFrame((firstList + valuesTotal), index=df_output.columns.values).transpose()
+
+                    if i < len(nComunas) - 1:
+                        blank_line = pd.Series(np.empty((len(regionTotal), 0)).tolist())
+
+                        regionTotal = pd.concat([regionTotal, blank_line], axis=0)
+                        regionTotal.drop(columns=0, axis=1, inplace=True)
+
+                    temp = pd.concat([df_output.iloc[begRow:endRow], regionTotal], axis=0)
+                    if i == 0:
+                        outputDF2 = temp
+                    else:
+                        outputDF2 = pd.concat([outputDF2, temp], axis=0)
+
+                    if i < len(nComunas) - 1:
+                        begRow = endRow
+
+                    outputDF2.reset_index(inplace=True)
+                    outputDF2.drop(columns=['index'], axis=1, inplace=True)
+                    outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
+
+                    print(outputDF2.head(20))
+
+                    outputDF2.dropna(how='all', inplace=True)
+                    todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
+                    outputDF2.drop(todrop.index, inplace=True)
+
+                if k == 5:
+                    name = self.output + '_'+str(edad)+'1eraDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Primera Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                if k == 6:
+                    name = self.output + '_'+str(edad)+'_2daDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Primera Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
 if __name__ == '__main__':
 
     print('Actualizamos fallecidos por edad y comuna')
-    my_comunas = p84('../output/producto84/fallecidos_edad')
+    my_comunas = p84('../output/producto84/fallecidos_comuna_edad')
     my_comunas.get_last()
     my_comunas.last_to_csv()
