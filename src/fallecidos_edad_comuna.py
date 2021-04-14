@@ -99,8 +99,9 @@ class p84:
         #vector con las variables
         SE_comuna = self.last_added[columns_name[4]]
 
-        for edad in ['<=39','40-49','50-59','60-69','70-79','80-89','>=90']:
-            if edad == '<=39':
+
+        for edad in ['-39','40-49','50-59','60-69','70-79','80-89','90-']:
+            if edad == '-39':
                 df_edad = self.last_added[self.last_added['edad'] <= 39]
             if edad == '40-49':
                 df_edad = self.last_added[self.last_added['edad'] <= 49]
@@ -117,7 +118,7 @@ class p84:
             if edad == '80-89':
                 df_edad = self.last_added[self.last_added['edad'] <= 89]
                 df_edad = df_edad[df_edad['edad'] >= 80]
-            if edad == '>=90':
+            if edad == '90-':
                 df_edad = self.last_added[self.last_added['edad'] >= 90]
 
             for k in [5,6,7]:
