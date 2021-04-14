@@ -126,10 +126,21 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_vacunacion_avance_pauta_completa = ("%.2f" % my_vacunacion_avance_pauta_completa)
         dosis_dia = vacunados+vacunados_pauta_completa - (pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][1]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][2]))
 
+        my_vacunacion = my_vacunacion[1:]
+        my_vacunacion['total_dosis'] = pd.to_numeric(my_vacunacion['Total']) + pd.to_numeric(my_vacunacion['Total.1'])
+        new = my_vacunacion.iloc[:my_vacunacion.index.max(), 35:]
+        new.reset_index(drop=True, inplace=True)
+        my_vacunacion['total_manana'] = new['total_dosis']
+        my_vacunacion.reset_index(drop=True, inplace=True)
+        my_vacunacion['avance_diario'] = my_vacunacion['total_manana'].fillna(0) - my_vacunacion['total_dosis']
+        my_vacunacion['mediamovil'] = my_vacunacion['avance_diario'].rolling(7).mean().round(4)
+        promedio_semanal = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][38]))
+
         # create update elements
         tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados con primera dosis en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
         reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
         reply2_text = '🤖A las 9pm del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' recibieron la vacuna contra COVID-19. Detalles por comuna, edad, fabricante y prioridad en https://github.com/MinCiencia/Datos-COVID19'
+        reply3_text = '🤖En los últimos 7 días, un promedio de '+str(promedio_semanal)+' personas han recibido su vacuna en Chile🇨🇱 cada día. A partir de ahora mis respuestas consideran estos datos'
 
         media1= my_api.media_upload('./img/Datos covid_Bot_C_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
@@ -139,7 +150,8 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         # Generate text tweet with media (image)
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id])
         tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
-        my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
+        tweet3 = my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
+        my_api.update_status(status=reply3_text, in_reply_to_status_id=tweet3.id)
 
     elif carrier == 'testeo':
         tweet_text = "Actualicé los datos del informe de testeo y trazabilidad del @ministeriosalud de hoy 💫, ¡gracias @FunCienciayVida! Mira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
