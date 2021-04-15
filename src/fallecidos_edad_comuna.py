@@ -89,19 +89,20 @@ class p84:
         maxSE = self.last_added[columns_name[4]].max()
         minSE = self.last_added[columns_name[4]].min()
 
-        print(minSE, maxSE)
+        #print(minSE, maxSE)
         lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
         startdate = pd.to_datetime(minSE)
         date_list = pd.date_range(startdate, periods=lenSE).tolist()
         date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
-        print(date_list)
+        #print(date_list)
 
         #vector con las variables
         SE_comuna = self.last_added[columns_name[4]]
 
+        kl = 0
 
-        for edad in ['-39','40-49','50-59','60-69','70-79','80-89','90-']:
-            if edad == '-39':
+        for edad in ['<=39','40-49','50-59','60-69','70-79','80-89','>=90']:
+            if edad == '<=39':
                 df_edad = self.last_added[self.last_added['edad'] <= 39]
             if edad == '40-49':
                 df_edad = self.last_added[self.last_added['edad'] <= 49]
@@ -118,7 +119,7 @@ class p84:
             if edad == '80-89':
                 df_edad = self.last_added[self.last_added['edad'] <= 89]
                 df_edad = df_edad[df_edad['edad'] >= 80]
-            if edad == '90-':
+            if edad == '>=90':
                 df_edad = self.last_added[self.last_added['edad'] >= 90]
 
             for k in [5,6,7]:
@@ -149,7 +150,7 @@ class p84:
 
                 nComunas = [len(list(group)) for key, group in groupby(df_output['Codigo region'])]
 
-                identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion']
                 variables = [x for x in df_output.columns if x not in identifiers]
 
                 begRow = 0
@@ -158,21 +159,10 @@ class p84:
 
                     endRow = begRow + nComunas[i]
 
-                    firstList = df_output[identifiers].iloc[endRow - 1].values.tolist()
-                    firstList[2] = 'Total'
-                    firstList[3] = ''
+                    temp = df_output.iloc[begRow:endRow].copy()
+                    todrop = temp.loc[temp['Codigo region'] == '00']
+                    temp.drop(todrop.index, inplace=True)
 
-                    valuesTotal = df_output[variables][begRow:endRow].sum(axis=0).tolist()
-
-                    regionTotal = pd.DataFrame((firstList + valuesTotal), index=df_output.columns.values).transpose()
-
-                    if i < len(nComunas) - 1:
-                        blank_line = pd.Series(np.empty((len(regionTotal), 0)).tolist())
-
-                        regionTotal = pd.concat([regionTotal, blank_line], axis=0)
-                        regionTotal.drop(columns=0, axis=1, inplace=True)
-
-                    temp = pd.concat([df_output.iloc[begRow:endRow], regionTotal], axis=0)
                     if i == 0:
                         outputDF2 = temp
                     else:
@@ -185,41 +175,70 @@ class p84:
                     outputDF2.drop(columns=['index'], axis=1, inplace=True)
                     outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
 
-                    print(outputDF2.head(20))
+                    #print(outputDF2.head(20))
 
                     outputDF2.dropna(how='all', inplace=True)
                     todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
                     outputDF2.drop(todrop.index, inplace=True)
 
+                    outputDF2['Edad'] = str(edad)
+
+                    cols = identifiers + ['Edad'] + variables
+
+                    outputDF2 = outputDF2[cols].copy()
+
                 if k == 5:
-                    name = self.output + '_'+str(edad)+'_confirmadas.csv'
-                    outputDF2.to_csv(name, index=False)
-                    outputDF2_T = outputDF2.T
-                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
-                    variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Confirmada')
-                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                    if kl == 0:
+                        outputDF3_c = outputDF2
+                    else:
+                        outputDF3_c = pd.concat([outputDF3_c,outputDF2], axis=0)
 
                 elif k == 6:
-                    name = self.output + '_'+str(edad)+'_sospechosas.csv'
-                    outputDF2.to_csv(name, index=False)
-                    outputDF2_T = outputDF2.T
-                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
-                    variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Sospechosa')
-                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                    if kl == 0:
+                        outputDF3_s = outputDF2
+                    else:
+                        outputDF3_s = pd.concat([outputDF3_s,outputDF2], axis=0)
 
                 elif k == 7:
-                    name = self.output + '_'+str(edad)+'_totales.csv'
-                    outputDF2.to_csv(name, index=False)
-                    outputDF2_T = outputDF2.T
-                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
-                    variables = [x for x in outputDF2.columns if x not in identifiers]
-                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
-                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                    if kl == 0:
+                        outputDF3_t = outputDF2
+                    else:
+                        outputDF3_t = pd.concat([outputDF3_t,outputDF2], axis=0)
+
+
+            kl += 1
+
+        name = self.output + '_confirmadas.csv'
+        outputDF3_c.to_csv(name, index=False)
+        outputDF3_c_T = outputDF3_c.T
+        outputDF3_c_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion','Edad']
+        variables = [x for x in outputDF3_c.columns if x not in identifiers]
+        outputDF3_std = pd.melt(outputDF3_c, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
+        outputDF3_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+        name = self.output + '_sospechosas.csv'
+        outputDF3_s.to_csv(name, index=False)
+        outputDF3_s_T = outputDF3_s.T
+        outputDF3_s_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion','Edad']
+        variables = [x for x in outputDF3_s.columns if x not in identifiers]
+        outputDF3_std = pd.melt(outputDF3_s, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                value_name='Total')
+        outputDF3_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+        name = self.output + '_totales.csv'
+        outputDF3_t.to_csv(name, index=False)
+        outputDF3_t_T = outputDF3_t.T
+        outputDF3_t_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion','Edad']
+        variables = [x for x in outputDF3_t.columns if x not in identifiers]
+        outputDF3_std = pd.melt(outputDF3_t, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
+        outputDF3_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
 
 if __name__ == '__main__':
 
