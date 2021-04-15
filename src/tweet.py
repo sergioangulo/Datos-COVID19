@@ -154,7 +154,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_api.update_status(status=reply3_text, in_reply_to_status_id=tweet3.id)
 
     elif carrier == 'testeo':
-        tweet_text = "Actualicé los datos del informe de testeo y trazabilidad del @ministeriosalud de hoy 💫, ¡gracias @FunCienciayVida! Mira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
+        tweet_text = "Actualicé los datos del informe de testeo y trazabilidad del @ministeriosalud de hoy 💫, ¡gracias @HdFaviola! Mira específicamente qué actualicé en la imagen, y clónate el github https://github.com/MinCiencia/Datos-COVID19"
         media1 = my_api.media_upload('./img/Datos covid_Bot_D_g1.png')
         # media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         # media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
