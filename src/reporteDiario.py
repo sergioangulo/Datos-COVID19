@@ -111,7 +111,8 @@ def prod5(fte, producto):
                                   'Casos nuevos totales': 'Casos nuevos totales',
                                   'Casos nuevos con sintomas': 'Casos nuevos con sintomas',
                                   'Casos nuevos sin sintomas*': 'Casos nuevos sin sintomas',
-                                  'Fallecidos totales': 'Fallecidos'}, inplace=True)
+                                  'Fallecidos totales': 'Fallecidos',
+                                  'Casos nuevos reportados por laboratorio': 'Casos nuevos sin notificar'}, inplace=True)
 
     # print(timestamp)
     last_row = df_input_file[df_input_file['Fecha'] == timestamp]
@@ -357,6 +358,7 @@ def prod3_13_14_26_27_47_75(fte, fte2, ft3):
         dataframe.rename(columns={'Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
         dataframe.rename(columns={' Casos nuevos sin notificar**': 'Casos nuevos sin notificar'}, inplace=True)
         dataframe.rename(columns={'Casos  nuevos  sin  notificar**': 'Casos nuevos sin notificar'}, inplace=True)
+        dataframe.rename(columns={'Casos nuevos reportados por laboratorio': 'Casos nuevos sin notificar'}, inplace=True)
 
         dataframe.rename(columns={'Casos  confirmados recuperados': 'Casos confirmados recuperados'}, inplace=True)
         dataframe.rename(columns={' Casos confirmados recuperados': 'Casos confirmados recuperados'}, inplace=True)
