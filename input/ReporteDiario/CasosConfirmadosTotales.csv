@@ -1,4 +1,4 @@
-Fecha,Casos totales acumulados,Casos activos confirmados,Fallecidos,Casos confirmados recuperados,Casos nuevos totales,Casos nuevos con sintomas,Casos nuevos sin sintomas,Casos nuevos reportados por laboratorio,Casos probables acumulados,Casos activos probables,Casos confirmados por antigeno,Casos con sospecha de reinfeccion,Casos nuevos confirmados por antigeno
+Fecha,Casos totales acumulados,Casos activos confirmados,Fallecidos,Casos confirmados recuperados,Casos nuevos totales,Casos nuevos con sintomas,Casos nuevos sin sintomas,Casos nuevos sin notificar,Casos probables acumulados,Casos activos probables,Casos confirmados por antigeno,Casos con sospecha de reinfeccion,Casos nuevos confirmados por antigeno
 10-05-2020,28866,15438,312,,1647,1406,241,,,,,,
 11-05-2020,30063,16135,323,,1197,975,222,,,,,,
 12-05-2020,31721,17261,335,,1658,1479,179,,,,,,
@@ -339,4 +339,3 @@ Fecha,Casos totales acumulados,Casos activos confirmados,Fallecidos,Casos confir
 12-04-2021,1082920,45021,24483,1012904,6372,4039,1769,564,190364,12532,7665,654,199
 13-04-2021,1088710,42761,24518,1020925,5718,3867,1478,373,190814,11495,7966,661,227
 14-04-2021,1094267,42278,24548,1026934,5497,4220,953,324,194323,13345,8483,663,456
-15-04-2021,1101698,43229,24766,1033189,7357,5171,1661,525,196909,14162,9010,676,457
