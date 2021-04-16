@@ -213,7 +213,7 @@ Avance en Campaña de Vacunación COVID-19 por fabricante y tipo de establecimie
 
 [Data Product 84 - Fallecidos por comuna/edad](output/producto84)
 
-[Data Product 85 - Documentación del estudio para el levantamiento de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile](output/producto85)
+[Data Product 85 - Datos del estudio de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile](output/producto85)
 Resultados del estudio para el levantamiento de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile [Ver más](output/producto85)
 
 ## ¿Cómo funciona?
