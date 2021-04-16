@@ -211,6 +211,10 @@ Este producto enseña la movilidad en cada territorio nacional, comparada con la
 [Data Product 83 - Avance en Campaña de Vacunación COVID-19 por fabricante y tipo de establecimiento de vacunación](output/producto83):
 Avance en Campaña de Vacunación COVID-19 por fabricante y tipo de establecimiento: Este producto da cuenta del avance en la campaña de vacunación contra Sars-Cov-2 a nivel de tipo de establecimiento y fabricante de la vacuna. [Ver más](output/producto83)
 
+[Data Product 84 - Fallecidos por comuna/edad](output/producto84)
+
+[Data Product 85 - Documentación del estudio para el levantamiento de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile](output/producto85)
+Resultados del estudio para el levantamiento de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile [Ver más](output/producto85)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
