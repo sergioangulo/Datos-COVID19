@@ -69,7 +69,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         elif variacion_nacional < 0 and variacion_positividad < 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
             variacion_positividad = ("%.2f" % variacion_positividad)
-            reply1_text = '🤖 En comparación con la semana anterior, la media móvil de los últimos 7 días para casos nuevos creció en '+str(variacion_nacional)+'% y la positividad en '+str(variacion_positividad)+'% a nivel nacional. Detalles a nivel regional en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
+            reply1_text = '🤖 En comparación con la semana anterior, la media móvil de los últimos 7 días para casos nuevos bajó en '+str(variacion_nacional)+'% y la positividad en '+str(variacion_positividad)+'% a nivel nacional. Detalles a nivel regional en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto75 y https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto49'
 
         elif variacion_nacional < 0 and variacion_positividad >= 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
