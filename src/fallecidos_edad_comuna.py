@@ -96,31 +96,37 @@ class p84:
         date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
         #print(date_list)
 
-        #vector con las variables
-        SE_comuna = self.last_added[columns_name[4]]
+
 
         kl = 0
 
         for edad in ['<=39','40-49','50-59','60-69','70-79','80-89','>=90']:
             if edad == '<=39':
                 df_edad = self.last_added[self.last_added['edad'] <= 39]
+                SE_comuna = self.last_added[columns_name[4]]
             if edad == '40-49':
                 df_edad = self.last_added[self.last_added['edad'] <= 49]
                 df_edad = df_edad[df_edad['edad'] >= 40]
+                SE_comuna = self.last_added[columns_name[4]]
             if edad == '50-59':
                 df_edad = self.last_added[self.last_added['edad'] <= 59]
                 df_edad = df_edad[df_edad['edad'] >= 50]
+                SE_comuna = self.last_added[columns_name[4]]
             if edad == '60-69':
                 df_edad = self.last_added[self.last_added['edad'] <= 69]
                 df_edad = df_edad[df_edad['edad'] >= 60]
+                SE_comuna = self.last_added[columns_name[4]]
             if edad == '70-79':
                 df_edad = self.last_added[self.last_added['edad'] <= 79]
                 df_edad = df_edad[df_edad['edad'] >= 70]
+                SE_comuna = self.last_added[columns_name[4]]
             if edad == '80-89':
                 df_edad = self.last_added[self.last_added['edad'] <= 89]
                 df_edad = df_edad[df_edad['edad'] >= 80]
+                SE_comuna = self.last_added[columns_name[4]]
             if edad == '>=90':
                 df_edad = self.last_added[self.last_added['edad'] >= 90]
+                SE_comuna = self.last_added[columns_name[4]]
 
             for k in [5,6,7]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
@@ -211,11 +217,21 @@ class p84:
 
             kl += 1
 
+        outputDF3_c.sort_values(by=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], inplace=True)
+        outputDF3_s.sort_values(by=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], inplace=True)
+        outputDF3_t.sort_values(by=['Region', 'Codigo region', 'Comuna', 'Codigo comuna'], inplace=True)
+        outputDF3_c.dropna(inplace=True)
+        outputDF3_s.dropna(inplace=True)
+        outputDF3_t.dropna(inplace=True)
+        outputDF3_c.drop(['Poblacion'], axis=1, inplace=True)
+        outputDF3_s.drop(['Poblacion'], axis=1, inplace=True)
+        outputDF3_t.drop(['Poblacion'], axis=1, inplace=True)
+
         name = self.output + '_confirmadas.csv'
         outputDF3_c.to_csv(name, index=False)
         outputDF3_c_T = outputDF3_c.T
         outputDF3_c_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion','Edad']
+        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Edad']
         variables = [x for x in outputDF3_c.columns if x not in identifiers]
         outputDF3_std = pd.melt(outputDF3_c, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
         outputDF3_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
@@ -224,7 +240,7 @@ class p84:
         outputDF3_s.to_csv(name, index=False)
         outputDF3_s_T = outputDF3_s.T
         outputDF3_s_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion','Edad']
+        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Edad']
         variables = [x for x in outputDF3_s.columns if x not in identifiers]
         outputDF3_std = pd.melt(outputDF3_s, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                                 value_name='Total')
@@ -234,7 +250,7 @@ class p84:
         outputDF3_t.to_csv(name, index=False)
         outputDF3_t_T = outputDF3_t.T
         outputDF3_t_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
-        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion','Edad']
+        identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Edad']
         variables = [x for x in outputDF3_t.columns if x not in identifiers]
         outputDF3_std = pd.melt(outputDF3_t, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
         outputDF3_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
