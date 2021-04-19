@@ -103,6 +103,7 @@ class p84:
         for edad in ['<=39','40-49','50-59','60-69','70-79','80-89','>=90']:
             if edad == '<=39':
                 df_edad = self.last_added[self.last_added['edad'] <= 39].copy()
+<<<<<<< HEAD
                 #SE_comuna = self.last_added[columns_name[4]]
                 SE_comuna = df_edad[columns_name[4]].copy()
             if edad == '40-49':
@@ -135,6 +136,32 @@ class p84:
                 #SE_comuna = self.last_added[columns_name[4]]
                 SE_comuna = df_edad[columns_name[4]].copy()
 
+=======
+                SE_comuna = df_edad[columns_name[4]]
+            if edad == '40-49':
+                df_edad = self.last_added[self.last_added['edad'] <= 49].copy()
+                df_edad = df_edad[df_edad['edad'] >= 40]
+                SE_comuna = df_edad[columns_name[4]]
+            if edad == '50-59':
+                df_edad = self.last_added[self.last_added['edad'] <= 59].copy()
+                df_edad = df_edad[df_edad['edad'] >= 50]
+                SE_comuna = df_edad[columns_name[4]]
+            if edad == '60-69':
+                df_edad = self.last_added[self.last_added['edad'] <= 69].copy()
+                df_edad = df_edad[df_edad['edad'] >= 60]
+                SE_comuna = df_edad[columns_name[4]]
+            if edad == '70-79':
+                df_edad = self.last_added[self.last_added['edad'] <= 79].copy()
+                df_edad = df_edad[df_edad['edad'] >= 70]
+                SE_comuna = df_edad[columns_name[4]]
+            if edad == '80-89':
+                df_edad = self.last_added[self.last_added['edad'] <= 89].copy()
+                df_edad = df_edad[df_edad['edad'] >= 80]
+                SE_comuna = df_edad[columns_name[4]]
+            if edad == '>=90':
+                df_edad = self.last_added[self.last_added['edad'] >= 90].copy()
+                SE_comuna = df_edad[columns_name[4]]
+>>>>>>> upstream/master
 
             for k in [5,6,7]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
