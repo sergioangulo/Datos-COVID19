@@ -874,52 +874,52 @@ class vacunacion:
             df_std.to_csv(self.output + '_std.csv', index=False)
 
 if __name__ == '__main__':
-    # print('Actualizamos campana de vacunacion por region')
-    # my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos total de vacunados por region y edad')
-    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos total de vacunados por sexo y edad')
-    # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
+    print('Actualizamos campana de vacunacion por region')
+    my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos total de vacunados por region y edad')
+    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos total de vacunados por sexo y edad')
+    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
     print('Actualizamos total de vacunados por grupo prioritario')
     my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por fabricante')
-    # my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por edad')
-    # my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por caracteristicas_del_vacunado')
-    # my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por comuna')
-    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por edad y comuna')
-    # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por establecimiento y fabricante')
-    # my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por fabricante')
+    my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por edad')
+    my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por caracteristicas_del_vacunado')
+    my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos camapaña de vacunación por comuna')
+    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos camapaña de vacunación por edad y comuna')
+    my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
+    print('Actualizamos camapaña de vacunación por establecimiento y fabricante')
+    my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
