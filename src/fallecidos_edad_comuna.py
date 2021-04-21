@@ -94,104 +94,102 @@ class p84:
         startdate = pd.to_datetime(minSE)
         date_list = pd.date_range(startdate, periods=lenSE).tolist()
         date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
-        #print(date_list)
 
+        def edad2rango(df,comuna):
+            cols = df.columns.tolist()
+            df2 = pd.DataFrame(columns = cols)
+            p = 0
+            for row in comuna:
+                aux = df.loc[df.index == row]
+                aux2 = aux.groupby(['Fecha defunciones']).sum()
+                aux2['Comuna'] = row
+                aux2.set_index(['Comuna'], inplace=True)
 
+                identifiers = ['Region', 'Codigo region', 'Codigo comuna', 'Fecha defunciones']
+                temp = aux[identifiers].copy()
+                temp.drop_duplicates(keep='first', inplace=True)
+                temp2 = pd.concat([temp,aux2], axis=1)
+
+                if p == 0:
+                    df2 = temp2
+                    p +=1
+                else:
+                    df2 = pd.concat([df2,temp2], axis=0)
+
+            return df2
 
         kl = 0
 
         for edad in ['<=39','40-49','50-59','60-69','70-79','80-89','>=90']:
             if edad == '<=39':
                 df_edad = self.last_added[self.last_added['edad'] <= 39].copy()
-                SE_comuna = df_edad[columns_name[4]]
             if edad == '40-49':
                 df_edad = self.last_added[self.last_added['edad'] <= 49].copy()
                 df_edad = df_edad[df_edad['edad'] >= 40]
-                SE_comuna = df_edad[columns_name[4]]
             if edad == '50-59':
                 df_edad = self.last_added[self.last_added['edad'] <= 59].copy()
                 df_edad = df_edad[df_edad['edad'] >= 50]
-                SE_comuna = df_edad[columns_name[4]]
             if edad == '60-69':
                 df_edad = self.last_added[self.last_added['edad'] <= 69].copy()
                 df_edad = df_edad[df_edad['edad'] >= 60]
-                SE_comuna = df_edad[columns_name[4]]
             if edad == '70-79':
                 df_edad = self.last_added[self.last_added['edad'] <= 79].copy()
                 df_edad = df_edad[df_edad['edad'] >= 70]
-                SE_comuna = df_edad[columns_name[4]]
             if edad == '80-89':
                 df_edad = self.last_added[self.last_added['edad'] <= 89].copy()
                 df_edad = df_edad[df_edad['edad'] >= 80]
-                SE_comuna = df_edad[columns_name[4]]
             if edad == '>=90':
                 df_edad = self.last_added[self.last_added['edad'] >= 90].copy()
-                SE_comuna = df_edad[columns_name[4]]
+
+            df_edad.drop(columns=['edad'], inplace=True)
+            df_edad.sort_values(by=['Fecha defunciones'], inplace=True)
+
+            df_edad2 = edad2rango(df_edad,comuna)
 
             for k in [5,6,7]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
                 dicts = {}
                 keys = range(lenSE)
-                # values = [i for i in range(lenSE)]
 
                 for i in keys:
                     dicts[i] = date_list[i]
 
                 df.rename(columns=dicts, inplace=True)
-                value_comuna = df_edad[columns_name[k]]
+                value_comuna = df_edad2[columns_name[k]].copy()
                 value_comuna.fillna(0,inplace=True)
-                i=0
-                for row in df_edad.index:
+                SE_comuna = df_edad2['Fecha defunciones'].copy()
+
+                j=0
+                for row in df_edad2.index:
                     idx = comuna.loc[comuna == row].index.values
                     if idx.size > 0:
-                        col = SE_comuna[i]
-                        df[col][idx] = value_comuna[i].astype(int)
+                        col = SE_comuna[j]
+                        df[col][idx] = value_comuna[j].astype(int)
 
-                    i += 1
-
+                    j += 1
 
                 df_output = pd.concat([Comp, df], axis=1)
                 df_output.drop(columns=['index'], axis=1, inplace=True)
+                df_output['Edad'] = str(edad)
 
-                nComunas = [len(list(group)) for key, group in groupby(df_output['Codigo region'])]
-
-                identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion']
+                identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Poblacion', 'Edad']
                 variables = [x for x in df_output.columns if x not in identifiers]
 
-                begRow = 0
+                cols = identifiers + variables
+                df_output = df_output[cols].copy()
 
-                for i in range(len(nComunas)):
+                i = 0
+                if i == 0:
+                    outputDF2 = df_output
+                    i += 1
+                else:
+                    outputDF2 = pd.concat([outputDF2, df_output], axis=0)
 
-                    endRow = begRow + nComunas[i]
+                outputDF2.reset_index(drop=True, inplace=True)
+                outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
 
-                    temp = df_output.iloc[begRow:endRow].copy()
-                    todrop = temp.loc[temp['Codigo region'] == '00']
-                    temp.drop(todrop.index, inplace=True)
-
-                    if i == 0:
-                        outputDF2 = temp
-                    else:
-                        outputDF2 = pd.concat([outputDF2, temp], axis=0)
-
-                    if i < len(nComunas) - 1:
-                        begRow = endRow
-
-                    outputDF2.reset_index(inplace=True)
-                    outputDF2.drop(columns=['index'], axis=1, inplace=True)
-                    outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
-
-                    #print(outputDF2.head(20))
-
-                    outputDF2.dropna(how='all', inplace=True)
-                    todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
-                    outputDF2.drop(todrop.index, inplace=True)
-
-                    outputDF2['Edad'] = str(edad)
-
-                    cols = identifiers + ['Edad'] + variables
-
-                    outputDF2 = outputDF2[cols].copy()
+                outputDF2.dropna(how='all', inplace=True)
 
                 if k == 5:
 
