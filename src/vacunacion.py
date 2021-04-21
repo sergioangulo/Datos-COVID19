@@ -124,6 +124,9 @@ class vacunacion:
             print('vacunacion por sexo por edad')
             self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_3.csv', sep=';', encoding='ISO-8859-1')
 
+            print('vacunacion por sexo por edad y FECHA')
+            self.last_edad_fecha = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_6.csv', sep=';', encoding='ISO-8859-1')
+
         elif self.indicador == 'vacunas_prioridad':
             print('reading files')
             print('vacunacion por grupos prioritarios')
@@ -395,6 +398,8 @@ class vacunacion:
 
 
         elif self.indicador == 'vacunas_edad_sexo':
+
+            #Por región, totales
             self.last_added.rename(columns={'NOMBRE_REGION': 'Region',
                                             'SEXO': 'Sexo',
                                             'EDAD_ANOS': 'Edad',
@@ -453,6 +458,15 @@ class vacunacion:
 
             df_std.to_csv(self.output + '_std.csv', index=False)
             df_std.to_json(self.output + '.json', orient='values', force_ascii=False)
+
+            # Por fecha, totales
+            self.last_edad_fecha.rename(columns={'FECHA_INMUNIZACION': 'Fecha',
+                                            'EDAD_ANOS': 'Edad',
+                                            'SUM_of_1aDOSIS': 'Primera',
+                                            'SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+            self.last_edad_fecha.sort_values(by=['Fecha', 'Edad'], inplace=True)
+
+
 
         elif self.indicador == 'vacunas_prioridad':
             self.last_added.rename(columns={'CRITERIO': 'Grupo',
