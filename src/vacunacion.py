@@ -462,10 +462,75 @@ class vacunacion:
             # Por fecha, totales
             self.last_edad_fecha.rename(columns={'FECHA_INMUNIZACION': 'Fecha',
                                             'EDAD_ANOS': 'Edad',
-                                            'SUM_of_1aDOSIS': 'Primera',
-                                            'SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+                                            'SUM_of_SUM_of_1aDOSIS': 'Primera',
+                                            'SUM_of_SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+            self.last_edad_fecha['Fecha'] = pd.to_datetime(self.last_edad_fecha['Fecha'], format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_edad_fecha.sort_values(by=['Fecha', 'Edad'], inplace=True)
+            self.last_edad_fecha.reset_index(drop=True,inplace=True)
+            self.last_edad_fecha.dropna(subset=['Fecha'],inplace=True)
+            columns_name = self.last_edad_fecha.columns.values
+            maxSE = self.last_edad_fecha[columns_name[0]].max()
+            minSE = self.last_edad_fecha[columns_name[0]].min()
 
+            print(minSE, maxSE)
+            lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
+            startdate = pd.to_datetime(minSE)
+            date_list = pd.date_range(startdate, periods=lenSE).tolist()
+            date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
+            print(date_list)
+            self.last_edad_fecha['Total'] = self.last_edad_fecha['Primera'].fillna(0) + self.last_edad_fecha['Segunda'].fillna(0)
+
+
+
+            for k in [2, 3, 4]:
+                edades = self.last_edad_fecha[columns_name[1]].unique()
+                edades = edades[~np.isnan(edades)]
+                edades = np.sort(edades)
+                df = pd.DataFrame(np.zeros((len(edades), lenSE)))
+                df.insert(0, 'Edad', edades)
+                df.set_index('Edad')
+                dicts = {}
+                keys = range(lenSE)
+
+                for i in keys:
+                    dicts[i] = date_list[i]
+
+                df.rename(columns=dicts, inplace=True)
+                for index, row in self.last_edad_fecha.iterrows():
+                    df[row['Fecha']][row['Edad']] = row[k]
+
+                if k == 2:
+                    name = '../output/producto78/vacunados_edad_fecha' + '_1eraDosis.csv'
+                    df.to_csv(name, index=False)
+                    dft = df.T
+                    dft.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Edad']
+                    variables = [x for x in df.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Primera Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                if k == 3:
+                    name = '../output/producto78/vacunados_edad_fecha' + '_2daDosis.csv'
+                    df.to_csv(name, index=False)
+                    dft = df.T
+                    dft.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Edad']
+                    variables = [x for x in df.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Segunda Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                if k == 4:
+                    name = '../output/producto78/vacunados_edad_fecha' + '_total.csv'
+                    df.to_csv(name, index=False)
+                    dft = df.T
+                    dft.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Edad']
+                    variables = [x for x in df.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Total vacunados')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
 
         elif self.indicador == 'vacunas_prioridad':
