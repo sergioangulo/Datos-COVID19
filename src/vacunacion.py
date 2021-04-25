@@ -488,7 +488,7 @@ class vacunacion:
                 edades = np.sort(edades)
                 df = pd.DataFrame(np.zeros((len(edades), lenSE)))
                 df.insert(0, 'Edad', edades)
-                df.set_index('Edad')
+                df.set_index('Edad',inplace=True)
                 dicts = {}
                 keys = range(lenSE)
 
@@ -498,6 +498,8 @@ class vacunacion:
                 df.rename(columns=dicts, inplace=True)
                 for index, row in self.last_edad_fecha.iterrows():
                     df[row['Fecha']][row['Edad']] = row[k]
+                df.reset_index(inplace=True)
+
 
                 if k == 2:
                     name = '../output/producto78/vacunados_edad_fecha' + '_1eraDosis.csv'
