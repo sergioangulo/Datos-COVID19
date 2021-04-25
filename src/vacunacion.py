@@ -777,9 +777,10 @@ class vacunacion:
             self.last_added.rename(columns={'NOMBRE_REGION': 'region_residencia',
                                             'COD_COMUNA': 'Codigo comuna',
                                             'EDAD_ANOS': 'Edad',
-                                            'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
-                                            'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna'}, inplace=True)
+                                            '1aDOSIS_RES': 'Segunda_comuna',
+                                            '2aDOSIS_RES': 'Primera_comuna'}, inplace=True)
             utils.regionDEISName(self.last_added)
+            self.last_added = self.last_added[['region_residencia','Codigo comuna','Edad','Primera_comuna','Segunda_comuna']]
 
             for k in range(len(self.last_added)):
                if self.last_added.loc[k, 'Codigo comuna'] != '':
@@ -806,7 +807,7 @@ class vacunacion:
 
             SE_comuna = self.last_added[columns_name[2]]
 
-            for k in [4,5]:
+            for k in [3,4]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
                 dicts = {}
@@ -877,7 +878,7 @@ class vacunacion:
                 outputDF2.drop(todrop.index, inplace=True)
 
 
-                if k == 4:
+                if k == 3:
                     name = self.output + '_1eraDosis.csv'
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
@@ -888,7 +889,7 @@ class vacunacion:
                     outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
                                             value_name='Primera Dosis')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
-                elif k == 5:
+                elif k == 4:
                     name = self.output +'_2daDosis.csv'
                     outputDF2.to_csv(name, index=False)
                     outputDF2_T = outputDF2.T
