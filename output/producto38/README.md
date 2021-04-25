@@ -3,6 +3,8 @@ Archivo que da cuenta del número de casos fallecidos en cada una de las comunas
 
 Se entiende por casos fallecidos a las muertes confirmadas debido a COVID-19 y que se encuentran debidamente registradas en la base de datos del Registro Civil e Identificación. Para estos casos, la comuna de residencia fue obtenida desde la plataforma EPIVIGILA, o bien, se asignó la comuna de circunscripción donde fue inscrita la defunción en los casos sin comuna de residencia.
 
+Este producto incluye casos probables y notificados por laboratorio, si se quiere un producto que considere los datos procesados por DEIS, y por ende mas estables se recomienda usar https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto61
+
 # Columnas y valores
 El archivo CasosFallecidosPorComuna.csv, contiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y una serie de columnas '[Fecha]', donde cada fecha tiene los 'Casos fallecidos' reportados en cada publicación de Epidemiología. El archivo CasosFallecidosPorComuna_T.csv es la versión traspuesta (serie de tiempo) del primer archivo. Todos estos valores están separados entre sí por comas (csv).
 
