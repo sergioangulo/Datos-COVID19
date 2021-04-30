@@ -559,7 +559,7 @@ class vacunacion:
                 df = df.append(df_grupo, ignore_index=True)
 
             new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
-                       'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
+                       'Primera', 'Segunda', 'Primera', 'Segunda']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for grupo in grupos[0]:
