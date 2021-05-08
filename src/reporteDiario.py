@@ -919,7 +919,7 @@ if __name__ == '__main__':
     prod36('../input/ReporteDiario/ResidenciasSanitarias.csv', '../output/producto36/ResidenciasSanitarias')
 
     print('Generando producto 44')
-    prod44('1ufPPKzzJeYMnctgtZRTBwTIAzz21IVvjrxXyERz-jg0','EgresosHospitalarios!1:999', '../output/producto44/EgresosHospitalarios')
+    prod44('1DDpWYoXIh4ideazb8kiSuikSNfkjMQm28i6QHR5Gp-I','EgresosHospitalarios!1:999', '../output/producto44/EgresosHospitalarios')
 
     print('Generando producto 49')
     prod49('../input/ReporteDiario/PCREstablecimiento.csv','../output/producto5/TotalesNacionales.csv', '../output/producto49/Positividad_Diaria_Media')
