@@ -22,6 +22,8 @@ Corresponde a un archivo .csv que contiene las siguientes variables:
 - **var_salidas:** estimación de la variación de movilidad hacia afuera de la comuna durante determinada semana, con respecto al nivel base. Corresponde al promedio entre **var_salidas_cota_superior** y **var_salidas_cota_inferior.**
 - **paso:** etapa del plan paso a paso en la que se encontró la comuna durante la mayor parte de la semana.
 
+## Notas
+ - Por problemas en la captación de datos, existen semanas que no están disponibles en el producto.
 ## Más información en:
 
 - [https://covidanalytics.isci.cl/movilidad/visor-movilidad/](https://covidanalytics.isci.cl/movilidad/visor-movilidad/)
