@@ -36,11 +36,11 @@ def check_mentions(api, keywords, since_id):
         'vacunacion2_dosis_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_2daDosis_T.csv',
     }
-    for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id).items():
+    for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id,tweet_mode='extended').items():
         new_since_id = max(tweet.id, new_since_id)
-        if tweet.in_reply_to_status_id is not None:
-            continue
-        texto = tweet.text.lower()
+        # if tweet.in_reply_to_status_id is not None:
+        #     continue
+        texto = tweet.full_text.lower()
         texto = texto.replace('ñ', 'n')
         texto = texto.replace('á', 'a')
         texto = texto.replace('é', 'e')
@@ -212,7 +212,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1385970215649939456
+    since_id = 1393741135877713921
     my_files = {
         'activos':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
