@@ -462,8 +462,8 @@ class vacunacion:
             # Por fecha, totales
             self.last_edad_fecha.rename(columns={'FECHA_INMUNIZACION': 'Fecha',
                                             'EDAD_ANOS': 'Edad',
-                                            'SUM_of_SUM_of_1aDOSIS': 'Primera',
-                                            'SUM_of_SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+                                            'SUM_of_1aDOSIS': 'Primera',
+                                            'SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
             self.last_edad_fecha['Fecha'] = pd.to_datetime(self.last_edad_fecha['Fecha'], format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_edad_fecha.sort_values(by=['Fecha', 'Edad'], inplace=True)
             self.last_edad_fecha.reset_index(drop=True,inplace=True)
