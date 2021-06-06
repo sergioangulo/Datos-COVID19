@@ -703,6 +703,17 @@ def prod7_8(fte, producto):
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
     df_std.to_csv(producto + '_std.csv', index=False)
 
+def prod87(fte, producto):
+    df = pd.read_csv(fte, dtype={'Codigo region': object})
+    regionName(df)
+    df = df.replace('-', '', regex=True)
+    df_t = df.T
+    df.to_csv(producto + '.csv', index=False)
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Region', 'Codigo region', 'Poblacion']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='fecha', value_name='numero')
+    df_std.to_csv(producto + '_std.csv', index=False)
 
 def prod9_10(fte, producto):
     copyfile(fte, producto + '.csv')
@@ -887,6 +898,9 @@ if __name__ == '__main__':
     #
     print('Generando producto 7')
     prod7_8('../input/ReporteDiario/PCR.csv', '../output/producto7/PCR')
+
+    print('Generando producto 87')
+    prod87('../input/ReporteDiario/Ag.csv', '../output/producto87/Ag')
 
     print('Generando producto 8')
     prod7_8('../input/ReporteDiario/UCI.csv', '../output/producto8/UCI')
