@@ -245,7 +245,8 @@ class vacunacion:
                                             'COD_COMUNA_FINAL': 'Comuna',
                                             'FECHA_INMUNIZACION': 'Fecha',
                                             'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
-                                            'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna'}, inplace=True)
+                                            'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
+                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_added.sort_values(by=['Region','Fecha'], inplace=True)
@@ -257,13 +258,14 @@ class vacunacion:
             ## agrupar por comuna
             self.last_added['Primera'] = self.last_added.groupby(['Region','Fecha'])['Primera_comuna'].transform('sum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region','Fecha'])['Segunda_comuna'].transform('sum')
-            self.last_added = self.last_added[['Region','Fecha','Primera','Segunda']]
+            self.last_added['Unica'] = self.last_added.groupby(['Region', 'Fecha'])['Unica_comuna'].transform('sum')
+            self.last_added = self.last_added[['Region','Fecha','Primera','Segunda','Unica']]
             self.last_added.drop_duplicates(inplace=True)
 
             ##llenar fechas para cada region y crear total
             idx = pd.date_range(self.last_added['Fecha'].min(), self.last_added['Fecha'].max())
             df = pd.DataFrame()
-            total = pd.DataFrame(columns=['Region','Fecha','Primera','Segunda'])
+            total = pd.DataFrame(columns=['Region','Fecha','Primera','Segunda','Unica'])
             total = utils.fill_in_missing_dates(total, 'Fecha', 0, idx)
             total["Region"] = total["Region"].replace({0: 'Total'})
             for region in regiones[0]:
@@ -272,6 +274,7 @@ class vacunacion:
                 df_region["Region"] = df_region["Region"].replace({0:region})
                 total['Primera'] = df_region['Primera'] + total['Primera']
                 total['Segunda'] = df_region['Segunda'] + total['Segunda']
+                total['Unica'] = df_region['Unica'] + total['Unica']
                 df = df.append(df_region, ignore_index=True)
             total = total.append(df,ignore_index=True)
             total['Fecha'] = total['Fecha'].dt.strftime("%Y-%m-%d")
@@ -280,8 +283,10 @@ class vacunacion:
             ##sumar totales
             self.last_added['Primera'] = pd.to_numeric(self.last_added['Primera'])
             self.last_added['Segunda'] = pd.to_numeric(self.last_added['Segunda'])
+            self.last_added['Unica'] = pd.to_numeric(self.last_added['Unica'])
             self.last_added['Primera'] = self.last_added.groupby(['Region'])['Primera'].transform('cumsum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region'])['Segunda'].transform('cumsum')
+            self.last_added['Unica'] = self.last_added.groupby(['Region'])['Unica'].transform('cumsum')
             #self.last_added['Total'] = self.last_added.sum(numeric_only=True, axis=1)
 
             ##transformar en input
@@ -290,16 +295,16 @@ class vacunacion:
             for region in regiones[0]:
                 df_region = self.last_added.loc[self.last_added['Region'] == region]
                 df_region.set_index('Fecha',inplace=True)
-                df_region = df_region[['Primera','Segunda']].T
+                df_region = df_region[['Primera','Segunda','Unica']].T
                 df_region.reset_index(drop=True, inplace=True)
                 df = df.append(df_region, ignore_index=True)
 
 
-            new_col = ['Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda','Primera', 'Segunda']
+            new_col = ['Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for region in regiones[0]:
-                col = [region,region]
+                col = [region,region,region]
                 new_col = new_col.append(col, ignore_index=True)
             df.insert(0, column='Region', value=new_col)
             self.last_added = df
@@ -960,48 +965,48 @@ if __name__ == '__main__':
     my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
-
-    print('Actualizamos total de vacunados por region y edad')
-    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos total de vacunados por sexo y edad')
-    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos total de vacunados por grupo prioritario')
-    my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por fabricante')
-    my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por edad')
-    my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por caracteristicas_del_vacunado')
-    my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por comuna')
-    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por edad y comuna')
-    my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por establecimiento y fabricante')
-    my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por region y edad')
+    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por sexo y edad')
+    # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por grupo prioritario')
+    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por fabricante')
+    # my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por edad')
+    # my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por caracteristicas_del_vacunado')
+    # my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por comuna')
+    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por edad y comuna')
+    # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por establecimiento y fabricante')
+    # my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
