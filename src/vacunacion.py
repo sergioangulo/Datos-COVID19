@@ -623,7 +623,8 @@ class vacunacion:
                                             'COD_COMUNA_FINAL': 'Codigo comuna',
                                             'FECHA_INMUNIZACION': 'Fecha',
                                             'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
-                                            'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna'}, inplace=True)
+                                            'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
+                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_added.sort_values(by=['region_residencia','Fecha'], inplace=True)
@@ -656,7 +657,7 @@ class vacunacion:
 
             SE_comuna = self.last_added[columns_name[2]]
 
-            for k in [3,4]:
+            for k in [3,4,5]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
                 dicts = {}
@@ -748,6 +749,18 @@ class vacunacion:
                     variables = [x for x in outputDF2.columns if x not in identifiers]
                     outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                                             value_name='Segunda Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                elif k == 5:
+                    name = self.output +'_UnicaDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'], inplace=True)
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Unica Dosis')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
         elif self.indicador == 'vacunas_comuna_edad':
@@ -961,10 +974,10 @@ class vacunacion:
             df_std.to_csv(self.output + '_std.csv', index=False)
 
 if __name__ == '__main__':
-    print('Actualizamos campana de vacunacion por region')
-    my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    # print('Actualizamos campana de vacunacion por region')
+    # my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
     #
     # print('Actualizamos total de vacunados por region y edad')
     # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
@@ -996,10 +1009,10 @@ if __name__ == '__main__':
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
     #
-    # print('Actualizamos camapaña de vacunación por comuna')
-    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
+    print('Actualizamos camapaña de vacunación por comuna')
+    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
     #
     # print('Actualizamos camapaña de vacunación por edad y comuna')
     # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
