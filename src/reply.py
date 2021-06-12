@@ -109,16 +109,16 @@ def check_mentions(api, keywords, since_id):
                 dfve1_T = dfve1_T[5:][n + 1]
                 dfve1_T = dfve1_T.astype(float)
                 v1 = int(dfve1_T.sum())
-                porcentaje1 = str(round(100*v1/tot))
+                porcentaje1 = str(min(100, round(100 * v1 / tot)))
 
-                # Porcentaje 2da dosis
+                # Porcentaje pauta completa
                 dfve2_T = dfve2_T[5:][n + 1]
                 dfve2_T = dfve2_T.astype(float)
                 v2 = int(dfve2_T.sum())
                 dfve3_T = dfve3_T[5:][n + 1]
                 dfve3_T = dfve3_T.astype(float)
                 v3 = int(dfve3_T.sum())
-                porcentaje2 = str(round(100 * (v2+v3) / tot))
+                porcentaje2 = str(min(100, round(100 * (v2 + v3) / tot)))
 
                 # Rolling mean last week
                 dfv1_T = dfv1_T[5:][n + 1]
@@ -200,16 +200,16 @@ def check_mentions(api, keywords, since_id):
                         dfve1_T = dfve1_T[5:][n + 1]
                         dfve1_T = dfve1_T.astype(float)
                         v1 = int(dfve1_T.sum())
-                        porcentaje1 = str(round(100 * v1 / tot))
+                        porcentaje1 = str(min(100,round(100 * v1 / tot)))
 
-                        # Porcentaje 2da dosis
+                        # Porcentaje pauta completa
                         dfve2_T = dfve2_T[5:][n + 1]
                         dfve2_T = dfve2_T.astype(float)
                         v2 = int(dfve2_T.sum())
                         dfve3_T = dfve3_T[5:][n + 1]
                         dfve3_T = dfve3_T.astype(float)
                         v3 = int(dfve3_T.sum())
-                        porcentaje2 = str(round(100 * (v2 + v3) / tot))
+                        porcentaje2 = str(min(100,round(100 * (v2+v3) / tot)))
 
                         # Rolling mean last week
                         dfv1_T = dfv1_T[5:][n + 1]
@@ -242,7 +242,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1403803769423474690
+    since_id = 1403812785805484035
     my_files = {
         'activos':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
