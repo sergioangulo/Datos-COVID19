@@ -146,6 +146,8 @@ def check_mentions(api, keywords, since_id):
 
             else:
                 for word in texto.lower().split():
+                    word = word.replace('@min_ciencia_ia ', '')
+                    word = word.replace(' @min_ciencia_ia', '')
                     if word in keywords:
                         logger.info(f"Answering to {tweet.user.name}")
                         # casos activos
@@ -227,7 +229,7 @@ def check_mentions(api, keywords, since_id):
                             reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(
                                 casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(
                                 variacion) + " más que en el informe anterior."
-                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
+                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + word + " esta semana 🦾."
                             update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                             api.update_status(status=reply2, in_reply_to_status_id=update.id)
                         else:
@@ -242,7 +244,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1403812785805484035
+    since_id = 1403840400553656321
     my_files = {
         'activos':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
