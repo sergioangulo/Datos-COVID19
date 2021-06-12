@@ -413,15 +413,16 @@ class vacunacion:
                                             'EDAD_ANOS': 'Edad',
                                             'POBLACION':'Poblacion',
                                             'SUM_of_1aDOSIS': 'Primera',
-                                            'SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+                                            'SUM_of_2aDOSIS': 'Segunda',
+                                            'SUM_of_ÚnicaDOSIS':'Unica'}, inplace=True)
             self.last_added.sort_values(by=['Sexo','Edad'], inplace=True)
-            self.last_added = self.last_added[['Sexo','Edad','Primera','Segunda']]
+            self.last_added = self.last_added[['Sexo','Edad','Primera','Segunda','Unica']]
             sexo = pd.DataFrame(self.last_added['Sexo'].unique())
 
             ##crear total
             df = pd.DataFrame()
             for sex in sexo[0]:
-                total = pd.DataFrame(columns=['Sexo', 'Edad', 'Primera', 'Segunda'])
+                total = pd.DataFrame(columns=['Sexo', 'Edad', 'Primera', 'Segunda','Unica'])
                 total['Edad'] = list(range(self.last_added.Edad.min(), self.last_added.Edad.max() + 1))
                 df_sex = self.last_added.loc[self.last_added['Sexo'] == sex]
                 df_sex.reset_index(drop=True, inplace=True)
@@ -430,6 +431,7 @@ class vacunacion:
                 total['Sexo'] = total.Sexo.fillna(sex)
                 total['Primera'] = total.Primera.fillna(0) + df_sex.Primera.fillna(0)
                 total['Segunda'] = total.Segunda.fillna(0) + df_sex.Segunda.fillna(0)
+                total['Unica'] = total.Unica.fillna(0) + df_sex.Unica.fillna(0)
                 df = df.append(total, ignore_index=True)
             self.last_added = df
 
@@ -439,15 +441,15 @@ class vacunacion:
             for sex in sexo[0]:
                 df_sex = self.last_added.loc[self.last_added['Sexo'] == sex]
                 df_sex.set_index('Edad', inplace=True)
-                df_sex = df_sex[['Primera', 'Segunda']].T
+                df_sex = df_sex[['Primera', 'Segunda','Unica']].T
                 df_sex.reset_index(drop=True, inplace=True)
                 df = df.append(df_sex, ignore_index=True)
 
-            new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda']
+            new_col = ['Primera', 'Segunda','Unica', 'Primera', 'Segunda','Unica', 'Primera', 'Segunda','Unica', 'Primera', 'Segunda','Unica']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for sex in sexo[0]:
-                col = [sex, sex]
+                col = [sex, sex,sex]
                 new_col = new_col.append(col, ignore_index=True)
             df.insert(0, column='Sexo', value=new_col)
             self.last_added = df
@@ -471,7 +473,8 @@ class vacunacion:
             self.last_edad_fecha.rename(columns={'FECHA_INMUNIZACION': 'Fecha',
                                             'EDAD_ANOS': 'Edad',
                                             'SUM_of_1aDOSIS': 'Primera',
-                                            'SUM_of_2aDOSIS': 'Segunda'}, inplace=True)
+                                            'SUM_of_2aDOSIS': 'Segunda',
+                                            'SUM_of_SUM_of_ÚnicaDOSIS': 'Unica'}, inplace=True)
             self.last_edad_fecha['Fecha'] = pd.to_datetime(self.last_edad_fecha['Fecha'], format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_edad_fecha.sort_values(by=['Fecha', 'Edad'], inplace=True)
             self.last_edad_fecha.reset_index(drop=True,inplace=True)
@@ -486,11 +489,11 @@ class vacunacion:
             date_list = pd.date_range(startdate, periods=lenSE).tolist()
             date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
             print(date_list)
-            self.last_edad_fecha['Total'] = self.last_edad_fecha['Primera'].fillna(0) + self.last_edad_fecha['Segunda'].fillna(0)
+            self.last_edad_fecha['Total'] = self.last_edad_fecha['Primera'].fillna(0) + self.last_edad_fecha['Segunda'].fillna(0) + self.last_edad_fecha['Unica'].fillna(0)
 
 
 
-            for k in [2, 3, 4]:
+            for k in [2, 3, 4,5]:
                 edades = self.last_edad_fecha[columns_name[1]].unique()
                 edades = edades[~np.isnan(edades)]
                 edades = np.sort(edades)
@@ -532,6 +535,17 @@ class vacunacion:
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
                 if k == 4:
+                    name = '../output/producto78/vacunados_edad_fecha' + '_UnicaDosis.csv'
+                    df.to_csv(name, index=False)
+                    dft = df.T
+                    dft.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Edad']
+                    variables = [x for x in df.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Unica Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                if k == 5:
                     name = '../output/producto78/vacunados_edad_fecha' + '_total.csv'
                     df.to_csv(name, index=False)
                     dft = df.T
@@ -982,15 +996,15 @@ if __name__ == '__main__':
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
     #
-    print('Actualizamos total de vacunados por region y edad')
-    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    # print('Actualizamos total de vacunados por sexo y edad')
-    # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    # print('Actualizamos total de vacunados por region y edad')
+    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
+
+    print('Actualizamos total de vacunados por sexo y edad')
+    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
     #
     # print('Actualizamos total de vacunados por grupo prioritario')
     # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
