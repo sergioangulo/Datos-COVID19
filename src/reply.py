@@ -29,12 +29,16 @@ def check_mentions(api, keywords, since_id):
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv',
         'vacunacion2_comuna_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_2daDosis_T.csv',
+        'vacunacion3_comuna_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_UnicaDosis_T.csv',
         'poblacion_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/poblacion_comuna_edad_T.csv',
         'vacunacion1_dosis_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_1eraDosis_T.csv',
         'vacunacion2_dosis_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_2daDosis_T.csv',
+        'vacunacion3_dosis_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_UnicaDosis_T.csv'
     }
     for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id,tweet_mode='extended').items():
         new_since_id = max(tweet.id, new_since_id)
@@ -78,6 +82,9 @@ def check_mentions(api, keywords, since_id):
                 content = requests.get(my_files['vacunacion2_comuna_t']).content
                 dfve2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
 
+                content = requests.get(my_files['vacunacion3_comuna_t']).content
+                dfve3_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
                 content = requests.get(my_files['poblacion_t']).content
                 dfvep_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
 
@@ -86,6 +93,9 @@ def check_mentions(api, keywords, since_id):
 
                 content = requests.get(my_files['vacunacion2_dosis_t']).content
                 dfv2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                content = requests.get(my_files['vacunacion3_dosis_t']).content
+                dfv3_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
 
                 dfve1["Comuna"] = dfve1["Comuna"].str.lower()
                 n = dfve1.index[dfve1['Comuna'] == comuna]
@@ -105,14 +115,19 @@ def check_mentions(api, keywords, since_id):
                 dfve2_T = dfve2_T[5:][n + 1]
                 dfve2_T = dfve2_T.astype(float)
                 v2 = int(dfve2_T.sum())
-                porcentaje2 = str(round(100 * v2 / tot))
+                dfve3_T = dfve3_T[5:][n + 1]
+                dfve3_T = dfve3_T.astype(float)
+                v3 = int(dfve3_T.sum())
+                porcentaje2 = str(round(100 * (v2+v3) / tot))
 
                 # Rolling mean last week
                 dfv1_T = dfv1_T[5:][n + 1]
                 dfv2_T = dfv2_T[5:][n + 1]
+                dfv3_T = dfv3_T[5:][n + 1]
                 dfv1_T = dfv1_T.astype(float)
                 dfv2_T = dfv2_T.astype(float)
-                dft = dfv1_T + dfv2_T
+                dfv3_T = dfv3_T.astype(float)
+                dft = dfv1_T + dfv2_T+dfv3_T
                 dft.reset_index(drop=True, inplace=True)
                 dft = dft.rolling(7).mean().round(4)
                 promedio = str(int(dft.iloc[dft.index.max() - 1][n + 1]))
@@ -120,12 +135,12 @@ def check_mentions(api, keywords, since_id):
 
                 if variacion > 0:
                     reply = "🤖Hola @" + tweet.user.screen_name + ". En " + comuna + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(variacion) + " más que en el informe anterior."
-                    reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene ambas dosis. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
+                    reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
                     update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                     api.update_status(status=reply2, in_reply_to_status_id=update.id)
                 else:
                     reply = "🤖Hola @" + tweet.user.screen_name + ". En " + comuna + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str((-1) * variacion) + " menos que en el informe anterior."
-                    reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene ambas dosis. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
+                    reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
                     update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                     api.update_status(status=reply2, in_reply_to_status_id=update.id)
 
@@ -133,7 +148,22 @@ def check_mentions(api, keywords, since_id):
                 for word in texto.lower().split():
                     if word in keywords:
                         logger.info(f"Answering to {tweet.user.name}")
-                        #vacunacion
+                        # casos activos
+
+                        content = requests.get(my_files['activos']).content
+                        df = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
+                        content = requests.get(my_files['activos_t']).content
+                        dfT = pd.read_csv(io.StringIO(content.decode('utf-8')))
+
+                        df["Comuna"] = df["Comuna"].str.lower()
+                        n = df.index[df['Comuna'] == word]
+                        casos_ultimo_informe = int(pd.to_numeric(dfT.iloc[dfT.index.max()][n + 1]))
+                        casos_informe_anterior = int(pd.to_numeric(dfT.iloc[dfT.index.max() - 1][n + 1]))
+                        variacion = casos_ultimo_informe - casos_informe_anterior
+                        fecha = dfT.iloc[dfT.index.max()][0]
+
+                        # vacunación
                         content = requests.get(my_files['vacunacion']).content
                         dfve1 = pd.read_csv(io.StringIO(content.decode('utf-8')))
 
@@ -143,6 +173,9 @@ def check_mentions(api, keywords, since_id):
                         content = requests.get(my_files['vacunacion2_comuna_t']).content
                         dfve2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
 
+                        content = requests.get(my_files['vacunacion3_comuna_t']).content
+                        dfve3_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
                         content = requests.get(my_files['poblacion_t']).content
                         dfvep_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
 
@@ -151,6 +184,9 @@ def check_mentions(api, keywords, since_id):
 
                         content = requests.get(my_files['vacunacion2_dosis_t']).content
                         dfv2_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
+
+                        content = requests.get(my_files['vacunacion3_dosis_t']).content
+                        dfv3_T = pd.read_csv(io.StringIO(content.decode('utf-8')), header=None)
 
                         dfve1["Comuna"] = dfve1["Comuna"].str.lower()
                         n = dfve1.index[dfve1['Comuna'] == word]
@@ -170,41 +206,35 @@ def check_mentions(api, keywords, since_id):
                         dfve2_T = dfve2_T[5:][n + 1]
                         dfve2_T = dfve2_T.astype(float)
                         v2 = int(dfve2_T.sum())
-                        porcentaje2 = str(round(100 * v2 / tot))
+                        dfve3_T = dfve3_T[5:][n + 1]
+                        dfve3_T = dfve3_T.astype(float)
+                        v3 = int(dfve3_T.sum())
+                        porcentaje2 = str(round(100 * (v2 + v3) / tot))
 
                         # Rolling mean last week
                         dfv1_T = dfv1_T[5:][n + 1]
                         dfv2_T = dfv2_T[5:][n + 1]
+                        dfv3_T = dfv3_T[5:][n + 1]
                         dfv1_T = dfv1_T.astype(float)
                         dfv2_T = dfv2_T.astype(float)
-                        dft = dfv1_T + dfv2_T
+                        dfv3_T = dfv3_T.astype(float)
+                        dft = dfv1_T + dfv2_T + dfv3_T
                         dft.reset_index(drop=True, inplace=True)
                         dft = dft.rolling(7).mean().round(4)
                         promedio = str(int(dft.iloc[dft.index.max() - 1][n + 1]))
 
-                        #casos activos
-
-                        content = requests.get(my_files['activos']).content
-                        df = pd.read_csv(io.StringIO(content.decode('utf-8')))
-
-                        content = requests.get(my_files['activos_t']).content
-                        dfT = pd.read_csv(io.StringIO(content.decode('utf-8')))
-
-                        df["Comuna"] = df["Comuna"].str.lower()
-                        n = df.index[df['Comuna'] == word]
-                        casos_ultimo_informe = int(pd.to_numeric(dfT.iloc[dfT.index.max()][n + 1]))
-                        casos_informe_anterior = int(pd.to_numeric(dfT.iloc[dfT.index.max()-1][n + 1]))
-                        variacion = casos_ultimo_informe - casos_informe_anterior
-                        fecha = dfT.iloc[dfT.index.max()][0]
                         if variacion > 0:
-                            reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(variacion) + " más que en el informe anterior."
-                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene ambas dosis. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + word + " esta semana 🦾."
+                            reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(
+                                casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(
+                                variacion) + " más que en el informe anterior."
+                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
                             update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                             api.update_status(status=reply2, in_reply_to_status_id=update.id)
-
                         else:
-                            reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str((-1) * variacion) + " menos que en el informe anterior."
-                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene ambas dosis. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + word + " esta semana 🦾."
+                            reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(
+                                casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(
+                                (-1) * variacion) + " menos que en el informe anterior."
+                            reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
                             update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
                             api.update_status(status=reply2, in_reply_to_status_id=update.id)
 
@@ -212,7 +242,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1402591419244625922
+    since_id = 1403803769423474690
     my_files = {
         'activos':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
@@ -224,12 +254,16 @@ def main(a,b,c,d):
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_1eraDosis_T.csv',
         'vacunacion2_comuna_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_2daDosis_T.csv',
+        'vacunacion3_comuna_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/vacunacion_comuna_edad_UnicaDosis_T.csv',
         'poblacion_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto81/poblacion_comuna_edad_T.csv',
         'vacunacion1_dosis_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_1eraDosis_T.csv',
         'vacunacion2_dosis_t':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_2daDosis_T.csv',
+        'vacunacion3_dosis_t':
+            'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto80/vacunacion_comuna_UnicaDosis_T.csv'
     }
     content = requests.get(my_files['activos']).content
     df = pd.read_csv(io.StringIO(content.decode('utf-8')))
