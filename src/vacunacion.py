@@ -334,7 +334,8 @@ class vacunacion:
                                             'EDAD_ANOS': 'Edad',
                                             'POBLACION':'Poblacion',
                                             '2aDOSIS_RES': 'Segunda_comuna',
-                                            '1aDOSIS_RES': 'Primera_comuna'}, inplace=True)
+                                            '1aDOSIS_RES': 'Primera_comuna',
+                                            'ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
             self.last_added.sort_values(by=['Region', 'Edad'], inplace=True)
             utils.regionName(self.last_added)
             regiones = pd.DataFrame(self.last_added['Region'].unique())
@@ -343,13 +344,14 @@ class vacunacion:
             ## agrupar por comuna
             self.last_added['Primera'] = self.last_added.groupby(['Region', 'Edad'])['Primera_comuna'].transform('sum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region', 'Edad'])['Segunda_comuna'].transform('sum')
+            self.last_added['Unica'] = self.last_added.groupby(['Region', 'Edad'])['Unica_comuna'].transform('sum')
             self.last_added['Poblacion'] = self.last_added.groupby(['Region','Edad'])['Poblacion'].transform('sum')
-            self.last_added = self.last_added[['Region', 'Edad', 'Poblacion','Primera', 'Segunda']]
+            self.last_added = self.last_added[['Region', 'Edad', 'Poblacion','Primera', 'Segunda','Unica']]
             self.last_added.drop_duplicates(inplace=True)
 
             ##crear total
             df = pd.DataFrame()
-            total = pd.DataFrame(columns=['Region', 'Edad','Poblacion','Primera', 'Segunda'])
+            total = pd.DataFrame(columns=['Region', 'Edad','Poblacion','Primera', 'Segunda','Unica'])
             total['Edad'] = list(range(15, 81))
             total["Region"] = total["Region"].fillna('Total')
             for region in regiones[0]:
@@ -357,6 +359,7 @@ class vacunacion:
                 df_region.reset_index(drop=True, inplace=True)
                 total['Primera'] = total.Primera.fillna(0) + df_region.Primera.fillna(0)
                 total['Segunda'] = total.Segunda.fillna(0) + df_region.Segunda.fillna(0)
+                total['Unica'] = total.Unica.fillna(0) + df_region.Unica.fillna(0)
                 total['Poblacion'] = total.Poblacion.fillna(0) + df_region.Poblacion.fillna(0)
                 df = df.append(df_region, ignore_index=True)
             edad = total
@@ -369,19 +372,19 @@ class vacunacion:
             for region in regiones[0]:
                 df_region = self.last_added.loc[self.last_added['Region'] == region]
                 df_region.set_index('Edad', inplace=True)
-                df_region = df_region[['Primera', 'Segunda']].T
+                df_region = df_region[['Primera', 'Segunda','Unica']].T
                 df_region.reset_index(drop=True, inplace=True)
                 df = df.append(df_region, ignore_index=True)
 
-            new_col = ['Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
-                       'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
-                       'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
-                       'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda', 'Primera', 'Segunda',
-                       'Primera', 'Segunda', 'Primera', 'Segunda']
+            new_col = ['Primera', 'Segunda', 'Unica','Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
+                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
+                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
+                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
+                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for region in regiones[0]:
-                col = [region, region]
+                col = [region, region,region]
                 new_col = new_col.append(col, ignore_index=True)
             df.insert(0, column='Region', value=new_col)
             self.last_added = df
@@ -979,11 +982,11 @@ if __name__ == '__main__':
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
     #
-    # print('Actualizamos total de vacunados por region y edad')
-    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
+    print('Actualizamos total de vacunados por region y edad')
+    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
+    my_vacunas.get_last()
+    my_vacunas.last_to_csv()
+
     # print('Actualizamos total de vacunados por sexo y edad')
     # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
     # my_vacunas.get_last()
@@ -1009,10 +1012,10 @@ if __name__ == '__main__':
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
     #
-    print('Actualizamos camapaña de vacunación por comuna')
-    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    # print('Actualizamos camapaña de vacunación por comuna')
+    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
     #
     # print('Actualizamos camapaña de vacunación por edad y comuna')
     # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
