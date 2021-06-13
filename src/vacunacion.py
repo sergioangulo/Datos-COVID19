@@ -674,6 +674,30 @@ class vacunacion:
 
             SE_comuna = self.last_added[columns_name[2]]
 
+            def edad2rango(df, comuna):
+                cols = df.columns.tolist()
+                df2 = pd.DataFrame(columns=cols)
+                p = 0
+                for row in comuna:
+                    aux = df.loc[df.index == row]
+                    aux2 = aux.groupby(['Fecha']).sum()
+                    aux2['Comuna'] = row
+                    aux2.set_index(['Comuna'], inplace=True)
+
+                    identifiers = ['region_residencia', 'Codigo comuna', 'Fecha']
+                    temp = aux[identifiers].copy()
+                    temp.drop_duplicates(keep='first', inplace=True)
+                    temp2 = pd.concat([temp, aux2], axis=1)
+
+                    if p == 0:
+                        df2 = temp2
+                        p += 1
+                    else:
+                        df2 = pd.concat([df2, temp2], axis=0)
+
+                return df2
+
+            dfv = edad2rango(self.last_added, comuna)
             for k in [3,4,5]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
@@ -685,14 +709,16 @@ class vacunacion:
                     dicts[i] = date_list[i]
 
                 df.rename(columns=dicts, inplace=True)
-                value_comuna = self.last_added[columns_name[k]]
+                value_comuna = dfv[columns_name[k]]
                 value_comuna.fillna(0,inplace=True)
+                SE_comuna = dfv['Fecha'].copy()
                 i=0
-                for row in self.last_added.index:
+                for row in dfv.index:
                     idx = comuna.loc[comuna == row].index.values
                     if idx.size > 0:
                         col = SE_comuna[i]
                         df[col][idx] = value_comuna[i].astype(int)
+
 
                     i += 1
 
