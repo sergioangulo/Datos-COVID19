@@ -139,7 +139,12 @@ class vacunacion:
 
         elif self.indicador == 'vacunas_establecimiento':
             print('reading files')
-            print('vacunacion por establecimiento y fabricante')
+            print('vacunacion por establecimiento')
+            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7.csv', sep=';', encoding='ISO-8859-1')
+
+        elif self.indicador == 'vacunas_fabricante':
+            print('reading files')
+            print('vacunacion por fabricante y fecha')
             self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7.csv', sep=';', encoding='ISO-8859-1')
 
 
@@ -404,7 +409,6 @@ class vacunacion:
             df_std.to_csv(self.output + '_std.csv', index=False)
             df_std.to_json(self.output + '.json',orient='values',force_ascii=False)
 
-
         elif self.indicador == 'vacunas_edad_sexo':
 
             #Por región, totales
@@ -555,7 +559,6 @@ class vacunacion:
                     outputDF2_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                                             value_name='Total vacunados')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
-
 
         elif self.indicador == 'vacunas_prioridad':
             self.last_added.rename(columns={'CRITERIO': 'Grupo',
@@ -978,8 +981,9 @@ class vacunacion:
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
         elif self.indicador == 'vacunas_establecimiento':
+            #por establecimiento
             self.last_added.rename(columns={'NOMBRE_ESTAB': 'Establecimiento',
-                                           'FECHA_INMUNIZACION':'Fecha',
+                                            'FECHA_INMUNIZACION':'Fecha',
                                            'SUM_of_2aDOSIS': 'Segunda_comuna',
                                            'SUM_of_1aDOSIS': 'Primera_comuna',
                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
@@ -1032,53 +1036,215 @@ class vacunacion:
 
             df_std.to_csv(self.output + '_std.csv', index=False)
 
+        elif self.indicador == 'vacunas_fabricante':
+
+            # por fabricante y fecha
+            self.last_added.rename(columns={'Laboratorio': 'Fabricante',
+                                            'FECHA_INMUNIZACION': 'Fecha',
+                                            'SUM_of_2aDOSIS': 'Segunda_comuna',
+                                            'SUM_of_1aDOSIS': 'Primera_comuna',
+                                            'SUM_of_ÚnicaDOSIS': 'Unica_comuna'}, inplace=True)
+            self.last_added = self.last_added.dropna(subset=['Fecha'])
+            self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'], format='%d/%m/%Y').dt.strftime(
+                "%Y-%m-%d")
+            self.last_added.sort_values(by=['Fabricante', 'Fecha'], inplace=True)
+            self.last_added = self.last_added.dropna(subset=['Fecha'])
+            fabricantes = pd.DataFrame(self.last_added['Fabricante'].unique())
+
+            # transformar
+            ## agrupar
+            self.last_added['Primera'] = self.last_added.groupby(['Fabricante', 'Fecha'])[
+                'Primera_comuna'].transform('sum')
+            self.last_added['Segunda'] = self.last_added.groupby(['Fabricante', 'Fecha'])[
+                'Segunda_comuna'].transform('sum')
+            self.last_added['Unica'] = self.last_added.groupby(['Fabricante', 'Fecha'])[
+                'Unica_comuna'].transform('sum')
+            self.last_added = self.last_added[['Fabricante', 'Fecha', 'Primera_comuna','Segunda_comuna','Unica_comuna']]
+            self.last_added.drop_duplicates(inplace=True)
+
+            # ##llenar fechas para cada region y crear total
+            # idx = pd.date_range(self.last_added['Fecha'].min(), self.last_added['Fecha'].max())
+            # df = pd.DataFrame()
+            # total = pd.DataFrame(columns=['Establecimiento', 'Fecha', 'Personas_vacunadas'])
+            # total = utils.fill_in_missing_dates(total, 'Fecha', 0, idx)
+            # total["Establecimiento"] = total["Establecimiento"].replace({0: 'Total'})
+            # for fab in fabricantes[0]:
+            #     df_fab = self.last_added.loc[self.last_added['Fabricante'] == fab]
+            #     df_fab = utils.fill_in_missing_dates(df_fab, 'Fecha', 0, idx)
+            #     df_fab["Fabricante"] = df_fab["Fabricante"].replace(
+            #         {0: fab})
+            #     total['Personas_vacunadas'] = df_establecimiento['Personas_vacunadas'] + total['Personas_vacunadas']
+            #     df = df.append(df_establecimiento, ignore_index=True)
+            # total = total.append(df, ignore_index=True)
+            # total['Fecha'] = total['Fecha'].dt.strftime("%Y-%m-%d")
+            # self.last_added = total
+            #
+            # ##transformar en input
+            #
+            # identifiers = ['Establecimiento', 'Fecha']
+            # variables = [x for x in self.last_added.columns if x not in identifiers]
+            #
+            # self.last_added = self.last_added[identifiers + variables]
+            # self.last_added.to_csv(self.output + '.csv', index=False)
+            #
+            # df_t = self.last_added.T
+            # df_t.to_csv(self.output + '_t.csv', header=False)
+            #
+            # df_std = pd.melt(self.last_added, id_vars=identifiers, value_vars=variables, var_name=['Dosis'],
+            #                  value_name='Cantidad')
+            #
+            # df_std.to_csv(self.output + '_std.csv', index=False)
+
+            columns_name = self.last_added.columns.values
+
+            maxSE = self.last_added[columns_name[1]].max()
+            minSE = self.last_added[columns_name[1]].min()
+
+            print(minSE, maxSE)
+            lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
+            startdate = pd.to_datetime(minSE)
+            date_list = pd.date_range(startdate, periods=lenSE).tolist()
+            date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
+            print(date_list)
+
+            def edad2rango(df, fab):
+                cols = df.columns.tolist()
+                df2 = pd.DataFrame(columns=cols)
+                p = 0
+                for row in fab:
+                    aux = df.loc[df.index == row]
+                    aux2 = aux.groupby(['Fecha']).sum()
+                    aux2['Fabricante'] = row
+                    aux2.set_index(['Fabricante'], inplace=True)
+
+                    identifiers = ['Fecha']
+                    temp = aux[identifiers].copy()
+                    temp.drop_duplicates(keep='first', inplace=True)
+                    temp2 = pd.concat([temp, aux2], axis=1)
+
+                    if p == 0:
+                        df2 = temp2
+                        p += 1
+                    else:
+                        df2 = pd.concat([df2, temp2], axis=0)
+
+                return df2
+
+            dfv = edad2rango(self.last_added, fabricantes)
+
+            for k in [2,3,4]:
+                df = pd.DataFrame(np.zeros((len(fabricantes), lenSE)))
+
+                dicts = {}
+                keys = range(lenSE)
+                # values = [i for i in range(lenSE)]
+
+                for i in keys:
+                    dicts[i] = date_list[i]
+
+                df.rename(columns=dicts, inplace=True)
+                value_comuna = dfv[columns_name[k]]
+                value_comuna.fillna(0,inplace=True)
+                SE_comuna = dfv['Fecha'].copy()
+                i=0
+                for row in dfv.index:
+                    idx = comuna.loc[comuna == row].index.values
+                    if idx.size > 0:
+                        col = SE_comuna[i]
+                        df[col][idx] = value_comuna[i].astype(int)
+
+
+                    i += 1
+
+
+                df_outputDF2 = df
+                df_outputDF2.drop(columns=['index'], axis=1, inplace=True)
+
+
+                if k == 1:
+                    name = '../output/producto83/vacunacion_fabricantes_1eraDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Fabricante']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Primera Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+                elif k == 2:
+                    name = '../output/producto83/vacunacion_fabricantes_2daDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Fabricante']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Segunda Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                elif k == 3:
+                    name = '../output/producto83/vacunacion_fabricantes_UnicaDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Fabricante']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Unica Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
 if __name__ == '__main__':
-    print('Actualizamos campana de vacunacion por region')
-    my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    # print('Actualizamos campana de vacunacion por region')
+    # my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por region y edad')
+    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por sexo y edad')
+    # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por grupo prioritario')
+    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por fabricante')
+    # my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por edad')
+    # my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por caracteristicas_del_vacunado')
+    # my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por comuna')
+    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por edad y comuna')
+    # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
 
-    print('Actualizamos total de vacunados por region y edad')
-    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    # print('Actualizamos camapaña de vacunación por establecimiento')
+    # my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
 
-    print('Actualizamos total de vacunados por sexo y edad')
-    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos total de vacunados por grupo prioritario')
-    my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por fabricante')
-    my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por edad')
-    my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por caracteristicas_del_vacunado')
-    my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por comuna')
-    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por edad y comuna')
-    my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por establecimiento y fabricante')
-    my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
+    print('Actualizamos camapaña de vacunación por fabricante y fecha')
+    my_vacunas = vacunacion('../output/producto83/vacunacion_fabricantes', 'vacunas_fabricante')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
