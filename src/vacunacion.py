@@ -1058,7 +1058,7 @@ class vacunacion:
                 'Segunda_comuna'].transform('sum')
             self.last_added['Unica'] = self.last_added.groupby(['Fabricante', 'Fecha'])[
                 'Unica_comuna'].transform('sum')
-            self.last_added = self.last_added[['Fabricante', 'Fecha', 'Primera_comuna','Segunda_comuna','Unica_comuna']]
+            self.last_added = self.last_added[['Fabricante', 'Fecha', 'Primera','Segunda','Unica']]
             self.last_added.drop_duplicates(inplace=True)
 
             # ##llenar fechas para cada region y crear total
@@ -1160,6 +1160,7 @@ class vacunacion:
 
                 df_output = pd.concat([fabricantes[0], df], axis=1)
                 df_output.rename(columns = {0: 'Fabricante'}, inplace = True)
+                df_output.replace('Campaña SARS-CoV-2 (CanSino)','CanSino', inplace=True)
                 outputDF2 = df_output
 
                 if k == 2:
