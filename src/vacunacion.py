@@ -1160,6 +1160,7 @@ class vacunacion:
 
                 df_output = pd.concat([fabricantes[0], df], axis=1)
                 df_output.rename(columns = {0: 'Fabricante'}, inplace = True)
+                df_output.replace('Campaña SARS-CoV-2 (CanSino)','CanSino', inplace=True)
                 outputDF2 = df_output
 
                 if k == 2:
