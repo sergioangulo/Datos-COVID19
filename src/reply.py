@@ -136,14 +136,23 @@ def check_mentions(api, keywords, since_id):
                 if variacion > 0:
                     reply = "🤖Hola @" + tweet.user.screen_name + ". En " + comuna + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(variacion) + " más que en el informe anterior."
                     reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
-                    update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
-                    api.update_status(status=reply2, in_reply_to_status_id=update.id)
+                    try:
+                        update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                        api.update_status(status=reply2, in_reply_to_status_id=update.id)
+                    except tweepy.TweepError as error:
+                        if error.api_code == 187:
+                            # Do something special
+                            print('duplicate message')
                 else:
                     reply = "🤖Hola @" + tweet.user.screen_name + ". En " + comuna + " los casos activos de Covid19 son " + str(casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str((-1) * variacion) + " menos que en el informe anterior."
                     reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
-                    update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
-                    api.update_status(status=reply2, in_reply_to_status_id=update.id)
-
+                    try:
+                        update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                        api.update_status(status=reply2, in_reply_to_status_id=update.id)
+                    except tweepy.TweepError as error:
+                        if error.api_code == 187:
+                            # Do something special
+                            print('duplicate message')
             else:
                 if tweet.in_reply_to_screen_name == 'min_ciencia_IA':
                     return new_since_id
@@ -233,21 +242,30 @@ def check_mentions(api, keywords, since_id):
                                     casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(
                                     variacion) + " más que en el informe anterior."
                                 reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + word + " esta semana 🦾."
-                                update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
-                                api.update_status(status=reply2, in_reply_to_status_id=update.id)
+                                try:
+                                    update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                                    api.update_status(status=reply2, in_reply_to_status_id=update.id)
+                                except tweepy.TweepError as error:
+                                    if error.api_code == 187:
+                                        # Do something special
+                                        print('duplicate message')
                             else:
                                 reply = "🤖Hola @" + tweet.user.screen_name + ". En " + word + " los casos activos de Covid19 son " + str(
                                     casos_ultimo_informe) + " según mis registros en base al último informe epidemiológico del @ministeriosalud (" + fecha + "), " + str(
                                     (-1) * variacion) + " menos que en el informe anterior."
                                 reply2 = "🤖Además, acorde a la información de la campaña #YoMeVacuno ✌️, un " + porcentaje1 + "% de la población objetivo tiene su primera dosis, y un " + porcentaje2 + "% tiene pauta completa. Un promedio diario de " + promedio + " personas han recibido su vacuna en " + comuna + " esta semana 🦾."
-                                update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
-                                api.update_status(status=reply2, in_reply_to_status_id=update.id)
-
+                                try:
+                                    update = api.update_status(status=reply, in_reply_to_status_id=tweet.id)
+                                    api.update_status(status=reply2, in_reply_to_status_id=update.id)
+                                except tweepy.TweepError as error:
+                                    if error.api_code == 187:
+                                        # Do something special
+                                        print('duplicate message')
     return new_since_id
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1404677468989108230
+    since_id = 1405614869995470855
     my_files = {
         'activos':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
