@@ -265,7 +265,7 @@ def check_mentions(api, keywords, since_id):
 
 def main(a,b,c,d):
     api = create_api(a,b,c,d)
-    since_id = 1405614869995470855
+    since_id = 1406449803110895624
     my_files = {
         'activos':
             'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto19/CasosActivosPorComuna.csv',
