@@ -104,53 +104,75 @@ class vacunacion:
             print('vacunacion_grupo')
             self.last_added = pd.read_csv('../input/Vacunacion/vacunacion_grupo.csv')
 
+
         elif self.indicador == 'vacunas_region':
             print('reading files')
             print('vacunacion por region por dia')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_1.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_1.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_1_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
+
 
         elif self.indicador == 'vacunas_comuna':
             print('reading files')
             print('vacunacion por comuna por dia')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_1.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_1.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_1_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_edad_region':
             print('reading files')
             print('vacunacion por region por edad')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_edad_sexo':
             print('reading files')
             print('vacunacion por sexo por edad')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_3.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_3.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_3_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
             print('vacunacion por sexo por edad y FECHA')
-            self.last_edad_fecha = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_6.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_6.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_6_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_prioridad':
             print('reading files')
             print('vacunacion por grupos prioritarios')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_comuna_edad':
             print('reading files')
             print('vacunacion por comuna por edad')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_establecimiento':
             print('reading files')
             print('vacunacion por establecimiento')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_fabricante':
             print('reading files')
             print('vacunacion por fabricante y fecha')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_7_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_fabricante_edad':
             print('reading files')
             print('vacunacion por fabricante y edad')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_9.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_9.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_9_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
 
 
