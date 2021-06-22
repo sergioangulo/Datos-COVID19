@@ -848,15 +848,15 @@ def prod44(fte,fte2,producto):
                          value_name='Egresos')
         df_std.to_csv(producto + '_std.csv', index=False)
 
-def prod49(fte, fte2, producto):
+def prod49(fte,fte3, fte2, producto):
     # massage casos nuevos diarios
     df2 = pd.read_csv(fte2, header=None).T
     df2 = df2[[0, 7,19]]
     df2 = df2[1:]
-    df2.rename(columns={0: 'Fecha', 7: 'casos'}, inplace=True)
+    df2.rename(columns={0: 'Fecha', 7: 'casos',19:'casos ag'}, inplace=True)
     df2.fillna(0,inplace=True)
-    df2['casos'] = pd.to_numeric(df2['casos'])-pd.to_numeric(df2[19])
-    df2 = df2[['Fecha','casos']]
+    df2['casos pcr'] = pd.to_numeric(df2['casos'])-pd.to_numeric(df2['casos ag'])
+    df2 = df2[['Fecha','casos pcr','casos ag']]
 
     # massage tests diarios
     df = pd.read_csv(fte, header=None).T
@@ -864,12 +864,19 @@ def prod49(fte, fte2, producto):
     df = df[2:]
     df.rename(columns={0: 'Fecha', 8: 'pcr'}, inplace=True)
 
+    df1 = pd.read_csv(fte3, header=None).T
+    df1 = df1[3:]
+    df1['Ag'] = pd.to_numeric(df1[1]) + pd.to_numeric(df1[2])+pd.to_numeric(df1[3])+pd.to_numeric(df1[4])+pd.to_numeric(df1[5])+pd.to_numeric(df1[6])+pd.to_numeric(df1[7])+pd.to_numeric(df1[8])+pd.to_numeric(df1[9])+pd.to_numeric(df1[10])+pd.to_numeric(df1[11])+pd.to_numeric(df1[12])+pd.to_numeric(df1[13])+pd.to_numeric(df1[14])+pd.to_numeric(df1[15])+pd.to_numeric(df1[16])
+    df1 = df1[[0, 'Ag']]
+    df1.rename(columns={0: 'Fecha', 8: 'Ag'}, inplace=True)
+
+    # pcr
     # positividad
     positividad = pd.merge(df, df2, on='Fecha', how='left')
-    positividad['positividad'] = positividad['casos'].astype(float).div(positividad['pcr'].astype(float)).round(4)
+    positividad['positividad pcr'] = positividad['casos pcr'].astype(float).div(positividad['pcr'].astype(float)).round(4)
 
     # moving average
-    positividad['mediamovil_positividad'] = positividad['positividad'].rolling(7).mean().round(4)
+    positividad['mediamovil_positividad_pcr'] = positividad['positividad pcr'].rolling(7).mean().round(4)
 
     #write
     positividad.index = positividad['Fecha']
@@ -881,8 +888,22 @@ def prod49(fte, fte2, producto):
     #print(df_std.to_string())
     df_std.to_csv(producto + '_std.csv', index=False)
 
+    # Ag
+    # positividad
+    positividad = pd.merge(df1, df2, on='Fecha', how='left')
+    positividad['positividad ag'] = positividad['casos ag'].astype(float).div(positividad['Ag'].astype(float)).round(4)
 
+    # moving average
+    positividad['mediamovil_positividad_ag'] = positividad['positividad ag'].rolling(7).mean().round(4)
 
+    # write
+    positividad.index = positividad['Fecha']
+    positividad.to_csv(producto + '_Ag_T.csv', header=True, index=False)
+    positividad.T.to_csv(producto + '_Ag.csv', header=False, index=True)
+
+    df_std = pd.melt(positividad, id_vars=['Fecha'], value_name='Total', var_name='Serie')
+    # print(df_std.to_string())
+    df_std.to_csv(producto + '_Ag_std.csv', index=False)
 
 if __name__ == '__main__':
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
@@ -936,4 +957,4 @@ if __name__ == '__main__':
     prod44('1DDpWYoXIh4ideazb8kiSuikSNfkjMQm28i6QHR5Gp-I','EgresosHospitalarios!1:999', '../output/producto44/EgresosHospitalarios')
 
     print('Generando producto 49')
-    prod49('../input/ReporteDiario/PCREstablecimiento.csv','../output/producto5/TotalesNacionales.csv', '../output/producto49/Positividad_Diaria_Media')
+    prod49('../input/ReporteDiario/PCREstablecimiento.csv','../input/ReporteDiario/Ag.csv','../output/producto5/TotalesNacionales.csv', '../output/producto49/Positividad_Diaria_Media')
