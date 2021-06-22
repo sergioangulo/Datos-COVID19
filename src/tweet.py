@@ -36,6 +36,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
     # tweet
     if carrier == 'reportediario':
         my_positividad = pd.read_csv('../output/producto49/Positividad_Diaria_Media_T.csv')
+        my_positividad_ag = pd.read_csv('../output/producto49/Positividad_Diaria_Media_Ag_T.csv')
         my_mediamovil = pd.read_csv('../output/producto75/MediaMovil_casos_nuevos_T.csv')
         my_casos_nuevos_totales = pd.read_csv('../output/producto5/TotalesNacionales_T.csv')
         casos_nuevos_totales = int(pd.to_numeric(my_casos_nuevos_totales.iloc[my_casos_nuevos_totales.index.max()][7]))
@@ -43,19 +44,22 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         mediamovil_nacional = int(pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]))
         variacion_nacional = float(100*(pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]) - pd.to_numeric(
             my_mediamovil.iloc[my_mediamovil.index.max() - 7][17]))/pd.to_numeric(my_mediamovil.iloc[my_mediamovil.index.max()][17]))
-        positividad_nacional = float(100*pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
-        variacion_positividad = float(100*(pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]) - pd.to_numeric(
-            my_positividad.iloc[my_positividad.index.max() - 7][4]))/pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
+        positividad_nacional = float(100*pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][5]))
+        variacion_positividad = float(100*(pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][5]) - pd.to_numeric(
+            my_positividad.iloc[my_positividad.index.max() - 7][5]))/pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][5]))
         positividad_nacional = ("%.2f" % positividad_nacional)
-        positividad = float(100*pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][3]))
+        positividad = float(100*pd.to_numeric(my_positividad.iloc[my_positividad.index.max()][4]))
         positividad_hoy = ("%.2f" % positividad)
         casos_nuevos = str(int(my_positividad.iloc[my_positividad.index.max()][2]))
         muestras = str(int(my_positividad.iloc[my_positividad.index.max()][1]))
+        tests_antigeno = str(int(my_positividad_ag.iloc[my_positividad_ag.index.max()][1]))
+        positividad_ag = float(100 * pd.to_numeric(my_positividad_ag.iloc[my_positividad_ag.index.max()][4]))
+        positividad_ag_hoy = ("%.2f" % positividad_ag)
 
         # create update elements
         tweet_text = '🤖Actualicé el reporte diario del @ministeriosalud de hoy 💫 Gracias a la Subsecretaría de Salud Pública y de Redes Asistenciales. Hay '+str(mediamovil_nacional)+' casos nuevos promedio en los últimos 7 días, con positividad de '+str(positividad_nacional)+'%. Más detalles en los productos en la imagen.  https://github.com/MinCiencia/Datos-COVID19'
         reply2_text = '🤖El total de casos confirmados hoy es '+str(casos_nuevos_totales)+', de los cuales '+str(casos_nuevos_antigeno)+' fueron confirmados con test de antígeno y '+casos_nuevos+' con PCR+. De las '+muestras+' muestras que se analizaron en las últimas 24 horas en laboratorios nacionales, un '+positividad_hoy+'% resultó positivo.'
-
+        reply3_text = '🤖Además, de los '+str(tests_antigeno)+ ' tests de antígeno realizados en el territorio nacional durante las últimas 24h, un '+positividad_ag_hoy+'% resultó positivo.'
         if variacion_nacional >= 0 and variacion_positividad >= 0:
             variacion_nacional = ("%.2f" % variacion_nacional)
             variacion_positividad = ("%.2f" % variacion_positividad)
@@ -86,6 +90,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
         tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
         tweet3 = my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
+        tweet3 = my_api.update_status(status=reply3_text, in_reply_to_status_id=tweet3.id)
 
     elif carrier == 'mmamp':
         # create update elements
