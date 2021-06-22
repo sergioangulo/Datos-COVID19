@@ -137,14 +137,14 @@ class vacunacion:
             print('vacunacion por sexo por edad y FECHA')
             aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_6.csv', sep=';', encoding='ISO-8859-1')
             aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_6_2.csv', sep=';', encoding='ISO-8859-1')
-            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
+            self.last_edad_fecha = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_prioridad':
             print('reading files')
             print('vacunacion por grupos prioritarios')
-            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8.csv', sep=';', encoding='ISO-8859-1')
-            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8_2.csv', sep=';', encoding='ISO-8859-1')
-            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
+            self.last_added  = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8.csv', sep=';', encoding='ISO-8859-1')
+            # aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_8_2.csv', sep=';', encoding='ISO-8859-1')
+            # self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
         elif self.indicador == 'vacunas_comuna_edad':
             print('reading files')
