@@ -44,7 +44,9 @@ class vacunacion:
         elif self.indicador == 'vacunas_comuna_edad':
             print('reading files')
             print('vacunacion por comuna por edad')
-            self.last_added = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
+            aux = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2.csv', sep=';', encoding='ISO-8859-1')
+            aux_2 = pd.read_csv('../input/Vacunacion/WORK_ARCHIVO_2_2.csv', sep=';', encoding='ISO-8859-1')
+            self.last_added = pd.concat([aux, aux_2], ignore_index=True)
 
     def last_to_csv(self):
         if self.indicador == 'vacunas_comuna_edad':
@@ -100,17 +102,17 @@ class vacunacion:
 
             columns_name = self.last_added.columns.values
 
-            maxSE = self.last_added[columns_name[2]].max()
-            minSE = self.last_added[columns_name[2]].min()
+            maxSE = self.last_added[columns_name[3]].max()
+            minSE = self.last_added[columns_name[3]].min()
 
             print(minSE, maxSE)
             lenSE = maxSE - minSE + 1
             date_list = list(range(minSE, maxSE + 1))
             print(date_list)
 
-            SE_comuna = self.last_added[columns_name[2]]
+            SE_comuna = self.last_added[columns_name[3]]
 
-            k = 3
+            k = 4
             df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
             dicts = {}
