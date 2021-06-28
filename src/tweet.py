@@ -125,8 +125,8 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_vacunacion = pd.read_csv('../output/producto76/vacunacion_t.csv')
         vacunados = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][1]))
         vacunados_pauta_completa = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][2])) + int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][3]))
-        my_vacunacion_avance = 100*vacunados/15200840
-        my_vacunacion_avance_pauta_completa = 100*vacunados_pauta_completa/15200840
+        my_vacunacion_avance = 100*vacunados/16696002
+        my_vacunacion_avance_pauta_completa = 100*vacunados_pauta_completa/16696002
         my_vacunacion_avance = ("%.2f" % my_vacunacion_avance)
         my_vacunacion_avance_pauta_completa = ("%.2f" % my_vacunacion_avance_pauta_completa)
         dosis_dia = vacunados+vacunados_pauta_completa - (pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][1]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][2]) + + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][3]))
@@ -143,7 +143,7 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
 
         # create update elements
         tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados con primera dosis en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
-        reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta de vacunación. Detalles en https://github.com/MinCiencia/Datos-COVID19'
+        reply1_text = '🤖Además, un total de ' + str(vacunados_pauta_completa) + ' personas tienen pauta completa. En 🇨🇱, un ' + my_vacunacion_avance + '% de los mayores de 12 tiene al menos una dosis, y un ' + my_vacunacion_avance_pauta_completa + '% completó su pauta. Detalles en https://github.com/MinCiencia/Datos-COVID19'
         reply2_text = '🤖A las 9pm del '+my_vacunacion.iloc[my_vacunacion.index.max()][0]+', un total de '+str(int(dosis_dia))+' recibieron la vacuna contra COVID-19. Detalles por comuna, edad, fabricante y prioridad en https://github.com/MinCiencia/Datos-COVID19'
         reply3_text = '🤖En los últimos 7 días, un promedio de '+str(promedio_semanal)+' personas han recibido su vacuna en Chile🇨🇱 diariamente. A partir de ahora mis respuestas consideran estos datos'
 
