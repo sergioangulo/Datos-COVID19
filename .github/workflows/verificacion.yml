@@ -1,7 +1,8 @@
 name: verificación
 
 on: 
-  workflow_dispatch:
+    schedule:
+      - cron:  '7 1 * * *'
 
 defaults:
   run:
