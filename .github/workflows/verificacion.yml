@@ -1,8 +1,7 @@
 name: verificación
 
 on: 
-    schedule:
-      - cron:  '7 1 * * *'
+  workflow_dispatch:
 
 defaults:
   run:
@@ -10,7 +9,7 @@ defaults:
 
 jobs:
   verificar:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
