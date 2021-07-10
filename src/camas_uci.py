@@ -213,6 +213,8 @@ class CamasUCI_ftp:
 
             objs = [obj for obj in self.actual_bucket.objects.filter(Prefix=self.folder) if 'xlsx' in obj.key]
 
+            objs = [obj for obj in self.actual_bucket.objects.filter(Prefix=self.folder) if 'DIARIO' in obj.key]
+
             objs = [obj for obj in sorted(objs, key=get_last_modified)]
 
             self.last_added = objs[-1]
