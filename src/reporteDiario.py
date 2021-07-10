@@ -99,7 +99,7 @@ def prod5(fte, producto):
     # Casos nuevos sin notificar
     # Casos activos confirmados
 
-    now = datetime.now()git
+    now = datetime.now()
     timestamp = now.strftime("%Y-%m-%d")
     df_input_file = pd.read_csv(fte + 'CasosConfirmadosTotales.csv')
     df_input_file['Fecha'] = pd.to_datetime(df_input_file['Fecha'], format='%d-%m-%Y')
