@@ -41,7 +41,7 @@ jobs:
           python Curvas_epi.py &&\
           python nuevaDefDefunciones.py &&\
           python paso_a_paso.py &&\
-          python camas_uci.py &&\
+          python camas_uci.py sftp-minciencia ${{ secrets.MINSAL_BUCKET_ACCESS_KEY }}  ${{ secrets.MINSAL_BUCKET_SECRET_KEY }} &&\
           python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
                   ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
                   reportediario
