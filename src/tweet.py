@@ -87,10 +87,16 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         media2= my_api.media_upload('./img/Datos covid_Bot_A_g2.png')
         media3= my_api.media_upload('./img/Datos covid_Bot_A_g3.png')
         media4= my_api.media_upload('./img/Datos covid_Bot_A_g4.png')
-        tweet = my_api.update_status(status=tweet_text, media_ids=[media1.media_id,media2.media_id,media3.media_id,media4.media_id])
-        tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
-        tweet3 = my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
-        tweet3 = my_api.update_status(status=reply3_text, in_reply_to_status_id=tweet3.id)
+        try:
+            tweet = my_api.update_status(status=tweet_text,
+                                         media_ids=[media1.media_id, media2.media_id, media3.media_id, media4.media_id])
+            tweet2 = my_api.update_status(status=reply1_text, in_reply_to_status_id=tweet.id)
+            tweet3 = my_api.update_status(status=reply2_text, in_reply_to_status_id=tweet2.id)
+            tweet3 = my_api.update_status(status=reply3_text, in_reply_to_status_id=tweet3.id)
+        except tweepy.TweepError as error:
+            if error.api_code == 187:
+                # Do something special
+                print('duplicate message')
 
     elif carrier == 'mmamp':
         # create update elements
