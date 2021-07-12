@@ -55,11 +55,11 @@ jobs:
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r Datos-COVID19/requirements.txt
 
     - name: generate products from Reporte Diario
       run: |
-          cd src
+          cd Datos-COVID19/src
           python reporteDiario.py && \
           python Curvas_epi.py &&\
           python nuevaDefDefunciones.py &&\
