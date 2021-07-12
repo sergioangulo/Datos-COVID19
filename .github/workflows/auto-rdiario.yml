@@ -64,7 +64,7 @@ jobs:
           python Curvas_epi.py &&\
           python nuevaDefDefunciones.py &&\
           python paso_a_paso.py &&\
-          python camas_uci.py sftp-minciencia ${{ secrets.MINSAL_BUCKET_ACCESS_KEY }}  ${{ secrets.MINSAL_BUCKET_SECRET_KEY }} &&\
+          python camas_uci.py sftp-minciencia ${{ secrets.MINSAL_BUCKET_ACCESS_KEY }}  ${{ secrets.MINSAL_BUCKET_SECRET_KEY }} 
 
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
