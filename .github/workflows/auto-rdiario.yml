@@ -1,0 +1,74 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Actualiza Balance Diario
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+    workflow_dispatch:
+    schedule:
+      - cron:  '1 15 * * SUN,TUE,WED,FRI,SAT'
+      - cron:  '1 18 * * MON,THU'
+      # Allows you to run this workflow manually from the Actions tab
+
+
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  Actualiza_productos:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: 'Check out our repo'
+      uses: actions/checkout@v2
+      with:
+          path: Datos-COVID19
+
+    - name: 'Check out MinCienciaDataPreparation'
+      uses: actions/checkout@v2
+      with:
+          repository: MinCiencia/MinCienciaDataPreparation
+          token: ${{ secrets.PRIVATE_PAT }}
+          path: MinCienciaDataPreparation
+
+      # Sets up python
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+          python-version: 3.8
+
+    # Runs a set of commands using the runners shell
+
+    - name: transfer files
+      run: |
+          pwd
+          ls
+          ls -la Datos-COVID19/input
+          rsync -auH MinCienciaDataPreparation/output/. Datos-COVID19/input
+          ls -la Datos-COVID19/input
+
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: "Added data from FTP to repo"
+
+        # Optional glob pattern of files which should be added to the commit
+        #file_pattern: output/*/*.csv
+
+        # Optional local file path to the repository
+        repository: Datos-COVID19
+
+        # Optional commit user and author settings
+        commit_user_name: MinCiencia GitHub Actions Bot
+        commit_user_email: actions@github.com
+        commit_author: minciencia github bot <actions@github.com>
+
+#    - name: update_API
+#      run: |
+#        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
+#        -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
+#        -d '{"event_type": "update_please_from_reporte_diario"}'
