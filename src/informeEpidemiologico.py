@@ -136,16 +136,16 @@ def prod15(fte, prod):
             
 
     # normalization 2020
-    data_2020 = pd.concat(data_2020)
-    data_2020 = data_2020.fillna(0)
-    utils.regionName(data_2020)
-    data_2020.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
-    data_2020.to_csv(prod + '_2020.csv', index=False)
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    variables = [x for x in data_2020.columns if x not in identifiers]
-    df_std = pd.melt(data_2020, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #data_2020 = pd.concat(data_2020)
+    #data_2020 = data_2020.fillna(0)
+    #utils.regionName(data_2020)
+    #data_2020.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    #data_2020.to_csv(prod + '_2020.csv', index=False)
+    #identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    #variables = [x for x in data_2020.columns if x not in identifiers]
+    #df_std = pd.melt(data_2020, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
                      value_name='Casos confirmados')
-    df_std.to_csv(prod + '_2020_std.csv', index=False)
+    #df_std.to_csv(prod + '_2020_std.csv', index=False)
 
     # normalization 2021
     data_2021 = pd.concat(data_2021)
