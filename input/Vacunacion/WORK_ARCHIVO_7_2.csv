@@ -252,6 +252,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Consultorio Víctor Domingo Silva;Pfizer;13/07/2021;125;3;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Consultorio Víctor Domingo Silva;Pfizer;14/07/2021;83;3;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Consultorio Víctor Domingo Silva;Pfizer;15/07/2021;61;1;
+" Aisén Gral. C. Ibáñez Campo";Coihaique;Consultorio Víctor Domingo Silva;Pfizer;17/07/2021;67;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Consultorio Víctor Domingo Silva;Sinovac;15/07/2021;1;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Hospital Regional (Coihaique);Pfizer;03/03/2021;1;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Hospital Regional (Coihaique);Pfizer;08/03/2021;1;;
@@ -302,6 +303,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Hospital Regional (Coihaique);Pfizer;14/07/2021;7;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Hospital Regional (Coihaique);Pfizer;15/07/2021;5;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Policlínico del Trabajador Coyhaique;Pfizer;10/07/2021;2;;
+" Aisén Gral. C. Ibáñez Campo";Coihaique;Policlínico del Trabajador Coyhaique;Pfizer;17/07/2021;16;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Posta de Salud Rural Balmaceda;Pfizer;01/07/2021;5;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Posta de Salud Rural Balmaceda;Pfizer;05/07/2021;11;;
 " Aisén Gral. C. Ibáñez Campo";Coihaique;Posta de Salud Rural El Blanco;Pfizer;29/06/2021;5;;
@@ -557,6 +559,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Antofagasta";Antofagasta;Centro de Salud Familiar Centro Sur de Antofagasta;Pfizer;14/07/2021;431;1;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Centro Sur de Antofagasta;Pfizer;15/07/2021;270;1;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Centro Sur de Antofagasta;Pfizer;16/07/2021;38;2;
+" Antofagasta";Antofagasta;Centro de Salud Familiar Centro Sur de Antofagasta;Pfizer;17/07/2021;127;4;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Corvallis;Pfizer;19/03/2021;16;;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Corvallis;Pfizer;22/03/2021;2;;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Corvallis;Pfizer;23/03/2021;1;;
@@ -703,6 +706,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Antofagasta";Antofagasta;Centro de Salud Familiar Juan Pablo II de Antofagasta;Pfizer;13/07/2021;135;;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Juan Pablo II de Antofagasta;Pfizer;14/07/2021;93;;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Juan Pablo II de Antofagasta;Pfizer;15/07/2021;90;;
+" Antofagasta";Antofagasta;Centro de Salud Familiar Juan Pablo II de Antofagasta;Pfizer;17/07/2021;;1;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Juan Pablo II de Antofagasta;Sinovac;07/07/2021;1;;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Norte de Antofagasta;Pfizer;15/03/2021;5;;
 " Antofagasta";Antofagasta;Centro de Salud Familiar Norte de Antofagasta;Pfizer;16/03/2021;3;;
@@ -962,6 +966,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Antofagasta";Calama;Centro de Salud Familiar Montt;Pfizer;13/07/2021;64;;
 " Antofagasta";Calama;Centro de Salud Familiar Montt;Pfizer;14/07/2021;61;;
 " Antofagasta";Calama;Centro de Salud Familiar Montt;Pfizer;15/07/2021;47;;
+" Antofagasta";Calama;Centro de Salud Familiar Montt;Pfizer;17/07/2021;85;;
 " Antofagasta";Calama;Centro de Salud Familiar Montt;Sinovac;22/06/2021;1;;
 " Antofagasta";Calama;Centro de Salud Familiar Montt;Sinovac;14/07/2021;1;;
 " Antofagasta";Calama;Centro de Salud Familiar Norponiente;Pfizer;15/03/2021;1;;
@@ -1295,6 +1300,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Centro de Salud Familiar Dr. Amador Neghme de Arica;Pfizer;13/07/2021;85;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Dr. Amador Neghme de Arica;Pfizer;14/07/2021;100;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Dr. Amador Neghme de Arica;Pfizer;15/07/2021;35;;
+" Arica y Parinacota";Arica;Centro de Salud Familiar Dr. Amador Neghme de Arica;Pfizer;17/07/2021;34;2;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Dr. Amador Neghme de Arica;Sinovac;25/05/2021;1;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Dr. Amador Neghme de Arica;Sinovac;22/06/2021;;1;
 " Arica y Parinacota";Arica;Centro de Salud Familiar E. U. Iris Veliz Hume (Ex Oriente);Pfizer;25/03/2021;2;;
@@ -1333,6 +1339,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Centro de Salud Familiar E. U. Iris Veliz Hume (Ex Oriente);Pfizer;13/07/2021;108;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar E. U. Iris Veliz Hume (Ex Oriente);Pfizer;14/07/2021;92;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar E. U. Iris Veliz Hume (Ex Oriente);Pfizer;15/07/2021;78;;
+" Arica y Parinacota";Arica;Centro de Salud Familiar E. U. Iris Veliz Hume (Ex Oriente);Pfizer;17/07/2021;41;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;15/03/2021;1;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;17/03/2021;4;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;18/03/2021;6;;
@@ -1392,6 +1399,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;13/07/2021;150;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;14/07/2021;101;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;15/07/2021;84;;
+" Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Pfizer;17/07/2021;11;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Eugenio Petruccelli Astudillo (ex Punta Norte);Sinovac;14/07/2021;1;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Pfizer;18/03/2021;1;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Pfizer;22/03/2021;1;;
@@ -1436,6 +1444,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Pfizer;13/07/2021;146;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Pfizer;14/07/2021;115;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Pfizer;15/07/2021;57;;
+" Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Pfizer;17/07/2021;10;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Remigio Sapunar;Sinovac;06/07/2021;1;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Pfizer;01/03/2021;1;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Pfizer;02/03/2021;1;;
@@ -1491,6 +1500,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Pfizer;13/07/2021;74;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Pfizer;14/07/2021;63;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Pfizer;15/07/2021;29;;
+" Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Pfizer;17/07/2021;24;;
 " Arica y Parinacota";Arica;Centro de Salud Familiar Víctor Bertín Soto;Sinovac;13/07/2021;2;;
 " Arica y Parinacota";Arica;Centro de Salud Mutual CChC Arica;Pfizer;29/06/2021;10;;
 " Arica y Parinacota";Arica;Centro de Salud Mutual CChC Arica;Pfizer;05/07/2021;12;;
@@ -1607,6 +1617,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Hospital Regional Dr. Juan Noé Crevanni (Arica);Pfizer;13/07/2021;157;2;
 " Arica y Parinacota";Arica;Hospital Regional Dr. Juan Noé Crevanni (Arica);Pfizer;14/07/2021;81;2;
 " Arica y Parinacota";Arica;Hospital Regional Dr. Juan Noé Crevanni (Arica);Pfizer;15/07/2021;88;2;
+" Arica y Parinacota";Arica;Hospital Regional Dr. Juan Noé Crevanni (Arica);Pfizer;17/07/2021;73;;
 " Arica y Parinacota";Arica;Hospital Regional Dr. Juan Noé Crevanni (Arica);Sinovac;11/05/2021;1;;
 " Arica y Parinacota";Arica;Hospital Regional Dr. Juan Noé Crevanni (Arica);Sinovac;11/06/2021;;1;
 " Arica y Parinacota";Arica;Posta de Salud Rural Poconchile;Pfizer;23/06/2021;1;;
@@ -1670,6 +1681,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Arica y Parinacota";Arica;Posta de Salud Rural San Miguel de Azapa;Pfizer;13/07/2021;47;;
 " Arica y Parinacota";Arica;Posta de Salud Rural San Miguel de Azapa;Pfizer;14/07/2021;38;;
 " Arica y Parinacota";Arica;Posta de Salud Rural San Miguel de Azapa;Pfizer;15/07/2021;25;;
+" Arica y Parinacota";Arica;Posta de Salud Rural San Miguel de Azapa;Pfizer;17/07/2021;19;1;
 " Arica y Parinacota";Arica;Posta de Salud Rural Sobraya;Pfizer;18/05/2021;1;;
 " Arica y Parinacota";Arica;Posta de Salud Rural Sobraya;Pfizer;15/06/2021;;1;
 " Arica y Parinacota";Arica;Posta de Salud Rural Sobraya;Pfizer;25/06/2021;1;;
@@ -2130,7 +2142,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Atacama";Copiapó;Centro de Salud Familiar Rosario-Palomar;Pfizer;12/07/2021;55;4;
 " Atacama";Copiapó;Centro de Salud Familiar Rosario-Palomar;Pfizer;13/07/2021;122;3;
 " Atacama";Copiapó;Centro de Salud Familiar Rosario-Palomar;Pfizer;14/07/2021;99;1;
-" Atacama";Copiapó;Centro de Salud Familiar Rosario-Palomar;Pfizer;15/07/2021;60;1;
+" Atacama";Copiapó;Centro de Salud Familiar Rosario-Palomar;Pfizer;15/07/2021;65;1;
 " Atacama";Copiapó;Centro de Salud Familiar Santa Elvira;Pfizer;15/03/2021;2;;
 " Atacama";Copiapó;Centro de Salud Familiar Santa Elvira;Pfizer;16/03/2021;2;;
 " Atacama";Copiapó;Centro de Salud Familiar Santa Elvira;Pfizer;17/03/2021;2;;
@@ -2738,6 +2750,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Combarbalá;Hospital San Juan de Dios (Combarbalá);Pfizer;13/07/2021;35;;
 " Coquimbo";Combarbalá;Hospital San Juan de Dios (Combarbalá);Pfizer;14/07/2021;12;;
 " Coquimbo";Combarbalá;Hospital San Juan de Dios (Combarbalá);Pfizer;15/07/2021;21;;
+" Coquimbo";Combarbalá;Hospital San Juan de Dios (Combarbalá);Pfizer;17/07/2021;4;;
 " Coquimbo";Combarbalá;Posta de Salud Rural Barrancas;Pfizer;02/07/2021;5;;
 " Coquimbo";Combarbalá;Posta de Salud Rural Barrancas;Pfizer;12/07/2021;5;;
 " Coquimbo";Combarbalá;Posta de Salud Rural Barrancas;Pfizer;14/07/2021;2;;
@@ -2868,6 +2881,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Centro de Salud Familiar Dr. Sergio Aguilar Delgado;Pfizer;14/07/2021;116;3;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Dr. Sergio Aguilar Delgado;Pfizer;15/07/2021;78;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Dr. Sergio Aguilar Delgado;Pfizer;16/07/2021;16;;
+" Coquimbo";Coquimbo;Centro de Salud Familiar Dr. Sergio Aguilar Delgado;Pfizer;17/07/2021;3;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;26/03/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;30/03/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;12/04/2021;1;;
@@ -2906,6 +2920,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;13/07/2021;84;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;14/07/2021;59;1;
 " Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;15/07/2021;45;;
+" Coquimbo";Coquimbo;Centro de Salud Familiar El Sauce;Pfizer;17/07/2021;9;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;12/04/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;23/04/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;26/04/2021;2;;
@@ -2948,6 +2963,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;14/07/2021;45;1;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;15/07/2021;29;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;16/07/2021;2;;
+" Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Pfizer;17/07/2021;3;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Lila Cortés Godoy;Sinovac;09/07/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Rural Pan de Azúcar;Pfizer;04/05/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Rural Pan de Azúcar;Pfizer;06/05/2021;1;;
@@ -3061,6 +3077,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Centro de Salud Familiar San Juan;Pfizer;13/07/2021;73;1;
 " Coquimbo";Coquimbo;Centro de Salud Familiar San Juan;Pfizer;14/07/2021;84;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar San Juan;Pfizer;15/07/2021;36;2;
+" Coquimbo";Coquimbo;Centro de Salud Familiar San Juan;Pfizer;17/07/2021;26;1;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;18/03/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;22/03/2021;4;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;25/03/2021;1;;
@@ -3120,6 +3137,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;14/07/2021;121;2;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;15/07/2021;85;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;16/07/2021;3;;
+" Coquimbo";Coquimbo;Centro de Salud Familiar Santa Cecilia;Pfizer;17/07/2021;22;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;10/03/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;15/03/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;16/03/2021;1;;
@@ -3204,6 +3222,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;13/07/2021;213;2;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;14/07/2021;129;1;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;15/07/2021;174;;
+" Coquimbo";Coquimbo;Centro de Salud Familiar Tierras Blancas;Pfizer;17/07/2021;19;1;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tongoy;Pfizer;25/05/2021;1;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tongoy;Pfizer;01/06/2021;4;;
 " Coquimbo";Coquimbo;Centro de Salud Familiar Tongoy;Pfizer;02/06/2021;1;;
@@ -3242,6 +3261,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Coquimbo;Posta de Salud Rural Guanaqueros;Pfizer;09/07/2021;2;;
 " Coquimbo";Coquimbo;Posta de Salud Rural Guanaqueros;Pfizer;12/07/2021;5;;
 " Coquimbo";Coquimbo;Posta de Salud Rural Guanaqueros;Pfizer;13/07/2021;2;;
+" Coquimbo";Coquimbo;Posta de Salud Rural Guanaqueros;Pfizer;17/07/2021;;1;
 " Coquimbo";Coquimbo;Posta de Salud Rural Tambillo;Pfizer;24/06/2021;1;;
 " Coquimbo";Coquimbo;Posta de Salud Rural Tambillo;Pfizer;01/07/2021;4;;
 " Coquimbo";Coquimbo;Posta de Salud Rural Tambillo;Pfizer;09/07/2021;10;;
@@ -3277,6 +3297,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Illapel;Centro de Salud Familiar Urbano de Illapel;Pfizer;14/07/2021;51;;
 " Coquimbo";Illapel;Centro de Salud Familiar Urbano de Illapel;Pfizer;15/07/2021;43;;
 " Coquimbo";Illapel;Centro de Salud Familiar Urbano de Illapel;Pfizer;16/07/2021;11;;
+" Coquimbo";Illapel;Centro de Salud Familiar Urbano de Illapel;Pfizer;17/07/2021;7;;
 " Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;31/03/2021;6;;
 " Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;08/04/2021;1;;
 " Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;12/04/2021;1;;
@@ -3311,6 +3332,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;12/07/2021;20;;
 " Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;13/07/2021;42;;
 " Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;14/07/2021;24;1;
+" Coquimbo";Illapel;Centro de Salud Familiar Villa San Rafael de Rozas;Pfizer;17/07/2021;1;;
 " Coquimbo";Illapel;Posta de Salud Rural Cañas Uno;Pfizer;24/06/2021;1;;
 " Coquimbo";Illapel;Posta de Salud Rural Cañas Uno;Pfizer;30/06/2021;5;;
 " Coquimbo";Illapel;Posta de Salud Rural Cañas Uno;Pfizer;05/07/2021;11;;
@@ -5271,6 +5293,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " La Araucanía";Pitrufquén;Centro de Salud Rural Pitrufquén;Pfizer;13/07/2021;73;;
 " La Araucanía";Pitrufquén;Centro de Salud Rural Pitrufquén;Pfizer;14/07/2021;53;;
 " La Araucanía";Pitrufquén;Centro de Salud Rural Pitrufquén;Pfizer;15/07/2021;56;;
+" La Araucanía";Pitrufquén;Centro de Salud Rural Pitrufquén;Pfizer;17/07/2021;25;;
 " La Araucanía";Pitrufquén;Posta de Salud Rural Comuy;Pfizer;01/07/2021;6;;
 " La Araucanía";Pitrufquén;Posta de Salud Rural Comuy;Pfizer;06/07/2021;8;;
 " La Araucanía";Pitrufquén;Posta de Salud Rural Comuy;Pfizer;07/07/2021;4;;
@@ -5457,6 +5480,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " La Araucanía";Temuco;Centro de Salud Familiar Amanecer;Pfizer;13/07/2021;228;1;
 " La Araucanía";Temuco;Centro de Salud Familiar Amanecer;Pfizer;14/07/2021;109;4;
 " La Araucanía";Temuco;Centro de Salud Familiar Amanecer;Pfizer;15/07/2021;135;4;
+" La Araucanía";Temuco;Centro de Salud Familiar Amanecer;Pfizer;17/07/2021;64;1;
 " La Araucanía";Temuco;Centro de Salud Familiar El Carmen;Pfizer;24/03/2021;1;;
 " La Araucanía";Temuco;Centro de Salud Familiar El Carmen;Pfizer;07/04/2021;3;;
 " La Araucanía";Temuco;Centro de Salud Familiar El Carmen;Pfizer;08/04/2021;1;;
@@ -5618,6 +5642,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " La Araucanía";Temuco;Centro de Salud Familiar Miraflores (Temuco);Pfizer;13/07/2021;73;;
 " La Araucanía";Temuco;Centro de Salud Familiar Miraflores (Temuco);Pfizer;14/07/2021;22;;
 " La Araucanía";Temuco;Centro de Salud Familiar Miraflores (Temuco);Pfizer;15/07/2021;24;1;
+" La Araucanía";Temuco;Centro de Salud Familiar Miraflores (Temuco);Pfizer;17/07/2021;;1;
 " La Araucanía";Temuco;Centro de Salud Familiar Pedro de Valdivia;Pfizer;07/04/2021;1;;
 " La Araucanía";Temuco;Centro de Salud Familiar Pedro de Valdivia;Pfizer;08/04/2021;1;;
 " La Araucanía";Temuco;Centro de Salud Familiar Pedro de Valdivia;Pfizer;09/04/2021;2;;
@@ -6898,6 +6923,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Lagos";Los Muermos;Centro de Salud Familiar Los Muermos;Pfizer;13/07/2021;46;;
 " Los Lagos";Los Muermos;Centro de Salud Familiar Los Muermos;Pfizer;14/07/2021;42;;
 " Los Lagos";Los Muermos;Centro de Salud Familiar Los Muermos;Pfizer;15/07/2021;30;;
+" Los Lagos";Los Muermos;Centro de Salud Familiar Los Muermos;Pfizer;17/07/2021;11;;
 " Los Lagos";Maullín;Centro de Salud Familiar Carelmapu;Pfizer;13/04/2021;1;;
 " Los Lagos";Maullín;Centro de Salud Familiar Carelmapu;Pfizer;15/04/2021;118;;
 " Los Lagos";Maullín;Centro de Salud Familiar Carelmapu;Pfizer;27/04/2021;5;;
@@ -7381,6 +7407,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Lagos";Puerto Montt;Centro de Salud Familiar Antonio Varas;Pfizer;13/07/2021;444;6;
 " Los Lagos";Puerto Montt;Centro de Salud Familiar Antonio Varas;Pfizer;14/07/2021;224;6;
 " Los Lagos";Puerto Montt;Centro de Salud Familiar Antonio Varas;Pfizer;15/07/2021;140;31;
+" Los Lagos";Puerto Montt;Centro de Salud Familiar Antonio Varas;Pfizer;17/07/2021;;4;
 " Los Lagos";Puerto Montt;Centro de Salud Familiar Carmela Carvajal;Pfizer;22/06/2021;44;;
 " Los Lagos";Puerto Montt;Centro de Salud Familiar Carmela Carvajal;Pfizer;23/06/2021;64;;
 " Los Lagos";Puerto Montt;Centro de Salud Familiar Carmela Carvajal;Pfizer;24/06/2021;67;;
@@ -7934,6 +7961,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Lagos";San Juan de la Costa;Hospital Futa Sruka Lawenche Kunko Mapu Mo;Pfizer;12/07/2021;3;;
 " Los Lagos";San Juan de la Costa;Hospital Futa Sruka Lawenche Kunko Mapu Mo;Pfizer;13/07/2021;7;;
 " Los Lagos";San Juan de la Costa;Hospital Futa Sruka Lawenche Kunko Mapu Mo;Pfizer;15/07/2021;6;;
+" Los Lagos";San Juan de la Costa;Hospital Futa Sruka Lawenche Kunko Mapu Mo;Pfizer;17/07/2021;4;;
 " Los Lagos";San Pablo;Centro de Salud Familiar San Pablo;Pfizer;15/04/2021;2;;
 " Los Lagos";San Pablo;Centro de Salud Familiar San Pablo;Pfizer;12/05/2021;1;;
 " Los Lagos";San Pablo;Centro de Salud Familiar San Pablo;Pfizer;13/05/2021;;2;
@@ -8027,6 +8055,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Ríos";Futrono;Centro de Salud Familiar Belarmina Paredes;Pfizer;13/07/2021;54;;
 " Los Ríos";Futrono;Centro de Salud Familiar Belarmina Paredes;Pfizer;14/07/2021;35;;
 " Los Ríos";Futrono;Centro de Salud Familiar Belarmina Paredes;Pfizer;15/07/2021;10;1;
+" Los Ríos";Futrono;Centro de Salud Familiar Belarmina Paredes;Pfizer;17/07/2021;;1;
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;02/03/2021;2;;
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;16/03/2021;1;;
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;17/03/2021;7;;
@@ -8099,6 +8128,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;13/07/2021;94;;
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;14/07/2021;90;1;
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;15/07/2021;86;;
+" Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Pfizer;17/07/2021;8;;
 " Los Ríos";La Unión;Centro de Salud Familiar Dr. Alfredo Gantz Mann;Sinovac;13/07/2021;1;;
 " Los Ríos";Lago Ranco;Centro de Salud Familiar Juan Santa María Bonet;Pfizer;20/05/2021;1;;
 " Los Ríos";Lago Ranco;Centro de Salud Familiar Juan Santa María Bonet;Pfizer;21/05/2021;9;;
@@ -8257,6 +8287,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Ríos";Mariquina;Centro de Salud Familiar San José de la Mariquina;Pfizer;13/07/2021;68;1;
 " Los Ríos";Mariquina;Centro de Salud Familiar San José de la Mariquina;Pfizer;14/07/2021;43;1;
 " Los Ríos";Mariquina;Centro de Salud Familiar San José de la Mariquina;Pfizer;15/07/2021;46;1;
+" Los Ríos";Mariquina;Centro de Salud Familiar San José de la Mariquina;Pfizer;17/07/2021;3;;
 " Los Ríos";Máfil;Centro de Salud Familiar Máfil;Pfizer;14/04/2021;5;;
 " Los Ríos";Máfil;Centro de Salud Familiar Máfil;Pfizer;15/04/2021;4;;
 " Los Ríos";Máfil;Centro de Salud Familiar Máfil;Pfizer;11/05/2021;;3;
@@ -8417,6 +8448,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Ríos";Panguipulli;Centro de Salud Familiar Panguipulli;Pfizer;14/07/2021;84;3;
 " Los Ríos";Panguipulli;Centro de Salud Familiar Panguipulli;Pfizer;15/07/2021;46;3;
 " Los Ríos";Panguipulli;Centro de Salud Familiar Panguipulli;Pfizer;16/07/2021;8;;
+" Los Ríos";Panguipulli;Centro de Salud Familiar Panguipulli;Pfizer;17/07/2021;17;;
 " Los Ríos";Panguipulli;Centro de Salud Familiar Panguipulli;Sinovac;30/06/2021;1;;
 " Los Ríos";Río Bueno;Centro de Salud Familiar Río Bueno;Pfizer;03/03/2021;1;;
 " Los Ríos";Río Bueno;Centro de Salud Familiar Río Bueno;Pfizer;10/03/2021;1;;
@@ -8694,6 +8726,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Los Ríos";Valdivia;Centro de Salud Familiar Externo Valdivia;Pfizer;14/07/2021;68;1;
 " Los Ríos";Valdivia;Centro de Salud Familiar Externo Valdivia;Pfizer;15/07/2021;35;3;
 " Los Ríos";Valdivia;Centro de Salud Familiar Externo Valdivia;Pfizer;16/07/2021;17;;
+" Los Ríos";Valdivia;Centro de Salud Familiar Externo Valdivia;Pfizer;17/07/2021;54;6;
 " Los Ríos";Valdivia;Centro de Salud Familiar Externo Valdivia;Sinovac;26/06/2021;1;;
 " Los Ríos";Valdivia;Centro de Salud Familiar Las Ánimas;Pfizer;19/05/2021;1;;
 " Los Ríos";Valdivia;Centro de Salud Familiar Las Ánimas;Pfizer;20/05/2021;1;;
@@ -9332,6 +9365,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Dr. Yandry Añazco Montero;Pfizer;13/07/2021;179;3;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Dr. Yandry Añazco Montero;Pfizer;14/07/2021;129;2;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Dr. Yandry Añazco Montero;Pfizer;15/07/2021;16;;
+" Tarapacá";Alto Hospicio;Centro de Salud Familiar Dr. Yandry Añazco Montero;Pfizer;17/07/2021;6;;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Dr. Yandry Añazco Montero;Sinovac;08/07/2021;1;;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Pedro Pulgar Melgarejo;Pfizer;15/03/2021;1;;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Pedro Pulgar Melgarejo;Pfizer;16/03/2021;1;;
@@ -9403,6 +9437,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Pedro Pulgar Melgarejo;Pfizer;13/07/2021;63;1;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Pedro Pulgar Melgarejo;Pfizer;14/07/2021;60;;
 " Tarapacá";Alto Hospicio;Centro de Salud Familiar Pedro Pulgar Melgarejo;Pfizer;15/07/2021;128;;
+" Tarapacá";Alto Hospicio;Centro de Salud Familiar Pedro Pulgar Melgarejo;Pfizer;17/07/2021;52;;
 " Tarapacá";Camiña;Centro de Salud Familiar Camiña;Pfizer;06/07/2021;12;;
 " Tarapacá";Camiña;Centro de Salud Familiar Camiña;Pfizer;07/07/2021;5;;
 " Tarapacá";Camiña;Centro de Salud Familiar Camiña;Pfizer;09/07/2021;6;;
@@ -9520,6 +9555,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Aguirre;Pfizer;13/07/2021;176;4;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Aguirre;Pfizer;14/07/2021;72;2;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Aguirre;Pfizer;15/07/2021;47;4;
+" Tarapacá";Iquique;Centro de Salud Familiar Cirujano Aguirre;Pfizer;17/07/2021;8;1;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;10/03/2021;1;;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;16/03/2021;2;;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;18/03/2021;4;;
@@ -9606,6 +9642,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;13/07/2021;120;3;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;14/07/2021;87;1;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;15/07/2021;79;4;
+" Tarapacá";Iquique;Centro de Salud Familiar Cirujano Guzmán;Pfizer;17/07/2021;1;;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;03/03/2021;1;;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;15/03/2021;2;;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;18/03/2021;4;;
@@ -9694,6 +9731,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;14/07/2021;140;1;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;15/07/2021;82;4;
 " Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;16/07/2021;;1;
+" Tarapacá";Iquique;Centro de Salud Familiar Cirujano Videla;Pfizer;17/07/2021;11;1;
 " Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;09/03/2021;1;;
 " Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;16/03/2021;1;;
 " Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;18/03/2021;8;;
@@ -9778,6 +9816,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;13/07/2021;124;1;
 " Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;14/07/2021;134;2;
 " Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;15/07/2021;71;3;
+" Tarapacá";Iquique;Centro de Salud Familiar Sur de Iquique;Pfizer;17/07/2021;2;1;
 " Tarapacá";Iquique;Clínica Iquique;Pfizer;11/03/2021;1;;
 " Tarapacá";Iquique;Clínica Iquique;Pfizer;18/03/2021;1;;
 " Tarapacá";Iquique;Clínica Iquique;Pfizer;23/03/2021;2;;
@@ -9938,6 +9977,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Tarapacá";Pozo Almonte;Centro de Salud Familiar Pozo Almonte;Pfizer;13/07/2021;57;;
 " Tarapacá";Pozo Almonte;Centro de Salud Familiar Pozo Almonte;Pfizer;14/07/2021;37;;
 " Tarapacá";Pozo Almonte;Centro de Salud Familiar Pozo Almonte;Pfizer;15/07/2021;50;;
+" Tarapacá";Pozo Almonte;Centro de Salud Familiar Pozo Almonte;Pfizer;17/07/2021;4;;
 " Valparaíso";Algarrobo;Centro de Salud Familiar Algarrobo;Pfizer;14/06/2021;2;;
 " Valparaíso";Algarrobo;Centro de Salud Familiar Algarrobo;Pfizer;22/06/2021;3;;
 " Valparaíso";Algarrobo;Centro de Salud Familiar Algarrobo;Pfizer;23/06/2021;2;;
@@ -10236,6 +10276,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Catemu;Centro de Salud Familiar Dr. Eduardo Raggio Lanata;Pfizer;13/07/2021;38;;
 " Valparaíso";Catemu;Centro de Salud Familiar Dr. Eduardo Raggio Lanata;Pfizer;14/07/2021;33;;
 " Valparaíso";Catemu;Centro de Salud Familiar Dr. Eduardo Raggio Lanata;Pfizer;15/07/2021;17;;
+" Valparaíso";Catemu;Centro de Salud Familiar Dr. Eduardo Raggio Lanata;Pfizer;17/07/2021;7;;
 " Valparaíso";Concón;Centro de Salud Familiar Concón;Pfizer;12/03/2021;4;;
 " Valparaíso";Concón;Centro de Salud Familiar Concón;Pfizer;15/03/2021;3;;
 " Valparaíso";Concón;Centro de Salud Familiar Concón;Pfizer;16/03/2021;1;;
@@ -10461,6 +10502,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Hijuelas;Centro de Salud Familiar Hijuelas;Pfizer;13/07/2021;45;;
 " Valparaíso";Hijuelas;Centro de Salud Familiar Hijuelas;Pfizer;14/07/2021;36;;
 " Valparaíso";Hijuelas;Centro de Salud Familiar Hijuelas;Pfizer;15/07/2021;27;;
+" Valparaíso";Hijuelas;Centro de Salud Familiar Hijuelas;Pfizer;17/07/2021;9;1;
 " Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;26/05/2021;1;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;28/05/2021;1;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;01/06/2021;2;;
@@ -10488,6 +10530,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;13/07/2021;12;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;14/07/2021;4;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;15/07/2021;3;2;
+" Valparaíso";Hijuelas;Posta de Salud Rural Romeral;Pfizer;17/07/2021;1;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Villa Prat;Pfizer;18/05/2021;1;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Villa Prat;Pfizer;25/05/2021;1;;
 " Valparaíso";Hijuelas;Posta de Salud Rural Villa Prat;Pfizer;29/05/2021;2;;
@@ -10629,6 +10672,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Llaillay;Centro de Salud Familiar Llaillay;Pfizer;13/07/2021;124;;
 " Valparaíso";Llaillay;Centro de Salud Familiar Llaillay;Pfizer;14/07/2021;85;;
 " Valparaíso";Llaillay;Centro de Salud Familiar Llaillay;Pfizer;15/07/2021;57;;
+" Valparaíso";Llaillay;Centro de Salud Familiar Llaillay;Pfizer;17/07/2021;9;;
 " Valparaíso";Llaillay;Centro de Salud Familiar Llaillay;Sinovac;26/05/2021;1;;
 " Valparaíso";Llaillay;Centro de Salud Familiar Llaillay;Sinovac;23/06/2021;;1;
 " Valparaíso";Los Andes;Centro de Salud Familiar Centenario;Pfizer;17/03/2021;1;;
@@ -10808,6 +10852,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Los Andes;Clínica Río Blanco;Pfizer;14/07/2021;71;1;
 " Valparaíso";Los Andes;Clínica Río Blanco;Pfizer;15/07/2021;69;;
 " Valparaíso";Los Andes;Clínica Río Blanco;Pfizer;16/07/2021;12;1;
+" Valparaíso";Los Andes;Clínica Río Blanco;Pfizer;17/07/2021;21;1;
 " Valparaíso";Los Andes;Clínica Río Blanco;Sinovac;06/05/2021;1;;
 " Valparaíso";Los Andes;Clínica Río Blanco;Sinovac;19/05/2021;1;;
 " Valparaíso";Los Andes;Clínica Río Blanco;Sinovac;31/05/2021;;1;
@@ -10868,6 +10913,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Panquehue;Centro de Salud Familiar María Elena Peñaloza Morales;Pfizer;13/07/2021;28;;
 " Valparaíso";Panquehue;Centro de Salud Familiar María Elena Peñaloza Morales;Pfizer;14/07/2021;23;;
 " Valparaíso";Panquehue;Centro de Salud Familiar María Elena Peñaloza Morales;Pfizer;15/07/2021;25;;
+" Valparaíso";Panquehue;Centro de Salud Familiar María Elena Peñaloza Morales;Pfizer;17/07/2021;14;;
 " Valparaíso";Papudo;Posta de Salud Rural Pullally;Pfizer;29/06/2021;12;;
 " Valparaíso";Papudo;Posta de Salud Rural Pullally;Pfizer;30/06/2021;17;;
 " Valparaíso";Papudo;Posta de Salud Rural Pullally;Pfizer;01/07/2021;45;;
@@ -11351,6 +11397,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Quilpué;Centro de Salud Familiar Quilpué;Pfizer;13/07/2021;177;1;
 " Valparaíso";Quilpué;Centro de Salud Familiar Quilpué;Pfizer;14/07/2021;136;1;
 " Valparaíso";Quilpué;Centro de Salud Familiar Quilpué;Pfizer;15/07/2021;37;;
+" Valparaíso";Quilpué;Centro de Salud Familiar Quilpué;Pfizer;17/07/2021;;1;
 " Valparaíso";Quilpué;Centro de Salud Familiar Quilpué;Sinovac;13/07/2021;1;;
 " Valparaíso";Quintero;Hospital Adriana Cousiño (Quintero);Pfizer;23/03/2021;2;;
 " Valparaíso";Quintero;Hospital Adriana Cousiño (Quintero);Pfizer;29/03/2021;1;;
@@ -11442,6 +11489,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";San Antonio;Centro de Salud Familiar Barrancas;Pfizer;13/07/2021;3;;
 " Valparaíso";San Antonio;Centro de Salud Familiar Barrancas;Pfizer;14/07/2021;3;;
 " Valparaíso";San Antonio;Centro de Salud Familiar Barrancas;Pfizer;15/07/2021;55;;
+" Valparaíso";San Antonio;Centro de Salud Familiar Barrancas;Pfizer;17/07/2021;38;;
 " Valparaíso";San Antonio;Centro de Salud Familiar Diputado Manuel Bustos Huerta;Pfizer;26/02/2021;1;;
 " Valparaíso";San Antonio;Centro de Salud Familiar Diputado Manuel Bustos Huerta;Pfizer;02/03/2021;2;;
 " Valparaíso";San Antonio;Centro de Salud Familiar Diputado Manuel Bustos Huerta;Pfizer;09/03/2021;1;;
@@ -11641,6 +11689,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Pfizer;13/07/2021;138;;
 " Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Pfizer;14/07/2021;121;;
 " Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Pfizer;15/07/2021;70;1;
+" Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Pfizer;17/07/2021;35;2;
 " Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Sinovac;05/05/2021;1;;
 " Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Sinovac;10/06/2021;;1;
 " Valparaíso";San Felipe;Centro de Salud Familiar Dr. Segismundo Iturra Taito;Sinovac;09/07/2021;1;;
@@ -11823,6 +11872,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;;Pfizer;13/07/2021;94;;
 " Valparaíso";Valparaíso;;Pfizer;14/07/2021;58;1;
 " Valparaíso";Valparaíso;;Pfizer;15/07/2021;48;2;
+" Valparaíso";Valparaíso;;Pfizer;17/07/2021;;1;
 " Valparaíso";Valparaíso;Centro de Atención Primaria de Salud Naval (Valparaíso);Pfizer;18/03/2021;3;;
 " Valparaíso";Valparaíso;Centro de Atención Primaria de Salud Naval (Valparaíso);Pfizer;09/04/2021;4;;
 " Valparaíso";Valparaíso;Centro de Atención Primaria de Salud Naval (Valparaíso);Pfizer;12/04/2021;6;;
@@ -12047,6 +12097,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar Marcelo Mena;Pfizer;13/07/2021;55;1;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Marcelo Mena;Pfizer;14/07/2021;47;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Marcelo Mena;Pfizer;15/07/2021;17;1;
+" Valparaíso";Valparaíso;Centro de Salud Familiar Marcelo Mena;Pfizer;17/07/2021;19;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;22/06/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;23/06/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;24/06/2021;2;;
@@ -12063,6 +12114,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;13/07/2021;20;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;14/07/2021;22;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;15/07/2021;8;;
+" Valparaíso";Valparaíso;Centro de Salud Familiar Padre Damián Molokai;Pfizer;17/07/2021;;1;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;23/03/2021;3;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;24/03/2021;3;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;25/03/2021;4;;
@@ -12130,6 +12182,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;13/07/2021;70;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;14/07/2021;38;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;15/07/2021;31;;
+" Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Pfizer;17/07/2021;6;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Sinovac;11/06/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placeres;Sinovac;10/07/2021;;1;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placilla;Pfizer;15/03/2021;1;;
@@ -12202,6 +12255,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placilla;Pfizer;13/07/2021;136;2;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placilla;Pfizer;14/07/2021;120;2;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Placilla;Pfizer;15/07/2021;71;;
+" Valparaíso";Valparaíso;Centro de Salud Familiar Placilla;Pfizer;17/07/2021;48;1;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Plaza Justicia;Pfizer;10/06/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Plaza Justicia;Pfizer;15/06/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Plaza Justicia;Pfizer;22/06/2021;3;;
@@ -12244,6 +12298,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar Puertas Negras;Pfizer;13/07/2021;17;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Puertas Negras;Pfizer;14/07/2021;13;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Puertas Negras;Pfizer;15/07/2021;9;;
+" Valparaíso";Valparaíso;Centro de Salud Familiar Puertas Negras;Pfizer;17/07/2021;13;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Puertas Negras;Sinovac;18/06/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Pfizer;30/03/2021;6;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Pfizer;31/03/2021;2;;
@@ -12308,6 +12363,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Pfizer;13/07/2021;80;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Pfizer;14/07/2021;71;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Pfizer;15/07/2021;33;1;
+" Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Pfizer;17/07/2021;25;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Sinovac;18/05/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Sinovac;19/05/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar Quebrada Verde;Sinovac;04/06/2021;1;;
@@ -12434,6 +12490,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Centro de Salud Familiar San José de Rodelillo;Pfizer;13/07/2021;66;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar San José de Rodelillo;Pfizer;14/07/2021;43;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar San José de Rodelillo;Pfizer;15/07/2021;25;2;
+" Valparaíso";Valparaíso;Centro de Salud Familiar San José de Rodelillo;Pfizer;17/07/2021;21;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar San José de Rodelillo;Sinovac;26/05/2021;1;;
 " Valparaíso";Valparaíso;Centro de Salud Familiar San José de Rodelillo;Sinovac;29/06/2021;;1;
 " Valparaíso";Valparaíso;Posta de Salud Rural Laguna Verde;Pfizer;22/06/2021;3;;
@@ -12449,6 +12506,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Valparaíso;Posta de Salud Rural Laguna Verde;Pfizer;14/07/2021;10;;
 " Valparaíso";Valparaíso;Posta de Salud Rural Laguna Verde;Pfizer;15/07/2021;5;;
 " Valparaíso";Valparaíso;Posta de Salud Rural Laguna Verde;Sinovac;18/06/2021;1;;
+" Valparaíso";Valparaíso;Posta de Salud Rural Laguna Verde;Sinovac;17/07/2021;;1;
 " Valparaíso";Villa Alemana;Centro de Atención Primaria de Salud Naval (Villa Alemana);Pfizer;27/02/2021;2;;
 " Valparaíso";Villa Alemana;Centro de Atención Primaria de Salud Naval (Villa Alemana);Pfizer;17/03/2021;2;;
 " Valparaíso";Villa Alemana;Centro de Atención Primaria de Salud Naval (Villa Alemana);Pfizer;18/03/2021;7;;
@@ -13095,6 +13153,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Valparaíso";Viña del Mar;Centro de Salud Familiar Nueva Aurora;Pfizer;13/07/2021;97;;
 " Valparaíso";Viña del Mar;Centro de Salud Familiar Nueva Aurora;Pfizer;14/07/2021;72;;
 " Valparaíso";Viña del Mar;Centro de Salud Familiar Nueva Aurora;Pfizer;15/07/2021;31;;
+" Valparaíso";Viña del Mar;Centro de Salud Familiar Nueva Aurora;Pfizer;17/07/2021;1;;
 " Valparaíso";Viña del Mar;Centro de Salud Familiar Nueva Aurora;Sinovac;02/07/2021;1;;
 " Valparaíso";Viña del Mar;Centro de Salud Familiar Profesor Eugenio Cienfuegos;Pfizer;23/03/2021;1;;
 " Valparaíso";Viña del Mar;Centro de Salud Familiar Profesor Eugenio Cienfuegos;Pfizer;30/03/2021;1;;
@@ -13567,6 +13626,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";Chillán;Centro de Salud Familiar San Ramón Nonato;Pfizer;13/07/2021;96;1;
 " Ñuble";Chillán;Centro de Salud Familiar San Ramón Nonato;Pfizer;14/07/2021;78;1;
 " Ñuble";Chillán;Centro de Salud Familiar San Ramón Nonato;Pfizer;15/07/2021;64;5;
+" Ñuble";Chillán;Centro de Salud Familiar San Ramón Nonato;Pfizer;17/07/2021;25;2;
 " Ñuble";Chillán;Centro de Salud Familiar San Ramón Nonato;Sinovac;25/06/2021;1;;
 " Ñuble";Chillán;Centro de Salud Familiar San Ramón Nonato;Sinovac;01/07/2021;1;;
 " Ñuble";Chillán;Centro de Salud Familiar Sol de Oriente;Pfizer;02/03/2021;1;;
@@ -13737,6 +13797,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";Chillán;Centro de Salud Familiar Violeta Parra;Pfizer;14/07/2021;210;;
 " Ñuble";Chillán;Centro de Salud Familiar Violeta Parra;Pfizer;15/07/2021;150;4;
 " Ñuble";Chillán;Centro de Salud Familiar Violeta Parra;Pfizer;16/07/2021;10;1;
+" Ñuble";Chillán;Centro de Salud Familiar Violeta Parra;Pfizer;17/07/2021;25;;
 " Ñuble";Chillán;Centro de Salud Familiar Violeta Parra;Sinovac;22/06/2021;1;;
 " Ñuble";Chillán;Clínica Chillán;Pfizer;29/06/2021;1;;
 " Ñuble";Chillán;Clínica Chillán;Pfizer;30/06/2021;1;;
@@ -13959,6 +14020,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";Coihueco;Centro de Salud Familiar Luis Montecinos;Pfizer;13/07/2021;6;;
 " Ñuble";Coihueco;Centro de Salud Familiar Luis Montecinos;Pfizer;14/07/2021;12;;
 " Ñuble";Coihueco;Centro de Salud Familiar Luis Montecinos;Pfizer;15/07/2021;10;;
+" Ñuble";Coihueco;Centro de Salud Familiar Luis Montecinos;Pfizer;17/07/2021;15;;
 " Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;30/03/2021;2;;
 " Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;06/04/2021;5;;
 " Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;28/04/2021;;2;
@@ -14000,6 +14062,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;14/07/2021;42;3;
 " Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;15/07/2021;60;3;
 " Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;16/07/2021;5;;
+" Ñuble";Coihueco;Centro de Salud Familiar Michelle Chandía Alarcón;Pfizer;17/07/2021;12;16;
 " Ñuble";Coihueco;Posta de Salud Rural Bustamante;Pfizer;19/05/2021;7;;
 " Ñuble";Coihueco;Posta de Salud Rural Bustamante;Pfizer;16/06/2021;;7;
 " Ñuble";Coihueco;Posta de Salud Rural Bustamante;Pfizer;25/06/2021;1;;
@@ -14042,6 +14105,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";Coihueco;Posta de Salud Rural Talquipén;Pfizer;13/07/2021;6;;
 " Ñuble";Coihueco;Posta de Salud Rural Talquipén;Pfizer;14/07/2021;8;;
 " Ñuble";Coihueco;Posta de Salud Rural Talquipén;Pfizer;15/07/2021;6;;
+" Ñuble";Coihueco;Posta de Salud Rural Talquipén;Pfizer;17/07/2021;6;;
 " Ñuble";Coihueco;Posta de Salud Rural Tanilvoro;Pfizer;22/06/2021;5;;
 " Ñuble";Coihueco;Posta de Salud Rural Tanilvoro;Pfizer;23/06/2021;2;;
 " Ñuble";Coihueco;Posta de Salud Rural Tanilvoro;Pfizer;24/06/2021;7;;
@@ -14492,6 +14556,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";San Carlos;Centro de Salud Familiar Dr. José Duran Trujillo;Pfizer;13/07/2021;47;;
 " Ñuble";San Carlos;Centro de Salud Familiar Dr. José Duran Trujillo;Pfizer;14/07/2021;36;;
 " Ñuble";San Carlos;Centro de Salud Familiar Dr. José Duran Trujillo;Pfizer;15/07/2021;20;1;
+" Ñuble";San Carlos;Centro de Salud Familiar Dr. José Duran Trujillo;Pfizer;17/07/2021;5;2;
 " Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;05/03/2021;2;;
 " Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;09/03/2021;1;;
 " Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;10/03/2021;1;;
@@ -14565,6 +14630,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;13/07/2021;126;;
 " Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;14/07/2021;93;1;
 " Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;15/07/2021;53;;
+" Ñuble";San Carlos;Centro de Salud Familiar Teresa Baldechi;Pfizer;17/07/2021;22;;
 " Ñuble";San Carlos;Posta de Salud Rural Arizona;Pfizer;23/06/2021;10;;
 " Ñuble";San Carlos;Posta de Salud Rural Arizona;Pfizer;07/07/2021;7;;
 " Ñuble";San Carlos;Posta de Salud Rural Arizona;Pfizer;14/07/2021;1;;
@@ -14573,6 +14639,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";San Carlos;Posta de Salud Rural Monte Blanco;Pfizer;05/07/2021;3;;
 " Ñuble";San Carlos;Posta de Salud Rural Monte Blanco;Pfizer;08/07/2021;1;;
 " Ñuble";San Carlos;Posta de Salud Rural Monte Blanco;Pfizer;12/07/2021;1;;
+" Ñuble";San Carlos;Posta de Salud Rural Monte Blanco;Pfizer;15/07/2021;2;;
 " Ñuble";San Carlos;Posta de Salud Rural Rivera de Ñuble;Pfizer;29/06/2021;7;;
 " Ñuble";San Carlos;Posta de Salud Rural Rivera de Ñuble;Pfizer;30/06/2021;3;;
 " Ñuble";San Carlos;Posta de Salud Rural Rivera de Ñuble;Pfizer;02/07/2021;5;;
@@ -14619,6 +14686,7 @@ REGION_CORTO;COMUNA;NOMBRE_ESTAB;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;S
 " Ñuble";San Fabián;Centro de Salud Familiar San Fabián;Pfizer;14/07/2021;10;;
 " Ñuble";San Fabián;Centro de Salud Familiar San Fabián;Pfizer;15/07/2021;9;1;
 " Ñuble";San Fabián;Centro de Salud Familiar San Fabián;Pfizer;16/07/2021;4;;
+" Ñuble";San Fabián;Centro de Salud Familiar San Fabián;Pfizer;17/07/2021;2;;
 " Ñuble";San Ignacio;Centro de Salud Familiar Quiriquina;Pfizer;11/05/2021;1;;
 " Ñuble";San Ignacio;Centro de Salud Familiar Quiriquina;Pfizer;14/05/2021;2;;
 " Ñuble";San Ignacio;Centro de Salud Familiar Quiriquina;Pfizer;18/05/2021;2;;
@@ -15374,6 +15442,7 @@ Bíobío;Concepción;Centro de Salud Familiar Juan Soto Fernández;Pfizer;12/07/2021
 Bíobío;Concepción;Centro de Salud Familiar Juan Soto Fernández;Pfizer;13/07/2021;54;;
 Bíobío;Concepción;Centro de Salud Familiar Juan Soto Fernández;Pfizer;14/07/2021;31;;
 Bíobío;Concepción;Centro de Salud Familiar Juan Soto Fernández;Pfizer;15/07/2021;28;;
+Bíobío;Concepción;Centro de Salud Familiar Juan Soto Fernández;Pfizer;17/07/2021;5;;
 Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;20/05/2021;1;;
 Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;27/05/2021;2;;
 Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;31/05/2021;1;;
@@ -15397,6 +15466,7 @@ Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;12/07/2021;21;;
 Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;13/07/2021;76;;
 Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;14/07/2021;55;;
 Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;15/07/2021;16;;
+Bíobío;Concepción;Centro de Salud Familiar Lorenzo Arenas;Pfizer;17/07/2021;3;;
 Bíobío;Concepción;Centro de Salud Familiar O'Higgins;Pfizer;25/02/2021;1;;
 Bíobío;Concepción;Centro de Salud Familiar O'Higgins;Pfizer;01/03/2021;1;;
 Bíobío;Concepción;Centro de Salud Familiar O'Higgins;Pfizer;02/03/2021;4;;
@@ -15560,6 +15630,7 @@ Bíobío;Concepción;Centro de Salud Familiar Santa Sabina;Pfizer;12/07/2021;48;1;
 Bíobío;Concepción;Centro de Salud Familiar Santa Sabina;Pfizer;13/07/2021;191;1;
 Bíobío;Concepción;Centro de Salud Familiar Santa Sabina;Pfizer;14/07/2021;115;1;
 Bíobío;Concepción;Centro de Salud Familiar Santa Sabina;Pfizer;15/07/2021;64;1;
+Bíobío;Concepción;Centro de Salud Familiar Santa Sabina;Pfizer;17/07/2021;18;;
 Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;26/03/2021;4;;
 Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;07/04/2021;1;;
 Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;15/04/2021;1;;
@@ -15598,6 +15669,7 @@ Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;12/07/2021;36;;
 Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;13/07/2021;87;;
 Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;14/07/2021;90;;
 Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;15/07/2021;32;;
+Bíobío;Concepción;Centro de Salud Familiar Tucapel;Pfizer;17/07/2021;17;;
 Bíobío;Concepción;Centro de Salud Familiar Villa Nonguén (Organizaciones sin fines de lucro y ONG);Pfizer;22/06/2021;9;;
 Bíobío;Concepción;Centro de Salud Familiar Villa Nonguén (Organizaciones sin fines de lucro y ONG);Pfizer;23/06/2021;10;;
 Bíobío;Concepción;Centro de Salud Familiar Villa Nonguén (Organizaciones sin fines de lucro y ONG);Pfizer;24/06/2021;10;;
@@ -16026,6 +16098,7 @@ Bíobío;Hualpén;Centro de Salud Familiar Hualpencillo;Pfizer;13/07/2021;100;;
 Bíobío;Hualpén;Centro de Salud Familiar Hualpencillo;Pfizer;14/07/2021;87;1;
 Bíobío;Hualpén;Centro de Salud Familiar Hualpencillo;Pfizer;15/07/2021;48;;
 Bíobío;Hualpén;Centro de Salud Familiar Hualpencillo;Pfizer;16/07/2021;3;;
+Bíobío;Hualpén;Centro de Salud Familiar Hualpencillo;Pfizer;17/07/2021;4;;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;01/03/2021;1;;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;03/03/2021;1;;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;08/03/2021;1;;
@@ -16110,6 +16183,7 @@ Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;13/07/2021;80;3;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;14/07/2021;61;1;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;15/07/2021;41;1;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;16/07/2021;3;;
+Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Pfizer;17/07/2021;11;;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Sinovac;29/06/2021;1;;
 Bíobío;Hualpén;Centro de Salud Familiar La Floresta;Sinovac;01/07/2021;1;;
 Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Pfizer;18/03/2021;1;;
@@ -16148,6 +16222,7 @@ Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Pfizer;13/07/2021;90;;
 Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Pfizer;14/07/2021;63;;
 Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Pfizer;15/07/2021;30;;
 Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Pfizer;16/07/2021;2;;
+Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Pfizer;17/07/2021;8;;
 Bíobío;Hualpén;Centro de Salud Familiar Talcahuano Sur;Sinovac;07/07/2021;1;;
 Bíobío;Hualpén;Clínica Andes Salud Concepción;Pfizer;29/04/2021;2;;
 Bíobío;Hualpén;Clínica Andes Salud Concepción;Pfizer;30/04/2021;1;;
@@ -16485,6 +16560,7 @@ Bíobío;Los Ángeles;Centro de Salud Familiar 2 Septiembre;Pfizer;12/07/2021;120;4
 Bíobío;Los Ángeles;Centro de Salud Familiar 2 Septiembre;Pfizer;13/07/2021;348;2;
 Bíobío;Los Ángeles;Centro de Salud Familiar 2 Septiembre;Pfizer;14/07/2021;236;2;
 Bíobío;Los Ángeles;Centro de Salud Familiar 2 Septiembre;Pfizer;15/07/2021;152;1;
+Bíobío;Los Ángeles;Centro de Salud Familiar 2 Septiembre;Pfizer;17/07/2021;158;1;
 Bíobío;Los Ángeles;Centro de Salud Familiar Nororiente de Los Ángeles;Pfizer;01/03/2021;1;;
 Bíobío;Los Ángeles;Centro de Salud Familiar Nororiente de Los Ángeles;Pfizer;02/03/2021;1;;
 Bíobío;Los Ángeles;Centro de Salud Familiar Nororiente de Los Ángeles;Pfizer;03/03/2021;3;;
@@ -17240,6 +17316,7 @@ Bíobío;San Pedro de la Paz;Centro de Salud Familiar San Pedro de La Paz Candelar
 Bíobío;San Pedro de la Paz;Centro de Salud Familiar San Pedro de La Paz Candelaria;Pfizer;13/07/2021;244;4;
 Bíobío;San Pedro de la Paz;Centro de Salud Familiar San Pedro de La Paz Candelaria;Pfizer;14/07/2021;133;;
 Bíobío;San Pedro de la Paz;Centro de Salud Familiar San Pedro de La Paz Candelaria;Pfizer;15/07/2021;85;;
+Bíobío;San Pedro de la Paz;Centro de Salud Familiar San Pedro de La Paz Candelaria;Pfizer;17/07/2021;;1;
 Bíobío;San Pedro de la Paz;Vacunatorio San Pedro SpA;Pfizer;23/06/2021;3;;
 Bíobío;San Pedro de la Paz;Vacunatorio San Pedro SpA;Pfizer;24/06/2021;1;;
 Bíobío;San Pedro de la Paz;Vacunatorio San Pedro SpA;Pfizer;25/06/2021;3;;
@@ -17350,6 +17427,7 @@ Bíobío;Santa Bárbara;Hospital Comunitario de Santa Bárbara;Pfizer;12/07/2021;20;
 Bíobío;Santa Bárbara;Hospital Comunitario de Santa Bárbara;Pfizer;13/07/2021;31;2;
 Bíobío;Santa Bárbara;Hospital Comunitario de Santa Bárbara;Pfizer;14/07/2021;28;;
 Bíobío;Santa Bárbara;Hospital Comunitario de Santa Bárbara;Pfizer;15/07/2021;25;;
+Bíobío;Santa Bárbara;Hospital Comunitario de Santa Bárbara;Pfizer;17/07/2021;;1;
 Bíobío;Santa Juana;Hospital Clorinda Avello (Santa Juana);Pfizer;29/06/2021;3;;
 Bíobío;Santa Juana;Hospital Clorinda Avello (Santa Juana);Pfizer;30/06/2021;6;;
 Bíobío;Santa Juana;Hospital Clorinda Avello (Santa Juana);Pfizer;01/07/2021;29;;
@@ -18114,6 +18192,7 @@ Libertador B. O'Higgins;Graneros;Hospital Santa Filomena de Graneros;Pfizer;10/0
 Libertador B. O'Higgins;Graneros;Hospital Santa Filomena de Graneros;Pfizer;12/07/2021;46;;
 Libertador B. O'Higgins;Graneros;Hospital Santa Filomena de Graneros;Pfizer;13/07/2021;175;;
 Libertador B. O'Higgins;Graneros;Hospital Santa Filomena de Graneros;Pfizer;14/07/2021;89;;
+Libertador B. O'Higgins;Graneros;Hospital Santa Filomena de Graneros;Pfizer;17/07/2021;;1;
 Libertador B. O'Higgins;La Estrella;Centro de Salud Familiar La Estrella;Pfizer;19/03/2021;8;;
 Libertador B. O'Higgins;La Estrella;Centro de Salud Familiar La Estrella;Pfizer;08/04/2021;1;;
 Libertador B. O'Higgins;La Estrella;Centro de Salud Familiar La Estrella;Pfizer;09/04/2021;1;;
@@ -20031,6 +20110,7 @@ Maule;Chanco;Posta de Salud Rural Loanco;Pfizer;06/07/2021;12;;
 Maule;Chanco;Posta de Salud Rural Pahuil;Pfizer;02/07/2021;24;;
 Maule;Chanco;Posta de Salud Rural Pahuil;Pfizer;05/07/2021;6;;
 Maule;Chanco;Posta de Salud Rural Pahuil;Pfizer;07/07/2021;17;;
+Maule;Chanco;Posta de Salud Rural Pahuil;Pfizer;16/07/2021;1;;
 Maule;Colbún;Centro de Salud Familiar Alcalde Francisco Sepúlveda Salgado;Pfizer;22/06/2021;14;;
 Maule;Colbún;Centro de Salud Familiar Alcalde Francisco Sepúlveda Salgado;Pfizer;23/06/2021;3;;
 Maule;Colbún;Centro de Salud Familiar Alcalde Francisco Sepúlveda Salgado;Pfizer;24/06/2021;12;;
@@ -20159,6 +20239,7 @@ Maule;Constitución;Centro de Salud Familiar Cerro Alto;Pfizer;12/07/2021;63;;
 Maule;Constitución;Centro de Salud Familiar Cerro Alto;Pfizer;13/07/2021;139;;
 Maule;Constitución;Centro de Salud Familiar Cerro Alto;Pfizer;14/07/2021;58;1;
 Maule;Constitución;Centro de Salud Familiar Cerro Alto;Pfizer;15/07/2021;69;1;
+Maule;Constitución;Centro de Salud Familiar Cerro Alto;Pfizer;17/07/2021;8;;
 Maule;Constitución;Posta de Salud Rural Las Cañas;Pfizer;28/05/2021;1;;
 Maule;Constitución;Posta de Salud Rural Las Cañas;Pfizer;23/06/2021;1;;
 Maule;Constitución;Posta de Salud Rural Las Cañas;Pfizer;24/06/2021;2;;
@@ -20331,7 +20412,8 @@ Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;12/07/2021;47;;
 Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;13/07/2021;139;;
 Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;14/07/2021;103;;
 Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;15/07/2021;49;;
-Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;16/07/2021;8;;
+Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;16/07/2021;15;;
+Maule;Curicó;Centro de Salud Familiar Colón;Pfizer;17/07/2021;5;;
 Maule;Curicó;Centro de Salud Familiar Curicó Centro;Pfizer;02/03/2021;1;;
 Maule;Curicó;Centro de Salud Familiar Curicó Centro;Pfizer;03/03/2021;1;;
 Maule;Curicó;Centro de Salud Familiar Curicó Centro;Pfizer;04/03/2021;10;;
@@ -20875,6 +20957,7 @@ Maule;Maule;Centro de Salud Familiar Maule;Pfizer;12/07/2021;87;3;
 Maule;Maule;Centro de Salud Familiar Maule;Pfizer;13/07/2021;135;;
 Maule;Maule;Centro de Salud Familiar Maule;Pfizer;14/07/2021;75;1;
 Maule;Maule;Centro de Salud Familiar Maule;Pfizer;15/07/2021;77;3;
+Maule;Maule;Centro de Salud Familiar Maule;Pfizer;17/07/2021;;2;
 Maule;Molina;Centro de Salud Familiar Lontué;Pfizer;14/05/2021;11;;
 Maule;Molina;Centro de Salud Familiar Lontué;Pfizer;15/05/2021;3;;
 Maule;Molina;Centro de Salud Familiar Lontué;Pfizer;18/05/2021;2;;
@@ -21255,6 +21338,7 @@ Maule;San Clemente;Centro de Salud Familiar San Clemente;Pfizer;12/07/2021;30;;
 Maule;San Clemente;Centro de Salud Familiar San Clemente;Pfizer;13/07/2021;138;;
 Maule;San Clemente;Centro de Salud Familiar San Clemente;Pfizer;14/07/2021;83;;
 Maule;San Clemente;Centro de Salud Familiar San Clemente;Pfizer;15/07/2021;48;1;
+Maule;San Clemente;Centro de Salud Familiar San Clemente;Pfizer;17/07/2021;34;;
 Maule;San Clemente;Centro de Salud Familiar San Clemente;Sinovac;07/07/2021;1;;
 Maule;San Clemente;Posta de Salud Rural Buenos Aires;Pfizer;02/07/2021;2;;
 Maule;San Clemente;Posta de Salud Rural Buenos Aires;Pfizer;09/07/2021;3;;
@@ -21341,6 +21425,7 @@ Maule;San Rafael;Centro de Salud Familiar San Rafael (San Rafael);Pfizer;12/07/2
 Maule;San Rafael;Centro de Salud Familiar San Rafael (San Rafael);Pfizer;13/07/2021;40;;
 Maule;San Rafael;Centro de Salud Familiar San Rafael (San Rafael);Pfizer;14/07/2021;12;;
 Maule;San Rafael;Centro de Salud Familiar San Rafael (San Rafael);Pfizer;15/07/2021;28;;
+Maule;San Rafael;Centro de Salud Familiar San Rafael (San Rafael);Pfizer;17/07/2021;10;;
 Maule;Talca;Centro Comunitario de Salud Familiar Nuevo Horizonte;Pfizer;13/07/2021;6;;
 Maule;Talca;Centro de Salud Familiar Bicentenario;Pfizer;02/03/2021;1;;
 Maule;Talca;Centro de Salud Familiar Bicentenario;Pfizer;08/03/2021;1;;
@@ -21530,6 +21615,7 @@ Maule;Talca;Centro de Salud Familiar Dr. Julio Contardo Urzúa;Pfizer;10/07/2021;
 Maule;Talca;Centro de Salud Familiar Dr. Julio Contardo Urzúa;Pfizer;12/07/2021;;2;
 Maule;Talca;Centro de Salud Familiar Dr. Julio Contardo Urzúa;Pfizer;14/07/2021;;11;
 Maule;Talca;Centro de Salud Familiar Dr. Julio Contardo Urzúa;Pfizer;15/07/2021;;1;
+Maule;Talca;Centro de Salud Familiar Dr. Julio Contardo Urzúa;Pfizer;17/07/2021;;1;
 Maule;Talca;Centro de Salud Familiar Faustino González;Pfizer;10/03/2021;1;;
 Maule;Talca;Centro de Salud Familiar Faustino González;Pfizer;16/03/2021;1;;
 Maule;Talca;Centro de Salud Familiar Faustino González;Pfizer;17/03/2021;1;;
@@ -21650,6 +21736,7 @@ Maule;Talca;Centro de Salud Familiar José Dionisio Astaburuaga;Pfizer;12/07/2021
 Maule;Talca;Centro de Salud Familiar José Dionisio Astaburuaga;Pfizer;13/07/2021;102;1;
 Maule;Talca;Centro de Salud Familiar José Dionisio Astaburuaga;Pfizer;14/07/2021;86;1;
 Maule;Talca;Centro de Salud Familiar José Dionisio Astaburuaga;Pfizer;15/07/2021;59;4;
+Maule;Talca;Centro de Salud Familiar José Dionisio Astaburuaga;Pfizer;17/07/2021;;1;
 Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;25/02/2021;1;;
 Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;15/03/2021;1;;
 Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;16/03/2021;1;;
@@ -21729,6 +21816,7 @@ Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;12/07/2021;75;9;
 Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;13/07/2021;126;5;
 Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;14/07/2021;76;12;
 Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;15/07/2021;14;12;
+Maule;Talca;Centro de Salud Familiar La Florida;Pfizer;17/07/2021;16;1;
 Maule;Talca;Centro de Salud Familiar Las Américas;Pfizer;15/03/2021;4;;
 Maule;Talca;Centro de Salud Familiar Las Américas;Pfizer;16/03/2021;1;;
 Maule;Talca;Centro de Salud Familiar Las Américas;Pfizer;17/03/2021;8;;
@@ -22523,6 +22611,7 @@ Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Cerro Navia;Pfizer;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Cerro Navia;Pfizer;13/07/2021;114;3;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Cerro Navia;Pfizer;14/07/2021;62;4;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Cerro Navia;Pfizer;15/07/2021;3;;
+Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Cerro Navia;Pfizer;17/07/2021;;1;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Dr. Adalberto Steeger;Pfizer;19/03/2021;27;;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Dr. Adalberto Steeger;Pfizer;23/03/2021;10;;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Dr. Adalberto Steeger;Pfizer;24/03/2021;2;;
@@ -22686,6 +22775,7 @@ Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Lo Amor;Pfizer;13/0
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Lo Amor;Pfizer;14/07/2021;30;;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Lo Amor;Pfizer;15/07/2021;24;;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Lo Amor;Pfizer;16/07/2021;5;;
+Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Lo Amor;Pfizer;17/07/2021;27;;
 Metropolitana  Santiago;Cerro Navia;Centro de Salud Familiar Lo Amor;Sinovac;17/06/2021;1;;
 Metropolitana  Santiago;Colina;Centro Médico Clinica Las Condes de Chicureo (Servicios de Salud Integrados S.A.);Pfizer;14/04/2021;1;;
 Metropolitana  Santiago;Colina;Centro Médico Clinica Las Condes de Chicureo (Servicios de Salud Integrados S.A.);Pfizer;25/05/2021;;1;
@@ -23332,6 +23422,8 @@ Metropolitana  Santiago;El Monte;Centro de Salud Familiar El Monte;Pfizer;10/07/
 Metropolitana  Santiago;El Monte;Centro de Salud Familiar El Monte;Pfizer;12/07/2021;47;;
 Metropolitana  Santiago;El Monte;Centro de Salud Familiar El Monte;Pfizer;13/07/2021;176;;
 Metropolitana  Santiago;El Monte;Centro de Salud Familiar El Monte;Pfizer;14/07/2021;77;;
+Metropolitana  Santiago;El Monte;Centro de Salud Familiar El Monte;Pfizer;15/07/2021;13;;
+Metropolitana  Santiago;El Monte;Centro de Salud Familiar El Monte;Pfizer;17/07/2021;27;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;02/03/2021;2;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;17/03/2021;1;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;18/03/2021;1;;
@@ -23384,6 +23476,7 @@ Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;P
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;13/07/2021;86;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;14/07/2021;62;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;15/07/2021;28;;
+Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Pfizer;17/07/2021;19;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Sinovac;29/04/2021;1;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Sinovac;17/06/2021;;1;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Las Mercedes;Sinovac;12/07/2021;1;;
@@ -23420,6 +23513,7 @@ Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente 
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente Irarrázabal;Pfizer;12/07/2021;38;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente Irarrázabal;Pfizer;13/07/2021;64;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente Irarrázabal;Pfizer;14/07/2021;46;;
+Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente Irarrázabal;Pfizer;17/07/2021;7;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente Irarrázabal;Sinovac;07/07/2021;1;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar Padre Vicente Irarrázabal;Sinovac;09/07/2021;1;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Chuchunco;Pfizer;23/03/2021;10;;
@@ -23473,6 +23567,7 @@ Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Ch
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Chuchunco;Pfizer;13/07/2021;146;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Chuchunco;Pfizer;14/07/2021;77;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Chuchunco;Pfizer;16/07/2021;2;;
+Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Chuchunco;Pfizer;17/07/2021;5;;
 Metropolitana  Santiago;Estación Central;Centro de Salud Familiar San José de Chuchunco;Sinovac;23/06/2021;1;;
 Metropolitana  Santiago;Estación Central;Clínica Hospital del Profesor;Pfizer;23/06/2021;2;;
 Metropolitana  Santiago;Estación Central;Clínica Hospital del Profesor;Pfizer;24/06/2021;5;;
@@ -23646,6 +23741,7 @@ Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar Dr. Victor Castro Wi
 Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar Dr. Victor Castro Wiren;Pfizer;13/07/2021;159;;
 Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar Dr. Victor Castro Wiren;Pfizer;14/07/2021;140;;
 Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar Dr. Victor Castro Wiren;Pfizer;15/07/2021;26;;
+Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar Dr. Victor Castro Wiren;Pfizer;17/07/2021;;1;
 Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar El Barrero;Pfizer;04/05/2021;1;;
 Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar El Barrero;Pfizer;19/05/2021;1;;
 Metropolitana  Santiago;Huechuraba;Centro de Salud Familiar El Barrero;Pfizer;20/05/2021;1;;
@@ -24049,6 +24145,7 @@ Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montal
 Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Pfizer;13/07/2021;246;;
 Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Pfizer;14/07/2021;164;;
 Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Pfizer;15/07/2021;113;;
+Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Pfizer;17/07/2021;50;;
 Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Sinovac;03/05/2021;1;;
 Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Sinovac;01/06/2021;;1;
 Metropolitana  Santiago;La Cisterna;Centro de Salud Familiar Eduardo Frei Montalva;Sinovac;25/06/2021;1;;
@@ -24143,6 +24240,7 @@ Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Pfizer;10
 Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Pfizer;12/07/2021;450;2;
 Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Pfizer;13/07/2021;1363;3;
 Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Pfizer;14/07/2021;597;2;
+Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Pfizer;17/07/2021;;2;
 Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Sinovac;17/06/2021;1;;
 Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Sinovac;30/06/2021;1;;
 Metropolitana  Santiago;La Florida;Centro de Salud Familiar La Florida;Sinovac;02/07/2021;1;;
@@ -25013,6 +25111,7 @@ Metropolitana  Santiago;Las Condes;Centro de Salud Familiar Apoquindo;Pfizer;12/
 Metropolitana  Santiago;Las Condes;Centro de Salud Familiar Apoquindo;Pfizer;13/07/2021;1101;;
 Metropolitana  Santiago;Las Condes;Centro de Salud Familiar Apoquindo;Pfizer;14/07/2021;314;1;
 Metropolitana  Santiago;Las Condes;Centro de Salud Familiar Apoquindo;Pfizer;15/07/2021;158;2;
+Metropolitana  Santiago;Las Condes;Centro de Salud Familiar Apoquindo;Pfizer;17/07/2021;;2;
 Metropolitana  Santiago;Las Condes;Clínica Las Condes;Pfizer;14/04/2021;2;;
 Metropolitana  Santiago;Las Condes;Clínica Las Condes;Pfizer;12/05/2021;;1;
 Metropolitana  Santiago;Las Condes;Clínica Las Condes;Pfizer;18/05/2021;;1;
@@ -25251,6 +25350,7 @@ Metropolitana  Santiago;Lo Barnechea;Centro de Salud Familiar Lo Barnechea;Pfize
 Metropolitana  Santiago;Lo Barnechea;Centro de Salud Familiar Lo Barnechea;Pfizer;14/07/2021;310;6;
 Metropolitana  Santiago;Lo Barnechea;Centro de Salud Familiar Lo Barnechea;Pfizer;15/07/2021;3;6;
 Metropolitana  Santiago;Lo Barnechea;Centro de Salud Familiar Lo Barnechea;Pfizer;16/07/2021;72;12;
+Metropolitana  Santiago;Lo Barnechea;Centro de Salud Familiar Lo Barnechea;Pfizer;17/07/2021;14;;
 Metropolitana  Santiago;Lo Barnechea;Centro de Salud Familiar Lo Barnechea;Sinovac;24/06/2021;1;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer;19/03/2021;6;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer;23/03/2021;2;;
@@ -25300,6 +25400,7 @@ Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer;13/07/2021;76;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer;14/07/2021;37;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer;15/07/2021;65;;
+Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Pfizer;17/07/2021;10;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Sinovac;18/05/2021;1;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Clara Estrella;Sinovac;18/06/2021;;1;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Dra. Mariela Salgado Zepeda;Pfizer;24/03/2021;1;;
@@ -25387,6 +25488,7 @@ Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Julio Acuña Pinzón;Pf
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Julio Acuña Pinzón;Pfizer;13/07/2021;75;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Julio Acuña Pinzón;Pfizer;14/07/2021;42;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Julio Acuña Pinzón;Pfizer;15/07/2021;10;;
+Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Julio Acuña Pinzón;Pfizer;17/07/2021;28;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;23/03/2021;2;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;24/03/2021;4;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;30/03/2021;1;;
@@ -25427,6 +25529,7 @@ Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfiz
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;13/07/2021;36;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;14/07/2021;24;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;15/07/2021;52;;
+Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Pfizer;17/07/2021;12;;
 Metropolitana  Santiago;Lo Espejo;Centro de Salud Familiar Pueblo Lo Espejo;Sinovac;23/06/2021;2;;
 Metropolitana  Santiago;Lo Prado;Centro de Salud Familiar Dr. Carlos Avendaño;Pfizer;18/03/2021;3;;
 Metropolitana  Santiago;Lo Prado;Centro de Salud Familiar Dr. Carlos Avendaño;Pfizer;19/03/2021;17;;
@@ -25981,6 +26084,7 @@ Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Pfizer;0
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Pfizer;08/07/2021;114;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Pfizer;12/07/2021;137;1;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Pfizer;13/07/2021;269;;
+Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Pfizer;17/07/2021;;1;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Sinovac;31/05/2021;1;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Sinovac;02/07/2021;;1;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Carlos Godoy;Sinovac;06/07/2021;1;;
@@ -26058,6 +26162,7 @@ Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Iván Insunza;Pfizer;0
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Iván Insunza;Pfizer;10/07/2021;69;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Iván Insunza;Pfizer;12/07/2021;5;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Iván Insunza;Pfizer;13/07/2021;50;;
+Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. Iván Insunza;Pfizer;17/07/2021;224;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. José Eduardo Ahués Salame;Pfizer;25/03/2021;1;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. José Eduardo Ahués Salame;Pfizer;26/03/2021;3;;
 Metropolitana  Santiago;Maipú;Centro de Salud Familiar Dr. José Eduardo Ahués Salame;Pfizer;31/03/2021;1;;
@@ -26769,6 +26874,7 @@ Metropolitana  Santiago;Pedro Aguirre Cerda;Centro de Salud Familiar Padre Pierr
 Metropolitana  Santiago;Pedro Aguirre Cerda;Centro de Salud Familiar Padre Pierre Dubois (Ex La Feria);Pfizer;09/07/2021;11;;
 Metropolitana  Santiago;Pedro Aguirre Cerda;Centro de Salud Familiar Padre Pierre Dubois (Ex La Feria);Pfizer;12/07/2021;95;;
 Metropolitana  Santiago;Pedro Aguirre Cerda;Centro de Salud Familiar Padre Pierre Dubois (Ex La Feria);Pfizer;14/07/2021;168;;
+Metropolitana  Santiago;Pedro Aguirre Cerda;Centro de Salud Familiar Padre Pierre Dubois (Ex La Feria);Pfizer;17/07/2021;57;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;31/03/2021;3;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;01/04/2021;1;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;07/04/2021;1;;
@@ -26818,6 +26924,7 @@ Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeber
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;13/07/2021;166;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;14/07/2021;115;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;15/07/2021;15;;
+Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Pfizer;17/07/2021;27;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Dr. Fernando Monckeberg;Sinovac;03/07/2021;1;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;18/03/2021;1;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;19/03/2021;57;;
@@ -26886,6 +26993,7 @@ Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;10/07/
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;12/07/2021;63;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;13/07/2021;248;;
 Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;14/07/2021;116;;
+Metropolitana  Santiago;Peñaflor;Centro de Salud Familiar Peñaflor;Pfizer;17/07/2021;32;;
 Metropolitana  Santiago;Peñaflor;Hospital de Peñaflor;Pfizer;26/02/2021;1;;
 Metropolitana  Santiago;Peñaflor;Hospital de Peñaflor;Pfizer;03/03/2021;1;;
 Metropolitana  Santiago;Peñaflor;Hospital de Peñaflor;Pfizer;19/03/2021;;1;
@@ -27126,6 +27234,7 @@ Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Lo Hermida;Pfizer;12/
 Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Lo Hermida;Pfizer;13/07/2021;112;;
 Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Lo Hermida;Pfizer;14/07/2021;7;;
 Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Lo Hermida;Pfizer;15/07/2021;31;;
+Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Lo Hermida;Pfizer;17/07/2021;;1;
 Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Lo Hermida;Sinovac;15/06/2021;1;;
 Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Padre Gerardo Whelan;Pfizer;09/03/2021;1;;
 Metropolitana  Santiago;Peñalolén;Centro de Salud Familiar Padre Gerardo Whelan;Pfizer;10/03/2021;1;;
@@ -27322,6 +27431,7 @@ Metropolitana  Santiago;Pirque;Centro de Salud Rural El Principal;Pfizer;12/07/2
 Metropolitana  Santiago;Pirque;Centro de Salud Rural El Principal;Pfizer;13/07/2021;98;;
 Metropolitana  Santiago;Pirque;Centro de Salud Rural El Principal;Pfizer;14/07/2021;23;;
 Metropolitana  Santiago;Pirque;Centro de Salud Rural El Principal;Pfizer;15/07/2021;18;;
+Metropolitana  Santiago;Pirque;Centro de Salud Rural El Principal;Pfizer;17/07/2021;21;;
 Metropolitana  Santiago;Providencia;Centro Médico HTS SpA;Pfizer;02/07/2021;3;;
 Metropolitana  Santiago;Providencia;Centro Médico HTS SpA;Pfizer;05/07/2021;1;;
 Metropolitana  Santiago;Providencia;Centro Médico HTS SpA;Pfizer;07/07/2021;1;;
@@ -27369,6 +27479,7 @@ Metropolitana  Santiago;Providencia;Centro de Salud Familiar Aguilucho;Pfizer;12
 Metropolitana  Santiago;Providencia;Centro de Salud Familiar Aguilucho;Pfizer;13/07/2021;228;;
 Metropolitana  Santiago;Providencia;Centro de Salud Familiar Aguilucho;Pfizer;14/07/2021;120;;
 Metropolitana  Santiago;Providencia;Centro de Salud Familiar Aguilucho;Pfizer;15/07/2021;38;;
+Metropolitana  Santiago;Providencia;Centro de Salud Familiar Aguilucho;Pfizer;17/07/2021;;1;
 Metropolitana  Santiago;Providencia;Centro de Salud Familiar Dr. Alfonso Leng;Pfizer;08/04/2021;1;;
 Metropolitana  Santiago;Providencia;Centro de Salud Familiar Dr. Alfonso Leng;Pfizer;14/04/2021;1;;
 Metropolitana  Santiago;Providencia;Centro de Salud Familiar Dr. Alfonso Leng;Pfizer;16/04/2021;1;;
@@ -27801,6 +27912,7 @@ Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Pfiz
 Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Pfizer;12/07/2021;87;;
 Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Pfizer;13/07/2021;195;;
 Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Pfizer;14/07/2021;33;;
+Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Pfizer;17/07/2021;116;;
 Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Sinovac;27/05/2021;1;;
 Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Pudahuel Poniente;Sinovac;24/06/2021;;1;
 Metropolitana  Santiago;Pudahuel;Centro de Salud Familiar Violeta Parra;Pfizer;18/03/2021;6;;
@@ -28496,6 +28608,7 @@ Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador A
 Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador Allende Gossens;Pfizer;13/07/2021;391;1;
 Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador Allende Gossens;Pfizer;14/07/2021;116;;
 Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador Allende Gossens;Pfizer;15/07/2021;34;1;
+Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador Allende Gossens;Pfizer;17/07/2021;;4;
 Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador Allende Gossens;Sinovac;03/06/2021;1;;
 Metropolitana  Santiago;Quilicura;Centro de Salud Familiar Presidente Salvador Allende Gossens;Sinovac;01/07/2021;;1;
 Metropolitana  Santiago;Quinta Normal;Centro de Salud Familiar Andes;Pfizer;19/03/2021;22;;
@@ -28647,6 +28760,7 @@ Metropolitana  Santiago;Quinta Normal;Centro de Salud Familiar Lo Franco;Pfizer;
 Metropolitana  Santiago;Quinta Normal;Centro de Salud Familiar Lo Franco;Pfizer;13/07/2021;144;;
 Metropolitana  Santiago;Quinta Normal;Centro de Salud Familiar Lo Franco;Pfizer;14/07/2021;106;;
 Metropolitana  Santiago;Quinta Normal;Centro de Salud Familiar Lo Franco;Pfizer;15/07/2021;92;;
+Metropolitana  Santiago;Quinta Normal;Centro de Salud Familiar Lo Franco;Pfizer;17/07/2021;2;;
 Metropolitana  Santiago;Recoleta;Centro de Salud Familiar Cristo Vive (ONG);Pfizer;16/04/2021;1;;
 Metropolitana  Santiago;Recoleta;Centro de Salud Familiar Cristo Vive (ONG);Pfizer;18/05/2021;;1;
 Metropolitana  Santiago;Recoleta;Centro de Salud Familiar Cristo Vive (ONG);Pfizer;29/05/2021;1;;
@@ -29008,6 +29122,7 @@ Metropolitana  Santiago;Renca;Centro de Salud Familiar Dr. Hernán Urzúa Merino;P
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Dr. Hernán Urzúa Merino;Pfizer;13/07/2021;43;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Dr. Hernán Urzúa Merino;Pfizer;14/07/2021;41;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Dr. Hernán Urzúa Merino;Pfizer;15/07/2021;4;;
+Metropolitana  Santiago;Renca;Centro de Salud Familiar Dr. Hernán Urzúa Merino;Pfizer;17/07/2021;11;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;06/04/2021;1;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;08/04/2021;2;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;13/04/2021;1;;
@@ -29039,6 +29154,7 @@ Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;10/07/2
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;12/07/2021;16;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;13/07/2021;46;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;14/07/2021;40;;
+Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Pfizer;17/07/2021;22;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Huamachuco;Sinovac;22/06/2021;1;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Renca;Pfizer;09/03/2021;1;;
 Metropolitana  Santiago;Renca;Centro de Salud Familiar Renca;Pfizer;16/03/2021;2;;
@@ -29476,6 +29592,7 @@ Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar Arturo Baeza Goñi;P
 Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar Arturo Baeza Goñi;Pfizer;12/07/2021;51;;
 Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar Arturo Baeza Goñi;Pfizer;13/07/2021;107;1;
 Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar Arturo Baeza Goñi;Pfizer;14/07/2021;2;;
+Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar Arturo Baeza Goñi;Pfizer;17/07/2021;35;;
 Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar San Joaquín;Pfizer;07/04/2021;1;;
 Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar San Joaquín;Pfizer;14/04/2021;1;;
 Metropolitana  Santiago;San Joaquín;Centro de Salud Familiar San Joaquín;Pfizer;15/04/2021;1;;
@@ -29705,6 +29822,7 @@ Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Barros Luco;Pfizer;1
 Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Barros Luco;Pfizer;13/07/2021;237;;
 Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Barros Luco;Pfizer;14/07/2021;146;;
 Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Barros Luco;Pfizer;15/07/2021;103;;
+Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Barros Luco;Pfizer;17/07/2021;;1;
 Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Barros Luco;Sinovac;12/07/2021;1;;
 Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Recreo;Pfizer;24/03/2021;1;;
 Metropolitana  Santiago;San Miguel;Centro de Salud Familiar Recreo;Pfizer;25/03/2021;2;;
@@ -30024,6 +30142,7 @@ Metropolitana  Santiago;Santiago;Centro de Salud Familiar Arauco;Pfizer;12/07/20
 Metropolitana  Santiago;Santiago;Centro de Salud Familiar Arauco;Pfizer;13/07/2021;177;;
 Metropolitana  Santiago;Santiago;Centro de Salud Familiar Arauco;Pfizer;14/07/2021;131;;
 Metropolitana  Santiago;Santiago;Centro de Salud Familiar Arauco;Pfizer;15/07/2021;199;;
+Metropolitana  Santiago;Santiago;Centro de Salud Familiar Arauco;Pfizer;17/07/2021;168;;
 Metropolitana  Santiago;Santiago;Centro de Salud Familiar Ignacio Domeyko;Pfizer;27/02/2021;1;;
 Metropolitana  Santiago;Santiago;Centro de Salud Familiar Ignacio Domeyko;Pfizer;17/03/2021;2;;
 Metropolitana  Santiago;Santiago;Centro de Salud Familiar Ignacio Domeyko;Pfizer;20/03/2021;3;1;
@@ -30344,6 +30463,7 @@ Metropolitana  Santiago;Talagante;Centro de Salud Familiar Dr. Alberto Allende J
 Metropolitana  Santiago;Talagante;Centro de Salud Familiar Dr. Alberto Allende Jones;Pfizer;13/07/2021;373;;
 Metropolitana  Santiago;Talagante;Centro de Salud Familiar Dr. Alberto Allende Jones;Pfizer;14/07/2021;209;;
 Metropolitana  Santiago;Talagante;Centro de Salud Familiar Dr. Alberto Allende Jones;Pfizer;15/07/2021;133;;
+Metropolitana  Santiago;Talagante;Centro de Salud Familiar Dr. Alberto Allende Jones;Pfizer;17/07/2021;;2;
 Metropolitana  Santiago;Talagante;Centro de Salud Familiar Dr. Alberto Allende Jones;Sinovac;15/07/2021;1;;
 Metropolitana  Santiago;Talagante;Hospital Adalberto Steeger (Talagante);Pfizer;02/03/2021;2;;
 Metropolitana  Santiago;Talagante;Hospital Adalberto Steeger (Talagante);Pfizer;03/03/2021;2;;
@@ -30509,6 +30629,7 @@ Metropolitana  Santiago;Vitacura;Clínica Alemana;Pfizer;12/07/2021;9;;
 Metropolitana  Santiago;Vitacura;Clínica Alemana;Pfizer;13/07/2021;41;;
 Metropolitana  Santiago;Vitacura;Clínica Alemana;Pfizer;14/07/2021;41;;
 Metropolitana  Santiago;Vitacura;Clínica Alemana;Pfizer;15/07/2021;36;;
+Metropolitana  Santiago;Vitacura;Clínica Alemana;Pfizer;17/07/2021;23;;
 Metropolitana  Santiago;Vitacura;Clínica Tabancura;Pfizer;15/04/2021;2;;
 Metropolitana  Santiago;Vitacura;Clínica Tabancura;Pfizer;11/05/2021;2;;
 Metropolitana  Santiago;Vitacura;Clínica Tabancura;Pfizer;12/05/2021;;1;
@@ -30574,6 +30695,7 @@ Metropolitana  Santiago;Ñuñoa;;Pfizer;10/07/2021;74;;
 Metropolitana  Santiago;Ñuñoa;;Pfizer;11/07/2021;45;;
 Metropolitana  Santiago;Ñuñoa;;Pfizer;15/07/2021;158;;
 Metropolitana  Santiago;Ñuñoa;;Pfizer;16/07/2021;67;;
+Metropolitana  Santiago;Ñuñoa;;Pfizer;17/07/2021;120;;
 Metropolitana  Santiago;Ñuñoa;Centro de Salud Familiar Rosita Renard;Pfizer;10/03/2021;5;;
 Metropolitana  Santiago;Ñuñoa;Centro de Salud Familiar Rosita Renard;Pfizer;16/03/2021;1;;
 Metropolitana  Santiago;Ñuñoa;Centro de Salud Familiar Rosita Renard;Pfizer;19/03/2021;55;;
