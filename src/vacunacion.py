@@ -1327,10 +1327,10 @@ if __name__ == '__main__':
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
 
-    print('Actualizamos total de vacunados por grupo prioritario')
-    my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    # print('Actualizamos total de vacunados por grupo prioritario')
+    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
 
     print('Actualizamos dosis por fabricante')
     my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
