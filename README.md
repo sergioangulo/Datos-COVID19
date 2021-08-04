@@ -218,6 +218,16 @@ Avance en Campaña de Vacunación COVID-19 por fabricante y tipo de establecimie
 [Data Product 85 - Datos del estudio de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile](output/producto85)
 Resultados del estudio para el levantamiento de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile [Ver más](output/producto85)
 
+[Data Product 87 - Exámenes Ag por región de toma de muestra](output/producto87)
+Total de test de antígeno por región de toma de muestra  [Ver más](output/producto87)
+
+[Data Product 88 - Vacunación por fabricante](output/producto88)
+Total de vacunas por fabricante  [Ver más](output/producto88)
+
+[Data Product 91 - Evolución semanal de ingresos a UCI por covid](output/producto91)
+Media móvil de los últimos 7 días de ingresos a UCI por covid [Ver más](output/producto91)
+
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario del Ministerio de Salud de Chile
