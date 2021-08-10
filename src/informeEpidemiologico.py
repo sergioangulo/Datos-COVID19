@@ -152,11 +152,11 @@ def prod15(fte, prod):
     utils.regionName(data_2021)
     data_2021.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
     data_2021.to_csv(prod + '_2021.csv', index=False)
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    variables = [x for x in data_2021.columns if x not in identifiers]
-    df_std = pd.melt(data_2021, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-                     value_name='Casos confirmados')
-    df_std.to_csv(prod + '_2021_std.csv', index=False)
+    # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    # variables = [x for x in data_2021.columns if x not in identifiers]
+    # df_std = pd.melt(data_2021, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #                  value_name='Casos confirmados')
+    # df_std.to_csv(prod + '_2021_std.csv', index=False)
     
     # create old prod 15 from latest adition
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
@@ -172,11 +172,11 @@ def prod15(fte, prod):
     df_t = latestdf.T
     df_t.to_csv(prod.replace('Historico', '_T.csv'), header=False)
 
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
-    variables = [x for x in latestdf.columns if x not in identifiers]
-    df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-                     value_name='Casos confirmados')
-    df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
+    # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+    # variables = [x for x in latestdf.columns if x not in identifiers]
+    # df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #                  value_name='Casos confirmados')
+    # df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
 
 
 def prod16(fte, producto):
@@ -430,11 +430,11 @@ def prod45(fte, fte2, prod):
     utils.regionName(data_2020)
     data_2020.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
     data_2020.to_csv(prod + '_2020.csv', index=False)
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    variables = [x for x in data_2020.columns if x not in identifiers]
-    df_std = pd.melt(data_2020, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-                     value_name='Casos ' + name)
-    df_std.to_csv(prod + '_2020_std.csv', index=False)
+    # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    # variables = [x for x in data_2020.columns if x not in identifiers]
+    # df_std = pd.melt(data_2020, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #                  value_name='Casos ' + name)
+    # df_std.to_csv(prod + '_2020_std.csv', index=False)
 
     # normalization 2021
     data_2021 = pd.concat(data_2021)
@@ -442,11 +442,11 @@ def prod45(fte, fte2, prod):
     utils.regionName(data_2021)
     data_2021.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
     data_2021.to_csv(prod + '_2021.csv', index=False)
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    variables = [x for x in data_2021.columns if x not in identifiers]
-    df_std = pd.melt(data_2021, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-                     value_name='Casos ' + name)
-    df_std.to_csv(prod + '_2021_std.csv', index=False)
+    # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    # variables = [x for x in data_2021.columns if x not in identifiers]
+    # df_std = pd.melt(data_2021, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #                  value_name='Casos ' + name)
+    # df_std.to_csv(prod + '_2021_std.csv', index=False)
 
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto45/SemanasEpidemiologicas.csv')
@@ -462,11 +462,11 @@ def prod45(fte, fte2, prod):
     df_t = latestdf.T
     df_t.to_csv(prod.replace('Historico', '_T.csv'), header=False)
 
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
-    variables = [x for x in latestdf.columns if x not in identifiers]
-    df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-                     value_name='Casos ' + name)
-    df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
+    # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
+    # variables = [x for x in latestdf.columns if x not in identifiers]
+    # df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #                  value_name='Casos ' + name)
+    # df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
 
 def prod57(fte, prod):
     print("Generando producto 57")
