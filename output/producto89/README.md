@@ -3,7 +3,7 @@
 El producto contiene información sobre los casos confirmados, ingresos a UCI y defunciones, según estado de vacunación, grupo de edad y semana epidemiológica
 
 # Columnas y valores
-El archivo 'incidencia_estado_vacunacion.csv' contiene las siguientes columnas:
+El archivo 'incidencia_en_vacunados_edad.csv' contiene las siguientes columnas:
 
 - 'semana_epidemiologica' que corresponde a la semana epidemiologica del año 2021, 
 
