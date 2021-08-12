@@ -3,7 +3,7 @@
 El producto contiene información sobre los casos confirmados, ingresos a UCI y defunciones, según el estado de vacunación y semana epidemiológica.
 
 # Columnas y valores
-El archivo 'carga_vacunacion_sem_epi.csv' contiene las columnas 
+El archivo 'incidencia_en_vacunados.csv' contiene las columnas 
 
 - 'semana_epidemiologica' que corresponde a la semana epidemiologica del año 2021, 
 
