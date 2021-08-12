@@ -279,7 +279,8 @@ class vacunacion:
                                             'FECHA_INMUNIZACION': 'Fecha',
                                             'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
-                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
+                                            'SUM_of_SUM_of_ÚnicaDOSIS':'Unica_comuna',
+                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_added.sort_values(by=['Region','Fecha'], inplace=True)
@@ -292,13 +293,14 @@ class vacunacion:
             self.last_added['Primera'] = self.last_added.groupby(['Region','Fecha'])['Primera_comuna'].transform('sum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region','Fecha'])['Segunda_comuna'].transform('sum')
             self.last_added['Unica'] = self.last_added.groupby(['Region', 'Fecha'])['Unica_comuna'].transform('sum')
-            self.last_added = self.last_added[['Region','Fecha','Primera','Segunda','Unica']]
+            self.last_added['Refuerzo'] = self.last_added.groupby(['Region', 'Fecha'])['Refuerzo_comuna'].transform('sum')
+            self.last_added = self.last_added[['Region','Fecha','Primera','Segunda','Unica','Refuerzo']]
             self.last_added.drop_duplicates(inplace=True)
 
             ##llenar fechas para cada region y crear total
             idx = pd.date_range(self.last_added['Fecha'].min(), self.last_added['Fecha'].max())
             df = pd.DataFrame()
-            total = pd.DataFrame(columns=['Region','Fecha','Primera','Segunda','Unica'])
+            total = pd.DataFrame(columns=['Region','Fecha','Primera','Segunda','Unica','Refuerzo'])
             total = utils.fill_in_missing_dates(total, 'Fecha', 0, idx)
             total["Region"] = total["Region"].replace({0: 'Total'})
             for region in regiones[0]:
@@ -308,6 +310,7 @@ class vacunacion:
                 total['Primera'] = df_region['Primera'] + total['Primera']
                 total['Segunda'] = df_region['Segunda'] + total['Segunda']
                 total['Unica'] = df_region['Unica'] + total['Unica']
+                total['Refuerzo'] = df_region['Refuerzo'] + total ['Refuerzo']
                 df = df.append(df_region, ignore_index=True)
             total = total.append(df,ignore_index=True)
             total['Fecha'] = total['Fecha'].dt.strftime("%Y-%m-%d")
@@ -317,10 +320,12 @@ class vacunacion:
             self.last_added['Primera'] = pd.to_numeric(self.last_added['Primera'])
             self.last_added['Segunda'] = pd.to_numeric(self.last_added['Segunda'])
             self.last_added['Unica'] = pd.to_numeric(self.last_added['Unica'])
+            self.last_added['Refuerzo'] = pd.to_numeric(self.last_added['Refuerzo'])
             self.last_added['Primera'] = self.last_added.groupby(['Region'])['Primera'].transform('cumsum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region'])['Segunda'].transform('cumsum')
             self.last_added['Unica'] = self.last_added.groupby(['Region'])['Unica'].transform('cumsum')
-            #self.last_added['Total'] = self.last_added.sum(numeric_only=True, axis=1)
+            self.last_added['Refuerzo'] = self.last_added.groupby(['Region'])['Refuerzo'].transform('cumsum')
+            self.last_added['Total'] = self.last_added.sum(numeric_only=True, axis=1)
 
             ##transformar en input
             df = pd.DataFrame()
@@ -328,16 +333,24 @@ class vacunacion:
             for region in regiones[0]:
                 df_region = self.last_added.loc[self.last_added['Region'] == region]
                 df_region.set_index('Fecha',inplace=True)
-                df_region = df_region[['Primera','Segunda','Unica']].T
+                df_region = df_region[['Primera','Segunda','Unica','Refuerzo']].T
                 df_region.reset_index(drop=True, inplace=True)
                 df = df.append(df_region, ignore_index=True)
 
 
-            new_col = ['Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica','Primera', 'Segunda','Unica']
+            new_col = ['Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
+                       'Primera', 'Segunda','Unica','Refuerzo']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for region in regiones[0]:
-                col = [region,region,region]
+                col = [region,region,region,region]
                 new_col = new_col.append(col, ignore_index=True)
             df.insert(0, column='Region', value=new_col)
             self.last_added = df
