@@ -1210,6 +1210,7 @@ class vacunacion:
                                             'EDAD_ANOS': 'Edad',
                                             'SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_1aDOSIS': 'Primera_comuna',
+                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
                                             'SUM_of_ÚnicaDOSIS': 'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Edad'])
             self.last_added.sort_values(by=['Fabricante', 'Edad'], inplace=True)
@@ -1223,7 +1224,9 @@ class vacunacion:
                 'Segunda_comuna'].transform('sum')
             self.last_added['Unica'] = self.last_added.groupby(['Fabricante', 'Edad'])[
                 'Unica_comuna'].transform('sum')
-            self.last_added = self.last_added[['Fabricante', 'Edad', 'Primera','Segunda','Unica']]
+            self.last_added['Refuerzo'] = self.last_added.groupby(['Fabricante', 'Edad'])[
+                'Refuerzo_comuna'].transform('sum')
+            self.last_added = self.last_added[['Fabricante', 'Edad', 'Primera','Segunda','Unica','Refuerzo']]
             self.last_added.drop_duplicates(inplace=True)
 
             columns_name = self.last_added.columns.values
@@ -1263,7 +1266,7 @@ class vacunacion:
             dffab.set_index('Fabricante', inplace=True)
             dfv = edad2rango(dffab, fabricantes[0])
 
-            for k in [2,3,4]:
+            for k in [2,3,4,5]:
                 df = pd.DataFrame(np.zeros((len(fabricantes), lenSE)))
 
                 dicts = {}
@@ -1324,6 +1327,18 @@ class vacunacion:
                     outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
                                             value_name='Unica Dosis')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                elif k == 5:
+                    name = '../output/producto88/vacunacion_fabricantes_edad_Refuerzo.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Fabricante']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
+                                            value_name='Dosis Refuerzo')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
 if __name__ == '__main__':
     print('Actualizamos campana de vacunacion por region')
     my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
