@@ -19,8 +19,6 @@ Ver https://minciencia.gob.cl/covid19/ para más información, incluyendo actas 
 
 [Data Product 7 - Exámenes PCR por región](output/producto7): Set de archivos que dan cuenta del número de exámenes PCR realizados por región reportados diariamente por el Ministerio de Salud, desde el 09-04-2020. El archivo PCR.csv contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, seguidas por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de exámenes realizados por región. [Ver más](output/producto7).
 
-[Data Product 87 - Exámenes Ag por región](output/producto87): Set de archivos que dan cuenta del número de exámenes de detección de SARS-CoV-2 por antígeno (Ag) realizados por región y reportados diariamente por el Ministerio de Salud, desde el 05-06-2021. El archivo Ag.csv contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, seguidas por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de exámenes realizados por región. [Ver más](output/producto87).
-
 [Data Product 8 - Pacientes COVID-19 en UCI por región](output/producto8): Set de 2 archivos que dan cuenta del número de pacientes en UCI, y que son casos confirmados por COVID-19, por región reportados diariamente por el Ministerio de Salud, desde el 01-04-2020. El archivo UCI.csv contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, y múltiples columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de pacientes en UCI por región, desde el 01-04-2020 hasta la fecha. Incluye versión con serie de tiempo. [Ver más](output/producto8).
 
 [Data Product 9 - Pacientes COVID-19 en UCI por grupo de edad](output/producto9): Set de 2 archivos que dan cuenta del número de pacientes en UCI por grupos etarios (<=39; 40-49; 50-59; 60-69; y >=70) y que son casos confirmados por COVID-19, reportados diariamente por el Ministerio de Salud, desde el 01-04-2020. El archivo HospitalizadosUCIEtario.csv contiene la columna ‘Grupo de edad’, seguida por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’, indican el número de pacientes en UCI por grupo etario, desde el 01-04-2020 hasta la fecha. Incluye versión con serie de tiempo. [Ver más](output/producto9).
@@ -218,11 +216,19 @@ Avance en Campaña de Vacunación COVID-19 por fabricante y tipo de establecimie
 [Data Product 85 - Datos del estudio de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile](output/producto85)
 Resultados del estudio para el levantamiento de la prevalencia de anticuerpos SARS-CoV-2 en trabajadores del sector salud, durante la primera ola de COVID-19 en Chile [Ver más](output/producto85)
 
-[Data Product 87 - Exámenes Ag por región de toma de muestra](output/producto87)
-Total de test de antígeno por región de toma de muestra  [Ver más](output/producto87)
+[Data Product 86 - Semáforo Poop COVID-19 en la comuna de San Pedro de la Paz en la Región del Bío Bío](output/producto86)
+Data product que entrega la carga viral en aguas servidas de la comuna de San Pedro en Concepción  [Ver más](output/producto86)
+
+[Data Product 87 - Exámenes Ag por región](output/producto87): Set de archivos que dan cuenta del número de exámenes de detección de SARS-CoV-2 por antígeno (Ag) realizados por región y reportados diariamente por el Ministerio de Salud, desde el 05-06-2021. El archivo Ag.csv contiene las columnas ‘Región’, ‘Código Región’ y ‘Población’, seguidas por columnas correspondientes a ‘[Fecha]’. Estas últimas columnas, ‘[Fecha]’ indican el número de exámenes realizados por región. [Ver más](output/producto87).
 
 [Data Product 88 - Vacunación por fabricante](output/producto88)
 Total de vacunas por fabricante  [Ver más](output/producto88)
+
+[Data Product 89 - Incidencia de casos según estado de vacunación, grupo de edad, y semana epidemiológica](output/producto89)
+El producto contiene información sobre los casos confirmados, ingresos a UCI y defunciones, según estado de vacunación, agrupado por tramo etario [Ver más](output/producto89)
+
+[Data Product 90 - Distribución de casos según antecedentes de vacunación y semana epidemiológica.](output/producto90)
+El producto contiene información sobre los casos confirmados, ingresos a UCI y defunciones, según estado de vacunación, agrupado por semana epidemiológica [Ver más](output/producto90)
 
 [Data Product 91 - Evolución semanal de ingresos a UCI por covid](output/producto91)
 Media móvil de los últimos 7 días de ingresos a UCI por covid [Ver más](output/producto91)
