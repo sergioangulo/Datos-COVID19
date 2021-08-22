@@ -135,17 +135,16 @@ def tweeting(consumer_key, consumer_secret, my_access_token, my_access_token_sec
         my_vacunacion_avance_pauta_completa = 100*vacunados_pauta_completa/16696002
         my_vacunacion_avance = ("%.2f" % my_vacunacion_avance)
         my_vacunacion_avance_pauta_completa = ("%.2f" % my_vacunacion_avance_pauta_completa)
-        dosis_dia = vacunados+vacunados_pauta_completa - (pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][1]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][2]) + + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][3]))
-
+        dosis_dia = vacunados + vacunados_pauta_completa + int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()][4])) - (pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][1]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][2]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][3]) + pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][4]))
         my_vacunacion = my_vacunacion[1:]
-        my_vacunacion['total_dosis'] = pd.to_numeric(my_vacunacion['Total']) + pd.to_numeric(my_vacunacion['Total.1']) + pd.to_numeric(my_vacunacion['Total.2'])
+        my_vacunacion['total_dosis'] = pd.to_numeric(my_vacunacion['Total']) + pd.to_numeric(my_vacunacion['Total.1']) + pd.to_numeric(my_vacunacion['Total.2']) + pd.to_numeric(my_vacunacion['Total.3'])
         new = my_vacunacion.iloc[:my_vacunacion.index.max(), 35:]
         new.reset_index(drop=True, inplace=True)
         my_vacunacion['total_manana'] = new['total_dosis']
         my_vacunacion.reset_index(drop=True, inplace=True)
         my_vacunacion['avance_diario'] = my_vacunacion['total_manana'].fillna(0) - my_vacunacion['total_dosis']
         my_vacunacion['mediamovil'] = my_vacunacion['avance_diario'].rolling(7).mean().round(4)
-        promedio_semanal = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][55]))
+        promedio_semanal = int(pd.to_numeric(my_vacunacion.iloc[my_vacunacion.index.max()-1][72]))
 
         # create update elements
         tweet_text = '🤖Actualicé los datos que muestran el avance en la campaña de vacunación #YoMeVacuno de hoy 💫, gracias a APS y DIPLAS, @ministeriosalud. Van '+str(vacunados)+' vacunados con primera dosis en 🇨🇱. Mira específicamente qué actualicé en la imagen y clona el github https://github.com/MinCiencia/Datos-COVID19'
