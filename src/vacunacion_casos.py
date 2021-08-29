@@ -51,12 +51,18 @@ def prod90(fte, producto):
     totales = totales[2:]
     totales.set_index('Region',inplace=True)
     totales['personas_con_pauta_completa'] = pd.to_numeric(totales['Total.1']) + pd.to_numeric(totales['Total.2'])
-    totales = agrupaporSemanaEpi(totales,'personas_con_pauta_completa')
+    totales['personas_con_una_dosis'] = pd.to_numeric(totales['Total'])
+    totales['personas_con_refuerzo'] = pd.to_numeric(totales['Total.3'])
+    totales_pauta_completa = agrupaporSemanaEpi(totales,'personas_con_pauta_completa')
+    totales_una_dosis = agrupaporSemanaEpi(totales,'personas_con_una_dosis')
+    totales_refuerzo = agrupaporSemanaEpi(totales, 'personas_con_refuerzo')
 
     #carga input y agrega totales vacunados
-    df_output_file = pd.read_csv(fte + 'carga_vacunacion_sem_epi.csv')
-    df_output_file = pd.concat([df_output_file, totales], axis=1, join="inner")
-    df_output_file.to_csv(producto, index=False)
+    df_output_file = pd.read_csv(fte + 'carga_vacunacion_sem_epi.csv',index_col='semana_epidemiologica')
+    df_output_file = pd.concat([df_output_file, totales_una_dosis], axis=1, join="inner")
+    df_output_file = pd.concat([df_output_file, totales_pauta_completa], axis=1, join="inner")
+    df_output_file = pd.concat([df_output_file, totales_refuerzo], axis=1, join="inner")
+    df_output_file.to_csv(producto, index=True)
 
 
 def agrupaporSemanaEpi(producto,serie):
@@ -68,7 +74,7 @@ def agrupaporSemanaEpi(producto,serie):
     except ValueError:
         print("Oops!  That was no valid number.  Try again...")
     output['semana_epidemiologica'] = output['semana_epidemiologica'].astype(int)
-    output.reset_index(drop=True,inplace=True)
+    output.set_index('semana_epidemiologica',inplace=True)
     return output
 
 
