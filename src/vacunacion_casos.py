@@ -46,13 +46,35 @@ def prod89(fte, producto):
 
 
 def prod90(fte, producto):
+    # carga totales para juntar
+    totales = pd.read_csv('../output/producto76/vacunacion_t.csv')
+    totales = totales[2:]
+    totales.set_index('Region',inplace=True)
+    totales['personas_con_pauta_completa'] = pd.to_numeric(totales['Total.1']) + pd.to_numeric(totales['Total.2'])
+    totales = agrupaporSemanaEpi(totales,'personas_con_pauta_completa')
+
+    #carga input y agrega totales vacunados
     df_output_file = pd.read_csv(fte + 'carga_vacunacion_sem_epi.csv')
+    df_output_file = pd.concat([df_output_file, totales], axis=1, join="inner")
     df_output_file.to_csv(producto, index=False)
 
 
+def agrupaporSemanaEpi(producto,serie):
+    df = producto
+    df['semana_epidemiologica'] = pd.to_datetime(df.index)
+    df['semana_epidemiologica'] = df['semana_epidemiologica'].dt.strftime('%W')
+    try:
+        output = df.groupby(['semana_epidemiologica'])['semana_epidemiologica',serie].max()
+    except ValueError:
+        print("Oops!  That was no valid number.  Try again...")
+    output['semana_epidemiologica'] = output['semana_epidemiologica'].astype(int)
+    output.reset_index(drop=True,inplace=True)
+    return output
+
+
 if __name__ == '__main__':
-    print('Generando producto 89 por grupo etario')
-    prod89('../input/Vacunacion/', '../output/producto89/incidencia_en_vacunados_edad.csv')
+    # print('Generando producto 89 por grupo etario')
+    # prod89('../input/Vacunacion/', '../output/producto89/incidencia_en_vacunados_edad.csv')
 
     print('Generando producto 90 incidencia en vacunandos')
     prod90('../input/Vacunacion/', '../output/producto90/incidencia_en_vacunados.csv')
