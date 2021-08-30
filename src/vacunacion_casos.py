@@ -79,8 +79,8 @@ def agrupaporSemanaEpi(producto,serie):
 
 
 if __name__ == '__main__':
-    # print('Generando producto 89 por grupo etario')
-    # prod89('../input/Vacunacion/', '../output/producto89/incidencia_en_vacunados_edad.csv')
+    print('Generando producto 89 por grupo etario')
+    prod89('../input/Vacunacion/', '../output/producto89/incidencia_en_vacunados_edad.csv')
 
     print('Generando producto 90 incidencia en vacunandos')
     prod90('../input/Vacunacion/', '../output/producto90/incidencia_en_vacunados.csv')
