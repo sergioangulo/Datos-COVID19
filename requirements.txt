@@ -8,3 +8,4 @@ boto3~=1.14.33
 google-api-python-client==1.12.8
 google-auth-httplib2==0.0.4
 google-auth-oauthlib==0.4.1
+xlrd >= 1.0.0
