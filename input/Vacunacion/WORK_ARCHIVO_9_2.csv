@@ -1771,6 +1771,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);25/08/2021;2;12;;
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;150;;
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;93;;
+" Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;1;;
 " Arica y Parinacota";Desconocido;14;Campaña SARS-CoV-2 (Pfizer);20/07/2021;1;;;
 " Arica y Parinacota";Desconocido;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;1;;
 " Arica y Parinacota";Hombre;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
@@ -3551,7 +3552,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;25;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/08/2021;2;6;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/08/2021;4;8;;
-" Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);25/08/2021;4;12;;
+" Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);25/08/2021;4;15;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);26/08/2021;3;53;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;43;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Pfizer);28/08/2021;1;2;;
@@ -3675,6 +3676,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;613;;
 " Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;424;;
 " Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;13;;1
+" Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;5;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);14/06/2021;1;;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);21/06/2021;3;;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);22/06/2021;37;;;
@@ -3739,6 +3741,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;445;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;263;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;6;;
+" Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;2;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);10/03/2021;2;;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);11/03/2021;1;;;
@@ -3867,7 +3870,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);21/08/2021;;8;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;7;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);24/08/2021;2;5;;
-" Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);25/08/2021;1;15;;
+" Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);25/08/2021;2;15;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;216;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;2;158;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);28/08/2021;1;9;;
@@ -4009,7 +4012,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);21/08/2021;;5;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);23/08/2021;1;4;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);24/08/2021;1;6;;
-" Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;15;;
+" Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);25/08/2021;2;15;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;134;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;98;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;4;;
@@ -4070,7 +4073,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);20/08/2021;1;8;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/08/2021;1;3;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);24/08/2021;4;14;;
-" Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);25/08/2021;3;20;;
+" Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);25/08/2021;3;22;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;45;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);27/08/2021;3;20;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;1;;
@@ -4130,7 +4133,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/08/2021;1;;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;9;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);24/08/2021;3;17;;
-" Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);25/08/2021;3;14;;
+" Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);25/08/2021;3;16;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;55;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);27/08/2021;2;28;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Pfizer);28/08/2021;1;2;;
@@ -4194,6 +4197,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;710;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;398;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;22;;
+" Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;2;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);18/05/2021;1;;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);28/05/2021;1;;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);15/06/2021;;1;;
@@ -4255,10 +4259,11 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);22/08/2021;;2;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;11;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);24/08/2021;1;14;;
-" Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);25/08/2021;1;31;;
+" Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);25/08/2021;2;31;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;436;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;2;259;;
 " Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;12;;
+" Coquimbo";Mujer;15;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;1;;
 " Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 " Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/03/2021;1;;;
 " Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Pfizer);10/03/2021;3;;;
@@ -4534,6 +4539,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;115;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;66;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;3;;
+" Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;1;;
 " La Araucanía";Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;18;;;
 " La Araucanía";Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;28;;;
 " La Araucanía";Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;30;;;
@@ -6689,6 +6695,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;84;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;72;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;5;;
+" Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;2;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);20/05/2021;1;;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/06/2021;1;;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);15/06/2021;2;;;
@@ -7093,6 +7100,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;16;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;28;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;1;;
+" Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;1;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;11;;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;16;;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;14;;;
@@ -7557,7 +7565,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;14;;
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;3;17;;
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;2;18;;
-" Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;3;;
+" Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;4;;
 " Magallanes y  La Antártica Chilena";Desconocido;13;Campaña SARS-CoV-2 (Pfizer);25/06/2021;1;;;
 " Magallanes y  La Antártica Chilena";Desconocido;13;Campaña SARS-CoV-2 (Pfizer);23/07/2021;;1;;
 " Magallanes y  La Antártica Chilena";Hombre;12;Campaña SARS-CoV-2 (Pfizer);18/06/2021;1;;;
@@ -8393,6 +8401,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;12;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;16;;
 " Tarapacá";Hombre;12;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;32;;
 " Tarapacá";Hombre;12;Campaña SARS-CoV-2 (Pfizer);28/08/2021;2;2;;
+" Tarapacá";Hombre;12;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;1;;
 " Tarapacá";Hombre;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;14;;;
 " Tarapacá";Hombre;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;31;;;
 " Tarapacá";Hombre;13;Campaña SARS-CoV-2 (Pfizer);24/06/2021;25;;;
@@ -8509,6 +8518,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;97;;
 " Tarapacá";Hombre;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;204;;
 " Tarapacá";Hombre;14;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;27;;
+" Tarapacá";Hombre;14;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;1;;
 " Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);22/03/2021;1;;;
 " Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);19/04/2021;;1;;
 " Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);22/06/2021;27;;;
@@ -8568,6 +8578,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;53;;
 " Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;136;;
 " Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;22;;
+" Tarapacá";Hombre;15;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;3;;
 " Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/03/2021;1;;;
 " Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);08/03/2021;1;;;
 " Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);11/03/2021;1;;;
@@ -8700,6 +8711,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;29;;
 " Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;77;;
 " Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;16;;
+" Tarapacá";Hombre;16;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;3;;
 " Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 " Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/03/2021;1;;;
 " Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);10/03/2021;1;;;
@@ -8834,6 +8846,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;28;;
 " Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;55;;
 " Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;4;;
+" Tarapacá";Hombre;17;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;2;;
 " Tarapacá";Intersex (Indeterminado);14;Campaña SARS-CoV-2 (Pfizer);21/07/2021;1;;;
 " Tarapacá";Intersex (Indeterminado);14;Campaña SARS-CoV-2 (Pfizer);18/08/2021;;1;;
 " Tarapacá";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;13;;;
@@ -9009,6 +9022,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;91;;
 " Tarapacá";Mujer;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;188;;
 " Tarapacá";Mujer;14;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;28;;
+" Tarapacá";Mujer;14;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;2;;
 " Tarapacá";Mujer;15;Campaña SARS-CoV-2 (Pfizer);22/06/2021;16;;;
 " Tarapacá";Mujer;15;Campaña SARS-CoV-2 (Pfizer);23/06/2021;32;;;
 " Tarapacá";Mujer;15;Campaña SARS-CoV-2 (Pfizer);24/06/2021;34;;;
@@ -9199,6 +9213,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;38;;
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;59;;
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);28/08/2021;1;16;;
+" Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);29/08/2021;;2;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/03/2021;1;;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);09/03/2021;2;;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);11/03/2021;1;;;
@@ -9331,6 +9346,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;33;;1
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;57;;2
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;17;;
+" Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);29/08/2021;1;;;
 " Valparaíso";Desconocido;15;Campaña SARS-CoV-2 (Pfizer);03/07/2021;1;;;
 " Valparaíso";Desconocido;15;Campaña SARS-CoV-2 (Pfizer);14/07/2021;1;;;
 " Valparaíso";Desconocido;15;Campaña SARS-CoV-2 (Pfizer);28/07/2021;;1;;
@@ -13447,7 +13463,7 @@ Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;37;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;3;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;1;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;3;;
-Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;64;;
+Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;66;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;46;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;46;;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;80;;;
@@ -13495,7 +13511,7 @@ Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);19/08/2021;;58;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;36;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;1;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;2;;
-Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;91;;
+Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;92;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;55;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;1;;
 Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);01/06/2021;1;;;
@@ -13551,8 +13567,8 @@ Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);21/08/2021;;1;;
 Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;11;;
 Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;5;;
 Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;37;;
-Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;1257;;
-Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;759;;
+Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;1262;;
+Maule;Hombre;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;760;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/03/2021;1;;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/04/2021;;1;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);20/05/2021;1;;;
@@ -13609,7 +13625,7 @@ Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);21/08/2021;;1;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;16;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;1;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;11;;
-Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;590;;
+Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;598;;
 Maule;Hombre;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;417;;
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/03/2021;2;;;
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/03/2021;4;;;
@@ -13748,7 +13764,7 @@ Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;271;;1
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;6;;
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;2;;
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;4;;
-Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;294;;1
+Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;298;;1
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;200;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/03/2021;2;;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/03/2021;3;;;
@@ -13990,8 +14006,8 @@ Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;35;;
 Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;2;;
 Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;1;;
 Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;2;;
-Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;82;;
-Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;45;;
+Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;84;;
+Maule;Mujer;13;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;46;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);07/04/2021;1;;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);06/05/2021;;1;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;45;;;
@@ -14027,7 +14043,7 @@ Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);26/07/2021;96;50;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);27/07/2021;24;30;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);28/07/2021;21;58;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);29/07/2021;13;81;;
-Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);30/07/2021;32;89;;
+Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);30/07/2021;33;89;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);31/07/2021;1;2;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/08/2021;;1;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/08/2021;1;39;;
@@ -14046,7 +14062,7 @@ Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;118;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;9;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;10;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;23;;
-Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;1282;;
+Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;1291;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;820;;
 Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);20/05/2021;1;;;
 Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);07/06/2021;1;;;
@@ -14103,8 +14119,8 @@ Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;486;;
 Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);23/08/2021;1;17;;
 Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;5;;
 Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;15;;
-Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;581;;
-Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;383;;
+Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;582;;
+Maule;Mujer;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;385;;
 Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/03/2021;3;;;
 Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/03/2021;1;;;
 Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);09/03/2021;4;;;
@@ -14242,7 +14258,7 @@ Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);21/08/2021;;1;;
 Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;7;;1
 Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;4;;
 Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;1;296;;1
-Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;199;;
+Maule;Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;1;201;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);25/02/2021;1;;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/03/2021;3;;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);09/03/2021;2;;;
@@ -14375,7 +14391,7 @@ Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;119;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;4;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;2;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;198;;
-Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;111;;
+Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;112;;
 Metropolitana  Santiago;Desconocido;12;Campaña SARS-CoV-2 (Pfizer);07/07/2021;1;;;
 Metropolitana  Santiago;Desconocido;12;Campaña SARS-CoV-2 (Pfizer);11/08/2021;;1;;
 Metropolitana  Santiago;Desconocido;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;1;;;
@@ -15316,7 +15332,7 @@ Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);23/08/2021;;13;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);24/08/2021;;14;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);25/08/2021;3;21;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);26/08/2021;2;4072;;
-Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;3;2307;;
+Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);27/08/2021;3;2308;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;3;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);17/08/2021;;1;;
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (AstraZeneca);11/08/2021;;1;;

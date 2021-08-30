@@ -10,7 +10,7 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Antofagasta";14;4614;3649;;
 " Antofagasta";15;6111;5221;;1
 " Antofagasta";16;6850;6123;;2
-" Antofagasta";17;7110;6506;;1
+" Antofagasta";17;7110;6507;;1
 " Arica y Parinacota";12;1113;607;;
 " Arica y Parinacota";13;1346;654;;
 " Arica y Parinacota";14;1844;1175;;
@@ -23,12 +23,12 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Atacama";15;2592;2117;;
 " Atacama";16;2899;2516;;
 " Atacama";17;3095;2760;;1
-" Coquimbo";12;1977;1353;;
-" Coquimbo";13;2110;1421;;
-" Coquimbo";14;6697;3800;;2
-" Coquimbo";15;8292;6763;;
-" Coquimbo";16;9009;7914;;1
-" Coquimbo";17;9063;8086;;1
+" Coquimbo";12;1977;1358;;
+" Coquimbo";13;2110;1423;;
+" Coquimbo";14;6697;3807;;2
+" Coquimbo";15;8293;6766;;
+" Coquimbo";16;9010;7914;;1
+" Coquimbo";17;9065;8087;;1
 " La Araucanía";12;938;700;;
 " La Araucanía";13;1078;775;;1
 " La Araucanía";14;5307;3724;;
@@ -41,24 +41,24 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Los Lagos";15;7980;7172;;
 " Los Lagos";16;9000;8292;;4
 " Los Lagos";17;9357;8740;;5
-" Los Ríos";12;862;741;;
+" Los Ríos";12;862;742;;
 " Los Ríos";13;1074;912;;
-" Los Ríos";14;3173;2834;;
+" Los Ríos";14;3173;2836;;
 " Los Ríos";15;3811;3514;;1
 " Los Ríos";16;4287;4043;;2
-" Los Ríos";17;4207;4004;;2
+" Los Ríos";17;4207;4005;;2
 " Magallanes y  La Antártica Chilena";12;1089;872;;
 " Magallanes y  La Antártica Chilena";13;1174;932;;
 " Magallanes y  La Antártica Chilena";14;1816;1560;;
 " Magallanes y  La Antártica Chilena";15;1930;1738;;
 " Magallanes y  La Antártica Chilena";16;1964;1804;;2
 " Magallanes y  La Antártica Chilena";17;1889;1779;;1
-" Tarapacá";12;982;808;;
+" Tarapacá";12;982;809;;
 " Tarapacá";13;1283;1045;;
-" Tarapacá";14;3001;2422;;
-" Tarapacá";15;3404;2843;;
-" Tarapacá";16;3854;3382;;2
-" Tarapacá";17;3899;3536;;6
+" Tarapacá";14;3001;2425;;
+" Tarapacá";15;3404;2846;;
+" Tarapacá";16;3854;3387;;2
+" Tarapacá";17;3900;3538;;6
 " Valparaíso";12;2372;1889;;
 " Valparaíso";13;2759;2169;;
 " Valparaíso";14;8569;6747;;
@@ -86,15 +86,15 @@ Libertador B. O'Higgins;14;4070;3599;;
 Libertador B. O'Higgins;15;7867;7306;;
 Libertador B. O'Higgins;16;10066;9581;;2
 Libertador B. O'Higgins;17;10737;10317;;4
-Maule;12;2370;1960;;
-Maule;13;2671;2212;;
-Maule;14;7928;6535;;
-Maule;15;10540;9312;;
-Maule;16;11867;10808;;7
-Maule;17;12187;11198;;2
+Maule;12;2370;1962;;
+Maule;13;2671;2216;;
+Maule;14;7929;6550;;
+Maule;15;10540;9323;;
+Maule;16;11867;10814;;7
+Maule;17;12187;11199;;2
 Metropolitana  Santiago;12;8852;7236;;1
 Metropolitana  Santiago;13;9309;7518;;
 Metropolitana  Santiago;14;32465;26928;;
-Metropolitana  Santiago;15;58123;51009;;2
+Metropolitana  Santiago;15;58123;51010;;2
 Metropolitana  Santiago;16;70323;63506;;44
 Metropolitana  Santiago;17;74116;67171;;40
