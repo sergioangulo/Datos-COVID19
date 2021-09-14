@@ -12,3 +12,7 @@ Unidad de Gestión de Camas Críticas, Subsecretaría de Redes Asitenciales, Min
  
 # Frecuencia de actualización
 Actualización semanal.
+
+# Nota aclaratoria
+Los datos se van actualizando retroactivamente a medida que los establecimientos de salud van reportando de forma individualizada a los pacientes que se confirman como paciente Covid, es por esto que no se consideran los 6 días más cercanos a la fecha de reporte ya que se podrían presentar sub-registros.
+
