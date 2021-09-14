@@ -1,4 +1,4 @@
-# DP91 - Evolución semanal de ingresos hospitalarios pacientes COVID-19
+# DP91 - Evolución semanal de ingresos UCI pacientes COVID-19
 
 Archivo que da cuenta del número de ingresos en el sistema integrado COVID-19. Se considera el promedio móvil de los últimos 7 días.
 
