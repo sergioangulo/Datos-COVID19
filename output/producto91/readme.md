@@ -2,7 +2,7 @@
 
 Archivo que da cuenta del número de ingresos en el sistema integrado COVID-19. Se considera el promedio móvil de los últimos 7 días.
 
-Se entiende por ingreso, pacientes que comienzan a ocupar una cama de la dotación de un establecimiento autorizado para tal fin, tanto de establecimientos privados y públicos del sistema integrado y reportado por la Unidad de Gestión de Camas Críticas (UGCC).
+Se entiende por ingreso, pacientes que comienzan a ocupar una cama UCI de un establecimiento autorizado para tal fin, tanto de establecimientos privados y públicos del sistema integrado y reportado por la Unidad de Gestión de Camas Críticas (UGCC).
 
 # Columnas y valores
 El archivo Ingresos_UCI.csv contiene las columnas 'Media Móvil Ingresos a UCI por COVID-19' presenta una serie de columnas con '[Fecha]' con la media móvil de los últimos 7 días para ingresos reportados.
