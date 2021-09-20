@@ -231,10 +231,10 @@ El producto contiene información sobre los casos confirmados, ingresos a UCI y 
 El producto contiene información sobre los casos confirmados, ingresos a UCI y defunciones, según estado de vacunación, agrupado por semana epidemiológica [Ver más](output/producto90)
 
 [Data Product 91 - Evolución semanal de ingresos a UCI por covid](output/producto91)
-Media móvil de los últimos 7 días de ingresos a UCI por covid [Ver más](output/producto91)
+Media móvil de los últimos 7 días de ingresos a UCI por covid en el sistema integrado de salud, público-privado [Ver más](output/producto91)
 
-[Data Product 92 - Evolución semanal de ingresos a Hospital por covid](output/producto92)
-Media móvil de los últimos 7 días de ingresos a Hospital por covid [Ver más](output/producto92)
+[Data Product 92 - Evolución semanal de ingresos a hospitalización por covid](output/producto92)
+Media móvil de los últimos 7 días de ingresos a hospitalización por covid en el sistema integrado de salud, público-privado [Ver más](output/producto92)
 
 
 ## ¿Cómo funciona?
