@@ -233,6 +233,9 @@ El producto contiene información sobre los casos confirmados, ingresos a UCI y 
 [Data Product 91 - Evolución semanal de ingresos a UCI por covid](output/producto91)
 Media móvil de los últimos 7 días de ingresos a UCI por covid [Ver más](output/producto91)
 
+[Data Product 92 - Evolución semanal de ingresos a Hospital por covid](output/producto92)
+Media móvil de los últimos 7 días de ingresos a Hospital por covid [Ver más](output/producto92)
+
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
