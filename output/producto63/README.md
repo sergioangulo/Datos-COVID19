@@ -5,7 +5,7 @@ acorde al informe de Indicadores de Testeo y Trazabilidad publicado semanalmente
 
 # Columnas y valores
 
-El archivo 'NNotificacionPorComuna.csv' tiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y una serie de columnas '[Fecha]', donde en cada una están el 'Numero norificaciones' reportados en cada publicación de Epidemiología, por cada comuna, en cada fecha reportada. El archivo NNotificacionPorComuna_T.csv es la versión traspuesta (serie de tiempo) del primer archivo y NNotificacionPorComuna_std.csv contiene la información en formato estándar. Todos estos valores están separados entre sí por comas (csv).
+El archivo 'NNotificacionPorComuna.csv' tiene las columnas 'Región', 'Código región', 'Comuna', 'Código comuna', 'Población', y una serie de columnas '[Fecha]', donde en cada una están el 'Numero notificaciones' reportados en cada publicación de Epidemiología, por cada comuna, en cada fecha reportada. El archivo NNotificacionPorComuna_T.csv es la versión traspuesta (serie de tiempo) del primer archivo y NNotificacionPorComuna_std.csv contiene la información en formato estándar. Todos estos valores están separados entre sí por comas (csv).
 
 # Fuente
 * Informe de Indicadores de Testeo y Trazabilidad, departamento de Epidemiología, Ministerio de Salud
