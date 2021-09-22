@@ -53,7 +53,12 @@ def prod63_64_65_66_67(fte, producto):
     elif '67' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Oportunidad notificacion')
-    df_std.to_csv(producto + '_std.csv', index=False)
+        df_std.to_csv(producto + '_std.csv', index=False)
+
+    elif '93' in producto:
+        df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                         value_name='Contactos Estrechos')
+        df_std.to_csv(producto + '_std.csv', index=False)
 
 if __name__ == '__main__':
 
@@ -67,3 +72,6 @@ if __name__ == '__main__':
     prod63_64_65_66_67('../input/InformeTesteoTrazabilidad/CoberturaPorComuna.csv', '../output/producto66/CoberturaPorComuna')
     print('Generando producto 67')
     prod63_64_65_66_67('../input/InformeTesteoTrazabilidad/OportunidadPorComuna.csv', '../output/producto67/OportunidadPorComuna')
+    print('Generando producto 93')
+    prod63_64_65_66_67('../input/InformeTesteoTrazabilidad/ContactosPorComuna.csv',
+                       '../output/producto93/ContactosPorComuna')
