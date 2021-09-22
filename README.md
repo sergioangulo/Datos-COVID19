@@ -236,6 +236,8 @@ Media móvil de los últimos 7 días de ingresos a UCI por covid en el sistema i
 [Data Product 92 - Evolución semanal de ingresos a hospitalización por covid](output/producto92)
 Media móvil de los últimos 7 días de ingresos a hospitalización por covid en el sistema integrado de salud, público-privado [Ver más](output/producto92)
 
+[Data Product 93 - Contactos Estrechos por Caso Notificado Por Comuna](output/producto93)
+Contactos estrechos identificados por seremi, por comuna, en promedio por caso confirmado [Ver más](output/producto93)
 
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
