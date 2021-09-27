@@ -5,20 +5,20 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Aisén Gral. C. Ibáñez Campo";9;23;;;
 " Aisén Gral. C. Ibáñez Campo";10;31;;;
 " Aisén Gral. C. Ibáñez Campo";11;38;;;
-" Aisén Gral. C. Ibáñez Campo";12;971;618;;
-" Aisén Gral. C. Ibáñez Campo";13;1111;736;;
-" Aisén Gral. C. Ibáñez Campo";14;1355;1105;;
+" Aisén Gral. C. Ibáñez Campo";12;972;622;;
+" Aisén Gral. C. Ibáñez Campo";13;1113;736;;
+" Aisén Gral. C. Ibáñez Campo";14;1355;1107;;
 " Aisén Gral. C. Ibáñez Campo";15;1360;1198;;
 " Aisén Gral. C. Ibáñez Campo";16;1432;1285;;1
 " Aisén Gral. C. Ibáñez Campo";17;1281;1185;;1
-" Antofagasta";6;83;;;
-" Antofagasta";7;113;;;
-" Antofagasta";8;132;;;
-" Antofagasta";9;185;;;
-" Antofagasta";10;173;;;
-" Antofagasta";11;214;;;
+" Antofagasta";6;88;;;
+" Antofagasta";7;116;;;
+" Antofagasta";8;135;;;
+" Antofagasta";9;187;;;
+" Antofagasta";10;179;;;
+" Antofagasta";11;221;;;
 " Antofagasta";12;5165;716;;
-" Antofagasta";13;5708;830;;
+" Antofagasta";13;5709;830;;
 " Antofagasta";14;7743;4441;;
 " Antofagasta";15;7663;5886;;1
 " Antofagasta";16;7794;6625;;2
@@ -47,17 +47,17 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Atacama";15;3532;2474;;2
 " Atacama";16;3518;2784;;2
 " Atacama";17;3561;3017;;3
-" Coquimbo";6;106;;;
-" Coquimbo";7;124;;;
+" Coquimbo";6;107;;;
+" Coquimbo";7;125;;;
 " Coquimbo";8;155;;;
 " Coquimbo";9;183;;;
 " Coquimbo";10;199;;;
-" Coquimbo";11;271;;;
-" Coquimbo";12;5705;1897;;
-" Coquimbo";13;6507;2008;;
-" Coquimbo";14;9371;6399;;2
-" Coquimbo";15;9763;7944;;
-" Coquimbo";16;9922;8686;;2
+" Coquimbo";11;272;;;
+" Coquimbo";12;5708;1897;;
+" Coquimbo";13;6509;2008;;
+" Coquimbo";14;9373;6399;;2
+" Coquimbo";15;9765;7944;;
+" Coquimbo";16;9925;8686;;2
 " Coquimbo";17;9817;8767;;3
 " La Araucanía";6;117;;;
 " La Araucanía";7;158;;;
@@ -65,7 +65,7 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " La Araucanía";9;220;;;
 " La Araucanía";10;271;;;
 " La Araucanía";11;310;;;
-" La Araucanía";12;6570;917;;
+" La Araucanía";12;6571;917;;
 " La Araucanía";13;7782;1053;;
 " La Araucanía";14;10929;5160;;
 " La Araucanía";15;11402;7884;;1
@@ -83,25 +83,25 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Los Lagos";15;10411;7784;;
 " Los Lagos";16;10649;8761;;4
 " Los Lagos";17;10681;9181;;8
-" Los Ríos";6;117;;;
-" Los Ríos";7;127;;;
+" Los Ríos";6;118;;;
+" Los Ríos";7;129;;;
 " Los Ríos";8;135;;;
-" Los Ríos";9;208;;;
+" Los Ríos";9;210;;;
 " Los Ríos";10;236;;;
-" Los Ríos";11;227;;;
-" Los Ríos";12;2495;843;;
-" Los Ríos";13;3114;1049;;
-" Los Ríos";14;4582;3121;;
-" Los Ríos";15;4631;3746;;1
-" Los Ríos";16;4881;4216;;2
-" Los Ríos";17;4618;4159;;4
+" Los Ríos";11;231;;;
+" Los Ríos";12;2506;843;;
+" Los Ríos";13;3128;1049;;
+" Los Ríos";14;4584;3121;;
+" Los Ríos";15;4637;3746;;1
+" Los Ríos";16;4882;4216;;2
+" Los Ríos";17;4620;4160;;4
 " Magallanes y  La Antártica Chilena";6;34;;;
 " Magallanes y  La Antártica Chilena";7;36;;;
 " Magallanes y  La Antártica Chilena";8;42;;;
 " Magallanes y  La Antártica Chilena";9;43;;;
 " Magallanes y  La Antártica Chilena";10;71;;;
 " Magallanes y  La Antártica Chilena";11;73;;;
-" Magallanes y  La Antártica Chilena";12;1701;1058;;
+" Magallanes y  La Antártica Chilena";12;1702;1059;;
 " Magallanes y  La Antártica Chilena";13;1763;1149;;
 " Magallanes y  La Antártica Chilena";14;2067;1772;;
 " Magallanes y  La Antártica Chilena";15;2030;1881;;
@@ -111,10 +111,10 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Tarapacá";7;74;;;
 " Tarapacá";8;87;;;
 " Tarapacá";9;111;;;
-" Tarapacá";10;121;;;
+" Tarapacá";10;122;;;
 " Tarapacá";11;133;;;
-" Tarapacá";12;2165;933;;
-" Tarapacá";13;2571;1215;;
+" Tarapacá";12;2166;933;;
+" Tarapacá";13;2575;1215;;
 " Tarapacá";14;3799;2878;;
 " Tarapacá";15;3898;3248;;
 " Tarapacá";16;4231;3693;;2
@@ -125,20 +125,20 @@ REGION_RESIDENCIA;EDAD_ANOS;SUM_of_1aDOSIS;SUM_of_2aDOSIS;SUM_of_ÚnicaDOSIS;SUM_
 " Valparaíso";9;478;;;
 " Valparaíso";10;544;;;
 " Valparaíso";11;649;;;
-" Valparaíso";12;13962;2327;;
+" Valparaíso";12;13963;2327;;
 " Valparaíso";13;15479;2682;;
 " Valparaíso";14;19080;8333;;
 " Valparaíso";15;21114;15657;;2
 " Valparaíso";16;21417;18175;;14
 " Valparaíso";17;21453;18804;;15
-" Ñuble";6;112;;;
+" Ñuble";6;113;;;
 " Ñuble";7;124;;;
-" Ñuble";8;161;;;
-" Ñuble";9;195;;;
-" Ñuble";10;194;;;
+" Ñuble";8;162;;;
+" Ñuble";9;198;;;
+" Ñuble";10;195;;;
 " Ñuble";11;248;;;
-" Ñuble";12;3869;1490;;
-" Ñuble";13;4442;1637;;
+" Ñuble";12;3871;1490;;
+" Ñuble";13;4443;1637;;
 " Ñuble";14;5963;3883;;
 " Ñuble";15;6003;4732;;
 " Ñuble";16;6362;5499;;2
@@ -149,11 +149,11 @@ Bíobío;8;513;;;
 Bíobío;9;588;;;
 Bíobío;10;706;;;
 Bíobío;11;795;;;
-Bíobío;12;11464;2532;;
+Bíobío;12;11465;2532;;
 Bíobío;13;13530;3063;;1
 Bíobío;14;18417;11800;;2
 Bíobío;15;18565;14942;;
-Bíobío;16;19112;16635;;13
+Bíobío;16;19113;16635;;13
 Bíobío;17;19215;17168;;9
 Ignorada;12;2;;;
 Ignorada;13;1;;;
@@ -168,7 +168,7 @@ Libertador B. O'Higgins;9;279;;;
 Libertador B. O'Higgins;10;321;;;
 Libertador B. O'Higgins;11;378;;;
 Libertador B. O'Higgins;12;8028;1094;;
-Libertador B. O'Higgins;13;9194;1218;;
+Libertador B. O'Higgins;13;9195;1218;;
 Libertador B. O'Higgins;14;10788;4012;;
 Libertador B. O'Higgins;15;11560;7702;;
 Libertador B. O'Higgins;16;12001;9888;;5
@@ -186,14 +186,14 @@ Maule;15;13197;10228;;
 Maule;16;13555;11572;;8
 Maule;17;13454;11924;;5
 Metropolitana  Santiago;6;1700;;;
-Metropolitana  Santiago;7;1948;;;
+Metropolitana  Santiago;7;1949;;;
 Metropolitana  Santiago;8;2152;;;
 Metropolitana  Santiago;9;2445;;;
-Metropolitana  Santiago;10;2581;;;
-Metropolitana  Santiago;11;3104;;;
-Metropolitana  Santiago;12;57696;8526;;1
-Metropolitana  Santiago;13;62345;8979;;
-Metropolitana  Santiago;14;72791;31518;;
-Metropolitana  Santiago;15;77671;56151;;2
-Metropolitana  Santiago;16;81221;68030;;79
-Metropolitana  Santiago;17;81730;71714;;74
+Metropolitana  Santiago;10;2582;;;
+Metropolitana  Santiago;11;3105;;;
+Metropolitana  Santiago;12;57719;8526;;1
+Metropolitana  Santiago;13;62363;8979;;
+Metropolitana  Santiago;14;72804;31518;;
+Metropolitana  Santiago;15;77678;56151;;2
+Metropolitana  Santiago;16;81229;68030;;79
+Metropolitana  Santiago;17;81737;71714;;74
