@@ -1,5 +1,5 @@
 Region,Codigo region,Comuna,Codigo comuna,Edad,Primera Dosis
-Arica y Parinacota,15,Arica,15101,6,1056.0
+Arica y Parinacota,15,Arica,15101,6,1062.0
 Arica y Parinacota,15,Camarones,15102,6,4.0
 Arica y Parinacota,15,General Lagos,15202,6,0.0
 Arica y Parinacota,15,Putre,15201,6,4.0
@@ -12,7 +12,7 @@ Tarapaca,01,Iquique,01101,6,934.0
 Tarapaca,01,Pica,01405,6,30.0
 Tarapaca,01,Pozo Almonte,01401,6,51.0
 Tarapaca,01,Desconocido Tarapaca,,6,
-Antofagasta,02,Antofagasta,02101,6,2382.0
+Antofagasta,02,Antofagasta,02101,6,2410.0
 Antofagasta,02,Calama,02201,6,1362.0
 Antofagasta,02,Maria Elena,02302,6,22.0
 Antofagasta,02,Mejillones,02102,6,73.0
@@ -206,7 +206,7 @@ Maule,07,Villa Alegre,07407,6,134.0
 Maule,07,Yerbas Buenas,07408,6,105.0
 Maule,07,Desconocido Maule,,6,
 Nuble,16,Bulnes,16102,6,126.0
-Nuble,16,Chillan,16101,6,889.0
+Nuble,16,Chillan,16101,6,892.0
 Nuble,16,Chillan Viejo,16103,6,102.0
 Nuble,16,Cobquecura,16202,6,27.0
 Nuble,16,Coelemu,16203,6,121.0
@@ -305,7 +305,7 @@ Los Rios,14,Mariquina,14106,6,116.0
 Los Rios,14,Paillaco,14107,6,57.0
 Los Rios,14,Panguipulli,14108,6,117.0
 Los Rios,14,Rio Bueno,14204,6,40.0
-Los Rios,14,Valdivia,14101,6,572.0
+Los Rios,14,Valdivia,14101,6,575.0
 Los Rios,14,Desconocido Los Rios,,6,
 Los Lagos,10,Ancud,10202,6,98.0
 Los Lagos,10,Calbuco,10102,6,93.0
@@ -342,7 +342,7 @@ Aysen,11,Aysen,11201,6,18.0
 Aysen,11,Chile Chico,11401,6,35.0
 Aysen,11,Cisnes,11202,6,20.0
 Aysen,11,Cochrane,11301,6,20.0
-Aysen,11,Coyhaique,11101,6,264.0
+Aysen,11,Coyhaique,11101,6,266.0
 Aysen,11,Guaitecas,11203,6,17.0
 Aysen,11,Lago Verde,11102,6,4.0
 Aysen,11,OHiggins,11302,6,8.0
@@ -361,7 +361,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,6,3.0
 Magallanes y la Antartica,12,Timaukel,12303,6,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,6,1.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,6,
-Arica y Parinacota,15,Arica,15101,7,1281.0
+Arica y Parinacota,15,Arica,15101,7,1288.0
 Arica y Parinacota,15,Camarones,15102,7,6.0
 Arica y Parinacota,15,General Lagos,15202,7,0.0
 Arica y Parinacota,15,Putre,15201,7,4.0
@@ -374,7 +374,7 @@ Tarapaca,01,Iquique,01101,7,1133.0
 Tarapaca,01,Pica,01405,7,30.0
 Tarapaca,01,Pozo Almonte,01401,7,65.0
 Tarapaca,01,Desconocido Tarapaca,,7,
-Antofagasta,02,Antofagasta,02101,7,2612.0
+Antofagasta,02,Antofagasta,02101,7,2633.0
 Antofagasta,02,Calama,02201,7,1541.0
 Antofagasta,02,Maria Elena,02302,7,21.0
 Antofagasta,02,Mejillones,02102,7,74.0
@@ -561,14 +561,14 @@ Maule,07,Sagrada Familia,07307,7,186.0
 Maule,07,San Clemente,07109,7,398.0
 Maule,07,San Javier,07406,7,336.0
 Maule,07,San Rafael,07110,7,66.0
-Maule,07,Talca,07101,7,1397.0
+Maule,07,Talca,07101,7,1405.0
 Maule,07,Teno,07308,7,180.0
 Maule,07,Vichuquen,07309,7,7.0
 Maule,07,Villa Alegre,07407,7,125.0
 Maule,07,Yerbas Buenas,07408,7,91.0
 Maule,07,Desconocido Maule,,7,
-Nuble,16,Bulnes,16102,7,168.0
-Nuble,16,Chillan,16101,7,985.0
+Nuble,16,Bulnes,16102,7,169.0
+Nuble,16,Chillan,16101,7,990.0
 Nuble,16,Chillan Viejo,16103,7,177.0
 Nuble,16,Cobquecura,16202,7,43.0
 Nuble,16,Coelemu,16203,7,159.0
@@ -667,7 +667,7 @@ Los Rios,14,Mariquina,14106,7,175.0
 Los Rios,14,Paillaco,14107,7,118.0
 Los Rios,14,Panguipulli,14108,7,171.0
 Los Rios,14,Rio Bueno,14204,7,61.0
-Los Rios,14,Valdivia,14101,7,644.0
+Los Rios,14,Valdivia,14101,7,645.0
 Los Rios,14,Desconocido Los Rios,,7,
 Los Lagos,10,Ancud,10202,7,118.0
 Los Lagos,10,Calbuco,10102,7,99.0
@@ -704,7 +704,7 @@ Aysen,11,Aysen,11201,7,25.0
 Aysen,11,Chile Chico,11401,7,55.0
 Aysen,11,Cisnes,11202,7,31.0
 Aysen,11,Cochrane,11301,7,31.0
-Aysen,11,Coyhaique,11101,7,290.0
+Aysen,11,Coyhaique,11101,7,292.0
 Aysen,11,Guaitecas,11203,7,17.0
 Aysen,11,Lago Verde,11102,7,3.0
 Aysen,11,OHiggins,11302,7,12.0
@@ -723,7 +723,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,7,4.0
 Magallanes y la Antartica,12,Timaukel,12303,7,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,7,5.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,7,
-Arica y Parinacota,15,Arica,15101,8,1446.0
+Arica y Parinacota,15,Arica,15101,8,1458.0
 Arica y Parinacota,15,Camarones,15102,8,8.0
 Arica y Parinacota,15,General Lagos,15202,8,0.0
 Arica y Parinacota,15,Putre,15201,8,3.0
@@ -736,7 +736,7 @@ Tarapaca,01,Iquique,01101,8,1261.0
 Tarapaca,01,Pica,01405,8,27.0
 Tarapaca,01,Pozo Almonte,01401,8,66.0
 Tarapaca,01,Desconocido Tarapaca,,8,
-Antofagasta,02,Antofagasta,02101,8,2687.0
+Antofagasta,02,Antofagasta,02101,8,2717.0
 Antofagasta,02,Calama,02201,8,1814.0
 Antofagasta,02,Maria Elena,02302,8,18.0
 Antofagasta,02,Mejillones,02102,8,104.0
@@ -923,14 +923,14 @@ Maule,07,Sagrada Familia,07307,8,192.0
 Maule,07,San Clemente,07109,8,403.0
 Maule,07,San Javier,07406,8,306.0
 Maule,07,San Rafael,07110,8,85.0
-Maule,07,Talca,07101,8,1605.0
+Maule,07,Talca,07101,8,1614.0
 Maule,07,Teno,07308,8,219.0
 Maule,07,Vichuquen,07309,8,11.0
 Maule,07,Villa Alegre,07407,8,149.0
 Maule,07,Yerbas Buenas,07408,8,74.0
 Maule,07,Desconocido Maule,,8,
 Nuble,16,Bulnes,16102,8,120.0
-Nuble,16,Chillan,16101,8,1038.0
+Nuble,16,Chillan,16101,8,1039.0
 Nuble,16,Chillan Viejo,16103,8,168.0
 Nuble,16,Cobquecura,16202,8,39.0
 Nuble,16,Coelemu,16203,8,130.0
@@ -1029,7 +1029,7 @@ Los Rios,14,Mariquina,14106,8,190.0
 Los Rios,14,Paillaco,14107,8,99.0
 Los Rios,14,Panguipulli,14108,8,147.0
 Los Rios,14,Rio Bueno,14204,8,78.0
-Los Rios,14,Valdivia,14101,8,731.0
+Los Rios,14,Valdivia,14101,8,730.0
 Los Rios,14,Desconocido Los Rios,,8,
 Los Lagos,10,Ancud,10202,8,166.0
 Los Lagos,10,Calbuco,10102,8,107.0
@@ -1066,7 +1066,7 @@ Aysen,11,Aysen,11201,8,35.0
 Aysen,11,Chile Chico,11401,8,59.0
 Aysen,11,Cisnes,11202,8,28.0
 Aysen,11,Cochrane,11301,8,33.0
-Aysen,11,Coyhaique,11101,8,297.0
+Aysen,11,Coyhaique,11101,8,300.0
 Aysen,11,Guaitecas,11203,8,8.0
 Aysen,11,Lago Verde,11102,8,4.0
 Aysen,11,OHiggins,11302,8,13.0
@@ -1085,7 +1085,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,8,5.0
 Magallanes y la Antartica,12,Timaukel,12303,8,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,8,2.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,8,
-Arica y Parinacota,15,Arica,15101,9,1484.0
+Arica y Parinacota,15,Arica,15101,9,1489.0
 Arica y Parinacota,15,Camarones,15102,9,1.0
 Arica y Parinacota,15,General Lagos,15202,9,0.0
 Arica y Parinacota,15,Putre,15201,9,4.0
@@ -1098,7 +1098,7 @@ Tarapaca,01,Iquique,01101,9,1413.0
 Tarapaca,01,Pica,01405,9,29.0
 Tarapaca,01,Pozo Almonte,01401,9,73.0
 Tarapaca,01,Desconocido Tarapaca,,9,
-Antofagasta,02,Antofagasta,02101,9,3044.0
+Antofagasta,02,Antofagasta,02101,9,3069.0
 Antofagasta,02,Calama,02201,9,1780.0
 Antofagasta,02,Maria Elena,02302,9,30.0
 Antofagasta,02,Mejillones,02102,9,125.0
@@ -1292,7 +1292,7 @@ Maule,07,Villa Alegre,07407,9,159.0
 Maule,07,Yerbas Buenas,07408,9,129.0
 Maule,07,Desconocido Maule,,9,
 Nuble,16,Bulnes,16102,9,161.0
-Nuble,16,Chillan,16101,9,1130.0
+Nuble,16,Chillan,16101,9,1135.0
 Nuble,16,Chillan Viejo,16103,9,187.0
 Nuble,16,Cobquecura,16202,9,47.0
 Nuble,16,Coelemu,16203,9,151.0
@@ -1391,7 +1391,7 @@ Los Rios,14,Mariquina,14106,9,187.0
 Los Rios,14,Paillaco,14107,9,153.0
 Los Rios,14,Panguipulli,14108,9,218.0
 Los Rios,14,Rio Bueno,14204,9,91.0
-Los Rios,14,Valdivia,14101,9,692.0
+Los Rios,14,Valdivia,14101,9,694.0
 Los Rios,14,Desconocido Los Rios,,9,
 Los Lagos,10,Ancud,10202,9,152.0
 Los Lagos,10,Calbuco,10102,9,123.0
@@ -1428,7 +1428,7 @@ Aysen,11,Aysen,11201,9,43.0
 Aysen,11,Chile Chico,11401,9,33.0
 Aysen,11,Cisnes,11202,9,38.0
 Aysen,11,Cochrane,11301,9,34.0
-Aysen,11,Coyhaique,11101,9,311.0
+Aysen,11,Coyhaique,11101,9,312.0
 Aysen,11,Guaitecas,11203,9,10.0
 Aysen,11,Lago Verde,11102,9,8.0
 Aysen,11,OHiggins,11302,9,7.0
@@ -1447,7 +1447,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,9,1.0
 Magallanes y la Antartica,12,Timaukel,12303,9,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,9,3.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,9,
-Arica y Parinacota,15,Arica,15101,10,1567.0
+Arica y Parinacota,15,Arica,15101,10,1568.0
 Arica y Parinacota,15,Camarones,15102,10,10.0
 Arica y Parinacota,15,General Lagos,15202,10,0.0
 Arica y Parinacota,15,Putre,15201,10,7.0
@@ -1460,7 +1460,7 @@ Tarapaca,01,Iquique,01101,10,1425.0
 Tarapaca,01,Pica,01405,10,39.0
 Tarapaca,01,Pozo Almonte,01401,10,77.0
 Tarapaca,01,Desconocido Tarapaca,,10,
-Antofagasta,02,Antofagasta,02101,10,3251.0
+Antofagasta,02,Antofagasta,02101,10,3274.0
 Antofagasta,02,Calama,02201,10,1800.0
 Antofagasta,02,Maria Elena,02302,10,32.0
 Antofagasta,02,Mejillones,02102,10,113.0
@@ -1498,7 +1498,7 @@ Coquimbo,04,Vicuna,04106,10,237.0
 Coquimbo,04,Desconocido Coquimbo,,10,
 Valparaiso,05,Algarrobo,05602,10,167.0
 Valparaiso,05,Cabildo,05402,10,191.0
-Valparaiso,05,Calera,05502,10,501.0
+Valparaiso,05,Calera,05502,10,500.0
 Valparaiso,05,Calle Larga,05302,10,162.0
 Valparaiso,05,Cartagena,05603,10,94.0
 Valparaiso,05,Casablanca,05102,10,248.0
@@ -1509,7 +1509,7 @@ Valparaiso,05,El Tabo,05605,10,72.0
 Valparaiso,05,Hijuelas,05503,10,209.0
 Valparaiso,05,Isla de Pascua,05201,10,7.0
 Valparaiso,05,Juan Fernandez,05104,10,0.0
-Valparaiso,05,La Cruz,05504,10,116.0
+Valparaiso,05,La Cruz,05504,10,115.0
 Valparaiso,05,La Ligua,05401,10,247.0
 Valparaiso,05,Limache,05802,10,437.0
 Valparaiso,05,Llaillay,05703,10,282.0
@@ -1654,7 +1654,7 @@ Maule,07,Villa Alegre,07407,10,196.0
 Maule,07,Yerbas Buenas,07408,10,138.0
 Maule,07,Desconocido Maule,,10,
 Nuble,16,Bulnes,16102,10,139.0
-Nuble,16,Chillan,16101,10,1127.0
+Nuble,16,Chillan,16101,10,1128.0
 Nuble,16,Chillan Viejo,16103,10,195.0
 Nuble,16,Cobquecura,16202,10,52.0
 Nuble,16,Coelemu,16203,10,154.0
@@ -1753,7 +1753,7 @@ Los Rios,14,Mariquina,14106,10,216.0
 Los Rios,14,Paillaco,14107,10,154.0
 Los Rios,14,Panguipulli,14108,10,263.0
 Los Rios,14,Rio Bueno,14204,10,90.0
-Los Rios,14,Valdivia,14101,10,809.0
+Los Rios,14,Valdivia,14101,10,807.0
 Los Rios,14,Desconocido Los Rios,,10,
 Los Lagos,10,Ancud,10202,10,200.0
 Los Lagos,10,Calbuco,10102,10,141.0
@@ -1809,7 +1809,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,10,6.0
 Magallanes y la Antartica,12,Timaukel,12303,10,1.0
 Magallanes y la Antartica,12,Torres del Paine,12402,10,5.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,10,
-Arica y Parinacota,15,Arica,15101,11,1610.0
+Arica y Parinacota,15,Arica,15101,11,1617.0
 Arica y Parinacota,15,Camarones,15102,11,6.0
 Arica y Parinacota,15,General Lagos,15202,11,0.0
 Arica y Parinacota,15,Putre,15201,11,4.0
@@ -1822,7 +1822,7 @@ Tarapaca,01,Iquique,01101,11,1507.0
 Tarapaca,01,Pica,01405,11,36.0
 Tarapaca,01,Pozo Almonte,01401,11,81.0
 Tarapaca,01,Desconocido Tarapaca,,11,
-Antofagasta,02,Antofagasta,02101,11,3372.0
+Antofagasta,02,Antofagasta,02101,11,3400.0
 Antofagasta,02,Calama,02201,11,1872.0
 Antofagasta,02,Maria Elena,02302,11,47.0
 Antofagasta,02,Mejillones,02102,11,143.0
@@ -1939,7 +1939,7 @@ Metropolitana,13,Quilicura,13125,11,1505.0
 Metropolitana,13,Quinta Normal,13126,11,953.0
 Metropolitana,13,Recoleta,13127,11,767.0
 Metropolitana,13,Renca,13128,11,1299.0
-Metropolitana,13,San Bernardo,13401,11,2598.0
+Metropolitana,13,San Bernardo,13401,11,2599.0
 Metropolitana,13,San Joaquin,13129,11,741.0
 Metropolitana,13,San Jose de Maipo,13203,11,238.0
 Metropolitana,13,San Miguel,13130,11,606.0
@@ -2009,14 +2009,14 @@ Maule,07,Sagrada Familia,07307,11,210.0
 Maule,07,San Clemente,07109,11,443.0
 Maule,07,San Javier,07406,11,342.0
 Maule,07,San Rafael,07110,11,58.0
-Maule,07,Talca,07101,11,1835.0
+Maule,07,Talca,07101,11,1848.0
 Maule,07,Teno,07308,11,233.0
 Maule,07,Vichuquen,07309,11,15.0
 Maule,07,Villa Alegre,07407,11,192.0
 Maule,07,Yerbas Buenas,07408,11,117.0
 Maule,07,Desconocido Maule,,11,
 Nuble,16,Bulnes,16102,11,179.0
-Nuble,16,Chillan,16101,11,1233.0
+Nuble,16,Chillan,16101,11,1235.0
 Nuble,16,Chillan Viejo,16103,11,231.0
 Nuble,16,Cobquecura,16202,11,51.0
 Nuble,16,Coelemu,16203,11,182.0
@@ -2115,7 +2115,7 @@ Los Rios,14,Mariquina,14106,11,249.0
 Los Rios,14,Paillaco,14107,11,160.0
 Los Rios,14,Panguipulli,14108,11,249.0
 Los Rios,14,Rio Bueno,14204,11,118.0
-Los Rios,14,Valdivia,14101,11,872.0
+Los Rios,14,Valdivia,14101,11,875.0
 Los Rios,14,Desconocido Los Rios,,11,
 Los Lagos,10,Ancud,10202,11,235.0
 Los Lagos,10,Calbuco,10102,11,178.0
@@ -2171,7 +2171,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,11,3.0
 Magallanes y la Antartica,12,Timaukel,12303,11,2.0
 Magallanes y la Antartica,12,Torres del Paine,12402,11,6.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,11,
-Arica y Parinacota,15,Arica,15101,12,2712.0
+Arica y Parinacota,15,Arica,15101,12,2713.0
 Arica y Parinacota,15,Camarones,15102,12,19.0
 Arica y Parinacota,15,General Lagos,15202,12,0.0
 Arica y Parinacota,15,Putre,15201,12,23.0
@@ -2184,7 +2184,7 @@ Tarapaca,01,Iquique,01101,12,2199.0
 Tarapaca,01,Pica,01405,12,79.0
 Tarapaca,01,Pozo Almonte,01401,12,215.0
 Tarapaca,01,Desconocido Tarapaca,,12,
-Antofagasta,02,Antofagasta,02101,12,4383.0
+Antofagasta,02,Antofagasta,02101,12,4390.0
 Antofagasta,02,Calama,02201,12,2366.0
 Antofagasta,02,Maria Elena,02302,12,57.0
 Antofagasta,02,Mejillones,02102,12,161.0
@@ -2233,7 +2233,7 @@ Valparaiso,05,El Tabo,05605,12,145.0
 Valparaiso,05,Hijuelas,05503,12,267.0
 Valparaiso,05,Isla de Pascua,05201,12,38.0
 Valparaiso,05,Juan Fernandez,05104,12,17.0
-Valparaiso,05,La Cruz,05504,12,222.0
+Valparaiso,05,La Cruz,05504,12,223.0
 Valparaiso,05,La Ligua,05401,12,371.0
 Valparaiso,05,Limache,05802,12,597.0
 Valparaiso,05,Llaillay,05703,12,352.0
@@ -2371,14 +2371,14 @@ Maule,07,Sagrada Familia,07307,12,244.0
 Maule,07,San Clemente,07109,12,593.0
 Maule,07,San Javier,07406,12,594.0
 Maule,07,San Rafael,07110,12,121.0
-Maule,07,Talca,07101,12,2945.0
+Maule,07,Talca,07101,12,2952.0
 Maule,07,Teno,07308,12,359.0
 Maule,07,Vichuquen,07309,12,45.0
 Maule,07,Villa Alegre,07407,12,213.0
 Maule,07,Yerbas Buenas,07408,12,235.0
 Maule,07,Desconocido Maule,,12,
 Nuble,16,Bulnes,16102,12,270.0
-Nuble,16,Chillan,16101,12,2119.0
+Nuble,16,Chillan,16101,12,2123.0
 Nuble,16,Chillan Viejo,16103,12,396.0
 Nuble,16,Cobquecura,16202,12,81.0
 Nuble,16,Coelemu,16203,12,196.0
@@ -2477,7 +2477,7 @@ Los Rios,14,Mariquina,14106,12,288.0
 Los Rios,14,Paillaco,14107,12,265.0
 Los Rios,14,Panguipulli,14108,12,391.0
 Los Rios,14,Rio Bueno,14204,12,308.0
-Los Rios,14,Valdivia,14101,12,1509.0
+Los Rios,14,Valdivia,14101,12,1513.0
 Los Rios,14,Desconocido Los Rios,,12,
 Los Lagos,10,Ancud,10202,12,388.0
 Los Lagos,10,Calbuco,10102,12,315.0
@@ -2533,7 +2533,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,12,11.0
 Magallanes y la Antartica,12,Timaukel,12303,12,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,12,0.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,12,
-Arica y Parinacota,15,Arica,15101,13,2671.0
+Arica y Parinacota,15,Arica,15101,13,2673.0
 Arica y Parinacota,15,Camarones,15102,13,16.0
 Arica y Parinacota,15,General Lagos,15202,13,1.0
 Arica y Parinacota,15,Putre,15201,13,10.0
@@ -2546,7 +2546,7 @@ Tarapaca,01,Iquique,01101,13,2203.0
 Tarapaca,01,Pica,01405,13,74.0
 Tarapaca,01,Pozo Almonte,01401,13,211.0
 Tarapaca,01,Desconocido Tarapaca,,13,
-Antofagasta,02,Antofagasta,02101,13,4524.0
+Antofagasta,02,Antofagasta,02101,13,4537.0
 Antofagasta,02,Calama,02201,13,2198.0
 Antofagasta,02,Maria Elena,02302,13,48.0
 Antofagasta,02,Mejillones,02102,13,150.0
@@ -2740,7 +2740,7 @@ Maule,07,Villa Alegre,07407,13,171.0
 Maule,07,Yerbas Buenas,07408,13,222.0
 Maule,07,Desconocido Maule,,13,
 Nuble,16,Bulnes,16102,13,299.0
-Nuble,16,Chillan,16101,13,2041.0
+Nuble,16,Chillan,16101,13,2042.0
 Nuble,16,Chillan Viejo,16103,13,372.0
 Nuble,16,Cobquecura,16202,13,47.0
 Nuble,16,Coelemu,16203,13,206.0
@@ -2839,7 +2839,7 @@ Los Rios,14,Mariquina,14106,13,300.0
 Los Rios,14,Paillaco,14107,13,288.0
 Los Rios,14,Panguipulli,14108,13,441.0
 Los Rios,14,Rio Bueno,14204,13,305.0
-Los Rios,14,Valdivia,14101,13,1610.0
+Los Rios,14,Valdivia,14101,13,1611.0
 Los Rios,14,Desconocido Los Rios,,13,
 Los Lagos,10,Ancud,10202,13,422.0
 Los Lagos,10,Calbuco,10102,13,347.0
@@ -2883,7 +2883,7 @@ Aysen,11,OHiggins,11302,13,11.0
 Aysen,11,Rio Ibanez,11402,13,26.0
 Aysen,11,Tortel,11303,13,8.0
 Aysen,11,Desconocido Aysen,,13,
-Magallanes y la Antartica,12,Antartica,12202,13,12.0
+Magallanes y la Antartica,12,Antartica,12202,13,13.0
 Magallanes y la Antartica,12,Cabo de Hornos,12201,13,25.0
 Magallanes y la Antartica,12,Laguna Blanca,12102,13,1.0
 Magallanes y la Antartica,12,Natales,12401,13,319.0
@@ -2895,7 +2895,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,13,5.0
 Magallanes y la Antartica,12,Timaukel,12303,13,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,13,2.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,13,
-Arica y Parinacota,15,Arica,15101,14,2726.0
+Arica y Parinacota,15,Arica,15101,14,2729.0
 Arica y Parinacota,15,Camarones,15102,14,14.0
 Arica y Parinacota,15,General Lagos,15202,14,0.0
 Arica y Parinacota,15,Putre,15201,14,10.0
@@ -2908,7 +2908,7 @@ Tarapaca,01,Iquique,01101,14,2618.0
 Tarapaca,01,Pica,01405,14,75.0
 Tarapaca,01,Pozo Almonte,01401,14,173.0
 Tarapaca,01,Desconocido Tarapaca,,14,
-Antofagasta,02,Antofagasta,02101,14,5201.0
+Antofagasta,02,Antofagasta,02101,14,5206.0
 Antofagasta,02,Calama,02201,14,2481.0
 Antofagasta,02,Maria Elena,02302,14,69.0
 Antofagasta,02,Mejillones,02102,14,167.0
@@ -2957,7 +2957,7 @@ Valparaiso,05,El Tabo,05605,14,171.0
 Valparaiso,05,Hijuelas,05503,14,304.0
 Valparaiso,05,Isla de Pascua,05201,14,69.0
 Valparaiso,05,Juan Fernandez,05104,14,14.0
-Valparaiso,05,La Cruz,05504,14,224.0
+Valparaiso,05,La Cruz,05504,14,225.0
 Valparaiso,05,La Ligua,05401,14,451.0
 Valparaiso,05,Limache,05802,14,662.0
 Valparaiso,05,Llaillay,05703,14,323.0
@@ -3102,7 +3102,7 @@ Maule,07,Villa Alegre,07407,14,210.0
 Maule,07,Yerbas Buenas,07408,14,293.0
 Maule,07,Desconocido Maule,,14,
 Nuble,16,Bulnes,16102,14,340.0
-Nuble,16,Chillan,16101,14,2347.0
+Nuble,16,Chillan,16101,14,2348.0
 Nuble,16,Chillan Viejo,16103,14,451.0
 Nuble,16,Cobquecura,16202,14,59.0
 Nuble,16,Coelemu,16203,14,217.0
@@ -3257,7 +3257,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,14,3.0
 Magallanes y la Antartica,12,Timaukel,12303,14,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,14,2.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,14,
-Arica y Parinacota,15,Arica,15101,15,2853.0
+Arica y Parinacota,15,Arica,15101,15,2854.0
 Arica y Parinacota,15,Camarones,15102,15,15.0
 Arica y Parinacota,15,General Lagos,15202,15,0.0
 Arica y Parinacota,15,Putre,15201,15,20.0
@@ -3270,7 +3270,7 @@ Tarapaca,01,Iquique,01101,15,2406.0
 Tarapaca,01,Pica,01405,15,78.0
 Tarapaca,01,Pozo Almonte,01401,15,217.0
 Tarapaca,01,Desconocido Tarapaca,,15,
-Antofagasta,02,Antofagasta,02101,15,4857.0
+Antofagasta,02,Antofagasta,02101,15,4860.0
 Antofagasta,02,Calama,02201,15,2361.0
 Antofagasta,02,Maria Elena,02302,15,50.0
 Antofagasta,02,Mejillones,02102,15,178.0
@@ -3319,7 +3319,7 @@ Valparaiso,05,El Tabo,05605,15,171.0
 Valparaiso,05,Hijuelas,05503,15,241.0
 Valparaiso,05,Isla de Pascua,05201,15,66.0
 Valparaiso,05,Juan Fernandez,05104,15,11.0
-Valparaiso,05,La Cruz,05504,15,281.0
+Valparaiso,05,La Cruz,05504,15,282.0
 Valparaiso,05,La Ligua,05401,15,450.0
 Valparaiso,05,Limache,05802,15,665.0
 Valparaiso,05,Llaillay,05703,15,342.0
@@ -3387,7 +3387,7 @@ Metropolitana,13,Quilicura,13125,15,2662.0
 Metropolitana,13,Quinta Normal,13126,15,1284.0
 Metropolitana,13,Recoleta,13127,15,1482.0
 Metropolitana,13,Renca,13128,15,1772.0
-Metropolitana,13,San Bernardo,13401,15,3626.0
+Metropolitana,13,San Bernardo,13401,15,3627.0
 Metropolitana,13,San Joaquin,13129,15,1142.0
 Metropolitana,13,San Jose de Maipo,13203,15,267.0
 Metropolitana,13,San Miguel,13130,15,1224.0
@@ -3465,7 +3465,7 @@ Maule,07,Yerbas Buenas,07408,15,281.0
 Maule,07,Desconocido Maule,,15,
 Nuble,16,Bulnes,16102,15,315.0
 Nuble,16,Chillan,16101,15,2323.0
-Nuble,16,Chillan Viejo,16103,15,421.0
+Nuble,16,Chillan Viejo,16103,15,422.0
 Nuble,16,Cobquecura,16202,15,60.0
 Nuble,16,Coelemu,16203,15,216.0
 Nuble,16,Coihueco,16302,15,396.0
@@ -3619,7 +3619,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,15,2.0
 Magallanes y la Antartica,12,Timaukel,12303,15,1.0
 Magallanes y la Antartica,12,Torres del Paine,12402,15,0.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,15,
-Arica y Parinacota,15,Arica,15101,16,2950.0
+Arica y Parinacota,15,Arica,15101,16,2951.0
 Arica y Parinacota,15,Camarones,15102,16,9.0
 Arica y Parinacota,15,General Lagos,15202,16,1.0
 Arica y Parinacota,15,Putre,15201,16,12.0
@@ -3632,7 +3632,7 @@ Tarapaca,01,Iquique,01101,16,2577.0
 Tarapaca,01,Pica,01405,16,67.0
 Tarapaca,01,Pozo Almonte,01401,16,184.0
 Tarapaca,01,Desconocido Tarapaca,,16,
-Antofagasta,02,Antofagasta,02101,16,4821.0
+Antofagasta,02,Antofagasta,02101,16,4822.0
 Antofagasta,02,Calama,02201,16,2413.0
 Antofagasta,02,Maria Elena,02302,16,69.0
 Antofagasta,02,Mejillones,02102,16,200.0
@@ -3981,7 +3981,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,16,8.0
 Magallanes y la Antartica,12,Timaukel,12303,16,0.0
 Magallanes y la Antartica,12,Torres del Paine,12402,16,0.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,16,
-Arica y Parinacota,15,Arica,15101,17,3038.0
+Arica y Parinacota,15,Arica,15101,17,3039.0
 Arica y Parinacota,15,Camarones,15102,17,11.0
 Arica y Parinacota,15,General Lagos,15202,17,0.0
 Arica y Parinacota,15,Putre,15201,17,19.0
@@ -3994,7 +3994,7 @@ Tarapaca,01,Iquique,01101,17,2648.0
 Tarapaca,01,Pica,01405,17,61.0
 Tarapaca,01,Pozo Almonte,01401,17,159.0
 Tarapaca,01,Desconocido Tarapaca,,17,
-Antofagasta,02,Antofagasta,02101,17,4853.0
+Antofagasta,02,Antofagasta,02101,17,4855.0
 Antofagasta,02,Calama,02201,17,2424.0
 Antofagasta,02,Maria Elena,02302,17,68.0
 Antofagasta,02,Mejillones,02102,17,190.0
@@ -4189,7 +4189,7 @@ Maule,07,Yerbas Buenas,07408,17,269.0
 Maule,07,Desconocido Maule,,17,
 Nuble,16,Bulnes,16102,17,317.0
 Nuble,16,Chillan,16101,17,2345.0
-Nuble,16,Chillan Viejo,16103,17,446.0
+Nuble,16,Chillan Viejo,16103,17,447.0
 Nuble,16,Cobquecura,16202,17,56.0
 Nuble,16,Coelemu,16203,17,241.0
 Nuble,16,Coihueco,16302,17,347.0
@@ -4265,7 +4265,7 @@ La Araucania,09,Padre Las Casas,09112,17,943.0
 La Araucania,09,Perquenco,09113,17,99.0
 La Araucania,09,Pitrufquen,09114,17,364.0
 La Araucania,09,Pucon,09115,17,379.0
-La Araucania,09,Puren,09208,17,127.0
+La Araucania,09,Puren,09208,17,128.0
 La Araucania,09,Renaico,09209,17,135.0
 La Araucania,09,Saavedra,09116,17,135.0
 La Araucania,09,Temuco,09101,17,3633.0
@@ -4550,7 +4550,7 @@ Maule,07,Villa Alegre,07407,18,77.0
 Maule,07,Yerbas Buenas,07408,18,175.0
 Maule,07,Desconocido Maule,,18,
 Nuble,16,Bulnes,16102,18,221.0
-Nuble,16,Chillan,16101,18,2165.0
+Nuble,16,Chillan,16101,18,2166.0
 Nuble,16,Chillan Viejo,16103,18,520.0
 Nuble,16,Cobquecura,16202,18,61.0
 Nuble,16,Coelemu,16203,18,160.0
@@ -4577,7 +4577,7 @@ Biobio,08,Arauco,08202,18,358.0
 Biobio,08,Cabrero,08303,18,374.0
 Biobio,08,Canete,08203,18,310.0
 Biobio,08,Chiguayante,08103,18,1128.0
-Biobio,08,Concepcion,08101,18,2477.0
+Biobio,08,Concepcion,08101,18,2478.0
 Biobio,08,Contulmo,08204,18,39.0
 Biobio,08,Coronel,08102,18,1391.0
 Biobio,08,Curanilahue,08205,18,319.0
@@ -4767,7 +4767,7 @@ Valparaiso,05,El Tabo,05605,19,124.0
 Valparaiso,05,Hijuelas,05503,19,251.0
 Valparaiso,05,Isla de Pascua,05201,19,53.0
 Valparaiso,05,Juan Fernandez,05104,19,9.0
-Valparaiso,05,La Cruz,05504,19,246.0
+Valparaiso,05,La Cruz,05504,19,247.0
 Valparaiso,05,La Ligua,05401,19,434.0
 Valparaiso,05,Limache,05802,19,527.0
 Valparaiso,05,Llaillay,05703,19,265.0
@@ -4912,7 +4912,7 @@ Maule,07,Villa Alegre,07407,19,139.0
 Maule,07,Yerbas Buenas,07408,19,196.0
 Maule,07,Desconocido Maule,,19,
 Nuble,16,Bulnes,16102,19,237.0
-Nuble,16,Chillan,16101,19,2257.0
+Nuble,16,Chillan,16101,19,2258.0
 Nuble,16,Chillan Viejo,16103,19,529.0
 Nuble,16,Cobquecura,16202,19,50.0
 Nuble,16,Coelemu,16203,19,170.0
@@ -5067,7 +5067,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,19,2.0
 Magallanes y la Antartica,12,Timaukel,12303,19,14.0
 Magallanes y la Antartica,12,Torres del Paine,12402,19,9.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,19,
-Arica y Parinacota,15,Arica,15101,20,3269.0
+Arica y Parinacota,15,Arica,15101,20,3270.0
 Arica y Parinacota,15,Camarones,15102,20,9.0
 Arica y Parinacota,15,General Lagos,15202,20,1.0
 Arica y Parinacota,15,Putre,15201,20,23.0
@@ -5080,7 +5080,7 @@ Tarapaca,01,Iquique,01101,20,2646.0
 Tarapaca,01,Pica,01405,20,71.0
 Tarapaca,01,Pozo Almonte,01401,20,229.0
 Tarapaca,01,Desconocido Tarapaca,,20,
-Antofagasta,02,Antofagasta,02101,20,5518.0
+Antofagasta,02,Antofagasta,02101,20,5519.0
 Antofagasta,02,Calama,02201,20,2337.0
 Antofagasta,02,Maria Elena,02302,20,85.0
 Antofagasta,02,Mejillones,02102,20,183.0
@@ -5278,7 +5278,7 @@ Nuble,16,Chillan,16101,20,2542.0
 Nuble,16,Chillan Viejo,16103,20,486.0
 Nuble,16,Cobquecura,16202,20,50.0
 Nuble,16,Coelemu,16203,20,164.0
-Nuble,16,Coihueco,16302,20,311.0
+Nuble,16,Coihueco,16302,20,312.0
 Nuble,16,El Carmen,16104,20,161.0
 Nuble,16,Ninhue,16204,20,82.0
 Nuble,16,Niquen,16303,20,121.0
@@ -5429,7 +5429,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,20,3.0
 Magallanes y la Antartica,12,Timaukel,12303,20,2.0
 Magallanes y la Antartica,12,Torres del Paine,12402,20,18.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,20,
-Arica y Parinacota,15,Arica,15101,21,3217.0
+Arica y Parinacota,15,Arica,15101,21,3219.0
 Arica y Parinacota,15,Camarones,15102,21,10.0
 Arica y Parinacota,15,General Lagos,15202,21,0.0
 Arica y Parinacota,15,Putre,15201,21,17.0
@@ -5491,7 +5491,7 @@ Valparaiso,05,El Tabo,05605,21,121.0
 Valparaiso,05,Hijuelas,05503,21,248.0
 Valparaiso,05,Isla de Pascua,05201,21,44.0
 Valparaiso,05,Juan Fernandez,05104,21,17.0
-Valparaiso,05,La Cruz,05504,21,275.0
+Valparaiso,05,La Cruz,05504,21,276.0
 Valparaiso,05,La Ligua,05401,21,397.0
 Valparaiso,05,Limache,05802,21,588.0
 Valparaiso,05,Llaillay,05703,21,313.0
@@ -5565,7 +5565,7 @@ Metropolitana,13,San Jose de Maipo,13203,21,235.0
 Metropolitana,13,San Miguel,13130,21,1416.0
 Metropolitana,13,San Pedro,13505,21,162.0
 Metropolitana,13,San Ramon,13131,21,1128.0
-Metropolitana,13,Santiago,13101,21,4058.0
+Metropolitana,13,Santiago,13101,21,4059.0
 Metropolitana,13,Talagante,13601,21,1033.0
 Metropolitana,13,Tiltil,13303,21,248.0
 Metropolitana,13,Vitacura,13132,21,958.0
@@ -5791,7 +5791,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,21,8.0
 Magallanes y la Antartica,12,Timaukel,12303,21,1.0
 Magallanes y la Antartica,12,Torres del Paine,12402,21,17.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,21,
-Arica y Parinacota,15,Arica,15101,22,3414.0
+Arica y Parinacota,15,Arica,15101,22,3416.0
 Arica y Parinacota,15,Camarones,15102,22,7.0
 Arica y Parinacota,15,General Lagos,15202,22,2.0
 Arica y Parinacota,15,Putre,15201,22,29.0
@@ -5804,7 +5804,7 @@ Tarapaca,01,Iquique,01101,22,2937.0
 Tarapaca,01,Pica,01405,22,68.0
 Tarapaca,01,Pozo Almonte,01401,22,235.0
 Tarapaca,01,Desconocido Tarapaca,,22,
-Antofagasta,02,Antofagasta,02101,22,5938.0
+Antofagasta,02,Antofagasta,02101,22,5939.0
 Antofagasta,02,Calama,02201,22,2681.0
 Antofagasta,02,Maria Elena,02302,22,102.0
 Antofagasta,02,Mejillones,02102,22,229.0
@@ -6035,7 +6035,7 @@ Biobio,08,Hualqui,08105,22,166.0
 Biobio,08,Laja,08304,22,341.0
 Biobio,08,Lebu,08201,22,298.0
 Biobio,08,Los Alamos,08206,22,168.0
-Biobio,08,Los Angeles,08301,22,2780.0
+Biobio,08,Los Angeles,08301,22,2779.0
 Biobio,08,Lota,08106,22,477.0
 Biobio,08,Mulchen,08305,22,407.0
 Biobio,08,Nacimiento,08306,22,380.0
@@ -6151,9 +6151,9 @@ Magallanes y la Antartica,12,Punta Arenas,12101,22,1263.0
 Magallanes y la Antartica,12,Rio Verde,12103,22,3.0
 Magallanes y la Antartica,12,San Gregorio,12104,22,10.0
 Magallanes y la Antartica,12,Timaukel,12303,22,6.0
-Magallanes y la Antartica,12,Torres del Paine,12402,22,20.0
+Magallanes y la Antartica,12,Torres del Paine,12402,22,21.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,22,
-Arica y Parinacota,15,Arica,15101,23,3211.0
+Arica y Parinacota,15,Arica,15101,23,3212.0
 Arica y Parinacota,15,Camarones,15102,23,8.0
 Arica y Parinacota,15,General Lagos,15202,23,2.0
 Arica y Parinacota,15,Putre,15201,23,24.0
@@ -6166,7 +6166,7 @@ Tarapaca,01,Iquique,01101,23,3118.0
 Tarapaca,01,Pica,01405,23,90.0
 Tarapaca,01,Pozo Almonte,01401,23,241.0
 Tarapaca,01,Desconocido Tarapaca,,23,
-Antofagasta,02,Antofagasta,02101,23,5241.0
+Antofagasta,02,Antofagasta,02101,23,5242.0
 Antofagasta,02,Calama,02201,23,2315.0
 Antofagasta,02,Maria Elena,02302,23,104.0
 Antofagasta,02,Mejillones,02102,23,232.0
@@ -6215,7 +6215,7 @@ Valparaiso,05,El Tabo,05605,23,135.0
 Valparaiso,05,Hijuelas,05503,23,227.0
 Valparaiso,05,Isla de Pascua,05201,23,53.0
 Valparaiso,05,Juan Fernandez,05104,23,15.0
-Valparaiso,05,La Cruz,05504,23,217.0
+Valparaiso,05,La Cruz,05504,23,218.0
 Valparaiso,05,La Ligua,05401,23,354.0
 Valparaiso,05,Limache,05802,23,592.0
 Valparaiso,05,Llaillay,05703,23,221.0
@@ -6360,7 +6360,7 @@ Maule,07,Villa Alegre,07407,23,114.0
 Maule,07,Yerbas Buenas,07408,23,145.0
 Maule,07,Desconocido Maule,,23,
 Nuble,16,Bulnes,16102,23,306.0
-Nuble,16,Chillan,16101,23,2580.0
+Nuble,16,Chillan,16101,23,2581.0
 Nuble,16,Chillan Viejo,16103,23,496.0
 Nuble,16,Cobquecura,16202,23,49.0
 Nuble,16,Coelemu,16203,23,223.0
@@ -6515,7 +6515,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,23,6.0
 Magallanes y la Antartica,12,Timaukel,12303,23,3.0
 Magallanes y la Antartica,12,Torres del Paine,12402,23,11.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,23,
-Arica y Parinacota,15,Arica,15101,24,3364.0
+Arica y Parinacota,15,Arica,15101,24,3365.0
 Arica y Parinacota,15,Camarones,15102,24,11.0
 Arica y Parinacota,15,General Lagos,15202,24,5.0
 Arica y Parinacota,15,Putre,15201,24,17.0
@@ -6528,7 +6528,7 @@ Tarapaca,01,Iquique,01101,24,3193.0
 Tarapaca,01,Pica,01405,24,111.0
 Tarapaca,01,Pozo Almonte,01401,24,266.0
 Tarapaca,01,Desconocido Tarapaca,,24,
-Antofagasta,02,Antofagasta,02101,24,5749.0
+Antofagasta,02,Antofagasta,02101,24,5750.0
 Antofagasta,02,Calama,02201,24,2454.0
 Antofagasta,02,Maria Elena,02302,24,112.0
 Antofagasta,02,Mejillones,02102,24,240.0
@@ -6651,7 +6651,7 @@ Metropolitana,13,San Jose de Maipo,13203,24,246.0
 Metropolitana,13,San Miguel,13130,24,1855.0
 Metropolitana,13,San Pedro,13505,24,194.0
 Metropolitana,13,San Ramon,13131,24,1078.0
-Metropolitana,13,Santiago,13101,24,5968.0
+Metropolitana,13,Santiago,13101,24,5969.0
 Metropolitana,13,Talagante,13601,24,1084.0
 Metropolitana,13,Tiltil,13303,24,283.0
 Metropolitana,13,Vitacura,13132,24,1048.0
@@ -6877,7 +6877,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,24,8.0
 Magallanes y la Antartica,12,Timaukel,12303,24,12.0
 Magallanes y la Antartica,12,Torres del Paine,12402,24,17.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,24,
-Arica y Parinacota,15,Arica,15101,25,3393.0
+Arica y Parinacota,15,Arica,15101,25,3394.0
 Arica y Parinacota,15,Camarones,15102,25,16.0
 Arica y Parinacota,15,General Lagos,15202,25,7.0
 Arica y Parinacota,15,Putre,15201,25,28.0
@@ -6890,7 +6890,7 @@ Tarapaca,01,Iquique,01101,25,3224.0
 Tarapaca,01,Pica,01405,25,96.0
 Tarapaca,01,Pozo Almonte,01401,25,270.0
 Tarapaca,01,Desconocido Tarapaca,,25,
-Antofagasta,02,Antofagasta,02101,25,6507.0
+Antofagasta,02,Antofagasta,02101,25,6508.0
 Antofagasta,02,Calama,02201,25,2896.0
 Antofagasta,02,Maria Elena,02302,25,115.0
 Antofagasta,02,Mejillones,02102,25,263.0
@@ -7237,7 +7237,7 @@ Magallanes y la Antartica,12,Punta Arenas,12101,25,1585.0
 Magallanes y la Antartica,12,Rio Verde,12103,25,2.0
 Magallanes y la Antartica,12,San Gregorio,12104,25,13.0
 Magallanes y la Antartica,12,Timaukel,12303,25,2.0
-Magallanes y la Antartica,12,Torres del Paine,12402,25,17.0
+Magallanes y la Antartica,12,Torres del Paine,12402,25,18.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,25,
 Arica y Parinacota,15,Arica,15101,26,3434.0
 Arica y Parinacota,15,Camarones,15102,26,17.0
@@ -7252,7 +7252,7 @@ Tarapaca,01,Iquique,01101,26,3406.0
 Tarapaca,01,Pica,01405,26,114.0
 Tarapaca,01,Pozo Almonte,01401,26,279.0
 Tarapaca,01,Desconocido Tarapaca,,26,
-Antofagasta,02,Antofagasta,02101,26,6942.0
+Antofagasta,02,Antofagasta,02101,26,6944.0
 Antofagasta,02,Calama,02201,26,3110.0
 Antofagasta,02,Maria Elena,02302,26,147.0
 Antofagasta,02,Mejillones,02102,26,285.0
@@ -7374,7 +7374,7 @@ Metropolitana,13,San Joaquin,13129,26,1875.0
 Metropolitana,13,San Jose de Maipo,13203,26,258.0
 Metropolitana,13,San Miguel,13130,26,2276.0
 Metropolitana,13,San Pedro,13505,26,236.0
-Metropolitana,13,San Ramon,13131,26,1259.0
+Metropolitana,13,San Ramon,13131,26,1260.0
 Metropolitana,13,Santiago,13101,26,8530.0
 Metropolitana,13,Talagante,13601,26,1228.0
 Metropolitana,13,Tiltil,13303,26,309.0
@@ -7446,7 +7446,7 @@ Maule,07,Villa Alegre,07407,26,172.0
 Maule,07,Yerbas Buenas,07408,26,260.0
 Maule,07,Desconocido Maule,,26,
 Nuble,16,Bulnes,16102,26,289.0
-Nuble,16,Chillan,16101,26,2819.0
+Nuble,16,Chillan,16101,26,2820.0
 Nuble,16,Chillan Viejo,16103,26,460.0
 Nuble,16,Cobquecura,16202,26,74.0
 Nuble,16,Coelemu,16203,26,222.0
@@ -7614,7 +7614,7 @@ Tarapaca,01,Iquique,01101,27,3607.0
 Tarapaca,01,Pica,01405,27,100.0
 Tarapaca,01,Pozo Almonte,01401,27,272.0
 Tarapaca,01,Desconocido Tarapaca,,27,
-Antofagasta,02,Antofagasta,02101,27,7234.0
+Antofagasta,02,Antofagasta,02101,27,7235.0
 Antofagasta,02,Calama,02201,27,3277.0
 Antofagasta,02,Maria Elena,02302,27,127.0
 Antofagasta,02,Mejillones,02102,27,312.0
@@ -7663,7 +7663,7 @@ Valparaiso,05,El Tabo,05605,27,191.0
 Valparaiso,05,Hijuelas,05503,27,317.0
 Valparaiso,05,Isla de Pascua,05201,27,89.0
 Valparaiso,05,Juan Fernandez,05104,27,22.0
-Valparaiso,05,La Cruz,05504,27,320.0
+Valparaiso,05,La Cruz,05504,27,321.0
 Valparaiso,05,La Ligua,05401,27,474.0
 Valparaiso,05,Limache,05802,27,665.0
 Valparaiso,05,Llaillay,05703,27,350.0
@@ -7737,7 +7737,7 @@ Metropolitana,13,San Jose de Maipo,13203,27,252.0
 Metropolitana,13,San Miguel,13130,27,2546.0
 Metropolitana,13,San Pedro,13505,27,246.0
 Metropolitana,13,San Ramon,13131,27,1222.0
-Metropolitana,13,Santiago,13101,27,9298.0
+Metropolitana,13,Santiago,13101,27,9299.0
 Metropolitana,13,Talagante,13601,27,1165.0
 Metropolitana,13,Tiltil,13303,27,287.0
 Metropolitana,13,Vitacura,13132,27,998.0
@@ -7963,7 +7963,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,27,15.0
 Magallanes y la Antartica,12,Timaukel,12303,27,11.0
 Magallanes y la Antartica,12,Torres del Paine,12402,27,26.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,27,
-Arica y Parinacota,15,Arica,15101,28,3397.0
+Arica y Parinacota,15,Arica,15101,28,3398.0
 Arica y Parinacota,15,Camarones,15102,28,15.0
 Arica y Parinacota,15,General Lagos,15202,28,6.0
 Arica y Parinacota,15,Putre,15201,28,30.0
@@ -7976,7 +7976,7 @@ Tarapaca,01,Iquique,01101,28,3639.0
 Tarapaca,01,Pica,01405,28,122.0
 Tarapaca,01,Pozo Almonte,01401,28,270.0
 Tarapaca,01,Desconocido Tarapaca,,28,
-Antofagasta,02,Antofagasta,02101,28,7126.0
+Antofagasta,02,Antofagasta,02101,28,7128.0
 Antofagasta,02,Calama,02201,28,3359.0
 Antofagasta,02,Maria Elena,02302,28,137.0
 Antofagasta,02,Mejillones,02102,28,354.0
@@ -8099,7 +8099,7 @@ Metropolitana,13,San Jose de Maipo,13203,28,309.0
 Metropolitana,13,San Miguel,13130,28,2722.0
 Metropolitana,13,San Pedro,13505,28,218.0
 Metropolitana,13,San Ramon,13131,28,1383.0
-Metropolitana,13,Santiago,13101,28,9870.0
+Metropolitana,13,Santiago,13101,28,9871.0
 Metropolitana,13,Talagante,13601,28,1202.0
 Metropolitana,13,Tiltil,13303,28,302.0
 Metropolitana,13,Vitacura,13132,28,1092.0
@@ -8170,7 +8170,7 @@ Maule,07,Villa Alegre,07407,28,173.0
 Maule,07,Yerbas Buenas,07408,28,240.0
 Maule,07,Desconocido Maule,,28,
 Nuble,16,Bulnes,16102,28,321.0
-Nuble,16,Chillan,16101,28,2851.0
+Nuble,16,Chillan,16101,28,2852.0
 Nuble,16,Chillan Viejo,16103,28,487.0
 Nuble,16,Cobquecura,16202,28,57.0
 Nuble,16,Coelemu,16203,28,206.0
@@ -8325,7 +8325,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,28,13.0
 Magallanes y la Antartica,12,Timaukel,12303,28,16.0
 Magallanes y la Antartica,12,Torres del Paine,12402,28,29.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,28,
-Arica y Parinacota,15,Arica,15101,29,3504.0
+Arica y Parinacota,15,Arica,15101,29,3505.0
 Arica y Parinacota,15,Camarones,15102,29,18.0
 Arica y Parinacota,15,General Lagos,15202,29,1.0
 Arica y Parinacota,15,Putre,15201,29,42.0
@@ -8335,10 +8335,10 @@ Tarapaca,01,Camina,01402,29,9.0
 Tarapaca,01,Colchane,01403,29,17.0
 Tarapaca,01,Huara,01404,29,31.0
 Tarapaca,01,Iquique,01101,29,3656.0
-Tarapaca,01,Pica,01405,29,100.0
+Tarapaca,01,Pica,01405,29,101.0
 Tarapaca,01,Pozo Almonte,01401,29,294.0
 Tarapaca,01,Desconocido Tarapaca,,29,
-Antofagasta,02,Antofagasta,02101,29,7163.0
+Antofagasta,02,Antofagasta,02101,29,7162.0
 Antofagasta,02,Calama,02201,29,3328.0
 Antofagasta,02,Maria Elena,02302,29,158.0
 Antofagasta,02,Mejillones,02102,29,315.0
@@ -8387,7 +8387,7 @@ Valparaiso,05,El Tabo,05605,29,154.0
 Valparaiso,05,Hijuelas,05503,29,283.0
 Valparaiso,05,Isla de Pascua,05201,29,118.0
 Valparaiso,05,Juan Fernandez,05104,29,17.0
-Valparaiso,05,La Cruz,05504,29,305.0
+Valparaiso,05,La Cruz,05504,29,306.0
 Valparaiso,05,La Ligua,05401,29,445.0
 Valparaiso,05,Limache,05802,29,714.0
 Valparaiso,05,Llaillay,05703,29,348.0
@@ -8461,7 +8461,7 @@ Metropolitana,13,San Jose de Maipo,13203,29,295.0
 Metropolitana,13,San Miguel,13130,29,2843.0
 Metropolitana,13,San Pedro,13505,29,239.0
 Metropolitana,13,San Ramon,13131,29,1269.0
-Metropolitana,13,Santiago,13101,29,10437.0
+Metropolitana,13,Santiago,13101,29,10438.0
 Metropolitana,13,Talagante,13601,29,1248.0
 Metropolitana,13,Tiltil,13303,29,327.0
 Metropolitana,13,Vitacura,13132,29,1088.0
@@ -8687,7 +8687,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,29,11.0
 Magallanes y la Antartica,12,Timaukel,12303,29,13.0
 Magallanes y la Antartica,12,Torres del Paine,12402,29,29.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,29,
-Arica y Parinacota,15,Arica,15101,30,3593.0
+Arica y Parinacota,15,Arica,15101,30,3594.0
 Arica y Parinacota,15,Camarones,15102,30,24.0
 Arica y Parinacota,15,General Lagos,15202,30,3.0
 Arica y Parinacota,15,Putre,15201,30,39.0
@@ -8749,7 +8749,7 @@ Valparaiso,05,El Tabo,05605,30,178.0
 Valparaiso,05,Hijuelas,05503,30,321.0
 Valparaiso,05,Isla de Pascua,05201,30,127.0
 Valparaiso,05,Juan Fernandez,05104,30,31.0
-Valparaiso,05,La Cruz,05504,30,413.0
+Valparaiso,05,La Cruz,05504,30,415.0
 Valparaiso,05,La Ligua,05401,30,487.0
 Valparaiso,05,Limache,05802,30,781.0
 Valparaiso,05,Llaillay,05703,30,392.0
@@ -8787,7 +8787,7 @@ Metropolitana,13,El Bosque,13105,30,2476.0
 Metropolitana,13,El Monte,13602,30,587.0
 Metropolitana,13,Estacion Central,13106,30,3510.0
 Metropolitana,13,Huechuraba,13107,30,2313.0
-Metropolitana,13,Independencia,13108,30,2449.0
+Metropolitana,13,Independencia,13108,30,2450.0
 Metropolitana,13,Isla de Maipo,13603,30,588.0
 Metropolitana,13,La Cisterna,13109,30,1612.0
 Metropolitana,13,La Florida,13110,30,6570.0
@@ -8823,7 +8823,7 @@ Metropolitana,13,San Jose de Maipo,13203,30,295.0
 Metropolitana,13,San Miguel,13130,30,3232.0
 Metropolitana,13,San Pedro,13505,30,243.0
 Metropolitana,13,San Ramon,13131,30,1275.0
-Metropolitana,13,Santiago,13101,30,10914.0
+Metropolitana,13,Santiago,13101,30,10916.0
 Metropolitana,13,Talagante,13601,30,1205.0
 Metropolitana,13,Tiltil,13303,30,332.0
 Metropolitana,13,Vitacura,13132,30,1217.0
@@ -8904,7 +8904,7 @@ Nuble,16,Ninhue,16204,30,56.0
 Nuble,16,Niquen,16303,30,162.0
 Nuble,16,Pemuco,16105,30,119.0
 Nuble,16,Pinto,16106,30,155.0
-Nuble,16,Portezuelo,16205,30,65.0
+Nuble,16,Portezuelo,16205,30,66.0
 Nuble,16,Quillon,16107,30,213.0
 Nuble,16,Quirihue,16201,30,165.0
 Nuble,16,Ranquil,16206,30,101.0
@@ -9039,7 +9039,7 @@ Aysen,11,Tortel,11303,30,10.0
 Aysen,11,Desconocido Aysen,,30,
 Magallanes y la Antartica,12,Antartica,12202,30,15.0
 Magallanes y la Antartica,12,Cabo de Hornos,12201,30,58.0
-Magallanes y la Antartica,12,Laguna Blanca,12102,30,9.0
+Magallanes y la Antartica,12,Laguna Blanca,12102,30,10.0
 Magallanes y la Antartica,12,Natales,12401,30,394.0
 Magallanes y la Antartica,12,Porvenir,12301,30,109.0
 Magallanes y la Antartica,12,Primavera,12302,30,13.0
@@ -9275,7 +9275,7 @@ Nuble,16,San Fabian,16304,31,56.0
 Nuble,16,San Ignacio,16108,31,181.0
 Nuble,16,San Nicolas,16305,31,189.0
 Nuble,16,Treguaco,16207,31,66.0
-Nuble,16,Yungay,16109,31,305.0
+Nuble,16,Yungay,16109,31,306.0
 Nuble,16,Desconocido Nuble,,31,
 Biobio,08,Alto Biobio,08314,31,55.0
 Biobio,08,Antuco,08302,31,56.0
@@ -9424,7 +9424,7 @@ Tarapaca,01,Iquique,01101,32,3737.0
 Tarapaca,01,Pica,01405,32,116.0
 Tarapaca,01,Pozo Almonte,01401,32,312.0
 Tarapaca,01,Desconocido Tarapaca,,32,
-Antofagasta,02,Antofagasta,02101,32,7208.0
+Antofagasta,02,Antofagasta,02101,32,7210.0
 Antofagasta,02,Calama,02201,32,3298.0
 Antofagasta,02,Maria Elena,02302,32,162.0
 Antofagasta,02,Mejillones,02102,32,343.0
@@ -9547,7 +9547,7 @@ Metropolitana,13,San Jose de Maipo,13203,32,305.0
 Metropolitana,13,San Miguel,13130,32,3230.0
 Metropolitana,13,San Pedro,13505,32,261.0
 Metropolitana,13,San Ramon,13131,32,1260.0
-Metropolitana,13,Santiago,13101,32,10860.0
+Metropolitana,13,Santiago,13101,32,10862.0
 Metropolitana,13,Talagante,13601,32,1129.0
 Metropolitana,13,Tiltil,13303,32,333.0
 Metropolitana,13,Vitacura,13132,32,1294.0
@@ -9655,7 +9655,7 @@ Biobio,08,Hualqui,08105,32,308.0
 Biobio,08,Laja,08304,32,332.0
 Biobio,08,Lebu,08201,32,355.0
 Biobio,08,Los Alamos,08206,32,278.0
-Biobio,08,Los Angeles,08301,32,3201.0
+Biobio,08,Los Angeles,08301,32,3202.0
 Biobio,08,Lota,08106,32,534.0
 Biobio,08,Mulchen,08305,32,374.0
 Biobio,08,Nacimiento,08306,32,348.0
@@ -9773,7 +9773,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,32,15.0
 Magallanes y la Antartica,12,Timaukel,12303,32,14.0
 Magallanes y la Antartica,12,Torres del Paine,12402,32,28.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,32,
-Arica y Parinacota,15,Arica,15101,33,3517.0
+Arica y Parinacota,15,Arica,15101,33,3519.0
 Arica y Parinacota,15,Camarones,15102,33,12.0
 Arica y Parinacota,15,General Lagos,15202,33,2.0
 Arica y Parinacota,15,Putre,15201,33,39.0
@@ -9909,7 +9909,7 @@ Metropolitana,13,San Jose de Maipo,13203,33,282.0
 Metropolitana,13,San Miguel,13130,33,3104.0
 Metropolitana,13,San Pedro,13505,33,284.0
 Metropolitana,13,San Ramon,13131,33,1169.0
-Metropolitana,13,Santiago,13101,33,10084.0
+Metropolitana,13,Santiago,13101,33,10085.0
 Metropolitana,13,Talagante,13601,33,1148.0
 Metropolitana,13,Tiltil,13303,33,307.0
 Metropolitana,13,Vitacura,13132,33,1293.0
@@ -10559,7 +10559,7 @@ Valparaiso,05,El Tabo,05605,35,201.0
 Valparaiso,05,Hijuelas,05503,35,307.0
 Valparaiso,05,Isla de Pascua,05201,35,126.0
 Valparaiso,05,Juan Fernandez,05104,35,28.0
-Valparaiso,05,La Cruz,05504,35,407.0
+Valparaiso,05,La Cruz,05504,35,408.0
 Valparaiso,05,La Ligua,05401,35,456.0
 Valparaiso,05,Limache,05802,35,618.0
 Valparaiso,05,Llaillay,05703,35,360.0
@@ -10633,7 +10633,7 @@ Metropolitana,13,San Jose de Maipo,13203,35,285.0
 Metropolitana,13,San Miguel,13130,35,2800.0
 Metropolitana,13,San Pedro,13505,35,270.0
 Metropolitana,13,San Ramon,13131,35,1032.0
-Metropolitana,13,Santiago,13101,35,8842.0
+Metropolitana,13,Santiago,13101,35,8844.0
 Metropolitana,13,Talagante,13601,35,1072.0
 Metropolitana,13,Tiltil,13303,35,284.0
 Metropolitana,13,Vitacura,13132,35,1141.0
@@ -10720,7 +10720,7 @@ Nuble,16,Quirihue,16201,35,161.0
 Nuble,16,Ranquil,16206,35,94.0
 Nuble,16,San Carlos,16301,35,684.0
 Nuble,16,San Fabian,16304,35,67.0
-Nuble,16,San Ignacio,16108,35,189.0
+Nuble,16,San Ignacio,16108,35,190.0
 Nuble,16,San Nicolas,16305,35,183.0
 Nuble,16,Treguaco,16207,35,72.0
 Nuble,16,Yungay,16109,35,232.0
@@ -10872,7 +10872,7 @@ Tarapaca,01,Iquique,01101,36,3310.0
 Tarapaca,01,Pica,01405,36,109.0
 Tarapaca,01,Pozo Almonte,01401,36,254.0
 Tarapaca,01,Desconocido Tarapaca,,36,
-Antofagasta,02,Antofagasta,02101,36,6062.0
+Antofagasta,02,Antofagasta,02101,36,6063.0
 Antofagasta,02,Calama,02201,36,2950.0
 Antofagasta,02,Maria Elena,02302,36,116.0
 Antofagasta,02,Mejillones,02102,36,287.0
@@ -10995,7 +10995,7 @@ Metropolitana,13,San Jose de Maipo,13203,36,316.0
 Metropolitana,13,San Miguel,13130,36,2523.0
 Metropolitana,13,San Pedro,13505,36,205.0
 Metropolitana,13,San Ramon,13131,36,999.0
-Metropolitana,13,Santiago,13101,36,8280.0
+Metropolitana,13,Santiago,13101,36,8282.0
 Metropolitana,13,Talagante,13601,36,1020.0
 Metropolitana,13,Tiltil,13303,36,291.0
 Metropolitana,13,Vitacura,13132,36,1277.0
@@ -11211,7 +11211,7 @@ Aysen,11,Tortel,11303,36,9.0
 Aysen,11,Desconocido Aysen,,36,
 Magallanes y la Antartica,12,Antartica,12202,36,9.0
 Magallanes y la Antartica,12,Cabo de Hornos,12201,36,48.0
-Magallanes y la Antartica,12,Laguna Blanca,12102,36,2.0
+Magallanes y la Antartica,12,Laguna Blanca,12102,36,3.0
 Magallanes y la Antartica,12,Natales,12401,36,385.0
 Magallanes y la Antartica,12,Porvenir,12301,36,99.0
 Magallanes y la Antartica,12,Primavera,12302,36,21.0
@@ -11718,7 +11718,7 @@ Metropolitana,13,San Joaquin,13129,38,1585.0
 Metropolitana,13,San Jose de Maipo,13203,38,318.0
 Metropolitana,13,San Miguel,13130,38,2348.0
 Metropolitana,13,San Pedro,13505,38,243.0
-Metropolitana,13,San Ramon,13131,38,956.0
+Metropolitana,13,San Ramon,13131,38,958.0
 Metropolitana,13,Santiago,13101,38,7539.0
 Metropolitana,13,Talagante,13601,38,1086.0
 Metropolitana,13,Tiltil,13303,38,301.0
@@ -12152,7 +12152,7 @@ Maule,07,Villa Alegre,07407,39,202.0
 Maule,07,Yerbas Buenas,07408,39,280.0
 Maule,07,Desconocido Maule,,39,
 Nuble,16,Bulnes,16102,39,337.0
-Nuble,16,Chillan,16101,39,2606.0
+Nuble,16,Chillan,16101,39,2607.0
 Nuble,16,Chillan Viejo,16103,39,449.0
 Nuble,16,Cobquecura,16202,39,75.0
 Nuble,16,Coelemu,16203,39,208.0
@@ -12320,7 +12320,7 @@ Tarapaca,01,Iquique,01101,40,3243.0
 Tarapaca,01,Pica,01405,40,94.0
 Tarapaca,01,Pozo Almonte,01401,40,250.0
 Tarapaca,01,Desconocido Tarapaca,,40,
-Antofagasta,02,Antofagasta,02101,40,5794.0
+Antofagasta,02,Antofagasta,02101,40,5795.0
 Antofagasta,02,Calama,02201,40,2816.0
 Antofagasta,02,Maria Elena,02302,40,110.0
 Antofagasta,02,Mejillones,02102,40,252.0
@@ -12433,7 +12433,7 @@ Metropolitana,13,Pirque,13202,40,355.0
 Metropolitana,13,Providencia,13123,40,2746.0
 Metropolitana,13,Pudahuel,13124,40,3018.0
 Metropolitana,13,Puente Alto,13201,40,6060.0
-Metropolitana,13,Quilicura,13125,40,2749.0
+Metropolitana,13,Quilicura,13125,40,2750.0
 Metropolitana,13,Quinta Normal,13126,40,1748.0
 Metropolitana,13,Recoleta,13127,40,2025.0
 Metropolitana,13,Renca,13128,40,1982.0
@@ -12442,8 +12442,8 @@ Metropolitana,13,San Joaquin,13129,40,1456.0
 Metropolitana,13,San Jose de Maipo,13203,40,313.0
 Metropolitana,13,San Miguel,13130,40,2080.0
 Metropolitana,13,San Pedro,13505,40,238.0
-Metropolitana,13,San Ramon,13131,40,945.0
-Metropolitana,13,Santiago,13101,40,6602.0
+Metropolitana,13,San Ramon,13131,40,946.0
+Metropolitana,13,Santiago,13101,40,6603.0
 Metropolitana,13,Talagante,13601,40,970.0
 Metropolitana,13,Tiltil,13303,40,252.0
 Metropolitana,13,Vitacura,13132,40,1203.0
@@ -12682,7 +12682,7 @@ Tarapaca,01,Iquique,01101,41,3082.0
 Tarapaca,01,Pica,01405,41,91.0
 Tarapaca,01,Pozo Almonte,01401,41,217.0
 Tarapaca,01,Desconocido Tarapaca,,41,
-Antofagasta,02,Antofagasta,02101,41,5587.0
+Antofagasta,02,Antofagasta,02101,41,5588.0
 Antofagasta,02,Calama,02201,41,2697.0
 Antofagasta,02,Maria Elena,02302,41,116.0
 Antofagasta,02,Mejillones,02102,41,249.0
@@ -12795,7 +12795,7 @@ Metropolitana,13,Pirque,13202,41,383.0
 Metropolitana,13,Providencia,13123,41,2609.0
 Metropolitana,13,Pudahuel,13124,41,3042.0
 Metropolitana,13,Puente Alto,13201,41,5904.0
-Metropolitana,13,Quilicura,13125,41,2901.0
+Metropolitana,13,Quilicura,13125,41,2902.0
 Metropolitana,13,Quinta Normal,13126,41,1663.0
 Metropolitana,13,Recoleta,13127,41,1980.0
 Metropolitana,13,Renca,13128,41,1825.0
@@ -12804,8 +12804,8 @@ Metropolitana,13,San Joaquin,13129,41,1446.0
 Metropolitana,13,San Jose de Maipo,13203,41,300.0
 Metropolitana,13,San Miguel,13130,41,1956.0
 Metropolitana,13,San Pedro,13505,41,242.0
-Metropolitana,13,San Ramon,13131,41,918.0
-Metropolitana,13,Santiago,13101,41,6277.0
+Metropolitana,13,San Ramon,13131,41,919.0
+Metropolitana,13,Santiago,13101,41,6279.0
 Metropolitana,13,Talagante,13601,41,995.0
 Metropolitana,13,Tiltil,13303,41,248.0
 Metropolitana,13,Vitacura,13132,41,1237.0
@@ -13393,7 +13393,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,42,15.0
 Magallanes y la Antartica,12,Timaukel,12303,42,9.0
 Magallanes y la Antartica,12,Torres del Paine,12402,42,9.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,42,
-Arica y Parinacota,15,Arica,15101,43,2741.0
+Arica y Parinacota,15,Arica,15101,43,2742.0
 Arica y Parinacota,15,Camarones,15102,43,15.0
 Arica y Parinacota,15,General Lagos,15202,43,1.0
 Arica y Parinacota,15,Putre,15201,43,25.0
@@ -13528,8 +13528,8 @@ Metropolitana,13,San Joaquin,13129,43,1215.0
 Metropolitana,13,San Jose de Maipo,13203,43,272.0
 Metropolitana,13,San Miguel,13130,43,1644.0
 Metropolitana,13,San Pedro,13505,43,195.0
-Metropolitana,13,San Ramon,13131,43,887.0
-Metropolitana,13,Santiago,13101,43,5352.0
+Metropolitana,13,San Ramon,13131,43,888.0
+Metropolitana,13,Santiago,13101,43,5354.0
 Metropolitana,13,Talagante,13601,43,883.0
 Metropolitana,13,Tiltil,13303,43,236.0
 Metropolitana,13,Vitacura,13132,43,1217.0
@@ -13614,7 +13614,7 @@ Nuble,16,Portezuelo,16205,43,67.0
 Nuble,16,Quillon,16107,43,203.0
 Nuble,16,Quirihue,16201,43,149.0
 Nuble,16,Ranquil,16206,43,94.0
-Nuble,16,San Carlos,16301,43,639.0
+Nuble,16,San Carlos,16301,43,640.0
 Nuble,16,San Fabian,16304,43,58.0
 Nuble,16,San Ignacio,16108,43,183.0
 Nuble,16,San Nicolas,16305,43,194.0
@@ -14143,7 +14143,7 @@ Antofagasta,02,Desconocido Antofagasta,,45,
 Atacama,03,Alto del Carmen,03302,45,79.0
 Atacama,03,Caldera,03102,45,227.0
 Atacama,03,Chanaral,03201,45,166.0
-Atacama,03,Copiapo,03101,45,2098.0
+Atacama,03,Copiapo,03101,45,2099.0
 Atacama,03,Diego de Almagro,03202,45,210.0
 Atacama,03,Freirina,03303,45,103.0
 Atacama,03,Huasco,03304,45,120.0
@@ -14179,7 +14179,7 @@ Valparaiso,05,El Tabo,05605,45,178.0
 Valparaiso,05,Hijuelas,05503,45,265.0
 Valparaiso,05,Isla de Pascua,05201,45,101.0
 Valparaiso,05,Juan Fernandez,05104,45,14.0
-Valparaiso,05,La Cruz,05504,45,275.0
+Valparaiso,05,La Cruz,05504,45,276.0
 Valparaiso,05,La Ligua,05401,45,462.0
 Valparaiso,05,Limache,05802,45,651.0
 Valparaiso,05,Llaillay,05703,45,290.0
@@ -14253,7 +14253,7 @@ Metropolitana,13,San Jose de Maipo,13203,45,280.0
 Metropolitana,13,San Miguel,13130,45,1655.0
 Metropolitana,13,San Pedro,13505,45,225.0
 Metropolitana,13,San Ramon,13131,45,972.0
-Metropolitana,13,Santiago,13101,45,5186.0
+Metropolitana,13,Santiago,13101,45,5188.0
 Metropolitana,13,Talagante,13601,45,945.0
 Metropolitana,13,Tiltil,13303,45,255.0
 Metropolitana,13,Vitacura,13132,45,1217.0
@@ -14324,7 +14324,7 @@ Maule,07,Villa Alegre,07407,45,203.0
 Maule,07,Yerbas Buenas,07408,45,266.0
 Maule,07,Desconocido Maule,,45,
 Nuble,16,Bulnes,16102,45,339.0
-Nuble,16,Chillan,16101,45,2311.0
+Nuble,16,Chillan,16101,45,2313.0
 Nuble,16,Chillan Viejo,16103,45,429.0
 Nuble,16,Cobquecura,16202,45,68.0
 Nuble,16,Coelemu,16203,45,232.0
@@ -14686,7 +14686,7 @@ Maule,07,Villa Alegre,07407,46,207.0
 Maule,07,Yerbas Buenas,07408,46,294.0
 Maule,07,Desconocido Maule,,46,
 Nuble,16,Bulnes,16102,46,350.0
-Nuble,16,Chillan,16101,46,2503.0
+Nuble,16,Chillan,16101,46,2504.0
 Nuble,16,Chillan Viejo,16103,46,455.0
 Nuble,16,Cobquecura,16202,46,55.0
 Nuble,16,Coelemu,16203,46,207.0
@@ -14976,7 +14976,7 @@ Metropolitana,13,San Joaquin,13129,47,1295.0
 Metropolitana,13,San Jose de Maipo,13203,47,262.0
 Metropolitana,13,San Miguel,13130,47,1583.0
 Metropolitana,13,San Pedro,13505,47,196.0
-Metropolitana,13,San Ramon,13131,47,1037.0
+Metropolitana,13,San Ramon,13131,47,1038.0
 Metropolitana,13,Santiago,13101,47,4817.0
 Metropolitana,13,Talagante,13601,47,973.0
 Metropolitana,13,Tiltil,13303,47,261.0
@@ -16302,7 +16302,7 @@ Tarapaca,01,Iquique,01101,51,2372.0
 Tarapaca,01,Pica,01405,51,62.0
 Tarapaca,01,Pozo Almonte,01401,51,178.0
 Tarapaca,01,Desconocido Tarapaca,,51,
-Antofagasta,02,Antofagasta,02101,51,4596.0
+Antofagasta,02,Antofagasta,02101,51,4597.0
 Antofagasta,02,Calama,02201,51,2077.0
 Antofagasta,02,Maria Elena,02302,51,103.0
 Antofagasta,02,Mejillones,02102,51,213.0
@@ -16662,9 +16662,9 @@ Tarapaca,01,Colchane,01403,52,3.0
 Tarapaca,01,Huara,01404,52,21.0
 Tarapaca,01,Iquique,01101,52,2218.0
 Tarapaca,01,Pica,01405,52,73.0
-Tarapaca,01,Pozo Almonte,01401,52,163.0
+Tarapaca,01,Pozo Almonte,01401,52,164.0
 Tarapaca,01,Desconocido Tarapaca,,52,
-Antofagasta,02,Antofagasta,02101,52,4408.0
+Antofagasta,02,Antofagasta,02101,52,4409.0
 Antofagasta,02,Calama,02201,52,1974.0
 Antofagasta,02,Maria Elena,02302,52,75.0
 Antofagasta,02,Mejillones,02102,52,198.0
@@ -17011,7 +17011,7 @@ Magallanes y la Antartica,12,Punta Arenas,12101,52,1546.0
 Magallanes y la Antartica,12,Rio Verde,12103,52,6.0
 Magallanes y la Antartica,12,San Gregorio,12104,52,12.0
 Magallanes y la Antartica,12,Timaukel,12303,52,4.0
-Magallanes y la Antartica,12,Torres del Paine,12402,52,17.0
+Magallanes y la Antartica,12,Torres del Paine,12402,52,19.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,52,
 Arica y Parinacota,15,Arica,15101,53,2455.0
 Arica y Parinacota,15,Camarones,15102,53,10.0
@@ -17024,9 +17024,9 @@ Tarapaca,01,Colchane,01403,53,7.0
 Tarapaca,01,Huara,01404,53,20.0
 Tarapaca,01,Iquique,01101,53,2166.0
 Tarapaca,01,Pica,01405,53,67.0
-Tarapaca,01,Pozo Almonte,01401,53,177.0
+Tarapaca,01,Pozo Almonte,01401,53,176.0
 Tarapaca,01,Desconocido Tarapaca,,53,
-Antofagasta,02,Antofagasta,02101,53,4202.0
+Antofagasta,02,Antofagasta,02101,53,4203.0
 Antofagasta,02,Calama,02201,53,1969.0
 Antofagasta,02,Maria Elena,02302,53,96.0
 Antofagasta,02,Mejillones,02102,53,194.0
@@ -17142,7 +17142,7 @@ Metropolitana,13,Puente Alto,13201,53,6538.0
 Metropolitana,13,Quilicura,13125,53,2673.0
 Metropolitana,13,Quinta Normal,13126,53,1329.0
 Metropolitana,13,Recoleta,13127,53,1747.0
-Metropolitana,13,Renca,13128,53,1640.0
+Metropolitana,13,Renca,13128,53,1639.0
 Metropolitana,13,San Bernardo,13401,53,3364.0
 Metropolitana,13,San Joaquin,13129,53,1335.0
 Metropolitana,13,San Jose de Maipo,13203,53,269.0
@@ -17375,7 +17375,7 @@ Magallanes y la Antartica,12,San Gregorio,12104,53,13.0
 Magallanes y la Antartica,12,Timaukel,12303,53,9.0
 Magallanes y la Antartica,12,Torres del Paine,12402,53,19.0
 Magallanes y la Antartica,12,Desconocido Magallanes,,53,
-Arica y Parinacota,15,Arica,15101,54,2524.0
+Arica y Parinacota,15,Arica,15101,54,2525.0
 Arica y Parinacota,15,Camarones,15102,54,13.0
 Arica y Parinacota,15,General Lagos,15202,54,4.0
 Arica y Parinacota,15,Putre,15201,54,25.0
@@ -17385,7 +17385,7 @@ Tarapaca,01,Camina,01402,54,17.0
 Tarapaca,01,Colchane,01403,54,7.0
 Tarapaca,01,Huara,01404,54,35.0
 Tarapaca,01,Iquique,01101,54,2264.0
-Tarapaca,01,Pica,01405,54,54.0
+Tarapaca,01,Pica,01405,54,55.0
 Tarapaca,01,Pozo Almonte,01401,54,175.0
 Tarapaca,01,Desconocido Tarapaca,,54,
 Antofagasta,02,Antofagasta,02101,54,4139.0
@@ -17504,7 +17504,7 @@ Metropolitana,13,Puente Alto,13201,54,6755.0
 Metropolitana,13,Quilicura,13125,54,2696.0
 Metropolitana,13,Quinta Normal,13126,54,1415.0
 Metropolitana,13,Recoleta,13127,54,1720.0
-Metropolitana,13,Renca,13128,54,1684.0
+Metropolitana,13,Renca,13128,54,1685.0
 Metropolitana,13,San Bernardo,13401,54,3295.0
 Metropolitana,13,San Joaquin,13129,54,1356.0
 Metropolitana,13,San Jose de Maipo,13203,54,234.0
@@ -22456,7 +22456,7 @@ Tarapaca,01,Iquique,01101,68,1442.0
 Tarapaca,01,Pica,01405,68,55.0
 Tarapaca,01,Pozo Almonte,01401,68,100.0
 Tarapaca,01,Desconocido Tarapaca,,68,
-Antofagasta,02,Antofagasta,02101,68,2363.0
+Antofagasta,02,Antofagasta,02101,68,2364.0
 Antofagasta,02,Calama,02201,68,960.0
 Antofagasta,02,Maria Elena,02302,68,41.0
 Antofagasta,02,Mejillones,02102,68,77.0
@@ -22578,7 +22578,7 @@ Metropolitana,13,San Joaquin,13129,68,758.0
 Metropolitana,13,San Jose de Maipo,13203,68,153.0
 Metropolitana,13,San Miguel,13130,68,863.0
 Metropolitana,13,San Pedro,13505,68,133.0
-Metropolitana,13,San Ramon,13131,68,585.0
+Metropolitana,13,San Ramon,13131,68,586.0
 Metropolitana,13,Santiago,13101,68,2073.0
 Metropolitana,13,Talagante,13601,68,517.0
 Metropolitana,13,Tiltil,13303,68,155.0
@@ -24628,7 +24628,7 @@ Tarapaca,01,Iquique,01101,74,931.0
 Tarapaca,01,Pica,01405,74,38.0
 Tarapaca,01,Pozo Almonte,01401,74,56.0
 Tarapaca,01,Desconocido Tarapaca,,74,
-Antofagasta,02,Antofagasta,02101,74,1399.0
+Antofagasta,02,Antofagasta,02101,74,1400.0
 Antofagasta,02,Calama,02201,74,563.0
 Antofagasta,02,Maria Elena,02302,74,15.0
 Antofagasta,02,Mejillones,02102,74,45.0
@@ -25546,7 +25546,7 @@ Maule,07,Villa Alegre,07407,76,106.0
 Maule,07,Yerbas Buenas,07408,76,140.0
 Maule,07,Desconocido Maule,,76,
 Nuble,16,Bulnes,16102,76,162.0
-Nuble,16,Chillan,16101,76,1010.0
+Nuble,16,Chillan,16101,76,1011.0
 Nuble,16,Chillan Viejo,16103,76,134.0
 Nuble,16,Cobquecura,16202,76,46.0
 Nuble,16,Coelemu,16203,76,107.0
