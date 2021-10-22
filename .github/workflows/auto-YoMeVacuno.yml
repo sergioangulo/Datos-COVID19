@@ -45,7 +45,7 @@ jobs:
           pwd
           ls
           ls -la Datos-COVID19/input/Vacunacion
-          rsync -auH Vacunacion/output/Vacunacion/. Datos-COVID19/input/Vacunacion
+          rsync -auH "Vacunacion/output/Datos abiertos/." Datos-COVID19/input/Vacunacion
           ls -la Datos-COVID19/input/Vacunacion
 
     - name: Install dependencies
