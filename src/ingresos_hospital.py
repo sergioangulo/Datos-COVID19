@@ -95,7 +95,7 @@ class IngresosHospital_ftp:
         self.s3 = self.session.resource('s3')
         self.actual_bucket = self.s3.Bucket(self.bucket)
 
-        get_last_modified = lambda obj: int(obj.last_modified.strftime('%s'))
+        get_last_modified = lambda obj: int(obj.last_modified.strftime('%m%d'))
 
         objs = [obj for obj in self.actual_bucket.objects.filter(Prefix=self.folder) if 'xlsx' in obj.key]
 

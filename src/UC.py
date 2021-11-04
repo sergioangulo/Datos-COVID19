@@ -66,6 +66,7 @@ def prod53(fte, prod):
         filename = file.split('/')
         filename = filename[len(filename) - 1]
         filename = filename.replace(' ', '_')
+        filename = filename.replace('UC\\', '')
         head = ''.join(itertools.islice(open(file, encoding='ISO-8859-1'), 5))
         s = csv.Sniffer()
         my_separator = s.sniff(head).delimiter
