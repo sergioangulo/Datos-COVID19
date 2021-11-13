@@ -125,7 +125,7 @@ def normalizaNombreCodigoRegionYComuna(df):
                                          })
 
     # Lee IDs de comunas desde página web oficial de SUBDERE
-    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+    df_dim_comunas = pd.read_excel("https://www.ide.cl/descargas/cut_2018_v04.xls",
                                    encoding="utf-8")
 
     ##AYSEN issue
