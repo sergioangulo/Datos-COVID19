@@ -625,7 +625,7 @@ Metropolitana  Santiago;13104;16/03/2021;5;;;
 Metropolitana  Santiago;13105;16/03/2021;;1;;
 Metropolitana  Santiago;13108;16/03/2021;1;;;
 Metropolitana  Santiago;13113;16/03/2021;5;;;
-Metropolitana  Santiago;13114;16/03/2021;2;;;
+Metropolitana  Santiago;13114;16/03/2021;3;;;
 Metropolitana  Santiago;13115;16/03/2021;4;;;
 Metropolitana  Santiago;13116;16/03/2021;1;;;
 Metropolitana  Santiago;13117;16/03/2021;4;;;
@@ -651,7 +651,7 @@ Metropolitana  Santiago;13601;16/03/2021;4;;;
 " Los Ríos";14202;16/03/2021;1;;;
 " Los Ríos";14204;16/03/2021;2;;;
 " Arica y Parinacota";15101;16/03/2021;5;;;
-" Ñuble";16101;16/03/2021;7;;;
+" Ñuble";16101;16/03/2021;8;;;
 " Ñuble";16105;16/03/2021;1;;;
 " Ñuble";16109;16/03/2021;2;;;
 " Ñuble";16201;16/03/2021;1;;;
@@ -1009,7 +1009,7 @@ Metropolitana  Santiago;13402;19/03/2021;58;;;
 Metropolitana  Santiago;13404;19/03/2021;25;;;
 Metropolitana  Santiago;13501;19/03/2021;55;;;
 Metropolitana  Santiago;13502;19/03/2021;2;;;
-Metropolitana  Santiago;13503;19/03/2021;1;;;
+Metropolitana  Santiago;13503;19/03/2021;2;;;
 Metropolitana  Santiago;13601;19/03/2021;55;;;
 Metropolitana  Santiago;13603;19/03/2021;5;;;
 Metropolitana  Santiago;13605;19/03/2021;58;1;;
@@ -1628,7 +1628,7 @@ Bíobío;8101;27/03/2021;4;;;
 " Los Lagos";10301;27/03/2021;5;;;
 Metropolitana  Santiago;13114;27/03/2021;25;;;
 Metropolitana  Santiago;13115;27/03/2021;2;;;
-Metropolitana  Santiago;13119;27/03/2021;2;;;
+Metropolitana  Santiago;13119;27/03/2021;3;;;
 Metropolitana  Santiago;13401;27/03/2021;7;;;
 " Tarapacá";1101;29/03/2021;11;;;
 " Tarapacá";1107;29/03/2021;9;;;
@@ -2611,7 +2611,7 @@ Metropolitana  Santiago;13605;09/04/2021;4;2;;
 " Los Ríos";14107;09/04/2021;3;;;
 " Los Ríos";14201;09/04/2021;1;;;
 " Los Ríos";14204;09/04/2021;2;;;
-" Ñuble";16101;09/04/2021;22;;;
+" Ñuble";16101;09/04/2021;21;1;;
 " Ñuble";16102;09/04/2021;2;;;
 " Ñuble";16201;09/04/2021;1;;;
 " Ñuble";16203;09/04/2021;2;;;
@@ -4000,7 +4000,7 @@ Metropolitana  Santiago;13401;22/04/2021;;8;;
 Metropolitana  Santiago;13402;22/04/2021;;5;;
 Metropolitana  Santiago;13404;22/04/2021;;2;;
 Metropolitana  Santiago;13501;22/04/2021;;17;;
-Metropolitana  Santiago;13503;22/04/2021;5;10;;
+Metropolitana  Santiago;13503;22/04/2021;4;10;;
 Metropolitana  Santiago;13601;22/04/2021;;6;;
 Metropolitana  Santiago;13603;22/04/2021;;15;;
 Metropolitana  Santiago;13605;22/04/2021;2;15;;
@@ -4134,6 +4134,7 @@ Metropolitana  Santiago;13116;24/04/2021;;1;;
 Metropolitana  Santiago;13129;24/04/2021;2;1;;
 Metropolitana  Santiago;13131;24/04/2021;;1;;
 Metropolitana  Santiago;13401;24/04/2021;;24;;
+Metropolitana  Santiago;13503;24/04/2021;;1;;
 " Arica y Parinacota";15101;24/04/2021;4;;;
 " Tarapacá";1101;26/04/2021;36;18;;
 " Tarapacá";1107;26/04/2021;6;16;;
@@ -4502,7 +4503,7 @@ Metropolitana  Santiago;13115;28/04/2021;;10;;
 Metropolitana  Santiago;13116;28/04/2021;;3;;
 Metropolitana  Santiago;13117;28/04/2021;;3;;
 Metropolitana  Santiago;13118;28/04/2021;;8;;
-Metropolitana  Santiago;13119;28/04/2021;1;12;;
+Metropolitana  Santiago;13119;28/04/2021;1;13;;
 Metropolitana  Santiago;13120;28/04/2021;;1;;
 Metropolitana  Santiago;13121;28/04/2021;;4;;
 Metropolitana  Santiago;13122;28/04/2021;;13;;
@@ -5535,7 +5536,7 @@ Metropolitana  Santiago;13602;10/05/2021;1;2;;
 " Los Ríos";14101;10/05/2021;2;2;;
 " Los Ríos";14106;10/05/2021;1;;;
 " Arica y Parinacota";15101;10/05/2021;;3;;
-" Ñuble";16101;10/05/2021;3;15;;
+" Ñuble";16101;10/05/2021;3;14;;
 " Ñuble";16102;10/05/2021;;1;;
 " Ñuble";16103;10/05/2021;;1;;
 " Ñuble";16105;10/05/2021;1;;;
@@ -6597,7 +6598,7 @@ Maule;7401;20/05/2021;5;;;
 Maule;7404;20/05/2021;1;;;
 Bíobío;8101;20/05/2021;2;6;;
 Bíobío;8102;20/05/2021;;3;;
-Bíobío;8103;20/05/2021;2;1;;
+Bíobío;8103;20/05/2021;2;2;;
 Bíobío;8106;20/05/2021;;1;;
 Bíobío;8108;20/05/2021;4;2;;
 Bíobío;8110;20/05/2021;3;1;;
@@ -10996,7 +10997,7 @@ Bíobío;8312;29/06/2021;7;;;
 " Aisén Gral. C. Ibáñez Campo";11202;29/06/2021;6;;;
 " Magallanes y  La Antártica Chilena";12101;29/06/2021;230;1;;
 " Magallanes y  La Antártica Chilena";12401;29/06/2021;100;;;
-Metropolitana  Santiago;13101;29/06/2021;41;1;;
+Metropolitana  Santiago;13101;29/06/2021;42;1;;
 Metropolitana  Santiago;13102;29/06/2021;10;2;;
 Metropolitana  Santiago;13103;29/06/2021;123;8;;
 Metropolitana  Santiago;13104;29/06/2021;68;3;;
@@ -14140,7 +14141,7 @@ Metropolitana  Santiago;13110;12/07/2021;450;2;;
 Metropolitana  Santiago;13111;12/07/2021;229;2;;
 Metropolitana  Santiago;13112;12/07/2021;265;;;
 Metropolitana  Santiago;13113;12/07/2021;198;7;;
-Metropolitana  Santiago;13114;12/07/2021;281;1;;
+Metropolitana  Santiago;13114;12/07/2021;281;2;;
 Metropolitana  Santiago;13115;12/07/2021;223;17;;
 Metropolitana  Santiago;13116;12/07/2021;125;;;
 Metropolitana  Santiago;13117;12/07/2021;168;;;
@@ -16215,7 +16216,7 @@ Metropolitana  Santiago;13605;21/07/2021;66;7;;
 " Ñuble";16303;21/07/2021;7;6;;
 " Ñuble";16304;21/07/2021;4;4;;
 " Ñuble";16305;21/07/2021;23;4;;
-" Tarapacá";1101;22/07/2021;614;162;;
+" Tarapacá";1101;22/07/2021;614;163;;
 " Tarapacá";1107;22/07/2021;363;34;;
 " Tarapacá";1401;22/07/2021;45;17;;
 " Tarapacá";1404;22/07/2021;6;2;;
@@ -29811,7 +29812,7 @@ Maule;7203;28/09/2021;53;;;
 Maule;7301;28/09/2021;1148;18;;
 Maule;7302;28/09/2021;96;;;
 Maule;7303;28/09/2021;59;;;
-Maule;7304;28/09/2021;571;2;;
+Maule;7304;28/09/2021;589;2;;
 Maule;7305;28/09/2021;76;;;
 Maule;7306;28/09/2021;75;;;
 Maule;7307;28/09/2021;516;;;
@@ -30035,7 +30036,7 @@ Metropolitana  Santiago;13605;28/09/2021;794;9;;
 " Antofagasta";2302;29/09/2021;35;1;;
 " Atacama";3101;29/09/2021;827;10;;1
 " Atacama";3102;29/09/2021;158;3;;
-" Atacama";3103;29/09/2021;138;1;;
+" Atacama";3103;29/09/2021;139;1;;
 " Atacama";3201;29/09/2021;216;1;;
 " Atacama";3202;29/09/2021;81;2;;
 " Atacama";3301;29/09/2021;455;1;;
@@ -30289,7 +30290,7 @@ Metropolitana  Santiago;13122;29/09/2021;1611;5;;
 Metropolitana  Santiago;13123;29/09/2021;1062;5;;
 Metropolitana  Santiago;13124;29/09/2021;1194;12;;
 Metropolitana  Santiago;13125;29/09/2021;1135;10;;
-Metropolitana  Santiago;13126;29/09/2021;566;7;;
+Metropolitana  Santiago;13126;29/09/2021;567;7;;
 Metropolitana  Santiago;13127;29/09/2021;599;10;;
 Metropolitana  Santiago;13128;29/09/2021;1319;11;;
 Metropolitana  Santiago;13129;29/09/2021;637;6;;
@@ -30683,11 +30684,11 @@ Metropolitana  Santiago;13605;30/09/2021;567;5;;
 " Ñuble";16305;30/09/2021;43;;;
 " Tarapacá";1101;01/10/2021;1269;11;;
 " Tarapacá";1107;01/10/2021;577;9;;1
-" Tarapacá";1401;01/10/2021;69;3;;
+" Tarapacá";1401;01/10/2021;72;3;;
 " Tarapacá";1403;01/10/2021;1;;;
 " Tarapacá";1404;01/10/2021;5;;;
 " Tarapacá";1405;01/10/2021;29;1;;
-" Antofagasta";2101;01/10/2021;2473;25;;1
+" Antofagasta";2101;01/10/2021;2474;25;;1
 " Antofagasta";2102;01/10/2021;68;1;;
 " Antofagasta";2104;01/10/2021;43;;;
 " Antofagasta";2201;01/10/2021;1429;10;;
@@ -31105,7 +31106,7 @@ Metropolitana  Santiago;13128;03/10/2021;57;;;
 " Coquimbo";4103;04/10/2021;188;;;
 " Coquimbo";4104;04/10/2021;22;;;
 " Coquimbo";4105;04/10/2021;9;2;;
-" Coquimbo";4106;04/10/2021;207;5;;
+" Coquimbo";4106;04/10/2021;213;5;;
 " Coquimbo";4201;04/10/2021;187;2;;1
 " Coquimbo";4202;04/10/2021;73;;;
 " Coquimbo";4203;04/10/2021;117;3;;
@@ -31295,7 +31296,7 @@ Bíobío;8314;04/10/2021;7;4;;
 " Los Lagos";10205;04/10/2021;15;;;
 " Los Lagos";10206;04/10/2021;28;;;
 " Los Lagos";10207;04/10/2021;14;;;
-" Los Lagos";10208;04/10/2021;60;1;;
+" Los Lagos";10208;04/10/2021;59;1;;
 " Los Lagos";10209;04/10/2021;51;;;
 " Los Lagos";10210;04/10/2021;3;1;;
 " Los Lagos";10301;04/10/2021;460;10;;
@@ -31412,7 +31413,7 @@ Metropolitana  Santiago;13605;04/10/2021;442;4;;
 " Tarapacá";1403;05/10/2021;14;;;
 " Tarapacá";1404;05/10/2021;1;;;
 " Tarapacá";1405;05/10/2021;24;;;
-" Antofagasta";2101;05/10/2021;1398;17;;1
+" Antofagasta";2101;05/10/2021;1397;17;;1
 " Antofagasta";2102;05/10/2021;64;;;
 " Antofagasta";2103;05/10/2021;4;;;
 " Antofagasta";2104;05/10/2021;71;;;
@@ -31760,7 +31761,7 @@ Metropolitana  Santiago;13605;05/10/2021;234;4;;
 " Atacama";3303;06/10/2021;59;1;;
 " Atacama";3304;06/10/2021;37;;;
 " Coquimbo";4101;06/10/2021;732;15;;
-" Coquimbo";4102;06/10/2021;1121;22;;1
+" Coquimbo";4102;06/10/2021;1122;22;;1
 " Coquimbo";4103;06/10/2021;49;;;
 " Coquimbo";4104;06/10/2021;3;1;;
 " Coquimbo";4105;06/10/2021;9;;;
@@ -32103,7 +32104,7 @@ Metropolitana  Santiago;13605;06/10/2021;264;2;;
 " Coquimbo";4203;07/10/2021;49;1;;
 " Coquimbo";4204;07/10/2021;202;5;;
 " Coquimbo";4301;07/10/2021;611;3;;
-" Coquimbo";4302;07/10/2021;52;2;;
+" Coquimbo";4302;07/10/2021;52;1;;
 " Coquimbo";4303;07/10/2021;90;4;;
 " Coquimbo";4304;07/10/2021;68;2;;
 " Coquimbo";4305;07/10/2021;35;2;;
@@ -32195,7 +32196,7 @@ Maule;7301;07/10/2021;884;5;;
 Maule;7302;07/10/2021;6;;;
 Maule;7303;07/10/2021;5;1;;
 Maule;7304;07/10/2021;188;1;;
-Maule;7305;07/10/2021;50;4;;
+Maule;7305;07/10/2021;51;4;;
 Maule;7306;07/10/2021;14;;;
 Maule;7307;07/10/2021;6;;;
 Maule;7308;07/10/2021;57;3;;
@@ -32819,7 +32820,7 @@ Metropolitana  Santiago;13201;11/10/2021;;1;;
 " Atacama";3303;12/10/2021;14;11;;
 " Atacama";3304;12/10/2021;47;8;;1
 " Coquimbo";4101;12/10/2021;509;544;;
-" Coquimbo";4102;12/10/2021;853;472;;
+" Coquimbo";4102;12/10/2021;853;471;;
 " Coquimbo";4103;12/10/2021;9;17;;
 " Coquimbo";4104;12/10/2021;16;4;;
 " Coquimbo";4105;12/10/2021;6;10;;
@@ -33387,7 +33388,7 @@ Metropolitana  Santiago;13115;13/10/2021;463;330;;
 Metropolitana  Santiago;13116;13/10/2021;262;281;;
 Metropolitana  Santiago;13117;13/10/2021;206;389;;
 Metropolitana  Santiago;13118;13/10/2021;205;285;;
-Metropolitana  Santiago;13119;13/10/2021;1515;1139;;1
+Metropolitana  Santiago;13119;13/10/2021;1514;1138;;1
 Metropolitana  Santiago;13120;13/10/2021;859;356;;
 Metropolitana  Santiago;13121;13/10/2021;121;219;;
 Metropolitana  Santiago;13122;13/10/2021;1030;816;;1
@@ -33588,7 +33589,7 @@ Maule;7306;14/10/2021;8;18;;
 Maule;7307;14/10/2021;5;29;;
 Maule;7308;14/10/2021;72;64;;
 Maule;7309;14/10/2021;72;10;;
-Maule;7401;14/10/2021;357;92;;1
+Maule;7401;14/10/2021;359;92;;1
 Maule;7402;14/10/2021;7;27;;
 Maule;7403;14/10/2021;41;26;;
 Maule;7404;14/10/2021;81;128;;
@@ -33680,7 +33681,7 @@ Bíobío;8314;14/10/2021;2;;;
 " Los Lagos";10209;14/10/2021;6;15;;
 " Los Lagos";10210;14/10/2021;5;1;;
 " Los Lagos";10301;14/10/2021;270;254;;
-" Los Lagos";10302;14/10/2021;8;12;;
+" Los Lagos";10302;14/10/2021;9;12;;
 " Los Lagos";10303;14/10/2021;66;35;;
 " Los Lagos";10304;14/10/2021;21;25;;
 " Los Lagos";10305;14/10/2021;17;22;;
@@ -33736,7 +33737,7 @@ Metropolitana  Santiago;13203;14/10/2021;30;34;;
 Metropolitana  Santiago;13301;14/10/2021;320;305;;
 Metropolitana  Santiago;13302;14/10/2021;262;229;;
 Metropolitana  Santiago;13303;14/10/2021;104;35;;
-Metropolitana  Santiago;13401;14/10/2021;523;472;;
+Metropolitana  Santiago;13401;14/10/2021;524;472;;
 Metropolitana  Santiago;13402;14/10/2021;381;182;;
 Metropolitana  Santiago;13403;14/10/2021;63;53;;
 Metropolitana  Santiago;13404;14/10/2021;88;120;;
@@ -33804,7 +33805,7 @@ Metropolitana  Santiago;13605;14/10/2021;122;129;;
 " Atacama";3102;15/10/2021;16;11;;
 " Atacama";3103;15/10/2021;18;15;;
 " Atacama";3201;15/10/2021;19;4;;
-" Atacama";3202;15/10/2021;36;6;;
+" Atacama";3202;15/10/2021;33;6;;
 " Atacama";3301;15/10/2021;71;32;;
 " Atacama";3302;15/10/2021;4;2;;
 " Atacama";3303;15/10/2021;3;1;;
@@ -33830,7 +33831,7 @@ Metropolitana  Santiago;13605;14/10/2021;122;129;;
 " Valparaíso";5104;15/10/2021;2;;;
 " Valparaíso";5105;15/10/2021;20;19;;
 " Valparaíso";5107;15/10/2021;7;8;;
-" Valparaíso";5109;15/10/2021;750;266;;3
+" Valparaíso";5109;15/10/2021;751;266;;3
 " Valparaíso";5201;15/10/2021;26;2;;
 " Valparaíso";5301;15/10/2021;159;40;;1
 " Valparaíso";5302;15/10/2021;25;4;;
@@ -33908,7 +33909,7 @@ Maule;7110;15/10/2021;23;7;;
 Maule;7201;15/10/2021;23;46;;
 Maule;7202;15/10/2021;1;7;;
 Maule;7203;15/10/2021;7;10;;
-Maule;7301;15/10/2021;156;90;;2
+Maule;7301;15/10/2021;156;88;;2
 Maule;7302;15/10/2021;2;7;;
 Maule;7303;15/10/2021;6;12;;
 Maule;7304;15/10/2021;47;19;;
@@ -34024,7 +34025,7 @@ Bíobío;8314;15/10/2021;3;1;;
 " Aisén Gral. C. Ibáñez Campo";11202;15/10/2021;14;1;;
 " Aisén Gral. C. Ibáñez Campo";11301;15/10/2021;6;1;;
 " Aisén Gral. C. Ibáñez Campo";11401;15/10/2021;3;;;
-" Magallanes y  La Antártica Chilena";12101;15/10/2021;410;35;;1
+" Magallanes y  La Antártica Chilena";12101;15/10/2021;411;35;;1
 " Magallanes y  La Antártica Chilena";12201;15/10/2021;8;;;
 " Magallanes y  La Antártica Chilena";12301;15/10/2021;38;1;;
 " Magallanes y  La Antártica Chilena";12401;15/10/2021;26;7;;
@@ -34033,7 +34034,7 @@ Metropolitana  Santiago;13102;15/10/2021;309;62;;
 Metropolitana  Santiago;13103;15/10/2021;247;80;;
 Metropolitana  Santiago;13104;15/10/2021;290;94;;
 Metropolitana  Santiago;13105;15/10/2021;456;139;;
-Metropolitana  Santiago;13106;15/10/2021;195;98;;
+Metropolitana  Santiago;13106;15/10/2021;196;98;;
 Metropolitana  Santiago;13107;15/10/2021;115;81;;
 Metropolitana  Santiago;13108;15/10/2021;173;91;;
 Metropolitana  Santiago;13109;15/10/2021;137;76;;
@@ -34049,7 +34050,7 @@ Metropolitana  Santiago;13118;15/10/2021;136;81;;
 Metropolitana  Santiago;13119;15/10/2021;620;342;;
 Metropolitana  Santiago;13120;15/10/2021;760;136;;3
 Metropolitana  Santiago;13121;15/10/2021;144;39;;1
-Metropolitana  Santiago;13122;15/10/2021;464;217;;
+Metropolitana  Santiago;13122;15/10/2021;465;217;;
 Metropolitana  Santiago;13123;15/10/2021;370;120;;1
 Metropolitana  Santiago;13124;15/10/2021;281;110;;2
 Metropolitana  Santiago;13125;15/10/2021;359;243;;
@@ -34786,7 +34787,7 @@ Metropolitana  Santiago;13118;19/10/2021;133;340;;1
 Metropolitana  Santiago;13119;19/10/2021;1024;1032;;3
 Metropolitana  Santiago;13120;19/10/2021;698;413;;2
 Metropolitana  Santiago;13121;19/10/2021;90;215;;
-Metropolitana  Santiago;13122;19/10/2021;704;685;;2
+Metropolitana  Santiago;13122;19/10/2021;704;686;;2
 Metropolitana  Santiago;13123;19/10/2021;474;442;;2
 Metropolitana  Santiago;13124;19/10/2021;469;744;;1
 Metropolitana  Santiago;13125;19/10/2021;603;606;;1
@@ -35191,7 +35192,7 @@ Metropolitana  Santiago;13605;20/10/2021;121;438;;2
 " Tarapacá";1403;21/10/2021;;1;;
 " Tarapacá";1404;21/10/2021;29;4;;
 " Tarapacá";1405;21/10/2021;12;;;
-" Antofagasta";2101;21/10/2021;443;986;;7
+" Antofagasta";2101;21/10/2021;443;985;;7
 " Antofagasta";2102;21/10/2021;12;32;;
 " Antofagasta";2103;21/10/2021;;10;;
 " Antofagasta";2104;21/10/2021;11;33;;
@@ -35203,7 +35204,7 @@ Metropolitana  Santiago;13605;20/10/2021;121;438;;2
 " Atacama";3102;21/10/2021;33;31;;
 " Atacama";3103;21/10/2021;29;33;;
 " Atacama";3201;21/10/2021;8;23;;
-" Atacama";3202;21/10/2021;22;27;;1
+" Atacama";3202;21/10/2021;22;28;;1
 " Atacama";3301;21/10/2021;55;111;;3
 " Atacama";3302;21/10/2021;3;11;;
 " Atacama";3303;21/10/2021;6;2;;
@@ -35523,7 +35524,7 @@ Metropolitana  Santiago;13605;21/10/2021;108;266;;1
 " Tarapacá";1401;22/10/2021;34;11;;
 " Tarapacá";1404;22/10/2021;3;7;;
 " Tarapacá";1405;22/10/2021;13;;;
-" Antofagasta";2101;22/10/2021;401;941;;16
+" Antofagasta";2101;22/10/2021;401;943;;16
 " Antofagasta";2102;22/10/2021;18;50;;
 " Antofagasta";2103;22/10/2021;4;9;;
 " Antofagasta";2104;22/10/2021;5;18;;
@@ -36403,7 +36404,7 @@ Maule;7203;26/10/2021;36;42;;
 Maule;7301;26/10/2021;204;911;;6
 Maule;7302;26/10/2021;7;103;;
 Maule;7303;26/10/2021;37;30;;
-Maule;7304;26/10/2021;59;520;;
+Maule;7304;26/10/2021;59;544;;
 Maule;7305;26/10/2021;5;74;;
 Maule;7306;26/10/2021;11;66;;
 Maule;7307;26/10/2021;16;487;;1
@@ -36615,7 +36616,7 @@ Metropolitana  Santiago;13605;26/10/2021;115;607;;2
 " Tarapacá";1402;27/10/2021;1;;;
 " Tarapacá";1404;27/10/2021;4;4;;
 " Tarapacá";1405;27/10/2021;6;27;;
-" Antofagasta";2101;27/10/2021;374;2382;;13
+" Antofagasta";2101;27/10/2021;374;2384;;13
 " Antofagasta";2102;27/10/2021;10;38;;
 " Antofagasta";2103;27/10/2021;2;8;;
 " Antofagasta";2104;27/10/2021;6;74;;
@@ -36638,7 +36639,7 @@ Metropolitana  Santiago;13605;26/10/2021;115;607;;2
 " Coquimbo";4104;27/10/2021;35;7;;
 " Coquimbo";4105;27/10/2021;5;7;;
 " Coquimbo";4106;27/10/2021;17;95;;2
-" Coquimbo";4201;27/10/2021;24;196;;1
+" Coquimbo";4201;27/10/2021;30;268;;1
 " Coquimbo";4202;27/10/2021;14;13;;
 " Coquimbo";4203;27/10/2021;38;141;;
 " Coquimbo";4204;27/10/2021;28;118;;
@@ -36767,7 +36768,7 @@ Bíobío;8204;27/10/2021;5;16;;
 Bíobío;8205;27/10/2021;21;56;;1
 Bíobío;8206;27/10/2021;27;263;;1
 Bíobío;8207;27/10/2021;6;17;;
-Bíobío;8301;27/10/2021;204;1360;;4
+Bíobío;8301;27/10/2021;205;1360;;4
 Bíobío;8302;27/10/2021;8;14;;
 Bíobío;8303;27/10/2021;31;167;;
 Bíobío;8304;27/10/2021;37;153;;
@@ -36877,12 +36878,12 @@ Metropolitana  Santiago;13122;27/10/2021;156;1390;;6
 Metropolitana  Santiago;13123;27/10/2021;167;856;;9
 Metropolitana  Santiago;13124;27/10/2021;318;1131;;9
 Metropolitana  Santiago;13125;27/10/2021;311;991;;
-Metropolitana  Santiago;13126;27/10/2021;98;390;;1
+Metropolitana  Santiago;13126;27/10/2021;97;391;;1
 Metropolitana  Santiago;13127;27/10/2021;196;518;;3
 Metropolitana  Santiago;13128;27/10/2021;152;1011;;3
 Metropolitana  Santiago;13129;27/10/2021;69;462;;
 Metropolitana  Santiago;13130;27/10/2021;261;517;;1
-Metropolitana  Santiago;13131;27/10/2021;87;364;;
+Metropolitana  Santiago;13131;27/10/2021;87;365;;
 Metropolitana  Santiago;13132;27/10/2021;536;160;;3
 Metropolitana  Santiago;13201;27/10/2021;628;1743;;14
 Metropolitana  Santiago;13202;27/10/2021;35;174;;
@@ -36954,8 +36955,8 @@ Metropolitana  Santiago;13605;27/10/2021;98;512;;2
 " Antofagasta";2203;28/10/2021;53;21;;
 " Antofagasta";2301;28/10/2021;28;175;;
 " Antofagasta";2302;28/10/2021;6;33;;1
-" Atacama";3101;28/10/2021;139;727;;10
-" Atacama";3102;28/10/2021;26;90;;
+" Atacama";3101;28/10/2021;139;729;;10
+" Atacama";3102;28/10/2021;26;91;;
 " Atacama";3103;28/10/2021;8;63;;
 " Atacama";3201;28/10/2021;22;116;;
 " Atacama";3202;28/10/2021;9;43;;2
@@ -36969,16 +36970,16 @@ Metropolitana  Santiago;13605;27/10/2021;98;512;;2
 " Coquimbo";4104;28/10/2021;4;8;;
 " Coquimbo";4105;28/10/2021;4;9;;
 " Coquimbo";4106;28/10/2021;16;119;;
-" Coquimbo";4201;28/10/2021;15;117;;
+" Coquimbo";4201;28/10/2021;33;146;;1
 " Coquimbo";4202;28/10/2021;14;117;;
 " Coquimbo";4203;28/10/2021;31;91;;
-" Coquimbo";4204;28/10/2021;18;152;;1
+" Coquimbo";4204;28/10/2021;18;153;;1
 " Coquimbo";4301;28/10/2021;154;482;;5
 " Coquimbo";4302;28/10/2021;7;50;;
 " Coquimbo";4303;28/10/2021;64;91;;
 " Coquimbo";4304;28/10/2021;14;62;;
 " Coquimbo";4305;28/10/2021;4;41;;
-" Valparaíso";5101;28/10/2021;280;1164;;4
+" Valparaíso";5101;28/10/2021;280;1165;;4
 " Valparaíso";5102;28/10/2021;1;70;;1
 " Valparaíso";5103;28/10/2021;35;260;;
 " Valparaíso";5104;28/10/2021;4;2;;
@@ -37289,7 +37290,7 @@ Metropolitana  Santiago;13605;28/10/2021;54;430;;1
 " Atacama";3102;29/10/2021;16;93;;
 " Atacama";3103;29/10/2021;24;81;;
 " Atacama";3201;29/10/2021;;1;;
-" Atacama";3202;29/10/2021;17;49;;1
+" Atacama";3202;29/10/2021;17;50;;1
 " Atacama";3301;29/10/2021;72;407;;1
 " Atacama";3302;29/10/2021;2;23;;
 " Atacama";3303;29/10/2021;12;56;;
@@ -37300,7 +37301,7 @@ Metropolitana  Santiago;13605;28/10/2021;54;430;;1
 " Coquimbo";4104;29/10/2021;1;3;;
 " Coquimbo";4105;29/10/2021;3;7;;
 " Coquimbo";4106;29/10/2021;11;117;;
-" Coquimbo";4201;29/10/2021;12;120;;
+" Coquimbo";4201;29/10/2021;21;127;;
 " Coquimbo";4202;29/10/2021;4;11;;
 " Coquimbo";4203;29/10/2021;31;100;;1
 " Coquimbo";4204;29/10/2021;20;42;;
@@ -37538,7 +37539,7 @@ Metropolitana  Santiago;13120;29/10/2021;169;1752;;62
 Metropolitana  Santiago;13121;29/10/2021;67;463;;8
 Metropolitana  Santiago;13122;29/10/2021;187;1308;;43
 Metropolitana  Santiago;13123;29/10/2021;127;749;;30
-Metropolitana  Santiago;13124;29/10/2021;144;1037;;21
+Metropolitana  Santiago;13124;29/10/2021;144;1040;;21
 Metropolitana  Santiago;13125;29/10/2021;275;930;;12
 Metropolitana  Santiago;13126;29/10/2021;60;349;;8
 Metropolitana  Santiago;13127;29/10/2021;84;306;;11
@@ -37563,7 +37564,7 @@ Metropolitana  Santiago;13503;29/10/2021;30;252;;1
 Metropolitana  Santiago;13504;29/10/2021;20;50;;
 Metropolitana  Santiago;13505;29/10/2021;23;10;;
 Metropolitana  Santiago;13601;29/10/2021;104;281;;19
-Metropolitana  Santiago;13602;29/10/2021;79;150;;
+Metropolitana  Santiago;13602;29/10/2021;79;151;;
 Metropolitana  Santiago;13603;29/10/2021;35;324;;2
 Metropolitana  Santiago;13604;29/10/2021;64;572;;4
 Metropolitana  Santiago;13605;29/10/2021;69;401;;5
@@ -37837,7 +37838,7 @@ Metropolitana  Santiago;13402;01/11/2021;;89;;
 " Coquimbo";4104;02/11/2021;6;5;;
 " Coquimbo";4105;02/11/2021;12;14;;
 " Coquimbo";4106;02/11/2021;27;147;;1
-" Coquimbo";4201;02/11/2021;17;197;;
+" Coquimbo";4201;02/11/2021;24;203;;
 " Coquimbo";4202;02/11/2021;5;19;;
 " Coquimbo";4203;02/11/2021;32;164;;
 " Coquimbo";4204;02/11/2021;24;228;;
@@ -38149,7 +38150,7 @@ Metropolitana  Santiago;13605;02/11/2021;65;358;;6
 " Tarapacá";1403;03/11/2021;2;1;;
 " Tarapacá";1404;03/11/2021;;9;;
 " Tarapacá";1405;03/11/2021;10;18;;
-" Antofagasta";2101;03/11/2021;409;1943;;13
+" Antofagasta";2101;03/11/2021;409;1942;;13
 " Antofagasta";2102;03/11/2021;23;126;;
 " Antofagasta";2103;03/11/2021;10;14;;
 " Antofagasta";2104;03/11/2021;21;123;;
@@ -38181,7 +38182,7 @@ Metropolitana  Santiago;13605;02/11/2021;65;358;;6
 " Coquimbo";4303;03/11/2021;81;83;;
 " Coquimbo";4304;03/11/2021;11;37;;
 " Coquimbo";4305;03/11/2021;1;30;;
-" Valparaíso";5101;03/11/2021;240;1140;;1
+" Valparaíso";5101;03/11/2021;240;1139;;1
 " Valparaíso";5102;03/11/2021;26;165;;
 " Valparaíso";5103;03/11/2021;45;210;;
 " Valparaíso";5104;03/11/2021;3;;;
@@ -38511,7 +38512,7 @@ Metropolitana  Santiago;13605;03/11/2021;48;333;;5
 " Coquimbo";4203;04/11/2021;26;64;;
 " Coquimbo";4204;04/11/2021;25;176;;
 " Coquimbo";4301;04/11/2021;93;583;;6
-" Coquimbo";4302;04/11/2021;3;25;;
+" Coquimbo";4302;04/11/2021;6;34;;
 " Coquimbo";4303;04/11/2021;50;106;;
 " Coquimbo";4304;04/11/2021;11;78;;
 " Coquimbo";4305;04/11/2021;2;30;;
@@ -38710,7 +38711,7 @@ Bíobío;8314;04/11/2021;11;13;;
 " Los Lagos";10402;04/11/2021;;6;;
 " Los Lagos";10403;04/11/2021;7;38;;
 " Los Lagos";10404;04/11/2021;4;1;;
-" Aisén Gral. C. Ibáñez Campo";11101;04/11/2021;44;233;;2
+" Aisén Gral. C. Ibáñez Campo";11101;04/11/2021;44;236;;2
 " Aisén Gral. C. Ibáñez Campo";11102;04/11/2021;;3;;
 " Aisén Gral. C. Ibáñez Campo";11201;04/11/2021;84;19;;2
 " Aisén Gral. C. Ibáñez Campo";11202;04/11/2021;3;14;;
@@ -38904,7 +38905,7 @@ Libertador B. O'Higgins;6111;05/11/2021;11;54;;1
 Libertador B. O'Higgins;6112;05/11/2021;7;86;;1
 Libertador B. O'Higgins;6113;05/11/2021;15;78;;
 Libertador B. O'Higgins;6114;05/11/2021;14;46;;2
-Libertador B. O'Higgins;6115;05/11/2021;58;254;;7
+Libertador B. O'Higgins;6115;05/11/2021;58;255;;7
 Libertador B. O'Higgins;6116;05/11/2021;24;99;;2
 Libertador B. O'Higgins;6117;05/11/2021;79;246;;1
 Libertador B. O'Higgins;6201;05/11/2021;19;33;;
@@ -38953,7 +38954,7 @@ Maule;7405;05/11/2021;10;61;;
 Maule;7406;05/11/2021;28;193;;
 Maule;7407;05/11/2021;17;38;;
 Maule;7408;05/11/2021;32;93;;
-Bíobío;8101;05/11/2021;199;709;;22
+Bíobío;8101;05/11/2021;198;709;;22
 Bíobío;8102;05/11/2021;105;275;;8
 Bíobío;8103;05/11/2021;79;250;;11
 Bíobío;8104;05/11/2021;7;16;;
@@ -39076,7 +39077,7 @@ Metropolitana  Santiago;13113;05/11/2021;58;322;;41
 Metropolitana  Santiago;13114;05/11/2021;230;1095;;85
 Metropolitana  Santiago;13115;05/11/2021;74;377;;21
 Metropolitana  Santiago;13116;05/11/2021;63;286;;8
-Metropolitana  Santiago;13117;05/11/2021;107;386;;12
+Metropolitana  Santiago;13117;05/11/2021;107;385;;12
 Metropolitana  Santiago;13118;05/11/2021;89;403;;13
 Metropolitana  Santiago;13119;05/11/2021;216;859;;50
 Metropolitana  Santiago;13120;05/11/2021;135;923;;55
@@ -39098,7 +39099,7 @@ Metropolitana  Santiago;13203;05/11/2021;18;76;;1
 Metropolitana  Santiago;13301;05/11/2021;130;891;;11
 Metropolitana  Santiago;13302;05/11/2021;179;245;;2
 Metropolitana  Santiago;13303;05/11/2021;23;52;;
-Metropolitana  Santiago;13401;05/11/2021;309;1073;;20
+Metropolitana  Santiago;13401;05/11/2021;309;1076;;20
 Metropolitana  Santiago;13402;05/11/2021;62;304;;14
 Metropolitana  Santiago;13403;05/11/2021;18;87;;1
 Metropolitana  Santiago;13404;05/11/2021;45;228;;7
@@ -39348,7 +39349,7 @@ Metropolitana  Santiago;13402;07/11/2021;;1;;
 " Coquimbo";4203;08/11/2021;37;47;;
 " Coquimbo";4204;08/11/2021;9;20;;
 " Coquimbo";4301;08/11/2021;81;475;;2
-" Coquimbo";4302;08/11/2021;3;9;;
+" Coquimbo";4302;08/11/2021;6;26;;
 " Coquimbo";4303;08/11/2021;53;74;;
 " Coquimbo";4304;08/11/2021;12;71;;
 " Coquimbo";4305;08/11/2021;;5;;
@@ -39573,7 +39574,7 @@ Metropolitana  Santiago;13115;08/11/2021;70;469;;1
 Metropolitana  Santiago;13116;08/11/2021;79;131;;
 Metropolitana  Santiago;13117;08/11/2021;89;189;;6
 Metropolitana  Santiago;13118;08/11/2021;60;145;;5
-Metropolitana  Santiago;13119;08/11/2021;396;535;;18
+Metropolitana  Santiago;13119;08/11/2021;396;534;;18
 Metropolitana  Santiago;13120;08/11/2021;88;435;;9
 Metropolitana  Santiago;13121;08/11/2021;88;130;;1
 Metropolitana  Santiago;13122;08/11/2021;156;814;;
@@ -39664,7 +39665,7 @@ Metropolitana  Santiago;13605;08/11/2021;99;264;;5
 " Atacama";3303;09/11/2021;10;14;;1
 " Atacama";3304;09/11/2021;9;30;;1
 " Coquimbo";4101;09/11/2021;310;567;;13
-" Coquimbo";4102;09/11/2021;263;688;;11
+" Coquimbo";4102;09/11/2021;263;687;;11
 " Coquimbo";4103;09/11/2021;1;17;;
 " Coquimbo";4104;09/11/2021;3;15;;
 " Coquimbo";4105;09/11/2021;35;7;;
@@ -39674,7 +39675,7 @@ Metropolitana  Santiago;13605;08/11/2021;99;264;;5
 " Coquimbo";4203;09/11/2021;23;39;;
 " Coquimbo";4204;09/11/2021;14;137;;1
 " Coquimbo";4301;09/11/2021;76;532;;3
-" Coquimbo";4302;09/11/2021;12;20;;
+" Coquimbo";4302;09/11/2021;12;21;;
 " Coquimbo";4303;09/11/2021;27;67;;
 " Coquimbo";4304;09/11/2021;17;36;;
 " Coquimbo";4305;09/11/2021;;3;;
@@ -39769,7 +39770,7 @@ Maule;7304;09/11/2021;30;67;;2
 Maule;7305;09/11/2021;3;8;;
 Maule;7306;09/11/2021;7;19;;
 Maule;7307;09/11/2021;6;13;;1
-Maule;7308;09/11/2021;11;30;;
+Maule;7308;09/11/2021;12;30;;
 Maule;7309;09/11/2021;5;60;;
 Maule;7401;09/11/2021;55;324;;2
 Maule;7402;09/11/2021;6;30;;
@@ -39913,7 +39914,7 @@ Metropolitana  Santiago;13127;09/11/2021;288;393;;
 Metropolitana  Santiago;13128;09/11/2021;96;259;;5
 Metropolitana  Santiago;13129;09/11/2021;74;267;;8
 Metropolitana  Santiago;13130;09/11/2021;82;169;;5
-Metropolitana  Santiago;13131;09/11/2021;81;218;;4
+Metropolitana  Santiago;13131;09/11/2021;82;218;;4
 Metropolitana  Santiago;13132;09/11/2021;62;371;;7
 Metropolitana  Santiago;13201;09/11/2021;493;1022;;15
 Metropolitana  Santiago;13202;09/11/2021;38;140;;
@@ -39999,13 +40000,13 @@ Metropolitana  Santiago;13605;09/11/2021;64;250;;8
 " Coquimbo";4103;10/11/2021;5;12;;
 " Coquimbo";4104;10/11/2021;13;36;;
 " Coquimbo";4105;10/11/2021;24;10;;
-" Coquimbo";4106;10/11/2021;11;76;;
+" Coquimbo";4106;10/11/2021;12;78;;
 " Coquimbo";4201;10/11/2021;10;11;;
 " Coquimbo";4202;10/11/2021;5;117;;
 " Coquimbo";4203;10/11/2021;29;39;;
 " Coquimbo";4204;10/11/2021;8;239;;
 " Coquimbo";4301;10/11/2021;76;700;;2
-" Coquimbo";4302;10/11/2021;6;12;;
+" Coquimbo";4302;10/11/2021;12;33;;
 " Coquimbo";4303;10/11/2021;38;155;;
 " Coquimbo";4304;10/11/2021;14;34;;
 " Coquimbo";4305;10/11/2021;1;3;;
@@ -40210,7 +40211,6 @@ Bíobío;8314;10/11/2021;8;5;;
 " Aisén Gral. C. Ibáñez Campo";11401;10/11/2021;5;2;;
 " Aisén Gral. C. Ibáñez Campo";11402;10/11/2021;5;17;;
 " Magallanes y  La Antártica Chilena";12101;10/11/2021;77;275;;1
-" Magallanes y  La Antártica Chilena";12103;10/11/2021;1;;;
 " Magallanes y  La Antártica Chilena";12201;10/11/2021;7;1;;
 " Magallanes y  La Antártica Chilena";12301;10/11/2021;5;16;;
 " Magallanes y  La Antártica Chilena";12401;10/11/2021;14;34;;
@@ -40244,7 +40244,7 @@ Metropolitana  Santiago;13127;10/11/2021;153;336;;
 Metropolitana  Santiago;13128;10/11/2021;113;258;;2
 Metropolitana  Santiago;13129;10/11/2021;55;228;;6
 Metropolitana  Santiago;13130;10/11/2021;71;143;;4
-Metropolitana  Santiago;13131;10/11/2021;56;143;;1
+Metropolitana  Santiago;13131;10/11/2021;56;144;;1
 Metropolitana  Santiago;13132;10/11/2021;53;327;;2
 Metropolitana  Santiago;13201;10/11/2021;555;906;;16
 Metropolitana  Santiago;13202;10/11/2021;19;161;;
@@ -40257,7 +40257,7 @@ Metropolitana  Santiago;13402;10/11/2021;32;393;;2
 Metropolitana  Santiago;13403;10/11/2021;26;112;;
 Metropolitana  Santiago;13404;10/11/2021;51;157;;3
 Metropolitana  Santiago;13501;10/11/2021;56;554;;2
-Metropolitana  Santiago;13502;10/11/2021;2;56;;
+Metropolitana  Santiago;13502;10/11/2021;1;57;;
 Metropolitana  Santiago;13503;10/11/2021;23;68;;
 Metropolitana  Santiago;13504;10/11/2021;9;35;;
 Metropolitana  Santiago;13505;10/11/2021;12;19;;
@@ -40331,12 +40331,12 @@ Metropolitana  Santiago;13605;10/11/2021;78;223;;2
 " Coquimbo";4103;11/11/2021;2;10;;1
 " Coquimbo";4104;11/11/2021;2;20;;
 " Coquimbo";4105;11/11/2021;;10;;
-" Coquimbo";4106;11/11/2021;7;25;;
+" Coquimbo";4106;11/11/2021;10;34;;
 " Coquimbo";4201;11/11/2021;9;21;;1
 " Coquimbo";4202;11/11/2021;7;14;;
 " Coquimbo";4203;11/11/2021;15;31;;1
 " Coquimbo";4204;11/11/2021;9;169;;1
-" Coquimbo";4301;11/11/2021;59;448;;
+" Coquimbo";4301;11/11/2021;60;490;;
 " Coquimbo";4302;11/11/2021;2;10;;
 " Coquimbo";4303;11/11/2021;29;108;;
 " Coquimbo";4304;11/11/2021;16;44;;
@@ -40351,7 +40351,7 @@ Metropolitana  Santiago;13605;10/11/2021;78;223;;2
 " Valparaíso";5201;11/11/2021;6;13;;
 " Valparaíso";5301;11/11/2021;45;184;;5
 " Valparaíso";5302;11/11/2021;8;19;;1
-" Valparaíso";5303;11/11/2021;4;17;;
+" Valparaíso";5303;11/11/2021;3;17;;
 " Valparaíso";5304;11/11/2021;9;31;;
 " Valparaíso";5401;11/11/2021;20;175;;
 " Valparaíso";5402;11/11/2021;3;97;;
@@ -40429,14 +40429,14 @@ Maule;7301;11/11/2021;70;759;;
 Maule;7302;11/11/2021;5;4;;
 Maule;7303;11/11/2021;2;9;;
 Maule;7304;11/11/2021;20;54;;
-Maule;7305;11/11/2021;6;26;;
+Maule;7305;11/11/2021;6;27;;
 Maule;7306;11/11/2021;7;10;;
 Maule;7307;11/11/2021;1;11;;
-Maule;7308;11/11/2021;17;122;;
+Maule;7308;11/11/2021;17;123;;
 Maule;7309;11/11/2021;13;40;;
 Maule;7401;11/11/2021;59;246;;2
 Maule;7402;11/11/2021;3;16;;
-Maule;7403;11/11/2021;6;47;;
+Maule;7403;11/11/2021;6;49;;
 Maule;7404;11/11/2021;22;83;;
 Maule;7405;11/11/2021;8;15;;
 Maule;7406;11/11/2021;27;312;;
@@ -40475,7 +40475,7 @@ Bíobío;8311;11/11/2021;4;32;;
 Bíobío;8312;11/11/2021;1;9;;
 Bíobío;8313;11/11/2021;13;71;;1
 Bíobío;8314;11/11/2021;10;4;;
-" La Araucanía";9101;11/11/2021;204;552;;12
+" La Araucanía";9101;11/11/2021;205;552;;12
 " La Araucanía";9102;11/11/2021;12;92;;
 " La Araucanía";9103;11/11/2021;12;47;;
 " La Araucanía";9104;11/11/2021;;8;;
@@ -40490,7 +40490,7 @@ Bíobío;8314;11/11/2021;10;4;;
 " La Araucanía";9113;11/11/2021;14;11;;
 " La Araucanía";9114;11/11/2021;11;82;;
 " La Araucanía";9115;11/11/2021;21;50;;
-" La Araucanía";9116;11/11/2021;33;148;;
+" La Araucanía";9116;11/11/2021;33;149;;
 " La Araucanía";9117;11/11/2021;10;48;;
 " La Araucanía";9118;11/11/2021;4;69;;
 " La Araucanía";9119;11/11/2021;28;89;;
@@ -40507,7 +40507,7 @@ Bíobío;8314;11/11/2021;10;4;;
 " La Araucanía";9209;11/11/2021;6;15;;
 " La Araucanía";9210;11/11/2021;22;24;;
 " La Araucanía";9211;11/11/2021;21;158;;1
-" Los Lagos";10101;11/11/2021;146;412;;4
+" Los Lagos";10101;11/11/2021;135;387;;4
 " Los Lagos";10102;11/11/2021;36;51;;1
 " Los Lagos";10104;11/11/2021;12;15;;1
 " Los Lagos";10105;11/11/2021;10;12;;
@@ -40526,7 +40526,7 @@ Bíobío;8314;11/11/2021;10;4;;
 " Los Lagos";10209;11/11/2021;7;15;;
 " Los Lagos";10210;11/11/2021;7;5;;
 " Los Lagos";10301;11/11/2021;131;320;;7
-" Los Lagos";10302;11/11/2021;4;8;;
+" Los Lagos";10302;11/11/2021;4;9;;
 " Los Lagos";10303;11/11/2021;8;35;;
 " Los Lagos";10304;11/11/2021;14;30;;1
 " Los Lagos";10305;11/11/2021;9;40;;
@@ -40548,9 +40548,9 @@ Bíobío;8314;11/11/2021;10;4;;
 " Magallanes y  La Antártica Chilena";12103;11/11/2021;1;1;;
 " Magallanes y  La Antártica Chilena";12201;11/11/2021;2;1;;
 " Magallanes y  La Antártica Chilena";12301;11/11/2021;3;24;;
-" Magallanes y  La Antártica Chilena";12401;11/11/2021;11;32;;1
+" Magallanes y  La Antártica Chilena";12401;11/11/2021;11;36;;1
 Metropolitana  Santiago;13101;11/11/2021;163;518;;1
-Metropolitana  Santiago;13102;11/11/2021;65;295;;2
+Metropolitana  Santiago;13102;11/11/2021;65;296;;2
 Metropolitana  Santiago;13103;11/11/2021;119;222;;2
 Metropolitana  Santiago;13104;11/11/2021;57;289;;8
 Metropolitana  Santiago;13105;11/11/2021;142;602;;3
@@ -40566,8 +40566,8 @@ Metropolitana  Santiago;13114;11/11/2021;79;919;;13
 Metropolitana  Santiago;13115;11/11/2021;43;508;;3
 Metropolitana  Santiago;13116;11/11/2021;36;220;;3
 Metropolitana  Santiago;13117;11/11/2021;55;212;;4
-Metropolitana  Santiago;13118;11/11/2021;59;172;;1
-Metropolitana  Santiago;13119;11/11/2021;248;960;;4
+Metropolitana  Santiago;13118;11/11/2021;59;173;;1
+Metropolitana  Santiago;13119;11/11/2021;248;961;;4
 Metropolitana  Santiago;13120;11/11/2021;52;822;;4
 Metropolitana  Santiago;13121;11/11/2021;40;159;;1
 Metropolitana  Santiago;13122;11/11/2021;83;778;;8
@@ -40581,22 +40581,22 @@ Metropolitana  Santiago;13129;11/11/2021;48;248;;3
 Metropolitana  Santiago;13130;11/11/2021;95;200;;
 Metropolitana  Santiago;13131;11/11/2021;73;140;;1
 Metropolitana  Santiago;13132;11/11/2021;48;499;;3
-Metropolitana  Santiago;13201;11/11/2021;448;918;;7
+Metropolitana  Santiago;13201;11/11/2021;448;919;;7
 Metropolitana  Santiago;13202;11/11/2021;20;137;;
 Metropolitana  Santiago;13203;11/11/2021;16;33;;1
 Metropolitana  Santiago;13301;11/11/2021;71;694;;5
 Metropolitana  Santiago;13302;11/11/2021;141;301;;1
 Metropolitana  Santiago;13303;11/11/2021;10;63;;
-Metropolitana  Santiago;13401;11/11/2021;144;527;;7
-Metropolitana  Santiago;13402;11/11/2021;35;430;;2
+Metropolitana  Santiago;13401;11/11/2021;144;526;;7
+Metropolitana  Santiago;13402;11/11/2021;48;468;;4
 Metropolitana  Santiago;13403;11/11/2021;35;76;;1
-Metropolitana  Santiago;13404;11/11/2021;42;137;;2
+Metropolitana  Santiago;13404;11/11/2021;42;138;;3
 Metropolitana  Santiago;13501;11/11/2021;91;426;;6
 Metropolitana  Santiago;13502;11/11/2021;4;10;;
 Metropolitana  Santiago;13503;11/11/2021;6;50;;
 Metropolitana  Santiago;13504;11/11/2021;7;18;;
 Metropolitana  Santiago;13505;11/11/2021;15;24;;
-Metropolitana  Santiago;13601;11/11/2021;28;184;;2
+Metropolitana  Santiago;13601;11/11/2021;28;185;;2
 Metropolitana  Santiago;13602;11/11/2021;19;154;;
 Metropolitana  Santiago;13603;11/11/2021;22;76;;1
 Metropolitana  Santiago;13604;11/11/2021;33;211;;1
@@ -40637,324 +40637,497 @@ Metropolitana  Santiago;13605;11/11/2021;52;209;;2
 " Ñuble";16303;11/11/2021;9;18;;
 " Ñuble";16304;11/11/2021;3;2;;
 " Ñuble";16305;11/11/2021;11;34;;
-" Tarapacá";1101;12/11/2021;73;253;;7
-" Tarapacá";1107;12/11/2021;106;140;;3
-" Tarapacá";1401;12/11/2021;8;17;;
-" Tarapacá";1404;12/11/2021;1;2;;
-" Tarapacá";1405;12/11/2021;2;5;;
-" Antofagasta";2101;12/11/2021;200;791;;20
-" Antofagasta";2102;12/11/2021;9;16;;
-" Antofagasta";2103;12/11/2021;;1;;
-" Antofagasta";2104;12/11/2021;1;16;;1
-" Antofagasta";2201;12/11/2021;92;452;;10
-" Antofagasta";2203;12/11/2021;10;7;;
-" Antofagasta";2301;12/11/2021;16;29;;
-" Antofagasta";2302;12/11/2021;7;13;;1
-" Atacama";3101;12/11/2021;80;276;;5
-" Atacama";3102;12/11/2021;11;29;;1
-" Atacama";3103;12/11/2021;8;21;;
+" Tarapacá";1101;12/11/2021;185;501;;21
+" Tarapacá";1107;12/11/2021;178;271;;8
+" Tarapacá";1401;12/11/2021;8;22;;
+" Tarapacá";1403;12/11/2021;;1;;
+" Tarapacá";1404;12/11/2021;3;5;;
+" Tarapacá";1405;12/11/2021;7;9;;
+" Antofagasta";2101;12/11/2021;314;1216;;33
+" Antofagasta";2102;12/11/2021;10;23;;
+" Antofagasta";2103;12/11/2021;2;3;;
+" Antofagasta";2104;12/11/2021;1;16;;2
+" Antofagasta";2201;12/11/2021;148;615;;11
+" Antofagasta";2203;12/11/2021;12;18;;
+" Antofagasta";2301;12/11/2021;34;58;;
+" Antofagasta";2302;12/11/2021;8;17;;1
+" Atacama";3101;12/11/2021;144;533;;8
+" Atacama";3102;12/11/2021;12;30;;1
+" Atacama";3103;12/11/2021;15;28;;
 " Atacama";3201;12/11/2021;;2;;
-" Atacama";3202;12/11/2021;12;32;;
-" Atacama";3301;12/11/2021;27;27;;3
-" Atacama";3302;12/11/2021;3;16;;
-" Atacama";3304;12/11/2021;1;2;;
-" Coquimbo";4101;12/11/2021;206;455;;20
-" Coquimbo";4102;12/11/2021;119;411;;7
-" Coquimbo";4103;12/11/2021;7;7;;
-" Coquimbo";4104;12/11/2021;4;3;;1
-" Coquimbo";4105;12/11/2021;11;3;;
-" Coquimbo";4106;12/11/2021;5;15;;
-" Coquimbo";4201;12/11/2021;2;11;;1
-" Coquimbo";4202;12/11/2021;1;2;;
-" Coquimbo";4203;12/11/2021;18;29;;1
-" Coquimbo";4204;12/11/2021;5;17;;
-" Coquimbo";4301;12/11/2021;47;360;;1
-" Coquimbo";4302;12/11/2021;1;8;;
-" Coquimbo";4303;12/11/2021;22;52;;
+" Atacama";3202;12/11/2021;17;43;;
+" Atacama";3301;12/11/2021;60;99;;6
+" Atacama";3302;12/11/2021;5;19;;
+" Atacama";3303;12/11/2021;8;23;;
+" Atacama";3304;12/11/2021;1;3;;
+" Coquimbo";4101;12/11/2021;299;692;;26
+" Coquimbo";4102;12/11/2021;183;591;;18
+" Coquimbo";4103;12/11/2021;9;10;;
+" Coquimbo";4104;12/11/2021;4;4;;1
+" Coquimbo";4105;12/11/2021;12;7;;
+" Coquimbo";4106;12/11/2021;50;30;;
+" Coquimbo";4201;12/11/2021;7;18;;1
+" Coquimbo";4202;12/11/2021;4;6;;
+" Coquimbo";4203;12/11/2021;26;33;;1
+" Coquimbo";4204;12/11/2021;5;37;;1
+" Coquimbo";4301;12/11/2021;76;474;;3
+" Coquimbo";4302;12/11/2021;1;9;;
+" Coquimbo";4303;12/11/2021;29;59;;
 " Coquimbo";4304;12/11/2021;5;10;;
-" Coquimbo";4305;12/11/2021;4;3;;
-" Valparaíso";5101;12/11/2021;111;526;;53
-" Valparaíso";5102;12/11/2021;14;115;;
-" Valparaíso";5103;12/11/2021;10;185;;9
-" Valparaíso";5105;12/11/2021;10;17;;
-" Valparaíso";5107;12/11/2021;18;11;;2
-" Valparaíso";5109;12/11/2021;129;707;;38
-" Valparaíso";5201;12/11/2021;4;13;;
-" Valparaíso";5301;12/11/2021;22;126;;7
-" Valparaíso";5302;12/11/2021;7;15;;
-" Valparaíso";5303;12/11/2021;1;4;;
-" Valparaíso";5304;12/11/2021;3;19;;
-" Valparaíso";5401;12/11/2021;10;46;;
+" Coquimbo";4305;12/11/2021;7;4;;
+" Valparaíso";5101;12/11/2021;133;597;;61
+" Valparaíso";5102;12/11/2021;16;126;;
+" Valparaíso";5103;12/11/2021;31;232;;18
+" Valparaíso";5105;12/11/2021;13;36;;
+" Valparaíso";5107;12/11/2021;31;31;;2
+" Valparaíso";5109;12/11/2021;146;755;;46
+" Valparaíso";5201;12/11/2021;27;27;;
+" Valparaíso";5301;12/11/2021;22;161;;10
+" Valparaíso";5302;12/11/2021;7;21;;
+" Valparaíso";5303;12/11/2021;2;7;;
+" Valparaíso";5304;12/11/2021;5;29;;
+" Valparaíso";5401;12/11/2021;12;47;;
 " Valparaíso";5402;12/11/2021;6;20;;
-" Valparaíso";5403;12/11/2021;;1;;
-" Valparaíso";5404;12/11/2021;1;4;;
-" Valparaíso";5405;12/11/2021;3;25;;
-" Valparaíso";5501;12/11/2021;34;179;;2
-" Valparaíso";5502;12/11/2021;37;104;;7
-" Valparaíso";5503;12/11/2021;10;24;;
-" Valparaíso";5504;12/11/2021;6;28;;1
-" Valparaíso";5506;12/11/2021;6;33;;
-" Valparaíso";5601;12/11/2021;47;117;;10
-" Valparaíso";5602;12/11/2021;4;18;;
-" Valparaíso";5603;12/11/2021;22;36;;
-" Valparaíso";5604;12/11/2021;11;17;;2
-" Valparaíso";5605;12/11/2021;16;11;;
-" Valparaíso";5606;12/11/2021;4;23;;5
-" Valparaíso";5701;12/11/2021;24;324;;3
-" Valparaíso";5702;12/11/2021;3;19;;
-" Valparaíso";5703;12/11/2021;9;29;;
-" Valparaíso";5704;12/11/2021;;7;;
-" Valparaíso";5705;12/11/2021;7;85;;
-" Valparaíso";5706;12/11/2021;4;34;;
-" Valparaíso";5801;12/11/2021;58;285;;11
-" Valparaíso";5802;12/11/2021;7;33;;2
-" Valparaíso";5803;12/11/2021;6;27;;
-" Valparaíso";5804;12/11/2021;71;180;;9
-Libertador B. O'Higgins;6101;12/11/2021;86;408;;15
-Libertador B. O'Higgins;6102;12/11/2021;2;11;;2
-Libertador B. O'Higgins;6103;12/11/2021;2;4;;1
-Libertador B. O'Higgins;6104;12/11/2021;5;84;;
-Libertador B. O'Higgins;6105;12/11/2021;9;18;;1
-Libertador B. O'Higgins;6106;12/11/2021;6;70;;
+" Valparaíso";5403;12/11/2021;10;16;;
+" Valparaíso";5404;12/11/2021;3;14;;
+" Valparaíso";5405;12/11/2021;5;29;;
+" Valparaíso";5501;12/11/2021;49;226;;2
+" Valparaíso";5502;12/11/2021;61;152;;7
+" Valparaíso";5503;12/11/2021;10;35;;
+" Valparaíso";5504;12/11/2021;8;41;;1
+" Valparaíso";5506;12/11/2021;6;37;;
+" Valparaíso";5601;12/11/2021;51;123;;12
+" Valparaíso";5602;12/11/2021;9;29;;
+" Valparaíso";5603;12/11/2021;24;41;;
+" Valparaíso";5604;12/11/2021;20;28;;2
+" Valparaíso";5605;12/11/2021;16;15;;
+" Valparaíso";5606;12/11/2021;7;31;;6
+" Valparaíso";5701;12/11/2021;37;357;;4
+" Valparaíso";5702;12/11/2021;3;26;;
+" Valparaíso";5703;12/11/2021;14;39;;
+" Valparaíso";5704;12/11/2021;1;46;;
+" Valparaíso";5705;12/11/2021;11;89;;
+" Valparaíso";5706;12/11/2021;7;41;;
+" Valparaíso";5801;12/11/2021;70;325;;14
+" Valparaíso";5802;12/11/2021;14;49;;3
+" Valparaíso";5803;12/11/2021;8;29;;
+" Valparaíso";5804;12/11/2021;87;225;;12
+Libertador B. O'Higgins;6101;12/11/2021;141;652;;24
+Libertador B. O'Higgins;6102;12/11/2021;6;19;;2
+Libertador B. O'Higgins;6103;12/11/2021;2;5;;1
+Libertador B. O'Higgins;6104;12/11/2021;5;87;;
+Libertador B. O'Higgins;6105;12/11/2021;9;26;;1
+Libertador B. O'Higgins;6106;12/11/2021;16;122;;
 Libertador B. O'Higgins;6107;12/11/2021;14;112;;2
-Libertador B. O'Higgins;6108;12/11/2021;20;90;;5
-Libertador B. O'Higgins;6109;12/11/2021;7;10;;
-Libertador B. O'Higgins;6110;12/11/2021;11;27;;1
-Libertador B. O'Higgins;6111;12/11/2021;5;26;;
-Libertador B. O'Higgins;6112;12/11/2021;4;9;;
-Libertador B. O'Higgins;6113;12/11/2021;3;17;;1
-Libertador B. O'Higgins;6114;12/11/2021;;15;;
-Libertador B. O'Higgins;6115;12/11/2021;23;102;;2
-Libertador B. O'Higgins;6116;12/11/2021;2;26;;1
-Libertador B. O'Higgins;6117;12/11/2021;33;101;;
-Libertador B. O'Higgins;6201;12/11/2021;6;20;;4
-Libertador B. O'Higgins;6202;12/11/2021;;4;;
-Libertador B. O'Higgins;6203;12/11/2021;1;7;;
-Libertador B. O'Higgins;6204;12/11/2021;1;14;;
+Libertador B. O'Higgins;6108;12/11/2021;27;115;;6
+Libertador B. O'Higgins;6109;12/11/2021;7;16;;
+Libertador B. O'Higgins;6110;12/11/2021;13;51;;1
+Libertador B. O'Higgins;6111;12/11/2021;5;28;;
+Libertador B. O'Higgins;6112;12/11/2021;5;20;;1
+Libertador B. O'Higgins;6113;12/11/2021;4;22;;1
+Libertador B. O'Higgins;6114;12/11/2021;5;25;;1
+Libertador B. O'Higgins;6115;12/11/2021;39;142;;3
+Libertador B. O'Higgins;6116;12/11/2021;4;56;;1
+Libertador B. O'Higgins;6117;12/11/2021;41;116;;1
+Libertador B. O'Higgins;6201;12/11/2021;10;30;;4
+Libertador B. O'Higgins;6202;12/11/2021;2;5;;
+Libertador B. O'Higgins;6203;12/11/2021;1;12;;1
+Libertador B. O'Higgins;6204;12/11/2021;1;15;;
 Libertador B. O'Higgins;6205;12/11/2021;5;7;;
-Libertador B. O'Higgins;6206;12/11/2021;3;13;;
-Libertador B. O'Higgins;6301;12/11/2021;42;155;;4
-Libertador B. O'Higgins;6302;12/11/2021;2;10;;
-Libertador B. O'Higgins;6303;12/11/2021;5;87;;2
-Libertador B. O'Higgins;6304;12/11/2021;1;4;;
-Libertador B. O'Higgins;6305;12/11/2021;5;29;;
-Libertador B. O'Higgins;6306;12/11/2021;1;14;;
-Libertador B. O'Higgins;6307;12/11/2021;6;9;;
+Libertador B. O'Higgins;6206;12/11/2021;3;14;;
+Libertador B. O'Higgins;6301;12/11/2021;53;200;;4
+Libertador B. O'Higgins;6302;12/11/2021;2;19;;
+Libertador B. O'Higgins;6303;12/11/2021;9;119;;3
+Libertador B. O'Higgins;6304;12/11/2021;1;7;;
+Libertador B. O'Higgins;6305;12/11/2021;5;29;;1
+Libertador B. O'Higgins;6306;12/11/2021;1;21;;
+Libertador B. O'Higgins;6307;12/11/2021;8;16;;2
 Libertador B. O'Higgins;6308;12/11/2021;10;19;;
 Libertador B. O'Higgins;6309;12/11/2021;3;7;;1
-Libertador B. O'Higgins;6310;12/11/2021;14;52;;1
-Maule;7101;12/11/2021;72;136;;4
-Maule;7102;12/11/2021;2;32;;
-Maule;7103;12/11/2021;2;7;;
-Maule;7104;12/11/2021;2;5;;
-Maule;7105;12/11/2021;15;87;;
-Maule;7106;12/11/2021;1;10;;
-Maule;7108;12/11/2021;2;2;;
-Maule;7109;12/11/2021;12;45;;
-Maule;7110;12/11/2021;4;13;;
-Maule;7201;12/11/2021;3;13;;
-Maule;7202;12/11/2021;1;3;;
-Maule;7203;12/11/2021;4;6;;2
-Maule;7301;12/11/2021;19;58;;3
-Maule;7302;12/11/2021;2;1;;
-Maule;7303;12/11/2021;1;1;;
-Maule;7304;12/11/2021;9;41;;
-Maule;7305;12/11/2021;4;3;;
-Maule;7306;12/11/2021;4;4;;
-Maule;7307;12/11/2021;2;4;;
-Maule;7308;12/11/2021;10;79;;
+Libertador B. O'Higgins;6310;12/11/2021;27;117;;1
+Maule;7101;12/11/2021;139;309;;6
+Maule;7102;12/11/2021;16;66;;2
+Maule;7103;12/11/2021;2;10;;
+Maule;7104;12/11/2021;4;7;;
+Maule;7105;12/11/2021;20;105;;
+Maule;7106;12/11/2021;1;11;;
+Maule;7107;12/11/2021;2;9;;
+Maule;7108;12/11/2021;5;13;;
+Maule;7109;12/11/2021;18;74;;1
+Maule;7110;12/11/2021;7;25;;
+Maule;7201;12/11/2021;14;31;;
+Maule;7202;12/11/2021;1;10;;
+Maule;7203;12/11/2021;4;11;;2
+Maule;7301;12/11/2021;56;184;;9
+Maule;7302;12/11/2021;2;6;;
+Maule;7303;12/11/2021;1;7;;
+Maule;7304;12/11/2021;16;60;;
+Maule;7305;12/11/2021;6;13;;
+Maule;7306;12/11/2021;6;15;;
+Maule;7307;12/11/2021;2;7;;
+Maule;7308;12/11/2021;11;98;;
 Maule;7309;12/11/2021;;3;;
-Maule;7401;12/11/2021;33;330;;1
-Maule;7402;12/11/2021;4;10;;
-Maule;7403;12/11/2021;7;20;;
-Maule;7404;12/11/2021;14;50;;
-Maule;7405;12/11/2021;6;32;;
-Maule;7406;12/11/2021;21;111;;
-Maule;7407;12/11/2021;8;6;;
-Maule;7408;12/11/2021;19;45;;
-Bíobío;8101;12/11/2021;64;301;;11
-Bíobío;8102;12/11/2021;46;202;;5
-Bíobío;8103;12/11/2021;24;106;;8
+Maule;7401;12/11/2021;52;490;;3
+Maule;7402;12/11/2021;9;14;;
+Maule;7403;12/11/2021;8;26;;
+Maule;7404;12/11/2021;24;101;;1
+Maule;7405;12/11/2021;9;42;;
+Maule;7406;12/11/2021;29;157;;
+Maule;7407;12/11/2021;15;10;;
+Maule;7408;12/11/2021;25;76;;
+Bíobío;8101;12/11/2021;158;550;;22
+Bíobío;8102;12/11/2021;85;263;;5
+Bíobío;8103;12/11/2021;39;143;;10
 Bíobío;8104;12/11/2021;7;13;;
-Bíobío;8105;12/11/2021;19;17;;
-Bíobío;8106;12/11/2021;7;33;;2
-Bíobío;8107;12/11/2021;20;47;;4
-Bíobío;8108;12/11/2021;55;204;;9
-Bíobío;8110;12/11/2021;51;278;;10
-Bíobío;8111;12/11/2021;16;86;;2
-Bíobío;8112;12/11/2021;26;44;;3
-Bíobío;8201;12/11/2021;17;8;;
-Bíobío;8202;12/11/2021;17;97;;
-Bíobío;8203;12/11/2021;7;19;;
-Bíobío;8204;12/11/2021;1;4;;
-Bíobío;8205;12/11/2021;10;22;;
-Bíobío;8206;12/11/2021;6;28;;
-Bíobío;8207;12/11/2021;8;11;;
-Bíobío;8301;12/11/2021;83;211;;8
-Bíobío;8302;12/11/2021;4;7;;
-Bíobío;8303;12/11/2021;8;22;;
-Bíobío;8304;12/11/2021;12;25;;
-Bíobío;8305;12/11/2021;7;16;;
-Bíobío;8306;12/11/2021;10;55;;
-Bíobío;8307;12/11/2021;;8;;
-Bíobío;8308;12/11/2021;4;3;;
-Bíobío;8309;12/11/2021;9;9;;
+Bíobío;8105;12/11/2021;27;44;;
+Bíobío;8106;12/11/2021;21;69;;3
+Bíobío;8107;12/11/2021;33;92;;6
+Bíobío;8108;12/11/2021;80;282;;15
+Bíobío;8109;12/11/2021;8;17;;
+Bíobío;8110;12/11/2021;97;398;;13
+Bíobío;8111;12/11/2021;33;139;;3
+Bíobío;8112;12/11/2021;55;120;;8
+Bíobío;8201;12/11/2021;25;17;;
+Bíobío;8202;12/11/2021;22;105;;
+Bíobío;8203;12/11/2021;15;42;;
+Bíobío;8204;12/11/2021;2;6;;
+Bíobío;8205;12/11/2021;15;28;;1
+Bíobío;8206;12/11/2021;12;42;;1
+Bíobío;8207;12/11/2021;10;14;;
+Bíobío;8301;12/11/2021;122;364;;12
+Bíobío;8302;12/11/2021;8;7;;
+Bíobío;8303;12/11/2021;29;71;;
+Bíobío;8304;12/11/2021;14;52;;
+Bíobío;8305;12/11/2021;11;25;;
+Bíobío;8306;12/11/2021;17;116;;2
+Bíobío;8307;12/11/2021;1;11;;
+Bíobío;8308;12/11/2021;5;4;;
+Bíobío;8309;12/11/2021;11;13;;
 Bíobío;8310;12/11/2021;1;10;;
-Bíobío;8311;12/11/2021;1;10;;
-Bíobío;8312;12/11/2021;3;14;;1
-Bíobío;8313;12/11/2021;15;39;;
-Bíobío;8314;12/11/2021;;6;;
-" La Araucanía";9101;12/11/2021;137;341;;25
-" La Araucanía";9102;12/11/2021;10;41;;
-" La Araucanía";9103;12/11/2021;5;17;;
-" La Araucanía";9104;12/11/2021;1;4;;
-" La Araucanía";9105;12/11/2021;15;51;;
-" La Araucanía";9106;12/11/2021;3;6;;
-" La Araucanía";9107;12/11/2021;10;24;;
-" La Araucanía";9108;12/11/2021;18;62;;
-" La Araucanía";9109;12/11/2021;10;68;;
-" La Araucanía";9110;12/11/2021;4;9;;
-" La Araucanía";9111;12/11/2021;19;57;;
-" La Araucanía";9112;12/11/2021;41;129;;3
-" La Araucanía";9113;12/11/2021;9;11;;
-" La Araucanía";9114;12/11/2021;5;10;;1
-" La Araucanía";9115;12/11/2021;17;30;;
-" La Araucanía";9116;12/11/2021;17;19;;
-" La Araucanía";9117;12/11/2021;10;24;;
-" La Araucanía";9118;12/11/2021;2;4;;
-" La Araucanía";9119;12/11/2021;10;68;;
-" La Araucanía";9120;12/11/2021;5;17;;
-" La Araucanía";9121;12/11/2021;2;42;;
-" La Araucanía";9201;12/11/2021;11;42;;2
-" La Araucanía";9203;12/11/2021;3;24;;
-" La Araucanía";9205;12/11/2021;3;3;;
-" La Araucanía";9206;12/11/2021;3;7;;1
-" La Araucanía";9207;12/11/2021;3;12;;
-" La Araucanía";9208;12/11/2021;9;9;;
-" La Araucanía";9209;12/11/2021;4;14;;
-" La Araucanía";9210;12/11/2021;6;38;;
-" La Araucanía";9211;12/11/2021;8;64;;
-" Los Lagos";10101;12/11/2021;129;295;;8
+Bíobío;8311;12/11/2021;2;17;;
+Bíobío;8312;12/11/2021;8;23;;1
+Bíobío;8313;12/11/2021;21;56;;
+Bíobío;8314;12/11/2021;1;6;;
+" La Araucanía";9101;12/11/2021;243;574;;39
+" La Araucanía";9102;12/11/2021;15;65;;
+" La Araucanía";9103;12/11/2021;8;27;;
+" La Araucanía";9104;12/11/2021;5;12;;
+" La Araucanía";9105;12/11/2021;30;125;;
+" La Araucanía";9106;12/11/2021;15;42;;
+" La Araucanía";9107;12/11/2021;13;32;;
+" La Araucanía";9108;12/11/2021;29;137;;
+" La Araucanía";9109;12/11/2021;11;82;;
+" La Araucanía";9110;12/11/2021;11;21;;
+" La Araucanía";9111;12/11/2021;27;94;;1
+" La Araucanía";9112;12/11/2021;58;155;;4
+" La Araucanía";9113;12/11/2021;12;17;;
+" La Araucanía";9114;12/11/2021;7;83;;1
+" La Araucanía";9115;12/11/2021;25;36;;
+" La Araucanía";9116;12/11/2021;23;28;;
+" La Araucanía";9117;12/11/2021;10;28;;
+" La Araucanía";9118;12/11/2021;3;7;;
+" La Araucanía";9119;12/11/2021;17;87;;
+" La Araucanía";9120;12/11/2021;25;77;;3
+" La Araucanía";9121;12/11/2021;6;84;;
+" La Araucanía";9201;12/11/2021;22;92;;3
+" La Araucanía";9202;12/11/2021;15;34;;
+" La Araucanía";9203;12/11/2021;9;46;;
+" La Araucanía";9204;12/11/2021;7;16;;
+" La Araucanía";9205;12/11/2021;3;12;;
+" La Araucanía";9206;12/11/2021;4;8;;1
+" La Araucanía";9207;12/11/2021;12;39;;
+" La Araucanía";9208;12/11/2021;13;19;;
+" La Araucanía";9209;12/11/2021;4;21;;
+" La Araucanía";9210;12/11/2021;7;41;;
+" La Araucanía";9211;12/11/2021;14;149;;2
+" Los Lagos";10101;12/11/2021;171;386;;8
 " Los Lagos";10102;12/11/2021;38;47;;
-" Los Lagos";10104;12/11/2021;8;5;;
-" Los Lagos";10105;12/11/2021;7;15;;
-" Los Lagos";10106;12/11/2021;15;85;;1
-" Los Lagos";10107;12/11/2021;;2;;
+" Los Lagos";10104;12/11/2021;8;9;;
+" Los Lagos";10105;12/11/2021;10;20;;2
+" Los Lagos";10106;12/11/2021;22;90;;2
+" Los Lagos";10107;12/11/2021;;2;;1
 " Los Lagos";10108;12/11/2021;;5;;2
-" Los Lagos";10109;12/11/2021;31;59;;6
-" Los Lagos";10201;12/11/2021;30;51;;2
-" Los Lagos";10202;12/11/2021;58;13;;
-" Los Lagos";10203;12/11/2021;4;20;;
-" Los Lagos";10204;12/11/2021;;3;;
-" Los Lagos";10205;12/11/2021;7;10;;1
-" Los Lagos";10206;12/11/2021;;2;;
+" Los Lagos";10109;12/11/2021;40;79;;9
+" Los Lagos";10201;12/11/2021;46;82;;8
+" Los Lagos";10202;12/11/2021;73;47;;3
+" Los Lagos";10203;12/11/2021;6;27;;
+" Los Lagos";10204;12/11/2021;;6;;
+" Los Lagos";10205;12/11/2021;11;21;;1
+" Los Lagos";10206;12/11/2021;2;15;;
 " Los Lagos";10207;12/11/2021;5;5;;
-" Los Lagos";10208;12/11/2021;25;17;;
-" Los Lagos";10209;12/11/2021;4;1;;
+" Los Lagos";10208;12/11/2021;41;34;;1
+" Los Lagos";10209;12/11/2021;10;20;;1
 " Los Lagos";10210;12/11/2021;9;14;;
-" Los Lagos";10301;12/11/2021;93;247;;10
-" Los Lagos";10302;12/11/2021;;11;;
-" Los Lagos";10303;12/11/2021;9;28;;
-" Los Lagos";10304;12/11/2021;3;9;;
-" Los Lagos";10305;12/11/2021;2;20;;
-" Los Lagos";10306;12/11/2021;4;4;;
-" Los Lagos";10307;12/11/2021;7;7;;
-" Los Lagos";10401;12/11/2021;1;;;
-" Los Lagos";10403;12/11/2021;1;8;;
-" Aisén Gral. C. Ibáñez Campo";11101;12/11/2021;15;65;;2
+" Los Lagos";10301;12/11/2021;117;299;;11
+" Los Lagos";10302;12/11/2021;1;15;;
+" Los Lagos";10303;12/11/2021;17;54;;
+" Los Lagos";10304;12/11/2021;6;15;;
+" Los Lagos";10305;12/11/2021;8;35;;1
+" Los Lagos";10306;12/11/2021;6;9;;
+" Los Lagos";10307;12/11/2021;8;13;;
+" Los Lagos";10401;12/11/2021;2;2;;
+" Los Lagos";10402;12/11/2021;;3;;
+" Los Lagos";10403;12/11/2021;2;8;;
+" Aisén Gral. C. Ibáñez Campo";11101;12/11/2021;37;90;;8
 " Aisén Gral. C. Ibáñez Campo";11102;12/11/2021;;1;;
-" Aisén Gral. C. Ibáñez Campo";11201;12/11/2021;62;11;;
-" Aisén Gral. C. Ibáñez Campo";11202;12/11/2021;3;;;
-" Aisén Gral. C. Ibáñez Campo";11301;12/11/2021;1;;;
-" Aisén Gral. C. Ibáñez Campo";11401;12/11/2021;1;2;;
-" Magallanes y  La Antártica Chilena";12101;12/11/2021;40;224;;5
-" Magallanes y  La Antártica Chilena";12201;12/11/2021;;2;;
-" Magallanes y  La Antártica Chilena";12301;12/11/2021;4;38;;
-" Magallanes y  La Antártica Chilena";12401;12/11/2021;10;26;;
-Metropolitana  Santiago;13101;12/11/2021;83;216;;8
-Metropolitana  Santiago;13102;12/11/2021;30;149;;3
-Metropolitana  Santiago;13103;12/11/2021;51;214;;2
-Metropolitana  Santiago;13104;12/11/2021;41;174;;9
-Metropolitana  Santiago;13105;12/11/2021;74;449;;5
-Metropolitana  Santiago;13106;12/11/2021;50;108;;2
-Metropolitana  Santiago;13107;12/11/2021;12;169;;5
-Metropolitana  Santiago;13108;12/11/2021;73;157;;6
-Metropolitana  Santiago;13109;12/11/2021;43;149;;9
-Metropolitana  Santiago;13110;12/11/2021;133;525;;9
-Metropolitana  Santiago;13111;12/11/2021;42;131;;2
-Metropolitana  Santiago;13112;12/11/2021;56;180;;3
-Metropolitana  Santiago;13113;12/11/2021;24;284;;30
-Metropolitana  Santiago;13114;12/11/2021;44;510;;33
-Metropolitana  Santiago;13115;12/11/2021;32;269;;7
-Metropolitana  Santiago;13116;12/11/2021;29;127;;7
-Metropolitana  Santiago;13117;12/11/2021;43;130;;2
-Metropolitana  Santiago;13118;12/11/2021;22;68;;3
-Metropolitana  Santiago;13119;12/11/2021;105;541;;23
-Metropolitana  Santiago;13120;12/11/2021;60;784;;14
-Metropolitana  Santiago;13121;12/11/2021;41;116;;2
-Metropolitana  Santiago;13122;12/11/2021;49;452;;16
-Metropolitana  Santiago;13123;12/11/2021;33;194;;9
-Metropolitana  Santiago;13124;12/11/2021;56;257;;8
-Metropolitana  Santiago;13125;12/11/2021;54;553;;11
-Metropolitana  Santiago;13126;12/11/2021;44;237;;1
-Metropolitana  Santiago;13127;12/11/2021;27;168;;6
-Metropolitana  Santiago;13128;12/11/2021;49;126;;3
-Metropolitana  Santiago;13129;12/11/2021;31;171;;2
-Metropolitana  Santiago;13130;12/11/2021;41;166;;7
-Metropolitana  Santiago;13131;12/11/2021;29;112;;2
-Metropolitana  Santiago;13132;12/11/2021;196;57;;7
-Metropolitana  Santiago;13201;12/11/2021;366;749;;30
-Metropolitana  Santiago;13202;12/11/2021;16;110;;
-Metropolitana  Santiago;13203;12/11/2021;18;21;;
-Metropolitana  Santiago;13301;12/11/2021;50;200;;6
-Metropolitana  Santiago;13302;12/11/2021;110;206;;2
-Metropolitana  Santiago;13303;12/11/2021;8;72;;
-Metropolitana  Santiago;13401;12/11/2021;147;497;;9
-Metropolitana  Santiago;13402;12/11/2021;16;75;;4
-Metropolitana  Santiago;13403;12/11/2021;21;87;;2
-Metropolitana  Santiago;13404;12/11/2021;40;104;;6
-Metropolitana  Santiago;13501;12/11/2021;32;271;;5
-Metropolitana  Santiago;13502;12/11/2021;10;15;;1
-Metropolitana  Santiago;13503;12/11/2021;12;32;;1
-Metropolitana  Santiago;13504;12/11/2021;2;15;;
+" Aisén Gral. C. Ibáñez Campo";11201;12/11/2021;101;19;;
+" Aisén Gral. C. Ibáñez Campo";11202;12/11/2021;3;7;;
+" Aisén Gral. C. Ibáñez Campo";11301;12/11/2021;4;7;;
+" Aisén Gral. C. Ibáñez Campo";11401;12/11/2021;1;3;;
+" Aisén Gral. C. Ibáñez Campo";11402;12/11/2021;1;;;
+" Magallanes y  La Antártica Chilena";12101;12/11/2021;69;396;;6
+" Magallanes y  La Antártica Chilena";12103;12/11/2021;2;;;
+" Magallanes y  La Antártica Chilena";12201;12/11/2021;1;2;;
+" Magallanes y  La Antártica Chilena";12301;12/11/2021;4;41;;
+" Magallanes y  La Antártica Chilena";12401;12/11/2021;15;41;;
+Metropolitana  Santiago;13101;12/11/2021;112;289;;8
+Metropolitana  Santiago;13102;12/11/2021;37;175;;3
+Metropolitana  Santiago;13103;12/11/2021;94;325;;5
+Metropolitana  Santiago;13104;12/11/2021;69;278;;17
+Metropolitana  Santiago;13105;12/11/2021;99;544;;5
+Metropolitana  Santiago;13106;12/11/2021;57;148;;3
+Metropolitana  Santiago;13107;12/11/2021;41;268;;5
+Metropolitana  Santiago;13108;12/11/2021;104;216;;11
+Metropolitana  Santiago;13109;12/11/2021;50;182;;9
+Metropolitana  Santiago;13110;12/11/2021;254;998;;22
+Metropolitana  Santiago;13111;12/11/2021;43;148;;3
+Metropolitana  Santiago;13112;12/11/2021;82;226;;3
+Metropolitana  Santiago;13113;12/11/2021;35;420;;37
+Metropolitana  Santiago;13114;12/11/2021;99;788;;52
+Metropolitana  Santiago;13115;12/11/2021;65;350;;13
+Metropolitana  Santiago;13116;12/11/2021;48;192;;9
+Metropolitana  Santiago;13117;12/11/2021;54;209;;3
+Metropolitana  Santiago;13118;12/11/2021;61;146;;6
+Metropolitana  Santiago;13119;12/11/2021;148;789;;26
+Metropolitana  Santiago;13120;12/11/2021;79;989;;20
+Metropolitana  Santiago;13121;12/11/2021;54;151;;3
+Metropolitana  Santiago;13122;12/11/2021;96;602;;25
+Metropolitana  Santiago;13123;12/11/2021;62;402;;12
+Metropolitana  Santiago;13124;12/11/2021;121;518;;12
+Metropolitana  Santiago;13125;12/11/2021;108;822;;18
+Metropolitana  Santiago;13126;12/11/2021;63;291;;1
+Metropolitana  Santiago;13127;12/11/2021;32;201;;6
+Metropolitana  Santiago;13128;12/11/2021;117;261;;6
+Metropolitana  Santiago;13129;12/11/2021;65;268;;6
+Metropolitana  Santiago;13130;12/11/2021;68;237;;7
+Metropolitana  Santiago;13131;12/11/2021;55;162;;3
+Metropolitana  Santiago;13132;12/11/2021;226;119;;10
+Metropolitana  Santiago;13201;12/11/2021;430;894;;38
+Metropolitana  Santiago;13202;12/11/2021;16;119;;
+Metropolitana  Santiago;13203;12/11/2021;22;33;;
+Metropolitana  Santiago;13301;12/11/2021;68;246;;7
+Metropolitana  Santiago;13302;12/11/2021;143;292;;4
+Metropolitana  Santiago;13303;12/11/2021;17;100;;
+Metropolitana  Santiago;13401;12/11/2021;197;622;;10
+Metropolitana  Santiago;13402;12/11/2021;36;371;;10
+Metropolitana  Santiago;13403;12/11/2021;21;93;;2
+Metropolitana  Santiago;13404;12/11/2021;45;137;;8
+Metropolitana  Santiago;13501;12/11/2021;32;348;;9
+Metropolitana  Santiago;13502;12/11/2021;10;17;;1
+Metropolitana  Santiago;13503;12/11/2021;18;54;;1
+Metropolitana  Santiago;13504;12/11/2021;5;24;;
 Metropolitana  Santiago;13505;12/11/2021;10;13;;
-Metropolitana  Santiago;13601;12/11/2021;34;121;;13
-Metropolitana  Santiago;13602;12/11/2021;6;75;;1
-Metropolitana  Santiago;13603;12/11/2021;12;74;;3
-Metropolitana  Santiago;13604;12/11/2021;43;340;;3
-Metropolitana  Santiago;13605;12/11/2021;38;150;;9
-" Los Ríos";14101;12/11/2021;62;122;;14
-" Los Ríos";14102;12/11/2021;2;1;;1
-" Los Ríos";14103;12/11/2021;8;7;;
-" Los Ríos";14104;12/11/2021;4;14;;
-" Los Ríos";14105;12/11/2021;4;6;;
-" Los Ríos";14106;12/11/2021;11;6;;
-" Los Ríos";14107;12/11/2021;4;8;;
-" Los Ríos";14108;12/11/2021;23;46;;
-" Los Ríos";14201;12/11/2021;15;92;;
-" Los Ríos";14202;12/11/2021;2;2;;
-" Los Ríos";14203;12/11/2021;6;4;;
-" Los Ríos";14204;12/11/2021;24;41;;3
-" Arica y Parinacota";15101;12/11/2021;126;354;;1
+Metropolitana  Santiago;13601;12/11/2021;47;179;;18
+Metropolitana  Santiago;13602;12/11/2021;18;103;;1
+Metropolitana  Santiago;13603;12/11/2021;25;110;;4
+Metropolitana  Santiago;13604;12/11/2021;59;414;;3
+Metropolitana  Santiago;13605;12/11/2021;51;202;;9
+" Los Ríos";14101;12/11/2021;108;246;;28
+" Los Ríos";14102;12/11/2021;3;4;;1
+" Los Ríos";14103;12/11/2021;21;33;;
+" Los Ríos";14104;12/11/2021;14;37;;
+" Los Ríos";14105;12/11/2021;6;15;;
+" Los Ríos";14106;12/11/2021;19;21;;1
+" Los Ríos";14107;12/11/2021;8;15;;2
+" Los Ríos";14108;12/11/2021;26;54;;
+" Los Ríos";14201;12/11/2021;21;119;;
+" Los Ríos";14202;12/11/2021;11;17;;
+" Los Ríos";14203;12/11/2021;20;9;;
+" Los Ríos";14204;12/11/2021;28;47;;4
+" Arica y Parinacota";15101;12/11/2021;222;593;;3
 " Arica y Parinacota";15201;12/11/2021;;1;;
-" Ñuble";16101;12/11/2021;50;179;;4
-" Ñuble";16102;12/11/2021;15;24;;
-" Ñuble";16103;12/11/2021;6;16;;
-" Ñuble";16104;12/11/2021;7;21;;
-" Ñuble";16105;12/11/2021;2;10;;
-" Ñuble";16106;12/11/2021;10;6;;
-" Ñuble";16107;12/11/2021;5;10;;
-" Ñuble";16108;12/11/2021;9;23;;
-" Ñuble";16109;12/11/2021;3;57;;1
-" Ñuble";16201;12/11/2021;2;7;;
+" Ñuble";16101;12/11/2021;109;337;;17
+" Ñuble";16102;12/11/2021;20;53;;1
+" Ñuble";16103;12/11/2021;7;35;;
+" Ñuble";16104;12/11/2021;7;25;;1
+" Ñuble";16105;12/11/2021;8;13;;
+" Ñuble";16106;12/11/2021;13;10;;
+" Ñuble";16107;12/11/2021;8;14;;
+" Ñuble";16108;12/11/2021;11;26;;
+" Ñuble";16109;12/11/2021;9;62;;2
+" Ñuble";16201;12/11/2021;2;14;;
 " Ñuble";16202;12/11/2021;;2;;
-" Ñuble";16203;12/11/2021;4;4;;
-" Ñuble";16204;12/11/2021;1;2;;
-" Ñuble";16205;12/11/2021;;35;;
+" Ñuble";16203;12/11/2021;5;10;;
+" Ñuble";16204;12/11/2021;3;6;;1
+" Ñuble";16205;12/11/2021;1;36;;1
 " Ñuble";16206;12/11/2021;11;14;;
-" Ñuble";16207;12/11/2021;2;3;;
-" Ñuble";16301;12/11/2021;24;86;;3
-" Ñuble";16302;12/11/2021;6;18;;
-" Ñuble";16303;12/11/2021;8;12;;
-" Ñuble";16304;12/11/2021;;3;;
-" Ñuble";16305;12/11/2021;3;30;;
+" Ñuble";16207;12/11/2021;3;9;;
+" Ñuble";16301;12/11/2021;30;109;;3
+" Ñuble";16302;12/11/2021;22;43;;
+" Ñuble";16303;12/11/2021;8;14;;
+" Ñuble";16304;12/11/2021;2;6;;
+" Ñuble";16305;12/11/2021;10;36;;
+" Tarapacá";1101;13/11/2021;45;58;;1
+" Tarapacá";1107;13/11/2021;46;69;;
+" Tarapacá";1401;13/11/2021;4;6;;
+" Tarapacá";1405;13/11/2021;1;3;;
+" Antofagasta";2101;13/11/2021;118;290;;8
+" Antofagasta";2201;13/11/2021;72;135;;2
+" Atacama";3101;13/11/2021;18;26;;4
+" Atacama";3301;13/11/2021;;1;;
+" Atacama";3303;13/11/2021;;1;;
+" Atacama";3304;13/11/2021;;1;;
+" Coquimbo";4101;13/11/2021;;11;;
+" Coquimbo";4102;13/11/2021;72;66;;2
+" Coquimbo";4303;13/11/2021;;1;;
+" Valparaíso";5101;13/11/2021;9;5;;
+" Valparaíso";5103;13/11/2021;;1;;
+" Valparaíso";5109;13/11/2021;;8;;4
+" Valparaíso";5301;13/11/2021;26;48;;4
+" Valparaíso";5302;13/11/2021;;1;;
+" Valparaíso";5502;13/11/2021;;1;;
+" Valparaíso";5601;13/11/2021;5;11;;
+" Valparaíso";5603;13/11/2021;9;6;;
+" Valparaíso";5605;13/11/2021;;4;;
+" Valparaíso";5606;13/11/2021;;1;;
+" Valparaíso";5701;13/11/2021;;2;;1
+" Valparaíso";5702;13/11/2021;1;8;;
+" Valparaíso";5704;13/11/2021;;4;;
+" Valparaíso";5801;13/11/2021;;1;;
+Libertador B. O'Higgins;6101;13/11/2021;15;46;;1
+Libertador B. O'Higgins;6102;13/11/2021;2;23;;
+Libertador B. O'Higgins;6106;13/11/2021;3;13;;
+Libertador B. O'Higgins;6107;13/11/2021;9;25;;1
+Libertador B. O'Higgins;6108;13/11/2021;17;21;;2
+Libertador B. O'Higgins;6109;13/11/2021;;1;;
+Libertador B. O'Higgins;6110;13/11/2021;;;;1
+Libertador B. O'Higgins;6115;13/11/2021;12;22;;1
+Libertador B. O'Higgins;6201;13/11/2021;;1;;
+Libertador B. O'Higgins;6203;13/11/2021;6;5;;
+Libertador B. O'Higgins;6205;13/11/2021;;1;;
+Libertador B. O'Higgins;6308;13/11/2021;;2;;
+Libertador B. O'Higgins;6310;13/11/2021;;;;1
+Maule;7101;13/11/2021;14;13;;3
+Maule;7102;13/11/2021;;1;;
+Maule;7104;13/11/2021;4;;;
+Maule;7105;13/11/2021;;2;;
+Maule;7110;13/11/2021;8;10;;
+Maule;7201;13/11/2021;5;1;;
+Maule;7301;13/11/2021;14;21;;3
+Maule;7304;13/11/2021;3;8;;
+Maule;7305;13/11/2021;1;1;;
+Maule;7406;13/11/2021;;1;;
+Maule;7407;13/11/2021;4;1;;
+Maule;7408;13/11/2021;3;3;;
+Bíobío;8101;13/11/2021;24;52;;6
+Bíobío;8102;13/11/2021;13;10;;2
+Bíobío;8103;13/11/2021;19;9;;
+Bíobío;8105;13/11/2021;;2;;
+Bíobío;8106;13/11/2021;;1;;1
+Bíobío;8108;13/11/2021;19;34;;5
+Bíobío;8110;13/11/2021;;3;;2
+Bíobío;8111;13/11/2021;;;;1
+Bíobío;8112;13/11/2021;11;10;;1
+Bíobío;8205;13/11/2021;4;13;;
+Bíobío;8301;13/11/2021;65;103;;3
+Bíobío;8305;13/11/2021;;1;;
+Bíobío;8313;13/11/2021;;1;;
+" La Araucanía";9101;13/11/2021;15;16;;1
+" La Araucanía";9105;13/11/2021;;2;;
+" La Araucanía";9108;13/11/2021;7;35;;
+" La Araucanía";9112;13/11/2021;;2;;
+" La Araucanía";9114;13/11/2021;3;5;;
+" La Araucanía";9115;13/11/2021;4;3;;
+" La Araucanía";9120;13/11/2021;4;8;;
+" La Araucanía";9201;13/11/2021;;1;;
+" La Araucanía";9208;13/11/2021;12;6;;
+" La Araucanía";9209;13/11/2021;3;1;;
+" La Araucanía";9210;13/11/2021;9;30;;
+" Los Lagos";10101;13/11/2021;29;96;;7
+" Los Lagos";10105;13/11/2021;4;1;;
+" Los Lagos";10109;13/11/2021;;2;;1
+" Los Lagos";10201;13/11/2021;16;16;;
+" Los Lagos";10202;13/11/2021;;1;;
+" Los Lagos";10205;13/11/2021;;2;;
+" Los Lagos";10208;13/11/2021;19;55;;
+" Los Lagos";10303;13/11/2021;1;1;;
+" Los Lagos";10305;13/11/2021;;2;;
+" Los Lagos";10403;13/11/2021;;1;;
+" Aisén Gral. C. Ibáñez Campo";11101;13/11/2021;12;17;;3
+" Aisén Gral. C. Ibáñez Campo";11201;13/11/2021;1;1;;
+Metropolitana  Santiago;13101;13/11/2021;74;75;;2
+Metropolitana  Santiago;13102;13/11/2021;23;9;;1
+Metropolitana  Santiago;13103;13/11/2021;36;38;;
+Metropolitana  Santiago;13104;13/11/2021;;7;;1
+Metropolitana  Santiago;13105;13/11/2021;42;46;;3
+Metropolitana  Santiago;13106;13/11/2021;2;15;;1
+Metropolitana  Santiago;13107;13/11/2021;18;84;;
+Metropolitana  Santiago;13108;13/11/2021;10;10;;3
+Metropolitana  Santiago;13109;13/11/2021;;10;;1
+Metropolitana  Santiago;13110;13/11/2021;;20;;
+Metropolitana  Santiago;13111;13/11/2021;36;48;;3
+Metropolitana  Santiago;13112;13/11/2021;;9;;
+Metropolitana  Santiago;13113;13/11/2021;;6;;1
+Metropolitana  Santiago;13114;13/11/2021;2;8;;3
+Metropolitana  Santiago;13115;13/11/2021;11;34;;2
+Metropolitana  Santiago;13116;13/11/2021;3;8;;4
+Metropolitana  Santiago;13117;13/11/2021;;9;;
+Metropolitana  Santiago;13118;13/11/2021;;4;;
+Metropolitana  Santiago;13119;13/11/2021;20;10;;16
+Metropolitana  Santiago;13120;13/11/2021;12;61;;1
+Metropolitana  Santiago;13121;13/11/2021;30;25;;1
+Metropolitana  Santiago;13122;13/11/2021;8;17;;1
+Metropolitana  Santiago;13123;13/11/2021;3;20;;1
+Metropolitana  Santiago;13124;13/11/2021;16;38;;1
+Metropolitana  Santiago;13125;13/11/2021;8;22;;
+Metropolitana  Santiago;13126;13/11/2021;7;15;;
+Metropolitana  Santiago;13127;13/11/2021;7;19;;1
+Metropolitana  Santiago;13128;13/11/2021;37;42;;1
+Metropolitana  Santiago;13129;13/11/2021;5;11;;1
+Metropolitana  Santiago;13130;13/11/2021;;3;;1
+Metropolitana  Santiago;13131;13/11/2021;32;23;;3
+Metropolitana  Santiago;13132;13/11/2021;12;28;;
+Metropolitana  Santiago;13201;13/11/2021;35;53;;5
+Metropolitana  Santiago;13202;13/11/2021;15;13;;
+Metropolitana  Santiago;13203;13/11/2021;1;9;;
+Metropolitana  Santiago;13301;13/11/2021;3;7;;
+Metropolitana  Santiago;13302;13/11/2021;22;18;;1
+Metropolitana  Santiago;13401;13/11/2021;32;51;;2
+Metropolitana  Santiago;13403;13/11/2021;;1;;
+Metropolitana  Santiago;13501;13/11/2021;23;31;;1
+Metropolitana  Santiago;13602;13/11/2021;6;6;;1
+Metropolitana  Santiago;13603;13/11/2021;;1;;
+Metropolitana  Santiago;13604;13/11/2021;;5;;
+Metropolitana  Santiago;13605;13/11/2021;;3;;
+" Los Ríos";14101;13/11/2021;22;57;;7
+" Los Ríos";14106;13/11/2021;3;2;;
+" Los Ríos";14201;13/11/2021;2;2;;
+" Los Ríos";14202;13/11/2021;;2;;
+" Arica y Parinacota";15101;13/11/2021;22;51;;
+" Ñuble";16101;13/11/2021;40;68;;6
+" Ñuble";16103;13/11/2021;;1;;
+" Ñuble";16201;13/11/2021;7;7;;2
+" Ñuble";16203;13/11/2021;2;;;
+" Ñuble";16301;13/11/2021;4;;;1
+" Ñuble";16302;13/11/2021;;9;;
+" Ñuble";16305;13/11/2021;;4;;
+" Coquimbo";4101;14/11/2021;;3;;
+" Coquimbo";4102;14/11/2021;13;16;;
+" Coquimbo";4106;14/11/2021;;1;;
+" Valparaíso";5101;14/11/2021;2;1;;
+" Valparaíso";5109;14/11/2021;;1;;
+Maule;7101;14/11/2021;;1;;
+Bíobío;8102;14/11/2021;6;6;;
+Metropolitana  Santiago;13104;14/11/2021;;1;;
+Metropolitana  Santiago;13106;14/11/2021;6;2;;1
+Metropolitana  Santiago;13120;14/11/2021;;1;;
+Metropolitana  Santiago;13123;14/11/2021;;1;;
+Metropolitana  Santiago;13124;14/11/2021;;1;;
+Metropolitana  Santiago;13125;14/11/2021;;2;;
+Metropolitana  Santiago;13302;14/11/2021;4;6;;
+Metropolitana  Santiago;13604;14/11/2021;;1;;
+" Los Ríos";14201;14/11/2021;;3;;
+" Ñuble";16101;14/11/2021;6;11;;1
+" Ñuble";16103;14/11/2021;;1;;
+" Ñuble";16106;14/11/2021;;1;;
+" Ñuble";16301;14/11/2021;;1;;
