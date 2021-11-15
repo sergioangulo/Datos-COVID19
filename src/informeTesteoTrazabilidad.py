@@ -41,15 +41,19 @@ def prod63_64_65_66_67(fte, producto):
     if '63' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Numero notificaciones')
+        df_std.to_csv(producto + '_std.csv', index=False)
     elif '64' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='BAC')
+        df_std.to_csv(producto + '_std.csv', index=False)
     elif '65' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Positividad')
+        df_std.to_csv(producto + '_std.csv', index=False)
     elif '66' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Cobertura testeo')
+        df_std.to_csv(producto + '_std.csv', index=False)
     elif '67' in producto:
         df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
                          value_name='Oportunidad notificacion')
