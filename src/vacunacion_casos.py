@@ -41,11 +41,11 @@ import os.path
 
 
 def prod89(fte, producto):
-    df_output_file = pd.read_csv(fte + 'incidencia_estado_vacunacion.csv',sep=';')
-    df_output_file['incidencia_casos'] = ((df_output_file['casos_confirmados'] / df_output_file['poblacion'] ) * 100000).astype(float)
-    df_output_file['incidencia_uci'] = ((df_output_file['casos_uci'] / df_output_file['poblacion'] ) * 100000).astype(float)
-    df_output_file['incidencia_def'] = ((df_output_file['casos_def'] / df_output_file['poblacion'] ) * 100000).astype(float)
-    df_output_file.to_csv(producto, index=False, sep=',')
+    df_output_file = pd.read_csv(fte + 'incidencia_estado_vacunacion.csv')
+    # df_output_file['incidencia_casos'] = ((df_output_file['casos_confirmados'] / df_output_file['poblacion'] ) * 100000).astype(float)
+    # df_output_file['incidencia_uci'] = ((df_output_file['casos_uci'] / df_output_file['poblacion'] ) * 100000).astype(float)
+    # df_output_file['incidencia_def'] = ((df_output_file['casos_def'] / df_output_file['poblacion'] ) * 100000).astype(float)
+    df_output_file.to_csv(producto, index=False)
 
 
 def prod90(fte, producto):
