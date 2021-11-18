@@ -18,3 +18,5 @@ Semanal
 **Nota aclaratoria 2:** Los informes de Indicadores de Testeo y Trazabilidad se han publicado a partir del 24 de Agosto 2020.
 
 **Nota aclaratoria 3:** Los datos de población provienen de las proyecciones estadísticas del INE, con base en el CENSO 2017 (para más detalles revisar https://www.ine.cl/estadisticas/sociales/demografia-y-vitales/proyecciones-de-poblacion).
+
+**Nota aclaratoria 4:** En consideración del Ord. 105/N°3857 que "informa actualización sobre acciones de seguimiento y APS en marco de la estrategia TTA", los indicadores de trazabilidad (correspondientes a los indicadores 5, 6, 7 y Razón de contactos) se presentan basados según región de asignación FONASA. Lo anterior significa que el total regional publicado podría presentar diferencias respecto al detalle a nivel comunal, debido a que el primero es presentado por región de asignación y segundo por comuna de residencia, los cuales no necesariamente coincidirán, y por tanto, no son comparables.
