@@ -10,7 +10,9 @@ Se entiende por caso confirmado la persona notificada que cumple con los criteri
 Se entiende por comuna de residencia la comuna que la persona declara como su vivienda habitual. 
 
 # Columnas y valores
-El archivo 'Casos'+ categoria +'PorComuna.csv' contiene las columnas 'Región', ‘Código Región’, 'Comuna', ‘Código comuna’, 'Población', y una serie de columnas 'SE7', 'SE8', ..., que corresponden a semanas epidemiológicas. Los valores por fila corresponden a tuplas de comunas con sus respectivos metadatos, y la cantidad de casos en las categorias: probables, no notificados o confirmados, por semana epidemiológica en cada columna 'SE...'. Todos estos valores están separados entre sí por comas (csv).
+El archivo 'Casos'+ categoria +'PorComuna.csv' contiene las columnas 'Región', ‘Código Región’, 'Comuna', ‘Código comuna’, 'Población', y una serie de columnas 'YYYYSE', que corresponden a semanas epidemiológicas del año. Los valores por fila corresponden a tuplas de comunas con sus respectivos metadatos, y la cantidad de casos en las categorias: probables, no notificados o confirmados, por semana epidemiológica en cada columna 'SE...'. Todos estos valores están separados entre sí por comas (csv).
+
+En el caso de las tablas con el sufijo Histórico_YYYY.csv, cuenta con una columna extra "publicación" que corresponde a cuando se publicaron los datos por parte de la autoridad sanitaria.
 
 # Fuente
 Informes epidemiológicos publicados periódicamente por el Ministerio de Salud de Chile. Ver en:
