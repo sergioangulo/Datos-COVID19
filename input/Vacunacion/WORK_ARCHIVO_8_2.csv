@@ -49,7 +49,7 @@ SUB_CRITERIO;CRITERIO;FECHA_INMUNIZACION;1aDOSIS1;2aDOSIS1;ÚnicaDOSIS;Refuerzo_D
 ;;11/10/2021;4;27;;
 ;;12/10/2021;233;5341;;
 ;;13/10/2021;225;3716;;
-;;14/10/2021;150;3035;;
+;;14/10/2021;150;3036;;
 ;;15/10/2021;182;1519;;
 ;;16/10/2021;13;35;;
 ;;17/10/2021;;1;;
@@ -89,7 +89,8 @@ SUB_CRITERIO;CRITERIO;FECHA_INMUNIZACION;1aDOSIS1;2aDOSIS1;ÚnicaDOSIS;Refuerzo_D
 ;;20/11/2021;7;16;;
 ;;21/11/2021;;2;;
 ;;22/11/2021;34;133;;
-;;23/11/2021;19;86;;
+;;23/11/2021;39;146;;
+;;24/11/2021;16;65;;
 Adm. apoyo no clinico FFAA y de orden;Personal de salud;08/02/2021;1;;;
 Adm. apoyo no clinico FFAA y de orden;Personal de salud;08/03/2021;;1;;
 Adm. apoyo no clinico FFAA y de orden;Personal de salud;19/04/2021;2;;;
@@ -168,6 +169,7 @@ Adolescentes entre 12 a 17 años;Población Sana;10/02/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;11/02/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;13/02/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;17/02/2021;1;;;
+Adolescentes entre 12 a 17 años;Población Sana;02/03/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;04/03/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;08/03/2021;;1;;
 Adolescentes entre 12 a 17 años;Población Sana;10/03/2021;1;1;;
@@ -177,22 +179,22 @@ Adolescentes entre 12 a 17 años;Población Sana;13/03/2021;;1;;
 Adolescentes entre 12 a 17 años;Población Sana;15/03/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;16/03/2021;3;;;
 Adolescentes entre 12 a 17 años;Población Sana;17/03/2021;2;;;
-Adolescentes entre 12 a 17 años;Población Sana;19/03/2021;8;;;
+Adolescentes entre 12 a 17 años;Población Sana;19/03/2021;9;;;
 Adolescentes entre 12 a 17 años;Población Sana;22/03/2021;2;;;
 Adolescentes entre 12 a 17 años;Población Sana;23/03/2021;2;;;
 Adolescentes entre 12 a 17 años;Población Sana;26/03/2021;1;;;
-Adolescentes entre 12 a 17 años;Población Sana;30/03/2021;1;;;
+Adolescentes entre 12 a 17 años;Población Sana;30/03/2021;1;1;;
 Adolescentes entre 12 a 17 años;Población Sana;31/03/2021;1;;;
 Adolescentes entre 12 a 17 años;Población Sana;05/04/2021;3;1;;
 Adolescentes entre 12 a 17 años;Población Sana;06/04/2021;8;;;
-Adolescentes entre 12 a 17 años;Población Sana;07/04/2021;3;2;;
+Adolescentes entre 12 a 17 años;Población Sana;07/04/2021;2;2;;
 Adolescentes entre 12 a 17 años;Población Sana;08/04/2021;3;;;
 Adolescentes entre 12 a 17 años;Población Sana;09/04/2021;1;1;;
 Adolescentes entre 12 a 17 años;Población Sana;12/04/2021;3;;;
 Adolescentes entre 12 a 17 años;Población Sana;13/04/2021;;1;;
 Adolescentes entre 12 a 17 años;Población Sana;14/04/2021;2;;;
 Adolescentes entre 12 a 17 años;Población Sana;15/04/2021;1;1;;
-Adolescentes entre 12 a 17 años;Población Sana;16/04/2021;1;6;;
+Adolescentes entre 12 a 17 años;Población Sana;16/04/2021;1;7;;
 Adolescentes entre 12 a 17 años;Población Sana;19/04/2021;1;1;;
 Adolescentes entre 12 a 17 años;Población Sana;20/04/2021;;1;;
 Adolescentes entre 12 a 17 años;Población Sana;22/04/2021;1;;;
@@ -296,14 +298,14 @@ Adolescentes entre 12 a 17 años;Población Sana;15/08/2021;1;7;;
 Adolescentes entre 12 a 17 años;Población Sana;16/08/2021;95;2025;;
 Adolescentes entre 12 a 17 años;Población Sana;17/08/2021;176;2028;;
 Adolescentes entre 12 a 17 años;Población Sana;18/08/2021;124;47985;;3
-Adolescentes entre 12 a 17 años;Población Sana;19/08/2021;154;38157;;2
+Adolescentes entre 12 a 17 años;Población Sana;19/08/2021;154;38157;;3
 Adolescentes entre 12 a 17 años;Población Sana;20/08/2021;109;34192;;4
 Adolescentes entre 12 a 17 años;Población Sana;21/08/2021;14;613;;
 Adolescentes entre 12 a 17 años;Población Sana;22/08/2021;3;37;;
 Adolescentes entre 12 a 17 años;Población Sana;23/08/2021;69;1652;;
 Adolescentes entre 12 a 17 años;Población Sana;24/08/2021;103;1236;;2
 Adolescentes entre 12 a 17 años;Población Sana;25/08/2021;103;1979;;2
-Adolescentes entre 12 a 17 años;Población Sana;26/08/2021;140;57126;;2
+Adolescentes entre 12 a 17 años;Población Sana;26/08/2021;140;57127;;2
 Adolescentes entre 12 a 17 años;Población Sana;27/08/2021;109;35864;;2
 Adolescentes entre 12 a 17 años;Población Sana;28/08/2021;43;407;;1
 Adolescentes entre 12 a 17 años;Población Sana;29/08/2021;2;27;;
@@ -311,87 +313,88 @@ Adolescentes entre 12 a 17 años;Población Sana;30/08/2021;117;872;;
 Adolescentes entre 12 a 17 años;Población Sana;31/08/2021;117;569;;
 Adolescentes entre 12 a 17 años;Población Sana;01/09/2021;126;11548;;1
 Adolescentes entre 12 a 17 años;Población Sana;02/09/2021;109;8638;;
-Adolescentes entre 12 a 17 años;Población Sana;03/09/2021;85;6313;;
+Adolescentes entre 12 a 17 años;Población Sana;03/09/2021;85;6314;;
 Adolescentes entre 12 a 17 años;Población Sana;04/09/2021;4;88;;
 Adolescentes entre 12 a 17 años;Población Sana;05/09/2021;2;6;;
-Adolescentes entre 12 a 17 años;Población Sana;06/09/2021;68;270;;1
+Adolescentes entre 12 a 17 años;Población Sana;06/09/2021;69;270;;1
 Adolescentes entre 12 a 17 años;Población Sana;07/09/2021;64;292;;
 Adolescentes entre 12 a 17 años;Población Sana;08/09/2021;86;3693;;1
 Adolescentes entre 12 a 17 años;Población Sana;09/09/2021;66;2708;;1
 Adolescentes entre 12 a 17 años;Población Sana;10/09/2021;63;2270;;1
 Adolescentes entre 12 a 17 años;Población Sana;11/09/2021;3;46;;
 Adolescentes entre 12 a 17 años;Población Sana;12/09/2021;1;3;;
-Adolescentes entre 12 a 17 años;Población Sana;13/09/2021;48718;1377;;
+Adolescentes entre 12 a 17 años;Población Sana;13/09/2021;48719;1377;;
 Adolescentes entre 12 a 17 años;Población Sana;14/09/2021;35037;1447;;1
 Adolescentes entre 12 a 17 años;Población Sana;15/09/2021;43255;1908;;1
 Adolescentes entre 12 a 17 años;Población Sana;16/09/2021;18730;1073;;1
 Adolescentes entre 12 a 17 años;Población Sana;17/09/2021;28;12;;
 Adolescentes entre 12 a 17 años;Población Sana;18/09/2021;2;;;
-Adolescentes entre 12 a 17 años;Población Sana;20/09/2021;53387;853;;1
+Adolescentes entre 12 a 17 años;Población Sana;20/09/2021;53386;853;;1
 Adolescentes entre 12 a 17 años;Población Sana;21/09/2021;49523;913;;
-Adolescentes entre 12 a 17 años;Población Sana;22/09/2021;63196;916;;
-Adolescentes entre 12 a 17 años;Población Sana;23/09/2021;41265;812;;
+Adolescentes entre 12 a 17 años;Población Sana;22/09/2021;63197;916;;
+Adolescentes entre 12 a 17 años;Población Sana;23/09/2021;41267;812;;
 Adolescentes entre 12 a 17 años;Población Sana;24/09/2021;61072;1240;;3
 Adolescentes entre 12 a 17 años;Población Sana;25/09/2021;428;41;;
 Adolescentes entre 12 a 17 años;Población Sana;26/09/2021;31;;;
 Adolescentes entre 12 a 17 años;Población Sana;27/09/2021;22542;707;;
 Adolescentes entre 12 a 17 años;Población Sana;28/09/2021;22816;850;;
-Adolescentes entre 12 a 17 años;Población Sana;29/09/2021;21609;823;;
+Adolescentes entre 12 a 17 años;Población Sana;29/09/2021;21610;823;;
 Adolescentes entre 12 a 17 años;Población Sana;30/09/2021;19740;730;;
 Adolescentes entre 12 a 17 años;Población Sana;01/10/2021;18398;743;;2
 Adolescentes entre 12 a 17 años;Población Sana;02/10/2021;758;36;;
 Adolescentes entre 12 a 17 años;Población Sana;03/10/2021;98;7;;
 Adolescentes entre 12 a 17 años;Población Sana;04/10/2021;12071;597;;
-Adolescentes entre 12 a 17 años;Población Sana;05/10/2021;11455;487;;
+Adolescentes entre 12 a 17 años;Población Sana;05/10/2021;11456;487;;
 Adolescentes entre 12 a 17 años;Población Sana;06/10/2021;10382;489;;
 Adolescentes entre 12 a 17 años;Población Sana;07/10/2021;9512;526;;
 Adolescentes entre 12 a 17 años;Población Sana;08/10/2021;8648;805;;2
 Adolescentes entre 12 a 17 años;Población Sana;09/10/2021;268;47;;
 Adolescentes entre 12 a 17 años;Población Sana;10/10/2021;11;;;
 Adolescentes entre 12 a 17 años;Población Sana;11/10/2021;79;165;;
-Adolescentes entre 12 a 17 años;Población Sana;12/10/2021;7355;45030;;
+Adolescentes entre 12 a 17 años;Población Sana;12/10/2021;7354;45032;;
 Adolescentes entre 12 a 17 años;Población Sana;13/10/2021;7887;39136;;1
-Adolescentes entre 12 a 17 años;Población Sana;14/10/2021;7175;20912;;1
+Adolescentes entre 12 a 17 años;Población Sana;14/10/2021;7175;20913;;1
 Adolescentes entre 12 a 17 años;Población Sana;15/10/2021;6242;11169;;1
 Adolescentes entre 12 a 17 años;Población Sana;16/10/2021;250;184;;
 Adolescentes entre 12 a 17 años;Población Sana;17/10/2021;10;14;;
-Adolescentes entre 12 a 17 años;Población Sana;18/10/2021;5024;35857;;2
-Adolescentes entre 12 a 17 años;Población Sana;19/10/2021;6040;41665;;2
-Adolescentes entre 12 a 17 años;Población Sana;20/10/2021;5145;50482;;
-Adolescentes entre 12 a 17 años;Población Sana;21/10/2021;5178;37722;;4
+Adolescentes entre 12 a 17 años;Población Sana;18/10/2021;5024;35856;;2
+Adolescentes entre 12 a 17 años;Población Sana;19/10/2021;6038;41665;;2
+Adolescentes entre 12 a 17 años;Población Sana;20/10/2021;5147;50481;;
+Adolescentes entre 12 a 17 años;Población Sana;21/10/2021;5178;37724;;4
 Adolescentes entre 12 a 17 años;Población Sana;22/10/2021;4443;45088;;
-Adolescentes entre 12 a 17 años;Población Sana;23/10/2021;208;877;;
+Adolescentes entre 12 a 17 años;Población Sana;23/10/2021;209;877;;
 Adolescentes entre 12 a 17 años;Población Sana;24/10/2021;13;36;;
-Adolescentes entre 12 a 17 años;Población Sana;25/10/2021;4713;27918;;1
-Adolescentes entre 12 a 17 años;Población Sana;26/10/2021;4809;24709;;3
-Adolescentes entre 12 a 17 años;Población Sana;27/10/2021;4723;23213;;4
+Adolescentes entre 12 a 17 años;Población Sana;25/10/2021;4712;27918;;1
+Adolescentes entre 12 a 17 años;Población Sana;26/10/2021;4810;24709;;3
+Adolescentes entre 12 a 17 años;Población Sana;27/10/2021;4723;23219;;4
 Adolescentes entre 12 a 17 años;Población Sana;28/10/2021;4442;21700;;3
-Adolescentes entre 12 a 17 años;Población Sana;29/10/2021;4031;19616;;11
+Adolescentes entre 12 a 17 años;Población Sana;29/10/2021;4031;19617;;11
 Adolescentes entre 12 a 17 años;Población Sana;30/10/2021;385;967;;1
 Adolescentes entre 12 a 17 años;Población Sana;31/10/2021;51;89;;
 Adolescentes entre 12 a 17 años;Población Sana;01/11/2021;32;85;;1
-Adolescentes entre 12 a 17 años;Población Sana;02/11/2021;4133;16806;;1
-Adolescentes entre 12 a 17 años;Población Sana;03/11/2021;4407;15998;;4
+Adolescentes entre 12 a 17 años;Población Sana;02/11/2021;4132;16809;;1
+Adolescentes entre 12 a 17 años;Población Sana;03/11/2021;4407;15997;;4
 Adolescentes entre 12 a 17 años;Población Sana;04/11/2021;4325;14630;;3
-Adolescentes entre 12 a 17 años;Población Sana;05/11/2021;3951;13553;;9
+Adolescentes entre 12 a 17 años;Población Sana;05/11/2021;3951;13554;;9
 Adolescentes entre 12 a 17 años;Población Sana;06/11/2021;417;898;;1
 Adolescentes entre 12 a 17 años;Población Sana;07/11/2021;51;52;;
 Adolescentes entre 12 a 17 años;Población Sana;08/11/2021;3867;7845;;8
-Adolescentes entre 12 a 17 años;Población Sana;09/11/2021;3568;9619;;5
+Adolescentes entre 12 a 17 años;Población Sana;09/11/2021;3567;9619;;5
 Adolescentes entre 12 a 17 años;Población Sana;10/11/2021;3144;9389;;2
 Adolescentes entre 12 a 17 años;Población Sana;11/11/2021;2942;9232;;4
 Adolescentes entre 12 a 17 años;Población Sana;12/11/2021;2883;8201;;1
 Adolescentes entre 12 a 17 años;Población Sana;13/11/2021;410;728;;
 Adolescentes entre 12 a 17 años;Población Sana;14/11/2021;30;51;;
 Adolescentes entre 12 a 17 años;Población Sana;15/11/2021;3082;7274;;4
-Adolescentes entre 12 a 17 años;Población Sana;16/11/2021;2732;7079;;3
+Adolescentes entre 12 a 17 años;Población Sana;16/11/2021;2732;7106;;3
 Adolescentes entre 12 a 17 años;Población Sana;17/11/2021;2411;6262;;4
-Adolescentes entre 12 a 17 años;Población Sana;18/11/2021;2010;5850;;4
+Adolescentes entre 12 a 17 años;Población Sana;18/11/2021;2014;5851;;4
 Adolescentes entre 12 a 17 años;Población Sana;19/11/2021;2003;5033;;3
-Adolescentes entre 12 a 17 años;Población Sana;20/11/2021;230;399;;2
+Adolescentes entre 12 a 17 años;Población Sana;20/11/2021;230;400;;2
 Adolescentes entre 12 a 17 años;Población Sana;21/11/2021;17;23;;
-Adolescentes entre 12 a 17 años;Población Sana;22/11/2021;2053;4840;;16
-Adolescentes entre 12 a 17 años;Población Sana;23/11/2021;1024;2982;;4
+Adolescentes entre 12 a 17 años;Población Sana;22/11/2021;2058;4855;;16
+Adolescentes entre 12 a 17 años;Población Sana;23/11/2021;1789;5081;;5
+Adolescentes entre 12 a 17 años;Población Sana;24/11/2021;866;2726;;3
 Alumnos en práctica sector público;Personal de salud;03/02/2021;5;;;
 Alumnos en práctica sector público;Personal de salud;05/02/2021;5;;;
 Alumnos en práctica sector público;Personal de salud;08/02/2021;3;;;
@@ -632,7 +635,7 @@ Atencion directa a la Ciudadanía;Personas Servicios esenciales del estado;17/11/
 Atencion directa a la Ciudadanía;Personas Servicios esenciales del estado;18/11/2021;;;;2
 Atencion directa a la Ciudadanía;Personas Servicios esenciales del estado;19/11/2021;;;;4
 Atencion directa a la Ciudadanía;Personas Servicios esenciales del estado;20/11/2021;;;;1
-Atencion directa a la Ciudadanía;Personas Servicios esenciales del estado;23/11/2021;;;;1
+Atencion directa a la Ciudadanía;Personas Servicios esenciales del estado;23/11/2021;;;;4
 Carabineros- PDI;Personas Servicios esenciales del estado;09/02/2021;3;;;
 Carabineros- PDI;Personas Servicios esenciales del estado;11/02/2021;1;;;
 Carabineros- PDI;Personas Servicios esenciales del estado;15/02/2021;4;;;
@@ -797,7 +800,8 @@ Embarazadas;Población vulnerable;17/11/2021;5;3;;
 Embarazadas;Población vulnerable;18/11/2021;3;6;;
 Embarazadas;Población vulnerable;19/11/2021;1;4;;1
 Embarazadas;Población vulnerable;22/11/2021;1;3;;
-Embarazadas;Población vulnerable;23/11/2021;2;1;;
+Embarazadas;Población vulnerable;23/11/2021;3;1;;
+Embarazadas;Población vulnerable;24/11/2021;2;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;12/02/2021;1;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;15/02/2021;1;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;16/02/2021;1;;;
@@ -807,7 +811,7 @@ Enfermos crónicos desde los 18 a 59 años;Población vulnerable;25/02/2021;6;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;26/02/2021;21;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;27/02/2021;5;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;01/03/2021;57;;;
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;02/03/2021;81;;;
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;02/03/2021;80;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;03/03/2021;53;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;04/03/2021;35;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;05/03/2021;15;;;
@@ -821,7 +825,7 @@ Enfermos crónicos desde los 18 a 59 años;Población vulnerable;15/03/2021;137;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;16/03/2021;301;1;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;17/03/2021;464;1;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;18/03/2021;813;5;;
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;19/03/2021;3897;11;;
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;19/03/2021;3896;11;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;20/03/2021;38;1;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;21/03/2021;9;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;22/03/2021;2648;49;;
@@ -831,10 +835,10 @@ Enfermos crónicos desde los 18 a 59 años;Población vulnerable;25/03/2021;837;7;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;26/03/2021;539;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;27/03/2021;37;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;29/03/2021;424;10;;
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;30/03/2021;630;58;;
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;30/03/2021;630;57;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;31/03/2021;460;52;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;01/04/2021;382;34;;
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;05/04/2021;375;59;;
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;05/04/2021;376;59;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;06/04/2021;523;73;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;07/04/2021;429;76;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;08/04/2021;393;61;;
@@ -862,7 +866,7 @@ Enfermos crónicos desde los 18 a 59 años;Población vulnerable;30/04/2021;202;130
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;01/05/2021;5;3;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;02/05/2021;2;;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;03/05/2021;83;326;;
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;04/05/2021;106;468;;
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;04/05/2021;106;469;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;05/05/2021;80;419;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;06/05/2021;92;386;;
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;07/05/2021;176;330;;
@@ -958,7 +962,7 @@ Enfermos crónicos desde los 18 a 59 años;Población vulnerable;13/08/2021;;1;;10
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;16/08/2021;;;;13
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;17/08/2021;;1;;13
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;18/08/2021;;1;;17
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;19/08/2021;;;;19
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;19/08/2021;;;;18
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;20/08/2021;;2;;18
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;23/08/2021;;;;7
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;24/08/2021;;;;5
@@ -1031,11 +1035,12 @@ Enfermos crónicos desde los 18 a 59 años;Población vulnerable;15/11/2021;;;;396
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;16/11/2021;;;;346
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;17/11/2021;;1;;299
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;18/11/2021;;;;281
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;19/11/2021;;;;666
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;19/11/2021;;;;667
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;20/11/2021;;;;96
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;21/11/2021;;;;10
 Enfermos crónicos desde los 18 a 59 años;Población vulnerable;22/11/2021;;1;;309
-Enfermos crónicos desde los 18 a 59 años;Población vulnerable;23/11/2021;;;;161
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;23/11/2021;;1;;274
+Enfermos crónicos desde los 18 a 59 años;Población vulnerable;24/11/2021;;;;124
 Enfermos crónicos desde los 6 a 17 años;Población vulnerable;08/03/2021;1;;;
 Enfermos crónicos desde los 6 a 17 años;Población vulnerable;16/03/2021;1;;;
 Enfermos crónicos desde los 6 a 17 años;Población vulnerable;18/03/2021;1;;;
@@ -1227,7 +1232,8 @@ Enfermos crónicos desde los 6 a 17 años;Población vulnerable;19/11/2021;11;27;;9
 Enfermos crónicos desde los 6 a 17 años;Población vulnerable;20/11/2021;2;2;;1
 Enfermos crónicos desde los 6 a 17 años;Población vulnerable;21/11/2021;;1;;
 Enfermos crónicos desde los 6 a 17 años;Población vulnerable;22/11/2021;9;26;;12
-Enfermos crónicos desde los 6 a 17 años;Población vulnerable;23/11/2021;8;13;;8
+Enfermos crónicos desde los 6 a 17 años;Población vulnerable;23/11/2021;11;24;;12
+Enfermos crónicos desde los 6 a 17 años;Población vulnerable;24/11/2021;5;17;;8
 Escolares entre 6 a 11 años;Población Sana;13/02/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;12/04/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;14/04/2021;2;;;
@@ -1243,13 +1249,12 @@ Escolares entre 6 a 11 años;Población Sana;06/07/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;10/07/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;12/07/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;14/07/2021;1;;;
-Escolares entre 6 a 11 años;Población Sana;15/07/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;19/07/2021;3;;;
 Escolares entre 6 a 11 años;Población Sana;22/07/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;26/07/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;28/07/2021;4;;;
 Escolares entre 6 a 11 años;Población Sana;03/08/2021;1;;;
-Escolares entre 6 a 11 años;Población Sana;05/08/2021;1;1;;
+Escolares entre 6 a 11 años;Población Sana;05/08/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;11/08/2021;;1;;
 Escolares entre 6 a 11 años;Población Sana;12/08/2021;;1;;
 Escolares entre 6 a 11 años;Población Sana;18/08/2021;;1;;
@@ -1258,7 +1263,7 @@ Escolares entre 6 a 11 años;Población Sana;28/08/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;29/08/2021;2;;;
 Escolares entre 6 a 11 años;Población Sana;01/09/2021;23;;;
 Escolares entre 6 a 11 años;Población Sana;02/09/2021;;1;;
-Escolares entre 6 a 11 años;Población Sana;06/09/2021;4;;;
+Escolares entre 6 a 11 años;Población Sana;06/09/2021;5;;;
 Escolares entre 6 a 11 años;Población Sana;09/09/2021;2;;;
 Escolares entre 6 a 11 años;Población Sana;10/09/2021;1;;;
 Escolares entre 6 a 11 años;Población Sana;13/09/2021;837;;;
@@ -1275,62 +1280,63 @@ Escolares entre 6 a 11 años;Población Sana;25/09/2021;64;;;
 Escolares entre 6 a 11 años;Población Sana;26/09/2021;99;;;
 Escolares entre 6 a 11 años;Población Sana;27/09/2021;65654;;;
 Escolares entre 6 a 11 años;Población Sana;28/09/2021;85683;5;;
-Escolares entre 6 a 11 años;Población Sana;29/09/2021;90992;5;;
+Escolares entre 6 a 11 años;Población Sana;29/09/2021;90993;5;;
 Escolares entre 6 a 11 años;Población Sana;30/09/2021;85174;11;;
-Escolares entre 6 a 11 años;Población Sana;01/10/2021;76900;1;;
+Escolares entre 6 a 11 años;Población Sana;01/10/2021;76901;1;;
 Escolares entre 6 a 11 años;Población Sana;02/10/2021;4659;;;
 Escolares entre 6 a 11 años;Población Sana;03/10/2021;142;;;
-Escolares entre 6 a 11 años;Población Sana;04/10/2021;59853;4;;
-Escolares entre 6 a 11 años;Población Sana;05/10/2021;55459;;;
+Escolares entre 6 a 11 años;Población Sana;04/10/2021;59855;4;;
+Escolares entre 6 a 11 años;Población Sana;05/10/2021;55460;;;
 Escolares entre 6 a 11 años;Población Sana;06/10/2021;50981;;;
 Escolares entre 6 a 11 años;Población Sana;07/10/2021;47136;8;;
 Escolares entre 6 a 11 años;Población Sana;08/10/2021;39096;11;;
 Escolares entre 6 a 11 años;Población Sana;09/10/2021;1452;3;;
 Escolares entre 6 a 11 años;Población Sana;10/10/2021;40;;;
 Escolares entre 6 a 11 años;Población Sana;11/10/2021;343;1;;
-Escolares entre 6 a 11 años;Población Sana;12/10/2021;41633;965;;
+Escolares entre 6 a 11 años;Población Sana;12/10/2021;41632;965;;
 Escolares entre 6 a 11 años;Población Sana;13/10/2021;42412;742;;
-Escolares entre 6 a 11 años;Población Sana;14/10/2021;35396;523;;
+Escolares entre 6 a 11 años;Población Sana;14/10/2021;35397;523;;
 Escolares entre 6 a 11 años;Población Sana;15/10/2021;27082;287;;
 Escolares entre 6 a 11 años;Población Sana;16/10/2021;1255;3;;
 Escolares entre 6 a 11 años;Población Sana;17/10/2021;59;3;;
 Escolares entre 6 a 11 años;Población Sana;18/10/2021;26820;563;;
 Escolares entre 6 a 11 años;Población Sana;19/10/2021;31389;742;;
-Escolares entre 6 a 11 años;Población Sana;20/10/2021;28113;725;;
-Escolares entre 6 a 11 años;Población Sana;21/10/2021;24713;861;;
-Escolares entre 6 a 11 años;Población Sana;22/10/2021;19548;1232;;
+Escolares entre 6 a 11 años;Población Sana;20/10/2021;28114;725;;
+Escolares entre 6 a 11 años;Población Sana;21/10/2021;24716;861;;
+Escolares entre 6 a 11 años;Población Sana;22/10/2021;19548;1233;;
 Escolares entre 6 a 11 años;Población Sana;23/10/2021;894;108;;
 Escolares entre 6 a 11 años;Población Sana;24/10/2021;74;5;;
-Escolares entre 6 a 11 años;Población Sana;25/10/2021;21486;39450;;
-Escolares entre 6 a 11 años;Población Sana;26/10/2021;19457;57583;;
-Escolares entre 6 a 11 años;Población Sana;27/10/2021;19130;67098;;
-Escolares entre 6 a 11 años;Población Sana;28/10/2021;17255;67605;;
+Escolares entre 6 a 11 años;Población Sana;25/10/2021;21488;39450;;
+Escolares entre 6 a 11 años;Población Sana;26/10/2021;19459;57582;;
+Escolares entre 6 a 11 años;Población Sana;27/10/2021;19132;67117;;
+Escolares entre 6 a 11 años;Población Sana;28/10/2021;17256;67605;;
 Escolares entre 6 a 11 años;Población Sana;29/10/2021;13525;60967;;
 Escolares entre 6 a 11 años;Población Sana;30/10/2021;1143;2620;;
 Escolares entre 6 a 11 años;Población Sana;31/10/2021;125;111;;
 Escolares entre 6 a 11 años;Población Sana;01/11/2021;59;304;;
-Escolares entre 6 a 11 años;Población Sana;02/11/2021;12467;62728;;
+Escolares entre 6 a 11 años;Población Sana;02/11/2021;12474;62732;;
 Escolares entre 6 a 11 años;Población Sana;03/11/2021;13302;60019;;
 Escolares entre 6 a 11 años;Población Sana;04/11/2021;12955;55625;;
-Escolares entre 6 a 11 años;Población Sana;05/11/2021;12268;47066;;
+Escolares entre 6 a 11 años;Población Sana;05/11/2021;12268;47067;;
 Escolares entre 6 a 11 años;Población Sana;06/11/2021;1311;2481;;
 Escolares entre 6 a 11 años;Población Sana;07/11/2021;56;85;;
 Escolares entre 6 a 11 años;Población Sana;08/11/2021;10389;26899;;
-Escolares entre 6 a 11 años;Población Sana;09/11/2021;10308;38919;;1
+Escolares entre 6 a 11 años;Población Sana;09/11/2021;10308;38918;;1
 Escolares entre 6 a 11 años;Población Sana;10/11/2021;9152;38121;;
-Escolares entre 6 a 11 años;Población Sana;11/11/2021;8161;36285;;
+Escolares entre 6 a 11 años;Población Sana;11/11/2021;8161;36286;;
 Escolares entre 6 a 11 años;Población Sana;12/11/2021;8233;31110;;
 Escolares entre 6 a 11 años;Población Sana;13/11/2021;1128;1980;;
 Escolares entre 6 a 11 años;Población Sana;14/11/2021;61;99;;
 Escolares entre 6 a 11 años;Población Sana;15/11/2021;7891;28592;;
-Escolares entre 6 a 11 años;Población Sana;16/11/2021;7623;29515;;1
-Escolares entre 6 a 11 años;Población Sana;17/11/2021;6670;27892;;
-Escolares entre 6 a 11 años;Población Sana;18/11/2021;5819;23763;;
-Escolares entre 6 a 11 años;Población Sana;19/11/2021;5218;19475;;
-Escolares entre 6 a 11 años;Población Sana;20/11/2021;557;1079;;
+Escolares entre 6 a 11 años;Población Sana;16/11/2021;7623;29535;;1
+Escolares entre 6 a 11 años;Población Sana;17/11/2021;6669;27892;;
+Escolares entre 6 a 11 años;Población Sana;18/11/2021;5819;23765;;
+Escolares entre 6 a 11 años;Población Sana;19/11/2021;5220;19477;;
+Escolares entre 6 a 11 años;Población Sana;20/11/2021;557;1080;;
 Escolares entre 6 a 11 años;Población Sana;21/11/2021;44;51;;
-Escolares entre 6 a 11 años;Población Sana;22/11/2021;4856;17710;;
-Escolares entre 6 a 11 años;Población Sana;23/11/2021;2828;13833;;
+Escolares entre 6 a 11 años;Población Sana;22/11/2021;4871;17723;;
+Escolares entre 6 a 11 años;Población Sana;23/11/2021;5025;20408;;
+Escolares entre 6 a 11 años;Población Sana;24/11/2021;2403;12249;;
 Establecimientos de Larga Estadia de Adultos Mayores (ELEAM);Personas en centros cerrados;03/02/2021;3;;;
 Establecimientos de Larga Estadia de Adultos Mayores (ELEAM);Personas en centros cerrados;04/02/2021;1;;;
 Establecimientos de Larga Estadia de Adultos Mayores (ELEAM);Personas en centros cerrados;05/02/2021;1;;;
@@ -1505,7 +1511,8 @@ Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;18/11/202
 Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;19/11/2021;;;;32
 Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;20/11/2021;;;;4
 Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;22/11/2021;;;;17
-Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;23/11/2021;;;;6
+Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;23/11/2021;;;;12
+Estrategias Capullo para niños(as) y adolescentes;Población vulnerable;24/11/2021;;;;2
 FFAA y de orden;Personal de salud;27/02/2021;2;;;
 FFAA y de orden;Personal de salud;15/03/2021;1;;;
 FFAA y de orden;Personal de salud;20/03/2021;;2;;
@@ -1799,7 +1806,8 @@ Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;18/11/20
 Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;19/11/2021;2;2;;
 Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;20/11/2021;1;;;
 Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;22/11/2021;2;6;;
-Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;23/11/2021;4;;;
+Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;23/11/2021;6;3;;
+Instituciones de Salud Mental 12 a 17 años;Personas en centros cerrados;24/11/2021;3;7;;
 P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;08/02/2021;1;;;
 P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;10/02/2021;2;;;
 P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;11/02/2021;2;;;
@@ -1873,6 +1881,7 @@ P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crític
 P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;17/11/2021;;;;1
 P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;19/11/2021;;;;1
 P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;22/11/2021;;;;1
+P. funciones en ONEMI, CONAF, Bomberos;Personas Servicios infraestructura crítica;24/11/2021;;;;2
 P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;10/02/2021;1;;;
 P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;12/02/2021;1;;;
 P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;15/02/2021;1;;;
@@ -1963,6 +1972,8 @@ P. funciones en empresas de servicios básicos;Personas Servicios infraestructura
 P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;19/11/2021;;;;5
 P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;20/11/2021;;;;1
 P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;22/11/2021;;;;1
+P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;23/11/2021;;;;1
+P. funciones en empresas de servicios básicos;Personas Servicios infraestructura crítica;24/11/2021;;;;1
 P. funciones en empresas de transporte de personas;Personas Servicios infraestructura crítica;09/03/2021;1;;;
 P. funciones en empresas de transporte de personas;Personas Servicios infraestructura crítica;15/03/2021;2;;;
 P. funciones en empresas de transporte de personas;Personas Servicios infraestructura crítica;18/03/2021;2;;;
@@ -2070,6 +2081,8 @@ Paciente inmunocomprometido;Población vulnerable;15/11/2021;1;;;
 Paciente inmunocomprometido;Población vulnerable;18/11/2021;;1;;
 Paciente inmunocomprometido;Población vulnerable;19/11/2021;;;;1
 Paciente inmunocomprometido;Población vulnerable;22/11/2021;;1;;
+Paciente inmunocomprometido;Población vulnerable;23/11/2021;;1;;
+Paciente inmunocomprometido;Población vulnerable;24/11/2021;1;;;
 Personas mayores de 60 años;Población vulnerable;09/02/2021;1;;;
 Personas mayores de 60 años;Población vulnerable;08/03/2021;;1;;
 Personas mayores de 60 años;Población vulnerable;05/04/2021;1;;;
@@ -2100,7 +2113,7 @@ Población entre 18 a 39 años;Población Sana;15/03/2021;18;1;;
 Población entre 18 a 39 años;Población Sana;16/03/2021;21;;;
 Población entre 18 a 39 años;Población Sana;17/03/2021;20;1;;
 Población entre 18 a 39 años;Población Sana;18/03/2021;50;;;
-Población entre 18 a 39 años;Población Sana;19/03/2021;172;1;;
+Población entre 18 a 39 años;Población Sana;19/03/2021;171;1;;
 Población entre 18 a 39 años;Población Sana;20/03/2021;4;;;
 Población entre 18 a 39 años;Población Sana;21/03/2021;1;;;
 Población entre 18 a 39 años;Población Sana;22/03/2021;165;1;;
@@ -2126,7 +2139,7 @@ Población entre 18 a 39 años;Población Sana;12/04/2021;91;19;;
 Población entre 18 a 39 años;Población Sana;13/04/2021;84;14;;
 Población entre 18 a 39 años;Población Sana;14/04/2021;105;22;;
 Población entre 18 a 39 años;Población Sana;15/04/2021;255;48;;
-Población entre 18 a 39 años;Población Sana;16/04/2021;135;134;;
+Población entre 18 a 39 años;Población Sana;16/04/2021;135;133;;
 Población entre 18 a 39 años;Población Sana;17/04/2021;28;9;;
 Población entre 18 a 39 años;Población Sana;18/04/2021;5;1;;
 Población entre 18 a 39 años;Población Sana;19/04/2021;30;136;;
@@ -2151,7 +2164,7 @@ Población entre 18 a 39 años;Población Sana;09/05/2021;1;;;
 Población entre 18 a 39 años;Población Sana;10/05/2021;24;83;;
 Población entre 18 a 39 años;Población Sana;11/05/2021;37;130;;
 Población entre 18 a 39 años;Población Sana;12/05/2021;26;102;;
-Población entre 18 a 39 años;Población Sana;13/05/2021;32;225;;
+Población entre 18 a 39 años;Población Sana;13/05/2021;31;225;;
 Población entre 18 a 39 años;Población Sana;14/05/2021;111;111;;
 Población entre 18 a 39 años;Población Sana;15/05/2021;8;1;;
 Población entre 18 a 39 años;Población Sana;17/05/2021;56;65;;
@@ -2178,7 +2191,7 @@ Población entre 18 a 39 años;Población Sana;06/06/2021;1;;;
 Población entre 18 a 39 años;Población Sana;07/06/2021;89;47;;
 Población entre 18 a 39 años;Población Sana;08/06/2021;181;69;;
 Población entre 18 a 39 años;Población Sana;09/06/2021;264;37;;
-Población entre 18 a 39 años;Población Sana;10/06/2021;157;41;;
+Población entre 18 a 39 años;Población Sana;10/06/2021;157;40;;
 Población entre 18 a 39 años;Población Sana;11/06/2021;164;92;;
 Población entre 18 a 39 años;Población Sana;12/06/2021;23;10;;
 Población entre 18 a 39 años;Población Sana;14/06/2021;70;77;;
@@ -2304,7 +2317,7 @@ Población entre 18 a 39 años;Población Sana;05/11/2021;8;11;;200
 Población entre 18 a 39 años;Población Sana;06/11/2021;;1;;27
 Población entre 18 a 39 años;Población Sana;07/11/2021;;;;2
 Población entre 18 a 39 años;Población Sana;08/11/2021;7;11;;72
-Población entre 18 a 39 años;Población Sana;09/11/2021;3;8;;78
+Población entre 18 a 39 años;Población Sana;09/11/2021;4;8;;78
 Población entre 18 a 39 años;Población Sana;10/11/2021;4;11;;63
 Población entre 18 a 39 años;Población Sana;11/11/2021;7;10;;56
 Población entre 18 a 39 años;Población Sana;12/11/2021;4;13;;157
@@ -2316,8 +2329,9 @@ Población entre 18 a 39 años;Población Sana;18/11/2021;3;5;;117
 Población entre 18 a 39 años;Población Sana;19/11/2021;6;8;;422
 Población entre 18 a 39 años;Población Sana;20/11/2021;;;;60
 Población entre 18 a 39 años;Población Sana;21/11/2021;;;;19
-Población entre 18 a 39 años;Población Sana;22/11/2021;7;12;;190
-Población entre 18 a 39 años;Población Sana;23/11/2021;4;6;;80
+Población entre 18 a 39 años;Población Sana;22/11/2021;7;12;;199
+Población entre 18 a 39 años;Población Sana;23/11/2021;4;10;;152
+Población entre 18 a 39 años;Población Sana;24/11/2021;1;2;;68
 Población entre 40 a 49 años;Población Sana;27/05/2021;1;;;
 Población entre 40 a 49 años;Población Sana;24/06/2021;1;1;;
 Población entre 40 a 49 años;Población Sana;06/07/2021;1;;;
@@ -2405,6 +2419,8 @@ Población privada de libertad;Personas en centros cerrados;13/11/2021;;;;2
 Población privada de libertad;Personas en centros cerrados;16/11/2021;;;;1
 Población privada de libertad;Personas en centros cerrados;18/11/2021;;;;1
 Población privada de libertad;Personas en centros cerrados;19/11/2021;;;;2
+Población privada de libertad;Personas en centros cerrados;23/11/2021;;;;1
+Población privada de libertad;Personas en centros cerrados;24/11/2021;;;;2
 Privado;Personal de salud;03/02/2021;1;;;
 Privado;Personal de salud;04/02/2021;3;;;
 Privado;Personal de salud;09/02/2021;2;;;
@@ -2551,7 +2567,7 @@ Público;Personal de salud;17/11/2021;;2;;
 Público;Personal de salud;18/11/2021;1;;;1
 Público;Personal de salud;19/11/2021;;1;;1
 Público;Personal de salud;22/11/2021;;1;;
-Público;Personal de salud;23/11/2021;;;;1
+Público;Personal de salud;23/11/2021;;1;;1
 Servicio Nacional de Menores (SENAME);Personas en centros cerrados;18/01/2021;11;;;
 Servicio Nacional de Menores (SENAME);Personas en centros cerrados;19/01/2021;5;;;
 Servicio Nacional de Menores (SENAME);Personas en centros cerrados;20/01/2021;2;;;
@@ -2757,4 +2773,5 @@ Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;
 Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;19/11/2021;3;3;;
 Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;20/11/2021;2;;;
 Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;22/11/2021;2;;;
-Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;23/11/2021;1;2;;
+Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;23/11/2021;2;4;;
+Servicio Nacional de Menores (SENAME) 12 a 17 años;Personas en centros cerrados;24/11/2021;1;;;
