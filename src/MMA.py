@@ -191,21 +191,22 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod,gas):
                 data.rename(columns={'value': estaciones.loc[index, 'Nombre estacion']}, inplace=True)
                 #transform time from YYYYmmdd HHMM to YYYY-mm-dd hh:MM:SS
 
-                data['fecha'] = data['time'].map(lambda x: x[0:4] + '-' + x[4:6] + '-' + x[6:8])
-                data['hora'] = data['time'].map(lambda x:  x[9:11] + ':' + x[11:13] + ':00')
-                data['fecha'] = pd.to_datetime(data['fecha'])
-                # Identify the hour 24 (!!!!!!) and move a day forward, and subtract an hour
-                # a.- a day earlier
-                check = data.loc[data['hora'] == '24:00:00']
-                for idx in check.index:
-                    data.at[idx, 'fecha'] = data.at[idx, 'fecha'] + dt.timedelta(days=1)
-                # b.- the hour
-                data.loc[data['hora'] == '24:00:00', 'hora'] = '00:00:00'
+                # data['fecha'] = data['time'].map(lambda x: x[0:4] + '-' + x[4:6] + '-' + x[6:8])
+                # data['hora'] = data['time'].map(lambda x:  x[9:11] + ':' + x[11:13] + ':00')
+                # data['fecha'] = pd.to_datetime(data['fecha'])
+                # # Identify the hour 24 (!!!!!!) and move a day forward, and subtract an hour
+                # # a.- a day earlier
+                # check = data.loc[data['hora'] == '24:00:00']
+                # for idx in check.index:
+                #     data.at[idx, 'fecha'] = data.at[idx, 'fecha'] + dt.timedelta(days=1)
+                # # b.- the hour
+                # data.loc[data['hora'] == '24:00:00', 'hora'] = '00:00:00'
 
                 #replace the former time with the corrected values
-                data['time'] = data['fecha'].dt.strftime('%Y-%m-%d') + ' ' + data['hora']
+                #data['time'] = data['fecha'].dt.strftime('%Y-%m-%d') + ' ' + data['hora']
+                data['time'] = pd.to_datetime(data['timestamp'], unit='s')
                 #print(data.to_string())
-                data.drop(columns=['fecha', 'hora', 'statusCode'], inplace=True)
+                data.drop(columns=['statusCode','timestamp'], inplace=True)
 
                 # we should make sure we're writing on the file for this year
                 data_particula.append(data)
@@ -247,6 +248,7 @@ def prod43_from_mma_api(usr, password, auth_url, url, prod,gas):
             # Drop duplicates
             df_file['Nombre de estacion'] = df_file['Nombre de estacion'].astype(str)
             df_file = df_file.drop_duplicates(subset='Nombre de estacion', keep='last')
+            df_file.sort_values(by=['Nombre de estacion'],inplace=True)
 
             df_file.to_csv(file, index=False)
         else:
