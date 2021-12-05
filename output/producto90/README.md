@@ -57,5 +57,8 @@ Departamento de Epidemiología, Ministerio de Salud de Chile.
 # Frecuencia de actualización
 Asociado a los informes semanales, publicados por el Ministerio de Salud de Chile.
 
+#NOTA ACLARATORIA
+Los casos confirmados de SARS-CoV-2 totales, sintomáticos, ingresados a UCI y fallecidos reportados en este informe incorporan las modificaciones señaladas en el Ordinario B51/N°4518 del 15 de noviembre del 2021, lo que podría explicar variaciones en el número de casos por semanas epidemiológicas presentado en versiones previas. La información corresponde a data provisoria,en proceso de validación.
 
 
+ 
