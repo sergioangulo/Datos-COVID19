@@ -1265,6 +1265,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;;;3
 " Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;;;2
 " Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;;;6
+" Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
 " Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);19/06/2021;1;;;
 " Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
 " Aisén Gral. C. Ibáñez Campo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
@@ -3134,7 +3135,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;21;30;;
 " Antofagasta";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;21;47;;
 " Antofagasta";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;16;49;;
-" Antofagasta";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;8;;
+" Antofagasta";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;10;;
+" Antofagasta";Hombre;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;1;;
 " Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);06/09/2021;1;;;
 " Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
@@ -3204,7 +3206,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;19;32;;
 " Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;35;;
 " Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;43;;
-" Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;7;;
+" Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;11;;
+" Antofagasta";Hombre;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Pfizer);06/11/2021;;1;;
 " Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Pfizer);16/11/2021;;1;;
 " Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
@@ -3275,7 +3278,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;13;31;;
 " Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;10;35;;
 " Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;50;;
-" Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;4;;
+" Antofagasta";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;6;;
 " Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Pfizer);29/10/2021;1;;;
 " Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;5;;;
 " Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;38;;;
@@ -3345,7 +3348,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;18;36;;
 " Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;37;;
 " Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;32;;
-" Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" Antofagasta";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;8;;
 " Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Pfizer);28/07/2021;1;;;
 " Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;1;;
 " Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Pfizer);06/11/2021;;1;;
@@ -3417,7 +3420,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;19;32;;
 " Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;10;19;;
 " Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;32;;
-" Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;7;;
+" Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;12;;
+" Antofagasta";Hombre;10;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Pfizer);22/06/2021;1;;;
 " Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Pfizer);25/08/2021;1;1;;
 " Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Pfizer);21/09/2021;;1;;
@@ -3491,7 +3495,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;21;32;;
 " Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;28;;
 " Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;38;;
-" Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;4;;
+" Antofagasta";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;6;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;9;;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;18;;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;14;;;
@@ -3587,7 +3591,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/11/2021;7;1;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/11/2021;3;;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);25/11/2021;11;;;
-" Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);26/11/2021;9;2;;
+" Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);26/11/2021;9;3;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);27/11/2021;5;;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);29/11/2021;9;;;
 " Antofagasta";Hombre;12;Campaña SARS-CoV-2 (Pfizer);30/11/2021;11;;;
@@ -3762,7 +3766,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;6;;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;11;;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;4;;
-" Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
+" Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);16/09/2021;2;;;
@@ -3829,7 +3833,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;20;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;23;;
 " Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;17;;
-" Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" Antofagasta";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;7;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;3;;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;15;;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;20;;;
@@ -3946,6 +3950,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;6;1;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;2;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
+" Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;495;;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;284;;;
 " Antofagasta";Hombre;14;Campaña SARS-CoV-2 (Sinovac);15/09/2021;192;;;
@@ -4131,7 +4136,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;1;;1
 " Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;5;1;;
 " Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;2;;
-" Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;
 " Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;276;;;
 " Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Sinovac);14/09/2021;176;;;
 " Antofagasta";Hombre;15;Campaña SARS-CoV-2 (Sinovac);15/09/2021;124;;;
@@ -4388,6 +4393,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;5;1;;4
 " Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;4;;;3
 " Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;3;2;;16
+" Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 " Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;2;;;
 " Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Sinovac);16/04/2021;;1;;
 " Antofagasta";Hombre;16;Campaña SARS-CoV-2 (Sinovac);17/08/2021;1;;;
@@ -4828,7 +4835,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;19;32;;
 " Antofagasta";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;25;47;;
 " Antofagasta";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;27;47;;
-" Antofagasta";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;6;;
+" Antofagasta";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;9;;
 " Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Pfizer);25/11/2021;;1;;
 " Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
@@ -4898,7 +4905,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;18;38;;
 " Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;18;36;;
 " Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;17;40;;
-" Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;5;;
+" Antofagasta";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;8;;
 " Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Pfizer);30/07/2021;1;;;
 " Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;1;;
 " Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Pfizer);09/09/2021;1;;;
@@ -4971,7 +4978,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;16;30;;
 " Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;13;31;;
 " Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;40;;
-" Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;5;;
+" Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;8;;
+" Antofagasta";Mujer;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;;;
 " Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);06/09/2021;1;;;
 " Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
 " Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;22;;;
@@ -5043,7 +5051,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;14;34;;
 " Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;22;;
 " Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;31;;
-" Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;4;;
+" Antofagasta";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;7;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Pfizer);05/10/2021;1;;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Pfizer);03/11/2021;;1;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Pfizer);15/11/2021;1;;;
@@ -5081,7 +5089,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);22/10/2021;51;9;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);23/10/2021;6;3;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);25/10/2021;39;153;;
-" Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);26/10/2021;53;273;;
+" Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);26/10/2021;54;273;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);27/10/2021;36;314;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);28/10/2021;29;309;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);29/10/2021;34;261;;
@@ -5104,7 +5112,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);19/11/2021;13;59;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);20/11/2021;7;12;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);22/11/2021;13;48;;
-" Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);23/11/2021;17;42;;
+" Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);23/11/2021;17;43;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);24/11/2021;10;38;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);25/11/2021;8;41;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);26/11/2021;14;47;;
@@ -5115,7 +5123,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;9;19;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;13;31;;
 " Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;7;24;;
-" Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;6;;
+" Antofagasta";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;6;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);28/07/2021;1;;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;1;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);08/10/2021;1;;;
@@ -5125,6 +5133,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);04/11/2021;;1;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);13/11/2021;;1;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);15/11/2021;;1;;
+" Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);26/11/2021;;1;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;2;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;1;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;1;;
@@ -5197,7 +5206,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;32;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;9;36;;
 " Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;43;;
-" Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;5;;
+" Antofagasta";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;8;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;2;;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;9;;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;17;;;
@@ -5297,6 +5306,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;5;;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;3;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;2;;
+" Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Sinovac);20/09/2021;91;;;
 " Antofagasta";Mujer;12;Campaña SARS-CoV-2 (Sinovac);21/09/2021;127;;;
@@ -5458,7 +5468,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;9;;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;6;1;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;12;2;;
-" Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;1;;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
@@ -5526,7 +5536,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;15;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;14;;
 " Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;17;;
-" Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Antofagasta";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);12/06/2021;1;;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;2;;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;16;;;
@@ -5642,7 +5652,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;4;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;7;4;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;2;;
-" Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
+" Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Sinovac);03/05/2021;1;;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Sinovac);31/05/2021;;1;;
 " Antofagasta";Mujer;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;558;;;
@@ -5831,6 +5841,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;3;2;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;230;;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);14/09/2021;183;;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);15/09/2021;110;;;
@@ -5896,6 +5907,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;6;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;8;;
 " Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;10;;
+" Antofagasta";Mujer;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/03/2021;4;;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/03/2021;2;;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);15/03/2021;2;;;
@@ -6001,7 +6013,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/07/2021;5;11;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);28/07/2021;14;15;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);29/07/2021;4;12;;
-" Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);30/07/2021;5;11;;
+" Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);30/07/2021;7;11;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);31/07/2021;;1;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/08/2021;;1;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/08/2021;;29;;
@@ -6018,7 +6030,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);23/08/2021;1;;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);25/08/2021;2;22;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;209;;
-" Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;179;;
+" Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/08/2021;;181;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);28/08/2021;;;;1
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);31/08/2021;;1;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/09/2021;;45;;
@@ -6090,7 +6102,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;6;;;3
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;5;;;7
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;1;;10
-" Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;2
+" Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;2
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Sinovac);16/03/2021;1;;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Sinovac);16/04/2021;;1;;
 " Antofagasta";Mujer;16;Campaña SARS-CoV-2 (Sinovac);02/08/2021;1;;;
@@ -6370,6 +6382,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;;;7
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;1;;4
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;;;5
+" Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;1
+" Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/02/2021;1;;;
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Sinovac);05/02/2021;1;;;
 " Antofagasta";Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/03/2021;;1;;
@@ -6887,7 +6901,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);29/11/2021;6;18;;
 " Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;11;13;;
 " Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;7;8;;
-" Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;15;;
+" Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;16;;
 " Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;4;15;;
 " Arica y Parinacota";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;3;;
 " Arica y Parinacota";Hombre;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
@@ -8271,7 +8285,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Arica y Parinacota";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;4;15;;
 " Arica y Parinacota";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;13;;
 " Arica y Parinacota";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;11;;
-" Arica y Parinacota";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;4;;
+" Arica y Parinacota";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;5;;
 " Arica y Parinacota";Mujer;9;Campaña SARS-CoV-2 (Pfizer);28/10/2021;1;;;
 " Arica y Parinacota";Mujer;9;Campaña SARS-CoV-2 (Pfizer);10/11/2021;1;;;
 " Arica y Parinacota";Mujer;9;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;1;;
@@ -9744,6 +9758,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;19;;
 " Atacama";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;11;25;;
 " Atacama";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;21;;
+" Atacama";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;3;;
 " Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/04/2021;1;;;
 " Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
 " Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;2;;;
@@ -9808,7 +9823,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;19;;
 " Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;20;;
 " Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;10;19;;
-" Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
+" Atacama";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;1;;
 " Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);22/04/2021;1;;;
 " Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);20/05/2021;;1;;
 " Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
@@ -9875,6 +9890,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;7;13;;
 " Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;13;;
 " Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;4;8;;
+" Atacama";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
 " Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;7;;;
 " Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
 " Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);16/09/2021;2;;;
@@ -9939,6 +9955,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;15;;
 " Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;14;;
 " Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;15;;
+" Atacama";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;;;
 " Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);20/04/2021;1;;;
 " Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);25/05/2021;;1;;
 " Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;6;;;
@@ -10006,6 +10023,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;22;;
 " Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;19;;
 " Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;23;;
+" Atacama";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
 " Atacama";Hombre;11;Campaña SARS-CoV-2 (Pfizer);30/06/2021;1;;;
 " Atacama";Hombre;11;Campaña SARS-CoV-2 (Pfizer);28/07/2021;;1;;
 " Atacama";Hombre;11;Campaña SARS-CoV-2 (Sinovac);13/09/2021;10;;;
@@ -10073,6 +10091,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;22;;
 " Atacama";Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;6;24;;
 " Atacama";Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;11;;
+" Atacama";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;5;;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;10;;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;8;;;
@@ -10166,6 +10185,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;2;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;1;;
+" Atacama";Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;1;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Sinovac);15/09/2021;2;;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Sinovac);20/09/2021;49;;;
 " Atacama";Hombre;12;Campaña SARS-CoV-2 (Sinovac);21/09/2021;66;;;
@@ -10323,6 +10343,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;3;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;5;5;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;2;;
+" Atacama";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;3;;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);16/09/2021;3;;;
@@ -10386,6 +10407,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;4;6;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;6;8;;
 " Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;7;;
+" Atacama";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;9;;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;10;;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);24/06/2021;11;;;
@@ -10490,6 +10512,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;2;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;1;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;9;6;;
+" Atacama";Hombre;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);01/04/2021;1;;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);10/05/2021;;1;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;240;;;
@@ -10555,6 +10578,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;4;15;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;2;;
 " Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;9;;
+" Atacama";Hombre;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/03/2021;1;;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);16/03/2021;1;;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/04/2021;;1;;
@@ -10671,6 +10695,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;8;1;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;1;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;4;;
+" Atacama";Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;2;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;141;1;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);14/09/2021;111;;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);15/09/2021;65;;;
@@ -10735,6 +10760,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;5;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;7;;
 " Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;2;;
+" Atacama";Hombre;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);19/01/2021;1;;;
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);09/02/2021;;1;;
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);05/03/2021;2;;;
@@ -10920,6 +10946,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;;;1
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;2
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;1;;5
+" Atacama";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;1;;
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Sinovac);15/03/2021;1;;;
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Sinovac);18/03/2021;1;;;
 " Atacama";Hombre;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
@@ -11023,7 +11050,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);23/04/2021;;3;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);26/04/2021;;3;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);27/04/2021;2;4;;
-" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);28/04/2021;2;5;;
+" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);28/04/2021;2;4;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);29/04/2021;2;4;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);30/04/2021;1;3;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/05/2021;1;1;;
@@ -11077,7 +11104,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);08/07/2021;82;2;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);09/07/2021;81;6;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);10/07/2021;16;;;
-" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);12/07/2021;78;3;;
+" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);12/07/2021;79;3;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);13/07/2021;53;2;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);14/07/2021;39;3;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);15/07/2021;50;1;;
@@ -11102,7 +11129,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);12/08/2021;;118;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);13/08/2021;;67;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);18/08/2021;;94;;
-" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);19/08/2021;;76;;
+" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);19/08/2021;;77;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);20/08/2021;;49;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);25/08/2021;;1;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);26/08/2021;;59;;
@@ -11173,6 +11200,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;5
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;3;;2
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;4;;8
+" Atacama";Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;1
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);12/02/2021;1;;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);16/02/2021;1;;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);16/03/2021;;1;;
@@ -11187,7 +11215,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);19/04/2021;1;1;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);22/04/2021;1;1;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);23/04/2021;1;;;
-" Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);28/04/2021;1;;;
+" Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);28/04/2021;1;1;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);30/04/2021;;1;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);11/05/2021;1;;;
 " Atacama";Hombre;17;Campaña SARS-CoV-2 (Sinovac);13/05/2021;1;;;
@@ -11431,7 +11459,6 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);08/07/2021;1;1;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);09/07/2021;1;;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);10/07/2021;1;;;
-" Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);12/07/2021;1;;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);13/07/2021;2;;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);14/07/2021;1;;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);19/07/2021;1;;;
@@ -11440,7 +11467,6 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);11/08/2021;;1;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);12/08/2021;;1;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);18/08/2021;;3;;
-" Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);19/08/2021;;1;;
 " Atacama";Intersex (Indeterminado);17;Campaña SARS-CoV-2 (Pfizer);01/09/2021;;1;;
 " Atacama";Mujer;6;Campaña SARS-CoV-2 (Pfizer);27/10/2021;1;;;
 " Atacama";Mujer;6;Campaña SARS-CoV-2 (Pfizer);30/11/2021;;1;;
@@ -11506,6 +11532,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;15;21;;
 " Atacama";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;11;;
 " Atacama";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;19;;
+" Atacama";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 " Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;1;;;
 " Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;5;;;
 " Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);16/09/2021;3;;;
@@ -11570,6 +11597,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;16;;
 " Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;11;17;;
 " Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;24;;
+" Atacama";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
 " Atacama";Mujer;8;Campaña SARS-CoV-2 (Pfizer);16/11/2021;1;;;
 " Atacama";Mujer;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;6;;;
 " Atacama";Mujer;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
@@ -11632,6 +11660,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;7;19;;
 " Atacama";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;7;10;;
 " Atacama";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;7;13;;
+" Atacama";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;2;;
 " Atacama";Mujer;9;Campaña SARS-CoV-2 (Pfizer);19/11/2021;1;;;
 " Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;10;;;
@@ -11696,7 +11725,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;6;16;;
 " Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;18;;
 " Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;20;;
-" Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;;;
+" Atacama";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;;;
 " Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;5;;;
 " Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);15/09/2021;3;;;
@@ -11763,6 +11792,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;14;;
 " Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;24;;
 " Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;17;;
+" Atacama";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
 " Atacama";Mujer;11;Campaña SARS-CoV-2 (Pfizer);23/11/2021;1;;;
 " Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/08/2021;1;;;
 " Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
@@ -11830,7 +11860,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;13;;
 " Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;19;;
 " Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;6;22;;
-" Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
+" Atacama";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;2;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;7;;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;6;;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;8;;;
@@ -11921,6 +11951,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;1;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;4;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;4;;
+" Atacama";Mujer;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;1;;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Sinovac);20/09/2021;54;;;
 " Atacama";Mujer;12;Campaña SARS-CoV-2 (Sinovac);21/09/2021;77;;;
@@ -12073,6 +12104,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;1;;
 " Atacama";Mujer;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;2;;
 " Atacama";Mujer;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;1;;
+" Atacama";Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
 " Atacama";Mujer;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
 " Atacama";Mujer;13;Campaña SARS-CoV-2 (Sinovac);16/09/2021;3;;;
 " Atacama";Mujer;13;Campaña SARS-CoV-2 (Sinovac);20/09/2021;286;;;
@@ -12236,6 +12268,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;5;1;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;3;;
+" Atacama";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;2;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);06/08/2021;;1;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;247;1;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;167;;;
@@ -12301,6 +12334,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;9;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;7;;
 " Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;6;;
+" Atacama";Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Atacama";Mujer;15;Campaña SARS-CoV-2 (Pfizer);01/06/2021;1;;;
 " Atacama";Mujer;15;Campaña SARS-CoV-2 (Pfizer);22/06/2021;10;;;
 " Atacama";Mujer;15;Campaña SARS-CoV-2 (Pfizer);23/06/2021;4;;;
@@ -12470,6 +12504,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;1;1;;
 " Atacama";Mujer;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;5;;
 " Atacama";Mujer;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;7;;
+" Atacama";Mujer;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (AstraZeneca);13/08/2021;;2;;
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Pfizer);15/03/2021;2;;;
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Pfizer);16/03/2021;1;;;
@@ -12635,6 +12670,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;1;;3
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;1
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;1;;6
+" Atacama";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;2;;;
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Sinovac);31/03/2021;1;;;
 " Atacama";Mujer;16;Campaña SARS-CoV-2 (Sinovac);01/04/2021;1;;;
@@ -13076,6 +13112,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;24;55;;
 " Coquimbo";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;20;47;;
 " Coquimbo";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;3;;
+" Coquimbo";Hombre;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;1;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;1;;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;19;;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);16/09/2021;12;;;
@@ -13143,11 +13180,12 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);27/11/2021;2;3;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);28/11/2021;1;;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);29/11/2021;29;52;;
-" Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;33;53;;
+" Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;33;54;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;25;46;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;16;50;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;21;45;;
 " Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;5;;
+" Coquimbo";Hombre;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;5;;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;19;;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;8;;;
@@ -13217,11 +13255,11 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);27/11/2021;2;3;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);28/11/2021;;1;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);29/11/2021;22;66;;
-" Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;29;46;;
+" Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;29;47;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;27;51;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;17;38;;
 " Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;28;28;;
-" Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
+" Coquimbo";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;3;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Pfizer);26/10/2021;1;;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Pfizer);29/10/2021;1;;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Pfizer);19/11/2021;1;;;
@@ -13296,11 +13334,12 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);27/11/2021;1;5;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);28/11/2021;1;1;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);29/11/2021;24;63;;
-" Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;29;63;;
+" Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;29;64;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;21;51;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;17;47;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;43;;
 " Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+" Coquimbo";Hombre;9;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Pfizer);03/11/2021;;1;;
 " Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Pfizer);29/11/2021;1;;;
 " Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;33;;;
@@ -13374,7 +13413,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;30;45;;
 " Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;18;52;;
 " Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;17;40;;
-" Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
+" Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;4;;
+" Coquimbo";Hombre;10;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Coquimbo";Hombre;11;Campaña SARS-CoV-2 (Pfizer);28/09/2021;1;;;
 " Coquimbo";Hombre;11;Campaña SARS-CoV-2 (Pfizer);22/10/2021;1;;;
 " Coquimbo";Hombre;11;Campaña SARS-CoV-2 (Pfizer);03/11/2021;;1;;
@@ -13657,7 +13697,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;23;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;23;;
 " Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;18;;
-" Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
+" Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;5;;
+" Coquimbo";Hombre;12;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;24;;;
 " Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;28;;;
 " Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Pfizer);24/06/2021;30;;;
@@ -13862,6 +13903,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;7;18;;
 " Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;19;;
 " Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
+" Coquimbo";Hombre;13;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;22;;;
 " Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;30;;;
 " Coquimbo";Hombre;14;Campaña SARS-CoV-2 (Pfizer);24/06/2021;23;;;
@@ -14205,6 +14247,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;7;;2
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;2;;
+" Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;1;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;221;;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Sinovac);14/09/2021;163;;;
 " Coquimbo";Hombre;15;Campaña SARS-CoV-2 (Sinovac);15/09/2021;108;;;
@@ -14548,6 +14591,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);01/12/2021;2;4;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;9;;
 " Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;8;;
+" Coquimbo";Hombre;16;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);26/02/2021;1;;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/03/2021;1;;;
 " Coquimbo";Hombre;17;Campaña SARS-CoV-2 (Pfizer);08/03/2021;1;;;
@@ -14921,7 +14965,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;24;45;;
 " Coquimbo";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;36;50;;
 " Coquimbo";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;22;46;;
-" Coquimbo";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
+" Coquimbo";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;4;;
+" Coquimbo";Mujer;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Coquimbo";Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Coquimbo";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;1;;;
 " Coquimbo";Mujer;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;19;;;
@@ -15071,7 +15116,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;60;;
 " Coquimbo";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;23;50;;
 " Coquimbo";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;41;;
-" Coquimbo";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
+" Coquimbo";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;3;;
 " Coquimbo";Mujer;9;Campaña SARS-CoV-2 (Pfizer);05/11/2021;1;;;
 " Coquimbo";Mujer;9;Campaña SARS-CoV-2 (Pfizer);24/11/2021;;1;;
 " Coquimbo";Mujer;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
@@ -15308,6 +15353,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;13;42;;
 " Coquimbo";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;41;;
 " Coquimbo";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;3;;
+" Coquimbo";Mujer;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;11;;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;14;;;
 " Coquimbo";Mujer;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;19;;;
@@ -15721,6 +15767,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;25;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;13;;
 " Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Coquimbo";Mujer;13;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;2;;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;19;;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;21;;;
@@ -15861,6 +15908,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;7;5;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;3;2;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;1;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Sinovac);08/03/2021;1;;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;398;;;
 " Coquimbo";Mujer;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;246;;;
@@ -16411,6 +16459,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;5;;
 " Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;9;;
 " Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;4;;
+" Coquimbo";Mujer;16;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);08/03/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);09/03/2021;3;;;
@@ -16628,13 +16677,15 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;5;3;;8
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;4
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;1;;15
-" Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
+" Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;2
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);25/02/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);17/03/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);25/03/2021;;1;;
+" Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);30/03/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);16/04/2021;;2;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);22/04/2021;1;;;
+" Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);27/04/2021;;1;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);20/05/2021;;1;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);25/05/2021;1;;;
 " Coquimbo";Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/06/2021;1;;;
@@ -16870,7 +16921,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;53;;
 " La Araucanía";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;64;;
 " La Araucanía";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;50;;
-" La Araucanía";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;5;;
+" La Araucanía";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;7;;
 " La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Pfizer);08/10/2021;1;;;
 " La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Pfizer);14/10/2021;1;;;
 " La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Pfizer);05/11/2021;;1;;
@@ -16941,7 +16992,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;19;37;;
 " La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;51;;
 " La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;51;;
-" La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;3;;
+" La Araucanía";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;3;;
 " La Araucanía";Hombre;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;6;;;
 " La Araucanía";Hombre;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;28;;;
 " La Araucanía";Hombre;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;13;;;
@@ -17079,7 +17130,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;10;41;;
 " La Araucanía";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;22;65;;
 " La Araucanía";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;19;73;;
-" La Araucanía";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;2;;
+" La Araucanía";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
 " La Araucanía";Hombre;11;Campaña SARS-CoV-2 (Pfizer);13/09/2021;1;;;
 " La Araucanía";Hombre;11;Campaña SARS-CoV-2 (Pfizer);27/09/2021;1;;;
 " La Araucanía";Hombre;11;Campaña SARS-CoV-2 (Pfizer);04/10/2021;1;;;
@@ -17521,7 +17572,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;27;;
 " La Araucanía";Hombre;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;7;34;;
 " La Araucanía";Hombre;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;35;;
-" La Araucanía";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" La Araucanía";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;5;;
 " La Araucanía";Hombre;14;Campaña SARS-CoV-2 (Pfizer);19/06/2021;1;;;
 " La Araucanía";Hombre;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;14;;;
 " La Araucanía";Hombre;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;26;;;
@@ -18127,7 +18178,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;5;;3
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;3;;4
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;4;;12
-" La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
+" La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;2
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);11/02/2021;1;;;
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);11/03/2021;;1;;
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);15/03/2021;1;;;
@@ -18202,7 +18253,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);01/12/2021;2;18;;
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;11;;
 " La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;9;;
-" La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" La Araucanía";Hombre;16;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);25/02/2021;1;;;
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/03/2021;1;;;
@@ -18412,6 +18463,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;4;;9
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;4;;5
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;3;3;;14
+" La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/02/2021;1;;;
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Sinovac);12/02/2021;1;;;
 " La Araucanía";Hombre;17;Campaña SARS-CoV-2 (Sinovac);15/02/2021;1;;;
@@ -18641,7 +18693,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;30;44;;
 " La Araucanía";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;19;53;;
 " La Araucanía";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;54;;
-" La Araucanía";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
+" La Araucanía";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;5;;
 " La Araucanía";Mujer;8;Campaña SARS-CoV-2 (Pfizer);04/10/2021;1;;;
 " La Araucanía";Mujer;8;Campaña SARS-CoV-2 (Pfizer);02/11/2021;;1;;
 " La Araucanía";Mujer;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
@@ -19112,7 +19164,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " La Araucanía";Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;13;21;;
 " La Araucanía";Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;9;28;;
 " La Araucanía";Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;22;;
-" La Araucanía";Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;4;;
+" La Araucanía";Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;5;;
 " La Araucanía";Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;8;;;
 " La Araucanía";Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;26;;;
 " La Araucanía";Mujer;13;Campaña SARS-CoV-2 (Pfizer);24/06/2021;14;;;
@@ -20342,10 +20394,10 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);27/11/2021;5;9;;
 " Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);29/11/2021;28;38;;
 " Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;33;49;;
-" Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;26;33;;
+" Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;26;34;;
 " Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;28;53;;
 " Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;24;50;;
-" Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
+" Los Lagos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;10;;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;21;;;
@@ -20409,10 +20461,10 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);27/11/2021;3;7;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);29/11/2021;29;51;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;23;49;;
-" Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;57;;
+" Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;23;57;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;19;38;;
 " Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;17;53;;
-" Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
+" Los Lagos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;1;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Pfizer);24/09/2021;1;;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Pfizer);30/09/2021;1;;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Pfizer);26/10/2021;;1;;
@@ -20479,9 +20531,10 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);27/11/2021;2;2;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);29/11/2021;21;30;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;21;55;;
-" Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;20;43;;
+" Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;21;44;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;18;48;;
 " Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;51;;
+" Los Lagos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Pfizer);21/09/2021;1;;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Pfizer);27/09/2021;2;;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Pfizer);25/10/2021;;1;;
@@ -20549,9 +20602,10 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);27/11/2021;1;2;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);29/11/2021;17;49;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;40;47;;
-" Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;46;;
+" Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;47;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;16;39;;
 " Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;27;49;;
+" Los Lagos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 " Los Lagos";Hombre;10;Campaña SARS-CoV-2 (Pfizer);04/10/2021;1;;;
 " Los Lagos";Hombre;10;Campaña SARS-CoV-2 (Pfizer);25/10/2021;1;;;
 " Los Lagos";Hombre;10;Campaña SARS-CoV-2 (Pfizer);24/11/2021;;1;;
@@ -20883,7 +20937,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);27/11/2021;;1;;
 " Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);29/11/2021;14;21;;
 " Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);30/11/2021;11;28;;
-" Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;21;;
+" Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;22;;
 " Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;31;;
 " Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;35;;
 " Los Lagos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
@@ -22020,6 +22074,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;6;8;;
 " Los Lagos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;6;;
 " Los Lagos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;9;;
+" Los Lagos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Los Lagos";Intersex (Indeterminado);7;Campaña SARS-CoV-2 (Sinovac);23/10/2021;1;;;
 " Los Lagos";Intersex (Indeterminado);7;Campaña SARS-CoV-2 (Sinovac);26/11/2021;;1;;
 " Los Lagos";Intersex (Indeterminado);10;Campaña SARS-CoV-2 (Sinovac);14/10/2021;1;;;
@@ -22094,7 +22149,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);27/11/2021;3;9;;
 " Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);29/11/2021;29;36;;
 " Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;32;49;;
-" Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;30;50;;
+" Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;31;52;;
 " Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;29;43;;
 " Los Lagos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;20;43;;
 " Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;5;;;
@@ -22161,7 +22216,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);27/11/2021;2;4;;
 " Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);29/11/2021;24;45;;
 " Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;26;45;;
-" Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;31;59;;
+" Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;32;59;;
 " Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;16;50;;
 " Los Lagos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;21;54;;
 " Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Pfizer);24/09/2021;1;;;
@@ -22230,7 +22285,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);27/11/2021;1;5;;
 " Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);29/11/2021;19;47;;
 " Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;19;51;;
-" Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;20;46;;
+" Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;20;47;;
 " Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;11;45;;
 " Los Lagos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;19;46;;
 " Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Pfizer);30/09/2021;1;;;
@@ -22300,7 +22355,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);28/11/2021;;1;;
 " Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);29/11/2021;21;50;;
 " Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;22;46;;
-" Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;25;40;;
+" Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;26;41;;
 " Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;17;44;;
 " Los Lagos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;16;54;;
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Pfizer);09/11/2021;;1;;
@@ -22367,7 +22422,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);27/11/2021;2;7;;
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);29/11/2021;31;49;;
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);30/11/2021;26;48;;
-" Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;14;35;;
+" Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;15;35;;
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;63;;
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;43;;
 " Los Lagos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
@@ -22441,7 +22496,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);27/11/2021;1;2;;
 " Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);29/11/2021;18;56;;
 " Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;19;67;;
-" Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;27;41;;
+" Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;27;42;;
 " Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;17;41;;
 " Los Lagos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;47;;
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);19/06/2021;11;;;
@@ -22635,7 +22690,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);27/11/2021;;2;;
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);29/11/2021;12;30;;
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);30/11/2021;8;37;;
-" Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;16;26;;
+" Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;16;27;;
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;7;24;;
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;18;;
 " Los Lagos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
@@ -23867,7 +23922,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;21;;
 " Los Ríos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;11;23;;
 " Los Ríos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;18;21;;
-" Los Ríos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+" Los Ríos";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
 " Los Ríos";Hombre;7;Campaña SARS-CoV-2 (Pfizer);12/10/2021;;1;;
 " Los Ríos";Hombre;7;Campaña SARS-CoV-2 (Pfizer);23/11/2021;1;;;
 " Los Ríos";Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
@@ -24014,7 +24069,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;21;;
 " Los Ríos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;6;28;;
 " Los Ríos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;7;20;;
-" Los Ríos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Los Ríos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
+" Los Ríos";Hombre;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Pfizer);27/10/2021;;1;;
 " Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);27/05/2021;1;;;
 " Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);24/06/2021;;1;;
@@ -24088,7 +24144,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;16;;
 " Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;18;;
 " Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;24;;
-" Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" Los Ríos";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;5;;
 " Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Pfizer);12/11/2021;;1;;
 " Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Pfizer);16/11/2021;1;;;
 " Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;14;;;
@@ -24161,7 +24217,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;9;15;;
 " Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;23;;
 " Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;8;;
-" Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
+" Los Ríos";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;5;;
 " Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Pfizer);14/09/2021;2;;;
 " Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Pfizer);12/10/2021;;2;;
 " Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Pfizer);14/10/2021;1;;;
@@ -24238,7 +24294,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;18;;
 " Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;27;;
 " Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;23;;
-" Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
+" Los Ríos";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;5;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);17/06/2021;1;;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;8;;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;11;;;
@@ -24379,7 +24435,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;6;2;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;4;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;8;7;;
-" Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;6;;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;3;;;
 " Los Ríos";Hombre;12;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
@@ -24584,7 +24640,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;6;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;7;7;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;9;;
-" Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;3;;
+" Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;3;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;7;;;
@@ -24652,6 +24708,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;7;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;11;;
 " Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;10;;
+" Los Ríos";Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;15;;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;18;;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;17;;;
@@ -24789,7 +24846,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;2;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;5;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;6;;
-" Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);13/07/2021;1;;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;183;;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;136;;;
@@ -24859,6 +24916,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;5;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;6;;
 " Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;3;;
+" Los Ríos";Hombre;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);20/05/2021;1;;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/06/2021;1;;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);15/06/2021;2;;;
@@ -24995,6 +25053,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;4;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;4;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;5;;2
+" Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;107;;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);14/09/2021;101;;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);15/09/2021;58;;;
@@ -25062,6 +25121,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;1;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;4;;
 " Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;5;;
+" Los Ríos";Hombre;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/03/2021;2;;;
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);10/03/2021;1;;;
@@ -25274,6 +25334,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;1;;6
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;5;;5
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;6;;;8
+" Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;2
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Sinovac);10/02/2021;2;;;
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Sinovac);10/03/2021;;1;;
 " Los Ríos";Hombre;16;Campaña SARS-CoV-2 (Sinovac);15/03/2021;1;;;
@@ -25560,6 +25621,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;12
 " Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;2;;5
 " Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;1;;7
+" Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;2;;2
 " Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);10/02/2021;1;;;
 " Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);12/02/2021;1;;;
 " Los Ríos";Hombre;17;Campaña SARS-CoV-2 (Sinovac);18/02/2021;1;;;
@@ -25724,6 +25786,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;11;;
 " Los Ríos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;9;19;;
 " Los Ríos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;15;21;;
+" Los Ríos";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
 " Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;4;;;
 " Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;8;;;
 " Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);16/09/2021;3;;;
@@ -25796,7 +25859,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;10;17;;
 " Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;7;34;;
 " Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;13;;
-" Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Los Ríos";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
 " Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;21;;;
 " Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;6;;;
@@ -25869,7 +25932,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;18;;
 " Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;6;22;;
 " Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;4;16;;
-" Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
+" Los Ríos";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;2;;
 " Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
 " Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;14;;;
 " Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;9;;;
@@ -25941,7 +26004,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;24;;
 " Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;27;;
 " Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;15;31;;
-" Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Los Ríos";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
 " Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Pfizer);23/09/2021;1;;;
 " Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Pfizer);21/10/2021;;1;;
 " Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Pfizer);12/11/2021;;1;;
@@ -26016,6 +26079,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;9;27;;
 " Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;22;;
 " Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;17;;
+" Los Ríos";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;;;
 " Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Pfizer);20/07/2021;1;;;
 " Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Pfizer);13/09/2021;;1;;
 " Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Pfizer);28/09/2021;2;;;
@@ -26098,7 +26162,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;19;;
 " Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;11;30;;
 " Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;16;;
-" Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+" Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
+" Los Ríos";Mujer;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;2;;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;8;;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;9;;;
@@ -26240,6 +26305,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;4;7;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;4;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);15/09/2021;2;;;
@@ -26310,6 +26376,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;10;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;11;;
 " Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;6;;
+" Los Ríos";Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;11;;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;16;;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;14;;;
@@ -26521,7 +26588,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;1;6;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;10;;
 " Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;8;;
-" Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
+" Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Los Ríos";Mujer;13;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;7;;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;17;;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;15;;;
@@ -26658,6 +26726,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;3;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;7;;1
+" Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
+" Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;1;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;225;;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;134;;;
 " Los Ríos";Mujer;14;Campaña SARS-CoV-2 (Sinovac);15/09/2021;81;;;
@@ -26868,7 +26938,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;;;
 " Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;;;
 " Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;3;;
-" Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;1
 " Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;129;;;
 " Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Sinovac);14/09/2021;78;;;
 " Los Ríos";Mujer;15;Campaña SARS-CoV-2 (Sinovac);15/09/2021;67;;;
@@ -27149,6 +27219,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;1;;8
 " Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;1;;6
 " Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;;;10
+" Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;1
+" Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 " Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Sinovac);18/03/2021;1;;;
 " Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
 " Los Ríos";Mujer;16;Campaña SARS-CoV-2 (Sinovac);07/05/2021;1;;;
@@ -27428,6 +27500,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;15
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;1;;6
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;1;;10
+" Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;1
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);03/02/2021;1;;;
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);03/03/2021;;1;;
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
@@ -27505,6 +27578,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);30/11/2021;;1;;
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;1;;;
 " Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;3;;
+" Los Ríos";Mujer;17;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Magallanes y  La Antártica Chilena";Desconocido;8;Campaña SARS-CoV-2 (Sinovac);08/10/2021;1;;;
 " Magallanes y  La Antártica Chilena";Desconocido;8;Campaña SARS-CoV-2 (Sinovac);05/11/2021;;1;;
 " Magallanes y  La Antártica Chilena";Desconocido;11;Campaña SARS-CoV-2 (Sinovac);28/09/2021;1;;;
@@ -27567,6 +27641,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;7;;
 " Magallanes y  La Antártica Chilena";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;9;;
 " Magallanes y  La Antártica Chilena";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;12;;
+" Magallanes y  La Antártica Chilena";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Magallanes y  La Antártica Chilena";Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;3;;;
 " Magallanes y  La Antártica Chilena";Hombre;7;Campaña SARS-CoV-2 (Sinovac);16/09/2021;1;;;
 " Magallanes y  La Antártica Chilena";Hombre;7;Campaña SARS-CoV-2 (Sinovac);22/09/2021;7;;;
@@ -27680,7 +27755,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;1;5;;
 " Magallanes y  La Antártica Chilena";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;6;;
 " Magallanes y  La Antártica Chilena";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;9;;
-" Magallanes y  La Antártica Chilena";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
+" Magallanes y  La Antártica Chilena";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;;;
 " Magallanes y  La Antártica Chilena";Hombre;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;6;;;
 " Magallanes y  La Antártica Chilena";Hombre;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;2;;;
 " Magallanes y  La Antártica Chilena";Hombre;9;Campaña SARS-CoV-2 (Sinovac);16/09/2021;1;;;
@@ -27859,6 +27934,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;9;;
 " Magallanes y  La Antártica Chilena";Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;7;;
 " Magallanes y  La Antártica Chilena";Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;6;;
+" Magallanes y  La Antártica Chilena";Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Magallanes y  La Antártica Chilena";Hombre;12;Campaña SARS-CoV-2 (Pfizer);18/06/2021;1;;;
 " Magallanes y  La Antártica Chilena";Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;40;;;
 " Magallanes y  La Antártica Chilena";Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;36;;;
@@ -28796,6 +28872,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;1;;2
 " Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;;;2
 " Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;;;6
+" Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
 " Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/02/2021;1;;;
 " Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Sinovac);10/02/2021;1;;;
 " Magallanes y  La Antártica Chilena";Hombre;17;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
@@ -29035,6 +29112,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;4;6;;
 " Magallanes y  La Antártica Chilena";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;16;;
 " Magallanes y  La Antártica Chilena";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;4;;
+" Magallanes y  La Antártica Chilena";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Magallanes y  La Antártica Chilena";Mujer;9;Campaña SARS-CoV-2 (Pfizer);12/11/2021;;1;;
 " Magallanes y  La Antártica Chilena";Mujer;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Magallanes y  La Antártica Chilena";Mujer;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;3;;;
@@ -29153,6 +29231,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;1;11;;
 " Magallanes y  La Antártica Chilena";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;7;;
 " Magallanes y  La Antártica Chilena";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;12;;
+" Magallanes y  La Antártica Chilena";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Pfizer);12/10/2021;1;;;
 " Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Pfizer);09/11/2021;1;;;
 " Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Sinovac);13/09/2021;6;;;
@@ -29213,6 +29292,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;4;;
 " Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;5;;
 " Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;3;;
+" Magallanes y  La Antártica Chilena";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 " Magallanes y  La Antártica Chilena";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;33;;;
 " Magallanes y  La Antártica Chilena";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;34;;;
 " Magallanes y  La Antártica Chilena";Mujer;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;41;;;
@@ -30135,6 +30215,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;;;
 " Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;;;2
 " Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;;;4
+" Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
 " Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Sinovac);16/02/2021;1;;;
 " Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Sinovac);16/03/2021;;1;;
 " Magallanes y  La Antártica Chilena";Mujer;17;Campaña SARS-CoV-2 (Sinovac);14/04/2021;1;;;
@@ -30274,7 +30355,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;10;19;;
 " Tarapacá";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;20;;
 " Tarapacá";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;10;19;;
-" Tarapacá";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;5;;
+" Tarapacá";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;6;;
 " Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Pfizer);27/09/2021;1;;;
 " Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/07/2021;1;;;
 " Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
@@ -30343,7 +30424,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;13;22;;
 " Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;10;20;;
 " Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;25;;
-" Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;4;;
+" Tarapacá";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;4;;
 " Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;12;;;
 " Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;3;;;
 " Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);16/09/2021;7;;;
@@ -30408,7 +30489,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;21;;
 " Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;22;20;;
 " Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;21;;
-" Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
+" Tarapacá";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;7;;
 " Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Pfizer);27/09/2021;1;;;
 " Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Pfizer);30/09/2021;1;;;
 " Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/09/2021;1;;;
@@ -30478,7 +30559,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;9;28;;
 " Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;9;20;;
 " Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;15;18;;
-" Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
+" Tarapacá";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;5;;
 " Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;15;;;
 " Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);14/09/2021;12;;;
 " Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);15/09/2021;4;;;
@@ -30546,7 +30627,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;16;20;;
 " Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;23;;
 " Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;24;;
-" Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;4;;
+" Tarapacá";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;6;;
 " Tarapacá";Hombre;11;Campaña SARS-CoV-2 (Pfizer);29/09/2021;1;;;
 " Tarapacá";Hombre;11;Campaña SARS-CoV-2 (Pfizer);27/10/2021;;1;;
 " Tarapacá";Hombre;11;Campaña SARS-CoV-2 (Pfizer);02/11/2021;;1;;
@@ -32049,7 +32130,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;25;;
 " Tarapacá";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;23;;
 " Tarapacá";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;15;24;;
-" Tarapacá";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;8;;
+" Tarapacá";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;8;;
 " Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
 " Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;10;;;
@@ -32116,7 +32197,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;10;25;;
 " Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;13;23;;
 " Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;27;;
-" Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;3;;
+" Tarapacá";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;3;;
 " Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Pfizer);13/10/2021;1;;;
 " Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Pfizer);10/11/2021;;1;;
 " Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;13;;;
@@ -32185,7 +32266,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;13;28;;
 " Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;31;;
 " Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;26;;
-" Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;6;;
+" Tarapacá";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;6;;
 " Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;15;;;
 " Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;12;;;
@@ -32252,7 +32333,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;28;;
 " Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;9;24;;
 " Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;10;25;;
-" Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;7;4;;
+" Tarapacá";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;7;5;;
 " Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Pfizer);29/09/2021;1;;;
 " Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Pfizer);05/11/2021;;1;;
 " Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Pfizer);30/11/2021;1;;;
@@ -32322,7 +32403,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;13;23;;
 " Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;13;26;;
 " Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;16;28;;
-" Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;4;;
+" Tarapacá";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;6;;
 " Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Pfizer);02/06/2021;1;;;
 " Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Pfizer);02/07/2021;;1;;
 " Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Pfizer);14/07/2021;1;;;
@@ -32398,7 +32479,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;20;;
 " Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;10;21;;
 " Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;24;;
-" Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;7;;
+" Tarapacá";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;9;;
 " Tarapacá";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;13;;;
 " Tarapacá";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;16;;;
 " Tarapacá";Mujer;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;21;;;
@@ -32723,6 +32804,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;
 " Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;
 " Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;6;3;;
+" Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
 " Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
 " Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
 " Tarapacá";Mujer;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
@@ -33397,7 +33479,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;2;;6
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;3;;4
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;2;;9
-" Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
+" Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;1
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Sinovac);14/04/2021;1;;;
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Sinovac);26/07/2021;1;;;
 " Tarapacá";Mujer;16;Campaña SARS-CoV-2 (Sinovac);13/09/2021;9;;;
@@ -33676,7 +33758,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;9
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;3
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;;;22
-" Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;2
+" Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;3
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);05/02/2021;1;;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);06/02/2021;1;;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
@@ -33769,6 +33851,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;2;5;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;4;;
 " Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;3;;
+" Tarapacá";Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Valparaíso";Desconocido;6;Campaña SARS-CoV-2 (Sinovac);01/10/2021;1;;;
 " Valparaíso";Desconocido;6;Campaña SARS-CoV-2 (Sinovac);29/10/2021;;1;;
 " Valparaíso";Desconocido;7;Campaña SARS-CoV-2 (Sinovac);30/09/2021;1;;;
@@ -33874,7 +33957,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;57;132;;
 " Valparaíso";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;45;108;;
 " Valparaíso";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;39;118;;
-" Valparaíso";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;;;
+" Valparaíso";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;2;;
+" Valparaíso";Hombre;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Valparaíso";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;9;;;
 " Valparaíso";Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;71;;;
@@ -34015,6 +34099,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;19;84;;
 " Valparaíso";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;17;82;;
 " Valparaíso";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;3;;
+" Valparaíso";Hombre;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Pfizer);12/10/2021;;1;;
 " Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;6;;;
 " Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;127;;;
@@ -34084,6 +34169,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;20;88;;
 " Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;16;72;;
 " Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+" Valparaíso";Hombre;9;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;3;;
 " Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;110;;;
 " Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);14/09/2021;33;;;
 " Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);15/09/2021;11;;;
@@ -34153,6 +34239,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;36;149;;
 " Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;21;86;;
 " Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;20;83;;
+" Valparaíso";Hombre;10;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;1;;
 " Valparaíso";Hombre;11;Campaña SARS-CoV-2 (Pfizer);13/09/2021;1;;;
 " Valparaíso";Hombre;11;Campaña SARS-CoV-2 (Pfizer);25/10/2021;;1;;
 " Valparaíso";Hombre;11;Campaña SARS-CoV-2 (Sinovac);13/09/2021;109;;;
@@ -34414,6 +34501,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;7;59;;
 " Valparaíso";Hombre;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;33;;
 " Valparaíso";Hombre;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;48;;
+" Valparaíso";Hombre;12;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;55;;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;59;;;
@@ -34534,6 +34622,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;10;22;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;17;21;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;13;14;;
+" Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;1;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;13;;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;12;;;
 " Valparaíso";Hombre;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;8;;;
@@ -34801,6 +34890,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;26;;
 " Valparaíso";Hombre;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;1;25;;
 " Valparaíso";Hombre;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;15;;
+" Valparaíso";Hombre;14;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Hombre;15;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
 " Valparaíso";Hombre;15;Campaña SARS-CoV-2 (Pfizer);22/06/2021;69;;;
 " Valparaíso";Hombre;15;Campaña SARS-CoV-2 (Pfizer);23/06/2021;66;;;
@@ -35281,7 +35371,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;16;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;15;;
 " Valparaíso";Hombre;16;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;14;;
 " Valparaíso";Hombre;16;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;14;;
-" Valparaíso";Hombre;16;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Valparaíso";Hombre;16;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+" Valparaíso";Hombre;16;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Hombre;17;Campaña SARS-CoV-2 (AstraZeneca);11/08/2021;;1;;
 " Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Pfizer);26/02/2021;2;;;
 " Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Pfizer);27/02/2021;25;;;
@@ -35611,6 +35702,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;8;;
 " Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;5;;
 " Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;4;;
+" Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Valparaíso";Hombre;17;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Intersex (Indeterminado);12;Campaña SARS-CoV-2 (Pfizer);30/09/2021;1;;;
 " Valparaíso";Intersex (Indeterminado);12;Campaña SARS-CoV-2 (Pfizer);28/10/2021;;1;;
 " Valparaíso";Intersex (Indeterminado);12;Campaña SARS-CoV-2 (Sinovac);04/10/2021;1;;;
@@ -35688,6 +35781,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;44;118;;
 " Valparaíso";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;29;107;;
 " Valparaíso";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
+" Valparaíso";Mujer;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;3;2;;
 " Valparaíso";Mujer;7;Campaña SARS-CoV-2 (Pfizer);15/09/2021;1;;;
 " Valparaíso";Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;2;;;
 " Valparaíso";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;6;;;
@@ -35827,6 +35921,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;16;96;;
 " Valparaíso";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;18;79;;
 " Valparaíso";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;2;;
+" Valparaíso";Mujer;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Valparaíso";Mujer;9;Campaña SARS-CoV-2 (Pfizer);15/09/2021;1;;;
 " Valparaíso";Mujer;9;Campaña SARS-CoV-2 (Pfizer);30/09/2021;1;;;
 " Valparaíso";Mujer;9;Campaña SARS-CoV-2 (Pfizer);19/10/2021;;1;;
@@ -36045,7 +36140,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;28;145;;
 " Valparaíso";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;70;;
 " Valparaíso";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;22;79;;
-" Valparaíso";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;3;;
+" Valparaíso";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;3;;
+" Valparaíso";Mujer;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
 " Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;51;;;
 " Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;35;;;
@@ -36241,6 +36337,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;43;;
 " Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;29;;
 " Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;1;27;;
+" Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Valparaíso";Mujer;12;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;3;;;
 " Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;52;;;
 " Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;54;;;
@@ -36431,7 +36529,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;32;;
 " Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;32;;
 " Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;28;;
-" Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
+" Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" Valparaíso";Mujer;13;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
 " Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;51;;;
 " Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Pfizer);23/06/2021;47;;;
@@ -36631,7 +36730,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;27;;
 " Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;22;;
 " Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;13;;
-" Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Valparaíso";Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
 " Valparaíso";Mujer;15;Campaña SARS-CoV-2 (Pfizer);22/03/2021;1;;;
 " Valparaíso";Mujer;15;Campaña SARS-CoV-2 (Pfizer);21/04/2021;;1;;
 " Valparaíso";Mujer;15;Campaña SARS-CoV-2 (Pfizer);16/06/2021;1;;;
@@ -37526,6 +37625,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;14;29;;
 " Ñuble";Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;22;;
 " Ñuble";Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Ñuble";Hombre;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;1;;
 " Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;9;;;
 " Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;14;;;
@@ -37602,6 +37702,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;32;;
 " Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;22;;
 " Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Ñuble";Hombre;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;15;;;
 " Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;25;;;
 " Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;3;;;
@@ -37678,7 +37779,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;6;19;;
 " Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;15;;
 " Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;7;20;;
-" Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
+" Ñuble";Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
 " Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;7;;;
 " Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;24;;;
 " Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;16;;;
@@ -37756,6 +37857,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;6;21;;
 " Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;9;16;;
 " Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Ñuble";Hombre;9;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 " Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;23;;;
 " Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);14/09/2021;13;;;
 " Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);15/09/2021;11;;;
@@ -37831,7 +37933,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;4;16;;
 " Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;32;;
 " Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;7;18;;
-" Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" Ñuble";Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;5;;
 " Ñuble";Hombre;11;Campaña SARS-CoV-2 (Pfizer);10/11/2021;1;;;
 " Ñuble";Hombre;11;Campaña SARS-CoV-2 (Sinovac);13/09/2021;34;;;
 " Ñuble";Hombre;11;Campaña SARS-CoV-2 (Sinovac);14/09/2021;12;;;
@@ -38040,7 +38142,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;10;;
 " Ñuble";Hombre;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;14;;
 " Ñuble";Hombre;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;13;;
-" Ñuble";Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;
+" Ñuble";Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;2;;
 " Ñuble";Hombre;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
 " Ñuble";Hombre;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
 " Ñuble";Hombre;12;Campaña SARS-CoV-2 (Sinovac);15/09/2021;1;;;
@@ -38241,7 +38343,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;9;;
 " Ñuble";Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;8;;
 " Ñuble";Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;3;7;;
-" Ñuble";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+" Ñuble";Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
+" Ñuble";Hombre;13;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 " Ñuble";Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
 " Ñuble";Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;6;;;
 " Ñuble";Hombre;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;6;;;
@@ -38907,7 +39010,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;;6;;13
 " Ñuble";Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;2;;8
 " Ñuble";Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;;8;;20
-" Ñuble";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;1
+" Ñuble";Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;3
 " Ñuble";Hombre;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
 " Ñuble";Hombre;16;Campaña SARS-CoV-2 (Sinovac);28/05/2021;1;;;
 " Ñuble";Hombre;16;Campaña SARS-CoV-2 (Sinovac);23/06/2021;1;;;
@@ -39179,7 +39282,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;4;;18
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;4;;16
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;3;;9
-" Ñuble";Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;2
+" Ñuble";Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;4
+" Ñuble";Hombre;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;1;;2
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Sinovac);11/02/2021;1;;;
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Sinovac);11/03/2021;;1;;
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Sinovac);15/03/2021;2;;;
@@ -39243,7 +39347,6 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Sinovac);27/11/2021;;2;;
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Sinovac);29/11/2021;;1;;
 " Ñuble";Hombre;17;Campaña SARS-CoV-2 (Sinovac);30/11/2021;;1;;
-" Ñuble";Mujer;6;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;
 " Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
 " Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);14/09/2021;5;;;
 " Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);15/09/2021;11;;;
@@ -39318,7 +39421,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;15;23;;
 " Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;17;28;;
 " Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;28;;
-" Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;4;;
+" Ñuble";Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;7;;
 " Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
 " Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;1;;;
 " Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;17;;;
@@ -39392,7 +39495,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;23;;
 " Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;27;;
 " Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;4;16;;
-" Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+" Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;5;;
+" Ñuble";Mujer;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;5;;;
 " Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;11;;;
 " Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;4;;;
@@ -39468,7 +39572,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;2;11;;
 " Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;18;;
 " Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;17;;
-" Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+" Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Ñuble";Mujer;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 " Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);13/09/2021;3;;;
 " Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);14/09/2021;23;;;
 " Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);15/09/2021;7;;;
@@ -39544,7 +39649,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;16;;
 " Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;19;;
 " Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;26;;
-" Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+" Ñuble";Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;7;;
 " Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;16;;;
 " Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);14/09/2021;8;;;
 " Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);15/09/2021;6;;;
@@ -39619,7 +39724,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;15;;
 " Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;14;;
 " Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;2;18;;
-" Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+" Ñuble";Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;3;;
 " Ñuble";Mujer;11;Campaña SARS-CoV-2 (Pfizer);25/10/2021;1;;;
 " Ñuble";Mujer;11;Campaña SARS-CoV-2 (Pfizer);22/11/2021;;1;;
 " Ñuble";Mujer;11;Campaña SARS-CoV-2 (Sinovac);13/09/2021;20;;;
@@ -39696,6 +39801,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;8;23;;
 " Ñuble";Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;6;31;;
 " Ñuble";Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;6;20;;
+" Ñuble";Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
 " Ñuble";Mujer;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
 " Ñuble";Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;12;;;
 " Ñuble";Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;19;;;
@@ -39892,6 +39998,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;;4;;
 " Ñuble";Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;;8;;
 " Ñuble";Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;;1;;
+" Ñuble";Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;1;;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;11;;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;24;;;
@@ -40027,6 +40134,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;8;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;12;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;8;;
+" Ñuble";Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;2;;;
 " Ñuble";Mujer;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;2;;;
@@ -40228,7 +40336,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;6;;
 " Ñuble";Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;6;;
 " Ñuble";Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;3;9;;
-" Ñuble";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;
+" Ñuble";Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;
 " Ñuble";Mujer;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;300;;;
 " Ñuble";Mujer;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;229;;;
 " Ñuble";Mujer;14;Campaña SARS-CoV-2 (Sinovac);15/09/2021;150;;;
@@ -40685,7 +40793,7 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;19
 " Ñuble";Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;9;;12
 " Ñuble";Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;1;4;;22
-" Ñuble";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;2
+" Ñuble";Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;3
 " Ñuble";Mujer;16;Campaña SARS-CoV-2 (Sinovac);16/03/2021;1;;;
 " Ñuble";Mujer;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
 " Ñuble";Mujer;16;Campaña SARS-CoV-2 (Sinovac);28/05/2021;1;;;
@@ -40949,6 +41057,8 @@ REGION_CORTO;SEXO;EDAD_ANOS;Laboratorio;FECHA_INMUNIZACION;SUM_of_1aDOSIS;SUM_of
 " Ñuble";Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;4;;20
 " Ñuble";Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;2;;18
 " Ñuble";Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;4;;30
+" Ñuble";Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;4
+" Ñuble";Mujer;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 " Ñuble";Mujer;17;Campaña SARS-CoV-2 (Sinovac);12/02/2021;1;;;
 " Ñuble";Mujer;17;Campaña SARS-CoV-2 (Sinovac);12/03/2021;;1;;
 " Ñuble";Mujer;17;Campaña SARS-CoV-2 (Sinovac);15/03/2021;1;;;
@@ -41111,7 +41221,8 @@ Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;73;93;;
 Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;58;77;;
 Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;42;102;;
 Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;45;83;;
-Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;16;;
+Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;7;19;;
+Bíobío;Hombre;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Pfizer);25/10/2021;1;;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Pfizer);10/11/2021;;1;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/06/2021;1;;;
@@ -41159,7 +41270,7 @@ Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/11/2021;96;411;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/11/2021;75;325;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/11/2021;106;393;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);05/11/2021;78;318;;
-Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);06/11/2021;10;18;;
+Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);06/11/2021;9;18;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);08/11/2021;79;207;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);09/11/2021;57;313;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);10/11/2021;67;253;;
@@ -41185,7 +41296,8 @@ Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;43;99;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;35;80;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;30;71;;
 Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;30;76;;
-Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;9;;
+Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;12;;
+Bíobío;Hombre;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 Bíobío;Hombre;8;Campaña SARS-CoV-2 (Pfizer);14/09/2021;1;;;
 Bíobío;Hombre;8;Campaña SARS-CoV-2 (Pfizer);16/09/2021;1;;;
 Bíobío;Hombre;8;Campaña SARS-CoV-2 (Pfizer);03/11/2021;;1;;
@@ -41259,7 +41371,7 @@ Bíobío;Hombre;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;39;85;;
 Bíobío;Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;31;53;;
 Bíobío;Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;29;62;;
 Bíobío;Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;22;63;;
-Bíobío;Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+Bíobío;Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;7;;
 Bíobío;Hombre;9;Campaña SARS-CoV-2 (Pfizer);04/11/2021;;1;;
 Bíobío;Hombre;9;Campaña SARS-CoV-2 (Pfizer);08/11/2021;1;;;
 Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);19/07/2021;1;;;
@@ -41332,7 +41444,7 @@ Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;33;103;;
 Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;31;67;;
 Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;24;65;;
 Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;24;60;;
-Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;2;;
+Bíobío;Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;6;;
 Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/09/2021;4;;;
 Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);13/09/2021;106;;;
 Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);14/09/2021;40;;;
@@ -41403,7 +41515,8 @@ Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);30/11/2021;35;93;;
 Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;26;67;;
 Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;25;57;;
 Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;28;81;;
-Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;4;;
+Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;8;;
+Bíobío;Hombre;10;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;2;;
 Bíobío;Hombre;11;Campaña SARS-CoV-2 (Pfizer);23/09/2021;1;;;
 Bíobío;Hombre;11;Campaña SARS-CoV-2 (Pfizer);07/10/2021;1;;;
 Bíobío;Hombre;11;Campaña SARS-CoV-2 (Pfizer);13/10/2021;1;;;
@@ -41482,7 +41595,8 @@ Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;35;92;;
 Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;26;65;;
 Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;16;65;;
 Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;21;79;;
-Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;11;;
+Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;15;;
+Bíobío;Hombre;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;2;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;8;;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;54;;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;50;;;
@@ -41615,7 +41729,8 @@ Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);30/11/2021;14;3;;1
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;21;3;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;6;7;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;6;6;;
-Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;2;;
+Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;2;;
+Bíobío;Hombre;12;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);19/07/2021;1;;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;7;;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;10;;;
@@ -41685,7 +41800,8 @@ Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);30/11/2021;11;48;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;11;41;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;12;48;;
 Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;4;50;;
-Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;6;;
+Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;8;;
+Bíobío;Hombre;12;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;6;;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;28;;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;72;;;
@@ -41821,7 +41937,7 @@ Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);30/11/2021;11;2;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;11;4;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;6;5;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;8;3;;
-Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
+Bíobío;Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;12;;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;12;;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;12;;;
@@ -41891,7 +42007,7 @@ Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);30/11/2021;9;49;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;32;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;5;35;;
 Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;6;33;;
-Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;8;;
+Bíobío;Hombre;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;9;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);15/06/2021;1;;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;6;;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;53;;;
@@ -42027,7 +42143,7 @@ Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);30/11/2021;13;4;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;4;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;6;8;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;8;2;;2
-Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+Bíobío;Hombre;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);19/07/2021;1;;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);13/09/2021;991;;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);14/09/2021;647;1;;
@@ -42095,7 +42211,7 @@ Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);30/11/2021;9;29;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;5;23;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;26;;
 Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;30;;
-Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
+Bíobío;Hombre;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;3;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);08/04/2021;1;;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);20/04/2021;;1;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);21/06/2021;8;;;
@@ -42232,6 +42348,7 @@ Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;7;6;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;3;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;6;3;;1
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;2;;
+Bíobío;Hombre;15;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Sinovac);04/02/2021;1;;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Sinovac);17/03/2021;1;;;
 Bíobío;Hombre;15;Campaña SARS-CoV-2 (Sinovac);11/08/2021;;1;;
@@ -42515,7 +42632,7 @@ Bíobío;Hombre;16;Campaña SARS-CoV-2 (Pfizer);30/11/2021;4;4;;13
 Bíobío;Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;2;;10
 Bíobío;Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;3;;5
 Bíobío;Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;5;;20
-Bíobío;Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;1;;1
+Bíobío;Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;1;;2
 Bíobío;Hombre;16;Campaña SARS-CoV-2 (Sinovac);12/03/2021;1;;;
 Bíobío;Hombre;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;1;;;
 Bíobío;Hombre;16;Campaña SARS-CoV-2 (Sinovac);23/03/2021;1;;;
@@ -42811,7 +42928,8 @@ Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);30/11/2021;10;1;;30
 Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;8;;16
 Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;4;4;;12
 Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;1;;15
-Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;3
+Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;4
+Bíobío;Hombre;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 Bíobío;Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/02/2021;1;;;
 Bíobío;Hombre;17;Campaña SARS-CoV-2 (Sinovac);11/02/2021;1;;;
 Bíobío;Hombre;17;Campaña SARS-CoV-2 (Sinovac);11/03/2021;;1;;
@@ -42987,7 +43105,8 @@ Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;61;84;;
 Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;55;84;;
 Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;35;73;;
 Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;47;94;;
-Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;8;;
+Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;12;;
+Bíobío;Mujer;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;1;;;
 Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;18;;;
 Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;54;;;
@@ -43055,7 +43174,7 @@ Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;32;81;;
 Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;35;68;;
 Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;29;85;;
 Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;22;70;;
-Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;8;;
+Bíobío;Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;10;;
 Bíobío;Mujer;8;Campaña SARS-CoV-2 (Pfizer);29/10/2021;;1;;
 Bíobío;Mujer;8;Campaña SARS-CoV-2 (Pfizer);12/11/2021;1;;;
 Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;13;;;
@@ -43127,7 +43246,7 @@ Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;37;77;;
 Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;15;56;;
 Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;19;85;;
 Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;28;67;;
-Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;7;;
+Bíobío;Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;10;;
 Bíobío;Mujer;9;Campaña SARS-CoV-2 (Pfizer);23/09/2021;1;;;
 Bíobío;Mujer;9;Campaña SARS-CoV-2 (Pfizer);07/10/2021;1;;;
 Bíobío;Mujer;9;Campaña SARS-CoV-2 (Pfizer);21/10/2021;;1;;
@@ -43203,7 +43322,7 @@ Bíobío;Mujer;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;31;91;;
 Bíobío;Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;37;61;;
 Bíobío;Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;27;82;;
 Bíobío;Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;19;57;;
-Bíobío;Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;6;;
+Bíobío;Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;10;;
 Bíobío;Mujer;10;Campaña SARS-CoV-2 (Pfizer);13/09/2021;1;;;
 Bíobío;Mujer;10;Campaña SARS-CoV-2 (Pfizer);12/10/2021;;1;;
 Bíobío;Mujer;10;Campaña SARS-CoV-2 (Pfizer);20/10/2021;1;;;
@@ -43279,7 +43398,7 @@ Bíobío;Mujer;10;Campaña SARS-CoV-2 (Sinovac);30/11/2021;24;101;;
 Bíobío;Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;67;;
 Bíobío;Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;22;80;;
 Bíobío;Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;20;65;;
-Bíobío;Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;6;;
+Bíobío;Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;6;;
 Bíobío;Mujer;11;Campaña SARS-CoV-2 (Pfizer);27/09/2021;1;;;
 Bíobío;Mujer;11;Campaña SARS-CoV-2 (Pfizer);06/10/2021;1;;;
 Bíobío;Mujer;11;Campaña SARS-CoV-2 (Pfizer);13/10/2021;1;;;
@@ -43359,7 +43478,8 @@ Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;28;83;;
 Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;23;75;;
 Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;19;82;;
 Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;21;56;;
-Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;4;;
+Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;7;;
+Bíobío;Mujer;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;2;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;6;;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;32;;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;65;;;
@@ -43491,6 +43611,7 @@ Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;6;2;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;11;10;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;7;4;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
+Bíobío;Mujer;12;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);19/07/2021;1;;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;5;;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;9;;;
@@ -43561,7 +43682,8 @@ Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);30/11/2021;8;51;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;6;34;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;40;;
 Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;44;;
-Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;4;;
+Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;5;;
+Bíobío;Mujer;12;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);22/06/2021;50;;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);23/06/2021;75;;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);24/06/2021;48;;;
@@ -43690,7 +43812,7 @@ Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);30/11/2021;7;6;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;11;3;;1
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;11;3;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;9;3;;
-Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
+Bíobío;Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Sinovac);22/06/2021;1;;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Sinovac);19/07/2021;1;;;
 Bíobío;Mujer;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;12;;;
@@ -43898,7 +44020,8 @@ Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);30/11/2021;5;3;;1
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);01/12/2021;7;4;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);02/12/2021;5;2;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;5;;
-Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;;;1
+Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);04/12/2021;5;1;;1
+Bíobío;Mujer;14;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;1;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);30/03/2021;1;;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);07/04/2021;1;;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);22/07/2021;1;;;
@@ -43971,7 +44094,7 @@ Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);30/11/2021;7;18;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;7;19;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;31;;
 Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;6;21;;
-Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+Bíobío;Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);12/06/2021;;1;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);21/06/2021;10;;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);22/06/2021;50;;;
@@ -44109,7 +44232,8 @@ Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);30/11/2021;10;4;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;1;;1
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;1;;2
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;4;;
-Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;;;
+Bíobío;Mujer;15;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);08/04/2021;1;;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);14/06/2021;1;;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);13/09/2021;484;;;
@@ -44175,7 +44299,7 @@ Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);30/11/2021;10;15;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;2;10;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;4;15;;
 Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;5;20;;
-Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+Bíobío;Mujer;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/03/2021;1;;;
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/03/2021;1;;;
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/03/2021;4;;;
@@ -44396,7 +44520,7 @@ Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);30/11/2021;7;5;;12
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;5;3;;8
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;4;4;;8
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;6;;;21
-Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;2;;4
+Bíobío;Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;2;;5
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Sinovac);17/03/2021;1;;;
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;5;;;
 Bíobío;Mujer;16;Campaña SARS-CoV-2 (Sinovac);01/04/2021;1;;;
@@ -44690,7 +44814,8 @@ Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);30/11/2021;7;3;;30
 Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;3;1;;23
 Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;4;;12
 Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;2;;24
-Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;3
+Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;4
+Bíobío;Mujer;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 Bíobío;Mujer;17;Campaña SARS-CoV-2 (Sinovac);03/02/2021;1;;;
 Bíobío;Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/02/2021;1;;;
 Bíobío;Mujer;17;Campaña SARS-CoV-2 (Sinovac);11/02/2021;1;;;
@@ -44862,7 +44987,7 @@ Libertador B. O'Higgins;Hombre;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;40;54;;
 Libertador B. O'Higgins;Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;34;53;;
 Libertador B. O'Higgins;Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;29;55;;
 Libertador B. O'Higgins;Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;17;67;;
-Libertador B. O'Higgins;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;3;;
+Libertador B. O'Higgins;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;4;;
 Libertador B. O'Higgins;Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;4;;;
 Libertador B. O'Higgins;Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;10;;;
 Libertador B. O'Higgins;Hombre;7;Campaña SARS-CoV-2 (Sinovac);15/09/2021;28;;;
@@ -48370,7 +48495,7 @@ Maule;Hombre;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;40;68;;
 Maule;Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;34;49;;
 Maule;Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;44;70;;
 Maule;Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;34;68;;
-Maule;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;7;;
+Maule;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;7;;
 Maule;Hombre;7;Campaña SARS-CoV-2 (Pfizer);05/11/2021;;1;;
 Maule;Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;9;;;
 Maule;Hombre;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;14;;;
@@ -48580,7 +48705,7 @@ Maule;Hombre;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;14;47;;
 Maule;Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;20;35;;
 Maule;Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;18;59;;
 Maule;Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;13;32;;
-Maule;Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;4;;
+Maule;Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;4;;
 Maule;Hombre;10;Campaña SARS-CoV-2 (Pfizer);20/09/2021;1;;;
 Maule;Hombre;10;Campaña SARS-CoV-2 (Pfizer);04/10/2021;1;;;
 Maule;Hombre;10;Campaña SARS-CoV-2 (Pfizer);28/10/2021;;1;;
@@ -48738,7 +48863,8 @@ Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;15;50;;
 Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;12;40;;
 Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;20;54;;
 Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;29;;
-Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;1;;
+Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;2;;
+Maule;Hombre;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;48;;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;57;;;
 Maule;Hombre;12;Campaña SARS-CoV-2 (Pfizer);24/06/2021;75;;;
@@ -49037,6 +49163,7 @@ Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;4;9;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;2;1;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;4;9;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
+Maule;Hombre;13;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;9;;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;3;;;
 Maule;Hombre;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;9;;;
@@ -49701,7 +49828,7 @@ Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);30/11/2021;1;6;;14
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;7;;5
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;3;4;;10
 Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;2;;20
-Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;2
+Maule;Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;2
 Maule;Hombre;16;Campaña SARS-CoV-2 (Sinovac);18/03/2021;1;;;
 Maule;Hombre;16;Campaña SARS-CoV-2 (Sinovac);15/04/2021;;1;;
 Maule;Hombre;16;Campaña SARS-CoV-2 (Sinovac);23/06/2021;1;;;
@@ -49985,6 +50112,7 @@ Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;2;5;;14
 Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;;7;;8
 Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;4;;30
 Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;1;;2
+Maule;Hombre;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/02/2021;1;;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/02/2021;1;;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/03/2021;;1;;
@@ -50077,7 +50205,7 @@ Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);30/11/2021;1;4;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;3;7;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;3;6;;
 Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;6;;
-Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+Maule;Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
 Maule;Mujer;6;Campaña SARS-CoV-2 (Pfizer);15/09/2021;1;;;
 Maule;Mujer;6;Campaña SARS-CoV-2 (Pfizer);05/10/2021;1;;;
 Maule;Mujer;6;Campaña SARS-CoV-2 (Pfizer);26/10/2021;;1;;
@@ -50152,6 +50280,7 @@ Maule;Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;39;51;;
 Maule;Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;31;64;;
 Maule;Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;31;59;;
 Maule;Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;5;;
+Maule;Mujer;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 Maule;Mujer;7;Campaña SARS-CoV-2 (Pfizer);01/10/2021;1;;;
 Maule;Mujer;7;Campaña SARS-CoV-2 (Pfizer);02/11/2021;;1;;
 Maule;Mujer;7;Campaña SARS-CoV-2 (Pfizer);18/11/2021;;1;;
@@ -50224,7 +50353,8 @@ Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;24;57;;
 Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;14;41;;
 Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;20;59;;
 Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;50;;
-Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;2;;
+Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;4;;
+Maule;Mujer;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Maule;Mujer;8;Campaña SARS-CoV-2 (Pfizer);04/10/2021;1;;;
 Maule;Mujer;8;Campaña SARS-CoV-2 (Pfizer);13/10/2021;1;;;
 Maule;Mujer;8;Campaña SARS-CoV-2 (Pfizer);29/10/2021;1;;;
@@ -50298,6 +50428,7 @@ Maule;Mujer;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;14;45;;
 Maule;Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;15;39;;
 Maule;Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;8;65;;
 Maule;Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;12;45;;
+Maule;Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;;;
 Maule;Mujer;9;Campaña SARS-CoV-2 (Pfizer);20/09/2021;1;;;
 Maule;Mujer;9;Campaña SARS-CoV-2 (Pfizer);01/10/2021;1;;;
 Maule;Mujer;9;Campaña SARS-CoV-2 (Pfizer);20/10/2021;1;;;
@@ -50371,7 +50502,7 @@ Maule;Mujer;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;14;46;;
 Maule;Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;25;38;;
 Maule;Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;11;44;;
 Maule;Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;11;38;;
-Maule;Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+Maule;Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;1;;
 Maule;Mujer;10;Campaña SARS-CoV-2 (Pfizer);29/09/2021;1;;;
 Maule;Mujer;10;Campaña SARS-CoV-2 (Pfizer);04/10/2021;1;;;
 Maule;Mujer;10;Campaña SARS-CoV-2 (Pfizer);22/10/2021;1;;;
@@ -50448,7 +50579,7 @@ Maule;Mujer;10;Campaña SARS-CoV-2 (Sinovac);30/11/2021;21;77;;
 Maule;Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;16;42;;
 Maule;Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;24;47;;
 Maule;Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;14;45;;
-Maule;Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
+Maule;Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;2;;
 Maule;Mujer;11;Campaña SARS-CoV-2 (Pfizer);05/07/2021;1;;;
 Maule;Mujer;11;Campaña SARS-CoV-2 (Pfizer);12/08/2021;;1;;
 Maule;Mujer;11;Campaña SARS-CoV-2 (Pfizer);20/09/2021;1;;;
@@ -50528,7 +50659,8 @@ Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;9;56;;
 Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;20;36;;
 Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;17;46;;
 Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;8;40;;
-Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;1;;
+Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;1;2;;
+Maule;Mujer;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Maule;Mujer;12;Campaña SARS-CoV-2 (Pfizer);18/06/2021;1;;;
 Maule;Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;32;;;
 Maule;Mujer;12;Campaña SARS-CoV-2 (Pfizer);23/06/2021;60;;;
@@ -50902,6 +51034,7 @@ Maule;Mujer;13;Campaña SARS-CoV-2 (Sinovac);30/11/2021;5;18;;
 Maule;Mujer;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;7;18;;
 Maule;Mujer;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;2;18;;
 Maule;Mujer;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;3;13;;
+Maule;Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;;1;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);07/04/2021;1;;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);06/05/2021;;1;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/06/2021;45;;;
@@ -50931,7 +51064,7 @@ Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);19/07/2021;73;1;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);20/07/2021;71;29;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);21/07/2021;76;49;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);22/07/2021;1005;25;;
-Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);23/07/2021;1415;87;;
+Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);23/07/2021;1415;88;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);24/07/2021;74;4;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);26/07/2021;96;50;;
 Maule;Mujer;14;Campaña SARS-CoV-2 (Pfizer);27/07/2021;24;30;;
@@ -51768,6 +51901,7 @@ Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;1;6;;13
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;4;4;;13
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;2;5;;40
 Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;5
+Maule;Mujer;17;Campaña SARS-CoV-2 (Pfizer);05/12/2021;;;;1
 Maule;Mujer;17;Campaña SARS-CoV-2 (Sinovac);05/02/2021;1;;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Sinovac);08/02/2021;1;;;
 Maule;Mujer;17;Campaña SARS-CoV-2 (Sinovac);10/02/2021;1;;;
@@ -52039,6 +52173,7 @@ Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Pfizer);14/10/2021;1;;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Pfizer);20/10/2021;1;;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Pfizer);11/11/2021;;1;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Pfizer);15/11/2021;;1;;
+Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);24/06/2021;1;;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);13/09/2021;23;;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);14/09/2021;33;;;
@@ -52114,14 +52249,14 @@ Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;265;527
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;229;480;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;174;456;;
 Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;191;492;;
-Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;21;39;;
+Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;24;45;;
+Metropolitana  Santiago;Hombre;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;1;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);14/10/2021;1;;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);26/10/2021;;2;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);27/10/2021;;1;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);02/11/2021;1;;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);03/11/2021;1;;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);11/11/2021;;1;;
-Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/05/2021;1;;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/09/2021;1;;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;26;;;
@@ -52198,7 +52333,8 @@ Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;143;525
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;97;448;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;94;384;;
 Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;100;366;;
-Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;15;33;;
+Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;17;33;;
+Metropolitana  Santiago;Hombre;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;1;;
 Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Pfizer);24/08/2021;1;;;
 Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Pfizer);14/09/2021;1;;;
 Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Pfizer);15/09/2021;1;;;
@@ -52287,7 +52423,8 @@ Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;94;497;
 Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;99;385;;
 Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;75;316;;
 Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;58;274;;
-Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;32;;
+Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;9;32;;
+Metropolitana  Santiago;Hombre;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;4;;
 Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Pfizer);15/09/2021;1;;;
 Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Pfizer);20/10/2021;;1;;1
 Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Pfizer);19/11/2021;;1;;
@@ -52370,7 +52507,8 @@ Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;111;527
 Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;89;412;;
 Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;91;345;;
 Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;72;295;;
-Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;24;;
+Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;11;29;;
+Metropolitana  Santiago;Hombre;9;Campaña SARS-CoV-2 (Sinovac);05/12/2021;3;1;;
 Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Pfizer);23/09/2021;1;;;
 Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Pfizer);27/09/2021;1;;;
 Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Pfizer);22/10/2021;;1;;
@@ -52454,7 +52592,8 @@ Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);30/11/2021;113;61
 Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;90;422;;
 Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;78;380;;
 Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;85;314;;
-Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;7;23;;
+Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;27;;
+Metropolitana  Santiago;Hombre;10;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;1;;
 Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Pfizer);23/06/2021;1;;;
 Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Pfizer);24/06/2021;1;;;
 Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Pfizer);01/07/2021;1;;;
@@ -52545,7 +52684,8 @@ Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;106;53
 Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;106;404;;
 Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;88;384;;
 Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;73;349;;
-Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;12;32;;
+Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;13;35;;
+Metropolitana  Santiago;Hombre;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);08/06/2021;1;;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);11/06/2021;4;;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;35;;;
@@ -52682,6 +52822,7 @@ Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;24;4;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;13;2;;1
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;14;6;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;
+Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);02/08/2021;1;;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;40;;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);14/09/2021;20;;;
@@ -52756,7 +52897,7 @@ Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);30/11/2021;52;296
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;50;246;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;57;217;;
 Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;44;172;;
-Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;26;;
+Metropolitana  Santiago;Hombre;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;8;31;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);07/06/2021;6;;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);08/06/2021;1;;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);11/06/2021;3;;;
@@ -52899,6 +53040,7 @@ Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;17;2;;3
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;14;3;;1
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;9;2;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;1;;
+Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Sinovac);29/06/2021;1;;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;67;;;
 Metropolitana  Santiago;Hombre;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;47;;;
@@ -53194,7 +53336,8 @@ Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);30/11/2021;35;156
 Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;33;148;;
 Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;32;138;;
 Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;26;99;;
-Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;12;;
+Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;14;;
+Metropolitana  Santiago;Hombre;14;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/03/2021;1;;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);22/03/2021;1;;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);26/03/2021;1;;;
@@ -53346,7 +53489,7 @@ Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);30/11/2021;11;4;;1
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);01/12/2021;11;9;;1
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);02/12/2021;9;10;;3
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);03/12/2021;9;4;;1
-Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;3;2;;
+Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;2;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);01/03/2021;1;;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);30/03/2021;1;;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);12/04/2021;1;;;
@@ -53429,7 +53572,7 @@ Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);30/11/2021;31;89;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;38;105;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;24;81;;
 Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;17;92;;
-Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;9;;
+Metropolitana  Santiago;Hombre;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;9;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (AstraZeneca);11/08/2021;;1;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);27/02/2021;1;;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/03/2021;6;;;
@@ -53628,7 +53771,7 @@ Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);08/10/2021;3;20;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);12/10/2021;2;18;;1
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);13/10/2021;3;29;;1
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);14/10/2021;3;19;;
-Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);15/10/2021;2;24;;2
+Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);15/10/2021;2;25;;2
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);18/10/2021;;13;;7
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);19/10/2021;1;14;;13
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);20/10/2021;;22;;11
@@ -53671,6 +53814,7 @@ Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;20;7;;2
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;8;12;;32
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;8;5;;106
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;3;;9
+Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Pfizer);05/12/2021;1;;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);11/02/2021;1;;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);10/03/2021;1;;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);16/03/2021;1;;;
@@ -53764,7 +53908,7 @@ Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);30/11/2021;22;69;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);01/12/2021;29;63;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);02/12/2021;22;70;;
 Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);03/12/2021;25;62;;
-Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;14;;
+Metropolitana  Santiago;Hombre;16;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;15;;
 Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (AstraZeneca);12/08/2021;;1;;
 Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (AstraZeneca);15/09/2021;;;;1
 Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Pfizer);25/02/2021;1;;;
@@ -54174,7 +54318,7 @@ Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Sinovac);30/11/2021;22;55;
 Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;24;73;;
 Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;29;50;;
 Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Sinovac);03/12/2021;28;51;;
-Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;7;;
+Metropolitana  Santiago;Hombre;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;8;;
 Metropolitana  Santiago;Intersex (Indeterminado);6;Campaña SARS-CoV-2 (Sinovac);12/11/2021;1;;;
 Metropolitana  Santiago;Intersex (Indeterminado);6;Campaña SARS-CoV-2 (Sinovac);17/11/2021;1;;;
 Metropolitana  Santiago;Intersex (Indeterminado);7;Campaña SARS-CoV-2 (Sinovac);27/09/2021;1;;;
@@ -54351,7 +54495,8 @@ Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);30/11/2021;221;582;
 Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);01/12/2021;213;488;;
 Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);02/12/2021;172;391;;
 Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);03/12/2021;210;421;;
-Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;24;48;;
+Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);04/12/2021;25;52;;
+Metropolitana  Santiago;Mujer;6;Campaña SARS-CoV-2 (Sinovac);05/12/2021;2;3;;
 Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Pfizer);15/09/2021;1;;;
 Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);13/09/2021;12;;;
 Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);14/09/2021;37;;;
@@ -54427,7 +54572,8 @@ Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);30/11/2021;142;585;
 Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);01/12/2021;96;413;;
 Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);02/12/2021;106;311;;
 Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);03/12/2021;94;352;;
-Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;17;30;;
+Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);04/12/2021;21;31;;
+Metropolitana  Santiago;Mujer;7;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;2;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);14/09/2021;1;;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);13/10/2021;;1;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);15/10/2021;1;;;
@@ -54435,7 +54581,6 @@ Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);02/11/2021;1;;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);04/11/2021;1;;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);24/11/2021;1;;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);02/12/2021;1;;;
-Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;1;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);13/09/2021;16;;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);14/09/2021;389;;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);15/09/2021;87;;;
@@ -54510,7 +54655,8 @@ Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);30/11/2021;100;594;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);01/12/2021;93;379;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);02/12/2021;83;295;;
 Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);03/12/2021;74;250;;
-Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;9;32;;
+Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);04/12/2021;9;33;;
+Metropolitana  Santiago;Mujer;8;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Pfizer);15/07/2021;1;;;
 Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Pfizer);17/08/2021;;1;;
 Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Pfizer);14/09/2021;2;;;
@@ -54606,7 +54752,8 @@ Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);30/11/2021;126;558;
 Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);01/12/2021;91;352;;
 Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);02/12/2021;89;348;;
 Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);03/12/2021;66;303;;
-Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;13;35;;
+Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);04/12/2021;14;37;;
+Metropolitana  Santiago;Mujer;9;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;;;
 Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Pfizer);10/07/2021;1;;;
 Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Pfizer);16/09/2021;1;;;
 Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Pfizer);01/10/2021;1;;;
@@ -54691,7 +54838,8 @@ Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);30/11/2021;108;565
 Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);01/12/2021;100;371;;
 Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);02/12/2021;57;391;;
 Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);03/12/2021;70;314;;
-Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;11;28;;
+Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);04/12/2021;11;30;;
+Metropolitana  Santiago;Mujer;10;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;1;;
 Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Pfizer);10/07/2021;1;;;
 Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Pfizer);20/07/2021;1;;;
 Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Pfizer);02/08/2021;1;;;
@@ -54791,7 +54939,8 @@ Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);30/11/2021;87;556;
 Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);01/12/2021;82;410;;
 Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);02/12/2021;82;345;;
 Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);03/12/2021;73;288;;
-Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;9;22;;
+Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);04/12/2021;10;22;;
+Metropolitana  Santiago;Mujer;11;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;2;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);11/06/2021;4;;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);21/06/2021;26;;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);22/06/2021;191;;;
@@ -54932,7 +55081,7 @@ Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);30/11/2021;15;6;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);01/12/2021;13;2;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);02/12/2021;10;5;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);03/12/2021;8;5;;1
-Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;1
+Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;;;1
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);12/04/2021;2;;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/08/2021;1;;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);13/09/2021;35;;;
@@ -55009,7 +55158,8 @@ Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);30/11/2021;61;267;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);01/12/2021;45;197;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);02/12/2021;47;179;;
 Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);03/12/2021;35;185;;
-Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;3;19;;
+Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);04/12/2021;4;19;;
+Metropolitana  Santiago;Mujer;12;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;2;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);11/06/2021;4;;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);14/06/2021;1;;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);21/06/2021;26;;;
@@ -55148,7 +55298,7 @@ Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);30/11/2021;12;2;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);01/12/2021;10;4;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);02/12/2021;11;4;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);03/12/2021;12;4;;
-Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;4;2;;
+Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Pfizer);04/12/2021;5;3;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);13/09/2021;74;;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);14/09/2021;50;;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);15/09/2021;43;;;
@@ -55222,7 +55372,8 @@ Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);30/11/2021;31;189;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);01/12/2021;31;183;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);02/12/2021;30;132;;
 Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);03/12/2021;22;139;;
-Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;9;17;;
+Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);04/12/2021;9;19;;
+Metropolitana  Santiago;Mujer;13;Campaña SARS-CoV-2 (Sinovac);05/12/2021;;1;;
 Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Pfizer);03/06/2021;1;;;
 Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Pfizer);11/06/2021;2;;;
 Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Pfizer);21/06/2021;29;;;
@@ -55438,7 +55589,8 @@ Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);30/11/2021;33;138;
 Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);01/12/2021;28;137;;
 Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);02/12/2021;31;117;;
 Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);03/12/2021;20;114;;
-Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;12;;
+Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);04/12/2021;6;13;;
+Metropolitana  Santiago;Mujer;14;Campaña SARS-CoV-2 (Sinovac);05/12/2021;1;4;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (AstraZeneca);20/08/2021;;1;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);19/03/2021;1;;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Pfizer);16/04/2021;;1;;
@@ -55672,7 +55824,7 @@ Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);30/11/2021;29;102;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);01/12/2021;22;92;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);02/12/2021;19;67;;
 Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);03/12/2021;24;80;;
-Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;13;;
+Metropolitana  Santiago;Mujer;15;Campaña SARS-CoV-2 (Sinovac);04/12/2021;5;14;;
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (AstraZeneca);11/08/2021;;1;;
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);26/02/2021;5;;;
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);27/02/2021;1;;;
@@ -55912,7 +56064,7 @@ Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);30/11/2021;6;6;;39
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);01/12/2021;10;3;;37
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);02/12/2021;14;6;;33
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);03/12/2021;5;8;;103
-Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;;;;14
+Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;14
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Sinovac);23/02/2021;1;;;
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Sinovac);18/03/2021;1;;;
 Metropolitana  Santiago;Mujer;16;Campaña SARS-CoV-2 (Sinovac);19/03/2021;7;;;
@@ -56255,7 +56407,7 @@ Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Pfizer);30/11/2021;14;12;;6
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Pfizer);01/12/2021;11;4;;52
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Pfizer);02/12/2021;9;9;;53
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Pfizer);03/12/2021;7;4;;124
-Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;1;;;12
+Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Pfizer);04/12/2021;2;;;14
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);03/02/2021;6;;;
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/02/2021;1;;;
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);05/02/2021;6;;;
@@ -56429,4 +56581,4 @@ Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);30/11/2021;27;50;;
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);01/12/2021;19;56;;
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);02/12/2021;23;35;;
 Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);03/12/2021;20;51;;
-Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;3;;
+Metropolitana  Santiago;Mujer;17;Campaña SARS-CoV-2 (Sinovac);04/12/2021;2;4;;
