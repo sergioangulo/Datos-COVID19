@@ -7,8 +7,7 @@ name: Actualiza Balance Diario
 on:
     workflow_dispatch:
     schedule:
-      - cron:  '15 15 * * SUN,TUE,WED,FRI,SAT'
-      - cron:  '15 18 * * MON,THU'
+      - cron:  '0 15 * * *'
       # Allows you to run this workflow manually from the Actions tab
 
 
