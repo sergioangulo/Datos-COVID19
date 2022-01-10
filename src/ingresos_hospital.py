@@ -101,7 +101,7 @@ class IngresosHospital_ftp:
 
         objs = [obj for obj in sorted(objs, key=get_last_modified)]
 
-        self.last_added = objs[-1]
+        self.last_added = objs[0]
         print('last added file is: ' + self.last_added.key)
         file_path = self.last_added.key
         s3_client = boto3.client('s3',
