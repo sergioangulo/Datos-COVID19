@@ -280,6 +280,7 @@ class vacunacion:
                                             'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_SUM_of_ÚnicaDOSIS':'Unica_comuna',
+                                            'SUM_of_4aDOSIS':'Cuarta_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
@@ -294,13 +295,15 @@ class vacunacion:
             self.last_added['Segunda'] = self.last_added.groupby(['Region','Fecha'])['Segunda_comuna'].transform('sum')
             self.last_added['Unica'] = self.last_added.groupby(['Region', 'Fecha'])['Unica_comuna'].transform('sum')
             self.last_added['Refuerzo'] = self.last_added.groupby(['Region', 'Fecha'])['Refuerzo_comuna'].transform('sum')
-            self.last_added = self.last_added[['Region','Fecha','Primera','Segunda','Unica','Refuerzo']]
+            self.last_added['Cuarta'] = self.last_added.groupby(['Region', 'Fecha'])['Cuarta_comuna'].transform(
+                'sum')
+            self.last_added = self.last_added[['Region','Fecha','Primera','Segunda','Unica','Refuerzo','Cuarta']]
             self.last_added.drop_duplicates(inplace=True)
 
             ##llenar fechas para cada region y crear total
             idx = pd.date_range(self.last_added['Fecha'].min(), self.last_added['Fecha'].max())
             df = pd.DataFrame()
-            total = pd.DataFrame(columns=['Region','Fecha','Primera','Segunda','Unica','Refuerzo'])
+            total = pd.DataFrame(columns=['Region','Fecha','Primera','Segunda','Unica','Refuerzo','Cuarta'])
             total = utils.fill_in_missing_dates(total, 'Fecha', 0, idx)
             total["Region"] = total["Region"].replace({0: 'Total'})
             for region in regiones[0]:
@@ -311,6 +314,7 @@ class vacunacion:
                 total['Segunda'] = df_region['Segunda'] + total['Segunda']
                 total['Unica'] = df_region['Unica'] + total['Unica']
                 total['Refuerzo'] = df_region['Refuerzo'] + total ['Refuerzo']
+                total['Cuarta'] = df_region['Cuarta'] + total['Cuarta']
                 df = df.append(df_region, ignore_index=True)
             total = total.append(df,ignore_index=True)
             total['Fecha'] = total['Fecha'].dt.strftime("%Y-%m-%d")
@@ -321,10 +325,12 @@ class vacunacion:
             self.last_added['Segunda'] = pd.to_numeric(self.last_added['Segunda'])
             self.last_added['Unica'] = pd.to_numeric(self.last_added['Unica'])
             self.last_added['Refuerzo'] = pd.to_numeric(self.last_added['Refuerzo'])
+            self.last_added['Cuarta'] = pd.to_numeric(self.last_added['Cuarta'])
             self.last_added['Primera'] = self.last_added.groupby(['Region'])['Primera'].transform('cumsum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region'])['Segunda'].transform('cumsum')
             self.last_added['Unica'] = self.last_added.groupby(['Region'])['Unica'].transform('cumsum')
             self.last_added['Refuerzo'] = self.last_added.groupby(['Region'])['Refuerzo'].transform('cumsum')
+            self.last_added['Cuarta'] = self.last_added.groupby(['Region'])['Cuarta'].transform('cumsum')
             self.last_added['Total'] = self.last_added.sum(numeric_only=True, axis=1)
 
             ##transformar en input
@@ -333,20 +339,20 @@ class vacunacion:
             for region in regiones[0]:
                 df_region = self.last_added.loc[self.last_added['Region'] == region]
                 df_region.set_index('Fecha',inplace=True)
-                df_region = df_region[['Primera','Segunda','Unica','Refuerzo']].T
+                df_region = df_region[['Primera','Segunda','Unica','Refuerzo','Cuarta']].T
                 df_region.reset_index(drop=True, inplace=True)
                 df = df.append(df_region, ignore_index=True)
 
 
-            new_col = ['Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo','Primera', 'Segunda','Unica','Refuerzo',
-                       'Primera', 'Segunda','Unica','Refuerzo']
+            new_col = ['Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta','Primera', 'Segunda','Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda','Unica','Refuerzo','Cuarta']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for region in regiones[0]:
@@ -380,6 +386,8 @@ class vacunacion:
                                             'POBLACION':'Poblacion',
                                             '2aDOSIS_RES': 'Segunda_comuna',
                                             '1aDOSIS_RES': 'Primera_comuna',
+                                            '4_DOSIS':'Cuarta_comuna',
+                                            'Refuerzo_DOSIS':'Refuerzo_comuna',
                                             'ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
             self.last_added.sort_values(by=['Region', 'Edad'], inplace=True)
             utils.regionName(self.last_added)
@@ -390,13 +398,15 @@ class vacunacion:
             self.last_added['Primera'] = self.last_added.groupby(['Region', 'Edad'])['Primera_comuna'].transform('sum')
             self.last_added['Segunda'] = self.last_added.groupby(['Region', 'Edad'])['Segunda_comuna'].transform('sum')
             self.last_added['Unica'] = self.last_added.groupby(['Region', 'Edad'])['Unica_comuna'].transform('sum')
+            self.last_added['Refuerzo'] = self.last_added.groupby(['Region', 'Edad'])['Refuerzo_comuna'].transform('sum')
+            self.last_added['Cuarta'] = self.last_added.groupby(['Region', 'Edad'])['Cuarta_comuna'].transform('sum')
             self.last_added['Poblacion'] = self.last_added.groupby(['Region','Edad'])['Poblacion'].transform('sum')
-            self.last_added = self.last_added[['Region', 'Edad', 'Poblacion','Primera', 'Segunda','Unica']]
+            self.last_added = self.last_added[['Region', 'Edad', 'Poblacion','Primera', 'Segunda','Unica','Refuerzo','Cuarta']]
             self.last_added.drop_duplicates(inplace=True)
 
             ##crear total
             df = pd.DataFrame()
-            total = pd.DataFrame(columns=['Region', 'Edad','Poblacion','Primera', 'Segunda','Unica'])
+            total = pd.DataFrame(columns=['Region', 'Edad','Poblacion','Primera', 'Segunda','Unica','Refuerzo','Cuarta'])
             total['Edad'] = list(range(15, 81))
             total["Region"] = total["Region"].fillna('Total')
             for region in regiones[0]:
@@ -405,9 +415,10 @@ class vacunacion:
                 total['Primera'] = total.Primera.fillna(0) + df_region.Primera.fillna(0)
                 total['Segunda'] = total.Segunda.fillna(0) + df_region.Segunda.fillna(0)
                 total['Unica'] = total.Unica.fillna(0) + df_region.Unica.fillna(0)
+                total['Refuerzo'] = total.Refuerzo.fillna(0) + df_region.Refuerzo.fillna(0)
+                total['Cuarta'] = total.Cuarta.fillna(0) + df_region.Cuarta.fillna(0)
                 total['Poblacion'] = total.Poblacion.fillna(0) + df_region.Poblacion.fillna(0)
                 df = df.append(df_region, ignore_index=True)
-            edad = total
             total = total.append(df, ignore_index=True)
             self.last_added = total
 
@@ -417,15 +428,15 @@ class vacunacion:
             for region in regiones[0]:
                 df_region = self.last_added.loc[self.last_added['Region'] == region]
                 df_region.set_index('Edad', inplace=True)
-                df_region = df_region[['Primera', 'Segunda','Unica']].T
+                df_region = df_region[['Primera', 'Segunda','Unica','Refuerzo','Cuarta']].T
                 df_region.reset_index(drop=True, inplace=True)
                 df = df.append(df_region, ignore_index=True)
 
-            new_col = ['Primera', 'Segunda', 'Unica','Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
-                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
-                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
-                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica',
-                       'Primera', 'Segunda', 'Unica', 'Primera', 'Segunda', 'Unica']
+            new_col = ['Primera', 'Segunda', 'Unica','Refuerzo','Cuarta','Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta',
+                       'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta', 'Primera', 'Segunda', 'Unica','Refuerzo','Cuarta']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for region in regiones[0]:
@@ -459,15 +470,16 @@ class vacunacion:
                                             'SUM_of_1aDOSIS': 'Primera',
                                             'SUM_of_2aDOSIS': 'Segunda',
                                             'SUM_of_ÚnicaDOSIS':'Unica',
-                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo'}, inplace=True)
+                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo',
+                                            'SUM_of_4aDOSIS':'Cuarta'}, inplace=True)
             self.last_added.sort_values(by=['Sexo','Edad'], inplace=True)
-            self.last_added = self.last_added[['Sexo','Edad','Primera','Segunda','Unica','Refuerzo']]
+            self.last_added = self.last_added[['Sexo','Edad','Primera','Segunda','Unica','Refuerzo','Cuarta']]
             sexo = pd.DataFrame(self.last_added['Sexo'].unique())
 
             ##crear total
             df = pd.DataFrame()
             for sex in sexo[0]:
-                total = pd.DataFrame(columns=['Sexo', 'Edad', 'Primera', 'Segunda','Unica','Refuerzo'])
+                total = pd.DataFrame(columns=['Sexo', 'Edad', 'Primera', 'Segunda','Unica','Refuerzo','Cuarta'])
                 total['Edad'] = list(range(self.last_added.Edad.min(), self.last_added.Edad.max() + 1))
                 df_sex = self.last_added.loc[self.last_added['Sexo'] == sex]
                 df_sex.reset_index(drop=True, inplace=True)
@@ -478,6 +490,7 @@ class vacunacion:
                 total['Segunda'] = total.Segunda.fillna(0) + df_sex.Segunda.fillna(0)
                 total['Unica'] = total.Unica.fillna(0) + df_sex.Unica.fillna(0)
                 total['Refuerzo'] = total.Refuerzo.fillna(0) + df_sex.Refuerzo.fillna(0)
+                total['Cuarta'] = total.Cuarta.fillna(0) + df_sex.Cuarta.fillna(0)
                 df = df.append(total, ignore_index=True)
             self.last_added = df
 
@@ -487,11 +500,11 @@ class vacunacion:
             for sex in sexo[0]:
                 df_sex = self.last_added.loc[self.last_added['Sexo'] == sex]
                 df_sex.set_index('Edad', inplace=True)
-                df_sex = df_sex[['Primera', 'Segunda','Unica','Refuerzo']].T
+                df_sex = df_sex[['Primera', 'Segunda','Unica','Refuerzo','Cuarta']].T
                 df_sex.reset_index(drop=True, inplace=True)
                 df = df.append(df_sex, ignore_index=True)
 
-            new_col = ['Primera', 'Segunda','Unica','Refuerzo', 'Primera', 'Segunda','Unica','Refuerzo', 'Primera', 'Segunda','Unica','Refuerzo', 'Primera', 'Segunda','Unica','Refuerzo']
+            new_col = ['Primera', 'Segunda','Unica','Refuerzo','Cuarta', 'Primera', 'Segunda','Unica','Refuerzo','Cuarta', 'Primera', 'Segunda','Unica','Refuerzo','Cuarta', 'Primera', 'Segunda','Unica','Refuerzo','Cuarta']
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for sex in sexo[0]:
@@ -521,7 +534,8 @@ class vacunacion:
                                             'SUM_of_1aDOSIS': 'Primera',
                                             'SUM_of_2aDOSIS': 'Segunda',
                                             'SUM_of_SUM_of_ÚnicaDOSIS': 'Unica',
-                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo'}, inplace=True)
+                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo',
+                                                 'SUM_of_4aDOSIS':'Cuarta'}, inplace=True)
             self.last_edad_fecha['Fecha'] = pd.to_datetime(self.last_edad_fecha['Fecha'], format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_edad_fecha.sort_values(by=['Fecha', 'Edad'], inplace=True)
             self.last_edad_fecha.reset_index(drop=True,inplace=True)
@@ -536,11 +550,11 @@ class vacunacion:
             date_list = pd.date_range(startdate, periods=lenSE).tolist()
             date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
             print(date_list)
-            self.last_edad_fecha['Total'] = self.last_edad_fecha['Primera'].fillna(0) + self.last_edad_fecha['Segunda'].fillna(0) + self.last_edad_fecha['Unica'].fillna(0) + self.last_edad_fecha['Refuerzo'].fillna(0)
+            self.last_edad_fecha['Total'] = self.last_edad_fecha['Primera'].fillna(0) + self.last_edad_fecha['Segunda'].fillna(0) + self.last_edad_fecha['Unica'].fillna(0) + self.last_edad_fecha['Refuerzo'].fillna(0) + self.last_edad_fecha['Cuarta'].fillna(0)
 
 
 
-            for k in [2, 3, 4,5,6]:
+            for k in [2, 3, 4,5,6,7]:
                 edades = self.last_edad_fecha[columns_name[1]].unique()
                 edades = edades[~np.isnan(edades)]
                 edades = np.sort(edades)
@@ -604,6 +618,17 @@ class vacunacion:
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
                 if k == 6:
+                    name = '../output/producto78/vacunados_edad_fecha' + '_Cuarta.csv'
+                    df.to_csv(name, index=False)
+                    dft = df.T
+                    dft.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Edad']
+                    variables = [x for x in df.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Cuarta Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                if k == 7:
                     name = '../output/producto78/vacunados_edad_fecha' + '_total.csv'
                     df.to_csv(name, index=False)
                     dft = df.T
@@ -679,17 +704,17 @@ class vacunacion:
             Comp = df_base.loc[df_base['Comuna'] != 'Total']
             Comp.reset_index(inplace=True)
             utils.desconocidoName(Comp)
-            for k in range(len(Comp)):
-                if Comp.loc[k, 'Codigo region'] < 10:
-                    Comp.loc[k, 'Codigo region'] = '0' + str(Comp.loc[k, 'Codigo region'])
-                else:
-                    Comp.loc[k, 'Codigo region'] = str(Comp.loc[k, 'Codigo region'])
-
-                if Comp.loc[k, 'Codigo comuna'] != '':
-                    if Comp.loc[k, 'Codigo comuna'] < 10000:
-                        Comp.loc[k, 'Codigo comuna'] = '0' + str(Comp.loc[k, 'Codigo comuna'])
-                    else:
-                        Comp.loc[k, 'Codigo comuna'] = str(Comp.loc[k, 'Codigo comuna'])
+            # for k in range(len(Comp)):
+            #     if Comp.loc[k, 'Codigo region'] < 10:
+            #         Comp.loc[k, 'Codigo region'] = '0' + str(Comp.loc[k, 'Codigo region'])
+            #     else:
+            #         Comp.loc[k, 'Codigo region'] = str(Comp.loc[k, 'Codigo region'])
+            #
+            #     if Comp.loc[k, 'Codigo comuna'] != '':
+            #         if Comp.loc[k, 'Codigo comuna'] < 10000:
+            #             Comp.loc[k, 'Codigo comuna'] = '0' + str(Comp.loc[k, 'Codigo comuna'])
+            #         else:
+            #             Comp.loc[k, 'Codigo comuna'] = str(Comp.loc[k, 'Codigo comuna'])
 
             comuna = Comp['Comuna']
 
@@ -698,19 +723,17 @@ class vacunacion:
                                             'FECHA_INMUNIZACION': 'Fecha',
                                             'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
-                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna',
-                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
+                                            'SUM_of_SUM_of_ÚnicaDOSIS':'Unica_comuna',
+                                            'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
+                                            'SUM_of_4aDOSIS':'Cuarta_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_added.sort_values(by=['region_residencia','Fecha'], inplace=True)
+            self.last_added.reset_index(drop=True, inplace=True)
             utils.regionDEISName(self.last_added)
 
-            for k in range(len(self.last_added)):
-               if self.last_added.loc[k, 'Codigo comuna'] != '':
-                    if self.last_added.loc[k, 'Codigo comuna'] < 10000:
-                        self.last_added.loc[k, 'Codigo comuna'] = '0' + str(self.last_added.loc[k, 'Codigo comuna'])
-                    else:
-                        self.last_added.loc[k, 'Codigo comuna'] = str(self.last_added.loc[k, 'Codigo comuna'])
+            # for k in self.last_added.loc[self.last_added['Codigo comuna'] < 10000].index:
+            #     self.last_added.loc[k, 'Codigo comuna'] = '0' + str(self.last_added.loc[k, 'Codigo comuna'])
 
             df_sup = Comp[['Codigo comuna', 'Comuna']]
             df_sup['Codigo comuna'] = df_sup['Codigo comuna'].replace('', 0)
@@ -756,7 +779,7 @@ class vacunacion:
                 return df2
 
             dfv = edad2rango(self.last_added, comuna)
-            for k in [3,4,5,6]:
+            for k in [3,4,5,6,7]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
                 dicts = {}
@@ -876,6 +899,18 @@ class vacunacion:
                                             value_name='Dosis Refuerzo')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
+                elif k == 7:
+                    name = self.output + '_4taDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'], inplace=True)
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Cuarta Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
         elif self.indicador == 'vacunas_comuna_edad':
             ##template por comuna
             df_base = pd.read_csv('../input/DistribucionDEIS/baseFiles/DEIS_template.csv')
@@ -913,9 +948,10 @@ class vacunacion:
                                             '2aDOSIS_RES': 'Segunda_comuna',
                                             '1aDOSIS_RES': 'Primera_comuna',
                                             'ÚnicaDOSIS':'Unica_comuna',
+                                            '4_DOSIS': 'Cuarta_comuna',
                                             'Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             utils.regionDEISName(self.last_added)
-            self.last_added = self.last_added[['region_residencia','Codigo comuna','Edad','Primera_comuna','Segunda_comuna','Unica_comuna','Refuerzo_comuna']]
+            self.last_added = self.last_added[['region_residencia','Codigo comuna','Edad','Primera_comuna','Segunda_comuna','Unica_comuna','Refuerzo_comuna','Cuarta_comuna']]
 
             for k in range(len(self.last_added)):
                if self.last_added.loc[k, 'Codigo comuna'] != '':
@@ -942,7 +978,7 @@ class vacunacion:
 
             SE_comuna = self.last_added[columns_name[2]]
 
-            for k in [3,4,5,6]:
+            for k in [3,4,5,6,7]:
                 df = pd.DataFrame(np.zeros((len(comuna), lenSE)))
 
                 dicts = {}
@@ -1060,6 +1096,18 @@ class vacunacion:
                                             value_name='Dosis Refuerzo')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
+                elif k == 7:
+                    name = self.output + '_4taDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna']
+                    outputDF2.drop(columns=['Poblacion'], inplace=True)
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
+                                            value_name='Cuarta Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
         elif self.indicador == 'vacunas_establecimiento':
             #por establecimiento
             self.last_added.rename(columns={'NOMBRE_ESTAB': 'Establecimiento',
@@ -1067,6 +1115,7 @@ class vacunacion:
                                            'SUM_of_2aDOSIS': 'Segunda_comuna',
                                            'SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
+                                            'SUM_of_SUM_of_4aDOSIS':'Cuarta_comuna',
                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'], format='%d/%m/%Y').dt.strftime(
@@ -1083,7 +1132,9 @@ class vacunacion:
                 'Unica_comuna'].transform('sum')
             self.last_added['Refuerzo'] = self.last_added.groupby(['Establecimiento', 'Fecha'])[
                 'Refuerzo_comuna'].transform('sum')
-            self.last_added['Personas_vacunadas'] = self.last_added['Primera'] + self.last_added['Segunda'] + self.last_added['Unica']+self.last_added['Refuerzo']
+            self.last_added['Cuarta'] = self.last_added.groupby(['Establecimiento', 'Fecha'])[
+                'Cuarta_comuna'].transform('sum')
+            self.last_added['Personas_vacunadas'] = self.last_added['Primera'] + self.last_added['Segunda'] + self.last_added['Unica']+self.last_added['Refuerzo']+self.last_added['Cuarta']
             self.last_added = self.last_added[['Establecimiento','Fecha','Personas_vacunadas']]
             self.last_added.drop_duplicates(inplace=True)
 
@@ -1127,6 +1178,7 @@ class vacunacion:
                                             'SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_ÚnicaDOSIS': 'Unica_comuna',
+                                            'SUM_of_SUM_of_4aDOSIS':'Cuarta_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'], format='%d/%m/%Y').dt.strftime(
@@ -1145,7 +1197,9 @@ class vacunacion:
                 'Unica_comuna'].transform('sum')
             self.last_added['Refuerzo'] = self.last_added.groupby(['Fabricante', 'Fecha'])[
                 'Refuerzo_comuna'].transform('sum')
-            self.last_added = self.last_added[['Fabricante', 'Fecha', 'Primera','Segunda','Unica','Refuerzo']]
+            self.last_added['Cuarta'] = self.last_added.groupby(['Fabricante', 'Fecha'])[
+                'Cuarta_comuna'].transform('sum')
+            self.last_added = self.last_added[['Fabricante', 'Fecha', 'Primera','Segunda','Unica','Refuerzo','Cuarta']]
             self.last_added.drop_duplicates(inplace=True)
 
             columns_name = self.last_added.columns.values
@@ -1187,7 +1241,7 @@ class vacunacion:
             dffab.set_index('Fabricante', inplace=True)
             dfv = edad2rango(dffab, fabricantes[0])
 
-            for k in [2,3,4,5]:
+            for k in [2,3,4,5,6]:
                 df = pd.DataFrame(np.zeros((len(fabricantes), lenSE)))
 
                 dicts = {}
@@ -1260,6 +1314,17 @@ class vacunacion:
                                             value_name='Dosis Refuerzo')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
+                elif k == 6:
+                    name = '../output/producto83/vacunacion_fabricantes_4taDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Fabricante']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Fecha',
+                                            value_name='Cuarta Dosis')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
 
         elif self.indicador == 'vacunas_fabricante_edad':
 
@@ -1269,6 +1334,7 @@ class vacunacion:
                                             'SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
+                                            'SUM_of_SUM_of_4aDOSIS':'Cuarta_comuna',
                                             'SUM_of_ÚnicaDOSIS': 'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Edad'])
             self.last_added.sort_values(by=['Fabricante', 'Edad'], inplace=True)
@@ -1284,7 +1350,9 @@ class vacunacion:
                 'Unica_comuna'].transform('sum')
             self.last_added['Refuerzo'] = self.last_added.groupby(['Fabricante', 'Edad'])[
                 'Refuerzo_comuna'].transform('sum')
-            self.last_added = self.last_added[['Fabricante', 'Edad', 'Primera','Segunda','Unica','Refuerzo']]
+            self.last_added['Cuarta'] = self.last_added.groupby(['Fabricante', 'Edad'])[
+                'Cuarta_comuna'].transform('sum')
+            self.last_added = self.last_added[['Fabricante', 'Edad', 'Primera', 'Segunda', 'Unica', 'Refuerzo', 'Cuarta']]
             self.last_added.drop_duplicates(inplace=True)
 
             columns_name = self.last_added.columns.values
@@ -1324,7 +1392,7 @@ class vacunacion:
             dffab.set_index('Fabricante', inplace=True)
             dfv = edad2rango(dffab, fabricantes[0])
 
-            for k in [2,3,4,5]:
+            for k in [2,3,4,5,6]:
                 df = pd.DataFrame(np.zeros((len(fabricantes), lenSE)))
 
                 dicts = {}
@@ -1395,6 +1463,17 @@ class vacunacion:
                     variables = [x for x in outputDF2.columns if x not in identifiers]
                     outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
                                             value_name='Dosis Refuerzo')
+                    outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+
+                elif k == 6:
+                    name = '../output/producto88/vacunacion_fabricantes_edad_4taDosis.csv'
+                    outputDF2.to_csv(name, index=False)
+                    outputDF2_T = outputDF2.T
+                    outputDF2_T.to_csv(name.replace('.csv', '_T.csv'), header=False)
+                    identifiers = ['Fabricante']
+                    variables = [x for x in outputDF2.columns if x not in identifiers]
+                    outputDF2_std = pd.melt(outputDF2, id_vars=identifiers, value_vars=variables, var_name='Edad',
+                                            value_name='Cuarta Dosis')
                     outputDF2_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
 
 if __name__ == '__main__':
