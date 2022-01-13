@@ -71,13 +71,14 @@ def prod90(fte, producto):
 def agrupaporSemanaEpi(producto,serie):
     df = producto
     df['semana_epidemiologica'] = pd.to_datetime(df.index)
-    df['semana_epidemiologica'] = df['semana_epidemiologica'].dt.strftime('%W')
+    df['semana_epidemiologica'] = df['semana_epidemiologica'].dt.strftime('%Y-%W')
+    df['semana_epidemiologica'].replace('2021-00', '2020-52', inplace=True)
+    df['semana_epidemiologica'].replace('2022-00', '2021-52', inplace=True)
     try:
         output = df.groupby(['semana_epidemiologica'])['semana_epidemiologica',serie].max()
     except ValueError:
         print("Oops!  That was no valid number.  Try again...")
-    output['semana_epidemiologica'] = output['semana_epidemiologica'].astype(int)
-    output.set_index('semana_epidemiologica',inplace=True)
+    output.set_index('semana_epidemiologica', inplace=True)
     return output
 
 
