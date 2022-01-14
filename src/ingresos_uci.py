@@ -95,13 +95,13 @@ class IngresosUCI_ftp:
         self.s3 = self.session.resource('s3')
         self.actual_bucket = self.s3.Bucket(self.bucket)
 
-        get_last_modified = lambda obj: int(obj.last_modified.strftime('%m%d'))
+        get_last_modified = lambda obj: int(obj.last_modified.strftime('%y%m%d'))
 
         objs = [obj for obj in self.actual_bucket.objects.filter(Prefix=self.folder) if 'xlsx' in obj.key]
 
         objs = [obj for obj in sorted(objs, key=get_last_modified)]
 
-        self.last_added = objs[0]
+        self.last_added = objs[-1]
         print('last added file is: ' + self.last_added.key)
         file_path = self.last_added.key
         s3_client = boto3.client('s3',
