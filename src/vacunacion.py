@@ -280,7 +280,7 @@ class vacunacion:
                                             'SUM_of_SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_SUM_of_ÚnicaDOSIS':'Unica_comuna',
-                                            'SUM_of_4aDOSIS':'Cuarta_comuna',
+                                            'SUM_of_4_Dosis':'Cuarta_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
@@ -471,7 +471,7 @@ class vacunacion:
                                             'SUM_of_2aDOSIS': 'Segunda',
                                             'SUM_of_ÚnicaDOSIS':'Unica',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo',
-                                            'SUM_of_4aDOSIS':'Cuarta'}, inplace=True)
+                                            'SUM_of_4_Dosis':'Cuarta'}, inplace=True)
             self.last_added.sort_values(by=['Sexo','Edad'], inplace=True)
             self.last_added = self.last_added[['Sexo','Edad','Primera','Segunda','Unica','Refuerzo','Cuarta']]
             sexo = pd.DataFrame(self.last_added['Sexo'].unique())
@@ -535,7 +535,7 @@ class vacunacion:
                                             'SUM_of_2aDOSIS': 'Segunda',
                                             'SUM_of_SUM_of_ÚnicaDOSIS': 'Unica',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo',
-                                                 'SUM_of_4aDOSIS':'Cuarta'}, inplace=True)
+                                                 'SUM_of_4_Dosis':'Cuarta'}, inplace=True)
             self.last_edad_fecha['Fecha'] = pd.to_datetime(self.last_edad_fecha['Fecha'], format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_edad_fecha.sort_values(by=['Fecha', 'Edad'], inplace=True)
             self.last_edad_fecha.reset_index(drop=True,inplace=True)
@@ -725,7 +725,7 @@ class vacunacion:
                                             'SUM_of_SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_SUM_of_ÚnicaDOSIS':'Unica_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
-                                            'SUM_of_4aDOSIS':'Cuarta_comuna'}, inplace=True)
+                                            'SUM_of_4_Dosis':'Cuarta_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'],format='%d/%m/%Y').dt.strftime("%Y-%m-%d")
             self.last_added.sort_values(by=['region_residencia','Fecha'], inplace=True)
@@ -948,7 +948,7 @@ class vacunacion:
                                             '2aDOSIS_RES': 'Segunda_comuna',
                                             '1aDOSIS_RES': 'Primera_comuna',
                                             'ÚnicaDOSIS':'Unica_comuna',
-                                            '4_DOSIS': 'Cuarta_comuna',
+                                            '4aDOSIS': 'Cuarta_comuna',
                                             'Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             utils.regionDEISName(self.last_added)
             self.last_added = self.last_added[['region_residencia','Codigo comuna','Edad','Primera_comuna','Segunda_comuna','Unica_comuna','Refuerzo_comuna','Cuarta_comuna']]
@@ -1115,7 +1115,7 @@ class vacunacion:
                                            'SUM_of_2aDOSIS': 'Segunda_comuna',
                                            'SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
-                                            'SUM_of_SUM_of_4aDOSIS':'Cuarta_comuna',
+                                            'SUM_of_SUM_of_4_Dosis':'Cuarta_comuna',
                                            'SUM_of_ÚnicaDOSIS':'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'], format='%d/%m/%Y').dt.strftime(
@@ -1178,7 +1178,7 @@ class vacunacion:
                                             'SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_ÚnicaDOSIS': 'Unica_comuna',
-                                            'SUM_of_SUM_of_4aDOSIS':'Cuarta_comuna',
+                                            'SUM_of_SUM_of_4_Dosis':'Cuarta_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Fecha'])
             self.last_added['Fecha'] = pd.to_datetime(self.last_added['Fecha'], format='%d/%m/%Y').dt.strftime(
@@ -1334,7 +1334,7 @@ class vacunacion:
                                             'SUM_of_2aDOSIS': 'Segunda_comuna',
                                             'SUM_of_1aDOSIS': 'Primera_comuna',
                                             'SUM_of_Refuerzo_DOSIS':'Refuerzo_comuna',
-                                            'SUM_of_SUM_of_4aDOSIS':'Cuarta_comuna',
+                                            'SUM_of_SUM_of_4_Dosis':'Cuarta_comuna',
                                             'SUM_of_ÚnicaDOSIS': 'Unica_comuna'}, inplace=True)
             self.last_added = self.last_added.dropna(subset=['Edad'])
             self.last_added.sort_values(by=['Fabricante', 'Edad'], inplace=True)
