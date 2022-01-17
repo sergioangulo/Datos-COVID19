@@ -356,7 +356,7 @@ class vacunacion:
             df.insert(0, column='Dosis', value=new_col)
             new_col = pd.DataFrame()
             for region in regiones[0]:
-                col = [region,region,region,region]
+                col = [region,region,region,region,region]
                 new_col = new_col.append(col, ignore_index=True)
             df.insert(0, column='Region', value=new_col)
             self.last_added = df
@@ -1481,58 +1481,58 @@ if __name__ == '__main__':
     my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
     my_vacunas.get_last()
     my_vacunas.last_to_csv()
-
-    print('Actualizamos total de vacunados por region y edad')
-    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos total de vacunados por sexo y edad')
-    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    # print('Actualizamos total de vacunados por grupo prioritario')
-    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
+    #
+    # print('Actualizamos total de vacunados por region y edad')
+    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por fabricante')
-    my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por edad')
-    my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos dosis por caracteristicas_del_vacunado')
-    my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por comuna')
-    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por edad y comuna')
-    my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por establecimiento')
-    my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por fabricante y fecha')
-    my_vacunas = vacunacion('../output/producto83/vacunacion_fabricantes', 'vacunas_fabricante')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
-
-    print('Actualizamos camapaña de vacunación por fabricante y edad')
-    my_vacunas = vacunacion('../output/producto88/vacunacion_fabricantes_edad', 'vacunas_fabricante_edad')
-    my_vacunas.get_last()
-    my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos total de vacunados por sexo y edad')
+    # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # # print('Actualizamos total de vacunados por grupo prioritario')
+    # # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
+    # # my_vacunas.get_last()
+    # # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por fabricante')
+    # my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por edad')
+    # my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos dosis por caracteristicas_del_vacunado')
+    # my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por comuna')
+    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por edad y comuna')
+    # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por establecimiento')
+    # my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por fabricante y fecha')
+    # my_vacunas = vacunacion('../output/producto83/vacunacion_fabricantes', 'vacunas_fabricante')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
+    #
+    # print('Actualizamos camapaña de vacunación por fabricante y edad')
+    # my_vacunas = vacunacion('../output/producto88/vacunacion_fabricantes_edad', 'vacunas_fabricante_edad')
+    # my_vacunas.get_last()
+    # my_vacunas.last_to_csv()
