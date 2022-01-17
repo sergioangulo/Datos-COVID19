@@ -27,6 +27,7 @@ import pandas as pd
 import datetime as dt
 import numpy as np
 from itertools import groupby
+import time
 
 
 class vacunacion:
@@ -544,12 +545,12 @@ class vacunacion:
             maxSE = self.last_edad_fecha[columns_name[0]].max()
             minSE = self.last_edad_fecha[columns_name[0]].min()
 
-            print(minSE, maxSE)
+            #print(minSE, maxSE)
             lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
             startdate = pd.to_datetime(minSE)
             date_list = pd.date_range(startdate, periods=lenSE).tolist()
             date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
-            print(date_list)
+            #print(date_list)
             self.last_edad_fecha['Total'] = self.last_edad_fecha['Primera'].fillna(0) + self.last_edad_fecha['Segunda'].fillna(0) + self.last_edad_fecha['Unica'].fillna(0) + self.last_edad_fecha['Refuerzo'].fillna(0) + self.last_edad_fecha['Cuarta'].fillna(0)
 
 
@@ -745,12 +746,12 @@ class vacunacion:
             maxSE = self.last_added[columns_name[2]].max()
             minSE = self.last_added[columns_name[2]].min()
 
-            print(minSE, maxSE)
+            #print(minSE, maxSE)
             lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
             startdate = pd.to_datetime(minSE)
             date_list = pd.date_range(startdate, periods=lenSE).tolist()
             date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
-            print(date_list)
+            #print(date_list)
 
 
             SE_comuna = self.last_added[columns_name[2]]
@@ -845,7 +846,7 @@ class vacunacion:
                 outputDF2.drop(columns=['index'], axis=1, inplace=True)
                 outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
 
-                print(outputDF2.head(20))
+                #print(outputDF2.head(20))
 
                 outputDF2.dropna(how='all', inplace=True)
                 todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
@@ -970,10 +971,10 @@ class vacunacion:
             maxSE = self.last_added[columns_name[2]].max()
             minSE = self.last_added[columns_name[2]].min()
 
-            print(minSE, maxSE)
+            #print(minSE, maxSE)
             lenSE = maxSE - minSE + 1
             date_list = list(range(minSE,maxSE+1))
-            print(date_list)
+            #print(date_list)
 
 
             SE_comuna = self.last_added[columns_name[2]]
@@ -1042,7 +1043,7 @@ class vacunacion:
                 outputDF2.drop(columns=['index'], axis=1, inplace=True)
                 outputDF2[variables] = outputDF2[variables].dropna()  # .astype(int)
 
-                print(outputDF2.head(20))
+                #print(outputDF2.head(20))
 
                 outputDF2.dropna(how='all', inplace=True)
                 todrop = outputDF2.loc[outputDF2['Comuna'] == 'Total']
@@ -1207,12 +1208,12 @@ class vacunacion:
             maxSE = self.last_added[columns_name[1]].max()
             minSE = self.last_added[columns_name[1]].min()
 
-            print(minSE, maxSE)
+            #print(minSE, maxSE)
             lenSE = (pd.to_datetime(maxSE) - pd.to_datetime(minSE)).days + 1
             startdate = pd.to_datetime(minSE)
             date_list = pd.date_range(startdate, periods=lenSE).tolist()
             date_list = [dt.datetime.strftime(x, "%Y-%m-%d") for x in date_list]
-            print(date_list)
+            #print(date_list)
 
             def edad2rango(df, fab):
                 cols = df.columns.tolist()
@@ -1360,10 +1361,10 @@ class vacunacion:
             maxSE = self.last_added[columns_name[1]].max()
             minSE = self.last_added[columns_name[1]].min()
 
-            print(minSE, maxSE)
+            #print(minSE, maxSE)
             lenSE = maxSE - minSE + 1
             date_list = list(range(minSE, maxSE + 1))
-            print(date_list)
+            #print(date_list)
 
             def edad2rango(df, fab):
                 cols = df.columns.tolist()
@@ -1478,61 +1479,139 @@ class vacunacion:
 
 if __name__ == '__main__':
     print('Actualizamos campana de vacunacion por region')
+    t0 = time.time()
     my_vacunas = vacunacion('../output/producto76/vacunacion','vacunas_region')
     my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
     my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos total de vacunados por region y edad')
-    # my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: '+str(write))
+
+
+    print('Actualizamos total de vacunados por region y edad')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto77/total_vacunados_region_edad','vacunas_edad_region')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos total de vacunados por sexo y edad')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    # print('Actualizamos total de vacunados por grupo prioritario')
+    # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
     # my_vacunas.get_last()
     # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos total de vacunados por sexo y edad')
-    # my_vacunas = vacunacion('../output/producto78/total_vacunados_sexo_edad', 'vacunas_edad_sexo')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # # print('Actualizamos total de vacunados por grupo prioritario')
-    # # my_vacunas = vacunacion('../output/producto79/total_vacunados_prioridad', 'vacunas_prioridad')
-    # # my_vacunas.get_last()
-    # # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por fabricante')
-    # my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por edad')
-    # my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos dosis por caracteristicas_del_vacunado')
-    # my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por comuna')
-    # my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por edad y comuna')
-    # my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por establecimiento')
-    # my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por fabricante y fecha')
-    # my_vacunas = vacunacion('../output/producto83/vacunacion_fabricantes', 'vacunas_fabricante')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
-    #
-    # print('Actualizamos camapaña de vacunación por fabricante y edad')
-    # my_vacunas = vacunacion('../output/producto88/vacunacion_fabricantes_edad', 'vacunas_fabricante_edad')
-    # my_vacunas.get_last()
-    # my_vacunas.last_to_csv()
+
+    print('Actualizamos dosis por fabricante')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto76/fabricante','fabricante')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos dosis por edad')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto76/rango_etario','edad')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos dosis por caracteristicas_del_vacunado')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto76/grupo','caracteristicas_del_vacunado')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos camapaña de vacunación por comuna')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto80/vacunacion_comuna','vacunas_comuna')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos camapaña de vacunación por edad y comuna')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto81/vacunacion_comuna_edad', 'vacunas_comuna_edad')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos camapaña de vacunación por establecimiento')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto83/vacunacion_establecimiento', 'vacunas_establecimiento')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos camapaña de vacunación por fabricante y fecha')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto83/vacunacion_fabricantes', 'vacunas_fabricante')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
+
+    print('Actualizamos camapaña de vacunación por fabricante y edad')
+    t0 = time.time()
+    my_vacunas = vacunacion('../output/producto88/vacunacion_fabricantes_edad', 'vacunas_fabricante_edad')
+    my_vacunas.get_last()
+    t1 = time.time()
+    load = t1 - t0
+    print('time to load: ' + str(load))
+    my_vacunas.last_to_csv()
+    t2 = time.time()
+    write = t2 - t1
+    print('time to write: ' + str(write))
