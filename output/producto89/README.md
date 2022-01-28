@@ -34,4 +34,7 @@ Departamento de Epidemiología, Ministerio de Salud de Chile.
 Asociado a los informes semanales, publicados por el Ministerio de Salud de Chile.
 
 
+# NOTA ACLARATORIA:
+El producto 89 presenta los eventos de casos, ingresos UCI y defunciones, según ocurrencia en la semana de reporte. Estos son consolidados sin una actualización retrospectiva, por lo cual podría presentar diferencias con otros reportes que se emiten en paralelo.
 
+El producto 90 presenta las cifras de casos, ingresos UCI y defunciones según semana de inicio de síntomas, no por  ocurrencia del evento, con actualización retrospectiva semanal, por lo cual podría presentar diferencias con otros reportes que se emiten en paralelo.
