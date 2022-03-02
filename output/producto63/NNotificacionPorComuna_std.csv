@@ -26295,349 +26295,1041 @@ Nuble,16.0,Coihueco,16302.0,28375.0,2022-02-01,814.0
 Nuble,16.0,Niquen,16303.0,11567.0,2022-02-01,330.0
 Nuble,16.0,San Fabian,16304.0,4654.0,2022-02-01,206.0
 Nuble,16.0,San Nicolas,16305.0,12172.0,2022-02-01,537.0
-Tarapaca,1.0,Iquique,1101.0,223463.0,2022-02-08,10707
-Tarapaca,1.0,Alto Hospicio,1107.0,129999.0,2022-02-08,4053
-Tarapaca,1.0,Pozo Almonte,1401.0,17395.0,2022-02-08,809
-Tarapaca,1.0,Camina,1402.0,1375.0,2022-02-08,32
-Tarapaca,1.0,Colchane,1403.0,1583.0,2022-02-08,1537
-Tarapaca,1.0,Huara,1404.0,3000.0,2022-02-08,110
-Tarapaca,1.0,Pica,1405.0,5958.0,2022-02-08,272
-Antofagasta,2.0,Antofagasta,2101.0,425725.0,2022-02-08,22521
-Antofagasta,2.0,Mejillones,2102.0,14776.0,2022-02-08,749
-Antofagasta,2.0,Sierra Gorda,2103.0,1746.0,2022-02-08,74
-Antofagasta,2.0,Taltal,2104.0,13657.0,2022-02-08,697
-Antofagasta,2.0,Calama,2201.0,190336.0,2022-02-08,7771
-Antofagasta,2.0,Ollague,2202.0,287.0,2022-02-08,532
-Antofagasta,2.0,San Pedro de Atacama,2203.0,10434.0,2022-02-08,955
-Antofagasta,2.0,Tocopilla,2301.0,28079.0,2022-02-08,1071
-Antofagasta,2.0,Maria Elena,2302.0,6814.0,2022-02-08,131
-Atacama,3.0,Copiapo,3101.0,171766.0,2022-02-08,9982
-Atacama,3.0,Caldera,3102.0,19426.0,2022-02-08,1641
-Atacama,3.0,Tierra Amarilla,3103.0,14312.0,2022-02-08,1025
-Atacama,3.0,Chanaral,3201.0,13164.0,2022-02-08,356
-Atacama,3.0,Diego de Almagro,3202.0,14358.0,2022-02-08,551
-Atacama,3.0,Vallenar,3301.0,57009.0,2022-02-08,2561
-Atacama,3.0,Alto del Carmen,3302.0,5729.0,2022-02-08,278
-Atacama,3.0,Freirina,3303.0,7681.0,2022-02-08,346
-Atacama,3.0,Huasco,3304.0,11264.0,2022-02-08,622
-Coquimbo,4.0,La Serena,4101.0,249656.0,2022-02-08,12229
-Coquimbo,4.0,Coquimbo,4102.0,256735.0,2022-02-08,11308
-Coquimbo,4.0,Andacollo,4103.0,11791.0,2022-02-08,946
-Coquimbo,4.0,La Higuera,4104.0,4450.0,2022-02-08,160
-Coquimbo,4.0,Paiguano,4105.0,4675.0,2022-02-08,221
-Coquimbo,4.0,Vicuna,4106.0,29741.0,2022-02-08,1103
-Coquimbo,4.0,Illapel,4201.0,32801.0,2022-02-08,1154
-Coquimbo,4.0,Canela,4202.0,9546.0,2022-02-08,198
-Coquimbo,4.0,Los Vilos,4203.0,23374.0,2022-02-08,719
-Coquimbo,4.0,Salamanca,4204.0,29110.0,2022-02-08,1204
-Coquimbo,4.0,Ovalle,4301.0,121269.0,2022-02-08,4778
-Coquimbo,4.0,Combarbala,4302.0,13884.0,2022-02-08,612
-Coquimbo,4.0,Monte Patria,4303.0,32527.0,2022-02-08,1085
-Coquimbo,4.0,Punitaqui,4304.0,12165.0,2022-02-08,358
-Coquimbo,4.0,Rio Hurtado,4305.0,4372.0,2022-02-08,93
-Valparaiso,5.0,Valparaiso,5101.0,315732.0,2022-02-08,13030
-Valparaiso,5.0,Casablanca,5102.0,29170.0,2022-02-08,1410
-Valparaiso,5.0,Concon,5103.0,45889.0,2022-02-08,2327
-Valparaiso,5.0,Juan Fernandez,5104.0,1033.0,2022-02-08,20
-Valparaiso,5.0,Puchuncavi,5105.0,20071.0,2022-02-08,763
-Valparaiso,5.0,Quintero,5107.0,36135.0,2022-02-08,1340
-Valparaiso,5.0,Vina del Mar,5109.0,361371.0,2022-02-08,19038
-Valparaiso,5.0,Isla de Pascua,5201.0,8277.0,2022-02-08,39
-Valparaiso,5.0,Los Andes,5301.0,68093.0,2022-02-08,5230
-Valparaiso,5.0,Calle Larga,5302.0,16482.0,2022-02-08,645
-Valparaiso,5.0,Rinconada,5303.0,11263.0,2022-02-08,556
-Valparaiso,5.0,San Esteban,5304.0,20643.0,2022-02-08,946
-Valparaiso,5.0,La Ligua,5401.0,37739.0,2022-02-08,1292
-Valparaiso,5.0,Cabildo,5402.0,20663.0,2022-02-08,688
-Valparaiso,5.0,Papudo,5403.0,6201.0,2022-02-08,355
-Valparaiso,5.0,Petorca,5404.0,10558.0,2022-02-08,427
-Valparaiso,5.0,Zapallar,5405.0,7994.0,2022-02-08,494
-Valparaiso,5.0,Quillota,5501.0,97572.0,2022-02-08,4486
-Valparaiso,5.0,Calera,5502.0,53591.0,2022-02-08,1874
-Valparaiso,5.0,Hijuelas,5503.0,19099.0,2022-02-08,571
-Valparaiso,5.0,La Cruz,5504.0,25321.0,2022-02-08,832
-Valparaiso,5.0,Nogales,5506.0,23490.0,2022-02-08,921
-Valparaiso,5.0,San Antonio,5601.0,96761.0,2022-02-08,3917
-Valparaiso,5.0,Algarrobo,5602.0,15174.0,2022-02-08,1579
-Valparaiso,5.0,Cartagena,5603.0,25357.0,2022-02-08,968
-Valparaiso,5.0,El Quisco,5604.0,17742.0,2022-02-08,873
-Valparaiso,5.0,El Tabo,5605.0,14338.0,2022-02-08,1074
-Valparaiso,5.0,Santo Domingo,5606.0,11934.0,2022-02-08,567
-Valparaiso,5.0,San Felipe,5701.0,83494.0,2022-02-08,4379
-Valparaiso,5.0,Catemu,5702.0,15213.0,2022-02-08,711
-Valparaiso,5.0,Llaillay,5703.0,26533.0,2022-02-08,1055
-Valparaiso,5.0,Panquehue,5704.0,7633.0,2022-02-08,389
-Valparaiso,5.0,Putaendo,5705.0,17645.0,2022-02-08,742
-Valparaiso,5.0,Santa Maria,5706.0,16367.0,2022-02-08,674
-Valparaiso,5.0,Quilpue,5801.0,167085.0,2022-02-08,6730
-Valparaiso,5.0,Limache,5802.0,49931.0,2022-02-08,1545
-Valparaiso,5.0,Olmue,5803.0,19266.0,2022-02-08,644
-Valparaiso,5.0,Villa Alemana,5804.0,139310.0,2022-02-08,3402
-Del Libertador General Bernardo O’Higgins,6.0,Rancagua,6101.0,265211.0,2022-02-08,11425
-Del Libertador General Bernardo O’Higgins,6.0,Codegua,6102.0,14096.0,2022-02-08,512
-Del Libertador General Bernardo O’Higgins,6.0,Coinco,6103.0,7831.0,2022-02-08,187
-Del Libertador General Bernardo O’Higgins,6.0,Coltauco,6104.0,21263.0,2022-02-08,488
-Del Libertador General Bernardo O’Higgins,6.0,Donihue,6105.0,22700.0,2022-02-08,703
-Del Libertador General Bernardo O’Higgins,6.0,Graneros,6106.0,36504.0,2022-02-08,1005
-Del Libertador General Bernardo O’Higgins,6.0,Las Cabras,6107.0,26749.0,2022-02-08,724
-Del Libertador General Bernardo O’Higgins,6.0,Machali,6108.0,59913.0,2022-02-08,1836
-Del Libertador General Bernardo O’Higgins,6.0,Malloa,6109.0,14163.0,2022-02-08,276
-Del Libertador General Bernardo O’Higgins,6.0,Mostazal,6110.0,27462.0,2022-02-08,904
-Del Libertador General Bernardo O’Higgins,6.0,Olivar,6111.0,14624.0,2022-02-08,311
-Del Libertador General Bernardo O’Higgins,6.0,Peumo,6112.0,14952.0,2022-02-08,389
-Del Libertador General Bernardo O’Higgins,6.0,Pichidegua,6113.0,20743.0,2022-02-08,464
-Del Libertador General Bernardo O’Higgins,6.0,Quinta de Tilcoco,6114.0,13877.0,2022-02-08,348
-Del Libertador General Bernardo O’Higgins,6.0,Rengo,6115.0,63710.0,2022-02-08,2055
-Del Libertador General Bernardo O’Higgins,6.0,Requinoa,6116.0,30371.0,2022-02-08,764
-Del Libertador General Bernardo O’Higgins,6.0,San Vicente,6117.0,50617.0,2022-02-08,1219
-Del Libertador General Bernardo O’Higgins,6.0,Pichilemu,6201.0,17882.0,2022-02-08,558
-Del Libertador General Bernardo O’Higgins,6.0,La Estrella,6202.0,3114.0,2022-02-08,72
-Del Libertador General Bernardo O’Higgins,6.0,Litueche,6203.0,6765.0,2022-02-08,286
-Del Libertador General Bernardo O’Higgins,6.0,Marchihue,6204.0,7632.0,2022-02-08,176
-Del Libertador General Bernardo O’Higgins,6.0,Navidad,6205.0,6904.0,2022-02-08,215
-Del Libertador General Bernardo O’Higgins,6.0,Paredones,6206.0,6349.0,2022-02-08,178
-Del Libertador General Bernardo O’Higgins,6.0,San Fernando,6301.0,78642.0,2022-02-08,2764
-Del Libertador General Bernardo O’Higgins,6.0,Chepica,6302.0,15925.0,2022-02-08,424
-Del Libertador General Bernardo O’Higgins,6.0,Chimbarongo,6303.0,37696.0,2022-02-08,906
-Del Libertador General Bernardo O’Higgins,6.0,Lolol,6304.0,7289.0,2022-02-08,114
-Del Libertador General Bernardo O’Higgins,6.0,Nancagua,6305.0,19141.0,2022-02-08,646
-Del Libertador General Bernardo O’Higgins,6.0,Palmilla,6306.0,13299.0,2022-02-08,371
-Del Libertador General Bernardo O’Higgins,6.0,Peralillo,6307.0,11848.0,2022-02-08,284
-Del Libertador General Bernardo O’Higgins,6.0,Placilla,6308.0,9164.0,2022-02-08,279
-Del Libertador General Bernardo O’Higgins,6.0,Pumanque,6309.0,3531.0,2022-02-08,64
-Del Libertador General Bernardo O’Higgins,6.0,Santa Cruz,6310.0,41096.0,2022-02-08,1657
-Maule,7.0,Talca,7101.0,236724.0,2022-02-08,15910
-Maule,7.0,Constitucion,7102.0,50348.0,2022-02-08,2020
-Maule,7.0,Curepto,7103.0,9426.0,2022-02-08,316
-Maule,7.0,Empedrado,7104.0,4206.0,2022-02-08,325
-Maule,7.0,Maule,7105.0,60000.0,2022-02-08,2479
-Maule,7.0,Pelarco,7106.0,9083.0,2022-02-08,482
-Maule,7.0,Pencahue,7107.0,8601.0,2022-02-08,329
-Maule,7.0,Rio Claro,7108.0,14753.0,2022-02-08,745
-Maule,7.0,San Clemente,7109.0,46292.0,2022-02-08,2004
-Maule,7.0,San Rafael,7110.0,9959.0,2022-02-08,508
-Maule,7.0,Cauquenes,7201.0,44143.0,2022-02-08,2530
-Maule,7.0,Chanco,7202.0,9331.0,2022-02-08,541
-Maule,7.0,Pelluhue,7203.0,8092.0,2022-02-08,473
-Maule,7.0,Curico,7301.0,163626.0,2022-02-08,7708
-Maule,7.0,Hualane,7302.0,10222.0,2022-02-08,385
-Maule,7.0,Licanten,7303.0,6989.0,2022-02-08,413
-Maule,7.0,Molina,7304.0,49800.0,2022-02-08,1839
-Maule,7.0,Rauco,7305.0,11248.0,2022-02-08,291
-Maule,7.0,Romeral,7306.0,16170.0,2022-02-08,618
-Maule,7.0,Sagrada Familia,7307.0,19469.0,2022-02-08,661
-Maule,7.0,Teno,7308.0,30850.0,2022-02-08,954
-Maule,7.0,Vichuquen,7309.0,4381.0,2022-02-08,111
-Maule,7.0,Linares,7401.0,101073.0,2022-02-08,5830
-Maule,7.0,Colbun,7402.0,22565.0,2022-02-08,1441
-Maule,7.0,Longavi,7403.0,32810.0,2022-02-08,1256
-Maule,7.0,Parral,7404.0,44544.0,2022-02-08,2053
-Maule,7.0,Retiro,7405.0,21071.0,2022-02-08,793
-Maule,7.0,San Javier,7406.0,49451.0,2022-02-08,2309
-Maule,7.0,Villa Alegre,7407.0,17512.0,2022-02-08,975
-Maule,7.0,Yerbas Buenas,7408.0,19200.0,2022-02-08,793
-Biobio,8.0,Concepcion,8101.0,238092.0,2022-02-08,15115
-Biobio,8.0,Coronel,8102.0,125829.0,2022-02-08,4825
-Biobio,8.0,Chiguayante,8103.0,91180.0,2022-02-08,4107
-Biobio,8.0,Florida,8104.0,11841.0,2022-02-08,445
-Biobio,8.0,Hualqui,8105.0,26201.0,2022-02-08,1088
-Biobio,8.0,Lota,8106.0,45750.0,2022-02-08,2118
-Biobio,8.0,Penco,8107.0,49865.0,2022-02-08,2287
-Biobio,8.0,San Pedro de la Paz,8108.0,145906.0,2022-02-08,5882
-Biobio,8.0,Santa Juana,8109.0,14779.0,2022-02-08,579
-Biobio,8.0,Talcahuano,8110.0,158345.0,2022-02-08,8123
-Biobio,8.0,Tome,8111.0,58729.0,2022-02-08,4170
-Biobio,8.0,Hualpen,8112.0,97273.0,2022-02-08,8376
-Biobio,8.0,Lebu,8201.0,27100.0,2022-02-08,1147
-Biobio,8.0,Arauco,8202.0,38679.0,2022-02-08,2313
-Biobio,8.0,Canete,8203.0,37003.0,2022-02-08,1174
-Biobio,8.0,Contulmo,8204.0,6330.0,2022-02-08,291
-Biobio,8.0,Curanilahue,8205.0,33892.0,2022-02-08,1524
-Biobio,8.0,Los Alamos,8206.0,22524.0,2022-02-08,876
-Biobio,8.0,Tirua,8207.0,11019.0,2022-02-08,216
-Biobio,8.0,Los Angeles,8301.0,218515.0,2022-02-08,11480
-Biobio,8.0,Antuco,8302.0,4306.0,2022-02-08,171
-Biobio,8.0,Cabrero,8303.0,30725.0,2022-02-08,1368
-Biobio,8.0,Laja,8304.0,23873.0,2022-02-08,744
-Biobio,8.0,Mulchen,8305.0,31041.0,2022-02-08,1259
-Biobio,8.0,Nacimiento,8306.0,27944.0,2022-02-08,1111
-Biobio,8.0,Negrete,8307.0,10429.0,2022-02-08,350
-Biobio,8.0,Quilaco,8308.0,4179.0,2022-02-08,151
-Biobio,8.0,Quilleco,8309.0,10032.0,2022-02-08,408
-Biobio,8.0,San Rosendo,8310.0,3611.0,2022-02-08,168
-Biobio,8.0,Santa Barbara,8311.0,14592.0,2022-02-08,776
-Biobio,8.0,Tucapel,8312.0,15205.0,2022-02-08,858
-Biobio,8.0,Yumbel,8313.0,22132.0,2022-02-08,814
-Biobio,8.0,Alto Biobio,8314.0,6775.0,2022-02-08,96
-La Araucania,9.0,Temuco,9101.0,302931.0,2022-02-08,20838
-La Araucania,9.0,Carahue,9102.0,25486.0,2022-02-08,874
-La Araucania,9.0,Cunco,9103.0,18055.0,2022-02-08,436
-La Araucania,9.0,Curarrehue,9104.0,7802.0,2022-02-08,196
-La Araucania,9.0,Freire,9105.0,25446.0,2022-02-08,514
-La Araucania,9.0,Galvarino,9106.0,12633.0,2022-02-08,377
-La Araucania,9.0,Gorbea,9107.0,15148.0,2022-02-08,705
-La Araucania,9.0,Lautaro,9108.0,40746.0,2022-02-08,1186
-La Araucania,9.0,Loncoche,9109.0,24739.0,2022-02-08,737
-La Araucania,9.0,Melipeuco,9110.0,6265.0,2022-02-08,85
-La Araucania,9.0,Nueva Imperial,9111.0,33777.0,2022-02-08,1404
-La Araucania,9.0,Padre Las Casas,9112.0,82110.0,2022-02-08,2706
-La Araucania,9.0,Perquenco,9113.0,7223.0,2022-02-08,193
-La Araucania,9.0,Pitrufquen,9114.0,26096.0,2022-02-08,952
-La Araucania,9.0,Pucon,9115.0,29782.0,2022-02-08,1523
-La Araucania,9.0,Saavedra,9116.0,12793.0,2022-02-08,520
-La Araucania,9.0,Teodoro Schmidt,9117.0,15786.0,2022-02-08,336
-La Araucania,9.0,Tolten,9118.0,10055.0,2022-02-08,413
-La Araucania,9.0,Vilcun,9119.0,30766.0,2022-02-08,988
-La Araucania,9.0,Villarrica,9120.0,59103.0,2022-02-08,2126
-La Araucania,9.0,Cholchol,9121.0,12341.0,2022-02-08,397
-La Araucania,9.0,Angol,9201.0,56058.0,2022-02-08,2848
-La Araucania,9.0,Collipulli,9202.0,26148.0,2022-02-08,1310
-La Araucania,9.0,Curacautin,9203.0,18178.0,2022-02-08,463
-La Araucania,9.0,Ercilla,9204.0,8458.0,2022-02-08,352
-La Araucania,9.0,Lonquimay,9205.0,11049.0,2022-02-08,544
-La Araucania,9.0,Los Sauces,9206.0,7517.0,2022-02-08,290
-La Araucania,9.0,Lumaco,9207.0,10050.0,2022-02-08,268
-La Araucania,9.0,Puren,9208.0,12188.0,2022-02-08,503
-La Araucania,9.0,Renaico,9209.0,10833.0,2022-02-08,614
-La Araucania,9.0,Traiguen,9210.0,19314.0,2022-02-08,705
-La Araucania,9.0,Victoria,9211.0,35467.0,2022-02-08,1277
-Los Lagos,10.0,Puerto Montt,10101.0,269398.0,2022-02-08,17260
-Los Lagos,10.0,Calbuco,10102.0,36744.0,2022-02-08,1637
-Los Lagos,10.0,Cochamo,10103.0,4006.0,2022-02-08,145
-Los Lagos,10.0,Fresia,10104.0,12656.0,2022-02-08,486
-Los Lagos,10.0,Frutillar,10105.0,20223.0,2022-02-08,1373
-Los Lagos,10.0,Los Muermos,10106.0,17817.0,2022-02-08,592
-Los Lagos,10.0,Llanquihue,10107.0,18621.0,2022-02-08,1067
-Los Lagos,10.0,Maullin,10108.0,14894.0,2022-02-08,480
-Los Lagos,10.0,Puerto Varas,10109.0,48620.0,2022-02-08,3096
-Los Lagos,10.0,Castro,10201.0,47607.0,2022-02-08,3769
-Los Lagos,10.0,Ancud,10202.0,42458.0,2022-02-08,2208
-Los Lagos,10.0,Chonchi,10203.0,16013.0,2022-02-08,1091
-Los Lagos,10.0,Curaco de Velez,10204.0,4066.0,2022-02-08,263
-Los Lagos,10.0,Dalcahue,10205.0,15069.0,2022-02-08,1140
-Los Lagos,10.0,Puqueldon,10206.0,4201.0,2022-02-08,174
-Los Lagos,10.0,Queilen,10207.0,5543.0,2022-02-08,257
-Los Lagos,10.0,Quellon,10208.0,29309.0,2022-02-08,2477
-Los Lagos,10.0,Quemchi,10209.0,8783.0,2022-02-08,277
-Los Lagos,10.0,Quinchao,10210.0,8298.0,2022-02-08,490
-Los Lagos,10.0,Osorno,10301.0,173410.0,2022-02-08,6746
-Los Lagos,10.0,Puerto Octay,10302.0,9192.0,2022-02-08,218
-Los Lagos,10.0,Purranque,10303.0,21080.0,2022-02-08,413
-Los Lagos,10.0,Puyehue,10304.0,11787.0,2022-02-08,386
-Los Lagos,10.0,Rio Negro,10305.0,14275.0,2022-02-08,419
-Los Lagos,10.0,San Juan de la Costa,10306.0,7639.0,2022-02-08,180
-Los Lagos,10.0,San Pablo,10307.0,10553.0,2022-02-08,396
-Los Lagos,10.0,Chaiten,10401.0,5020.0,2022-02-08,293
-Los Lagos,10.0,Futaleufu,10402.0,2806.0,2022-02-08,435
-Los Lagos,10.0,Hualaihue,10403.0,9525.0,2022-02-08,341
-Los Lagos,10.0,Palena,10404.0,1827.0,2022-02-08,265
-Aysen,11.0,Coyhaique,11101.0,61210.0,2022-02-08,4393
-Aysen,11.0,Lago Verde,11102.0,920.0,2022-02-08,93
-Aysen,11.0,Aysen,11201.0,25002.0,2022-02-08,2170
-Aysen,11.0,Cisnes,11202.0,5828.0,2022-02-08,503
-Aysen,11.0,Guaitecas,11203.0,1599.0,2022-02-08,270
-Aysen,11.0,Cochrane,11301.0,3685.0,2022-02-08,316
-Aysen,11.0,OHiggins,11302.0,661.0,2022-02-08,69
-Aysen,11.0,Tortel,11303.0,572.0,2022-02-08,15
-Aysen,11.0,Chile Chico,11401.0,5121.0,2022-02-08,474
-Aysen,11.0,Rio Ibanez,11402.0,2699.0,2022-02-08,148
-Magallanes y la Antartica,12.0,Punta Arenas,12101.0,141984.0,2022-02-08,8419
-Magallanes y la Antartica,12.0,Laguna Blanca,12102.0,264.0,2022-02-08,11
-Magallanes y la Antartica,12.0,Rio Verde,12103.0,211.0,2022-02-08,7
-Magallanes y la Antartica,12.0,San Gregorio,12104.0,681.0,2022-02-08,22
-Magallanes y la Antartica,12.0,Cabo de Hornos,12201.0,1983.0,2022-02-08,80
-Magallanes y la Antartica,12.0,Antartica,12202.0,137.0,2022-02-08,7
-Magallanes y la Antartica,12.0,Porvenir,12301.0,7323.0,2022-02-08,577
-Magallanes y la Antartica,12.0,Primavera,12302.0,694.0,2022-02-08,8
-Magallanes y la Antartica,12.0,Timaukel,12303.0,282.0,2022-02-08,1
-Magallanes y la Antartica,12.0,Natales,12401.0,23782.0,2022-02-08,1963
-Magallanes y la Antartica,12.0,Torres del Paine,12402.0,1021.0,2022-02-08,82
-Metropolitana,13.0,Santiago,13101.0,503147.0,2022-02-08,40633
-Metropolitana,13.0,Cerrillos,13102.0,88956.0,2022-02-08,3145
-Metropolitana,13.0,Cerro Navia,13103.0,142465.0,2022-02-08,4601
-Metropolitana,13.0,Conchali,13104.0,139195.0,2022-02-08,4001
-Metropolitana,13.0,El Bosque,13105.0,172000.0,2022-02-08,4357
-Metropolitana,13.0,Estacion Central,13106.0,206792.0,2022-02-08,6712
-Metropolitana,13.0,Huechuraba,13107.0,112528.0,2022-02-08,4750
-Metropolitana,13.0,Independencia,13108.0,142065.0,2022-02-08,7158
-Metropolitana,13.0,La Cisterna,13109.0,100434.0,2022-02-08,3361
-Metropolitana,13.0,La Florida,13110.0,402433.0,2022-02-08,15009
-Metropolitana,13.0,La Granja,13111.0,122557.0,2022-02-08,3269
-Metropolitana,13.0,La Pintana,13112.0,189335.0,2022-02-08,3415
-Metropolitana,13.0,La Reina,13113.0,100252.0,2022-02-08,5436
-Metropolitana,13.0,Las Condes,13114.0,330759.0,2022-02-08,23022
-Metropolitana,13.0,Lo Barnechea,13115.0,124076.0,2022-02-08,6980
-Metropolitana,13.0,Lo Espejo,13116.0,103865.0,2022-02-08,2990
-Metropolitana,13.0,Lo Prado,13117.0,104403.0,2022-02-08,3442
-Metropolitana,13.0,Macul,13118.0,134635.0,2022-02-08,5691
-Metropolitana,13.0,Maipu,13119.0,578605.0,2022-02-08,18908
-Metropolitana,13.0,Nunoa,13120.0,250192.0,2022-02-08,12234
-Metropolitana,13.0,Pedro Aguirre Cerda,13121.0,107803.0,2022-02-08,3635
-Metropolitana,13.0,Penalolen,13122.0,266798.0,2022-02-08,10820
-Metropolitana,13.0,Providencia,13123.0,157749.0,2022-02-08,11996
-Metropolitana,13.0,Pudahuel,13124.0,253139.0,2022-02-08,8495
-Metropolitana,13.0,Quilicura,13125.0,254694.0,2022-02-08,7686
-Metropolitana,13.0,Quinta Normal,13126.0,136368.0,2022-02-08,5022
-Metropolitana,13.0,Recoleta,13127.0,190075.0,2022-02-08,6086
-Metropolitana,13.0,Renca,13128.0,160847.0,2022-02-08,5579
-Metropolitana,13.0,San Joaquin,13129.0,103485.0,2022-02-08,3150
-Metropolitana,13.0,San Miguel,13130.0,133059.0,2022-02-08,6615
-Metropolitana,13.0,San Ramon,13131.0,86510.0,2022-02-08,2213
-Metropolitana,13.0,Vitacura,13132.0,96774.0,2022-02-08,6358
-Metropolitana,13.0,Puente Alto,13201.0,645909.0,2022-02-08,19514
-Metropolitana,13.0,Pirque,13202.0,30433.0,2022-02-08,775
-Metropolitana,13.0,San Jose de Maipo,13203.0,18644.0,2022-02-08,615
-Metropolitana,13.0,Colina,13301.0,180353.0,2022-02-08,7419
-Metropolitana,13.0,Lampa,13302.0,126898.0,2022-02-08,3732
-Metropolitana,13.0,Tiltil,13303.0,21477.0,2022-02-08,767
-Metropolitana,13.0,San Bernardo,13401.0,334836.0,2022-02-08,8010
-Metropolitana,13.0,Buin,13402.0,109641.0,2022-02-08,3978
-Metropolitana,13.0,Calera de Tango,13403.0,28525.0,2022-02-08,832
-Metropolitana,13.0,Paine,13404.0,82766.0,2022-02-08,2967
-Metropolitana,13.0,Melipilla,13501.0,141612.0,2022-02-08,3826
-Metropolitana,13.0,Alhue,13502.0,7405.0,2022-02-08,469
-Metropolitana,13.0,Curacavi,13503.0,36430.0,2022-02-08,1746
-Metropolitana,13.0,Maria Pinto,13504.0,14926.0,2022-02-08,648
-Metropolitana,13.0,San Pedro,13505.0,11953.0,2022-02-08,245
-Metropolitana,13.0,Talagante,13601.0,81838.0,2022-02-08,3602
-Metropolitana,13.0,El Monte,13602.0,40014.0,2022-02-08,1299
-Metropolitana,13.0,Isla de Maipo,13603.0,40171.0,2022-02-08,1472
-Metropolitana,13.0,Padre Hurtado,13604.0,74188.0,2022-02-08,2476
-Metropolitana,13.0,Penaflor,13605.0,101058.0,2022-02-08,3527
-Los Rios,14.0,Valdivia,14101.0,176774.0,2022-02-08,12995
-Los Rios,14.0,Corral,14102.0,5447.0,2022-02-08,314
-Los Rios,14.0,Lanco,14103.0,17652.0,2022-02-08,878
-Los Rios,14.0,Los Lagos,14104.0,20518.0,2022-02-08,858
-Los Rios,14.0,Mafil,14105.0,7389.0,2022-02-08,458
-Los Rios,14.0,Mariquina,14106.0,23250.0,2022-02-08,1529
-Los Rios,14.0,Paillaco,14107.0,20798.0,2022-02-08,920
-Los Rios,14.0,Panguipulli,14108.0,35991.0,2022-02-08,1548
-Los Rios,14.0,La Union,14201.0,39538.0,2022-02-08,1732
-Los Rios,14.0,Futrono,14202.0,15261.0,2022-02-08,676
-Los Rios,14.0,Lago Ranco,14203.0,10292.0,2022-02-08,345
-Los Rios,14.0,Rio Bueno,14204.0,32925.0,2022-02-08,1266
-Arica y Parinacota,15.0,Arica,15101.0,247552.0,2022-02-08,17361
-Arica y Parinacota,15.0,Camarones,15102.0,1233.0,2022-02-08,12
-Arica y Parinacota,15.0,Putre,15201.0,2515.0,2022-02-08,50
-Arica y Parinacota,15.0,General Lagos,15202.0,810.0,2022-02-08,20
-Nuble,16.0,Chillan,16101.0,198624.0,2022-02-08,13547
-Nuble,16.0,Bulnes,16102.0,22607.0,2022-02-08,1003
-Nuble,16.0,Chillan Viejo,16103.0,33827.0,2022-02-08,1293
-Nuble,16.0,El Carmen,16104.0,12334.0,2022-02-08,497
-Nuble,16.0,Pemuco,16105.0,8639.0,2022-02-08,296
-Nuble,16.0,Pinto,16106.0,11880.0,2022-02-08,471
-Nuble,16.0,Quillon,16107.0,18777.0,2022-02-08,746
-Nuble,16.0,San Ignacio,16108.0,16624.0,2022-02-08,595
-Nuble,16.0,Yungay,16109.0,18596.0,2022-02-08,872
-Nuble,16.0,Quirihue,16201.0,12192.0,2022-02-08,227
-Nuble,16.0,Cobquecura,16202.0,5275.0,2022-02-08,104
-Nuble,16.0,Coelemu,16203.0,16845.0,2022-02-08,463
-Nuble,16.0,Ninhue,16204.0,5414.0,2022-02-08,265
-Nuble,16.0,Portezuelo,16205.0,4940.0,2022-02-08,201
-Nuble,16.0,Ranquil,16206.0,6261.0,2022-02-08,218
-Nuble,16.0,Treguaco,16207.0,5696.0,2022-02-08,89
-Nuble,16.0,San Carlos,16301.0,56252.0,2022-02-08,1813
-Nuble,16.0,Coihueco,16302.0,28375.0,2022-02-08,683
-Nuble,16.0,Niquen,16303.0,11567.0,2022-02-08,358
-Nuble,16.0,San Fabian,16304.0,4654.0,2022-02-08,189
-Nuble,16.0,San Nicolas,16305.0,12172.0,2022-02-08,443
+Tarapaca,1.0,Iquique,1101.0,223463.0,2022-02-08,10707.0
+Tarapaca,1.0,Alto Hospicio,1107.0,129999.0,2022-02-08,4053.0
+Tarapaca,1.0,Pozo Almonte,1401.0,17395.0,2022-02-08,809.0
+Tarapaca,1.0,Camina,1402.0,1375.0,2022-02-08,32.0
+Tarapaca,1.0,Colchane,1403.0,1583.0,2022-02-08,1537.0
+Tarapaca,1.0,Huara,1404.0,3000.0,2022-02-08,110.0
+Tarapaca,1.0,Pica,1405.0,5958.0,2022-02-08,272.0
+Antofagasta,2.0,Antofagasta,2101.0,425725.0,2022-02-08,22521.0
+Antofagasta,2.0,Mejillones,2102.0,14776.0,2022-02-08,749.0
+Antofagasta,2.0,Sierra Gorda,2103.0,1746.0,2022-02-08,74.0
+Antofagasta,2.0,Taltal,2104.0,13657.0,2022-02-08,697.0
+Antofagasta,2.0,Calama,2201.0,190336.0,2022-02-08,7771.0
+Antofagasta,2.0,Ollague,2202.0,287.0,2022-02-08,532.0
+Antofagasta,2.0,San Pedro de Atacama,2203.0,10434.0,2022-02-08,955.0
+Antofagasta,2.0,Tocopilla,2301.0,28079.0,2022-02-08,1071.0
+Antofagasta,2.0,Maria Elena,2302.0,6814.0,2022-02-08,131.0
+Atacama,3.0,Copiapo,3101.0,171766.0,2022-02-08,9982.0
+Atacama,3.0,Caldera,3102.0,19426.0,2022-02-08,1641.0
+Atacama,3.0,Tierra Amarilla,3103.0,14312.0,2022-02-08,1025.0
+Atacama,3.0,Chanaral,3201.0,13164.0,2022-02-08,356.0
+Atacama,3.0,Diego de Almagro,3202.0,14358.0,2022-02-08,551.0
+Atacama,3.0,Vallenar,3301.0,57009.0,2022-02-08,2561.0
+Atacama,3.0,Alto del Carmen,3302.0,5729.0,2022-02-08,278.0
+Atacama,3.0,Freirina,3303.0,7681.0,2022-02-08,346.0
+Atacama,3.0,Huasco,3304.0,11264.0,2022-02-08,622.0
+Coquimbo,4.0,La Serena,4101.0,249656.0,2022-02-08,12229.0
+Coquimbo,4.0,Coquimbo,4102.0,256735.0,2022-02-08,11308.0
+Coquimbo,4.0,Andacollo,4103.0,11791.0,2022-02-08,946.0
+Coquimbo,4.0,La Higuera,4104.0,4450.0,2022-02-08,160.0
+Coquimbo,4.0,Paiguano,4105.0,4675.0,2022-02-08,221.0
+Coquimbo,4.0,Vicuna,4106.0,29741.0,2022-02-08,1103.0
+Coquimbo,4.0,Illapel,4201.0,32801.0,2022-02-08,1154.0
+Coquimbo,4.0,Canela,4202.0,9546.0,2022-02-08,198.0
+Coquimbo,4.0,Los Vilos,4203.0,23374.0,2022-02-08,719.0
+Coquimbo,4.0,Salamanca,4204.0,29110.0,2022-02-08,1204.0
+Coquimbo,4.0,Ovalle,4301.0,121269.0,2022-02-08,4778.0
+Coquimbo,4.0,Combarbala,4302.0,13884.0,2022-02-08,612.0
+Coquimbo,4.0,Monte Patria,4303.0,32527.0,2022-02-08,1085.0
+Coquimbo,4.0,Punitaqui,4304.0,12165.0,2022-02-08,358.0
+Coquimbo,4.0,Rio Hurtado,4305.0,4372.0,2022-02-08,93.0
+Valparaiso,5.0,Valparaiso,5101.0,315732.0,2022-02-08,13030.0
+Valparaiso,5.0,Casablanca,5102.0,29170.0,2022-02-08,1410.0
+Valparaiso,5.0,Concon,5103.0,45889.0,2022-02-08,2327.0
+Valparaiso,5.0,Juan Fernandez,5104.0,1033.0,2022-02-08,20.0
+Valparaiso,5.0,Puchuncavi,5105.0,20071.0,2022-02-08,763.0
+Valparaiso,5.0,Quintero,5107.0,36135.0,2022-02-08,1340.0
+Valparaiso,5.0,Vina del Mar,5109.0,361371.0,2022-02-08,19038.0
+Valparaiso,5.0,Isla de Pascua,5201.0,8277.0,2022-02-08,39.0
+Valparaiso,5.0,Los Andes,5301.0,68093.0,2022-02-08,5230.0
+Valparaiso,5.0,Calle Larga,5302.0,16482.0,2022-02-08,645.0
+Valparaiso,5.0,Rinconada,5303.0,11263.0,2022-02-08,556.0
+Valparaiso,5.0,San Esteban,5304.0,20643.0,2022-02-08,946.0
+Valparaiso,5.0,La Ligua,5401.0,37739.0,2022-02-08,1292.0
+Valparaiso,5.0,Cabildo,5402.0,20663.0,2022-02-08,688.0
+Valparaiso,5.0,Papudo,5403.0,6201.0,2022-02-08,355.0
+Valparaiso,5.0,Petorca,5404.0,10558.0,2022-02-08,427.0
+Valparaiso,5.0,Zapallar,5405.0,7994.0,2022-02-08,494.0
+Valparaiso,5.0,Quillota,5501.0,97572.0,2022-02-08,4486.0
+Valparaiso,5.0,Calera,5502.0,53591.0,2022-02-08,1874.0
+Valparaiso,5.0,Hijuelas,5503.0,19099.0,2022-02-08,571.0
+Valparaiso,5.0,La Cruz,5504.0,25321.0,2022-02-08,832.0
+Valparaiso,5.0,Nogales,5506.0,23490.0,2022-02-08,921.0
+Valparaiso,5.0,San Antonio,5601.0,96761.0,2022-02-08,3917.0
+Valparaiso,5.0,Algarrobo,5602.0,15174.0,2022-02-08,1579.0
+Valparaiso,5.0,Cartagena,5603.0,25357.0,2022-02-08,968.0
+Valparaiso,5.0,El Quisco,5604.0,17742.0,2022-02-08,873.0
+Valparaiso,5.0,El Tabo,5605.0,14338.0,2022-02-08,1074.0
+Valparaiso,5.0,Santo Domingo,5606.0,11934.0,2022-02-08,567.0
+Valparaiso,5.0,San Felipe,5701.0,83494.0,2022-02-08,4379.0
+Valparaiso,5.0,Catemu,5702.0,15213.0,2022-02-08,711.0
+Valparaiso,5.0,Llaillay,5703.0,26533.0,2022-02-08,1055.0
+Valparaiso,5.0,Panquehue,5704.0,7633.0,2022-02-08,389.0
+Valparaiso,5.0,Putaendo,5705.0,17645.0,2022-02-08,742.0
+Valparaiso,5.0,Santa Maria,5706.0,16367.0,2022-02-08,674.0
+Valparaiso,5.0,Quilpue,5801.0,167085.0,2022-02-08,6730.0
+Valparaiso,5.0,Limache,5802.0,49931.0,2022-02-08,1545.0
+Valparaiso,5.0,Olmue,5803.0,19266.0,2022-02-08,644.0
+Valparaiso,5.0,Villa Alemana,5804.0,139310.0,2022-02-08,3402.0
+Del Libertador General Bernardo O’Higgins,6.0,Rancagua,6101.0,265211.0,2022-02-08,11425.0
+Del Libertador General Bernardo O’Higgins,6.0,Codegua,6102.0,14096.0,2022-02-08,512.0
+Del Libertador General Bernardo O’Higgins,6.0,Coinco,6103.0,7831.0,2022-02-08,187.0
+Del Libertador General Bernardo O’Higgins,6.0,Coltauco,6104.0,21263.0,2022-02-08,488.0
+Del Libertador General Bernardo O’Higgins,6.0,Donihue,6105.0,22700.0,2022-02-08,703.0
+Del Libertador General Bernardo O’Higgins,6.0,Graneros,6106.0,36504.0,2022-02-08,1005.0
+Del Libertador General Bernardo O’Higgins,6.0,Las Cabras,6107.0,26749.0,2022-02-08,724.0
+Del Libertador General Bernardo O’Higgins,6.0,Machali,6108.0,59913.0,2022-02-08,1836.0
+Del Libertador General Bernardo O’Higgins,6.0,Malloa,6109.0,14163.0,2022-02-08,276.0
+Del Libertador General Bernardo O’Higgins,6.0,Mostazal,6110.0,27462.0,2022-02-08,904.0
+Del Libertador General Bernardo O’Higgins,6.0,Olivar,6111.0,14624.0,2022-02-08,311.0
+Del Libertador General Bernardo O’Higgins,6.0,Peumo,6112.0,14952.0,2022-02-08,389.0
+Del Libertador General Bernardo O’Higgins,6.0,Pichidegua,6113.0,20743.0,2022-02-08,464.0
+Del Libertador General Bernardo O’Higgins,6.0,Quinta de Tilcoco,6114.0,13877.0,2022-02-08,348.0
+Del Libertador General Bernardo O’Higgins,6.0,Rengo,6115.0,63710.0,2022-02-08,2055.0
+Del Libertador General Bernardo O’Higgins,6.0,Requinoa,6116.0,30371.0,2022-02-08,764.0
+Del Libertador General Bernardo O’Higgins,6.0,San Vicente,6117.0,50617.0,2022-02-08,1219.0
+Del Libertador General Bernardo O’Higgins,6.0,Pichilemu,6201.0,17882.0,2022-02-08,558.0
+Del Libertador General Bernardo O’Higgins,6.0,La Estrella,6202.0,3114.0,2022-02-08,72.0
+Del Libertador General Bernardo O’Higgins,6.0,Litueche,6203.0,6765.0,2022-02-08,286.0
+Del Libertador General Bernardo O’Higgins,6.0,Marchihue,6204.0,7632.0,2022-02-08,176.0
+Del Libertador General Bernardo O’Higgins,6.0,Navidad,6205.0,6904.0,2022-02-08,215.0
+Del Libertador General Bernardo O’Higgins,6.0,Paredones,6206.0,6349.0,2022-02-08,178.0
+Del Libertador General Bernardo O’Higgins,6.0,San Fernando,6301.0,78642.0,2022-02-08,2764.0
+Del Libertador General Bernardo O’Higgins,6.0,Chepica,6302.0,15925.0,2022-02-08,424.0
+Del Libertador General Bernardo O’Higgins,6.0,Chimbarongo,6303.0,37696.0,2022-02-08,906.0
+Del Libertador General Bernardo O’Higgins,6.0,Lolol,6304.0,7289.0,2022-02-08,114.0
+Del Libertador General Bernardo O’Higgins,6.0,Nancagua,6305.0,19141.0,2022-02-08,646.0
+Del Libertador General Bernardo O’Higgins,6.0,Palmilla,6306.0,13299.0,2022-02-08,371.0
+Del Libertador General Bernardo O’Higgins,6.0,Peralillo,6307.0,11848.0,2022-02-08,284.0
+Del Libertador General Bernardo O’Higgins,6.0,Placilla,6308.0,9164.0,2022-02-08,279.0
+Del Libertador General Bernardo O’Higgins,6.0,Pumanque,6309.0,3531.0,2022-02-08,64.0
+Del Libertador General Bernardo O’Higgins,6.0,Santa Cruz,6310.0,41096.0,2022-02-08,1657.0
+Maule,7.0,Talca,7101.0,236724.0,2022-02-08,15910.0
+Maule,7.0,Constitucion,7102.0,50348.0,2022-02-08,2020.0
+Maule,7.0,Curepto,7103.0,9426.0,2022-02-08,316.0
+Maule,7.0,Empedrado,7104.0,4206.0,2022-02-08,325.0
+Maule,7.0,Maule,7105.0,60000.0,2022-02-08,2479.0
+Maule,7.0,Pelarco,7106.0,9083.0,2022-02-08,482.0
+Maule,7.0,Pencahue,7107.0,8601.0,2022-02-08,329.0
+Maule,7.0,Rio Claro,7108.0,14753.0,2022-02-08,745.0
+Maule,7.0,San Clemente,7109.0,46292.0,2022-02-08,2004.0
+Maule,7.0,San Rafael,7110.0,9959.0,2022-02-08,508.0
+Maule,7.0,Cauquenes,7201.0,44143.0,2022-02-08,2530.0
+Maule,7.0,Chanco,7202.0,9331.0,2022-02-08,541.0
+Maule,7.0,Pelluhue,7203.0,8092.0,2022-02-08,473.0
+Maule,7.0,Curico,7301.0,163626.0,2022-02-08,7708.0
+Maule,7.0,Hualane,7302.0,10222.0,2022-02-08,385.0
+Maule,7.0,Licanten,7303.0,6989.0,2022-02-08,413.0
+Maule,7.0,Molina,7304.0,49800.0,2022-02-08,1839.0
+Maule,7.0,Rauco,7305.0,11248.0,2022-02-08,291.0
+Maule,7.0,Romeral,7306.0,16170.0,2022-02-08,618.0
+Maule,7.0,Sagrada Familia,7307.0,19469.0,2022-02-08,661.0
+Maule,7.0,Teno,7308.0,30850.0,2022-02-08,954.0
+Maule,7.0,Vichuquen,7309.0,4381.0,2022-02-08,111.0
+Maule,7.0,Linares,7401.0,101073.0,2022-02-08,5830.0
+Maule,7.0,Colbun,7402.0,22565.0,2022-02-08,1441.0
+Maule,7.0,Longavi,7403.0,32810.0,2022-02-08,1256.0
+Maule,7.0,Parral,7404.0,44544.0,2022-02-08,2053.0
+Maule,7.0,Retiro,7405.0,21071.0,2022-02-08,793.0
+Maule,7.0,San Javier,7406.0,49451.0,2022-02-08,2309.0
+Maule,7.0,Villa Alegre,7407.0,17512.0,2022-02-08,975.0
+Maule,7.0,Yerbas Buenas,7408.0,19200.0,2022-02-08,793.0
+Biobio,8.0,Concepcion,8101.0,238092.0,2022-02-08,15115.0
+Biobio,8.0,Coronel,8102.0,125829.0,2022-02-08,4825.0
+Biobio,8.0,Chiguayante,8103.0,91180.0,2022-02-08,4107.0
+Biobio,8.0,Florida,8104.0,11841.0,2022-02-08,445.0
+Biobio,8.0,Hualqui,8105.0,26201.0,2022-02-08,1088.0
+Biobio,8.0,Lota,8106.0,45750.0,2022-02-08,2118.0
+Biobio,8.0,Penco,8107.0,49865.0,2022-02-08,2287.0
+Biobio,8.0,San Pedro de la Paz,8108.0,145906.0,2022-02-08,5882.0
+Biobio,8.0,Santa Juana,8109.0,14779.0,2022-02-08,579.0
+Biobio,8.0,Talcahuano,8110.0,158345.0,2022-02-08,8123.0
+Biobio,8.0,Tome,8111.0,58729.0,2022-02-08,4170.0
+Biobio,8.0,Hualpen,8112.0,97273.0,2022-02-08,8376.0
+Biobio,8.0,Lebu,8201.0,27100.0,2022-02-08,1147.0
+Biobio,8.0,Arauco,8202.0,38679.0,2022-02-08,2313.0
+Biobio,8.0,Canete,8203.0,37003.0,2022-02-08,1174.0
+Biobio,8.0,Contulmo,8204.0,6330.0,2022-02-08,291.0
+Biobio,8.0,Curanilahue,8205.0,33892.0,2022-02-08,1524.0
+Biobio,8.0,Los Alamos,8206.0,22524.0,2022-02-08,876.0
+Biobio,8.0,Tirua,8207.0,11019.0,2022-02-08,216.0
+Biobio,8.0,Los Angeles,8301.0,218515.0,2022-02-08,11480.0
+Biobio,8.0,Antuco,8302.0,4306.0,2022-02-08,171.0
+Biobio,8.0,Cabrero,8303.0,30725.0,2022-02-08,1368.0
+Biobio,8.0,Laja,8304.0,23873.0,2022-02-08,744.0
+Biobio,8.0,Mulchen,8305.0,31041.0,2022-02-08,1259.0
+Biobio,8.0,Nacimiento,8306.0,27944.0,2022-02-08,1111.0
+Biobio,8.0,Negrete,8307.0,10429.0,2022-02-08,350.0
+Biobio,8.0,Quilaco,8308.0,4179.0,2022-02-08,151.0
+Biobio,8.0,Quilleco,8309.0,10032.0,2022-02-08,408.0
+Biobio,8.0,San Rosendo,8310.0,3611.0,2022-02-08,168.0
+Biobio,8.0,Santa Barbara,8311.0,14592.0,2022-02-08,776.0
+Biobio,8.0,Tucapel,8312.0,15205.0,2022-02-08,858.0
+Biobio,8.0,Yumbel,8313.0,22132.0,2022-02-08,814.0
+Biobio,8.0,Alto Biobio,8314.0,6775.0,2022-02-08,96.0
+La Araucania,9.0,Temuco,9101.0,302931.0,2022-02-08,20838.0
+La Araucania,9.0,Carahue,9102.0,25486.0,2022-02-08,874.0
+La Araucania,9.0,Cunco,9103.0,18055.0,2022-02-08,436.0
+La Araucania,9.0,Curarrehue,9104.0,7802.0,2022-02-08,196.0
+La Araucania,9.0,Freire,9105.0,25446.0,2022-02-08,514.0
+La Araucania,9.0,Galvarino,9106.0,12633.0,2022-02-08,377.0
+La Araucania,9.0,Gorbea,9107.0,15148.0,2022-02-08,705.0
+La Araucania,9.0,Lautaro,9108.0,40746.0,2022-02-08,1186.0
+La Araucania,9.0,Loncoche,9109.0,24739.0,2022-02-08,737.0
+La Araucania,9.0,Melipeuco,9110.0,6265.0,2022-02-08,85.0
+La Araucania,9.0,Nueva Imperial,9111.0,33777.0,2022-02-08,1404.0
+La Araucania,9.0,Padre Las Casas,9112.0,82110.0,2022-02-08,2706.0
+La Araucania,9.0,Perquenco,9113.0,7223.0,2022-02-08,193.0
+La Araucania,9.0,Pitrufquen,9114.0,26096.0,2022-02-08,952.0
+La Araucania,9.0,Pucon,9115.0,29782.0,2022-02-08,1523.0
+La Araucania,9.0,Saavedra,9116.0,12793.0,2022-02-08,520.0
+La Araucania,9.0,Teodoro Schmidt,9117.0,15786.0,2022-02-08,336.0
+La Araucania,9.0,Tolten,9118.0,10055.0,2022-02-08,413.0
+La Araucania,9.0,Vilcun,9119.0,30766.0,2022-02-08,988.0
+La Araucania,9.0,Villarrica,9120.0,59103.0,2022-02-08,2126.0
+La Araucania,9.0,Cholchol,9121.0,12341.0,2022-02-08,397.0
+La Araucania,9.0,Angol,9201.0,56058.0,2022-02-08,2848.0
+La Araucania,9.0,Collipulli,9202.0,26148.0,2022-02-08,1310.0
+La Araucania,9.0,Curacautin,9203.0,18178.0,2022-02-08,463.0
+La Araucania,9.0,Ercilla,9204.0,8458.0,2022-02-08,352.0
+La Araucania,9.0,Lonquimay,9205.0,11049.0,2022-02-08,544.0
+La Araucania,9.0,Los Sauces,9206.0,7517.0,2022-02-08,290.0
+La Araucania,9.0,Lumaco,9207.0,10050.0,2022-02-08,268.0
+La Araucania,9.0,Puren,9208.0,12188.0,2022-02-08,503.0
+La Araucania,9.0,Renaico,9209.0,10833.0,2022-02-08,614.0
+La Araucania,9.0,Traiguen,9210.0,19314.0,2022-02-08,705.0
+La Araucania,9.0,Victoria,9211.0,35467.0,2022-02-08,1277.0
+Los Lagos,10.0,Puerto Montt,10101.0,269398.0,2022-02-08,17260.0
+Los Lagos,10.0,Calbuco,10102.0,36744.0,2022-02-08,1637.0
+Los Lagos,10.0,Cochamo,10103.0,4006.0,2022-02-08,145.0
+Los Lagos,10.0,Fresia,10104.0,12656.0,2022-02-08,486.0
+Los Lagos,10.0,Frutillar,10105.0,20223.0,2022-02-08,1373.0
+Los Lagos,10.0,Los Muermos,10106.0,17817.0,2022-02-08,592.0
+Los Lagos,10.0,Llanquihue,10107.0,18621.0,2022-02-08,1067.0
+Los Lagos,10.0,Maullin,10108.0,14894.0,2022-02-08,480.0
+Los Lagos,10.0,Puerto Varas,10109.0,48620.0,2022-02-08,3096.0
+Los Lagos,10.0,Castro,10201.0,47607.0,2022-02-08,3769.0
+Los Lagos,10.0,Ancud,10202.0,42458.0,2022-02-08,2208.0
+Los Lagos,10.0,Chonchi,10203.0,16013.0,2022-02-08,1091.0
+Los Lagos,10.0,Curaco de Velez,10204.0,4066.0,2022-02-08,263.0
+Los Lagos,10.0,Dalcahue,10205.0,15069.0,2022-02-08,1140.0
+Los Lagos,10.0,Puqueldon,10206.0,4201.0,2022-02-08,174.0
+Los Lagos,10.0,Queilen,10207.0,5543.0,2022-02-08,257.0
+Los Lagos,10.0,Quellon,10208.0,29309.0,2022-02-08,2477.0
+Los Lagos,10.0,Quemchi,10209.0,8783.0,2022-02-08,277.0
+Los Lagos,10.0,Quinchao,10210.0,8298.0,2022-02-08,490.0
+Los Lagos,10.0,Osorno,10301.0,173410.0,2022-02-08,6746.0
+Los Lagos,10.0,Puerto Octay,10302.0,9192.0,2022-02-08,218.0
+Los Lagos,10.0,Purranque,10303.0,21080.0,2022-02-08,413.0
+Los Lagos,10.0,Puyehue,10304.0,11787.0,2022-02-08,386.0
+Los Lagos,10.0,Rio Negro,10305.0,14275.0,2022-02-08,419.0
+Los Lagos,10.0,San Juan de la Costa,10306.0,7639.0,2022-02-08,180.0
+Los Lagos,10.0,San Pablo,10307.0,10553.0,2022-02-08,396.0
+Los Lagos,10.0,Chaiten,10401.0,5020.0,2022-02-08,293.0
+Los Lagos,10.0,Futaleufu,10402.0,2806.0,2022-02-08,435.0
+Los Lagos,10.0,Hualaihue,10403.0,9525.0,2022-02-08,341.0
+Los Lagos,10.0,Palena,10404.0,1827.0,2022-02-08,265.0
+Aysen,11.0,Coyhaique,11101.0,61210.0,2022-02-08,4393.0
+Aysen,11.0,Lago Verde,11102.0,920.0,2022-02-08,93.0
+Aysen,11.0,Aysen,11201.0,25002.0,2022-02-08,2170.0
+Aysen,11.0,Cisnes,11202.0,5828.0,2022-02-08,503.0
+Aysen,11.0,Guaitecas,11203.0,1599.0,2022-02-08,270.0
+Aysen,11.0,Cochrane,11301.0,3685.0,2022-02-08,316.0
+Aysen,11.0,OHiggins,11302.0,661.0,2022-02-08,69.0
+Aysen,11.0,Tortel,11303.0,572.0,2022-02-08,15.0
+Aysen,11.0,Chile Chico,11401.0,5121.0,2022-02-08,474.0
+Aysen,11.0,Rio Ibanez,11402.0,2699.0,2022-02-08,148.0
+Magallanes y la Antartica,12.0,Punta Arenas,12101.0,141984.0,2022-02-08,8419.0
+Magallanes y la Antartica,12.0,Laguna Blanca,12102.0,264.0,2022-02-08,11.0
+Magallanes y la Antartica,12.0,Rio Verde,12103.0,211.0,2022-02-08,7.0
+Magallanes y la Antartica,12.0,San Gregorio,12104.0,681.0,2022-02-08,22.0
+Magallanes y la Antartica,12.0,Cabo de Hornos,12201.0,1983.0,2022-02-08,80.0
+Magallanes y la Antartica,12.0,Antartica,12202.0,137.0,2022-02-08,7.0
+Magallanes y la Antartica,12.0,Porvenir,12301.0,7323.0,2022-02-08,577.0
+Magallanes y la Antartica,12.0,Primavera,12302.0,694.0,2022-02-08,8.0
+Magallanes y la Antartica,12.0,Timaukel,12303.0,282.0,2022-02-08,1.0
+Magallanes y la Antartica,12.0,Natales,12401.0,23782.0,2022-02-08,1963.0
+Magallanes y la Antartica,12.0,Torres del Paine,12402.0,1021.0,2022-02-08,82.0
+Metropolitana,13.0,Santiago,13101.0,503147.0,2022-02-08,40633.0
+Metropolitana,13.0,Cerrillos,13102.0,88956.0,2022-02-08,3145.0
+Metropolitana,13.0,Cerro Navia,13103.0,142465.0,2022-02-08,4601.0
+Metropolitana,13.0,Conchali,13104.0,139195.0,2022-02-08,4001.0
+Metropolitana,13.0,El Bosque,13105.0,172000.0,2022-02-08,4357.0
+Metropolitana,13.0,Estacion Central,13106.0,206792.0,2022-02-08,6712.0
+Metropolitana,13.0,Huechuraba,13107.0,112528.0,2022-02-08,4750.0
+Metropolitana,13.0,Independencia,13108.0,142065.0,2022-02-08,7158.0
+Metropolitana,13.0,La Cisterna,13109.0,100434.0,2022-02-08,3361.0
+Metropolitana,13.0,La Florida,13110.0,402433.0,2022-02-08,15009.0
+Metropolitana,13.0,La Granja,13111.0,122557.0,2022-02-08,3269.0
+Metropolitana,13.0,La Pintana,13112.0,189335.0,2022-02-08,3415.0
+Metropolitana,13.0,La Reina,13113.0,100252.0,2022-02-08,5436.0
+Metropolitana,13.0,Las Condes,13114.0,330759.0,2022-02-08,23022.0
+Metropolitana,13.0,Lo Barnechea,13115.0,124076.0,2022-02-08,6980.0
+Metropolitana,13.0,Lo Espejo,13116.0,103865.0,2022-02-08,2990.0
+Metropolitana,13.0,Lo Prado,13117.0,104403.0,2022-02-08,3442.0
+Metropolitana,13.0,Macul,13118.0,134635.0,2022-02-08,5691.0
+Metropolitana,13.0,Maipu,13119.0,578605.0,2022-02-08,18908.0
+Metropolitana,13.0,Nunoa,13120.0,250192.0,2022-02-08,12234.0
+Metropolitana,13.0,Pedro Aguirre Cerda,13121.0,107803.0,2022-02-08,3635.0
+Metropolitana,13.0,Penalolen,13122.0,266798.0,2022-02-08,10820.0
+Metropolitana,13.0,Providencia,13123.0,157749.0,2022-02-08,11996.0
+Metropolitana,13.0,Pudahuel,13124.0,253139.0,2022-02-08,8495.0
+Metropolitana,13.0,Quilicura,13125.0,254694.0,2022-02-08,7686.0
+Metropolitana,13.0,Quinta Normal,13126.0,136368.0,2022-02-08,5022.0
+Metropolitana,13.0,Recoleta,13127.0,190075.0,2022-02-08,6086.0
+Metropolitana,13.0,Renca,13128.0,160847.0,2022-02-08,5579.0
+Metropolitana,13.0,San Joaquin,13129.0,103485.0,2022-02-08,3150.0
+Metropolitana,13.0,San Miguel,13130.0,133059.0,2022-02-08,6615.0
+Metropolitana,13.0,San Ramon,13131.0,86510.0,2022-02-08,2213.0
+Metropolitana,13.0,Vitacura,13132.0,96774.0,2022-02-08,6358.0
+Metropolitana,13.0,Puente Alto,13201.0,645909.0,2022-02-08,19514.0
+Metropolitana,13.0,Pirque,13202.0,30433.0,2022-02-08,775.0
+Metropolitana,13.0,San Jose de Maipo,13203.0,18644.0,2022-02-08,615.0
+Metropolitana,13.0,Colina,13301.0,180353.0,2022-02-08,7419.0
+Metropolitana,13.0,Lampa,13302.0,126898.0,2022-02-08,3732.0
+Metropolitana,13.0,Tiltil,13303.0,21477.0,2022-02-08,767.0
+Metropolitana,13.0,San Bernardo,13401.0,334836.0,2022-02-08,8010.0
+Metropolitana,13.0,Buin,13402.0,109641.0,2022-02-08,3978.0
+Metropolitana,13.0,Calera de Tango,13403.0,28525.0,2022-02-08,832.0
+Metropolitana,13.0,Paine,13404.0,82766.0,2022-02-08,2967.0
+Metropolitana,13.0,Melipilla,13501.0,141612.0,2022-02-08,3826.0
+Metropolitana,13.0,Alhue,13502.0,7405.0,2022-02-08,469.0
+Metropolitana,13.0,Curacavi,13503.0,36430.0,2022-02-08,1746.0
+Metropolitana,13.0,Maria Pinto,13504.0,14926.0,2022-02-08,648.0
+Metropolitana,13.0,San Pedro,13505.0,11953.0,2022-02-08,245.0
+Metropolitana,13.0,Talagante,13601.0,81838.0,2022-02-08,3602.0
+Metropolitana,13.0,El Monte,13602.0,40014.0,2022-02-08,1299.0
+Metropolitana,13.0,Isla de Maipo,13603.0,40171.0,2022-02-08,1472.0
+Metropolitana,13.0,Padre Hurtado,13604.0,74188.0,2022-02-08,2476.0
+Metropolitana,13.0,Penaflor,13605.0,101058.0,2022-02-08,3527.0
+Los Rios,14.0,Valdivia,14101.0,176774.0,2022-02-08,12995.0
+Los Rios,14.0,Corral,14102.0,5447.0,2022-02-08,314.0
+Los Rios,14.0,Lanco,14103.0,17652.0,2022-02-08,878.0
+Los Rios,14.0,Los Lagos,14104.0,20518.0,2022-02-08,858.0
+Los Rios,14.0,Mafil,14105.0,7389.0,2022-02-08,458.0
+Los Rios,14.0,Mariquina,14106.0,23250.0,2022-02-08,1529.0
+Los Rios,14.0,Paillaco,14107.0,20798.0,2022-02-08,920.0
+Los Rios,14.0,Panguipulli,14108.0,35991.0,2022-02-08,1548.0
+Los Rios,14.0,La Union,14201.0,39538.0,2022-02-08,1732.0
+Los Rios,14.0,Futrono,14202.0,15261.0,2022-02-08,676.0
+Los Rios,14.0,Lago Ranco,14203.0,10292.0,2022-02-08,345.0
+Los Rios,14.0,Rio Bueno,14204.0,32925.0,2022-02-08,1266.0
+Arica y Parinacota,15.0,Arica,15101.0,247552.0,2022-02-08,17361.0
+Arica y Parinacota,15.0,Camarones,15102.0,1233.0,2022-02-08,12.0
+Arica y Parinacota,15.0,Putre,15201.0,2515.0,2022-02-08,50.0
+Arica y Parinacota,15.0,General Lagos,15202.0,810.0,2022-02-08,20.0
+Nuble,16.0,Chillan,16101.0,198624.0,2022-02-08,13547.0
+Nuble,16.0,Bulnes,16102.0,22607.0,2022-02-08,1003.0
+Nuble,16.0,Chillan Viejo,16103.0,33827.0,2022-02-08,1293.0
+Nuble,16.0,El Carmen,16104.0,12334.0,2022-02-08,497.0
+Nuble,16.0,Pemuco,16105.0,8639.0,2022-02-08,296.0
+Nuble,16.0,Pinto,16106.0,11880.0,2022-02-08,471.0
+Nuble,16.0,Quillon,16107.0,18777.0,2022-02-08,746.0
+Nuble,16.0,San Ignacio,16108.0,16624.0,2022-02-08,595.0
+Nuble,16.0,Yungay,16109.0,18596.0,2022-02-08,872.0
+Nuble,16.0,Quirihue,16201.0,12192.0,2022-02-08,227.0
+Nuble,16.0,Cobquecura,16202.0,5275.0,2022-02-08,104.0
+Nuble,16.0,Coelemu,16203.0,16845.0,2022-02-08,463.0
+Nuble,16.0,Ninhue,16204.0,5414.0,2022-02-08,265.0
+Nuble,16.0,Portezuelo,16205.0,4940.0,2022-02-08,201.0
+Nuble,16.0,Ranquil,16206.0,6261.0,2022-02-08,218.0
+Nuble,16.0,Treguaco,16207.0,5696.0,2022-02-08,89.0
+Nuble,16.0,San Carlos,16301.0,56252.0,2022-02-08,1813.0
+Nuble,16.0,Coihueco,16302.0,28375.0,2022-02-08,683.0
+Nuble,16.0,Niquen,16303.0,11567.0,2022-02-08,358.0
+Nuble,16.0,San Fabian,16304.0,4654.0,2022-02-08,189.0
+Nuble,16.0,San Nicolas,16305.0,12172.0,2022-02-08,443.0
+Tarapaca,1.0,Iquique,1101.0,223463.0,2022-02-15,7993
+Tarapaca,1.0,Alto Hospicio,1107.0,129999.0,2022-02-15,3209
+Tarapaca,1.0,Pozo Almonte,1401.0,17395.0,2022-02-15,632
+Tarapaca,1.0,Camina,1402.0,1375.0,2022-02-15,19
+Tarapaca,1.0,Colchane,1403.0,1583.0,2022-02-15,1428
+Tarapaca,1.0,Huara,1404.0,3000.0,2022-02-15,94
+Tarapaca,1.0,Pica,1405.0,5958.0,2022-02-15,190
+Antofagasta,2.0,Antofagasta,2101.0,425725.0,2022-02-15,18188
+Antofagasta,2.0,Mejillones,2102.0,14776.0,2022-02-15,622
+Antofagasta,2.0,Sierra Gorda,2103.0,1746.0,2022-02-15,52
+Antofagasta,2.0,Taltal,2104.0,13657.0,2022-02-15,610
+Antofagasta,2.0,Calama,2201.0,190336.0,2022-02-15,5982
+Antofagasta,2.0,Ollague,2202.0,287.0,2022-02-15,520
+Antofagasta,2.0,San Pedro de Atacama,2203.0,10434.0,2022-02-15,930
+Antofagasta,2.0,Tocopilla,2301.0,28079.0,2022-02-15,778
+Antofagasta,2.0,Maria Elena,2302.0,6814.0,2022-02-15,86
+Atacama,3.0,Copiapo,3101.0,171766.0,2022-02-15,9492
+Atacama,3.0,Caldera,3102.0,19426.0,2022-02-15,1229
+Atacama,3.0,Tierra Amarilla,3103.0,14312.0,2022-02-15,686
+Atacama,3.0,Chanaral,3201.0,13164.0,2022-02-15,389
+Atacama,3.0,Diego de Almagro,3202.0,14358.0,2022-02-15,511
+Atacama,3.0,Vallenar,3301.0,57009.0,2022-02-15,2481
+Atacama,3.0,Alto del Carmen,3302.0,5729.0,2022-02-15,181
+Atacama,3.0,Freirina,3303.0,7681.0,2022-02-15,410
+Atacama,3.0,Huasco,3304.0,11264.0,2022-02-15,440
+Coquimbo,4.0,La Serena,4101.0,249656.0,2022-02-15,10658
+Coquimbo,4.0,Coquimbo,4102.0,256735.0,2022-02-15,9583
+Coquimbo,4.0,Andacollo,4103.0,11791.0,2022-02-15,761
+Coquimbo,4.0,La Higuera,4104.0,4450.0,2022-02-15,150
+Coquimbo,4.0,Paiguano,4105.0,4675.0,2022-02-15,175
+Coquimbo,4.0,Vicuna,4106.0,29741.0,2022-02-15,931
+Coquimbo,4.0,Illapel,4201.0,32801.0,2022-02-15,1142
+Coquimbo,4.0,Canela,4202.0,9546.0,2022-02-15,236
+Coquimbo,4.0,Los Vilos,4203.0,23374.0,2022-02-15,681
+Coquimbo,4.0,Salamanca,4204.0,29110.0,2022-02-15,843
+Coquimbo,4.0,Ovalle,4301.0,121269.0,2022-02-15,4260
+Coquimbo,4.0,Combarbala,4302.0,13884.0,2022-02-15,503
+Coquimbo,4.0,Monte Patria,4303.0,32527.0,2022-02-15,771
+Coquimbo,4.0,Punitaqui,4304.0,12165.0,2022-02-15,251
+Coquimbo,4.0,Rio Hurtado,4305.0,4372.0,2022-02-15,167
+Valparaiso,5.0,Valparaiso,5101.0,315732.0,2022-02-15,11550
+Valparaiso,5.0,Casablanca,5102.0,29170.0,2022-02-15,985
+Valparaiso,5.0,Concon,5103.0,45889.0,2022-02-15,2132
+Valparaiso,5.0,Juan Fernandez,5104.0,1033.0,2022-02-15,61
+Valparaiso,5.0,Puchuncavi,5105.0,20071.0,2022-02-15,918
+Valparaiso,5.0,Quintero,5107.0,36135.0,2022-02-15,1547
+Valparaiso,5.0,Vina del Mar,5109.0,361371.0,2022-02-15,18695
+Valparaiso,5.0,Isla de Pascua,5201.0,8277.0,2022-02-15,39
+Valparaiso,5.0,Los Andes,5301.0,68093.0,2022-02-15,5095
+Valparaiso,5.0,Calle Larga,5302.0,16482.0,2022-02-15,798
+Valparaiso,5.0,Rinconada,5303.0,11263.0,2022-02-15,586
+Valparaiso,5.0,San Esteban,5304.0,20643.0,2022-02-15,934
+Valparaiso,5.0,La Ligua,5401.0,37739.0,2022-02-15,1087
+Valparaiso,5.0,Cabildo,5402.0,20663.0,2022-02-15,536
+Valparaiso,5.0,Papudo,5403.0,6201.0,2022-02-15,303
+Valparaiso,5.0,Petorca,5404.0,10558.0,2022-02-15,387
+Valparaiso,5.0,Zapallar,5405.0,7994.0,2022-02-15,400
+Valparaiso,5.0,Quillota,5501.0,97572.0,2022-02-15,4328
+Valparaiso,5.0,Calera,5502.0,53591.0,2022-02-15,1801
+Valparaiso,5.0,Hijuelas,5503.0,19099.0,2022-02-15,478
+Valparaiso,5.0,La Cruz,5504.0,25321.0,2022-02-15,903
+Valparaiso,5.0,Nogales,5506.0,23490.0,2022-02-15,1002
+Valparaiso,5.0,San Antonio,5601.0,96761.0,2022-02-15,4261
+Valparaiso,5.0,Algarrobo,5602.0,15174.0,2022-02-15,1248
+Valparaiso,5.0,Cartagena,5603.0,25357.0,2022-02-15,1266
+Valparaiso,5.0,El Quisco,5604.0,17742.0,2022-02-15,763
+Valparaiso,5.0,El Tabo,5605.0,14338.0,2022-02-15,783
+Valparaiso,5.0,Santo Domingo,5606.0,11934.0,2022-02-15,578
+Valparaiso,5.0,San Felipe,5701.0,83494.0,2022-02-15,4433
+Valparaiso,5.0,Catemu,5702.0,15213.0,2022-02-15,696
+Valparaiso,5.0,Llaillay,5703.0,26533.0,2022-02-15,1211
+Valparaiso,5.0,Panquehue,5704.0,7633.0,2022-02-15,389
+Valparaiso,5.0,Putaendo,5705.0,17645.0,2022-02-15,851
+Valparaiso,5.0,Santa Maria,5706.0,16367.0,2022-02-15,684
+Valparaiso,5.0,Quilpue,5801.0,167085.0,2022-02-15,6385
+Valparaiso,5.0,Limache,5802.0,49931.0,2022-02-15,1685
+Valparaiso,5.0,Olmue,5803.0,19266.0,2022-02-15,653
+Valparaiso,5.0,Villa Alemana,5804.0,139310.0,2022-02-15,3824
+Del Libertador General Bernardo O’Higgins,6.0,Rancagua,6101.0,265211.0,2022-02-15,11388
+Del Libertador General Bernardo O’Higgins,6.0,Codegua,6102.0,14096.0,2022-02-15,442
+Del Libertador General Bernardo O’Higgins,6.0,Coinco,6103.0,7831.0,2022-02-15,225
+Del Libertador General Bernardo O’Higgins,6.0,Coltauco,6104.0,21263.0,2022-02-15,512
+Del Libertador General Bernardo O’Higgins,6.0,Donihue,6105.0,22700.0,2022-02-15,705
+Del Libertador General Bernardo O’Higgins,6.0,Graneros,6106.0,36504.0,2022-02-15,1161
+Del Libertador General Bernardo O’Higgins,6.0,Las Cabras,6107.0,26749.0,2022-02-15,727
+Del Libertador General Bernardo O’Higgins,6.0,Machali,6108.0,59913.0,2022-02-15,2014
+Del Libertador General Bernardo O’Higgins,6.0,Malloa,6109.0,14163.0,2022-02-15,451
+Del Libertador General Bernardo O’Higgins,6.0,Mostazal,6110.0,27462.0,2022-02-15,869
+Del Libertador General Bernardo O’Higgins,6.0,Olivar,6111.0,14624.0,2022-02-15,334
+Del Libertador General Bernardo O’Higgins,6.0,Peumo,6112.0,14952.0,2022-02-15,420
+Del Libertador General Bernardo O’Higgins,6.0,Pichidegua,6113.0,20743.0,2022-02-15,420
+Del Libertador General Bernardo O’Higgins,6.0,Quinta de Tilcoco,6114.0,13877.0,2022-02-15,295
+Del Libertador General Bernardo O’Higgins,6.0,Rengo,6115.0,63710.0,2022-02-15,1927
+Del Libertador General Bernardo O’Higgins,6.0,Requinoa,6116.0,30371.0,2022-02-15,828
+Del Libertador General Bernardo O’Higgins,6.0,San Vicente,6117.0,50617.0,2022-02-15,1533
+Del Libertador General Bernardo O’Higgins,6.0,Pichilemu,6201.0,17882.0,2022-02-15,524
+Del Libertador General Bernardo O’Higgins,6.0,La Estrella,6202.0,3114.0,2022-02-15,98
+Del Libertador General Bernardo O’Higgins,6.0,Litueche,6203.0,6765.0,2022-02-15,232
+Del Libertador General Bernardo O’Higgins,6.0,Marchihue,6204.0,7632.0,2022-02-15,222
+Del Libertador General Bernardo O’Higgins,6.0,Navidad,6205.0,6904.0,2022-02-15,187
+Del Libertador General Bernardo O’Higgins,6.0,Paredones,6206.0,6349.0,2022-02-15,137
+Del Libertador General Bernardo O’Higgins,6.0,San Fernando,6301.0,78642.0,2022-02-15,2793
+Del Libertador General Bernardo O’Higgins,6.0,Chepica,6302.0,15925.0,2022-02-15,371
+Del Libertador General Bernardo O’Higgins,6.0,Chimbarongo,6303.0,37696.0,2022-02-15,795
+Del Libertador General Bernardo O’Higgins,6.0,Lolol,6304.0,7289.0,2022-02-15,190
+Del Libertador General Bernardo O’Higgins,6.0,Nancagua,6305.0,19141.0,2022-02-15,582
+Del Libertador General Bernardo O’Higgins,6.0,Palmilla,6306.0,13299.0,2022-02-15,319
+Del Libertador General Bernardo O’Higgins,6.0,Peralillo,6307.0,11848.0,2022-02-15,288
+Del Libertador General Bernardo O’Higgins,6.0,Placilla,6308.0,9164.0,2022-02-15,275
+Del Libertador General Bernardo O’Higgins,6.0,Pumanque,6309.0,3531.0,2022-02-15,69
+Del Libertador General Bernardo O’Higgins,6.0,Santa Cruz,6310.0,41096.0,2022-02-15,1704
+Maule,7.0,Talca,7101.0,236724.0,2022-02-15,14398
+Maule,7.0,Constitucion,7102.0,50348.0,2022-02-15,1683
+Maule,7.0,Curepto,7103.0,9426.0,2022-02-15,318
+Maule,7.0,Empedrado,7104.0,4206.0,2022-02-15,164
+Maule,7.0,Maule,7105.0,60000.0,2022-02-15,2028
+Maule,7.0,Pelarco,7106.0,9083.0,2022-02-15,411
+Maule,7.0,Pencahue,7107.0,8601.0,2022-02-15,306
+Maule,7.0,Rio Claro,7108.0,14753.0,2022-02-15,483
+Maule,7.0,San Clemente,7109.0,46292.0,2022-02-15,1671
+Maule,7.0,San Rafael,7110.0,9959.0,2022-02-15,390
+Maule,7.0,Cauquenes,7201.0,44143.0,2022-02-15,2450
+Maule,7.0,Chanco,7202.0,9331.0,2022-02-15,376
+Maule,7.0,Pelluhue,7203.0,8092.0,2022-02-15,518
+Maule,7.0,Curico,7301.0,163626.0,2022-02-15,7922
+Maule,7.0,Hualane,7302.0,10222.0,2022-02-15,389
+Maule,7.0,Licanten,7303.0,6989.0,2022-02-15,411
+Maule,7.0,Molina,7304.0,49800.0,2022-02-15,1825
+Maule,7.0,Rauco,7305.0,11248.0,2022-02-15,358
+Maule,7.0,Romeral,7306.0,16170.0,2022-02-15,625
+Maule,7.0,Sagrada Familia,7307.0,19469.0,2022-02-15,545
+Maule,7.0,Teno,7308.0,30850.0,2022-02-15,1092
+Maule,7.0,Vichuquen,7309.0,4381.0,2022-02-15,98
+Maule,7.0,Linares,7401.0,101073.0,2022-02-15,5524
+Maule,7.0,Colbun,7402.0,22565.0,2022-02-15,1459
+Maule,7.0,Longavi,7403.0,32810.0,2022-02-15,1441
+Maule,7.0,Parral,7404.0,44544.0,2022-02-15,2339
+Maule,7.0,Retiro,7405.0,21071.0,2022-02-15,925
+Maule,7.0,San Javier,7406.0,49451.0,2022-02-15,2409
+Maule,7.0,Villa Alegre,7407.0,17512.0,2022-02-15,866
+Maule,7.0,Yerbas Buenas,7408.0,19200.0,2022-02-15,860
+Biobio,8.0,Concepcion,8101.0,238092.0,2022-02-15,13328
+Biobio,8.0,Coronel,8102.0,125829.0,2022-02-15,4273
+Biobio,8.0,Chiguayante,8103.0,91180.0,2022-02-15,3454
+Biobio,8.0,Florida,8104.0,11841.0,2022-02-15,386
+Biobio,8.0,Hualqui,8105.0,26201.0,2022-02-15,788
+Biobio,8.0,Lota,8106.0,45750.0,2022-02-15,1823
+Biobio,8.0,Penco,8107.0,49865.0,2022-02-15,1892
+Biobio,8.0,San Pedro de la Paz,8108.0,145906.0,2022-02-15,5242
+Biobio,8.0,Santa Juana,8109.0,14779.0,2022-02-15,444
+Biobio,8.0,Talcahuano,8110.0,158345.0,2022-02-15,7594
+Biobio,8.0,Tome,8111.0,58729.0,2022-02-15,3860
+Biobio,8.0,Hualpen,8112.0,97273.0,2022-02-15,7232
+Biobio,8.0,Lebu,8201.0,27100.0,2022-02-15,1381
+Biobio,8.0,Arauco,8202.0,38679.0,2022-02-15,2052
+Biobio,8.0,Canete,8203.0,37003.0,2022-02-15,1394
+Biobio,8.0,Contulmo,8204.0,6330.0,2022-02-15,415
+Biobio,8.0,Curanilahue,8205.0,33892.0,2022-02-15,1662
+Biobio,8.0,Los Alamos,8206.0,22524.0,2022-02-15,1165
+Biobio,8.0,Tirua,8207.0,11019.0,2022-02-15,250
+Biobio,8.0,Los Angeles,8301.0,218515.0,2022-02-15,9757
+Biobio,8.0,Antuco,8302.0,4306.0,2022-02-15,150
+Biobio,8.0,Cabrero,8303.0,30725.0,2022-02-15,1194
+Biobio,8.0,Laja,8304.0,23873.0,2022-02-15,742
+Biobio,8.0,Mulchen,8305.0,31041.0,2022-02-15,734
+Biobio,8.0,Nacimiento,8306.0,27944.0,2022-02-15,1143
+Biobio,8.0,Negrete,8307.0,10429.0,2022-02-15,268
+Biobio,8.0,Quilaco,8308.0,4179.0,2022-02-15,149
+Biobio,8.0,Quilleco,8309.0,10032.0,2022-02-15,352
+Biobio,8.0,San Rosendo,8310.0,3611.0,2022-02-15,131
+Biobio,8.0,Santa Barbara,8311.0,14592.0,2022-02-15,584
+Biobio,8.0,Tucapel,8312.0,15205.0,2022-02-15,722
+Biobio,8.0,Yumbel,8313.0,22132.0,2022-02-15,794
+Biobio,8.0,Alto Biobio,8314.0,6775.0,2022-02-15,121
+La Araucania,9.0,Temuco,9101.0,302931.0,2022-02-15,19208
+La Araucania,9.0,Carahue,9102.0,25486.0,2022-02-15,830
+La Araucania,9.0,Cunco,9103.0,18055.0,2022-02-15,733
+La Araucania,9.0,Curarrehue,9104.0,7802.0,2022-02-15,208
+La Araucania,9.0,Freire,9105.0,25446.0,2022-02-15,564
+La Araucania,9.0,Galvarino,9106.0,12633.0,2022-02-15,314
+La Araucania,9.0,Gorbea,9107.0,15148.0,2022-02-15,623
+La Araucania,9.0,Lautaro,9108.0,40746.0,2022-02-15,1091
+La Araucania,9.0,Loncoche,9109.0,24739.0,2022-02-15,483
+La Araucania,9.0,Melipeuco,9110.0,6265.0,2022-02-15,198
+La Araucania,9.0,Nueva Imperial,9111.0,33777.0,2022-02-15,1214
+La Araucania,9.0,Padre Las Casas,9112.0,82110.0,2022-02-15,2932
+La Araucania,9.0,Perquenco,9113.0,7223.0,2022-02-15,446
+La Araucania,9.0,Pitrufquen,9114.0,26096.0,2022-02-15,903
+La Araucania,9.0,Pucon,9115.0,29782.0,2022-02-15,1552
+La Araucania,9.0,Saavedra,9116.0,12793.0,2022-02-15,499
+La Araucania,9.0,Teodoro Schmidt,9117.0,15786.0,2022-02-15,251
+La Araucania,9.0,Tolten,9118.0,10055.0,2022-02-15,448
+La Araucania,9.0,Vilcun,9119.0,30766.0,2022-02-15,1012
+La Araucania,9.0,Villarrica,9120.0,59103.0,2022-02-15,2330
+La Araucania,9.0,Cholchol,9121.0,12341.0,2022-02-15,272
+La Araucania,9.0,Angol,9201.0,56058.0,2022-02-15,3063
+La Araucania,9.0,Collipulli,9202.0,26148.0,2022-02-15,1399
+La Araucania,9.0,Curacautin,9203.0,18178.0,2022-02-15,496
+La Araucania,9.0,Ercilla,9204.0,8458.0,2022-02-15,358
+La Araucania,9.0,Lonquimay,9205.0,11049.0,2022-02-15,360
+La Araucania,9.0,Los Sauces,9206.0,7517.0,2022-02-15,330
+La Araucania,9.0,Lumaco,9207.0,10050.0,2022-02-15,294
+La Araucania,9.0,Puren,9208.0,12188.0,2022-02-15,482
+La Araucania,9.0,Renaico,9209.0,10833.0,2022-02-15,534
+La Araucania,9.0,Traiguen,9210.0,19314.0,2022-02-15,932
+La Araucania,9.0,Victoria,9211.0,35467.0,2022-02-15,1626
+Los Lagos,10.0,Puerto Montt,10101.0,269398.0,2022-02-15,16601
+Los Lagos,10.0,Calbuco,10102.0,36744.0,2022-02-15,1804
+Los Lagos,10.0,Cochamo,10103.0,4006.0,2022-02-15,176
+Los Lagos,10.0,Fresia,10104.0,12656.0,2022-02-15,498
+Los Lagos,10.0,Frutillar,10105.0,20223.0,2022-02-15,1409
+Los Lagos,10.0,Los Muermos,10106.0,17817.0,2022-02-15,630
+Los Lagos,10.0,Llanquihue,10107.0,18621.0,2022-02-15,1166
+Los Lagos,10.0,Maullin,10108.0,14894.0,2022-02-15,598
+Los Lagos,10.0,Puerto Varas,10109.0,48620.0,2022-02-15,3076
+Los Lagos,10.0,Castro,10201.0,47607.0,2022-02-15,3097
+Los Lagos,10.0,Ancud,10202.0,42458.0,2022-02-15,1959
+Los Lagos,10.0,Chonchi,10203.0,16013.0,2022-02-15,741
+Los Lagos,10.0,Curaco de Velez,10204.0,4066.0,2022-02-15,190
+Los Lagos,10.0,Dalcahue,10205.0,15069.0,2022-02-15,1068
+Los Lagos,10.0,Puqueldon,10206.0,4201.0,2022-02-15,193
+Los Lagos,10.0,Queilen,10207.0,5543.0,2022-02-15,305
+Los Lagos,10.0,Quellon,10208.0,29309.0,2022-02-15,2154
+Los Lagos,10.0,Quemchi,10209.0,8783.0,2022-02-15,308
+Los Lagos,10.0,Quinchao,10210.0,8298.0,2022-02-15,454
+Los Lagos,10.0,Osorno,10301.0,173410.0,2022-02-15,7290
+Los Lagos,10.0,Puerto Octay,10302.0,9192.0,2022-02-15,303
+Los Lagos,10.0,Purranque,10303.0,21080.0,2022-02-15,497
+Los Lagos,10.0,Puyehue,10304.0,11787.0,2022-02-15,347
+Los Lagos,10.0,Rio Negro,10305.0,14275.0,2022-02-15,389
+Los Lagos,10.0,San Juan de la Costa,10306.0,7639.0,2022-02-15,195
+Los Lagos,10.0,San Pablo,10307.0,10553.0,2022-02-15,335
+Los Lagos,10.0,Chaiten,10401.0,5020.0,2022-02-15,232
+Los Lagos,10.0,Futaleufu,10402.0,2806.0,2022-02-15,323
+Los Lagos,10.0,Hualaihue,10403.0,9525.0,2022-02-15,346
+Los Lagos,10.0,Palena,10404.0,1827.0,2022-02-15,140
+Aysen,11.0,Coyhaique,11101.0,61210.0,2022-02-15,3990
+Aysen,11.0,Lago Verde,11102.0,920.0,2022-02-15,40
+Aysen,11.0,Aysen,11201.0,25002.0,2022-02-15,1996
+Aysen,11.0,Cisnes,11202.0,5828.0,2022-02-15,396
+Aysen,11.0,Guaitecas,11203.0,1599.0,2022-02-15,207
+Aysen,11.0,Cochrane,11301.0,3685.0,2022-02-15,221
+Aysen,11.0,OHiggins,11302.0,661.0,2022-02-15,38
+Aysen,11.0,Tortel,11303.0,572.0,2022-02-15,40
+Aysen,11.0,Chile Chico,11401.0,5121.0,2022-02-15,433
+Aysen,11.0,Rio Ibanez,11402.0,2699.0,2022-02-15,134
+Magallanes y la Antartica,12.0,Punta Arenas,12101.0,141984.0,2022-02-15,6572
+Magallanes y la Antartica,12.0,Laguna Blanca,12102.0,264.0,2022-02-15,5
+Magallanes y la Antartica,12.0,Rio Verde,12103.0,211.0,2022-02-15,-
+Magallanes y la Antartica,12.0,San Gregorio,12104.0,681.0,2022-02-15,22
+Magallanes y la Antartica,12.0,Cabo de Hornos,12201.0,1983.0,2022-02-15,72
+Magallanes y la Antartica,12.0,Antartica,12202.0,137.0,2022-02-15,6
+Magallanes y la Antartica,12.0,Porvenir,12301.0,7323.0,2022-02-15,459
+Magallanes y la Antartica,12.0,Primavera,12302.0,694.0,2022-02-15,12
+Magallanes y la Antartica,12.0,Timaukel,12303.0,282.0,2022-02-15,15
+Magallanes y la Antartica,12.0,Natales,12401.0,23782.0,2022-02-15,1566
+Magallanes y la Antartica,12.0,Torres del Paine,12402.0,1021.0,2022-02-15,62
+Metropolitana,13.0,Santiago,13101.0,503147.0,2022-02-15,36706
+Metropolitana,13.0,Cerrillos,13102.0,88956.0,2022-02-15,2992
+Metropolitana,13.0,Cerro Navia,13103.0,142465.0,2022-02-15,3473
+Metropolitana,13.0,Conchali,13104.0,139195.0,2022-02-15,3094
+Metropolitana,13.0,El Bosque,13105.0,172000.0,2022-02-15,4295
+Metropolitana,13.0,Estacion Central,13106.0,206792.0,2022-02-15,5599
+Metropolitana,13.0,Huechuraba,13107.0,112528.0,2022-02-15,3959
+Metropolitana,13.0,Independencia,13108.0,142065.0,2022-02-15,5866
+Metropolitana,13.0,La Cisterna,13109.0,100434.0,2022-02-15,2785
+Metropolitana,13.0,La Florida,13110.0,402433.0,2022-02-15,12948
+Metropolitana,13.0,La Granja,13111.0,122557.0,2022-02-15,2764
+Metropolitana,13.0,La Pintana,13112.0,189335.0,2022-02-15,2921
+Metropolitana,13.0,La Reina,13113.0,100252.0,2022-02-15,4918
+Metropolitana,13.0,Las Condes,13114.0,330759.0,2022-02-15,21918
+Metropolitana,13.0,Lo Barnechea,13115.0,124076.0,2022-02-15,6391
+Metropolitana,13.0,Lo Espejo,13116.0,103865.0,2022-02-15,2502
+Metropolitana,13.0,Lo Prado,13117.0,104403.0,2022-02-15,2895
+Metropolitana,13.0,Macul,13118.0,134635.0,2022-02-15,4533
+Metropolitana,13.0,Maipu,13119.0,578605.0,2022-02-15,17458
+Metropolitana,13.0,Nunoa,13120.0,250192.0,2022-02-15,11161
+Metropolitana,13.0,Pedro Aguirre Cerda,13121.0,107803.0,2022-02-15,3041
+Metropolitana,13.0,Penalolen,13122.0,266798.0,2022-02-15,9598
+Metropolitana,13.0,Providencia,13123.0,157749.0,2022-02-15,10409
+Metropolitana,13.0,Pudahuel,13124.0,253139.0,2022-02-15,7582
+Metropolitana,13.0,Quilicura,13125.0,254694.0,2022-02-15,6349
+Metropolitana,13.0,Quinta Normal,13126.0,136368.0,2022-02-15,4371
+Metropolitana,13.0,Recoleta,13127.0,190075.0,2022-02-15,4720
+Metropolitana,13.0,Renca,13128.0,160847.0,2022-02-15,4638
+Metropolitana,13.0,San Joaquin,13129.0,103485.0,2022-02-15,2738
+Metropolitana,13.0,San Miguel,13130.0,133059.0,2022-02-15,5570
+Metropolitana,13.0,San Ramon,13131.0,86510.0,2022-02-15,1679
+Metropolitana,13.0,Vitacura,13132.0,96774.0,2022-02-15,5495
+Metropolitana,13.0,Puente Alto,13201.0,645909.0,2022-02-15,15257
+Metropolitana,13.0,Pirque,13202.0,30433.0,2022-02-15,713
+Metropolitana,13.0,San Jose de Maipo,13203.0,18644.0,2022-02-15,820
+Metropolitana,13.0,Colina,13301.0,180353.0,2022-02-15,6300
+Metropolitana,13.0,Lampa,13302.0,126898.0,2022-02-15,3044
+Metropolitana,13.0,Tiltil,13303.0,21477.0,2022-02-15,713
+Metropolitana,13.0,San Bernardo,13401.0,334836.0,2022-02-15,7971
+Metropolitana,13.0,Buin,13402.0,109641.0,2022-02-15,3584
+Metropolitana,13.0,Calera de Tango,13403.0,28525.0,2022-02-15,737
+Metropolitana,13.0,Paine,13404.0,82766.0,2022-02-15,2653
+Metropolitana,13.0,Melipilla,13501.0,141612.0,2022-02-15,3409
+Metropolitana,13.0,Alhue,13502.0,7405.0,2022-02-15,506
+Metropolitana,13.0,Curacavi,13503.0,36430.0,2022-02-15,1490
+Metropolitana,13.0,Maria Pinto,13504.0,14926.0,2022-02-15,521
+Metropolitana,13.0,San Pedro,13505.0,11953.0,2022-02-15,235
+Metropolitana,13.0,Talagante,13601.0,81838.0,2022-02-15,2717
+Metropolitana,13.0,El Monte,13602.0,40014.0,2022-02-15,1038
+Metropolitana,13.0,Isla de Maipo,13603.0,40171.0,2022-02-15,1365
+Metropolitana,13.0,Padre Hurtado,13604.0,74188.0,2022-02-15,2529
+Metropolitana,13.0,Penaflor,13605.0,101058.0,2022-02-15,3416
+Los Rios,14.0,Valdivia,14101.0,176774.0,2022-02-15,11858
+Los Rios,14.0,Corral,14102.0,5447.0,2022-02-15,277
+Los Rios,14.0,Lanco,14103.0,17652.0,2022-02-15,734
+Los Rios,14.0,Los Lagos,14104.0,20518.0,2022-02-15,688
+Los Rios,14.0,Mafil,14105.0,7389.0,2022-02-15,351
+Los Rios,14.0,Mariquina,14106.0,23250.0,2022-02-15,982
+Los Rios,14.0,Paillaco,14107.0,20798.0,2022-02-15,695
+Los Rios,14.0,Panguipulli,14108.0,35991.0,2022-02-15,1325
+Los Rios,14.0,La Union,14201.0,39538.0,2022-02-15,1501
+Los Rios,14.0,Futrono,14202.0,15261.0,2022-02-15,544
+Los Rios,14.0,Lago Ranco,14203.0,10292.0,2022-02-15,284
+Los Rios,14.0,Rio Bueno,14204.0,32925.0,2022-02-15,986
+Arica y Parinacota,15.0,Arica,15101.0,247552.0,2022-02-15,13714
+Arica y Parinacota,15.0,Camarones,15102.0,1233.0,2022-02-15,4
+Arica y Parinacota,15.0,Putre,15201.0,2515.0,2022-02-15,49
+Arica y Parinacota,15.0,General Lagos,15202.0,810.0,2022-02-15,15
+Nuble,16.0,Chillan,16101.0,198624.0,2022-02-15,12300
+Nuble,16.0,Bulnes,16102.0,22607.0,2022-02-15,799
+Nuble,16.0,Chillan Viejo,16103.0,33827.0,2022-02-15,1208
+Nuble,16.0,El Carmen,16104.0,12334.0,2022-02-15,352
+Nuble,16.0,Pemuco,16105.0,8639.0,2022-02-15,325
+Nuble,16.0,Pinto,16106.0,11880.0,2022-02-15,473
+Nuble,16.0,Quillon,16107.0,18777.0,2022-02-15,688
+Nuble,16.0,San Ignacio,16108.0,16624.0,2022-02-15,609
+Nuble,16.0,Yungay,16109.0,18596.0,2022-02-15,741
+Nuble,16.0,Quirihue,16201.0,12192.0,2022-02-15,381
+Nuble,16.0,Cobquecura,16202.0,5275.0,2022-02-15,184
+Nuble,16.0,Coelemu,16203.0,16845.0,2022-02-15,874
+Nuble,16.0,Ninhue,16204.0,5414.0,2022-02-15,264
+Nuble,16.0,Portezuelo,16205.0,4940.0,2022-02-15,181
+Nuble,16.0,Ranquil,16206.0,6261.0,2022-02-15,240
+Nuble,16.0,Treguaco,16207.0,5696.0,2022-02-15,163
+Nuble,16.0,San Carlos,16301.0,56252.0,2022-02-15,2087
+Nuble,16.0,Coihueco,16302.0,28375.0,2022-02-15,660
+Nuble,16.0,Niquen,16303.0,11567.0,2022-02-15,348
+Nuble,16.0,San Fabian,16304.0,4654.0,2022-02-15,161
+Nuble,16.0,San Nicolas,16305.0,12172.0,2022-02-15,453
+Tarapaca,1.0,Iquique,1101.0,223463.0,2022-02-22,8461
+Tarapaca,1.0,Alto Hospicio,1107.0,129999.0,2022-02-22,2616
+Tarapaca,1.0,Pozo Almonte,1401.0,17395.0,2022-02-22,507
+Tarapaca,1.0,Camina,1402.0,1375.0,2022-02-22,16
+Tarapaca,1.0,Colchane,1403.0,1583.0,2022-02-22,1149
+Tarapaca,1.0,Huara,1404.0,3000.0,2022-02-22,55
+Tarapaca,1.0,Pica,1405.0,5958.0,2022-02-22,149
+Antofagasta,2.0,Antofagasta,2101.0,425725.0,2022-02-22,15774
+Antofagasta,2.0,Mejillones,2102.0,14776.0,2022-02-22,526
+Antofagasta,2.0,Sierra Gorda,2103.0,1746.0,2022-02-22,31
+Antofagasta,2.0,Taltal,2104.0,13657.0,2022-02-22,478
+Antofagasta,2.0,Calama,2201.0,190336.0,2022-02-22,4821
+Antofagasta,2.0,Ollague,2202.0,287.0,2022-02-22,493
+Antofagasta,2.0,San Pedro de Atacama,2203.0,10434.0,2022-02-22,708
+Antofagasta,2.0,Tocopilla,2301.0,28079.0,2022-02-22,728
+Antofagasta,2.0,Maria Elena,2302.0,6814.0,2022-02-22,88
+Atacama,3.0,Copiapo,3101.0,171766.0,2022-02-22,8095
+Atacama,3.0,Caldera,3102.0,19426.0,2022-02-22,1246
+Atacama,3.0,Tierra Amarilla,3103.0,14312.0,2022-02-22,646
+Atacama,3.0,Chanaral,3201.0,13164.0,2022-02-22,408
+Atacama,3.0,Diego de Almagro,3202.0,14358.0,2022-02-22,393
+Atacama,3.0,Vallenar,3301.0,57009.0,2022-02-22,2169
+Atacama,3.0,Alto del Carmen,3302.0,5729.0,2022-02-22,133
+Atacama,3.0,Freirina,3303.0,7681.0,2022-02-22,464
+Atacama,3.0,Huasco,3304.0,11264.0,2022-02-22,506
+Coquimbo,4.0,La Serena,4101.0,249656.0,2022-02-22,9282
+Coquimbo,4.0,Coquimbo,4102.0,256735.0,2022-02-22,7641
+Coquimbo,4.0,Andacollo,4103.0,11791.0,2022-02-22,732
+Coquimbo,4.0,La Higuera,4104.0,4450.0,2022-02-22,132
+Coquimbo,4.0,Paiguano,4105.0,4675.0,2022-02-22,128
+Coquimbo,4.0,Vicuna,4106.0,29741.0,2022-02-22,657
+Coquimbo,4.0,Illapel,4201.0,32801.0,2022-02-22,865
+Coquimbo,4.0,Canela,4202.0,9546.0,2022-02-22,155
+Coquimbo,4.0,Los Vilos,4203.0,23374.0,2022-02-22,516
+Coquimbo,4.0,Salamanca,4204.0,29110.0,2022-02-22,635
+Coquimbo,4.0,Ovalle,4301.0,121269.0,2022-02-22,3481
+Coquimbo,4.0,Combarbala,4302.0,13884.0,2022-02-22,371
+Coquimbo,4.0,Monte Patria,4303.0,32527.0,2022-02-22,666
+Coquimbo,4.0,Punitaqui,4304.0,12165.0,2022-02-22,236
+Coquimbo,4.0,Rio Hurtado,4305.0,4372.0,2022-02-22,129
+Valparaiso,5.0,Valparaiso,5101.0,315732.0,2022-02-22,9732
+Valparaiso,5.0,Casablanca,5102.0,29170.0,2022-02-22,984
+Valparaiso,5.0,Concon,5103.0,45889.0,2022-02-22,2134
+Valparaiso,5.0,Juan Fernandez,5104.0,1033.0,2022-02-22,69
+Valparaiso,5.0,Puchuncavi,5105.0,20071.0,2022-02-22,791
+Valparaiso,5.0,Quintero,5107.0,36135.0,2022-02-22,1910
+Valparaiso,5.0,Vina del Mar,5109.0,361371.0,2022-02-22,15832
+Valparaiso,5.0,Isla de Pascua,5201.0,8277.0,2022-02-22,87
+Valparaiso,5.0,Los Andes,5301.0,68093.0,2022-02-22,4894
+Valparaiso,5.0,Calle Larga,5302.0,16482.0,2022-02-22,733
+Valparaiso,5.0,Rinconada,5303.0,11263.0,2022-02-22,611
+Valparaiso,5.0,San Esteban,5304.0,20643.0,2022-02-22,898
+Valparaiso,5.0,La Ligua,5401.0,37739.0,2022-02-22,1002
+Valparaiso,5.0,Cabildo,5402.0,20663.0,2022-02-22,524
+Valparaiso,5.0,Papudo,5403.0,6201.0,2022-02-22,259
+Valparaiso,5.0,Petorca,5404.0,10558.0,2022-02-22,263
+Valparaiso,5.0,Zapallar,5405.0,7994.0,2022-02-22,613
+Valparaiso,5.0,Quillota,5501.0,97572.0,2022-02-22,3323
+Valparaiso,5.0,Calera,5502.0,53591.0,2022-02-22,1394
+Valparaiso,5.0,Hijuelas,5503.0,19099.0,2022-02-22,467
+Valparaiso,5.0,La Cruz,5504.0,25321.0,2022-02-22,781
+Valparaiso,5.0,Nogales,5506.0,23490.0,2022-02-22,894
+Valparaiso,5.0,San Antonio,5601.0,96761.0,2022-02-22,3198
+Valparaiso,5.0,Algarrobo,5602.0,15174.0,2022-02-22,1039
+Valparaiso,5.0,Cartagena,5603.0,25357.0,2022-02-22,811
+Valparaiso,5.0,El Quisco,5604.0,17742.0,2022-02-22,744
+Valparaiso,5.0,El Tabo,5605.0,14338.0,2022-02-22,698
+Valparaiso,5.0,Santo Domingo,5606.0,11934.0,2022-02-22,542
+Valparaiso,5.0,San Felipe,5701.0,83494.0,2022-02-22,3796
+Valparaiso,5.0,Catemu,5702.0,15213.0,2022-02-22,650
+Valparaiso,5.0,Llaillay,5703.0,26533.0,2022-02-22,1116
+Valparaiso,5.0,Panquehue,5704.0,7633.0,2022-02-22,340
+Valparaiso,5.0,Putaendo,5705.0,17645.0,2022-02-22,885
+Valparaiso,5.0,Santa Maria,5706.0,16367.0,2022-02-22,604
+Valparaiso,5.0,Quilpue,5801.0,167085.0,2022-02-22,5779
+Valparaiso,5.0,Limache,5802.0,49931.0,2022-02-22,1510
+Valparaiso,5.0,Olmue,5803.0,19266.0,2022-02-22,539
+Valparaiso,5.0,Villa Alemana,5804.0,139310.0,2022-02-22,3448
+Del Libertador General Bernardo O’Higgins,6.0,Rancagua,6101.0,265211.0,2022-02-22,9814
+Del Libertador General Bernardo O’Higgins,6.0,Codegua,6102.0,14096.0,2022-02-22,364
+Del Libertador General Bernardo O’Higgins,6.0,Coinco,6103.0,7831.0,2022-02-22,159
+Del Libertador General Bernardo O’Higgins,6.0,Coltauco,6104.0,21263.0,2022-02-22,390
+Del Libertador General Bernardo O’Higgins,6.0,Donihue,6105.0,22700.0,2022-02-22,623
+Del Libertador General Bernardo O’Higgins,6.0,Graneros,6106.0,36504.0,2022-02-22,983
+Del Libertador General Bernardo O’Higgins,6.0,Las Cabras,6107.0,26749.0,2022-02-22,510
+Del Libertador General Bernardo O’Higgins,6.0,Machali,6108.0,59913.0,2022-02-22,1968
+Del Libertador General Bernardo O’Higgins,6.0,Malloa,6109.0,14163.0,2022-02-22,291
+Del Libertador General Bernardo O’Higgins,6.0,Mostazal,6110.0,27462.0,2022-02-22,685
+Del Libertador General Bernardo O’Higgins,6.0,Olivar,6111.0,14624.0,2022-02-22,310
+Del Libertador General Bernardo O’Higgins,6.0,Peumo,6112.0,14952.0,2022-02-22,382
+Del Libertador General Bernardo O’Higgins,6.0,Pichidegua,6113.0,20743.0,2022-02-22,328
+Del Libertador General Bernardo O’Higgins,6.0,Quinta de Tilcoco,6114.0,13877.0,2022-02-22,300
+Del Libertador General Bernardo O’Higgins,6.0,Rengo,6115.0,63710.0,2022-02-22,1752
+Del Libertador General Bernardo O’Higgins,6.0,Requinoa,6116.0,30371.0,2022-02-22,745
+Del Libertador General Bernardo O’Higgins,6.0,San Vicente,6117.0,50617.0,2022-02-22,1385
+Del Libertador General Bernardo O’Higgins,6.0,Pichilemu,6201.0,17882.0,2022-02-22,473
+Del Libertador General Bernardo O’Higgins,6.0,La Estrella,6202.0,3114.0,2022-02-22,71
+Del Libertador General Bernardo O’Higgins,6.0,Litueche,6203.0,6765.0,2022-02-22,212
+Del Libertador General Bernardo O’Higgins,6.0,Marchihue,6204.0,7632.0,2022-02-22,181
+Del Libertador General Bernardo O’Higgins,6.0,Navidad,6205.0,6904.0,2022-02-22,154
+Del Libertador General Bernardo O’Higgins,6.0,Paredones,6206.0,6349.0,2022-02-22,128
+Del Libertador General Bernardo O’Higgins,6.0,San Fernando,6301.0,78642.0,2022-02-22,2487
+Del Libertador General Bernardo O’Higgins,6.0,Chepica,6302.0,15925.0,2022-02-22,257
+Del Libertador General Bernardo O’Higgins,6.0,Chimbarongo,6303.0,37696.0,2022-02-22,845
+Del Libertador General Bernardo O’Higgins,6.0,Lolol,6304.0,7289.0,2022-02-22,203
+Del Libertador General Bernardo O’Higgins,6.0,Nancagua,6305.0,19141.0,2022-02-22,573
+Del Libertador General Bernardo O’Higgins,6.0,Palmilla,6306.0,13299.0,2022-02-22,220
+Del Libertador General Bernardo O’Higgins,6.0,Peralillo,6307.0,11848.0,2022-02-22,247
+Del Libertador General Bernardo O’Higgins,6.0,Placilla,6308.0,9164.0,2022-02-22,266
+Del Libertador General Bernardo O’Higgins,6.0,Pumanque,6309.0,3531.0,2022-02-22,60
+Del Libertador General Bernardo O’Higgins,6.0,Santa Cruz,6310.0,41096.0,2022-02-22,1251
+Maule,7.0,Talca,7101.0,236724.0,2022-02-22,15045
+Maule,7.0,Constitucion,7102.0,50348.0,2022-02-22,1593
+Maule,7.0,Curepto,7103.0,9426.0,2022-02-22,378
+Maule,7.0,Empedrado,7104.0,4206.0,2022-02-22,243
+Maule,7.0,Maule,7105.0,60000.0,2022-02-22,2145
+Maule,7.0,Pelarco,7106.0,9083.0,2022-02-22,354
+Maule,7.0,Pencahue,7107.0,8601.0,2022-02-22,305
+Maule,7.0,Rio Claro,7108.0,14753.0,2022-02-22,531
+Maule,7.0,San Clemente,7109.0,46292.0,2022-02-22,1420
+Maule,7.0,San Rafael,7110.0,9959.0,2022-02-22,401
+Maule,7.0,Cauquenes,7201.0,44143.0,2022-02-22,2447
+Maule,7.0,Chanco,7202.0,9331.0,2022-02-22,264
+Maule,7.0,Pelluhue,7203.0,8092.0,2022-02-22,423
+Maule,7.0,Curico,7301.0,163626.0,2022-02-22,8025
+Maule,7.0,Hualane,7302.0,10222.0,2022-02-22,349
+Maule,7.0,Licanten,7303.0,6989.0,2022-02-22,374
+Maule,7.0,Molina,7304.0,49800.0,2022-02-22,2091
+Maule,7.0,Rauco,7305.0,11248.0,2022-02-22,311
+Maule,7.0,Romeral,7306.0,16170.0,2022-02-22,660
+Maule,7.0,Sagrada Familia,7307.0,19469.0,2022-02-22,698
+Maule,7.0,Teno,7308.0,30850.0,2022-02-22,996
+Maule,7.0,Vichuquen,7309.0,4381.0,2022-02-22,142
+Maule,7.0,Linares,7401.0,101073.0,2022-02-22,4777
+Maule,7.0,Colbun,7402.0,22565.0,2022-02-22,1145
+Maule,7.0,Longavi,7403.0,32810.0,2022-02-22,1333
+Maule,7.0,Parral,7404.0,44544.0,2022-02-22,1975
+Maule,7.0,Retiro,7405.0,21071.0,2022-02-22,730
+Maule,7.0,San Javier,7406.0,49451.0,2022-02-22,1637
+Maule,7.0,Villa Alegre,7407.0,17512.0,2022-02-22,612
+Maule,7.0,Yerbas Buenas,7408.0,19200.0,2022-02-22,714
+Biobio,8.0,Concepcion,8101.0,238092.0,2022-02-22,13089
+Biobio,8.0,Coronel,8102.0,125829.0,2022-02-22,4508
+Biobio,8.0,Chiguayante,8103.0,91180.0,2022-02-22,3636
+Biobio,8.0,Florida,8104.0,11841.0,2022-02-22,386
+Biobio,8.0,Hualqui,8105.0,26201.0,2022-02-22,840
+Biobio,8.0,Lota,8106.0,45750.0,2022-02-22,1680
+Biobio,8.0,Penco,8107.0,49865.0,2022-02-22,2042
+Biobio,8.0,San Pedro de la Paz,8108.0,145906.0,2022-02-22,5079
+Biobio,8.0,Santa Juana,8109.0,14779.0,2022-02-22,444
+Biobio,8.0,Talcahuano,8110.0,158345.0,2022-02-22,7874
+Biobio,8.0,Tome,8111.0,58729.0,2022-02-22,2683
+Biobio,8.0,Hualpen,8112.0,97273.0,2022-02-22,7883
+Biobio,8.0,Lebu,8201.0,27100.0,2022-02-22,1373
+Biobio,8.0,Arauco,8202.0,38679.0,2022-02-22,2213
+Biobio,8.0,Canete,8203.0,37003.0,2022-02-22,1389
+Biobio,8.0,Contulmo,8204.0,6330.0,2022-02-22,298
+Biobio,8.0,Curanilahue,8205.0,33892.0,2022-02-22,1632
+Biobio,8.0,Los Alamos,8206.0,22524.0,2022-02-22,986
+Biobio,8.0,Tirua,8207.0,11019.0,2022-02-22,253
+Biobio,8.0,Los Angeles,8301.0,218515.0,2022-02-22,7084
+Biobio,8.0,Antuco,8302.0,4306.0,2022-02-22,106
+Biobio,8.0,Cabrero,8303.0,30725.0,2022-02-22,902
+Biobio,8.0,Laja,8304.0,23873.0,2022-02-22,435
+Biobio,8.0,Mulchen,8305.0,31041.0,2022-02-22,537
+Biobio,8.0,Nacimiento,8306.0,27944.0,2022-02-22,594
+Biobio,8.0,Negrete,8307.0,10429.0,2022-02-22,206
+Biobio,8.0,Quilaco,8308.0,4179.0,2022-02-22,82
+Biobio,8.0,Quilleco,8309.0,10032.0,2022-02-22,224
+Biobio,8.0,San Rosendo,8310.0,3611.0,2022-02-22,105
+Biobio,8.0,Santa Barbara,8311.0,14592.0,2022-02-22,465
+Biobio,8.0,Tucapel,8312.0,15205.0,2022-02-22,427
+Biobio,8.0,Yumbel,8313.0,22132.0,2022-02-22,586
+Biobio,8.0,Alto Biobio,8314.0,6775.0,2022-02-22,78
+La Araucania,9.0,Temuco,9101.0,302931.0,2022-02-22,14951
+La Araucania,9.0,Carahue,9102.0,25486.0,2022-02-22,821
+La Araucania,9.0,Cunco,9103.0,18055.0,2022-02-22,756
+La Araucania,9.0,Curarrehue,9104.0,7802.0,2022-02-22,144
+La Araucania,9.0,Freire,9105.0,25446.0,2022-02-22,432
+La Araucania,9.0,Galvarino,9106.0,12633.0,2022-02-22,293
+La Araucania,9.0,Gorbea,9107.0,15148.0,2022-02-22,297
+La Araucania,9.0,Lautaro,9108.0,40746.0,2022-02-22,956
+La Araucania,9.0,Loncoche,9109.0,24739.0,2022-02-22,478
+La Araucania,9.0,Melipeuco,9110.0,6265.0,2022-02-22,211
+La Araucania,9.0,Nueva Imperial,9111.0,33777.0,2022-02-22,1084
+La Araucania,9.0,Padre Las Casas,9112.0,82110.0,2022-02-22,2208
+La Araucania,9.0,Perquenco,9113.0,7223.0,2022-02-22,259
+La Araucania,9.0,Pitrufquen,9114.0,26096.0,2022-02-22,707
+La Araucania,9.0,Pucon,9115.0,29782.0,2022-02-22,1227
+La Araucania,9.0,Saavedra,9116.0,12793.0,2022-02-22,392
+La Araucania,9.0,Teodoro Schmidt,9117.0,15786.0,2022-02-22,256
+La Araucania,9.0,Tolten,9118.0,10055.0,2022-02-22,392
+La Araucania,9.0,Vilcun,9119.0,30766.0,2022-02-22,800
+La Araucania,9.0,Villarrica,9120.0,59103.0,2022-02-22,2107
+La Araucania,9.0,Cholchol,9121.0,12341.0,2022-02-22,176
+La Araucania,9.0,Angol,9201.0,56058.0,2022-02-22,2536
+La Araucania,9.0,Collipulli,9202.0,26148.0,2022-02-22,1208
+La Araucania,9.0,Curacautin,9203.0,18178.0,2022-02-22,559
+La Araucania,9.0,Ercilla,9204.0,8458.0,2022-02-22,336
+La Araucania,9.0,Lonquimay,9205.0,11049.0,2022-02-22,369
+La Araucania,9.0,Los Sauces,9206.0,7517.0,2022-02-22,346
+La Araucania,9.0,Lumaco,9207.0,10050.0,2022-02-22,317
+La Araucania,9.0,Puren,9208.0,12188.0,2022-02-22,487
+La Araucania,9.0,Renaico,9209.0,10833.0,2022-02-22,444
+La Araucania,9.0,Traiguen,9210.0,19314.0,2022-02-22,888
+La Araucania,9.0,Victoria,9211.0,35467.0,2022-02-22,1211
+Los Lagos,10.0,Puerto Montt,10101.0,269398.0,2022-02-22,14699
+Los Lagos,10.0,Calbuco,10102.0,36744.0,2022-02-22,1490
+Los Lagos,10.0,Cochamo,10103.0,4006.0,2022-02-22,130
+Los Lagos,10.0,Fresia,10104.0,12656.0,2022-02-22,389
+Los Lagos,10.0,Frutillar,10105.0,20223.0,2022-02-22,1189
+Los Lagos,10.0,Los Muermos,10106.0,17817.0,2022-02-22,560
+Los Lagos,10.0,Llanquihue,10107.0,18621.0,2022-02-22,843
+Los Lagos,10.0,Maullin,10108.0,14894.0,2022-02-22,448
+Los Lagos,10.0,Puerto Varas,10109.0,48620.0,2022-02-22,2489
+Los Lagos,10.0,Castro,10201.0,47607.0,2022-02-22,2967
+Los Lagos,10.0,Ancud,10202.0,42458.0,2022-02-22,1866
+Los Lagos,10.0,Chonchi,10203.0,16013.0,2022-02-22,725
+Los Lagos,10.0,Curaco de Velez,10204.0,4066.0,2022-02-22,198
+Los Lagos,10.0,Dalcahue,10205.0,15069.0,2022-02-22,968
+Los Lagos,10.0,Puqueldon,10206.0,4201.0,2022-02-22,202
+Los Lagos,10.0,Queilen,10207.0,5543.0,2022-02-22,258
+Los Lagos,10.0,Quellon,10208.0,29309.0,2022-02-22,1623
+Los Lagos,10.0,Quemchi,10209.0,8783.0,2022-02-22,313
+Los Lagos,10.0,Quinchao,10210.0,8298.0,2022-02-22,370
+Los Lagos,10.0,Osorno,10301.0,173410.0,2022-02-22,6123
+Los Lagos,10.0,Puerto Octay,10302.0,9192.0,2022-02-22,273
+Los Lagos,10.0,Purranque,10303.0,21080.0,2022-02-22,411
+Los Lagos,10.0,Puyehue,10304.0,11787.0,2022-02-22,385
+Los Lagos,10.0,Rio Negro,10305.0,14275.0,2022-02-22,357
+Los Lagos,10.0,San Juan de la Costa,10306.0,7639.0,2022-02-22,204
+Los Lagos,10.0,San Pablo,10307.0,10553.0,2022-02-22,373
+Los Lagos,10.0,Chaiten,10401.0,5020.0,2022-02-22,146
+Los Lagos,10.0,Futaleufu,10402.0,2806.0,2022-02-22,281
+Los Lagos,10.0,Hualaihue,10403.0,9525.0,2022-02-22,316
+Los Lagos,10.0,Palena,10404.0,1827.0,2022-02-22,71
+Aysen,11.0,Coyhaique,11101.0,61210.0,2022-02-22,3548
+Aysen,11.0,Lago Verde,11102.0,920.0,2022-02-22,31
+Aysen,11.0,Aysen,11201.0,25002.0,2022-02-22,1776
+Aysen,11.0,Cisnes,11202.0,5828.0,2022-02-22,277
+Aysen,11.0,Guaitecas,11203.0,1599.0,2022-02-22,81
+Aysen,11.0,Cochrane,11301.0,3685.0,2022-02-22,191
+Aysen,11.0,OHiggins,11302.0,661.0,2022-02-22,25
+Aysen,11.0,Tortel,11303.0,572.0,2022-02-22,17
+Aysen,11.0,Chile Chico,11401.0,5121.0,2022-02-22,361
+Aysen,11.0,Rio Ibanez,11402.0,2699.0,2022-02-22,95
+Magallanes y la Antartica,12.0,Punta Arenas,12101.0,141984.0,2022-02-22,6135
+Magallanes y la Antartica,12.0,Laguna Blanca,12102.0,264.0,2022-02-22,7
+Magallanes y la Antartica,12.0,Rio Verde,12103.0,211.0,2022-02-22,2
+Magallanes y la Antartica,12.0,San Gregorio,12104.0,681.0,2022-02-22,26
+Magallanes y la Antartica,12.0,Cabo de Hornos,12201.0,1983.0,2022-02-22,48
+Magallanes y la Antartica,12.0,Antartica,12202.0,137.0,2022-02-22,8
+Magallanes y la Antartica,12.0,Porvenir,12301.0,7323.0,2022-02-22,329
+Magallanes y la Antartica,12.0,Primavera,12302.0,694.0,2022-02-22,7
+Magallanes y la Antartica,12.0,Timaukel,12303.0,282.0,2022-02-22,6
+Magallanes y la Antartica,12.0,Natales,12401.0,23782.0,2022-02-22,1475
+Magallanes y la Antartica,12.0,Torres del Paine,12402.0,1021.0,2022-02-22,64
+Metropolitana,13.0,Santiago,13101.0,503147.0,2022-02-22,32166
+Metropolitana,13.0,Cerrillos,13102.0,88956.0,2022-02-22,2547
+Metropolitana,13.0,Cerro Navia,13103.0,142465.0,2022-02-22,2776
+Metropolitana,13.0,Conchali,13104.0,139195.0,2022-02-22,2768
+Metropolitana,13.0,El Bosque,13105.0,172000.0,2022-02-22,3545
+Metropolitana,13.0,Estacion Central,13106.0,206792.0,2022-02-22,4987
+Metropolitana,13.0,Huechuraba,13107.0,112528.0,2022-02-22,3300
+Metropolitana,13.0,Independencia,13108.0,142065.0,2022-02-22,4598
+Metropolitana,13.0,La Cisterna,13109.0,100434.0,2022-02-22,2298
+Metropolitana,13.0,La Florida,13110.0,402433.0,2022-02-22,11098
+Metropolitana,13.0,La Granja,13111.0,122557.0,2022-02-22,2305
+Metropolitana,13.0,La Pintana,13112.0,189335.0,2022-02-22,2736
+Metropolitana,13.0,La Reina,13113.0,100252.0,2022-02-22,4306
+Metropolitana,13.0,Las Condes,13114.0,330759.0,2022-02-22,20258
+Metropolitana,13.0,Lo Barnechea,13115.0,124076.0,2022-02-22,6145
+Metropolitana,13.0,Lo Espejo,13116.0,103865.0,2022-02-22,1900
+Metropolitana,13.0,Lo Prado,13117.0,104403.0,2022-02-22,2238
+Metropolitana,13.0,Macul,13118.0,134635.0,2022-02-22,3711
+Metropolitana,13.0,Maipu,13119.0,578605.0,2022-02-22,14657
+Metropolitana,13.0,Nunoa,13120.0,250192.0,2022-02-22,9172
+Metropolitana,13.0,Pedro Aguirre Cerda,13121.0,107803.0,2022-02-22,2407
+Metropolitana,13.0,Penalolen,13122.0,266798.0,2022-02-22,7589
+Metropolitana,13.0,Providencia,13123.0,157749.0,2022-02-22,9085
+Metropolitana,13.0,Pudahuel,13124.0,253139.0,2022-02-22,5544
+Metropolitana,13.0,Quilicura,13125.0,254694.0,2022-02-22,4772
+Metropolitana,13.0,Quinta Normal,13126.0,136368.0,2022-02-22,3298
+Metropolitana,13.0,Recoleta,13127.0,190075.0,2022-02-22,4156
+Metropolitana,13.0,Renca,13128.0,160847.0,2022-02-22,3668
+Metropolitana,13.0,San Joaquin,13129.0,103485.0,2022-02-22,2403
+Metropolitana,13.0,San Miguel,13130.0,133059.0,2022-02-22,4537
+Metropolitana,13.0,San Ramon,13131.0,86510.0,2022-02-22,1238
+Metropolitana,13.0,Vitacura,13132.0,96774.0,2022-02-22,5357
+Metropolitana,13.0,Puente Alto,13201.0,645909.0,2022-02-22,14319
+Metropolitana,13.0,Pirque,13202.0,30433.0,2022-02-22,733
+Metropolitana,13.0,San Jose de Maipo,13203.0,18644.0,2022-02-22,513
+Metropolitana,13.0,Colina,13301.0,180353.0,2022-02-22,6083
+Metropolitana,13.0,Lampa,13302.0,126898.0,2022-02-22,2680
+Metropolitana,13.0,Tiltil,13303.0,21477.0,2022-02-22,503
+Metropolitana,13.0,San Bernardo,13401.0,334836.0,2022-02-22,6186
+Metropolitana,13.0,Buin,13402.0,109641.0,2022-02-22,3128
+Metropolitana,13.0,Calera de Tango,13403.0,28525.0,2022-02-22,720
+Metropolitana,13.0,Paine,13404.0,82766.0,2022-02-22,2176
+Metropolitana,13.0,Melipilla,13501.0,141612.0,2022-02-22,2732
+Metropolitana,13.0,Alhue,13502.0,7405.0,2022-02-22,493
+Metropolitana,13.0,Curacavi,13503.0,36430.0,2022-02-22,1297
+Metropolitana,13.0,Maria Pinto,13504.0,14926.0,2022-02-22,440
+Metropolitana,13.0,San Pedro,13505.0,11953.0,2022-02-22,262
+Metropolitana,13.0,Talagante,13601.0,81838.0,2022-02-22,2096
+Metropolitana,13.0,El Monte,13602.0,40014.0,2022-02-22,826
+Metropolitana,13.0,Isla de Maipo,13603.0,40171.0,2022-02-22,918
+Metropolitana,13.0,Padre Hurtado,13604.0,74188.0,2022-02-22,1971
+Metropolitana,13.0,Penaflor,13605.0,101058.0,2022-02-22,2396
+Los Rios,14.0,Valdivia,14101.0,176774.0,2022-02-22,11351
+Los Rios,14.0,Corral,14102.0,5447.0,2022-02-22,212
+Los Rios,14.0,Lanco,14103.0,17652.0,2022-02-22,884
+Los Rios,14.0,Los Lagos,14104.0,20518.0,2022-02-22,621
+Los Rios,14.0,Mafil,14105.0,7389.0,2022-02-22,360
+Los Rios,14.0,Mariquina,14106.0,23250.0,2022-02-22,983
+Los Rios,14.0,Paillaco,14107.0,20798.0,2022-02-22,734
+Los Rios,14.0,Panguipulli,14108.0,35991.0,2022-02-22,1303
+Los Rios,14.0,La Union,14201.0,39538.0,2022-02-22,1376
+Los Rios,14.0,Futrono,14202.0,15261.0,2022-02-22,660
+Los Rios,14.0,Lago Ranco,14203.0,10292.0,2022-02-22,241
+Los Rios,14.0,Rio Bueno,14204.0,32925.0,2022-02-22,882
+Arica y Parinacota,15.0,Arica,15101.0,247552.0,2022-02-22,11208
+Arica y Parinacota,15.0,Camarones,15102.0,1233.0,2022-02-22,15
+Arica y Parinacota,15.0,Putre,15201.0,2515.0,2022-02-22,16
+Arica y Parinacota,15.0,General Lagos,15202.0,810.0,2022-02-22,16
+Nuble,16.0,Chillan,16101.0,198624.0,2022-02-22,10193
+Nuble,16.0,Bulnes,16102.0,22607.0,2022-02-22,877
+Nuble,16.0,Chillan Viejo,16103.0,33827.0,2022-02-22,980
+Nuble,16.0,El Carmen,16104.0,12334.0,2022-02-22,471
+Nuble,16.0,Pemuco,16105.0,8639.0,2022-02-22,318
+Nuble,16.0,Pinto,16106.0,11880.0,2022-02-22,472
+Nuble,16.0,Quillon,16107.0,18777.0,2022-02-22,787
+Nuble,16.0,San Ignacio,16108.0,16624.0,2022-02-22,634
+Nuble,16.0,Yungay,16109.0,18596.0,2022-02-22,960
+Nuble,16.0,Quirihue,16201.0,12192.0,2022-02-22,439
+Nuble,16.0,Cobquecura,16202.0,5275.0,2022-02-22,233
+Nuble,16.0,Coelemu,16203.0,16845.0,2022-02-22,700
+Nuble,16.0,Ninhue,16204.0,5414.0,2022-02-22,293
+Nuble,16.0,Portezuelo,16205.0,4940.0,2022-02-22,217
+Nuble,16.0,Ranquil,16206.0,6261.0,2022-02-22,272
+Nuble,16.0,Treguaco,16207.0,5696.0,2022-02-22,251
+Nuble,16.0,San Carlos,16301.0,56252.0,2022-02-22,1973
+Nuble,16.0,Coihueco,16302.0,28375.0,2022-02-22,849
+Nuble,16.0,Niquen,16303.0,11567.0,2022-02-22,382
+Nuble,16.0,San Fabian,16304.0,4654.0,2022-02-22,243
+Nuble,16.0,San Nicolas,16305.0,12172.0,2022-02-22,390
