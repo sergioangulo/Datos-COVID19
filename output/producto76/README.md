@@ -19,9 +19,6 @@ El archivo fabricante.csv tiene las columnas 'Fabricante', que indica el fabrica
 Ministerio de Salud. Ver en:
 https://informesdeis.minsal.cl/SASVisualAnalytics/
 
-Procesado por Juan Cristobal Olivares
-COVID-19 Vaccination (@juancri)
-
 # Frecuencia de actualización
 Actualización diaria. 
 
