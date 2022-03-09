@@ -602,7 +602,7 @@ def prod57(fte, prod):
         else:
             df_std = pd.concat([df_std, temp], axis = 0)
 
-    df_std.to_csv(prod + '_std.csv', index=False)
+#    df_std.to_csv(prod + '_std.csv', index=False)
 
 
 def prod59_60_62(fte, prod):
