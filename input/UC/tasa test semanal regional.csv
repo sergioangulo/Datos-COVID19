@@ -10712,12 +10712,12 @@ fecha,tasatest,codigo_region,region_residencia
 2022-01-13,26.465045319931797,10,Región de Los Lagos
 2022-01-13,23.89887515862358,14,Región de Los Ríos
 2022-01-13,43.06971215841939,12,Región de Magallanes y la Antártica Chilena
-2022-01-13,51.24447126625964,1,Región de Tarapacá
+2022-01-13,51.247083780726435,1,Región de Tarapacá
 2022-01-13,17.392369029216855,5,Región de Valparaíso
 2022-01-13,20.025894153739625,8,Región del Biobío
 2022-01-13,13.48148402271097,6,Región del Libertador General Bernardo OHiggins
 2022-01-13,17.523029067820794,7,Región del Maule
-2022-01-13,17.351153648414332,16,Región del Ñuble
+2022-01-13,17.353108487716767,16,Región del Ñuble
 2022-01-13,17.44809153691192,13,Región Metropolitana de Santiago
 2022-01-14,42.88621587791644,2,Región de Antofagasta
 2022-01-14,62.39339970647733,15,Región de Arica y Parinacota
@@ -10728,13 +10728,13 @@ fecha,tasatest,codigo_region,region_residencia
 2022-01-14,26.812797271829847,10,Región de Los Lagos
 2022-01-14,24.23152266315128,14,Región de Los Ríos
 2022-01-14,44.70683217277223,12,Región de Magallanes y la Antártica Chilena
-2022-01-14,51.65724855201386,1,Región de Tarapacá
+2022-01-14,51.65986106648066,1,Región de Tarapacá
 2022-01-14,18.228010835794855,5,Región de Valparaíso
 2022-01-14,20.742972273780786,8,Región del Biobío
 2022-01-14,14.304842376317147,6,Región del Libertador General Bernardo OHiggins
 2022-01-14,17.99566937794351,7,Región del Maule
-2022-01-14,18.090082904734814,16,Región del Ñuble
-2022-01-14,18.44734422045737,13,Región Metropolitana de Santiago
+2022-01-14,18.092037744037253,16,Región del Ñuble
+2022-01-14,18.447467296289805,13,Región Metropolitana de Santiago
 2022-01-15,44.9516805568805,2,Región de Antofagasta
 2022-01-15,62.27837055253659,15,Región de Arica y Parinacota
 2022-01-15,32.75724558242694,3,Región de Atacama
@@ -10744,13 +10744,13 @@ fecha,tasatest,codigo_region,region_residencia
 2022-01-15,27.061832540608453,10,Región de Los Lagos
 2022-01-15,24.00729360454372,14,Región de Los Ríos
 2022-01-15,45.63191711238941,12,Región de Magallanes y la Antártica Chilena
-2022-01-15,52.09092595350247,1,Región de Tarapacá
+2022-01-15,52.09353846796927,1,Región de Tarapacá
 2022-01-15,18.816735283164217,5,Región de Valparaíso
 2022-01-15,21.203392927554074,8,Región del Biobío
 2022-01-15,14.64589032180598,6,Región del Libertador General Bernardo OHiggins
 2022-01-15,18.25981788771303,7,Región del Maule
-2022-01-15,18.438044300568272,16,Región del Ñuble
-2022-01-15,18.89127874805294,13,Región Metropolitana de Santiago
+2022-01-15,18.439999139870707,16,Región del Ñuble
+2022-01-15,18.891401823885378,13,Región Metropolitana de Santiago
 2022-01-16,45.99525333379586,2,Región de Antofagasta
 2022-01-16,65.62214906191741,15,Región de Arica y Parinacota
 2022-01-16,33.22434375883753,3,Región de Atacama
@@ -10760,14 +10760,14 @@ fecha,tasatest,codigo_region,region_residencia
 2022-01-16,27.268240150767298,10,Región de Los Lagos
 2022-01-16,24.24384294109675,14,Región de Los Ríos
 2022-01-16,45.55342505690674,12,Región de Magallanes y la Antártica Chilena
-2022-01-16,52.58991621666105,1,Región de Tarapacá
+2022-01-16,52.59252873112785,1,Región de Tarapacá
 2022-01-16,19.037634490885996,5,Región de Valparaíso
 2022-01-16,21.552615381656263,8,Región del Biobío
 2022-01-16,14.846684822256506,6,Región del Libertador General Bernardo OHiggins
 2022-01-16,18.43738929394605,7,Región del Maule
-2022-01-16,18.889612179430788,16,Región del Ñuble
-2022-01-16,19.02752369455926,13,Región Metropolitana de Santiago
-2022-01-17,48.728488958653124,2,Región de Antofagasta
+2022-01-16,18.891567018733223,16,Región del Ñuble
+2022-01-16,19.027646770391698,13,Región Metropolitana de Santiago
+2022-01-17,48.729934350310906,2,Región de Antofagasta
 2022-01-17,60.91388679544643,15,Región de Arica y Parinacota
 2022-01-17,35.45179832797918,3,Región de Atacama
 2022-01-17,42.92757486229811,11,Región de Aysén del General Carlos Ibáñez del Campo
@@ -10776,602 +10776,746 @@ fecha,tasatest,codigo_region,region_residencia
 2022-01-17,27.743875078524635,10,Región de Los Lagos
 2022-01-17,25.128438897581532,14,Región de Los Ríos
 2022-01-17,47.818481515120936,12,Región de Magallanes y la Antártica Chilena
-2022-01-17,52.7153169110674,1,Región de Tarapacá
+2022-01-17,52.72054194000099,1,Región de Tarapacá
 2022-01-17,19.96918634608223,5,Región de Valparaíso
 2022-01-17,22.076749598484337,8,Región del Biobío
 2022-01-17,15.700313703568794,6,Región del Libertador General Bernardo OHiggins
 2022-01-17,19.552290361936464,7,Región del Maule
-2022-01-17,19.409599433878537,16,Región del Ñuble
-2022-01-17,19.740748143524144,13,Región Metropolitana de Santiago
-2022-01-18,50.760709629488304,2,Región de Antofagasta
-2022-01-18,60.46566974733251,15,Región de Arica y Parinacota
-2022-01-18,37.36149903561703,3,Región de Atacama
+2022-01-17,19.411554273180972,16,Región del Ñuble
+2022-01-17,19.740871219356578,13,Región Metropolitana de Santiago
+2022-01-18,50.767936587777186,2,Región de Antofagasta
+2022-01-18,60.469636269882194,15,Región de Arica y Parinacota
+2022-01-18,37.358321497001995,3,Región de Atacama
 2022-01-18,45.68627268236764,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-18,23.585808328230254,4,Región de Coquimbo
+2022-01-18,23.587004363135335,4,Región de Coquimbo
 2022-01-18,25.398706354753767,9,Región de la Araucanía
 2022-01-18,28.86229022704837,10,Región de Los Lagos
 2022-01-18,26.04999568790272,14,Región de Los Ríos
 2022-01-18,48.92297686726994,12,Región de Magallanes y la Antártica Chilena
-2022-01-18,52.85900520674133,1,Región de Tarapacá
+2022-01-18,52.853780177807735,1,Región de Tarapacá
 2022-01-18,20.894616283281554,5,Región de Valparaíso
 2022-01-18,23.520522980159836,8,Región del Biobío
-2022-01-18,16.569077848734135,6,Región del Libertador General Bernardo OHiggins
-2022-01-18,20.183066401988093,7,Región del Maule
-2022-01-18,20.09770286833571,16,Región del Ñuble
-2022-01-18,20.45557257831069,13,Región Metropolitana de Santiago
-2022-01-19,50.04813154220399,2,Región de Antofagasta
-2022-01-19,58.08178969497442,15,Región de Arica y Parinacota
-2022-01-19,39.741475458280505,3,Región de Atacama
+2022-01-18,16.570086866324342,6,Región del Libertador General Bernardo OHiggins
+2022-01-18,20.18571672148411,7,Región del Maule
+2022-01-18,20.099657707638144,16,Región del Ñuble
+2022-01-18,20.456311033305305,13,Región Metropolitana de Santiago
+2022-01-19,50.05969467546621,2,Región de Antofagasta
+2022-01-19,58.089722740073775,15,Región de Arica y Parinacota
+2022-01-19,39.75100807412562,3,Región de Atacama
 2022-01-19,46.329347512046006,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-19,24.012792789344765,4,Región de Coquimbo
-2022-01-19,26.18640834510614,9,Región de la Araucanía
-2022-01-19,29.3749439109755,10,Región de Los Lagos
-2022-01-19,27.144036369460498,14,Región de Los Ríos
-2022-01-19,50.20127605655914,12,Región de Magallanes y la Antártica Chilena
-2022-01-19,51.59193569034389,1,Región de Tarapacá
-2022-01-19,21.758827040511793,5,Región de Valparaíso
-2022-01-19,23.98394899068099,8,Región del Biobío
-2022-01-19,17.171461350085714,6,Región del Libertador General Bernardo OHiggins
-2022-01-19,20.81384244203972,7,Región del Maule
-2022-01-19,21.524735559113363,16,Región del Ñuble
-2022-01-19,21.14688952910202,13,Región Metropolitana de Santiago
-2022-01-20,50.11751034177731,2,Región de Antofagasta
-2022-01-20,57.740668755701876,15,Región de Arica y Parinacota
-2022-01-20,43.09060115853058,3,Región de Atacama
-2022-01-20,49.67520061138708,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-20,24.948092085119413,4,Región de Coquimbo
-2022-01-20,27.032276064408194,9,Región de la Araucanía
-2022-01-20,29.608274252894194,10,Región de Los Lagos
-2022-01-20,28.910764226840957,14,Región de Los Ríos
-2022-01-20,50.73390071876297,12,Región de Magallanes y la Antártica Chilena
-2022-01-20,49.52804926157279,1,Región de Tarapacá
-2022-01-20,22.716397047194885,5,Región de Valparaíso
-2022-01-20,24.119190044335024,8,Región del Biobío
-2022-01-20,18.475112076628832,6,Región del Libertador General Bernardo OHiggins
-2022-01-20,21.96584798297435,7,Región del Maule
-2022-01-20,23.487394218758247,16,Región del Ñuble
-2022-01-20,21.93371332586345,13,Región Metropolitana de Santiago
-2022-01-21,48.69090877555091,2,Región de Antofagasta
-2022-01-21,60.90595375034707,15,Región de Arica y Parinacota
-2022-01-21,46.02664683882571,3,Región de Atacama
-2022-01-21,52.331379255710786,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-21,25.680065447030007,4,Región de Coquimbo
-2022-01-21,27.86237002670694,9,Región de la Araucanía
-2022-01-21,31.084537377725926,10,Región de Los Lagos
-2022-01-21,30.596178249781314,14,Región de Los Ríos
-2022-01-21,50.99180318677745,12,Región de Magallanes y la Antártica Chilena
-2022-01-21,46.86589701990475,1,Región de Tarapacá
-2022-01-21,23.91935393358739,5,Región de Valparaíso
-2022-01-21,24.509285350208213,8,Región del Biobío
-2022-01-21,19.37616478468069,6,Región del Libertador General Bernardo OHiggins
-2022-01-21,23.54632184243144,7,Región del Maule
-2022-01-21,24.048433098557133,16,Región del Ñuble
-2022-01-21,22.654076173109605,13,Región Metropolitana de Santiago
-2022-01-22,48.54781500143093,2,Región de Antofagasta
-2022-01-22,62.44893102217286,15,Región de Arica y Parinacota
-2022-01-22,46.868694571810785,3,Región de Atacama
-2022-01-22,53.57092928972851,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-22,26.737360303123086,4,Región de Coquimbo
-2022-01-22,28.375017129314244,9,Región de la Araucanía
-2022-01-22,31.848469891411646,10,Región de Los Lagos
-2022-01-22,31.5201990956916,14,Región de Los Ríos
-2022-01-22,51.27773853175004,12,Región de Magallanes y la Antártica Chilena
+2022-01-19,24.01518485915493,4,Región de Coquimbo
+2022-01-19,26.188380064731554,9,Región de la Araucanía
+2022-01-19,29.377187471955487,10,Región de Los Lagos
+2022-01-19,27.148964480638686,14,Región de Los Ríos
+2022-01-19,50.206882631950755,12,Región de Magallanes y la Antártica Chilena
+2022-01-19,51.58409814694349,1,Región de Tarapacá
+2022-01-19,21.76392863884255,5,Región de Valparaíso
+2022-01-19,23.985151133380135,8,Región del Biobío
+2022-01-19,17.180542508397547,6,Región del Libertador General Bernardo OHiggins
+2022-01-19,20.81825964119975,7,Región del Maule
+2022-01-19,21.536464594927974,16,Región del Ñuble
+2022-01-19,21.14996642491291,13,Región Metropolitana de Santiago
+2022-01-20,50.13919121664397,2,Región de Antofagasta
+2022-01-20,57.76446789099996,15,Región de Arica y Parinacota
+2022-01-20,43.13190916052607,3,Región de Atacama
+2022-01-20,49.665880686319284,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-20,24.95168018983466,4,Región de Coquimbo
+2022-01-20,27.051007400849613,9,Región de la Araucanía
+2022-01-20,29.62846630171408,10,Región de Los Lagos
+2022-01-20,28.923084504786427,14,Región de Los Ríos
+2022-01-20,50.74511386954621,12,Región de Magallanes y la Antártica Chilena
+2022-01-20,49.51498668923879,1,Región de Tarapacá
+2022-01-20,22.734252641352537,5,Región de Valparaíso
+2022-01-20,24.1378232561718,8,Región del Biobío
+2022-01-20,18.4942834108427,6,Región del Libertador General Bernardo OHiggins
+2022-01-20,21.984400219446457,7,Región del Maule
+2022-01-20,23.51867164759721,16,Región del Ñuble
+2022-01-20,21.94922088075035,13,Región Metropolitana de Santiago
+2022-01-21,48.728488958653124,2,Región de Antofagasta
+2022-01-21,60.937685930744514,15,Región de Arica y Parinacota
+2022-01-21,46.12515053589189,3,Región de Atacama
+2022-01-21,52.31273940557518,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-21,25.689633726270667,4,Región de Coquimbo
+2022-01-21,27.89884683977708,9,Región de la Araucanía
+2022-01-21,31.126043255855695,10,Región de Los Lagos
+2022-01-21,30.62821097243954,14,Región de Los Ríos
+2022-01-21,51.00862291295231,12,Región de Magallanes y la Antártica Chilena
+2022-01-21,46.871122048838345,1,Región de Tarapacá
+2022-01-21,23.958126080901145,5,Región de Valparaíso
+2022-01-21,24.546551773881767,8,Región del Biobío
+2022-01-21,19.409462365157413,6,Región del Libertador General Bernardo OHiggins
+2022-01-21,23.573708477223597,7,Región del Maule
+2022-01-21,24.091439563210706,16,Región del Ñuble
+2022-01-21,22.682752842067124,13,Región Metropolitana de Santiago
+2022-01-22,48.595512926137594,2,Región de Antofagasta
+2022-01-22,62.49256277021935,15,Región de Arica y Parinacota
+2022-01-22,46.98626350056719,3,Región de Atacama
+2022-01-22,53.58024921479631,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-22,26.758888931414575,4,Región de Coquimbo
+2022-01-22,28.427267699387684,9,Región de la Araucanía
+2022-01-22,31.89109755003141,10,Región de Los Lagos
+2022-01-22,31.576872374240764,14,Región de Los Ríos
+2022-01-22,51.300164833316515,12,Región de Magallanes y la Antártica Chilena
 2022-01-22,45.96980455779274,1,Región de Tarapacá
-2022-01-22,24.48001959013759,5,Región de Valparaíso
-2022-01-22,25.086313845798752,8,Región del Biobío
-2022-01-22,19.84031287617437,6,Región del Libertador General Bernardo OHiggins
-2022-01-22,24.230104272403373,7,Región del Maule
-2022-01-22,24.310381565083443,16,Región del Ñuble
-2022-01-22,23.1339488437764,13,Región Metropolitana de Santiago
-2022-01-23,48.67067329234202,2,Región de Antofagasta
-2022-01-23,56.078695807385664,15,Región de Arica y Parinacota
-2022-01-23,47.418408752212365,3,Región de Atacama
-2022-01-23,54.77319962347503,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-23,27.671463563992653,4,Región de Coquimbo
-2022-01-23,28.758516596457017,9,Región de la Araucanía
-2022-01-23,32.44301355110832,10,Región de Los Lagos
-2022-01-23,32.44914805278007,14,Región de Los Ríos
-2022-01-23,52.5728574472141,12,Región de Magallanes y la Antártica Chilena
-2022-01-23,45.12073735608311,1,Región de Tarapacá
-2022-01-23,24.95599871439722,5,Región de Valparaíso
-2022-01-23,25.70241197911157,8,Región del Biobío
-2022-01-23,20.268136334420717,6,Región del Libertador General Bernardo OHiggins
-2022-01-23,24.615284039157586,7,Región del Maule
-2022-01-23,24.410078369507637,16,Región del Ñuble
-2022-01-23,23.70846682958625,13,Región Metropolitana de Santiago
-2022-01-24,47.51291457446224,2,Región de Antofagasta
-2022-01-24,59.32727777557415,15,Región de Arica y Parinacota
-2022-01-24,50.76117937523236,3,Región de Atacama
-2022-01-24,58.93920612878273,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-24,28.64742804654011,4,Región de Coquimbo
-2022-01-24,30.24124975476737,9,Región de la Araucanía
-2022-01-24,33.804855065960695,10,Región de Los Lagos
-2022-01-24,33.28199884189387,14,Región de Los Ríos
-2022-01-24,52.45511936399009,12,Región de Magallanes y la Antártica Chilena
-2022-01-24,44.20374477823671,1,Región de Tarapacá
-2022-01-24,25.545743481432734,5,Región de Valparaíso
-2022-01-24,27.07946644098441,8,Región del Biobío
-2022-01-24,21.32255971618353,6,Región del Libertador General Bernardo OHiggins
-2022-01-24,26.393648420983816,7,Región del Maule
-2022-01-24,25.622078737017425,16,Región del Ñuble
-2022-01-24,24.39658380873425,13,Región Metropolitana de Santiago
-2022-01-25,48.02891939628881,2,Región de Antofagasta
-2022-01-25,60.303042322795605,15,Región de Arica y Parinacota
-2022-01-25,53.72264536444779,3,Región de Atacama
-2022-01-25,61.595384773106424,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-25,30.16160823637477,4,Región de Coquimbo
-2022-01-25,31.992136782133855,9,Región de la Araucanía
-2022-01-25,35.23736875168267,10,Región de Los Lagos
-2022-01-25,34.895955252750504,14,Región de Los Ríos
-2022-01-25,52.875612518361535,12,Región de Magallanes y la Antártica Chilena
-2022-01-25,42.20778372560238,1,Región de Tarapacá
-2022-01-25,26.648198880709327,5,Región de Valparaíso
-2022-01-25,28.520234465912043,8,Región del Biobío
-2022-01-25,21.685806048656847,6,Región del Libertador General Bernardo OHiggins
-2022-01-25,28.08631913910555,7,Región del Maule
-2022-01-25,26.45679511915723,16,Región del Ñuble
-2022-01-25,25.26980683986554,13,Región Metropolitana de Santiago
-2022-01-26,50.020669100706215,2,Región de Antofagasta
-2022-01-26,58.541906310737374,15,Región de Arica y Parinacota
-2022-01-26,56.436263341690264,3,Región de Atacama
-2022-01-26,66.31126685741447,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-26,31.206942743417024,4,Región de Coquimbo
-2022-01-26,33.8149915758279,9,Región de la Araucanía
-2022-01-26,37.75352239073858,10,Región de Los Lagos
-2022-01-26,36.50744760801804,14,Región de Los Ríos
-2022-01-26,52.640136351913526,12,Región de Magallanes y la Antártica Chilena
-2022-01-26,41.00602707087491,1,Región de Tarapacá
-2022-01-26,28.00369355719147,5,Región de Valparaíso
-2022-01-26,30.519397774593436,8,Región del Biobío
-2022-01-26,23.070178182416253,6,Región del Libertador General Bernardo OHiggins
-2022-01-26,30.431851893079042,7,Región del Maule
-2022-01-26,25.887936882148605,16,Región del Ñuble
-2022-01-26,26.299582329855046,13,Región Metropolitana de Santiago
-2022-01-27,49.97297117599956,2,Región de Antofagasta
-2022-01-27,55.547181785728455,15,Región de Arica y Parinacota
-2022-01-27,58.152134193810795,3,Región de Atacama
-2022-01-27,65.86391045415995,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-27,32.19127947030006,4,Región de Coquimbo
-2022-01-27,35.33025810795756,9,Región de la Araucanía
-2022-01-27,40.79915642107152,10,Región de Los Lagos
-2022-01-27,37.19984722855348,14,Región de Los Ríos
-2022-01-27,51.361837162624326,12,Región de Magallanes y la Antártica Chilena
-2022-01-27,40.26929799123763,1,Región de Tarapacá
-2022-01-27,28.514873709933322,5,Región de Valparaíso
-2022-01-27,32.068959713793866,8,Región del Biobío
-2022-01-27,23.979303031189744,6,Región del Libertador General Bernardo OHiggins
-2022-01-27,32.33213097172197,7,Región del Maule
-2022-01-27,25.420730288866604,16,Región del Ñuble
-2022-01-27,26.694163448643902,13,Región Metropolitana de Santiago
-2022-01-28,50.194116099639515,2,Región de Antofagasta
-2022-01-28,53.6472174844314,15,Región de Arica y Parinacota
-2022-01-28,59.91566812515689,3,Región de Atacama
-2022-01-28,65.16491607407477,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-28,33.11581445192896,4,Región de Coquimbo
-2022-01-28,35.79656979936767,9,Región de la Araucanía
-2022-01-28,41.81212420353585,10,Región de Los Lagos
-2022-01-28,38.58464646962435,14,Región de Los Ríos
-2022-01-28,48.78841905787107,12,Región de Magallanes y la Antártica Chilena
-2022-01-28,38.7226894268927,1,Región de Tarapacá
-2022-01-28,28.768423146971948,5,Región de Valparaíso
-2022-01-28,33.30295919446822,8,Región del Biobío
-2022-01-28,24.862193422617935,6,Región del Libertador General Bernardo OHiggins
-2022-01-28,33.8666659599148,7,Región del Maule
-2022-01-28,25.99740788308497,16,Región del Ñuble
-2022-01-28,27.261050732842737,13,Región Metropolitana de Santiago
-2022-01-29,50.273612640817284,2,Región de Antofagasta
-2022-01-29,56.90373249771925,15,Región de Arica y Parinacota
-2022-01-29,60.24930967973589,3,Región de Atacama
-2022-01-29,66.36718640782128,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-29,33.820279011022656,4,Región de Coquimbo
-2022-01-29,35.63291707045841,9,Región de la Araucanía
-2022-01-29,42.954096742349456,10,Región de Los Lagos
-2022-01-29,39.2745820345707,14,Región de Los Ríos
-2022-01-29,48.78281248247945,12,Región de Magallanes y la Antártica Chilena
-2022-01-29,37.77173416097792,1,Región de Tarapacá
-2022-01-29,29.067886968987384,5,Región de Valparaíso
-2022-01-29,34.07593695001972,8,Región del Biobío
-2022-01-29,25.345512848325484,6,Región del Libertador General Bernardo OHiggins
-2022-01-29,34.60610509930306,7,Región del Maule
-2022-01-29,27.997208489476122,16,Región del Ñuble
-2022-01-29,27.556432730688417,13,Región Metropolitana de Santiago
-2022-01-30,49.89202924316402,2,Región de Antofagasta
-2022-01-30,58.13732101066994,15,Región de Arica y Parinacota
-2022-01-30,60.166693675744895,3,Región de Atacama
-2022-01-30,66.3858262579569,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-30,33.79994641763625,4,Región de Coquimbo
-2022-01-30,35.84586279000299,9,Región de la Araucanía
-2022-01-30,43.71915103652517,10,Región de Los Lagos
-2022-01-30,39.63679820616753,14,Región de Los Ríos
-2022-01-30,48.67628755003869,12,Región de Magallanes y la Antártica Chilena
-2022-01-30,37.20481852168257,1,Región de Tarapacá
-2022-01-30,29.356127274675156,5,Región de Valparaíso
-2022-01-30,34.42576047547148,8,Región del Biobío
-2022-01-30,25.79452567596611,6,Región del Libertador General Bernardo OHiggins
-2022-01-30,34.91884279983285,7,Región del Maule
-2022-01-30,28.74786678161122,16,Región del Ñuble
-2022-01-30,27.52172534594155,13,Región Metropolitana de Santiago
-2022-01-31,50.09438407525287,2,Región de Antofagasta
-2022-01-31,57.49474435762167,15,Región de Arica y Parinacota
-2022-01-31,59.26745024768913,3,Región de Atacama
-2022-01-31,64.29816304276913,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-01-31,34.19344190140845,4,Región de Coquimbo
-2022-01-31,36.26485321040319,9,Región de la Araucanía
-2022-01-31,45.340123844566094,10,Región de Los Lagos
-2022-01-31,41.57600995478458,14,Región de Los Ríos
-2022-01-31,46.27667328242563,12,Región de Magallanes y la Antártica Chilena
-2022-01-31,34.63932931528608,1,Región de Tarapacá
-2022-01-31,29.30919257003219,5,Región de Valparaíso
-2022-01-31,34.99737932891586,8,Región del Biobío
-2022-01-31,25.669407494780856,6,Región del Libertador General Bernardo OHiggins
-2022-01-31,35.59114051198872,7,Región del Maule
-2022-01-31,29.738970307945834,16,Región del Ñuble
-2022-01-31,27.556801958185723,13,Región Metropolitana de Santiago
-2022-02-01,48.766069141755345,2,Región de Antofagasta
-2022-02-01,53.286263932410456,15,Región de Arica y Parinacota
-2022-02-01,56.36317995354438,3,Región de Atacama
-2022-02-01,62.862894582327556,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-01,34.403944044703,4,Región de Coquimbo
-2022-02-01,36.54779497664991,9,Región de la Araucanía
-2022-02-01,47.07327470160639,10,Región de Los Lagos
-2022-02-01,42.2363768526618,14,Región de Los Ríos
-2022-02-01,44.54984806180689,12,Región de Magallanes y la Antártica Chilena
-2022-02-01,33.54991078263096,1,Región de Tarapacá
-2022-02-01,29.32602784452369,5,Región de Valparaíso
-2022-02-01,35.79680422384859,8,Región del Biobío
-2022-02-01,26.106312111339037,6,Región del Libertador General Bernardo OHiggins
-2022-02-01,35.87825845739037,7,Región del Maule
-2022-02-01,31.181641713142973,16,Región del Ñuble
-2022-02-01,27.303634970865488,13,Región Metropolitana de Santiago
-2022-02-02,47.27297955927118,2,Región de Antofagasta
-2022-02-02,52.60798857641506,15,Región de Arica y Parinacota
-2022-02-02,53.5065727386252,3,Región de Atacama
-2022-02-02,62.05206110142874,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-02,34.65989551439069,4,Región de Coquimbo
-2022-02-02,36.456110014068216,9,Región de la Araucanía
-2022-02-02,48.90402046127614,10,Región de Los Lagos
-2022-02-02,42.32508285386918,14,Región de Los Ríos
-2022-02-02,43.3332212018255,12,Región de Magallanes y la Antártica Chilena
-2022-02-02,32.050327478688416,1,Región de Tarapacá
-2022-02-02,28.782197462464993,5,Región de Valparaíso
-2022-02-02,36.04985526201902,8,Región del Biobío
-2022-02-02,26.06090631977987,6,Región del Libertador General Bernardo OHiggins
-2022-02-02,35.774895997045775,7,Región del Maule
-2022-02-02,32.135603292731325,16,Región del Ñuble
-2022-02-02,26.564687672921544,13,Región Metropolitana de Santiago
-2022-02-03,46.34503811497802,2,Región de Antofagasta
-2022-02-03,51.41406528896117,15,Región de Arica y Parinacota
-2022-02-03,50.91370122875418,3,Región de Atacama
-2022-02-03,64.24224349236232,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-03,34.38002334660135,4,Región de Coquimbo
-2022-02-03,36.69665980836857,9,Región de la Araucanía
-2022-02-03,50.28156690298842,10,Región de Los Lagos
-2022-02-03,42.97312947380093,14,Región de Los Ríos
-2022-02-03,42.50905461925746,12,Región de Magallanes y la Antártica Chilena
-2022-02-03,30.791095505691363,1,Región de Tarapacá
-2022-02-03,28.810256253284155,5,Región de Valparaíso
-2022-02-03,36.924414075648436,8,Región del Biobío
-2022-02-03,25.492829416495216,6,Región del Libertador General Bernardo OHiggins
-2022-02-03,36.480764422817835,7,Región del Maule
-2022-02-03,33.50203596513349,16,Región del Ñuble
-2022-02-03,26.14942981428349,13,Región Metropolitana de Santiago
-2022-02-04,44.85628470746718,2,Región de Antofagasta
-2022-02-04,49.280076157232955,15,Región de Arica y Parinacota
-2022-02-04,47.00850627087245,3,Región de Atacama
-2022-02-04,66.60018453451634,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-04,33.91596180342927,4,Región de Coquimbo
-2022-02-04,37.65392968650644,9,Región de la Araucanía
-2022-02-04,52.87961051781387,10,Región de Los Lagos
-2022-02-04,43.34766592334323,14,Región de Los Ríos
-2022-02-04,41.253181731534745,12,Región de Magallanes y la Antártica Chilena
-2022-02-04,28.957110349998562,1,Región de Tarapacá
-2022-02-04,28.66128958202605,5,Región de Valparaíso
-2022-02-04,37.93180965753359,8,Región del Biobío
-2022-02-04,24.93282465393219,6,Región del Libertador General Bernardo OHiggins
-2022-02-04,36.5434886508902,7,Región del Maule
-2022-02-04,33.02896485394418,16,Región del Ñuble
-2022-02-04,25.45958977348139,13,Región Metropolitana de Santiago
-2022-02-05,43.99049510445846,2,Región de Antofagasta
-2022-02-05,45.361151878148426,15,Región de Arica y Parinacota
-2022-02-05,46.40477393401523,3,Región de Atacama
-2022-02-05,65.79867097868532,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-05,33.82625918554807,4,Región de Coquimbo
-2022-02-05,38.46923575161459,9,Región de la Araucanía
-2022-02-05,53.30925244548147,10,Región de Los Lagos
-2022-02-05,43.03965897470647,14,Región de Los Ríos
-2022-02-05,40.37294939505052,12,Región de Magallanes y la Antártica Chilena
-2022-02-05,28.168130981025307,1,Región de Tarapacá
-2022-02-05,28.323053612696857,5,Región de Valparaíso
-2022-02-05,38.207100335638245,8,Región del Biobío
-2022-02-05,24.891454932733843,6,Región del Libertador General Bernardo OHiggins
-2022-02-05,36.41804019474548,7,Región del Maule
-2022-02-05,30.95683519336293,16,Región del Ñuble
-2022-02-05,25.152392495721884,13,Región Metropolitana de Santiago
-2022-02-06,43.42390157460967,2,Región de Antofagasta
-2022-02-06,44.11169727499901,15,Región de Arica y Parinacota
-2022-02-06,46.509632708311486,3,Región de Atacama
-2022-02-06,65.97574955497358,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-06,33.69230327617881,4,Región de Coquimbo
-2022-02-06,38.76992299449003,9,Región de la Araucanía
-2022-02-06,53.3025217625415,10,Región de Los Lagos
-2022-02-06,42.53206352335309,14,Región de Los Ríos
-2022-02-06,39.509536784741144,12,Región de Magallanes y la Antártica Chilena
+2022-01-22,24.52542381528133,5,Región de Valparaíso
+2022-01-22,25.130192054317618,8,Región del Biobío
+2022-01-22,19.882691614962923,6,Región del Libertador General Bernardo OHiggins
+2022-01-22,24.257490907195532,7,Región del Maule
+2022-01-22,24.357297708341886,16,Región del Ñuble
+2022-01-22,23.167794697696216,13,Región Metropolitana de Santiago
+2022-01-23,48.722707392022016,2,Región de Antofagasta
+2022-01-23,56.12629407798184,15,Región de Arica y Parinacota
+2022-01-23,47.54551029681388,3,Región de Atacama
+2022-01-23,54.79183947361063,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-23,27.695384262094304,4,Región de Coquimbo
+2022-01-23,28.819639904844813,9,Región de la Araucanía
+2022-01-23,32.48564120972808,10,Región de Los Lagos
+2022-01-23,32.50582133132924,14,Región de Los Ríos
+2022-01-23,52.595283748780574,12,Región de Magallanes y la Antártica Chilena
+2022-01-23,45.12334987054991,1,Región de Tarapacá
+2022-01-23,25.008035017370943,5,Región de Valparaíso
+2022-01-23,25.753503043825315,8,Región del Biobío
+2022-01-23,20.31051507320927,6,Región del Libertador General Bernardo OHiggins
+2022-01-23,24.644437553613756,7,Región del Maule
+2022-01-23,24.456994512766077,16,Región del Ñuble
+2022-01-23,23.747728020133238,13,Región Metropolitana de Santiago
+2022-01-24,47.57940259072001,2,Región de Antofagasta
+2022-01-24,59.38677561381937,15,Región de Arica y Parinacota
+2022-01-24,50.94229907628953,3,Región de Atacama
+2022-01-24,58.99512567918954,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-24,28.680917023882426,4,Región de Coquimbo
+2022-01-24,30.328991278098236,9,Región de la Araucanía
+2022-01-24,33.872161895360314,10,Región de Los Lagos
+2022-01-24,33.38302512104673,14,Región de Los Ríos
+2022-01-24,52.561644296430856,12,Región de Magallanes y la Antártica Chilena
+2022-01-24,44.216807350570704,1,Región de Tarapacá
+2022-01-24,25.614615058897954,5,Región de Valparaíso
+2022-01-24,27.16061107317683,8,Región del Biobío
+2022-01-24,21.373010595693714,6,Región del Libertador General Bernardo OHiggins
+2022-01-24,26.44400449140811,7,Región del Maule
+2022-01-24,25.670949719578303,16,Región del Ñuble
+2022-01-24,24.45492175330877,13,Región Metropolitana de Santiago
+2022-01-25,48.10986132912435,2,Región de Antofagasta
+2022-01-25,60.36254016104082,15,Región de Arica y Parinacota
+2022-01-25,53.96413829919068,3,Región de Atacama
+2022-01-25,61.65130432351324,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-25,30.19629324862217,4,Región de Coquimbo
+2022-01-25,32.10551066059509,9,Región de la Araucanía
+2022-01-25,35.33159831284214,10,Región de Los Lagos
+2022-01-25,35.01669397661611,14,Región de Los Ríos
+2022-01-25,53.015776903152016,12,Región de Magallanes y la Antártica Chilena
+2022-01-25,42.22607132686997,1,Región de Tarapacá
+2022-01-25,26.733905732666045,5,Región de Valparaíso
+2022-01-25,28.626023023436975,8,Región del Biobío
+2022-01-25,21.74231103370825,6,Región del Libertador General Bernardo OHiggins
+2022-01-25,28.14462616801789,7,Región del Maule
+2022-01-25,26.51348545892785,16,Región del Ñuble
+2022-01-25,25.339590836856583,13,Región Metropolitana de Santiago
+2022-01-26,50.12040112509287,2,Región de Antofagasta
+2022-01-26,58.613303716631634,15,Región de Arica y Parinacota
+2022-01-26,56.71270920119857,3,Región de Atacama
+2022-01-26,66.37650633288908,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-26,31.24641189528475,4,Región de Coquimbo
+2022-01-26,33.958927108483024,9,Región de la Araucanía
+2022-01-26,37.854482634838014,10,Región de Los Lagos
+2022-01-26,36.66021905454187,14,Región de Los Ríos
+2022-01-26,52.81954676444534,12,Región de Magallanes y la Antártica Chilena
+2022-01-26,41.03476473000969,1,Región de Tarapacá
+2022-01-26,28.10419504430738,5,Región de Valparaíso
+2022-01-26,30.65343668554832,8,Región del Biobío
+2022-01-26,23.125674149877455,6,Región del Libertador General Bernardo OHiggins
+2022-01-26,30.506944278799477,7,Región del Maule
+2022-01-26,25.952446579128964,16,Región del Ñuble
+2022-01-26,26.37712010428954,13,Región Metropolitana de Santiago
+2022-01-27,50.08860250862176,2,Región de Antofagasta
+2022-01-27,55.614612669073026,15,Región de Arica y Parinacota
+2022-01-27,58.42540251470406,3,Región de Atacama
+2022-01-27,65.96642962990578,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-27,32.24270897121862,4,Región de Coquimbo
+2022-01-27,35.48898153780329,9,Región de la Araucanía
+2022-01-27,40.90460378713093,10,Región de Los Lagos
+2022-01-27,37.39204356450281,14,Región de Los Ríos
+2022-01-27,51.55246072593938,12,Región de Magallanes y la Antártica Chilena
+2022-01-27,40.303260679306014,1,Región de Tarapacá
+2022-01-27,28.628639352709204,5,Región de Valparaíso
+2022-01-27,32.22283397928468,8,Región del Biobío
+2022-01-27,24.032780963470536,6,Región del Libertador General Bernardo OHiggins
+2022-01-27,32.41870807525847,7,Región del Maule
+2022-01-27,25.477420628637223,16,Región del Ñuble
+2022-01-27,26.77059354058647,13,Región Metropolitana de Santiago
+2022-01-28,50.31986517386616,2,Región de Antofagasta
+2022-01-28,53.722581412875336,15,Región de Arica y Parinacota
+2022-01-28,60.188936446050164,3,Región de Atacama
+2022-01-28,65.3233548002274,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-28,33.16724395284752,4,Región de Coquimbo
+2022-01-28,35.95233564977527,9,Región de la Araucanía
+2022-01-28,41.91981513057525,10,Región de Los Lagos
+2022-01-28,38.7743787499846,14,Región de Los Ríos
+2022-01-28,48.97343604579451,12,Región de Magallanes y la Antártica Chilena
+2022-01-28,38.746202057093896,1,Región de Tarapacá
+2022-01-28,28.884739588913206,5,Región de Valparaíso
+2022-01-28,33.4688548869505,8,Región del Biobío
+2022-01-28,24.906590196586897,6,Región del Libertador General Bernardo OHiggins
+2022-01-28,33.970028420259396,7,Región del Maule
+2022-01-28,26.063872419367765,16,Región del Ñuble
+2022-01-28,27.336988521455563,13,Región Metropolitana de Santiago
+2022-01-29,50.39791632338615,2,Región de Antofagasta
+2022-01-29,56.96719685851414,15,Región de Arica y Parinacota
+2022-01-29,60.51304538478404,3,Región de Atacama
+2022-01-29,66.50698528383832,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-29,33.871708511941215,4,Región de Coquimbo
+2022-01-29,35.78178190217707,9,Región de la Araucanía
+2022-01-29,43.08534505967872,10,Región de Los Lagos
+2022-01-29,39.451994036985475,14,Región de Los Ríos
+2022-01-29,48.96782947040289,12,Región de Magallanes y la Antártica Chilena
+2022-01-29,37.8109218779799,1,Región de Tarapacá
+2022-01-29,29.1872643699271,5,Región de Valparaíso
+2022-01-29,34.24604014194901,8,Región del Biobío
+2022-01-29,25.386882569523834,6,Región del Libertador General Bernardo OHiggins
+2022-01-29,34.71211787914366,7,Región del Maule
+2022-01-29,28.071492382968657,16,Región del Ñuble
+2022-01-29,27.632985898463424,13,Región Metropolitana de Santiago
+2022-01-30,50.027896058995104,2,Región de Antofagasta
+2022-01-30,58.20078537146484,15,Región de Arica y Parinacota
+2022-01-30,60.424074303562975,3,Región de Atacama
+2022-01-30,66.53494505904172,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-30,33.848983848744645,4,Región de Coquimbo
+2022-01-30,35.98979832265812,9,Región de la Araucanía
+2022-01-30,43.856008256304406,10,Región de Los Lagos
+2022-01-30,39.821602375349585,14,Región de Los Ríos
+2022-01-30,48.86130453796212,12,Región de Magallanes y la Antártica Chilena
+2022-01-30,37.24139372421775,1,Región de Tarapacá
+2022-01-30,29.487238351775613,5,Región de Valparaíso
+2022-01-30,34.59826795279907,8,Región del Biobío
+2022-01-30,25.837913432344866,6,Región del Libertador General Bernardo OHiggins
+2022-01-30,35.02397213984146,7,Región del Maule
+2022-01-30,28.82801519301106,16,Región del Ñuble
+2022-01-30,27.59729390705707,13,Región Metropolitana de Santiago
+2022-01-31,50.237477849372844,2,Región de Antofagasta
+2022-01-31,57.574074808615286,15,Región de Arica y Parinacota
+2022-01-31,59.505765643816986,3,Región de Atacama
+2022-01-31,64.49388146919298,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-01-31,34.246067437232085,4,Región de Coquimbo
+2022-01-31,36.4058311636202,9,Región de la Araucanía
+2022-01-31,45.48371174728529,10,Región de Los Lagos
+2022-01-31,41.743565734842974,14,Región de Los Ríos
+2022-01-31,46.400017941041256,12,Región de Magallanes y la Antártica Chilena
+2022-01-31,34.66545445995407,1,Región de Tarapacá
+2022-01-31,29.44948652412801,5,Región de Valparaíso
+2022-01-31,35.17950394783662,8,Región del Biobío
+2022-01-31,25.70674114561839,6,Región del Libertador General Bernardo OHiggins
+2022-01-31,35.701570490989354,7,Región del Maule
+2022-01-31,29.85039614818464,16,Región del Ñuble
+2022-01-31,27.624124438528053,13,Región Metropolitana de Santiago
+2022-02-01,48.90771752421754,2,Región de Antofagasta
+2022-02-01,53.37749395105311,15,Región de Arica y Parinacota
+2022-02-01,56.56654242490682,3,Región de Atacama
+2022-02-01,63.04929308368361,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-01,34.464941824862215,4,Región de Coquimbo
+2022-02-01,36.68975878967962,9,Región de la Araucanía
+2022-02-01,47.222471506775555,10,Región de Los Lagos
+2022-02-01,42.41378885507657,14,Región de Los Ríos
+2022-02-01,44.67879929581413,12,Región de Magallanes y la Antártica Chilena
+2022-02-01,33.57342341283215,1,Región de Tarapacá
+2022-02-01,29.467852278118734,5,Región de Valparaíso
+2022-02-01,35.98854598436253,8,Región del Biobío
+2022-02-01,26.145663797356978,6,Región del Libertador General Bernardo OHiggins
+2022-02-01,36.00900755252712,7,Región del Maule
+2022-02-01,31.29893207128908,16,Región del Ñuble
+2022-02-01,27.373911271186273,13,Región Metropolitana de Santiago
+2022-02-02,47.41318255007559,2,Región de Antofagasta
+2022-02-02,52.70318511760739,15,Región de Arica y Parinacota
+2022-02-02,53.70993520998764,3,Región de Atacama
+2022-02-02,62.229139677716994,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-02,34.71850122473975,4,Región de Coquimbo
+2022-02-02,36.5921586682217,9,Región de la Araucanía
+2022-02-02,49.1777349008346,10,Región de Los Lagos
+2022-02-02,42.500030800694866,14,Región de Los Ríos
+2022-02-02,43.42853298348303,12,Región de Magallanes y la Antártica Chilena
+2022-02-02,32.07122759442281,1,Región de Tarapacá
+2022-02-02,28.953101006545353,5,Región de Valparaíso
+2022-02-02,36.24941095007742,8,Región del Biobío
+2022-02-02,26.106312111339037,6,Región del Libertador General Bernardo OHiggins
+2022-02-02,35.906528532014534,7,Región del Maule
+2022-02-02,32.2568033294823,16,Región del Ñuble
+2022-02-02,26.642225447356036,13,Región Metropolitana de Santiago
+2022-02-03,46.488131889097986,2,Región de Antofagasta
+2022-02-03,51.50132878505414,15,Región de Arica y Parinacota
+2022-02-03,51.12977385457677,3,Región de Atacama
+2022-02-03,64.41932206865057,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-03,34.423080603184324,4,Región de Coquimbo
+2022-02-03,36.83073674289663,9,Región de la Araucanía
+2022-02-03,50.62931885488647,10,Región de Los Lagos
+2022-02-03,43.116044697968384,14,Región de Los Ríos
+2022-02-03,42.643612428656326,12,Región de Magallanes y la Antártica Chilena
+2022-02-03,30.811995621425755,1,Región de Tarapacá
+2022-02-03,29.003606830019844,5,Región de Valparaíso
+2022-02-03,37.128177263153844,8,Región del Biobío
+2022-02-03,25.539244225644584,6,Región del Libertador General Bernardo OHiggins
+2022-02-03,36.62211479593865,7,Región del Maule
+2022-02-03,33.62128116258203,16,Región del Ñuble
+2022-02-03,26.227706043712598,13,Región Metropolitana de Santiago
+2022-02-04,44.9964876982716,2,Región de Antofagasta
+2022-02-04,49.36733965332593,15,Región de Arica y Parinacota
+2022-02-04,47.205513665004815,3,Región de Atacama
+2022-02-04,66.7959029609402,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-04,33.95184285058175,4,Región de Coquimbo
+2022-02-04,37.797865219161565,9,Región de la Araucanía
+2022-02-04,53.25204164049179,10,Región de Los Lagos
+2022-02-04,43.49304520309978,14,Región de Los Ríos
+2022-02-04,41.43259214406656,12,Región de Magallanes y la Antártica Chilena
+2022-02-04,28.96494789339896,1,Región de Tarapacá
+2022-02-04,28.862292556257877,5,Región de Valparaíso
+2022-02-04,38.13196641694156,8,Región del Biobío
+2022-02-04,24.98731160380319,6,Región del Libertador General Bernardo OHiggins
+2022-02-04,36.69544030199507,7,Región del Maule
+2022-02-04,33.13648101557811,16,Región del Ñuble
+2022-02-04,25.537742927078064,13,Región Metropolitana de Santiago
+2022-02-05,44.135034270236204,2,Región de Antofagasta
+2022-02-05,45.45238189679108,15,Región de Arica y Parinacota
+2022-02-05,46.608136405377664,3,Región de Atacama
+2022-02-05,65.98506948004137,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-05,33.86094419779547,4,Región de Coquimbo
+2022-02-05,38.62105816277137,9,Región de la Araucanía
+2022-02-05,53.66934398276945,10,Región de Los Lagos
+2022-02-05,43.18996636564121,14,Región de Los Ríos
+2022-02-05,40.552359807582334,12,Región de Magallanes y la Antártica Chilena
+2022-02-05,28.16551846655851,1,Región de Tarapacá
+2022-02-05,28.52813786559329,5,Región de Valparaíso
+2022-02-05,38.41867745068811,8,Región del Biobío
+2022-02-05,24.943923847424433,6,Región del Libertador General Bernardo OHiggins
+2022-02-05,36.58147656366642,7,Región del Maule
+2022-02-05,31.056531997787122,16,Región del Ñuble
+2022-02-05,25.23017642182125,13,Región Metropolitana de Santiago
+2022-02-06,43.561213782098534,2,Región de Antofagasta
+2022-02-06,44.19896077109198,15,Región de Arica y Parinacota
+2022-02-06,46.71617271828896,3,Región de Atacama
+2022-02-06,66.14350820619403,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-06,33.72818432333129,4,Región de Coquimbo
+2022-02-06,38.93061814396116,9,Región de la Araucanía
+2022-02-06,53.67158754374944,10,Región de Los Lagos
+2022-02-06,42.68237091428782,14,Región de Los Ríos
+2022-02-06,39.694553772664584,12,Región de Magallanes y la Antártica Chilena
 2022-02-06,27.7213910072027,1,Región de Tarapacá
-2022-02-06,28.519465148431003,5,Región de Valparaíso
-2022-02-06,38.430698877679575,8,Región del Biobío
-2022-02-06,24.67249811565965,6,Región del Libertador General Bernardo OHiggins
-2022-02-06,36.47546378382581,7,Región del Maule
-2022-02-06,29.860170344696815,16,Región del Ñuble
-2022-02-06,25.129623466721277,13,Región Metropolitana de Santiago
-2022-02-07,41.86432397586774,2,Región de Antofagasta
-2022-02-07,42.70358176986236,15,Región de Arica y Parinacota
-2022-02-07,44.65395015712928,3,Región de Atacama
-2022-02-07,67.63469621704242,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-07,33.042856322718926,4,Región de Coquimbo
-2022-02-07,38.758092676737554,9,Región de la Araucanía
-2022-02-07,54.44337252086512,10,Región de Los Lagos
-2022-02-07,39.6910074291276,14,Región de Los Ríos
-2022-02-07,38.1583521153609,12,Región de Magallanes y la Antártica Chilena
-2022-02-07,27.091775020704176,1,Región de Tarapacá
-2022-02-07,28.303157379206905,5,Región de Valparaíso
-2022-02-07,37.812196458968465,8,Región del Biobío
-2022-02-07,24.649290711084966,6,Región del Libertador General Bernardo OHiggins
-2022-02-07,36.464862505841744,7,Región del Maule
-2022-02-07,27.449853484794282,16,Región del Ñuble
-2022-02-07,24.619966444605044,13,Región Metropolitana de Santiago
-2022-02-08,40.67332124985907,2,Región de Antofagasta
-2022-02-08,41.81904724128357,15,Región de Arica y Parinacota
-2022-02-08,44.25358029163449,3,Región de Atacama
-2022-02-08,67.51353719116098,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-08,32.39101729944887,4,Región de Coquimbo
-2022-02-08,38.694997648724346,9,Región de la Araucanía
-2022-02-08,55.048012204971734,10,Región de Los Lagos
-2022-02-08,37.59409612280853,14,Región de Los Ríos
-2022-02-08,36.184837577510905,12,Región de Magallanes y la Antártica Chilena
-2022-02-08,25.474628565755683,1,Región de Tarapacá
-2022-02-08,28.05317906099981,5,Región de Valparaíso
-2022-02-08,37.90596358950193,8,Región del Biobío
-2022-02-08,24.07011461430807,6,Región del Libertador General Bernardo OHiggins
-2022-02-08,37.69991139098485,7,Región del Maule
-2022-02-08,26.19093697402605,16,Región del Ñuble
-2022-02-08,23.935541740430114,13,Región Metropolitana de Santiago
-2022-02-09,38.88826255250385,2,Región de Antofagasta
-2022-02-09,41.15663797548689,15,Región de Arica y Parinacota
-2022-02-09,41.501831851011566,3,Región de Atacama
-2022-02-09,66.93570183695724,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-09,31.820508649724434,4,Región de Coquimbo
-2022-02-09,37.88856432193055,9,Región de la Araucanía
-2022-02-09,54.394014179305394,10,Región de Los Lagos
-2022-02-09,35.59821109564232,14,Región de Los Ríos
-2022-02-09,34.295421670535205,12,Región de Magallanes y la Antártica Chilena
-2022-02-09,24.421785235635742,1,Región de Tarapacá
-2022-02-09,27.774121632307402,5,Región de Valparaíso
-2022-02-09,37.94383108452506,8,Región del Biobío
-2022-02-09,23.47782128885853,6,Región del Libertador General Bernardo OHiggins
-2022-02-09,38.275914161452164,7,Región del Maule
-2022-02-09,24.824504301623882,16,Región del Ñuble
-2022-02-09,23.28680902766154,13,Región Metropolitana de Santiago
-2022-02-10,37.85769830050849,2,Región de Antofagasta
-2022-02-10,40.299869104755864,15,Región de Arica y Parinacota
-2022-02-10,39.23306927987443,3,Región de Atacama
-2022-02-10,64.5498010195998,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-10,31.40309246785058,4,Región de Coquimbo
-2022-02-10,36.705532546682925,9,Región de la Araucanía
-2022-02-10,53.89594364174818,10,Región de Los Lagos
-2022-02-10,34.30704596695701,14,Región de Los Ríos
-2022-02-10,32.88817124723876,12,Región de Magallanes y la Antártica Chilena
-2022-02-10,24.526285814307695,1,Región de Tarapacá
-2022-02-10,27.49863532244652,5,Región de Valparaíso
-2022-02-10,36.879934795779995,8,Región del Biobío
-2022-02-10,23.222539838537006,6,Región del Libertador General Bernardo OHiggins
-2022-02-10,37.56827885601609,7,Región del Maule
-2022-02-10,22.969361803612934,16,Región del Ñuble
-2022-02-10,22.650137746471664,13,Región Metropolitana de Santiago
-2022-02-11,36.102992827966595,2,Región de Antofagasta
-2022-02-11,37.79302685335766,15,Región de Arica y Parinacota
-2022-02-11,37.749158746651666,3,Región de Atacama
-2022-02-11,61.25054754559773,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-11,31.105279776485,4,Región de Coquimbo
-2022-02-11,35.094637612720746,9,Región de la Araucanía
-2022-02-11,51.21937539262318,10,Región de Los Lagos
-2022-02-11,32.212598716227035,14,Región de Los Ríos
-2022-02-11,31.850954799789193,12,Región de Magallanes y la Antártica Chilena
-2022-02-11,23.449929853986564,1,Región de Tarapacá
-2022-02-11,27.128769443466638,5,Región de Valparaíso
-2022-02-11,35.69041459497408,8,Región del Biobío
-2022-02-11,22.92286161424652,6,Región del Libertador General Bernardo OHiggins
-2022-02-11,36.86241043024403,7,Región del Maule
-2022-02-11,22.62531008638435,16,Región del Ñuble
-2022-02-11,22.004605005346413,13,Región Metropolitana de Santiago
-2022-02-12,34.1618318315714,2,Región de Antofagasta
-2022-02-12,36.174685653087934,15,Región de Arica y Parinacota
-2022-02-12,37.58392673866969,3,Región de Atacama
-2022-02-12,60.887070467953436,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-12,29.887716243110837,4,Región de Coquimbo
-2022-02-12,34.62832592131064,9,Región de la Araucanía
-2022-02-12,50.778515660055646,10,Región de Los Lagos
-2022-02-12,32.14853327091059,14,Región de Los Ríos
-2022-02-12,31.088460546528967,12,Región de Magallanes y la Antártica Chilena
-2022-02-12,22.425824183001414,1,Región de Tarapacá
-2022-02-12,26.854813613104987,5,Región de Valparaíso
-2022-02-12,35.392884276935206,8,Región del Biobío
-2022-02-12,22.56062429936341,6,Región del Libertador General Bernardo OHiggins
-2022-02-12,37.01701240084492,7,Región del Maule
-2022-02-12,23.246948984558724,16,Región del Ñuble
-2022-02-12,21.629839095579708,13,Región Metropolitana de Santiago
-2022-02-13,33.27147057038046,2,Región de Antofagasta
-2022-02-13,35.09975804212447,15,Región de Arica y Parinacota
-2022-02-13,37.22804241378543,3,Región de Atacama
-2022-02-13,60.49563361510573,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-13,29.415282455603183,4,Región de Coquimbo
-2022-02-13,34.24581231398058,9,Región de la Araucanía
-2022-02-13,50.48797451314727,10,Región de Los Lagos
-2022-02-13,32.670913055798536,14,Región de Los Ríos
-2022-02-13,30.34839259483522,12,Región de Magallanes y la Antártica Chilena
-2022-02-13,22.03917204191518,1,Región de Tarapacá
-2022-02-13,26.17885183427968,5,Región de Valparaíso
-2022-02-13,35.124205383675864,8,Región del Biobío
-2022-02-13,22.337631411928406,6,Región del Libertador General Bernardo OHiggins
-2022-02-13,36.938386255796466,7,Región del Maule
-2022-02-13,24.441355798346596,16,Región del Ñuble
-2022-02-13,21.38134898989203,13,Región Metropolitana de Santiago
-2022-02-14,31.41703307345191,2,Región de Antofagasta
-2022-02-14,33.378287255563045,15,Región de Arica y Parinacota
-2022-02-14,34.97516753572348,3,Región de Atacama
-2022-02-14,57.12182074056125,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-14,28.173798224127374,4,Región de Coquimbo
-2022-02-14,32.09565206246802,9,Región de la Araucanía
-2022-02-14,48.75370187561698,10,Región de Los Lagos
-2022-02-14,33.37809700986854,14,Región de Los Ríos
-2022-02-14,28.918715869972303,12,Región de Magallanes y la Antártica Chilena
-2022-02-14,20.973266139461245,1,Región de Tarapacá
-2022-02-14,26.106919297816006,5,Región de Valparaíso
-2022-02-14,34.751541146940305,8,Región del Biobío
-2022-02-14,21.826059493695155,6,Región del Libertador General Bernardo OHiggins
-2022-02-14,36.32351213272093,7,Región del Maule
-2022-02-14,25.33276252025702,16,Región del Ñuble
-2022-02-14,20.778646638454404,13,Región Metropolitana de Santiago
-2022-02-15,29.944178974176634,2,Región de Antofagasta
-2022-02-15,30.712784102177622,15,Región de Arica y Parinacota
-2022-02-15,33.424528691584925,3,Región de Atacama
-2022-02-15,54.35380299542392,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-15,26.620148882424985,4,Región de Coquimbo
-2022-02-15,30.42856311918158,9,Región de la Araucanía
-2022-02-15,47.0721529211164,10,Región de Los Lagos
-2022-02-15,34.085280963938544,14,Región de Los Ríos
-2022-02-15,28.503829290992474,12,Región de Magallanes y la Antártica Chilena
-2022-02-15,21.349468222680283,1,Región de Tarapacá
-2022-02-15,25.336577949871693,5,Región de Valparaíso
-2022-02-15,33.17372885430992,8,Región del Biobío
-2022-02-15,21.201477605359095,6,Región del Libertador General Bernardo OHiggins
-2022-02-15,34.352557867517596,7,Región del Maule
-2022-02-15,24.691575229058294,16,Región del Ñuble
-2022-02-15,20.07059137445182,13,Región Metropolitana de Santiago
-2022-02-16,29.33711447791008,2,Región de Antofagasta
-2022-02-16,28.915949387172265,15,Región de Arica y Parinacota
-2022-02-16,33.44359392327515,3,Región de Atacama
-2022-02-16,50.96135027074382,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-16,25.568834200857317,4,Región de Coquimbo
-2022-02-16,29.329329428013995,9,Región de la Araucanía
-2022-02-16,45.777618235663645,10,Región de Los Lagos
-2022-02-16,34.260228910764226,14,Región de Los Ríos
-2022-02-16,27.623596954508244,12,Región de Magallanes y la Antártica Chilena
-2022-02-16,21.0777667181332,1,Región de Tarapacá
-2022-02-16,24.40859721350699,5,Región de Valparaíso
-2022-02-16,31.502750502495648,8,Región del Biobío
-2022-02-16,20.178333768892593,6,Región del Libertador General Bernardo OHiggins
-2022-02-16,32.69169098334804,7,Región del Maule
-2022-02-16,25.99740788308497,16,Región del Ñuble
-2022-02-16,19.459889093905876,13,Región Metropolitana de Santiago
-2022-02-17,28.506014274688013,2,Región de Antofagasta
-2022-02-17,27.40073777319424,15,Región de Arica y Parinacota
-2022-02-17,33.03686898055029,3,Región de Atacama
-2022-02-17,49.55404158550565,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-17,24.486422611757504,4,Región de Coquimbo
-2022-02-17,28.528811260096436,9,Región de la Araucanía
-2022-02-17,43.62379969487571,10,Región de Los Lagos
-2022-02-17,33.456946788719556,14,Región de Los Ríos
-2022-02-17,27.43857996658481,12,Región de Magallanes y la Antártica Chilena
-2022-02-17,19.96483555527689,1,Región de Tarapacá
-2022-02-17,23.303080855231944,5,Región de Valparaíso
-2022-02-17,30.584313480347372,8,Región del Biobío
-2022-02-17,18.866610901627848,6,Región del Libertador General Bernardo OHiggins
-2022-02-17,31.762312280078696,7,Región del Maule
-2022-02-17,27.12144048198518,16,Región del Ñuble
-2022-02-17,18.761187593168405,13,Región Metropolitana de Santiago
-2022-02-18,28.179355760030294,2,Región de Antofagasta
-2022-02-18,26.520169767165125,15,Región de Arica y Parinacota
-2022-02-18,32.88116958841342,3,Región de Atacama
-2022-02-18,47.85781522316561,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-18,23.569063839559096,4,Región de Coquimbo
-2022-02-18,28.451914194705342,9,Región de la Araucanía
-2022-02-18,42.44256483891232,10,Región de Los Lagos
-2022-02-18,33.4791232890214,14,Región de Los Ríos
-2022-02-18,26.631233110191634,12,Región de Magallanes y la Antártica Chilena
-2022-02-18,19.996185728878473,1,Región de Tarapacá
-2022-02-18,22.64548483039736,5,Región de Valparaíso
-2022-02-18,29.601561823794732,8,Región del Biobío
-2022-02-18,17.89694499744214,6,Región del Libertador General Bernardo OHiggins
-2022-02-18,30.967216431274124,7,Región del Maule
-2022-02-18,28.728318388586867,16,Región del Ñuble
-2022-02-18,18.222115447100037,13,Región Metropolitana de Santiago
-2022-02-19,28.40772764195914,2,Región de Antofagasta
-2022-02-19,26.26631232398556,15,Región de Arica y Parinacota
-2022-02-19,32.48079972291863,3,Región de Atacama
-2022-02-19,46.907182866249755,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-19,23.579828153704838,4,Región de Coquimbo
-2022-02-19,28.513037503093134,9,Región de la Araucanía
-2022-02-19,42.04096742349457,10,Región de Los Lagos
-2022-02-19,33.920189239469245,14,Región de Los Ríos
-2022-02-19,26.087395297204562,12,Región de Magallanes y la Antártica Chilena
-2022-02-19,21.064704145799208,1,Región de Tarapacá
-2022-02-19,22.23837728360295,5,Región de Valparaíso
-2022-02-19,28.725800867466173,8,Región del Biobío
-2022-02-19,17.5538790167729,6,Región del Libertador General Bernardo OHiggins
-2022-02-19,30.261348005502064,7,Región del Maule
-2022-02-19,29.228757250010265,16,Región del Ñuble
-2022-02-19,17.92464116010295,13,Región Metropolitana de Santiago
-2022-02-20,28.179355760030294,2,Región de Antofagasta
-2022-02-20,26.14731664749514,15,Región de Arica y Parinacota
-2022-02-20,32.22977417233063,3,Región de Atacama
-2022-02-20,45.928590734130495,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-20,23.467400872627067,4,Región de Coquimbo
-2022-02-20,28.599793166611292,9,Región de la Araucanía
-2022-02-20,41.20524095844925,10,Región de Los Lagos
-2022-02-20,33.498835733734154,14,Región de Los Ríos
-2022-02-20,26.02572296789675,12,Región de Magallanes y la Antártica Chilena
-2022-02-20,21.28415536101031,1,Región de Tarapacá
-2022-02-20,21.97003321140513,5,Región de Valparaíso
-2022-02-20,27.98107346534463,8,Región del Biobío
-2022-02-20,17.2774081970571,6,Región del Libertador General Bernardo OHiggins
-2022-02-20,29.860266321771757,7,Región del Maule
-2022-02-20,28.79087324626479,16,Región del Ñuble
-2022-02-20,17.83651886407899,13,Región Metropolitana de Santiago
-2022-02-21,28.19959124323918,2,Región de Antofagasta
-2022-02-21,26.924755067232557,15,Región de Arica y Parinacota
-2022-02-21,31.495762752256848,3,Región de Atacama
-2022-02-21,43.589289542112084,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-21,23.286799601959583,4,Región de Coquimbo
-2022-02-21,28.72006806376147,9,Región de la Araucanía
-2022-02-21,38.91905231984205,10,Región de Los Lagos
-2022-02-21,32.25941577241983,14,Región de Los Ríos
-2022-02-21,26.362117491393906,12,Región de Magallanes y la Antártica Chilena
-2022-02-21,21.65251990082895,1,Región de Tarapacá
-2022-02-21,21.12979996632945,5,Región de Valparaíso
-2022-02-21,27.431093180484897,8,Región del Biobío
-2022-02-21,16.361220225152184,6,Región del Libertador General Bernardo OHiggins
-2022-02-21,27.632231065454942,7,Región del Maule
-2022-02-21,29.15056367791286,16,Región del Ñuble
-2022-02-21,17.37707678159652,13,Región Metropolitana de Santiago
-2022-02-22,27.936529961523675,2,Región de Antofagasta
-2022-02-22,27.023918130974575,15,Región de Arica y Parinacota
-2022-02-22,31.158943659062817,3,Región de Atacama
-2022-02-22,42.48953838411139,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-22,22.965066212492346,4,Región de Coquimbo
-2022-02-22,28.455857633956168,9,Región de la Araucanía
-2022-02-22,36.08206946064794,10,Región de Los Lagos
-2022-02-22,31.463525817142436,14,Región de Los Ríos
-2022-02-22,25.745394198315786,12,Región de Magallanes y la Antártica Chilena
-2022-02-22,20.75903995318374,1,Región de Tarapacá
-2022-02-22,20.588010223603053,5,Región de Valparaíso
-2022-02-22,27.029577518969813,8,Región del Biobío
-2022-02-22,15.809287603310787,6,Región del Libertador General Bernardo OHiggins
-2022-02-22,25.731068546980005,7,Región del Maule
-2022-02-22,29.271763714663837,16,Región del Ñuble
-2022-02-22,17.008218511786726,13,Región Metropolitana de Santiago
-2022-02-23,27.432088272959323,2,Región de Antofagasta
-2022-02-23,26.397207568125026,15,Región de Arica y Parinacota
-2022-02-23,29.716341127835555,3,Región de Atacama
-2022-02-23,40.03839809127935,11,Región de Aysén del General Carlos Ibáñez del Campo
-2022-02-23,21.615938839559092,4,Región de Coquimbo
-2022-02-23,27.425634129678027,9,Región de la Araucanía
-2022-02-23,32.92762272278561,10,Región de Los Lagos
-2022-02-23,30.465583303559328,14,Región de Los Ríos
-2022-02-23,24.82591583409022,12,Región de Magallanes y la Antártica Chilena
-2022-02-23,20.607514114109406,1,Región de Tarapacá
-2022-02-23,19.95796282975456,5,Región de Valparaíso
-2022-02-23,27.130557505698157,8,Región del Biobío
-2022-02-23,15.309823896159982,6,Región del Libertador General Bernardo OHiggins
-2022-02-23,23.2265166232456,7,Región del Maule
-2022-02-23,27.807589077139912,16,Región del Ñuble
-2022-02-23,16.43505436013367,13,Región Metropolitana de Santiago
+2022-02-06,28.71128524566747,5,Región de Valparaíso
+2022-02-06,38.64528134947731,8,Región del Biobío
+2022-02-06,24.72496703035024,6,Región del Libertador General Bernardo OHiggins
+2022-02-06,36.645967671402786,7,Región del Maule
+2022-02-06,29.96182198842344,16,Región del Ñuble
+2022-02-06,25.20777662031795,13,Región Metropolitana de Santiago
+2022-02-07,42.00741774998772,2,Región de Antofagasta
+2022-02-07,42.767046130657256,15,Región de Arica y Parinacota
+2022-02-07,44.860490167106754,3,Región de Atacama
+2022-02-07,67.72789546772044,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-07,33.076345300061234,4,Región de Coquimbo
+2022-02-07,38.92174540564681,9,Región de la Araucanía
+2022-02-07,54.85282239971282,10,Región de Los Lagos
+2022-02-07,39.83145859770596,14,Región de Los Ríos
+2022-02-07,38.32654937710947,12,Región de Magallanes y la Antártica Chilena
+2022-02-07,27.078712448370183,1,Región de Tarapacá
+2022-02-07,28.511302591101792,5,Región de Valparaíso
+2022-02-07,38.01115107567728,8,Región del Biobío
+2022-02-07,24.709831766497185,6,Región del Libertador General Bernardo OHiggins
+2022-02-07,36.634482953586726,7,Región del Maule
+2022-02-07,27.526092217589255,16,Región del Ñuble
+2022-02-07,24.701442645677478,13,Región Metropolitana de Santiago
+2022-02-08,40.81496963232127,2,Región de Antofagasta
+2022-02-08,41.874578556979095,15,Región de Arica y Parinacota
+2022-02-08,44.463297840227,3,Región de Atacama
+2022-02-08,67.62537629197462,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-08,32.42091817207593,4,Región de Coquimbo
+2022-02-08,38.865551396322545,9,Región de la Araucanía
+2022-02-08,55.507942205869156,10,Región de Los Lagos
+2022-02-08,37.72469106903052,14,Región de Los Ríos
+2022-02-08,36.330608537693,12,Región de Magallanes y la Antártica Chilena
+2022-02-08,25.48246610915608,1,Región de Tarapacá
+2022-02-08,28.269486830223908,5,Región de Valparaíso
+2022-02-08,38.10672142025947,8,Región del Biobío
+2022-02-08,24.132673704900697,6,Región del Libertador General Bernardo OHiggins
+2022-02-08,37.85451336158574,7,Región del Maule
+2022-02-08,26.25935634961128,16,Región del Ñuble
+2022-02-08,24.0144333490214,13,Región Metropolitana de Santiago
+2022-02-09,39.01979319336161,2,Región de Antofagasta
+2022-02-09,41.20026972353338,15,Región de Arica y Parinacota
+2022-02-09,41.68930662929881,3,Región de Atacama
+2022-02-09,67.07550071297426,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-09,31.861173836497244,4,Región de Coquimbo
+2022-02-09,38.07193424709393,9,Región de la Araucanía
+2022-02-09,54.79000269227318,10,Región de Los Lagos
+2022-02-09,35.71402170832974,14,Región de Los Ríos
+2022-02-09,34.452405781500545,12,Región de Magallanes y la Antártica Chilena
+2022-02-09,24.42439775010254,1,Región de Tarapacá
+2022-02-09,27.97206364754077,5,Región de Valparaíso
+2022-02-09,38.12835998884411,8,Región del Biobío
+2022-02-09,23.53937136186095,6,Región del Libertador General Bernardo OHiggins
+2022-02-09,38.43051613205305,7,Región del Maule
+2022-02-09,24.87923980209207,16,Región del Ñuble
+2022-02-09,23.35745455547963,13,Región Metropolitana de Santiago
+2022-02-10,37.97332963313069,2,Región de Antofagasta
+2022-02-10,40.347467375352025,15,Región de Arica y Parinacota
+2022-02-10,39.39194621062632,3,Región de Atacama
+2022-02-10,64.69891982068464,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-10,31.466482317819963,4,Región de Coquimbo
+2022-02-10,36.8879166120336,9,Región de la Araucanía
+2022-02-10,54.24481737413623,10,Región de Los Lagos
+2022-02-10,34.42285657964444,14,Región de Los Ríos
+2022-02-10,33.017122481246005,12,Región de Magallanes y la Antártica Chilena
+2022-02-10,24.54196090110849,1,Región de Tarapacá
+2022-02-10,27.70678053434141,5,Región de Valparaíso
+2022-02-10,37.045830488262276,8,Región del Biobío
+2022-02-10,23.280053841178614,6,Región del Libertador General Bernardo OHiggins
+2022-02-10,37.716696747792945,7,Región del Maule
+2022-02-10,23.033871500593293,16,Región del Ñuble
+2022-02-10,22.722137108446546,13,Región Metropolitana de Santiago
+2022-02-11,36.20995181064213,2,Región de Antofagasta
+2022-02-11,37.84062512395383,15,Región de Arica y Parinacota
+2022-02-11,37.882615368483265,3,Región de Atacama
+2022-02-11,61.371706571479166,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-11,31.18302204531537,4,Región de Coquimbo
+2022-02-11,35.290823715449314,9,Región de la Araucanía
+2022-02-11,51.58171049089115,10,Región de Los Lagos
+2022-02-11,32.3136249953799,14,Región de Los Ríos
+2022-02-11,31.968692883013198,12,Región de Magallanes y la Antártica Chilena
+2022-02-11,23.473442484187757,1,Región de Tarapacá
+2022-02-11,27.356810888851477,5,Región de Valparaíso
+2022-02-11,35.8509006453102,8,Región del Biobío
+2022-02-11,22.978357581707723,6,Región del Libertador General Bernardo OHiggins
+2022-02-11,37.00641112286086,7,Región del Maule
+2022-02-11,22.683955265457403,16,Región del Ñuble
+2022-02-11,22.078081277310527,13,Región Metropolitana de Santiago
+2022-02-12,34.2644546392736,2,Región de Antofagasta
+2022-02-12,36.226250446233784,15,Región de Arica y Parinacota
+2022-02-12,37.704673206041136,3,Región de Atacama
+2022-02-12,61.00822949383487,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-12,29.9594783374158,4,Región de Coquimbo
+2022-02-12,34.837328201604386,9,Región de la Araucanía
+2022-02-12,51.15543390469353,10,Región de Los Lagos
+2022-02-12,32.24709549447435,14,Región de Los Ríos
+2022-02-12,31.22862493131945,12,Región de Magallanes y la Antártica Chilena
+2022-02-12,22.4597868710698,1,Región de Tarapacá
+2022-02-12,27.079283939658293,5,Región de Valparaíso
+2022-02-12,35.540747828930286,8,Región del Biobío
+2022-02-12,22.614102231644203,6,Región del Libertador General Bernardo OHiggins
+2022-02-12,37.160129653629745,7,Región del Maule
+2022-02-12,23.299729645724476,16,Región del Ñuble
+2022-02-12,21.705530732527663,13,Región Metropolitana de Santiago
+2022-02-13,33.371202594767105,2,Región de Antofagasta
+2022-02-13,35.155289357819996,15,Región de Arica y Parinacota
+2022-02-13,37.34878888115688,3,Región de Atacama
+2022-02-13,60.616792640987164,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-13,29.488240584813227,4,Región de Coquimbo
+2022-02-13,34.46171561296327,9,Región de la Araucanía
+2022-02-13,50.8581620748452,10,Región de Los Lagos
+2022-02-13,32.76701122377321,14,Región de Los Ríos
+2022-02-13,30.494163555017323,12,Región de Magallanes y la Antártica Chilena
+2022-02-13,22.075747244450366,1,Región de Tarapacá
+2022-02-13,26.408423759163746,5,Región de Valparaíso
+2022-02-13,35.26064858002904,8,Región del Biobío
+2022-02-13,22.390100326618995,6,Región del Libertador General Bernardo OHiggins
+2022-02-13,37.07796974925327,7,Región del Maule
+2022-02-13,24.488271941605042,16,Región del Ñuble
+2022-02-13,21.455932944348064,13,Región Metropolitana de Santiago
+2022-02-14,31.50520196457634,2,Región de Antofagasta
+2022-02-14,33.45761770655666,15,Región de Arica y Parinacota
+2022-02-14,35.08320384863477,3,Región de Atacama
+2022-02-14,57.27093954164609,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-14,28.241972213717084,4,Región de Coquimbo
+2022-02-14,32.30662606238718,9,Región de la Araucanía
+2022-02-14,49.095844925065066,10,Región de Los Lagos
+2022-02-14,33.4791232890214,14,Región de Los Ríos
+2022-02-14,29.064486830154404,12,Región de Magallanes y la Antártica Chilena
+2022-02-14,21.025516428797225,1,Región de Tarapacá
+2022-02-14,26.320676267874724,5,Región de Valparaíso
+2022-02-14,34.89279291409007,8,Región del Biobío
+2022-02-14,21.879537425975947,6,Región del Libertador General Bernardo OHiggins
+2022-02-14,36.51256825677002,7,Región del Maule
+2022-02-14,25.385543181422772,16,Región del Ñuble
+2022-02-14,20.84683064962378,13,Región Metropolitana de Santiago
+2022-02-15,30.03234786530106,2,Región de Antofagasta
+2022-02-15,30.847645868866763,15,Región de Arica y Parinacota
+2022-02-15,33.5230323886511,3,Región de Atacama
+2022-02-15,54.49360187144095,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-15,26.687126837109613,4,Región de Coquimbo
+2022-02-15,30.623763362097435,9,Región de la Araucanía
+2022-02-15,47.41541775105448,10,Región de Los Lagos
+2022-02-15,34.18384318750231,14,Región de Los Ríos
+2022-02-15,28.64960025117458,12,Región de Magallanes y la Antártica Chilena
+2022-02-15,21.386043425215465,1,Región de Tarapacá
+2022-02-15,25.547784120765037,5,Región de Valparaíso
+2022-02-15,33.3101720506631,8,Región del Biobío
+2022-02-15,21.248901432098666,6,Región del Libertador General Bernardo OHiggins
+2022-02-15,34.5619331077028,7,Región del Maule
+2022-02-15,24.75413008673622,16,Región del Ñuble
+2022-02-15,20.13754462729684,13,Región Metropolitana de Santiago
+2022-02-16,29.426728760692285,2,Región de Antofagasta
+2022-02-16,29.05477767641109,15,Región de Arica y Parinacota
+2022-02-16,33.55163023618644,3,Región de Atacama
+2022-02-16,51.11046907182866,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-16,25.62863594611145,4,Región de Coquimbo
+2022-02-16,29.520586231679026,9,Región de la Araucanía
+2022-02-16,46.16351072422149,10,Región de Los Lagos
+2022-02-16,34.35632707873889,14,Región de Los Ríos
+2022-02-16,27.780581065473587,12,Región de Magallanes y la Antártica Chilena
+2022-02-16,21.116954435135185,1,Región de Tarapacá
+2022-02-16,24.613171306570347,5,Región de Valparaíso
+2022-02-16,31.64280012694627,8,Región del Biobío
+2022-02-16,20.22474857804196,6,Región del Libertador General Bernardo OHiggins
+2022-02-16,32.92580253882939,7,Región del Maule
+2022-02-16,26.097104687509166,16,Región del Ñuble
+2022-02-16,19.531396152551018,13,Región Metropolitana de Santiago
+2022-02-17,28.59851934078577,2,Región de Antofagasta
+2022-02-17,27.551465630082106,15,Región de Arica y Parinacota
+2022-02-17,33.15126037069165,3,Región de Atacama
+2022-02-17,49.68452053645488,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-17,24.52589176362523,4,Región de Coquimbo
+2022-02-17,28.728940802075826,9,Región de la Araucanía
+2022-02-17,44.082607915283134,10,Región de Los Lagos
+2022-02-17,33.56536523463969,14,Región de Los Ríos
+2022-02-17,27.59556407755015,12,Región de Magallanes y la Antártica Chilena
+2022-02-17,20.00663578674567,1,Región de Tarapacá
+2022-02-17,23.501533030298393,5,Región de Valparaíso
+2022-02-17,30.73578346043989,8,Región del Biobío
+2022-02-17,18.913025710777216,6,Región del Libertador General Bernardo OHiggins
+2022-02-17,32.01850983136017,7,Región del Maule
+2022-02-17,27.248505036643465,16,Región del Ñuble
+2022-02-17,18.830848514327013,13,Región Metropolitana de Santiago
+2022-02-18,28.279087784416944,2,Región de Antofagasta
+2022-02-18,26.682797191702036,15,Región de Arica y Parinacota
+2022-02-18,33.01462621024502,3,Región de Atacama
+2022-02-18,48.02557387438605,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-18,23.608532991426824,4,Región de Coquimbo
+2022-02-18,28.661902334811792,9,Región de la Araucanía
+2022-02-18,43.29623979179754,10,Región de Los Lagos
+2022-02-18,33.6047901240652,14,Región de Los Ríos
+2022-02-18,26.793823796548594,12,Región de Magallanes y la Antártica Chilena
+2022-02-18,20.04321098928085,1,Región de Tarapacá
+2022-02-18,22.83832524729998,5,Región de Valparaíso
+2022-02-18,29.789697156211233,8,Región del Biobío
+2022-02-18,17.97463935188782,6,Región del Libertador General Bernardo OHiggins
+2022-02-18,31.23313182070765,7,Región del Maule
+2022-02-18,28.90034424720116,16,Región del Ñuble
+2022-02-18,18.28931485160993,13,Región Metropolitana de Santiago
+2022-02-19,28.521913582923563,2,Región de Antofagasta
+2022-02-19,26.42893974852247,15,Región de Arica y Parinacota
+2022-02-19,32.62696649921038,3,Región de Atacama
+2022-02-19,47.11222121774141,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-19,23.63006161971831,4,Región de Coquimbo
+2022-02-19,28.723025643199588,9,Región de la Araucanía
+2022-02-19,43.31418827963744,10,Región de Los Lagos
+2022-02-19,34.080352852760356,14,Región de Los Ríos
+2022-02-19,26.238772832778285,12,Región de Magallanes y la Antártica Chilena
+2022-02-19,21.109116891734786,1,Región de Tarapacá
+2022-02-19,22.43580913900325,5,Región de Valparaíso
+2022-02-19,28.999288331522106,8,Región del Biobío
+2022-02-19,17.636618459169597,6,Región del Libertador General Bernardo OHiggins
+2022-02-19,30.522846195775568,7,Región del Maule
+2022-02-19,29.434015376765956,16,Región del Ñuble
+2022-02-19,17.991225185450663,13,Región Metropolitana de Santiago
+2022-02-20,28.294987092652494,2,Región de Antofagasta
+2022-02-20,26.30597754948237,15,Región de Arica y Parinacota
+2022-02-20,32.37594094862238,3,Región de Atacama
+2022-02-20,46.142949010689954,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-20,23.518830373545622,4,Región de Coquimbo
+2022-02-20,28.81471060578128,9,Región de la Araucanía
+2022-02-20,42.70730503455084,10,Región de Los Lagos
+2022-02-20,33.6885680140944,14,Región de Los Ríos
+2022-02-20,26.17710050347047,12,Región de Magallanes y la Antártica Chilena
+2022-02-20,21.32856810694589,1,Región de Tarapacá
+2022-02-20,22.170526025803884,5,Región de Valparaíso
+2022-02-20,28.351934488031468,8,Región del Biobío
+2022-02-20,17.362165674634205,6,Región del Libertador General Bernardo OHiggins
+2022-02-20,30.127948590869295,7,Región del Maule
+2022-02-20,29.015679766044833,16,Región del Ñuble
+2022-02-20,17.907041316064646,13,Región Metropolitana de Santiago
+2022-02-21,28.33834884238582,2,Región de Antofagasta
+2022-02-21,27.095315536868828,15,Región de Arica y Parinacota
+2022-02-21,31.708657839464394,3,Región de Atacama
+2022-02-21,43.943446694688575,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-21,23.370522045315372,4,Región de Coquimbo
+2022-02-21,29.020755306636907,9,Región de la Araucanía
+2022-02-21,41.39033473929821,10,Región de Los Lagos
+2022-02-21,32.510749442507425,14,Región de Los Ríos
+2022-02-21,26.57516735627544,12,Región de Magallanes y la Antártica Chilena
+2022-02-21,21.712607733565324,1,Región de Tarapacá
+2022-02-21,21.37416652637271,5,Región de Valparaíso
+2022-02-21,28.094074879064443,8,Región del Biobío
+2022-02-21,16.49441054705907,6,Región del Libertador General Bernardo OHiggins
+2022-02-21,29.08725646876731,7,Región del Maule
+2022-02-21,29.385144394205074,16,Región del Ñuble
+2022-02-21,17.459168361831132,13,Región Metropolitana de Santiago
+2022-02-22,28.108531568799197,2,Región de Antofagasta
+2022-02-22,27.16671294276308,15,Región de Arica y Parinacota
+2022-02-22,31.47987505918166,3,Región de Atacama
+2022-02-22,43.20717261433218,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-22,23.497301745254134,4,Región de Coquimbo
+2022-02-22,28.891607671172373,9,Región de la Araucanía
+2022-02-22,39.42160997935924,10,Región de Los Lagos
+2022-02-22,31.78138898813557,14,Región de Los Ríos
+2022-02-22,26.01450981711351,12,Región de Magallanes y la Antártica Chilena
+2022-02-22,20.860928017388897,1,Región de Tarapacá
+2022-02-22,20.93746970925991,5,Región de Valparaíso
+2022-02-22,28.045388099748994,8,Región del Biobío
+2022-02-22,15.968712382562966,6,Región del Libertador General Bernardo OHiggins
+2022-02-22,28.10487137557766,7,Región del Maule
+2022-02-22,29.627544467707033,16,Región del Ñuble
+2022-02-22,17.110986831870537,13,Región Metropolitana de Santiago
+2022-02-23,27.819453237243696,2,Región de Antofagasta
+2022-02-23,26.631232398556186,15,Región de Arica y Parinacota
+2022-02-23,31.384548900730515,3,Región de Atacama
+2022-02-23,41.37114737597509,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-23,23.189920774647888,4,Región de Coquimbo
+2022-02-23,28.3060069424248,9,Región de la Araucanía
+2022-02-23,37.54711478057973,10,Región de Los Lagos
+2022-02-23,31.059420700531003,14,Región de Los Ríos
+2022-02-23,25.24080241307005,12,Región de Magallanes y la Antártica Chilena
+2022-02-23,20.78777761231853,1,Región de Tarapacá
+2022-02-23,20.516587846972456,5,Región de Valparaíso
+2022-02-23,28.524441965359056,8,Región del Biobío
+2022-02-23,15.783053145965495,6,Región del Libertador General Bernardo OHiggins
+2022-02-23,26.729355557145748,7,Región del Maule
+2022-02-23,28.456595725548382,16,Región del Ñuble
+2022-02-23,16.764159136066734,13,Región Metropolitana de Santiago
+2022-02-24,27.171917774559372,2,Región de Antofagasta
+2022-02-24,26.02435444845504,15,Región de Arica y Parinacota
+2022-02-24,30.666425173731923,3,Región de Atacama
+2022-02-24,39.423283036804385,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-24,22.63496057868953,4,Región de Coquimbo
+2022-02-24,27.61393335390494,9,Región de la Araucanía
+2022-02-24,35.70178587454007,10,Región de Los Lagos
+2022-02-24,29.89885051806769,14,Región de Los Ríos
+2022-02-24,25.263228714636526,12,Región de Magallanes y la Antártica Chilena
+2022-02-24,20.542201252439437,1,Región de Tarapacá
+2022-02-24,19.84317686731253,5,Región de Valparaíso
+2022-02-24,28.294231638472414,8,Región del Biobío
+2022-02-24,15.709394861880627,6,Región del Libertador General Bernardo OHiggins
+2022-02-24,25.44306716174635,7,Región del Maule
+2022-02-24,27.535866414101427,16,Región del Ñuble
+2022-02-24,16.340162893325743,13,Región Metropolitana de Santiago
+2022-02-25,26.596651894763923,2,Región de Antofagasta
+2022-02-25,26.444805838721194,15,Región de Arica y Parinacota
+2022-02-25,30.60922947866124,3,Región de Atacama
+2022-02-25,36.878943493294315,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-25,21.911359461114515,4,Región de Coquimbo
+2022-02-25,26.602441186068223,9,Región de la Araucanía
+2022-02-25,34.00901911513955,10,Región de Los Lagos
+2022-02-25,29.169490063695836,14,Región de Los Ríos
+2022-02-25,24.607259393817067,12,Región de Magallanes y la Antártica Chilena
+2022-02-25,21.01245385646323,1,Región de Tarapacá
+2022-02-25,19.23047490778861,5,Región de Valparaíso
+2022-02-25,28.058010598090036,8,Región del Biobío
+2022-02-25,15.499519203118268,6,Región del Libertador General Bernardo OHiggins
+2022-02-25,24.390890321828294,7,Región del Maule
+2022-02-25,26.083420812392117,16,Región del Ñuble
+2022-02-25,16.11333413414675,13,Región Metropolitana de Santiago
+2022-02-26,25.869619890901838,2,Región de Antofagasta
+2022-02-26,26.02832097100472,15,Región de Arica y Parinacota
+2022-02-26,30.326428541922855,3,Región de Atacama
+2022-02-26,36.10538971266671,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-26,21.822852878138395,4,Región de Coquimbo
+2022-02-26,26.047402111514547,9,Región de la Araucanía
+2022-02-26,32.791887283496365,10,Región de Los Lagos
+2022-02-26,27.89557332413419,14,Región de Los Ríos
+2022-02-26,24.28207802110315,12,Región de Magallanes y la Antártica Chilena
+2022-02-26,19.575570899723857,1,Región de Tarapacá
+2022-02-26,19.21619043246249,5,Región de Valparaíso
+2022-02-26,27.9726584664506,8,Región del Biobío
+2022-02-26,15.521717590102748,6,Región del Libertador General Bernardo OHiggins
+2022-02-26,23.999526476250043,7,Región del Maule
+2022-02-26,25.037581785589314,16,Región del Ñuble
+2022-02-26,15.981889145105422,13,Región Metropolitana de Santiago
+2022-02-27,25.86817449924406,2,Región de Antofagasta
+2022-02-27,25.707032644480584,15,Región de Arica y Parinacota
+2022-02-27,29.989609448728825,3,Región de Atacama
+2022-02-27,35.90967128624286,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-27,21.540588640538886,4,Región de Coquimbo
+2022-02-27,25.890650401294238,9,Región de la Araucanía
+2022-02-27,32.72682401507673,10,Región de Los Lagos
+2022-02-27,27.04547414589673,14,Región de Los Ríos
+2022-02-27,23.928863771431132,12,Región de Magallanes y la Antártica Chilena
+2022-02-27,19.100093266766464,1,Región de Tarapacá
+2022-02-27,19.104465429018912,5,Región de Valparaíso
+2022-02-27,28.18183129610217,8,Región del Biobío
+2022-02-27,15.481356886494602,6,Región del Libertador General Bernardo OHiggins
+2022-02-27,23.85640922346522,7,Región del Maule
+2022-02-27,24.556691317190268,16,Región del Ñuble
+2022-02-27,15.845151895269359,13,Región Metropolitana de Santiago
+2022-02-28,25.307362536026385,2,Región de Antofagasta
+2022-02-28,24.251318868747767,15,Región de Arica y Parinacota
+2022-02-28,30.202504535936374,3,Región de Atacama
+2022-02-28,34.688761102360736,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-02-28,21.383908067973056,4,Región de Coquimbo
+2022-02-28,25.855159448036808,9,Región de la Araucanía
+2022-02-28,30.768195279547697,10,Región de Los Lagos
+2022-02-28,26.500917860706934,14,Región de Los Ríos
+2022-02-28,22.639351431358698,12,Región de Magallanes y la Antártica Chilena
+2022-02-28,18.736953755881423,1,Región de Tarapacá
+2022-02-28,18.92539932760934,5,Región de Valparaíso
+2022-02-28,27.783320991334953,8,Región del Biobío
+2022-02-28,15.181678662204117,6,Región del Libertador General Bernardo OHiggins
+2022-02-28,23.659402140928087,7,Región del Maule
+2022-02-28,23.33687159247074,16,Región del Ñuble
+2022-02-28,15.646507501718137,13,Región Metropolitana de Santiago
+2022-03-01,24.561540440613193,2,Región de Antofagasta
+2022-03-01,23.557177422553647,15,Región de Arica y Parinacota
+2022-03-01,29.843442672437078,3,Región de Atacama
+2022-03-01,31.958023057494618,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-03-01,20.999980863441518,4,Región de Coquimbo
+2022-03-01,25.166043438955068,9,Región de la Araucanía
+2022-03-01,29.80682939962308,10,Región de Los Lagos
+2022-03-01,24.694765113900967,14,Región de Los Ríos
+2022-03-01,21.624561285475604,12,Región de Magallanes y la Antártica Chilena
+2022-03-01,18.682090952078646,1,Región de Tarapacá
+2022-03-01,18.081084803869054,5,Región de Valparaíso
+2022-03-01,26.512055086987047,8,Región del Biobío
+2022-03-01,14.956667739588703,6,Región del Libertador General Bernardo OHiggins
+2022-03-01,23.65851870109608,7,Región del Maule
+2022-03-01,22.130735742868257,16,Región del Ñuble
+2022-03-01,15.323187289909553,13,Región Metropolitana de Santiago
+2022-03-02,23.69430544594669,2,Región de Antofagasta
+2022-03-02,23.596842648050455,15,Región de Arica y Parinacota
+2022-03-02,28.321401675833865,3,Región de Atacama
+2022-03-02,31.081950101121187,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-03-02,20.503626377832212,4,Región de Coquimbo
+2022-03-02,24.455238513993788,9,Región de la Araucanía
+2022-03-02,28.302521762541506,10,Región de Los Lagos
+2022-03-02,23.657397710892354,14,Región de Los Ríos
+2022-03-02,20.419147576277457,12,Región de Magallanes y la Antártica Chilena
+2022-03-02,18.940729884291734,1,Región de Tarapacá
+2022-03-02,17.616839355770164,5,Región de Valparaíso
+2022-03-02,25.166857406641597,8,Región del Biobío
+2022-03-02,14.646899339396183,6,Región del Libertador General Bernardo OHiggins
+2022-03-02,24.071968542474462,7,Región del Maule
+2022-03-02,21.53841943423041,16,Región del Ñuble
+2022-03-02,15.016359239647352,13,Región Metropolitana de Santiago
+2022-03-03,23.400890939417852,2,Región de Antofagasta
+2022-03-03,22.88683511165761,15,Región de Arica y Parinacota
+2022-03-03,27.409448093317955,3,Región de Atacama
+2022-03-03,29.311164338238722,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-03-03,20.30628061849357,4,Región de Coquimbo
+2022-03-03,23.706970916149665,9,Región de la Araucanía
+2022-03-03,26.81055371084986,10,Región de Los Lagos
+2022-03-03,22.748161198516637,14,Región de Los Ríos
+2022-03-03,19.174487839337974,12,Región de Magallanes y la Antártica Chilena
+2022-03-03,18.982530115760515,1,Región de Tarapacá
+2022-03-03,17.24544299729105,5,Región de Valparaíso
+2022-03-03,24.417922505073044,8,Región del Biobío
+2022-03-03,14.425924487141584,6,Región del Libertador General Bernardo OHiggins
+2022-03-03,23.733611086816516,7,Región del Maule
+2022-03-03,20.90309666093899,16,Región del Ñuble
+2022-03-03,14.768607588954287,13,Región Metropolitana de Santiago
+2022-03-04,22.675304327213546,2,Región de Antofagasta
+2022-03-04,21.91900360953552,15,Región de Arica y Parinacota
+2022-03-04,25.966845562090693,3,Región de Atacama
+2022-03-04,28.332572206119462,11,Región de Aysén del General Carlos Ibáñez del Campo
+2022-03-04,19.471448254745866,4,Región de Coquimbo
+2022-03-04,22.37310258955797,9,Región de la Araucanía
+2022-03-04,25.33204702503814,10,Región de Los Lagos
+2022-03-04,20.939544396121576,14,Región de Los Ríos
+2022-03-04,19.028716879155873,12,Región de Magallanes y la Antártica Chilena
+2022-03-04,18.248413550590037,1,Región de Tarapacá
+2022-03-04,16.579684415127257,5,Región de Valparaíso
+2022-03-04,23.765159019436243,8,Región del Biobío
+2022-03-04,13.94966818456546,6,Región del Libertador General Bernardo OHiggins
+2022-03-04,23.479180415199053,7,Región del Maule
+2022-03-04,19.84357375901914,16,Región del Ñuble
+2022-03-04,14.38756481173336,13,Región Metropolitana de Santiago
