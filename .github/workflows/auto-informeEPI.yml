@@ -7,8 +7,8 @@ name: Actualiza Informe EPI
 on:
     workflow_dispatch:
     schedule:
-      #- cron:  '15 22 * * WED'
-      #- cron:  '00 16 * * SAT'
+      - cron:  '15 22 * * WED'
+      - cron:  '00 16 * * SAT'
       # Allows you to run this workflow manually from the Actions tab
 
 
