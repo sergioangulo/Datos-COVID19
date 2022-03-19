@@ -22,7 +22,25 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - name: 'Check out our repo'
+      uses: actions/checkout@v2
+      with:
+          path: Datos-COVID19
+
+    - name: 'Check out MinCienciaDataPreparation'
+      uses: actions/checkout@v2
+      with:
+          repository: MinCiencia/MinCienciaDataPreparation
+          token: ${{ secrets.PRIVATE_PAT }}
+          path: MinCienciaDataPreparation
+
+    - name: transfer files
+      run: |
+          pwd
+          ls
+          ls -la Datos-COVID19/input/InformeTesteoTrazabilidad
+          rsync -auH MinCienciaDataPreparation/output/InformeTesteoTrazabilidad/. Datos-COVID19/input/InformeTesteoTrazabilidad
+          ls -la Datos-COVID19/input/InformeTesteoTrazabilidad
 
     # Sets up python
     - name: Set up Python 3.7
