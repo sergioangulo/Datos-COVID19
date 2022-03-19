@@ -6,9 +6,8 @@ name: Actualiza_productos_UC
 # events but only for the master branch
 on:
   workflow_dispatch:
-
-
-
+  schedule:
+    - cron:  '0 15 * * SAT'  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,10 +19,25 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Check out our repo
+    - name: 'Check out our repo'
       uses: actions/checkout@v2
       with:
-        path: Datos-COVID19
+          path: Datos-COVID19
+
+    - name: 'Check out MinCienciaDataPreparation'
+      uses: actions/checkout@v2
+      with:
+          repository: MinCiencia/MinCienciaDataPreparation
+          token: ${{ secrets.PRIVATE_PAT }}
+          path: MinCienciaDataPreparation
+          
+    - name: transfer files
+      run: |
+          pwd
+          ls
+          ls -la Datos-COVID19/input/UC
+          rsync -auH MinCienciaDataPreparation/output/UC/. Datos-COVID19/input/UC
+          ls -la Datos-COVID19/input/UC
 
       # Sets up python
     - name: Set up Python 3.8
@@ -40,7 +54,6 @@ jobs:
     - name: generate products for UC
       run: |
           pwd
-          ls
           ls -la Datos-COVID19/input/UC
           cd Datos-COVID19/src
           python UC.py
