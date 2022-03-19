@@ -29,7 +29,7 @@ from utils import *
 def prod41(fte, prod):
     df_comuna = pd.read_csv(fte + 'TransaccionesBipComuna.csv')
     # No podemos normalizar estandar por comunas '-'
-    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+    df_dim_comunas = pd.read_excel("https://github.com/MinCiencia/Datos-COVID19/raw/master/input/Otros/CUT_2018_v04.xls",
                                    encoding="utf-8")
     df_dim_comunas["Comuna"] = df_dim_comunas["Nombre Comuna"].str.normalize("NFKD") \
         .str.encode("ascii", errors="ignore").str.decode("utf-8").str.lower().str.replace(' ', '')
