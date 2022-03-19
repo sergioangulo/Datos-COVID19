@@ -7,7 +7,7 @@ name: Actualiza_productos_UC
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 15 * * SAT'  
+    - cron:  '20 14 * * THU'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
