@@ -188,7 +188,7 @@ def normalizaNombreCodigoRegionYCodigoComuna(df):
     #                                      })
 
     # Lee IDs de comunas desde página web oficial de SUBDERE
-    df_dim_comunas = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+    df_dim_comunas = pd.read_excel("https://github.com/MinCiencia/Datos-COVID19/raw/master/input/Otros/CUT_2018_v04.xls",
                                    encoding="utf-8")
 
     ##AYSEN issue
@@ -229,7 +229,7 @@ def normalizaNombreCodigoRegionYCodigoComuna(df):
 ########
 def normalizaNombreCodigoRegionYProvincia(df):
     # Lee IDs de provincias desde página web oficial de SUBDERE
-    df_dim_provincias = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+    df_dim_provincias = pd.read_excel("https://github.com/MinCiencia/Datos-COVID19/raw/master/input/Otros/CUT_2018_v04.xls",
                                       encoding="utf-8")
 
     df_dim_provincias.drop(columns=['Código Comuna 2018',
@@ -261,7 +261,7 @@ def normalizaNombreCodigoRegionYProvincia(df):
 
 def normalizaNombreCodigoRegion(df):
     # Lee IDs de provincias desde página web oficial de SUBDERE
-    df_dim_regiones = pd.read_excel("http://www.subdere.gov.cl/sites/default/files/documentos/CUT_2018_v04.xls",
+    df_dim_regiones = pd.read_excel("https://github.com/MinCiencia/Datos-COVID19/raw/master/input/Otros/CUT_2018_v04.xls",
                                     encoding="utf-8")
 
     df_dim_regiones.drop(columns=['Código Comuna 2018',
