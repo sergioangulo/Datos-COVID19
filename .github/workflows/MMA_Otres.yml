@@ -5,6 +5,7 @@ name: Actualiza_productos_de_MMA_otres
 on:
     #push
   # github runners are on GMT
+    workflow_dispatch:
     schedule:
       # run every sunday at 15:00 chilito
       - cron:  '0 18 * * 0'
