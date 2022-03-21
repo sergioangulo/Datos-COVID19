@@ -6,8 +6,8 @@ name: Actualiza Balance Vacunacion
 # events but only for the master branch
 on:
     workflow_dispatch:
-    schedule:
-      - cron:  '15 11 * * *'
+    #schedule:
+      #- cron:  '15 11 * * *'
       # Allows you to run this workflow manually from the Actions 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
