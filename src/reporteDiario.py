@@ -126,7 +126,8 @@ def prod5(fte, producto):
     # last_row = df_input_file[df_input_file['Fecha'] == timestamp]
     # last_row debería ser la última fila. Puede darse que el la ultima fila no sea el día actual (por ej, procesar un día anterior)
     last_row =  df_input_file.tail(1)
-    # print(last_row.to_string())
+    print("Última fecha registada:")
+    print(last_row["Fecha"].to_string())
 
     df_output_file = pd.read_csv(producto)
 
