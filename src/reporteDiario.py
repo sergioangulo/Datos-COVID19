@@ -62,8 +62,16 @@ import os.path
 
 def prod4(fte, producto):
     print('Generando producto 4')
-    now = datetime.now()
-    today = now.strftime("%Y-%m-%d")
+
+    onlyfiles = [f for f in listdir("../input/ReporteDiario/CasosConfirmados/") if isfile(join("../input/ReporteDiario/CasosConfirmados/", f))]
+    onlyfiles.sort( reverse=True )
+    today = onlyfiles[0].split("_")[0]
+    print("Fecha del ultimo insumo")
+    print(today)
+
+    # now = datetime.now()
+    # today = now.strftime("%Y-%m-%d")
+    
     output = producto + today + '-CasosConfirmados-totalRegional.csv'
     df = pd.read_csv(fte, quotechar='"', sep=',', thousands=r'.', decimal=",")
     df.rename(columns={'Unnamed: 0': 'Region'}, inplace=True)
@@ -115,7 +123,9 @@ def prod5(fte, producto):
                                   'Casos nuevos reportados por laboratorio': 'Casos nuevos sin notificar'}, inplace=True)
 
     # print(timestamp)
-    last_row = df_input_file[df_input_file['Fecha'] == timestamp]
+    # last_row = df_input_file[df_input_file['Fecha'] == timestamp]
+    # last_row debería ser la última fila. Puede darse que el la ultima fila no sea el día actual (por ej, procesar un día anterior)
+    last_row =  df_input_file.tail(1)
     # print(last_row.to_string())
 
     df_output_file = pd.read_csv(producto)
