@@ -71,9 +71,9 @@ def prod4(fte, producto):
 
     # now = datetime.now()
     # today = now.strftime("%Y-%m-%d")
-    
+    print("Utilizar archivo: ", "../input/ReporteDiario/CasosConfirmados/" + today + "_CasosConfirmados.csv")
     output = producto + today + '-CasosConfirmados-totalRegional.csv'
-    df = pd.read_csv(fte, quotechar='"', sep=',', thousands=r'.', decimal=",")
+    df = pd.read_csv("../input/ReporteDiario/CasosConfirmados/" + today + "_CasosConfirmados.csv", quotechar='"', sep=',', thousands=r'.', decimal=",")
     df.rename(columns={'Unnamed: 0': 'Region'}, inplace=True)
     if 'Unnamed: 7' in df.columns:
         df.drop(columns=['Unnamed: 7'], inplace=True)
