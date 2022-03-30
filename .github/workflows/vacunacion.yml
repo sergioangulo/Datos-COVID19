@@ -6,21 +6,39 @@ name: Actualiza_info_campaña_vacunación
 # events but only for the master branch
 on:
     workflow_dispatch:
-    push:
-        branches: master
-        paths: 'input/Vacunacion/*.csv'
+    #push:
+    #    branches: master
+    #    paths: 'input/Vacunacion/*.csv'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  Actualiza_productos_de_campana_de_vacunacion:
+  Actualiza_campana_de_vacunacion:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - name: 'Check out our repo'
+      uses: actions/checkout@v2
+      with:
+          path: Datos-COVID19
+
+    - name: 'Check out MinCienciaDataPreparation'
+      uses: actions/checkout@v2
+      with:
+          repository: MinCiencia/MinCienciaDataPreparation
+          token: ${{ secrets.PRIVATE_PAT }}
+          path: MinCienciaDataPreparation
+          
+    - name: transfer files
+      run: |
+          pwd
+          ls
+          ls -la Datos-COVID19/input/Vacunacion
+          rsync -auH MinCienciaDataPreparation/output/Vacunacion/. Datos-COVID19/input/Vacunacion
+          ls -la Datos-COVID19/input/Vacunacion
 
     # Sets up python
     - name: Set up Python 3.7
@@ -32,11 +50,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r Datos-COVID19/requirements.txt
 
     - name: generate products from Reporte Diario
       run: |
-          cd src
+          cd Datos-COVID19/src
           python vacunacion.py &&\
           python tweet.py ${{ secrets.TWITTER_API_KEY }} ${{ secrets.TWITTER_API_SECRET }}  \
                       ${{ secrets.TWITTER_ACCESS_TOKEN }}  ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
@@ -56,10 +74,3 @@ jobs:
         commit_user_name: MinCiencia GitHub Actions Bot
         commit_user_email: actions@github.com
         commit_author: minciencia github bot <actions@github.com>
-
-
-    - name: update_API
-      run: |
-        curl -u "${{ secrets.DO_INT_USER }}:${{ secrets.DO_INT_PASS }}" \
-        -H 'Accept: application/vnd.github.everest-preview+json'  "https://api.github.com/repos/Data-Observatory/covid19-API/dispatches" \
-        -d '{"event_type": "update_please_from_reporte_diario"}'
