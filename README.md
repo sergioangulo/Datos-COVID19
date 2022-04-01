@@ -239,6 +239,9 @@ Media móvil de los últimos 7 días de ingresos a hospitalización por covid en
 [Data Product 93 - Contactos Estrechos por Caso Notificado Por Comuna](output/producto93)
 Contactos estrechos identificados por seremi, por comuna, en promedio por caso confirmado [Ver más](output/producto93)
 
+[Data Product 95 - Defunciones sospechosas acumuladas por COVID en Chile (reporte diario)](output/producto95)
+Fallecimientos confirmados y sospechosos por COVID según reporte diario [Ver más](output/producto95)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario del Ministerio de Salud de Chile

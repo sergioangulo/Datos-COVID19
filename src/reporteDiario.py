@@ -916,6 +916,20 @@ def prod49(fte,fte3, fte2, producto):
     # print(df_std.to_string())
     df_std.to_csv(producto + '_Ag_std.csv', index=False)
 
+def prod95(fte, producto):
+    df = pd.read_csv(fte)
+    df = df [["Fecha", "Fallecidos confirmados totales", "Fallecidos sospechosos probables u otros totales"]]
+    df.columns = ["Categoria", "Confirmados", "Sospechosos"]
+    df = df.T
+    df.to_csv(producto + '.csv', header=False)
+    df = pd.read_csv(producto + '.csv')
+    df_t = df.T
+    df_t.to_csv(producto + '_T.csv', header=False)
+    identifiers = ['Categoria']
+    variables = [x for x in df.columns if x not in identifiers]
+    df_std = pd.melt(df, id_vars=identifiers, value_vars=variables,  var_name='Fecha', value_name='Cantidad')
+    df_std.to_csv(producto + '_std.csv', index=False)
+
 if __name__ == '__main__':
     prod4('../input/ReporteDiario/CasosConfirmados.csv', '../output/producto4/')
     prod5('../input/ReporteDiario/', '../output/producto5/TotalesNacionales.csv')
@@ -969,3 +983,6 @@ if __name__ == '__main__':
 
     print('Generando producto 49')
     prod49('../input/ReporteDiario/PCREstablecimiento.csv','../input/ReporteDiario/Ag.csv','../output/producto5/TotalesNacionales.csv', '../output/producto49/Positividad_Diaria_Media')
+
+    print('Generando producto 95')
+    prod95('../input/ReporteDiario/CasosConfirmadosTotales.csv', '../output/producto95/FallecimientosSospechosos')
