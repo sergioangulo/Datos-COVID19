@@ -72,6 +72,7 @@ jobs:
             # only remove files from input/RegistroCivil
             # then add the new ones
       run: |
+              git status
               for i in $(git status input/RegistroCivil | grep deleted | awk '{print $2}'); do
                 echo git rm $i;
                 git rm $i;
