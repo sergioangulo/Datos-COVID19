@@ -41,7 +41,7 @@ def prod74(fte,producto):
     var_aux = [x for x in df.columns if x not in identifiers]
     sorted_columns = identifiers + var_aux
     df = df[sorted_columns]
-    df[variables] = df[variables].fillna(0).astype(int)
+    df[variables] = df[variables].fillna(0)
     df.to_csv(producto + '.csv', index=False)
 
 
@@ -50,7 +50,7 @@ def prod74(fte,producto):
     #print(df_t)
 
     df_std = pd.melt(df, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Paso')
-    df_std['Paso'] = df_std['Paso'].fillna(0).astype(int)
+    df_std['Paso'] = df_std['Paso'].fillna(0)
     #print(df_std)
     df_std.to_csv(producto + '_std.csv', index=False)
 
