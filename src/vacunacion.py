@@ -465,7 +465,7 @@ class vacunacion:
 
             #Por región, totales
             self.last_added.rename(columns={'NOMBRE_REGION': 'Region',
-                                            'SEXO': 'Sexo',
+                                            'SEXO1': 'Sexo',
                                             'EDAD_ANOS': 'Edad',
                                             'POBLACION':'Poblacion',
                                             'SUM_of_1aDOSIS': 'Primera',
