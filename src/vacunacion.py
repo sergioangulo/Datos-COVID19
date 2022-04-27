@@ -185,7 +185,10 @@ class vacunacion:
             self.last_added.rename(columns={'Type': 'Fabricante'}, inplace=True)
 
             self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
-                                                                         "Second": "Segunda"
+                                                                         "Second": "Segunda",
+                                                                         "Third": "Tercera",
+                                                                         "Fourth": "Cuarta",
+                                                                         "Unique": "Unica"
                                                                          })
 
             identifiers = ['Fabricante', 'Dosis']
@@ -209,7 +212,10 @@ class vacunacion:
             utils.regionName(self.last_added)
 
             self.last_added["Dosis"] = self.last_added["Dosis"].replace({"First": "Primera",
-                                                                         "Second": "Segunda"
+                                                                         "Second": "Segunda",
+                                                                         "Third": "Tercera",
+                                                                         "Fourth": "Cuarta",
+                                                                         "Unique": "Unica"
                                                                          })
 
             identifiers = ['Region', 'Dosis']
