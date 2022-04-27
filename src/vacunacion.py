@@ -36,13 +36,13 @@ class vacunacion:
         self.indicador = indicador
         self.my_files = {
             'vacunacion_fabricante':
-                'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination-type.csv',
+                'https://raw.githubusercontent.com/IgnacioAcunaF/covid19-vaccination/master/output/chile-vaccination-type.csv',
             'vacunacion_region':
-                'https://raw.githubusercontent.com/juancri/covid19-vaccination/master/output/chile-vaccination.csv',
+                'https://raw.githubusercontent.com/IgnacioAcunaF/covid19-vaccination/master/output/chile-vaccination.csv',
             'vacunacion_edad':
-                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-ages.csv',
+                'https://github.com/IgnacioAcunaF/covid19-vaccination/raw/master/output/chile-vaccination-ages.csv',
             'vacunacion_grupo':
-                'https://github.com/juancri/covid19-vaccination/raw/master/output/chile-vaccination-groups.csv',
+                'https://github.com/IgnacioAcunaF/covid19-vaccination/raw/master/output/chile-vaccination-groups.csv',
         }
         self.path = '../input/Vacunacion'
 
