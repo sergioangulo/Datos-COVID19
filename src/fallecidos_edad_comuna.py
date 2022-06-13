@@ -232,7 +232,8 @@ class p84:
         identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna','Edad']
         variables = [x for x in outputDF3_c.columns if x not in identifiers]
         outputDF3_std = pd.melt(outputDF3_c, id_vars=identifiers, value_vars=variables, var_name='Fecha', value_name='Total')
-        outputDF3_std.to_csv(name.replace('.csv', '_std.csv'), index=False)
+        outputDF3_std.iloc[:1940023, :].to_csv(name.replace('.csv', '_std_A.csv'), index=False)
+        outputDF3_std.iloc[1940023:, :].to_csv(name.replace('.csv', '_std_B.csv'), index=False)
 
         name = self.output + '_sospechosas.csv'
         outputDF3_s.to_csv(name, index=False)
