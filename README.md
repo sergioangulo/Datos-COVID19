@@ -242,6 +242,9 @@ Contactos estrechos identificados por seremi, por comuna, en promedio por caso c
 [Data Product 95 - Defunciones sospechosas acumuladas por COVID en Chile (reporte diario)](output/producto95)
 Fallecimientos confirmados y sospechosos por COVID según reporte diario [Ver más](output/producto95)
 
+[Data Product 96 - Estimación de exceso de mortalidad elaborado DEIS (datos abiertos DEIS)](output/producto96)
+Modelo para estimar exceso de mortalidad elaborado con la información de Datos Abiertos del Departamento de Estadísticas e Información de Salud [Ver más](output/producto96)
+
 ## ¿Cómo funciona?
 Tenemos las siguientes fuentes de datos: 
 1. El reporte diario del Ministerio de Salud de Chile
