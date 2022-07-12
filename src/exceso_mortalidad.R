@@ -182,4 +182,4 @@ if(file.exists("../output/producto96/Exceso_Mortalidad.csv")){
 }
 
 file.create("../output/producto96/Exceso_Mortalidad.csv")
-write.csv2(def_nac.ag_exc, file = "../output/producto96/Exceso_Mortalidad.csv")
+write.csv(def_nac.ag_exc, file = "../output/producto96/Exceso_Mortalidad.csv", row.names = FALSE)
