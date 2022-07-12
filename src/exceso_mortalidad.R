@@ -180,6 +180,15 @@ sum(def_nac.ag_exc$covid)
 if(file.exists("../output/producto96/Exceso_Mortalidad.csv")){
    file.remove("../output/producto96/Exceso_Mortalidad.csv")
 }
+if(file.exists("../output/producto96/Exceso_Mortalidad_T.csv")){
+   file.remove("../output/producto96/Exceso_Mortalidad_T.csv")
+}
 
 file.create("../output/producto96/Exceso_Mortalidad.csv")
+file.create("../output/producto96/Exceso_Mortalidad_T.csv")
+
 write.csv(def_nac.ag_exc, file = "../output/producto96/Exceso_Mortalidad.csv", row.names = FALSE)
+
+transpuesta <- data.frame(t(def_nac.ag_exc))
+colnames(transpuesta) <- paste(transpuesta[1, ], "-" , transpuesta[2, ], sep="")
+write.csv(transpuesta, file = "../output/producto96/Exceso_Mortalidad_T.csv")
