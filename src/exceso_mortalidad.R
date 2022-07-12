@@ -151,7 +151,7 @@ ggplot(data = def_nac.ag_glm1, aes(x = fecha, y = conteo)) +
   labs(title = "Exceso de mortalidad para todos los grupos de edad. Chile, 2020-2022", subtitle = "Defunciones estimadas para el período en línea punteada azul, defunciones observadas en puntos negros y defunciones por COVID-19 (U07.1 y U07.2) por sobre defunciones esperadas en línea roja") +
   geom_vline(xintercept = ymd('2020-03-12')) +
   geom_ribbon(aes(ymin = pred_lb_glm, ymax = pred_ub_glm), alpha = .15) +
-  scale_x_date(date_breaks="3 month", date_labels = "%b %Y") +
+  scale_x_date(date_breaks="6 month", date_labels = "%b %Y") +
   xlab("Semana epidemiológica") +
   ylab("N° de defunciones semanales") +
   theme_classic() +
