@@ -331,11 +331,11 @@ def prod19_25_38(fte, producto):
 
 
 def prod21_22(fte, producto):
-    HospitalizadosEtario_T = utils.transpone_csv(producto + '.csv')
-    HospitalizadosEtario_T.to_csv(producto + '_T.csv', header=False)
     df = pd.read_csv(fte)
     df = df.replace('-', '', regex=True)
     df.to_csv(producto + '.csv', index=False)
+    HospitalizadosEtario_T = utils.transpone_csv(producto + '.csv')
+    HospitalizadosEtario_T.to_csv(producto + '_T.csv', header=False)
     if '21' in producto:
         print('prod21')
         identifiers = ['Sintomas']
