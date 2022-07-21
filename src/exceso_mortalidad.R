@@ -10,13 +10,21 @@
 # Ariel Karlinsky and Dmitry Kobak (2021): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8331176/
 # The Economist: https://www.economist.com/graphic-detail/coronavirus-excess-deaths-tracker
 
+install.packages("readr")
 library(readr)
+install.packages("dplyr")
 library(dplyr)
+install.packages("tidyr")
 library(tidyr)
+install.packages("lubridate")
 library(lubridate)
+install.packages("MASS")
 library(MASS)
+install.packages("mgcv")
 library(mgcv)
+install.packages("ggplot2")
 library(ggplot2)
+install.packages("visreg")
 library(visreg)
 install.packages("httr")
 library(httr)
