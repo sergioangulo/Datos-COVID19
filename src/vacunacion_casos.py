@@ -41,7 +41,12 @@ import os.path
 
 
 def prod89(fte, producto):
-    df_output_file = pd.read_csv(fte + 'incidencia_estado_vacunacion.csv')
+    df_output_file = pd.read_csv(fte + 'incidencia_estado_vacunacion.csv', encoding = "ISO-8859-1")
+    df_output_file.replace('Ã±','ñ', regex=True, inplace = True)
+    df_output_file.replace('Â°','°', regex=True, inplace = True)
+    df_output_file.replace('Ã¡','á', regex=True, inplace = True)
+    df_output_file.replace('Ã­','í', regex=True, inplace = True)
+
     # df_output_file['incidencia_casos'] = ((df_output_file['casos_confirmados'] / df_output_file['poblacion'] ) * 100000).astype(float)
     # df_output_file['incidencia_uci'] = ((df_output_file['casos_uci'] / df_output_file['poblacion'] ) * 100000).astype(float)
     # df_output_file['incidencia_def'] = ((df_output_file['casos_def'] / df_output_file['poblacion'] ) * 100000).astype(float)
