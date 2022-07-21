@@ -18,6 +18,7 @@ library(MASS)
 library(mgcv)
 library(ggplot2)
 library(visreg)
+install.packages("httr")
 library(httr)
 png("../output/producto96/Exceso_Mortalidad.png")
 
