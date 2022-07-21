@@ -23,7 +23,7 @@ png("../output/producto96/Exceso_Mortalidad.png")
 
 
 # Descargar información directamente desde DatosAbiertos DEIS
-for (x in 0:7) {
+for (x in 0:6) {
   fecha <- Sys.Date() - x
   fecha <- paste( sprintf("%02d", day(fecha)), sprintf("%02d", month(fecha)),year(fecha), sep="")
   print("Intentando fecha:")
@@ -33,6 +33,9 @@ for (x in 0:7) {
      print("Se encontró información")
      archivo <- paste("DEFUNCIONES_FUENTE_DEIS_2016_2022_", fecha, ".csv", sep="")
      break
+  }
+  if(x == 6){
+    stop("No se encontró información")
   }
 }
 
