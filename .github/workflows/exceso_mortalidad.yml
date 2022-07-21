@@ -19,15 +19,6 @@ jobs:
     - name: Install dependencies
       run: |
         cd Datos-COVID19/src
-        R -e 'install.packages("httr")'
-        R -e 'install.packages("visreg")'
-        R -e 'install.packages("ggplot2")'
-        R -e 'install.packages("mgcv")'
-        R -e 'install.packages("MASS")'
-        R -e 'install.packages("lubridate")'
-        R -e 'install.packages("tidyr")'
-        R -e 'install.packages("dplyr")'
-        R -e 'install.packages("readr")'
         Rscript exceso_mortalidad.R
       
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
