@@ -89,8 +89,10 @@ def_nac.ag <- def_nac.ag[(def_nac.ag$semana != 53),] # Elimitar la semana 53 del
 
 def_nac.ag$t <- rep(c(1:(length(def_nac.ag$semana)))) # Crear variable para tendencia secular
 
-# semana_actual <- (as.integer(strftime(Sys.Date(), format = "%Y")) - 2015 - 1) * 52 + as.integer(strftime(Sys.Date(), format = "%V")) - 1 # Numero de semana actual, considerando 52 semanas desde los últimos 7 años (desde 2016)
-def_nac.ag <- def_nac.ag[!(def_nac.ag$t %in% c(339:364)),] # Eliminar período con registro incompleto para el año 2022
+semana_actual <- (as.integer(strftime(Sys.Date(), format = "%Y")) - 2015 - 1) * 52 + as.integer(strftime(Sys.Date(), format = "%V")) - 1 # Numero de semana actual, considerando 52 semanas desde los últimos 7 años (desde 2016)
+print("Semana actual:")
+print(semana_actual)
+def_nac.ag <- def_nac.ag[!(def_nac.ag$t %in% c(semana_actual:364)),] # Eliminar período con registro incompleto para el año 2022
 
 # Crear serie COVID
 
@@ -143,7 +145,11 @@ def_nac.ag_glm$pred_ub_glm <- def_nac.ag_glm$fit_glm + 1.96*def_nac.ag_glm$se_gl
 def_nac.ag_glm$covid <- def_nac.ag_glm$fit_glm + def_nac.ag_glm$covid
 
 def_nac.ag_glm1 <- def_nac.ag_glm[def_nac.ag_glm$t >=209,] # Selección de años 2020 a 2022
-def_nac.ag_glm1$fecha <- seq(ymd('2020-01-02'),ymd('2022-06-26'), by= 'weeks')  # Se genera secuencia temporal para el período
+
+periodo_corte <- Sys.Date() - as.integer(format(Sys.Date(), '%w')) + 7 - 21
+print("Periodo de corte:")
+print(periodo_corte)
+def_nac.ag_glm1$fecha <- seq(ymd('2020-01-02'),ymd(periodo_corte), by= 'weeks')  # Se genera secuencia temporal para el período
 
 ggplot(data = def_nac.ag_glm1, aes(x = fecha, y = conteo)) +
   geom_point() +
