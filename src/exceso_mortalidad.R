@@ -45,7 +45,7 @@ for (x in 0:6) {
      break
   }
   if(x == 6){
-    stop("No se encontró información")
+    print("No se encontró información")
   }
 }
 
