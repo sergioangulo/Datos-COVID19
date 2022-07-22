@@ -6,7 +6,7 @@ name: Actualiza_productos_de_informe_testeo_trazabilidad
 # events but only for the master branch
 on:
     schedule:
-      - cron:  '15 20 * * THU'
+      - cron:  '15 20 * * *'
     push:
         branches: master
         paths: 'input/InformeTesteoTrazabilidad/*.csv'
