@@ -238,24 +238,26 @@ def prod15(fte, prod):
     df_std.iloc[1500000:].to_csv(prod + '_2022_1st_b_std.csv', index=False)
 
     # normalization 2022 segunda mitad
-    # data_2022_2nd = pd.concat(data_2022_2nd)
-    # data_2022_2nd = data_2022_2nd.fillna(0)
-    # utils.regionName(data_2022_2nd)
-    # data_2022_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
-    # data_2022_2nd.to_csv(prod + '_2022_2nd.csv', index=False)
-    # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    # variables = [x for x in data_2022_2nd.columns if x not in identifiers]
-    # df_std = pd.melt(data_2022_2nd, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-    #                  value_name='Casos confirmados')
+    data_2022_2nd = pd.concat(data_2022_2nd)
+    data_2022_2nd = data_2022_2nd.fillna(0)
+    utils.regionName(data_2022_2nd)
+    data_2022_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2022_2nd.to_csv(prod + '_2022_2nd.csv', index=False)
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    variables = [x for x in data_2022_2nd.columns if x not in identifiers]
+    df_std = pd.melt(data_2022_2nd, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+                  value_name='Casos confirmados')
     # df_std.to_csv(prod + '_2022_2nd_std.csv', index=False)
+    df_std.iloc[:1500000].to_csv(prod + '_2022_2nd_a_std.csv', index=False)
+    df_std.iloc[1500000:].to_csv(prod + '_2022_2nd_b_std.csv', index=False)
 
     # create old prod 15 from latest adition
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto15/SemanasEpidemiologicas.csv')
 
-    latest = max(data_2022_1st['Publicacion'])
+    latest = max(data_2022_2nd['Publicacion'])
     print(latest)
-    latestdf = data_2022_1st.loc[data_2022_1st['Publicacion'] == latest]
+    latestdf = data_2022_2nd.loc[data_2022_2nd['Publicacion'] == latest]
     # print(latestdf)
     latestdf.drop(['Publicacion'], axis=1, inplace=True)
     latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)
