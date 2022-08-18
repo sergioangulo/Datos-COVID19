@@ -9,13 +9,20 @@ El archivo 'incidencia_en_vacunados_edad.csv' contiene las siguientes columnas:
 
 - 'grupo_edad' incidando el grupo de edad,
 
-- 'estado_vacunacion' corresponde al estado de vacunación la que se clasifica en protección completa entre 14 días y 6 meses para aquellas personas que han sido inoculadas con dos dosis y han transcurrido entre 14 días y 6 meses desde su
-  segunda inoculación o han recibido una vacuna de un esquema de vacunación que incluye únicamente una sola dosis y han transcurrido entre 14 días y 6 meses desde la inoculación, protección completa mayor a 6 meses para personas 
+- 'estado_vacunacion' corresponde al estado de vacunación la que se clasifica en 
+  - Esquema completo entre 14 días y 6 meses: aquellas personas que han sido inoculadas con dos dosis y han transcurrido entre 14 días y 6 meses desde su
+  segunda inoculación o han recibido una vacuna de un esquema de vacunación que incluye únicamente una sola dosis y han transcurrido entre 14 días y 6 meses desde la inoculación,
+  - Esquema completo mayor a 6 meses: personas 
   que han sido inoculadas con dos dosis y han transcurrido más de 6 meses desde su segunda inoculación o han recibido una vacuna de un esquema de vacunación que incluye únicamente una sola dosis y han transcurrido de más 6 meses desde la
-  inoculación, 1° dosis refuerzo entre 14 días y 6 meses para aquellas personas que han recibido una dosis de refuerzo a su esquema completo y han transcurrido entre 14 días y 6 meses desde su inoculación, 1° dosis refuerzo mayor a 6 meses
-  para aquellas personas que han recibido una dosis de refuerzo a su esquema completo y han transcurrido más de 6 meses desde su inoculación, 2° dosis refuerzo entre 14 días y 6 meses para aquellas personas que han recibido la segunda de 
-  dosis de refuerzo a su esquema completo y han transcurrido entre 14 días y 6 meses desde su inoculación, 2° dosis refuerzo más de 6 meses para aquellas personas que han recibido la segunda de dosis de refuerzo a su esquema completo y han
-  transcurrido más de 6 meses desde su inoculación. Esta variable toma el valor "sin esquema completo" si las personas no tienen un esquema completo de vacunación.
+  inoculación, 
+  - 1° dosis refuerzo entre 14 días y 6 meses: aquellas personas que han recibido una dosis de refuerzo a su esquema completo y han transcurrido entre 14 días y 6 meses desde su inoculación, 
+  - 1° dosis refuerzo mayor a 6 meses
+  para aquellas personas que han recibido una dosis de refuerzo a su esquema completo y han transcurrido más de 6 meses desde su inoculación, 
+  - 2° dosis refuerzo entre 14 días y 6 meses para aquellas personas que han recibido la segunda de 
+  dosis de refuerzo a su esquema completo y han transcurrido entre 14 días y 6 meses desde su inoculación, 
+  - 2° dosis refuerzo más de 6 meses para aquellas personas que han recibido la segunda de dosis de refuerzo a su esquema completo y han
+  transcurrido más de 6 meses desde su inoculación. 
+  - Esta variable toma el valor "sin esquema completo" si las personas no tienen un esquema completo de vacunación.
 
 - 'casos_confirmados' indicando el número de casos confirmados del grupo de edad y estado de vacunación correspondiente, y reportados durante la semana epidemiológica correspondiente.
 
