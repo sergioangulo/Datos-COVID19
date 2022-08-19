@@ -60,10 +60,10 @@ Asociado a los informes semanales, publicados por el Ministerio de Salud de Chil
 
 
 # NOTA ACLARATORIA:
-El producto 89 presenta los eventos de casos, ingresos UCI y defunciones, según ocurrencia en la semana de reporte. Estos son consolidados sin una actualización retrospectiva, por lo cual podría presentar diferencias con otros reportes que se emiten en paralelo.
+- El producto 89 presenta los eventos de casos, ingresos UCI y defunciones, según ocurrencia en la semana de reporte. Estos son consolidados sin una actualización retrospectiva, por lo cual podría presentar diferencias con otros reportes que se emiten en paralelo.
 
-El producto 90 presenta las cifras de casos, ingresos UCI y defunciones según semana de inicio de síntomas, no por  ocurrencia del evento, con actualización retrospectiva semanal, por lo cual podría presentar diferencias con otros reportes que se emiten en paralelo.
+- El producto 90 presenta las cifras de casos, ingresos UCI y defunciones según semana de inicio de síntomas, no por  ocurrencia del evento, con actualización retrospectiva semanal, por lo cual podría presentar diferencias con otros reportes que se emiten en paralelo.
 
-Los casos confirmados de SARS-CoV-2 totales, sintomáticos, ingresados hospitalizaión, ingreso a UCI y fallecidos reportados en este informe incorporan las modificaciones señaladas en el Ordinario B51/N°4518 del 15 de noviembre del 2021, lo que podría explicar variaciones en el número de casos por semanas epidemiológicas presentado en versiones previas. La información corresponde a data provisoria,en proceso de validación.
+- Los casos confirmados de SARS-CoV-2 totales, sintomáticos, ingresados hospitalizaión, ingreso a UCI y fallecidos reportados en este informe incorporan las modificaciones señaladas en el Ordinario B51/N°4518 del 15 de noviembre del 2021, lo que podría explicar variaciones en el número de casos por semanas epidemiológicas presentado en versiones previas. La información corresponde a data provisoria,en proceso de validación.
 
-
+- Para generar la categorización de estado de vacunación, se calcula el tiempo transcurrido entre la fecha de inicio síntomas y la última fecha de vacunación
