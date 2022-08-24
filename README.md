@@ -279,7 +279,7 @@ utilizando los mismos scripts, pero manualmente.
 
 # Contacto
 Si encuentras errores, por favor repórtalos [acá](https://github.com/MinCiencia/Datos-COVID19/issues). La automatización de este proceso y disposición de datos fue inicializada por @scornejob y @fzmolina, equipo 2019-2020 del Data Observatory (http://www.dataobservatory.net), y hoy es mantenida por el Equipo Futuro de @MinCiencia. Estan todas y todos coordialmente invitados a colaborar.
-Si has creado una solución que permita facilitar el trabajo con estos datos, algún análisis, o simplemente tienes una solicitud de data product considerando los datos que MINSAL hace públicos hoy, escríbenos a iacuna@minciencia.gob.cl
+Si has creado una solución que permita facilitar el trabajo con estos datos, algún análisis, o simplemente tienes una solicitud de data product considerando los datos que MINSAL hace públicos hoy, escríbenos a futuro@minciencia.gob.cl
 
 ## Agradecimientos
 
