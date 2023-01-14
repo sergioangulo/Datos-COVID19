@@ -37,10 +37,10 @@ for (x in 0:6) {
   fecha <- paste( sprintf("%02d", day(fecha)), sprintf("%02d", month(fecha)),year(fecha), sep="")
   print("Intentando fecha:")
   print(fecha)
-  r <- GET(paste("https://repositoriodeis.minsal.cl/DatosAbiertos/VITALES/DEFUNCIONES_FUENTE_DEIS_2016_2022_", fecha, ".zip", sep=""))
+  r <- GET(paste("https://repositoriodeis.minsal.cl/DatosAbiertos/VITALES/DEFUNCIONES_FUENTE_DEIS_1990_2022_", fecha, ".zip", sep=""))
   if(r$status_code == 200) {
      print("Se encontró información")
-     archivo <- paste("DEFUNCIONES_FUENTE_DEIS_2016_2022_", fecha, ".csv", sep="")
+     archivo <- paste("DEFUNCIONES_FUENTE_DEIS_1990_2022_", fecha, ".csv", sep="")
      continuar <- TRUE
      break
   }
