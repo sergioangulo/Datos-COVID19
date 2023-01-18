@@ -99,7 +99,6 @@ def prod2(fte, producto):
         aux.rename(columns={eachdate: 'Casos Confirmados'}, inplace=True)
         aux.to_csv(producto + filename, index=False)
 
-
 def prod15(fte, prod):
     data_2020 = []
     data_2021_1st = []
@@ -112,6 +111,7 @@ def prod15(fte, prod):
         print(file)
         if file != fte + 'FechaInicioSintomas.csv':
             date = re.search("\d{4}-\d{2}-\d{2}", file).group(0)
+
             if '2020' in date:
                 df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object, 'Codigo comuna': object})
                 df.dropna(how='all', inplace=True)
@@ -145,8 +145,7 @@ def prod15(fte, prod):
                     df.insert(loc=5, column='Publicacion', value=date)
                     data_2021_1st.append(df)
                 else:
-                    df = pd.read_csv(file, sep=",", encoding="utf-8",
-                                     dtype={'Codigo region': object, 'Codigo comuna': object})
+                    df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object, 'Codigo comuna': object})
                     df.dropna(how='all', inplace=True)
                     # Drop filas de totales por region
                     todrop = df.loc[df['Comuna'] == 'Total']
@@ -193,7 +192,6 @@ def prod15(fte, prod):
                     # df['Publicacion'] = date
                     df.insert(loc=5, column='Publicacion', value=date)
                     data_2022_2nd.append(df)
-
 
             if '2023' in date:
                 if datetime.strptime(date,"%Y-%m-%d") <= datetime.strptime('2023-07-25',"%Y-%m-%d"):
