@@ -325,9 +325,9 @@ def prod15(fte, prod):
              '../output/producto15/SemanasEpidemiologicas.csv')
 ######################cambie 2022 por 2023###############################
     
-    latest = max(data_2023_1nd['Publicacion'])
+    latest = max(data_2023_1st['Publicacion'])
     print(latest)
-    latestdf = data_2023_1nd.loc[data_2023_1nd['Publicacion'] == latest]
+    latestdf = data_2023_1st.loc[data_2023_1st['Publicacion'] == latest]
     # print(latestdf)
     latestdf.drop(['Publicacion'], axis=1, inplace=True)
     latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)
