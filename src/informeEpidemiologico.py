@@ -317,7 +317,6 @@ def prod15(fte, prod):
     df_std.iloc[:1500000].to_csv(prod + '_2023_2nd_a_std.csv', index=False)
     df_std.iloc[1500000:].to_csv(prod + '_2023_2nd_b_std.csv', index=False)
 
-
     # create old prod 15 from latest adition
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto15/SemanasEpidemiologicas.csv')
@@ -762,7 +761,7 @@ if __name__ == '__main__':
 
     print('Generando producto 15')
     prod15('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
-
+#
     print('Generando producto 16')
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
     prod16_etapa_clinica('../input/InformeEpidemiologico/CasosGeneroEtarioEtapaClinica.csv', '../output/producto16/CasosGeneroEtarioEtapaClinica')
