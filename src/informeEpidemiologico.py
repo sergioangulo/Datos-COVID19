@@ -297,7 +297,7 @@ def prod15(fte, prod):
     data_2023_1st.to_csv(prod + '_2023_1st.csv', index=False)
     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
     variables = [x for x in data_2023_1st.columns if x not in identifiers]
-    df_std = pd.melt(data_2022_1st, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    df_std = pd.melt(data_2023_1st, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
                      value_name='Casos confirmados')
     #df_std.to_csv(prod + '_2023_1st_std.csv', index=False)
     df_std.iloc[:1500000].to_csv(prod + '_2023_1st_a_std.csv', index=False)
