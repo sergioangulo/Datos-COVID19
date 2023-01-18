@@ -87,6 +87,10 @@ def prod2(fte, producto):
             dates.append(eachColumn)
         if '2021' in eachColumn:
             dates.append(eachColumn)
+        if '2022' in eachColumn:
+            dates.append(eachColumn)
+        if '2023' in eachColumn:
+            dates.append(eachColumn)
     # print('las fechas son ' + str(dates))
     for eachdate in dates:
         filename = eachdate + '-CasosConfirmados.csv'
@@ -102,6 +106,8 @@ def prod15(fte, prod):
     data_2021_2nd = []
     data_2022_1st = []
     data_2022_2nd = []
+    data_2023_1st = []
+    data_2023_2nd = []
     for file in glob.glob(fte + '/*FechaInicioSintomas.csv'):
         print(file)
         if file != fte + 'FechaInicioSintomas.csv':
@@ -188,6 +194,40 @@ def prod15(fte, prod):
                     df.insert(loc=5, column='Publicacion', value=date)
                     data_2022_2nd.append(df)
 
+
+            if '2023' in date:
+                if datetime.strptime(date,"%Y-%m-%d") <= datetime.strptime('2023-07-25',"%Y-%m-%d"):
+                    df = pd.read_csv(file, sep=",", encoding="utf-8", dtype={'Codigo region': object, 'Codigo comuna': object})
+                    df.dropna(how='all', inplace=True)
+                    # Drop filas de totales por region
+                    todrop = df.loc[df['Comuna'] == 'Total']
+                    df.drop(todrop.index, inplace=True)
+                    # Hay semanas epi que se llam S en vez de SE
+                    for eachColumn in list(df):
+                        if re.search("S\d{2}", eachColumn):
+                            print("Bad name " + eachColumn)
+                            df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
+                    # insert publicacion as column 5
+                    # df['Publicacion'] = date
+                    df.insert(loc=5, column='Publicacion', value=date)
+                    data_2023_1st.append(df)
+                else:
+                    df = pd.read_csv(file, sep=",", encoding="utf-8",
+                                     dtype={'Codigo region': object, 'Codigo comuna': object})
+                    df.dropna(how='all', inplace=True)
+                    # Drop filas de totales por region
+                    todrop = df.loc[df['Comuna'] == 'Total']
+                    df.drop(todrop.index, inplace=True)
+                    # Hay semanas epi que se llam S en vez de SE
+                    for eachColumn in list(df):
+                        if re.search("S\d{2}", eachColumn):
+                            print("Bad name " + eachColumn)
+                            df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
+                    # insert publicacion as column 5
+                    # df['Publicacion'] = date
+                    df.insert(loc=5, column='Publicacion', value=date)
+                    data_2023_2nd.append(df)
+
     # normalization 2020
     #data_2020 = pd.concat(data_2020)
     #data_2020 = data_2020.fillna(0)
@@ -240,7 +280,7 @@ def prod15(fte, prod):
     # normalization 2022 segunda mitad
     data_2022_2nd = pd.concat(data_2022_2nd)
     data_2022_2nd = data_2022_2nd.fillna(0)
-    utils.regionName(data_2022_2nd)
+    utils.regionName(data_2022_2nd)7
     data_2022_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
     data_2022_2nd.to_csv(prod + '_2022_2nd.csv', index=False)
     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
@@ -251,13 +291,43 @@ def prod15(fte, prod):
     df_std.iloc[:1500000].to_csv(prod + '_2022_2nd_a_std.csv', index=False)
     df_std.iloc[1500000:].to_csv(prod + '_2022_2nd_b_std.csv', index=False)
 
+    # normalization 2023 primera mitad
+    data_2023_1st = pd.concat(data_2023_1st)
+    data_2023_1st = data_2023_1st.fillna(0)
+    utils.regionName(data_2023_1st)
+    data_2023_1st.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2023_1st.to_csv(prod + '_2023_1st.csv', index=False)
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    variables = [x for x in data_2023_1st.columns if x not in identifiers]
+    df_std = pd.melt(data_2022_1st, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+                     value_name='Casos confirmados')
+    #df_std.to_csv(prod + '_2023_1st_std.csv', index=False)
+    df_std.iloc[:1500000].to_csv(prod + '_2023_1st_a_std.csv', index=False)
+    df_std.iloc[1500000:].to_csv(prod + '_2023_1st_b_std.csv', index=False)
+
+    # normalization 2023 segunda mitad
+    data_2023_2nd = pd.concat(data_2023_2nd)
+    data_2023_2nd = data_2023_2nd.fillna(0)
+    utils.regionName(data_2023_2nd)7
+    data_2023_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2023_2nd.to_csv(prod + '_2023_2nd.csv', index=False)
+    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    variables = [x for x in data_2023_2nd.columns if x not in identifiers]
+    df_std = pd.melt(data_2023_2nd, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+                  value_name='Casos confirmados')
+    # df_std.to_csv(prod + '_2023_2nd_std.csv', index=False)
+    df_std.iloc[:1500000].to_csv(prod + '_2023_2nd_a_std.csv', index=False)
+    df_std.iloc[1500000:].to_csv(prod + '_2023_2nd_b_std.csv', index=False)
+
+
     # create old prod 15 from latest adition
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto15/SemanasEpidemiologicas.csv')
-
-    latest = max(data_2022_2nd['Publicacion'])
+######################cambie 2022 por 2023###############################
+    
+    latest = max(data_2023_1nd['Publicacion'])
     print(latest)
-    latestdf = data_2022_2nd.loc[data_2022_2nd['Publicacion'] == latest]
+    latestdf = data_2023_1nd.loc[data_2023_1nd['Publicacion'] == latest]
     # print(latestdf)
     latestdf.drop(['Publicacion'], axis=1, inplace=True)
     latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)
@@ -270,7 +340,7 @@ def prod15(fte, prod):
     df_std = pd.melt(latestdf, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
                      value_name='Casos confirmados')
     df_std.to_csv(prod.replace('Historico', '_std.csv'), index=False)
-
+#################################################################################
 
 def prod16(fte, producto):
     print('Generando producto 16')
@@ -476,6 +546,8 @@ def prod39(fte, producto):
 def prod45(fte, fte2, prod):
     data_2020 = []
     data_2021 = []
+    data_2022 = []
+    data_2023 = []
     for file in glob.glob(fte + '/*Casos' + fte2 + 'PorComuna.csv'):
         print(file)
         if file != fte + 'Casos' + fte2 + 'PorComuna.csv':
@@ -495,7 +567,7 @@ def prod45(fte, fte2, prod):
                 # df['Publicacion'] = date
                 df.insert(loc=5, column='Publicacion', value=date)
                 data_2020.append(df)
-            else:
+            if '2021' in date:
                 df = pd.read_csv(file, sep=",", encoding="utf-8",
                                  dtype={'Codigo region': object, 'Codigo comuna': object})
                 df.dropna(how='all', inplace=True)
@@ -511,6 +583,40 @@ def prod45(fte, fte2, prod):
                 # df['Publicacion'] = date
                 df.insert(loc=5, column='Publicacion', value=date)
                 data_2021.append(df)
+                
+            if '2022' in date:
+                df = pd.read_csv(file, sep=",", encoding="utf-8",
+                                 dtype={'Codigo region': object, 'Codigo comuna': object})
+                df.dropna(how='all', inplace=True)
+                # Drop filas de totales por region
+                todrop = df.loc[df['Comuna'] == 'Total']
+                df.drop(todrop.index, inplace=True)
+                # Hay semanas epi que se llam S en vez de SE
+                for eachColumn in list(df):
+                    if re.search("S\d{2}", eachColumn):
+                        print("Bad name " + eachColumn)
+                        df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
+                # insert publicacion as column 5
+                # df['Publicacion'] = date
+                df.insert(loc=5, column='Publicacion', value=date)
+                data_2022.append(df)
+
+            if '2023' in date:
+                df = pd.read_csv(file, sep=",", encoding="utf-8",
+                                 dtype={'Codigo region': object, 'Codigo comuna': object})
+                df.dropna(how='all', inplace=True)
+                # Drop filas de totales por region
+                todrop = df.loc[df['Comuna'] == 'Total']
+                df.drop(todrop.index, inplace=True)
+                # Hay semanas epi que se llam S en vez de SE
+                for eachColumn in list(df):
+                    if re.search("S\d{2}", eachColumn):
+                        print("Bad name " + eachColumn)
+                        df.rename(columns={eachColumn: eachColumn.replace('S', 'SE')}, inplace=True)
+                # insert publicacion as column 5
+                # df['Publicacion'] = date
+                df.insert(loc=5, column='Publicacion', value=date)
+                data_2023.append(df)
                 
     name = fte2.lower()
 
@@ -541,19 +647,34 @@ def prod45(fte, fte2, prod):
     #                  value_name='Casos ' + name)
     # df_std.to_csv(prod + '_2021_std.csv', index=False)
 
+    # normalization 2022
+    data_2022 = pd.concat(data_2022)
+    data_2022 = data_2022.fillna(0)
+    utils.regionName(data_2022)
+    data_2022.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2022.to_csv(prod + '_2022.csv', index=False)
+
+    # normalization 2023
+    data_2023 = pd.concat(data_2023)
+    data_2023 = data_2023.fillna(0)
+    utils.regionName(data_2023)
+    data_2023.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    data_2023.to_csv(prod + '_2023.csv', index=False)
+    
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
              '../output/producto45/SemanasEpidemiologicas.csv')
-
+########################cambie de 2021 a 2023################################
     # create old prod 45 from latest adition
-    latest = max(data_2021['Publicacion'])
+    latest = max(data_2023['Publicacion'])
     print(latest)
-    latestdf = data_2021.loc[data_2021['Publicacion'] == latest]
+    latestdf = data_2023.loc[data_2023['Publicacion'] == latest]
     # print(latestdf)
     latestdf.drop(['Publicacion'], axis=1, inplace=True)
     latestdf.to_csv(prod.replace('Historico', '.csv'), index=False)
 
     df_t = latestdf.T
     df_t.to_csv(prod.replace('Historico', '_T.csv'), header=False)
+#############################################################################
 
     # identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion']
     # variables = [x for x in latestdf.columns if x not in identifiers]
@@ -632,8 +753,10 @@ def prod61(fte, prod):
 
 
 if __name__ == '__main__':
+    print('Generando producto 1')
     prod1('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto1/Covid-19')
 
+    print('Generando producto 2')
     prod2('../input/InformeEpidemiologico/CasosAcumuladosPorComuna.csv', '../output/producto2/')
 
 #    print('Generando producto 6')
@@ -642,8 +765,8 @@ if __name__ == '__main__':
     print('Generando producto 15')
     prod15('../input/InformeEpidemiologico/', '../output/producto15/FechaInicioSintomasHistorico')
 
+    print('Generando producto 16')
     prod16('../input/InformeEpidemiologico/CasosGeneroEtario.csv', '../output/producto16/CasosGeneroEtario')
-
     prod16_etapa_clinica('../input/InformeEpidemiologico/CasosGeneroEtarioEtapaClinica.csv', '../output/producto16/CasosGeneroEtarioEtapaClinica')
 
     print('Generando producto 18')
@@ -690,14 +813,21 @@ if __name__ == '__main__':
            '../output/producto45/CasosNoNotificadosPorComunaHistorico')
     prod45('../input/InformeEpidemiologico/', 'Probables', '../output/producto45/CasosProbablesPorComunaHistorico')
 
+    print('Generando producto 57')
     prod57('../input/InformeEpidemiologico/fallecidos_hospitalizados.csv', '../output/producto57/fallecidos_hospitalizados')
 
-    prod59_60_62('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
-
+    print('Generando producto 59')
     prod59_60_62('../input/InformeEpidemiologico/etapa_clinica_por_fecha_notificacion.csv',
               '../output/producto59/etapa_clinica_por_fecha_notificacion')
+              
+    print('Generando producto 60')
     prod59_60_62('../input/InformeEpidemiologico/etapa_clinica_por_fis.csv',
               '../output/producto60/etapa_clinica_por_fis')
+              
+    print('Generando producto 61')
     prod61('../input/InformeEpidemiologico/serie_fallecidos_comuna.csv',
               '../output/producto61/serie_fallecidos_comuna')
+    
+    print('Generando producto 62')
+    prod59_60_62('../input/InformeEpidemiologico/casos_nuevos_acumulados_por_fecha.csv', '../output/producto62/casos_nuevos_acumulados_por_fecha')
 
