@@ -304,18 +304,18 @@ def prod15(fte, prod):
     df_std.iloc[1500000:].to_csv(prod + '_2023_1st_b_std.csv', index=False)
 
     # normalization 2023 segunda mitad
-    data_2023_2nd = pd.concat(data_2023_2nd)
-    data_2023_2nd = data_2023_2nd.fillna(0)
-    utils.regionName(data_2023_2nd)
-    data_2023_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
-    data_2023_2nd.to_csv(prod + '_2023_2nd.csv', index=False)
-    identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
-    variables = [x for x in data_2023_2nd.columns if x not in identifiers]
-    df_std = pd.melt(data_2023_2nd, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
-                  value_name='Casos confirmados')
+    #data_2023_2nd = pd.concat(data_2023_2nd)
+    #data_2023_2nd = data_2023_2nd.fillna(0)
+    #utils.regionName(data_2023_2nd)
+    #data_2023_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
+    #data_2023_2nd.to_csv(prod + '_2023_2nd.csv', index=False)
+    #identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
+    #variables = [x for x in data_2023_2nd.columns if x not in identifiers]
+    #df_std = pd.melt(data_2023_2nd, id_vars=identifiers, value_vars=variables, var_name='Semana Epidemiologica',
+    #              value_name='Casos confirmados')
     # df_std.to_csv(prod + '_2023_2nd_std.csv', index=False)
-    df_std.iloc[:1500000].to_csv(prod + '_2023_2nd_a_std.csv', index=False)
-    df_std.iloc[1500000:].to_csv(prod + '_2023_2nd_b_std.csv', index=False)
+    #df_std.iloc[:1500000].to_csv(prod + '_2023_2nd_a_std.csv', index=False)
+    #df_std.iloc[1500000:].to_csv(prod + '_2023_2nd_b_std.csv', index=False)
 
     # create old prod 15 from latest adition
     copyfile('../input/InformeEpidemiologico/SemanasEpidemiologicas.csv',
