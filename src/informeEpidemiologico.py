@@ -280,7 +280,7 @@ def prod15(fte, prod):
     # normalization 2022 segunda mitad
     data_2022_2nd = pd.concat(data_2022_2nd)
     data_2022_2nd = data_2022_2nd.fillna(0)
-    utils.regionName(data_2022_2nd)7
+    utils.regionName(data_2022_2nd)
     data_2022_2nd.sort_values(['Publicacion', 'Region'], ascending=[True, True], inplace=True)
     data_2022_2nd.to_csv(prod + '_2022_2nd.csv', index=False)
     identifiers = ['Region', 'Codigo region', 'Comuna', 'Codigo comuna', 'Poblacion', 'Publicacion']
