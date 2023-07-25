@@ -3,6 +3,8 @@ El objetivo de la Mesa de Datos COVID-19 liderada por el Ministerio de Ciencia, 
 
 Ver https://minciencia.gob.cl/covid19/ para más información, incluyendo actas de las reuniones de la mesa y también los informes publicados a la fecha.
 
+Los productos que refieren especificamente a datos COVID-19 contenidos en este repositorio, se basan en el procesamiento de los informes entregados por el MINSAL. Cualquier consulta o requerimiento de desagregación, o métrica adicional no presente en los siguientes productos, debe ser referida a esa cartera. 
+
 # Data Products
 
 [Data Product 1 - Casos totales por comuna incremental](output/producto1): Archivo con valores separados por coma (csv) que concatena historia de publicaciones de MINSAL sobre casos confirmados totales por comuna. Contiene las columnas 'Región', ‘Código Región’, 'Comuna', ‘Código comuna’, 'Población', múltiples columnas correspondientes a '[fecha]', y una columna 'Tasa'. Incluye versión con serie de tiempo. [Ver más](output/producto1).
